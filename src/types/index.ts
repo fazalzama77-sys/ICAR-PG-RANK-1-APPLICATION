@@ -105,3 +105,67 @@ export interface TestResult {
     scoreAwarded: number;
   }[];
 }
+
+// Spaced Repetition (SRS) Engine Types
+export type SRSRating = 'again' | 'hard' | 'good' | 'easy';
+export type SRSStatus = 'new' | 'learning' | 'review' | 'mastered';
+
+export interface SRSRecord {
+  questionId: string;
+  intervalDays: number;
+  repetition: number;
+  easeFactor: number;
+  dueDate: number; // timestamp in ms
+  lastReviewed: number; // timestamp in ms
+  status: SRSStatus;
+  timesCorrect: number;
+  timesIncorrect: number;
+}
+
+export interface SRSMetrics {
+  dueToday: number;
+  learning: number;
+  review: number;
+  mastered: number;
+  totalEnrolled: number;
+}
+
+// Drill Test Types
+export type DrillPreset =
+  | 'lightning_10'
+  | 'standard_20'
+  | 'deep_30'
+  | 'weak_blitz'
+  | 'clinical_blitz'
+  | 'animal_blitz'
+  | 'custom';
+
+export type DrillFeedbackMode = 'instant' | 'exam';
+
+export interface DrillConfig {
+  preset: DrillPreset;
+  title: string;
+  totalQuestions: number;
+  durationMinutes: number;
+  feedbackMode: DrillFeedbackMode;
+  selectedSubjectIds?: string[];
+}
+
+// Daily Goal & Streak Tracking
+export interface DailyProgress {
+  date: string;
+  questionsSolvedToday: number;
+  dailyTarget: number;
+  streakDays: number;
+  lastActiveDate: string;
+}
+
+export type NavigationTab = 
+  | 'dashboard' 
+  | 'cbt_config' 
+  | 'drill_test' 
+  | 'spaced_repetition' 
+  | 'question_bank' 
+  | 'analytics' 
+  | 'summary';
+

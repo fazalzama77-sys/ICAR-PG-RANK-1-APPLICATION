@@ -130,8 +130,22 @@ export const BulkImportExport: React.FC<BulkImportExportProps> = ({
           </p>
         </div>
 
-        {/* Action Buttons */}
-        <div className="flex flex-wrap items-center gap-2">
+          {/* Load 120 Questions Per Subject (All 9 Subjects) */}
+          <button
+            onClick={() => {
+              const res = StorageService.loadAll1080Questions();
+              setFeedback({
+                type: 'success',
+                message: `Loaded all ${res.count} high-yield MCQs! Exactly 120 questions across all 9 subjects are now ready.`
+              });
+              onQuestionsImported();
+            }}
+            className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg border border-amber-500 bg-amber-500 hover:bg-amber-600 text-slate-900 font-extrabold text-xs shadow-xs transition-colors cursor-pointer"
+            title="Populates the Question Bank with 120 most important questions per subject across all 9 subjects (1,080 questions total)"
+          >
+            <span>⚡ Load 120 Qs Per Subject (1,080 Qs)</span>
+          </button>
+
           {/* Download JSON Template */}
           <button
             onClick={handleDownloadTemplate}
@@ -167,18 +181,6 @@ export const BulkImportExport: React.FC<BulkImportExportProps> = ({
               <span>Export All ({currentQuestionCount})</span>
             </button>
           )}
-
-          {/* Load Sample Starter Pack */}
-          {currentQuestionCount === 0 && (
-            <button
-              onClick={handleLoadSampleStarterPack}
-              className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg border border-indigo-200 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold transition-colors"
-              title="Loads 4 sample questions across 1st & 2nd year subjects to test the CBT engine immediately"
-            >
-              <span>Load 4 Sample Questions</span>
-            </button>
-          )}
-        </div>
       </div>
 
       {/* Feedback Banner */}

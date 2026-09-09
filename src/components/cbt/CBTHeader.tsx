@@ -1,5 +1,5 @@
 import React from 'react';
-import { Clock, Maximize2, Minimize2, User, WifiOff, ShieldCheck } from 'lucide-react';
+import { Clock, Maximize2, Minimize2, User, ShieldCheck } from 'lucide-react';
 import { UserProfile } from '../../storage/db';
 import { Domain } from '../../types';
 import { usePwa } from '../../hooks/usePwa';

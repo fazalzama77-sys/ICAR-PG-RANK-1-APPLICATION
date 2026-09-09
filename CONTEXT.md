@@ -91,20 +91,28 @@ The platform focuses on 1st and 2nd professional year subjects, divided into the
 
 ---
 
-## 5. Question Bank Management (Zero Unsolicited MCQs)
+## 5. Question Bank: 1,080 High-Yield MCQs (120 per Subject)
 
-As requested, the question bank starts **completely empty**, ready for you to input your own verified questions:
-- **Manual Question Entry**:
-  - Open `Question Bank` -> Click `Add Single MCQ`.
-  - Pick Domain, Year, Subject, Topic, Difficulty level.
-  - Enter Question Text and 4 Options (A, B, C, D).
-  - Select the correct option and add a comprehensive **High-Yield Explanation / Reference** note.
-- **Bulk JSON Import / Export**:
-  - Click `Download JSON Template` to get the exact schema.
-  - Populate questions in a text editor or spreadsheet and import with one click via `Import Questions (.json)`.
-  - Click `Export All` anytime to download an offline backup of your question bank.
-- **Quick Test Starter Pack**:
-  - A `Load 4 Sample Questions` button is available when the bank is empty to allow immediate testing of the CBT engine.
+The platform comes pre-loaded with **exactly 120 of the most important, textbook-verified MCQs for each of the 9 subjects (1,080 questions total)**:
+
+| Subject Code | Subject Name | Academic Year | Domain | Questions Loaded |
+| :--- | :--- | :--- | :--- | :---: |
+| **VAN** | Veterinary Anatomy | 1st Professional Year | Veterinary Science | **120** |
+| **VPY** | Veterinary Physiology | 1st Professional Year | Veterinary Science | **120** |
+| **VBC** | Veterinary Biochemistry | 1st Professional Year | Veterinary Science | **120** |
+| **LPM** | Livestock Production Management | 1st Professional Year | Animal Science | **120** |
+| **VPP** | Veterinary Pathology | 2nd Professional Year | Veterinary Science | **120** |
+| **VMC** | Veterinary Microbiology | 2nd Professional Year | Veterinary Science | **120** |
+| **VPA** | Veterinary Parasitology | 2nd Professional Year | Veterinary Science | **120** |
+| **AGB** | Animal Genetics & Breeding | 2nd Professional Year | Animal Science | **120** |
+| **ANN** | Animal Nutrition | 2nd Professional Year | Animal Science | **120** |
+| **TOTAL**| **All 9 Core Subjects** | **1st & 2nd Professional Years** | **Both Domains** | **1,080 MCQs** |
+
+### Question Bank Management & Operations:
+- **Instant Auto-Seeding**: Upon opening the platform, the question bank automatically populates with all 1,080 high-yield questions.
+- **One-Click Master Pack Button**: If you ever clear the bank or want to refresh the questions, click **`⚡ Load 120 Qs Per Subject (1,080 Qs)`** in the Question Bank tab.
+- **Export & Backup**: Click **`Export All (1080)`** to download the complete database as a single portable JSON file.
+- **Subject-Wise Tests**: You can click the play button next to any subject on the Dashboard to practice a focused test on that subject alone, or take a full 120-question randomized mock test.
 
 ---
 

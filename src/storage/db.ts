@@ -1,9 +1,12 @@
-import { Question, TestResult } from '../types';
+import { Question, TestResult, SRSRecord, SRSRating, SRSMetrics, DailyProgress } from '../types';
+import { ALL_HIGH_YIELD_QUESTIONS } from '../data/questionPacks/allQuestions';
 
 const STORAGE_KEYS = {
   QUESTIONS: 'icar_pg_questions_v1',
   RESULTS: 'icar_pg_results_v1',
-  USER_PROFILE: 'icar_pg_user_profile_v1'
+  USER_PROFILE: 'icar_pg_user_profile_v1',
+  SRS_RECORDS: 'icar_pg_srs_records_v1',
+  DAILY_PROGRESS: 'icar_pg_daily_progress_v1'
 };
 
 export interface UserProfile {
@@ -27,13 +30,28 @@ export const StorageService = {
   getQuestions(): Question[] {
     try {
       const data = localStorage.getItem(STORAGE_KEYS.QUESTIONS);
-      if (!data) return [];
-      return JSON.parse(data) as Question[];
+      if (!data) {
+        // Auto-seed with all 1,080 high-yield questions across all 9 subjects
+        localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+        return ALL_HIGH_YIELD_QUESTIONS;
+      }
+      const parsed = JSON.parse(data) as Question[];
+      if (parsed.length === 0) {
+        localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+        return ALL_HIGH_YIELD_QUESTIONS;
+      }
+      return parsed;
     } catch (e) {
       console.error('Failed to load questions from localStorage', e);
-      return [];
+      return ALL_HIGH_YIELD_QUESTIONS;
     }
   },
+
+  loadAll1080Questions(): { count: number } {
+    localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+    return { count: ALL_HIGH_YIELD_QUESTIONS.length };
+  },
+
 
   saveQuestions(questions: Question[]): void {
     try {
@@ -103,6 +121,18 @@ export const StorageService = {
       const results = this.getTestResults();
       const updated = [result, ...results];
       localStorage.setItem(STORAGE_KEYS.RESULTS, JSON.stringify(updated));
+
+      // Record daily progress
+      this.recordQuestionsAttempted(result.attemptedCount);
+
+      // Auto-enroll incorrect questions into Spaced Repetition queue
+      const missedIds = result.questionRecords
+        .filter(r => !r.isCorrect && r.response.selectedOptionIndex !== null)
+        .map(r => r.question.id);
+      
+      if (missedIds.length > 0) {
+        this.autoEnrollMissedQuestions(missedIds);
+      }
     } catch (e) {
       console.error('Failed to save test result', e);
     }
@@ -120,7 +150,7 @@ export const StorageService = {
       const data = localStorage.getItem(STORAGE_KEYS.USER_PROFILE);
       if (!data) return DEFAULT_USER_PROFILE;
       return JSON.parse(data) as UserProfile;
-    } catch (e) {
+    } catch {
       return DEFAULT_USER_PROFILE;
     }
   },
@@ -132,6 +162,314 @@ export const StorageService = {
       console.error('Failed to save profile', e);
     }
   },
+
+  // ==========================================
+  // SPACED REPETITION SYSTEM (SRS) - SM-2
+  // ==========================================
+  getSRSRecords(): Record<string, SRSRecord> {
+    try {
+      const data = localStorage.getItem(STORAGE_KEYS.SRS_RECORDS);
+      if (!data) return {};
+      return JSON.parse(data) as Record<string, SRSRecord>;
+    } catch (e) {
+      console.error('Failed to load SRS records', e);
+      return {};
+    }
+  },
+
+  saveSRSRecord(record: SRSRecord): void {
+    try {
+      const records = this.getSRSRecords();
+      records[record.questionId] = record;
+      localStorage.setItem(STORAGE_KEYS.SRS_RECORDS, JSON.stringify(records));
+    } catch (e) {
+      console.error('Failed to save SRS record', e);
+    }
+  },
+
+  recordSRSReview(questionId: string, rating: SRSRating): SRSRecord {
+    const records = this.getSRSRecords();
+    const existing = records[questionId] || {
+      questionId,
+      intervalDays: 0,
+      repetition: 0,
+      easeFactor: 2.5,
+      dueDate: Date.now(),
+      lastReviewed: Date.now(),
+      status: 'new' as const,
+      timesCorrect: 0,
+      timesIncorrect: 0
+    };
+
+    let intervalDays = existing.intervalDays;
+    let repetition = existing.repetition;
+    let easeFactor = existing.easeFactor;
+    let status = existing.status;
+    let timesCorrect = existing.timesCorrect;
+    let timesIncorrect = existing.timesIncorrect;
+
+    const DAY_MS = 24 * 60 * 60 * 1000;
+
+    switch (rating) {
+      case 'again': {
+        repetition = 0;
+        intervalDays = 1;
+        easeFactor = Math.max(1.3, easeFactor - 0.2);
+        status = 'learning';
+        timesIncorrect += 1;
+        break;
+      }
+      case 'hard': {
+        intervalDays = Math.max(1, Math.round((intervalDays || 1) * 1.2));
+        easeFactor = Math.max(1.3, easeFactor - 0.15);
+        status = 'learning';
+        repetition += 1;
+        timesCorrect += 1;
+        break;
+      }
+      case 'good': {
+        if (repetition === 0) {
+          intervalDays = 1;
+        } else if (repetition === 1) {
+          intervalDays = 3;
+        } else {
+          intervalDays = Math.round(intervalDays * easeFactor);
+        }
+        repetition += 1;
+        status = repetition >= 3 ? 'mastered' : 'review';
+        timesCorrect += 1;
+        break;
+      }
+      case 'easy': {
+        if (repetition === 0) {
+          intervalDays = 3;
+        } else if (repetition === 1) {
+          intervalDays = 6;
+        } else {
+          intervalDays = Math.round(intervalDays * easeFactor * 1.3);
+        }
+        easeFactor = Math.min(3.0, easeFactor + 0.15);
+        repetition += 1;
+        status = repetition >= 2 ? 'mastered' : 'review';
+        timesCorrect += 1;
+        break;
+      }
+    }
+
+    const updated: SRSRecord = {
+      questionId,
+      intervalDays,
+      repetition,
+      easeFactor,
+      dueDate: Date.now() + intervalDays * DAY_MS,
+      lastReviewed: Date.now(),
+      status,
+      timesCorrect,
+      timesIncorrect
+    };
+
+    this.saveSRSRecord(updated);
+    this.recordQuestionsAttempted(1);
+    return updated;
+  },
+
+  autoEnrollMissedQuestions(questionIds: string[]): void {
+    const records = this.getSRSRecords();
+    let updated = false;
+
+    questionIds.forEach(qId => {
+      const existing = records[qId];
+      if (!existing) {
+        records[qId] = {
+          questionId: qId,
+          intervalDays: 0,
+          repetition: 0,
+          easeFactor: 2.3,
+          dueDate: Date.now(),
+          lastReviewed: Date.now(),
+          status: 'learning',
+          timesCorrect: 0,
+          timesIncorrect: 1
+        };
+        updated = true;
+      } else {
+        records[qId] = {
+          ...existing,
+          dueDate: Date.now(),
+          status: 'learning',
+          timesIncorrect: existing.timesIncorrect + 1
+        };
+        updated = true;
+      }
+    });
+
+    if (updated) {
+      try {
+        localStorage.setItem(STORAGE_KEYS.SRS_RECORDS, JSON.stringify(records));
+      } catch (e) {
+        console.error('Failed to save auto-enrolled SRS records', e);
+      }
+    }
+  },
+
+  getSRSMetrics(questions: Question[]): SRSMetrics {
+    const records = this.getSRSRecords();
+    const now = Date.now();
+    const qIds = new Set(questions.map(q => q.id));
+
+    let dueToday = 0;
+    let learning = 0;
+    let review = 0;
+    let mastered = 0;
+    let totalEnrolled = 0;
+
+    Object.values(records).forEach(rec => {
+      if (!qIds.has(rec.questionId)) return;
+      totalEnrolled += 1;
+
+      if (rec.status === 'mastered') {
+        mastered += 1;
+      } else if (rec.status === 'review') {
+        review += 1;
+      } else {
+        learning += 1;
+      }
+
+      if (rec.dueDate <= now + 4 * 60 * 60 * 1000) {
+        dueToday += 1;
+      }
+    });
+
+    return {
+      dueToday,
+      learning,
+      review,
+      mastered,
+      totalEnrolled
+    };
+  },
+
+  getDueQuestions(questions: Question[]): {
+    due: Question[];
+    learning: Question[];
+    review: Question[];
+    mastered: Question[];
+    unreviewed: Question[];
+  } {
+    const records = this.getSRSRecords();
+    const now = Date.now();
+
+    const due: Question[] = [];
+    const learning: Question[] = [];
+    const review: Question[] = [];
+    const mastered: Question[] = [];
+    const unreviewed: Question[] = [];
+
+    questions.forEach(q => {
+      const rec = records[q.id];
+      if (!rec) {
+        unreviewed.push(q);
+      } else {
+        if (rec.status === 'mastered') {
+          mastered.push(q);
+        } else if (rec.status === 'review') {
+          review.push(q);
+        } else {
+          learning.push(q);
+        }
+
+        if (rec.dueDate <= now + 4 * 60 * 60 * 1000) {
+          due.push(q);
+        }
+      }
+    });
+
+    return { due, learning, review, mastered, unreviewed };
+  },
+
+  // ==========================================
+  // DAILY GOAL & STREAK TRACKING
+  // ==========================================
+  getDailyProgress(): DailyProgress {
+    const today = new Date().toISOString().slice(0, 10);
+    try {
+      const data = localStorage.getItem(STORAGE_KEYS.DAILY_PROGRESS);
+      if (!data) {
+        return {
+          date: today,
+          questionsSolvedToday: 0,
+          dailyTarget: 30,
+          streakDays: 1,
+          lastActiveDate: today
+        };
+      }
+
+      const parsed = JSON.parse(data) as DailyProgress;
+      if (parsed.date !== today) {
+        const lastDate = new Date(parsed.lastActiveDate);
+        const currentDate = new Date(today);
+        const diffDays = Math.round((currentDate.getTime() - lastDate.getTime()) / (1000 * 3600 * 24));
+
+        let newStreak = parsed.streakDays;
+        if (diffDays === 1) {
+          // Studied yesterday, continue streak
+        } else if (diffDays > 1) {
+          newStreak = 1;
+        }
+
+        const fresh: DailyProgress = {
+          date: today,
+          questionsSolvedToday: 0,
+          dailyTarget: parsed.dailyTarget || 30,
+          streakDays: newStreak,
+          lastActiveDate: parsed.lastActiveDate
+        };
+        localStorage.setItem(STORAGE_KEYS.DAILY_PROGRESS, JSON.stringify(fresh));
+        return fresh;
+      }
+
+      return parsed;
+    } catch {
+      return {
+        date: today,
+        questionsSolvedToday: 0,
+        dailyTarget: 30,
+        streakDays: 1,
+        lastActiveDate: today
+      };
+    }
+  },
+
+  recordQuestionsAttempted(count: number): DailyProgress {
+    const progress = this.getDailyProgress();
+    const today = new Date().toISOString().slice(0, 10);
+    
+    const updated: DailyProgress = {
+      ...progress,
+      date: today,
+      questionsSolvedToday: progress.questionsSolvedToday + count,
+      lastActiveDate: today
+    };
+
+    try {
+      localStorage.setItem(STORAGE_KEYS.DAILY_PROGRESS, JSON.stringify(updated));
+    } catch (e) {
+      console.error('Failed to save daily progress', e);
+    }
+
+    return updated;
+  },
+
+  setDailyTarget(target: number): void {
+    const progress = this.getDailyProgress();
+    const updated = { ...progress, dailyTarget: Math.max(5, target) };
+    try {
+      localStorage.setItem(STORAGE_KEYS.DAILY_PROGRESS, JSON.stringify(updated));
+    } catch (e) {
+      console.error('Failed to update daily target', e);
+    }
+  },
+
 
   // Export questions to JSON
   exportQuestionsJSON(): string {
