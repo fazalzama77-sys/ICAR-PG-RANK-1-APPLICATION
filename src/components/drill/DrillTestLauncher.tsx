@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { 
   Zap, 
-  Flame, 
   Clock, 
   Sliders, 
   CheckCircle2, 
@@ -9,7 +8,6 @@ import {
   ArrowLeft,
   AlertTriangle,
   Sparkles,
-  BookOpen,
   Layers
 } from 'lucide-react';
 import { Question, DrillConfig, DrillPreset, DrillFeedbackMode, TestConfig } from '../../types';

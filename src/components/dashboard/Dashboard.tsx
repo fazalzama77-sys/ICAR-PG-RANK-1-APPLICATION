@@ -1,24 +1,18 @@
 import React, { useState } from 'react';
 import { 
-  Award, 
   Target, 
   BookOpen, 
-  Clock, 
   ChevronRight, 
   Play, 
-  Sparkles, 
   Layers, 
   ShieldCheck, 
   TrendingUp,
   Brain,
   Zap,
   Flame,
-  AlertTriangle,
-  CheckCircle2,
-  Filter,
-  BarChart3
+  AlertTriangle
 } from 'lucide-react';
-import { Question, TestResult, DrillPreset, Domain } from '../../types';
+import { Question, TestResult, DrillPreset } from '../../types';
 import { SUBJECT_LIST } from '../../data/subjects';
 import { UserProfile, StorageService } from '../../storage/db';
 

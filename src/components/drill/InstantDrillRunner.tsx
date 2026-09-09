@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import confetti from 'canvas-confetti';
 import { 
   Zap, 
@@ -6,11 +6,8 @@ import {
   CheckCircle2, 
   XCircle, 
   ArrowRight, 
-  RotateCcw, 
   Home, 
   Award, 
-  Sparkles,
-  BookOpen,
   Brain
 } from 'lucide-react';
 import { Question, DrillConfig, TestResult } from '../../types';
@@ -20,8 +17,8 @@ import { StorageService, UserProfile } from '../../storage/db';
 interface InstantDrillRunnerProps {
   config: DrillConfig;
   questions: Question[];
-  userProfile: UserProfile;
-  onFinishDrill: (result: TestResult) => void;
+  userProfile?: UserProfile;
+  onFinishDrill?: (result: TestResult) => void;
   onAbortDrill: () => void;
   onOpenSpacedRepetition?: () => void;
 }
@@ -29,7 +26,7 @@ interface InstantDrillRunnerProps {
 export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
   config,
   questions,
-  userProfile,
+  userProfile: _userProfile,
   onFinishDrill,
   onAbortDrill,
   onOpenSpacedRepetition
@@ -50,54 +47,7 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
   );
   const [totalTimeSpentSeconds, setTotalTimeSpentSeconds] = useState(0);
 
-  // Timer effect
-  useEffect(() => {
-    if (isDrillCompleted) return;
-
-    const timer = setInterval(() => {
-      setTotalTimeSpentSeconds(prev => prev + 1);
-      if (config.durationMinutes > 0) {
-        setTimeRemainingSeconds(prev => {
-          if (prev <= 1) {
-            clearInterval(timer);
-            handleCompleteDrill();
-            return 0;
-          }
-          return prev - 1;
-        });
-      }
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, [isDrillCompleted, config.durationMinutes]);
-
-  const currentQ = questions[currentIndex];
-
-  const handleSubmitAnswer = () => {
-    if (selectedOption === null || !currentQ) return;
-
-    const isCorrect = selectedOption === currentQ.correctOptionIndex;
-    setIsAnswerSubmitted(true);
-
-    if (isCorrect) {
-      setCorrectCount(prev => prev + 1);
-    } else {
-      setIncorrectCount(prev => prev + 1);
-      setMissedQuestionIds(prev => [...prev, currentQ.id]);
-    }
-  };
-
-  const handleNextQuestion = () => {
-    if (currentIndex + 1 < questions.length) {
-      setCurrentIndex(prev => prev + 1);
-      setSelectedOption(null);
-      setIsAnswerSubmitted(false);
-    } else {
-      handleCompleteDrill();
-    }
-  };
-
-  const handleCompleteDrill = () => {
+  const handleCompleteDrill = useCallback(() => {
     setIsDrillCompleted(true);
     
     // Auto enroll missed questions into SRS
@@ -106,7 +56,7 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
     }
 
     // Build TestResult for persistence
-    const totalAttempted = correctCount + incorrectCount + (isAnswerSubmitted ? 0 : 0);
+    const totalAttempted = correctCount + incorrectCount + (isAnswerSubmitted ? 1 : 0);
     const score = (correctCount * 4) - (incorrectCount * 1);
     const maxScore = questions.length * 4;
     const accuracy = totalAttempted > 0 ? Math.round((correctCount / totalAttempted) * 100) : 0;
@@ -166,13 +116,72 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
     };
 
     StorageService.saveTestResult(result);
+    if (onFinishDrill) {
+      onFinishDrill(result);
+    }
 
     if (accuracy >= 75) {
       try {
         confetti({ particleCount: 80, spread: 70, origin: { y: 0.6 } });
       } catch {}
     }
-  };
+  }, [
+    config, 
+    correctCount, 
+    incorrectCount, 
+    isAnswerSubmitted, 
+    missedQuestionIds, 
+    onFinishDrill, 
+    questions, 
+    totalTimeSpentSeconds
+  ]);
+
+  // Timer effect
+  useEffect(() => {
+    if (isDrillCompleted) return;
+
+    const timer = setInterval(() => {
+      setTotalTimeSpentSeconds(prev => prev + 1);
+      if (config.durationMinutes > 0) {
+        setTimeRemainingSeconds(prev => {
+          if (prev <= 1) {
+            clearInterval(timer);
+            handleCompleteDrill();
+            return 0;
+          }
+          return prev - 1;
+        });
+      }
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [isDrillCompleted, config.durationMinutes, handleCompleteDrill]);
+
+  const currentQ = questions[currentIndex];
+
+  const handleSubmitAnswer = useCallback(() => {
+    if (selectedOption === null || !currentQ) return;
+
+    const isCorrect = selectedOption === currentQ.correctOptionIndex;
+    setIsAnswerSubmitted(true);
+
+    if (isCorrect) {
+      setCorrectCount(prev => prev + 1);
+    } else {
+      setIncorrectCount(prev => prev + 1);
+      setMissedQuestionIds(prev => [...prev, currentQ.id]);
+    }
+  }, [currentQ, selectedOption]);
+
+  const handleNextQuestion = useCallback(() => {
+    if (currentIndex + 1 < questions.length) {
+      setCurrentIndex(prev => prev + 1);
+      setSelectedOption(null);
+      setIsAnswerSubmitted(false);
+    } else {
+      handleCompleteDrill();
+    }
+  }, [currentIndex, handleCompleteDrill, questions.length]);
 
   const formatTime = (secs: number) => {
     const m = Math.floor(secs / 60);
@@ -201,7 +210,7 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
 
     window.addEventListener('keydown', handleKey);
     return () => window.removeEventListener('keydown', handleKey);
-  }, [isAnswerSubmitted, selectedOption, isDrillCompleted, currentIndex, questions.length]);
+  }, [isAnswerSubmitted, selectedOption, isDrillCompleted, handleSubmitAnswer, handleNextQuestion]);
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 space-y-6">

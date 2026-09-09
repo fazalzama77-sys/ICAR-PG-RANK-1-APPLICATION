@@ -1,20 +1,12 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import confetti from 'canvas-confetti';
 import { 
-  Brain, 
   RotateCw, 
   CheckCircle2, 
   XCircle, 
-  HelpCircle, 
   Sparkles, 
-  Layers, 
-  Filter, 
-  ArrowLeft,
-  ChevronRight,
-  Flame,
-  Award,
-  BookOpen,
-  Calendar
+  ArrowLeft, 
+  Flame 
 } from 'lucide-react';
 import { Question, SRSRating, SRSMetrics } from '../../types';
 import { SUBJECT_LIST } from '../../data/subjects';
@@ -38,8 +30,32 @@ export const SpacedRepetitionView: React.FC<SpacedRepetitionViewProps> = ({
   const [selectedSubject, setSelectedSubject] = useState<string>(initialSubjectFilter || 'all');
   const [selectedDomain, setSelectedDomain] = useState<string>('all');
 
+  const buildDeck = useCallback((mode: 'due' | 'all' | 'learning' | 'mastered', subj: string, dom: string) => {
+    const srsData = StorageService.getDueQuestions(questions);
+    let pool: Question[] = [];
+    if (mode === 'due') {
+      pool = srsData.due.length > 0 ? srsData.due : [...srsData.learning, ...srsData.unreviewed.slice(0, 30)];
+    } else if (mode === 'learning') {
+      pool = srsData.learning;
+    } else if (mode === 'mastered') {
+      pool = srsData.mastered;
+    } else {
+      pool = questions;
+    }
+
+    const filtered = pool.filter(q => {
+      if (dom !== 'all' && q.domain !== dom) return false;
+      if (subj !== 'all' && q.subjectId !== subj) return false;
+      return true;
+    });
+
+    return [...filtered].sort(() => Math.random() - 0.5);
+  }, [questions]);
+
   // Study Deck State
-  const [activeDeck, setActiveDeck] = useState<Question[]>([]);
+  const [activeDeck, setActiveDeck] = useState<Question[]>(() => 
+    buildDeck('due', initialSubjectFilter || 'all', 'all')
+  );
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [selectedOption, setSelectedOption] = useState<number | null>(null);
@@ -50,49 +66,33 @@ export const SpacedRepetitionView: React.FC<SpacedRepetitionViewProps> = ({
   const [srsMetrics, setSrsMetrics] = useState<SRSMetrics>(() => StorageService.getSRSMetrics(questions));
   const dailyProgress = StorageService.getDailyProgress();
 
-  // Load and filter deck
-  const refreshDeck = useCallback(() => {
-    const srsData = StorageService.getDueQuestions(questions);
+  const handleDeckFilterChange = (newMode: 'due' | 'all' | 'learning' | 'mastered', newSubj: string, newDom: string) => {
+    setDeckMode(newMode);
+    setSelectedSubject(newSubj);
+    setSelectedDomain(newDom);
     setSrsMetrics(StorageService.getSRSMetrics(questions));
-
-    let pool: Question[] = [];
-    if (deckMode === 'due') {
-      // If there are cards due, show them; otherwise fallback to unreviewed + learning
-      pool = srsData.due.length > 0 ? srsData.due : [...srsData.learning, ...srsData.unreviewed.slice(0, 30)];
-    } else if (deckMode === 'learning') {
-      pool = srsData.learning;
-    } else if (deckMode === 'mastered') {
-      pool = srsData.mastered;
-    } else {
-      pool = questions;
-    }
-
-    // Apply subject & domain filters
-    const filtered = pool.filter(q => {
-      if (selectedDomain !== 'all' && q.domain !== selectedDomain) return false;
-      if (selectedSubject !== 'all' && q.subjectId !== selectedSubject) return false;
-      return true;
-    });
-
-    // Shuffle deck for varied recall
-    const shuffled = [...filtered].sort(() => Math.random() - 0.5);
-    setActiveDeck(shuffled);
+    setActiveDeck(buildDeck(newMode, newSubj, newDom));
     setCurrentIndex(0);
     setIsFlipped(false);
     setSelectedOption(null);
     setSessionCompleted(false);
-  }, [questions, deckMode, selectedSubject, selectedDomain]);
+  };
 
-  useEffect(() => {
-    refreshDeck();
-  }, [refreshDeck]);
+  const handleRestartDeck = () => {
+    setSrsMetrics(StorageService.getSRSMetrics(questions));
+    setActiveDeck(buildDeck(deckMode, selectedSubject, selectedDomain));
+    setCurrentIndex(0);
+    setIsFlipped(false);
+    setSelectedOption(null);
+    setSessionCompleted(false);
+  };
 
   const currentCard = activeDeck[currentIndex];
   const srsRecords = StorageService.getSRSRecords();
   const currentCardRecord = currentCard ? srsRecords[currentCard.id] : undefined;
 
   // Rating action handler
-  const handleRate = (rating: SRSRating) => {
+  const handleRate = useCallback((rating: SRSRating) => {
     if (!currentCard) return;
 
     StorageService.recordSRSReview(currentCard.id, rating);
@@ -110,7 +110,7 @@ export const SpacedRepetitionView: React.FC<SpacedRepetitionViewProps> = ({
       } catch {}
       onRefreshData();
     }
-  };
+  }, [currentCard, currentIndex, activeDeck.length, onRefreshData]);
 
   // Keyboard shortcut listener
   useEffect(() => {
@@ -136,7 +136,7 @@ export const SpacedRepetitionView: React.FC<SpacedRepetitionViewProps> = ({
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [isFlipped, currentCard, sessionCompleted, currentIndex, activeDeck.length]);
+  }, [isFlipped, currentCard, sessionCompleted, handleRate]);
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 space-y-6">
@@ -201,7 +201,7 @@ export const SpacedRepetitionView: React.FC<SpacedRepetitionViewProps> = ({
         <div className="mt-5 pt-4 border-t border-white/15 flex flex-wrap items-center justify-between gap-3 text-xs">
           <div className="flex items-center space-x-2">
             <button
-              onClick={() => setDeckMode('due')}
+              onClick={() => handleDeckFilterChange('due', selectedSubject, selectedDomain)}
               className={`px-3 py-1 rounded-lg font-bold transition-colors ${
                 deckMode === 'due' ? 'bg-amber-400 text-slate-900 shadow-xs' : 'bg-white/10 text-white hover:bg-white/20'
               }`}
@@ -209,7 +209,7 @@ export const SpacedRepetitionView: React.FC<SpacedRepetitionViewProps> = ({
               Due For Review ({srsMetrics.dueToday})
             </button>
             <button
-              onClick={() => setDeckMode('all')}
+              onClick={() => handleDeckFilterChange('all', selectedSubject, selectedDomain)}
               className={`px-3 py-1 rounded-lg font-bold transition-colors ${
                 deckMode === 'all' ? 'bg-white text-slate-900 shadow-xs' : 'bg-white/10 text-white hover:bg-white/20'
               }`}
@@ -217,7 +217,7 @@ export const SpacedRepetitionView: React.FC<SpacedRepetitionViewProps> = ({
               Full Question Deck ({questions.length})
             </button>
             <button
-              onClick={() => setDeckMode('learning')}
+              onClick={() => handleDeckFilterChange('learning', selectedSubject, selectedDomain)}
               className={`px-3 py-1 rounded-lg font-bold transition-colors ${
                 deckMode === 'learning' ? 'bg-blue-400 text-slate-900 shadow-xs' : 'bg-white/10 text-white hover:bg-white/20'
               }`}
@@ -228,8 +228,18 @@ export const SpacedRepetitionView: React.FC<SpacedRepetitionViewProps> = ({
 
           <div className="flex items-center space-x-2">
             <select
+              value={selectedDomain}
+              onChange={e => handleDeckFilterChange(deckMode, selectedSubject, e.target.value)}
+              className="bg-slate-900/60 border border-white/20 text-white text-xs rounded-lg px-2.5 py-1 focus:outline-hidden"
+            >
+              <option value="all">All Domains</option>
+              <option value="veterinary_science" className="text-slate-900">Veterinary Science</option>
+              <option value="animal_science" className="text-slate-900">Animal Science</option>
+            </select>
+
+            <select
               value={selectedSubject}
-              onChange={e => setSelectedSubject(e.target.value)}
+              onChange={e => handleDeckFilterChange(deckMode, e.target.value, selectedDomain)}
               className="bg-slate-900/60 border border-white/20 text-white text-xs rounded-lg px-2.5 py-1 focus:outline-hidden"
             >
               <option value="all">All Subjects</option>
@@ -256,7 +266,7 @@ export const SpacedRepetitionView: React.FC<SpacedRepetitionViewProps> = ({
 
           <div className="flex items-center justify-center gap-3 pt-3">
             <button
-              onClick={refreshDeck}
+              onClick={handleRestartDeck}
               className="px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs sm:text-sm rounded-lg shadow-sm flex items-center space-x-2 transition-colors"
             >
               <RotateCw className="w-4 h-4" />
