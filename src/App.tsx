@@ -39,16 +39,16 @@ export function App() {
   // Filter for Spaced Repetition launched from a specific subject
   const [srsSubjectFilter, setSrsSubjectFilter] = useState<string | null>(null);
 
-  // Load questions and results on mount
-  useEffect(() => {
-    refreshData();
-  }, []);
-
   const refreshData = () => {
     setQuestions(StorageService.getQuestions());
     setTestResults(StorageService.getTestResults());
     setUserProfile(StorageService.getUserProfile());
   };
+
+  // Load questions and results on mount
+  useEffect(() => {
+    refreshData();
+  }, []);
 
   // Launch a CBT Exam
   const handleStartExam = (config: TestConfig, examQuestions: Question[]) => {
