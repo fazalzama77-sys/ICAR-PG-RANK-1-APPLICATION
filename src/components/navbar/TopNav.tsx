@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import { Award, BookOpen, Layers, BarChart3, Settings, ShieldCheck } from 'lucide-react';
+import { Award, BookOpen, Layers, BarChart3, Settings, ShieldCheck, Download, WifiOff } from 'lucide-react';
 import { UserProfile, StorageService } from '../../storage/db';
+import { usePwa } from '../../hooks/usePwa';
+import { PwaStatusBanner } from '../pwa/PwaStatusBanner';
 
 interface TopNavProps {
   activeTab: 'dashboard' | 'cbt_config' | 'question_bank' | 'analytics';
@@ -19,6 +21,7 @@ export const TopNav: React.FC<TopNavProps> = ({
 }) => {
   const [showProfileModal, setShowProfileModal] = useState(false);
   const [editProfile, setEditProfile] = useState<UserProfile>(userProfile);
+  const { isOnline, canInstall, installPwa } = usePwa();
 
   const handleSaveProfile = (e: React.FormEvent) => {
     e.preventDefault();
@@ -34,6 +37,7 @@ export const TopNav: React.FC<TopNavProps> = ({
 
   return (
     <>
+      <PwaStatusBanner />
       <header className="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
@@ -105,8 +109,43 @@ export const TopNav: React.FC<TopNavProps> = ({
               </button>
             </nav>
 
-            {/* User Candidate Info Pill */}
-            <div className="flex items-center space-x-3">
+            {/* Right Action Items: PWA Status & Install + User Candidate Info */}
+            <div className="flex items-center space-x-2.5">
+              {/* PWA Install Button (visible when install prompt is available) */}
+              {canInstall && (
+                <button
+                  onClick={installPwa}
+                  className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold shadow-xs transition-colors"
+                  title="Install ICAR AIEEA PG CBT App for offline desktop/tablet use"
+                >
+                  <Download className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">Install App</span>
+                </button>
+              )}
+
+              {/* Online / Offline Status Badge */}
+              <div
+                className={`flex items-center space-x-1.5 px-2.5 py-1 rounded-full text-[11px] font-medium border ${
+                  isOnline
+                    ? 'bg-emerald-50 text-emerald-700 border-emerald-200'
+                    : 'bg-amber-50 text-amber-800 border-amber-300'
+                }`}
+                title={isOnline ? 'All mock questions & tests work 100% offline' : 'Working 100% offline'}
+              >
+                {isOnline ? (
+                  <>
+                    <span className="w-2 h-2 rounded-full bg-emerald-500" />
+                    <span className="hidden md:inline">Offline Ready</span>
+                  </>
+                ) : (
+                  <>
+                    <WifiOff className="w-3 h-3 text-amber-600 animate-pulse" />
+                    <span>Offline</span>
+                  </>
+                )}
+              </div>
+
+              {/* User Candidate Info Pill */}
               <button
                 onClick={() => {
                   setEditProfile(userProfile);

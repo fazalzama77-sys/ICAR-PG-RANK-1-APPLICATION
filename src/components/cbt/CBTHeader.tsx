@@ -1,7 +1,8 @@
 import React from 'react';
-import { Clock, Maximize2, Minimize2, User } from 'lucide-react';
+import { Clock, Maximize2, Minimize2, User, WifiOff, ShieldCheck } from 'lucide-react';
 import { UserProfile } from '../../storage/db';
 import { Domain } from '../../types';
+import { usePwa } from '../../hooks/usePwa';
 
 interface CBTHeaderProps {
   examTitle: string;
@@ -27,6 +28,8 @@ export const CBTHeader: React.FC<CBTHeaderProps> = ({
   isFullscreen,
   onToggleFullscreen
 }) => {
+  const { isOnline } = usePwa();
+
   // Format seconds into HH:MM:SS
   const formatTime = (secs: number) => {
     const hours = Math.floor(secs / 3600);
@@ -56,7 +59,16 @@ export const CBTHeader: React.FC<CBTHeaderProps> = ({
         </div>
 
         {/* Candidate Badge & System Info */}
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center space-x-3">
+          {/* Offline Security Badge */}
+          <div
+            className="hidden sm:flex items-center space-x-1.5 px-2.5 py-1 rounded bg-black/20 border border-white/15 text-[11px] text-slate-200"
+            title="100% Offline Exam: Questions and responses are securely stored locally."
+          >
+            <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+            <span>{isOnline ? 'Offline Ready' : '100% Offline'}</span>
+          </div>
+
           {/* Candidate Card in Official NTA style */}
           <div className="flex items-center space-x-2 bg-white/10 px-3 py-1 rounded border border-white/15">
             <div className="w-8 h-8 rounded-full bg-slate-200 text-slate-700 flex items-center justify-center font-bold text-xs shadow-inner">

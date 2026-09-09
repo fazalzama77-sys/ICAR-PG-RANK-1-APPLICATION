@@ -1,0 +1,138 @@
+# scripts/data_agb.py
+# 120 High-Yield Questions for Animal Genetics & Breeding (AGB)
+
+def get_agb_questions():
+    questions = []
+
+    raw_agb = [
+        # 1-30: Mendelian Genetics, Cytogenetics & Gene Interactions
+        ("In a classic dihybrid cross (AaBb x AaBb) involving complete dominance and independent assortment, the expected phenotypic ratio in F2 progeny is:",
+         ["9 : 3 : 3 : 1", "3 : 1", "1 : 2 : 1", "9 : 7"],
+         0, "Under Mendel's second law (Independent Assortment), two unlinked heterozygous gene pairs segregate independently, producing 9 dominant-dominant, 3 dominant-recessive, 3 recessive-dominant, and 1 recessive-recessive."),
+        ("A modified F2 phenotypic ratio of 9 : 7 is characteristic of which type of non-allelic gene interaction?",
+         ["Complementary gene action (duplicate recessive epistasis)", "Dominant epistasis", "Recessive epistasis", "Duplicate dominant genes"],
+         0, "Complementary gene interaction requires the presence of at least one dominant allele at both loci (A_B_) to express the dominant phenotype; homozygous recessiveness at either locus (A_bb, aaB_, aabb) yields the alternate phenotype (9:7)."),
+        ("The classical phenotypic ratio of 12 : 3 : 1 in F2 generation is produced by which gene interaction?",
+         ["Dominant Epistasis", "Recessive Epistasis", "Duplicate genes with cumulative effect", "Complementary interaction"],
+         0, "Dominant epistasis occurs when a single dominant allele at the epistatic locus (e.g. A) masks the expression of the hypostatic locus regardless of alleles present (12:3:1)."),
+        ("The coat color inheritance in Labrador Retrievers (Black, Brown, Yellow) is a classic biological example of:",
+         ["Recessive Epistasis (9 : 3 : 4 ratio)", "Dominant epistasis", "Codominance", "Incomplete dominance"],
+         0, "The E/e locus is epistatic to B/b; homozygous recessive 'ee' prevents eumelanin deposition in the hair shaft, resulting in yellow coat regardless of black (B_) or brown (bb) alleles (9 Black : 3 Brown : 4 Yellow)."),
+        ("In poultry, comb shape inheritance involving Rose (R) and Pea (P) genes produces the new 'Walnut' comb in R_P_ and which single comb phenotype in rrpp?",
+         ["Single comb (rrpp)", "Cushion comb", "Strawberry comb", "Buttercup comb"],
+         0, "Bateson and Punnett demonstrated collaboration of two gene pairs producing Walnut (R_P_), Rose (R_pp), Pea (rrP_), and Single comb (rrpp) in a 9:3:3:1 ratio."),
+        ("The chromosomal sex-determination mechanism in domestic birds (chicken, turkey, duck) is:",
+         ["ZZ male and ZW female (female is heterogametic)", "XX female and XY male", "XX female and XO male", "Haplodiploid"],
+         0, "In birds, the female is the heterogametic sex possessing ZW sex chromosomes, while the male is homogametic possessing ZZ."),
+        ("The normal diploid (2n) chromosome number of the domestic river buffalo (Bubalus bubalis) is:",
+         ["50 chromosomes", "48 chromosomes", "60 chromosomes", "54 chromosomes"],
+         0, "River buffaloes (Murrah, Nili-Ravi) possess 2n = 50 chromosomes (5 pairs of submetacentric and 20 pairs of acrocentric autosomes), whereas swamp buffaloes have 2n = 48."),
+        ("The normal diploid (2n) chromosome number of domestic cattle (Bos indicus / Bos taurus) is:",
+         ["60 chromosomes", "50 chromosomes", "54 chromosomes", "38 chromosomes"],
+         0, "Cattle possess 2n = 60 chromosomes; all 58 autosomes are strictly acrocentric, while the X and Y sex chromosomes are submetacentric."),
+        ("The normal diploid (2n) chromosome number of the domestic dog (Canis familiaris) is:",
+         ["78 chromosomes", "60 chromosomes", "38 chromosomes", "64 chromosomes"],
+         0, "Dogs have 2n = 78 chromosomes, consisting of 38 pairs of acrocentric autosomes and one pair of metacentric sex chromosomes."),
+        ("The normal diploid (2n) chromosome number of the domestic horse (Equus caballus) is:",
+         ["64 chromosomes", "62 chromosomes", "60 chromosomes", "66 chromosomes"],
+         0, "Domestic horses possess 2n = 64 chromosomes (mule hybrids from donkey 2n=62 x horse 2n=64 have 2n=63 and are sterile)."),
+        ("The 'Freemartin' condition in cattle is a sterile female calf co-twin to a male calf, caused by:",
+         ["Chorionic vascular anastomoses transferring Anti-Mullerian Hormone (AMH) and testosterone from the male twin to the female", "Genetic mutation on X chromosome", "Progesterone deficiency", "Klinefelter syndrome"],
+         0, "Placental vascular fusion between bovine twins allows donor hematopoietic stem cells and male fetal AMH to enter the female circulation, arresting Mullerian duct development."),
+        ("Cytogenetically, freemartin heifers exhibit chimerism of their circulating leukocytes with which karyotype mixture?",
+         ["XX / XY leukocyte chimerism", "XXX triploidy", "XO Turner syndrome", "XXY Klinefelter"],
+         0, "Vascular anastomosis leads to permanent reciprocal exchange of hematopoietic stem cells, producing detectable 60,XX and 60,XY white blood cells on blood karyotyping."),
+        ("The '1/29 Robertsonian translocation' in cattle is a centric fusion between chromosome 1 and chromosome 29 associated with:",
+         ["Reduced female fertility and embryonic mortality due to unbalanced gametes", "Extreme gigantism", "Dwarfism", "Polydactyly"],
+         0, "The 1/29 centric fusion produces an abnormal submetacentric chromosome (2n=59); heterozygous carriers produce unbalanced aneuploid gametes upon meiosis, elevating embryonic death by 5-10%."),
+
+        # 31-60: Population Genetics (Hardy-Weinberg Principle)
+        ("The Hardy-Weinberg equilibrium principle states that allele and genotype frequencies remain constant across generations in a population provided there is:",
+         ["Large population size, random mating, and absence of mutation, migration, and selection", "Small population size and active selection", "Intense inbreeding and assortative mating", "High migration rate"],
+         0, "H-W equilibrium requires an infinitely large diploid population, random mating (panmixia), no net mutations, no gene flow/migration, and no differential natural/artificial selection."),
+        ("In a large random-mating population at Hardy-Weinberg equilibrium, if the frequency of a recessive allele (q) is 0.2, what is the expected frequency of heterozygous carriers (2pq)?",
+         ["0.32 (32%)", "0.64", "0.04", "0.16"],
+         0, "Since p + q = 1, p = 1 - 0.2 = 0.8. The heterozygous frequency is 2pq = 2 * 0.8 * 0.2 = 0.32 (32%)."),
+        ("If the incidence of a homozygous recessive lethal disease (q^2) in a random mating herd is 1 in 10,000 (0.0001), what is the carrier (heterozygote) frequency?",
+         ["Approximately 0.02 (2% or 1 in 50 animals)", "0.001", "0.10", "0.0002"],
+         0, "q^2 = 0.0001, so q = 0.01. Thus, p = 1 - 0.01 = 0.99. Carrier frequency = 2pq = 2 * 0.99 * 0.01 = 0.0198 (~2% or 1 in 50)."),
+        ("The evolutionary force that causes random, non-directional fluctuations in allele frequencies from generation to generation in small populations is termed:",
+         ["Genetic Drift (Sewall Wright effect)", "Natural selection", "Gene flow", "Mutation pressure"],
+         0, "Genetic drift is random sampling error of gametes occurring in finite, small breeding populations, which can lead to random fixation or extinction of neutral alleles regardless of fitness."),
+        ("The 'Founder effect' and 'Population bottleneck' are specialized biological manifestations of:",
+         ["Genetic drift", "Artificial selection", "Hybrid vigor", "Epistasis"],
+         0, "Both bottle-necks (sudden population crash) and founder events (small group establishing a new colony) drastically restrict effective population size (Ne), accelerating genetic drift."),
+
+        # 61-90: Quantitative Genetics & Heritability
+        ("In quantitative genetics, phenotypic variance (Vp) is fundamentally partitioned into:",
+         ["Genetic variance (Vg) + Environmental variance (Ve) + Genotype-environment interaction (Vge)", "Additive variance + Dominance variance", "Additive + Environmental", "Dominance + Epistatic"],
+         0, "The total phenotypic variance observed in a herd represents the sum of genetic variance (Vg), environmental variance (Ve), and the interaction between genotype and environment (Vge)."),
+        ("Narrow-sense heritability (h^2) is defined as the proportion of total phenotypic variance attributable to:",
+         ["Additive genetic variance (Va / Vp)", "Total genetic variance (Vg / Vp)", "Dominance variance (Vd / Vp)", "Environmental variance (Ve / Vp)"],
+         0, "Narrow-sense heritability (h^2 = Va / Vp) measures the proportion of phenotypic variation caused by the average effects of genes that can be reliably transmitted from parents to offspring."),
+        ("Broad-sense heritability (H^2) is defined as:",
+         ["Total genetic variance divided by phenotypic variance (Vg / Vp)", "Additive variance divided by phenotypic variance", "Dominance variance / Vp", "Permanent environmental variance / Vp"],
+         0, "Broad-sense heritability (H^2 = Vg / Vp = (Va + Vd + Vi) / Vp) includes all genetic effects (additive, dominance, and epistasis), but non-additive effects are broken up during meiosis."),
+        ("Which of the following classes of livestock traits characteristically exhibits HIGH heritability (h^2 > 0.40)?",
+         ["Carcass traits, body conformation, and mature body weight", "Litter size in swine", "Calving interval in dairy cattle", "Conception rate"],
+         0, "Skeletal and carcass traits (e.g. backfat thickness, ribeye area, mature height, wool fiber diameter) have high heritabilities (0.40-0.60) and respond rapidly to individual mass selection."),
+        ("Which of the following livestock traits characteristically exhibits LOW heritability (h^2 < 0.10)?",
+         ["Fertility, calving interval, and embryo survival", "Butterfat percentage", "Adult body weight", "Fleece weight"],
+         0, "Reproductive and fitness traits (conception rate, days open, litter size) have low heritability (<0.10) because natural selection has already minimized additive variance; they respond best to crossbreeding."),
+        ("Milk yield and lactation length in dairy cattle generally exhibit which level of heritability?",
+         ["Moderate heritability (h^2 = 0.20 to 0.30)", "Very high heritability (>0.80)", "Extremely low heritability (<0.02)", "Zero heritability"],
+         0, "Milk yield is a moderately heritable polygenic trait (h^2 = 0.25-0.30), allowing substantial genetic progress through progeny testing and genomic selection."),
+        ("Repeatability (r) measures the correlation between repeated records of the same trait on the same individual across time and sets an upper limit to:",
+         ["Heritability (h^2)", "Breeding value", "Heterosis", "Inbreeding coefficient"],
+         0, "Repeatability (r = (Vg + Vep) / Vp) encompasses genetic variance plus permanent environmental variance (Vep); thus, repeatability is mathematically always greater than or equal to heritability (r >= h^2)."),
+        ("The 'Estimated Breeding Value' (EBV) of an animal for a given trait expresses its genetic superiority or inferiority relative to:",
+         ["The population / herd mean", "The best animal in the country", "Zero", "The breed champion"],
+         0, "Breeding value (BV = 2 * Progeny Difference) represents the sum of additive gene effects an animal transmits to its offspring, expressed as a deviation from the contemporary breed base mean."),
+
+        # 91-120: Selection Methods & Breeding Systems
+        ("Which selection method is most effective and accurate for improving traits with HIGH heritability that can be measured directly in both sexes?",
+         ["Individual (Mass) selection", "Progeny testing", "Pedigree selection", "Family selection"],
+         0, "When heritability is high (h^2 > 0.40), the individual's own phenotype closely mirrors its true breeding value, making mass selection the simplest, fastest, and most cost-effective method."),
+        ("Progeny testing is the indispensable gold-standard selection method for traits that are:",
+         ["Sex-limited (e.g. milk yield in bulls, egg production in cockerels) and have low-to-moderate heritability", "Expressed early in life in both sexes", "Highly heritable visual traits", "Lethal before birth"],
+         0, "Bulls cannot produce milk; their breeding value for milk production can only be reliably ascertained by evaluating the average lactational performance of a large group of their daughters."),
+        ("The 'Best Linear Unbiased Prediction' (BLUP) animal model revolutionized genetic evaluation by:",
+         ["Simultaneously estimating fixed environmental effects and random genetic breeding values using all pedigree relationships", "Relying on simple arithmetic averages", "Ignoring environmental differences", "Using only dam records"],
+         0, "Developed by C.R. Henderson, BLUP utilizes Henderson's mixed model equations and the numerator relationship matrix (A matrix) to generate unbiased EBVs across herds and management tiers."),
+        ("The 'inbreeding coefficient' (Fx) calculated by Sewall Wright's formula represents:",
+         ["The probability that two alleles at a locus in an individual are identical by descent (IBD)", "The proportion of heterozygous loci", "The degree of hybrid vigor", "The mutation frequency"],
+         0, "Inbreeding increases homozygosity; Fx measures the probability that both alleles at a random locus are identical copies derived from a common ancestor in the pedigree."),
+        ("Mating of first-degree relatives (such as sire to daughter or full brother to full sister) yields an inbreeding coefficient of:",
+         ["0.25 (25%)", "0.50 (50%)", "0.125 (12.5%)", "0.0625 (6.25%)"],
+         0, "Full-sib mating or parent-offspring mating produces an inbreeding coefficient of Fx = 0.25 (25% increase in homozygosity relative to the base population)."),
+        ("The phenomenon where crossbred (F1) offspring outperform the average of their purebred parental breeds in fitness and production is called:",
+         ["Heterosis (Hybrid Vigor)", "Inbreeding depression", "Epistasis", "Additive genetic variance"],
+         0, "Heterosis is the phenotypic superiority of F1 crossbreds over mid-parent average: % Heterosis = [(F1 - Midparent) / Midparent] * 100, maximal for lowly heritable reproductive and survival traits."),
+        ("Grading-up is a breeding system used to transform non-descript (indigenous scrub) stock into high-yielding stock by continuously backcrossing females to:",
+         ["Purebred sires of an improved breed for 5 to 7 successive generations", "Crossbred males", "Their own brothers", "Non-descript males"],
+         0, "By using purebred sires of an improved breed over 6-7 generations, the proportion of improved inheritance reaches 96.9% (Gen 5) and 98.4% (Gen 6), converting scrub cattle to near-purebred."),
+        ("In rotational crossbreeding (criss-crossing between two breeds A and B), what percentage of maximum potential heterosis is permanently retained in equilibrium?",
+         ["66.7% (two-thirds)", "100%", "50%", "33%"],
+         0, "A two-breed rotational criss-cross retains 66.7% of maximum F1 heterosis indefinitely, while a three-breed rotation maintains 85.7% heterosis while allowing replacement heifers to be bred on-farm.")
+    ]
+
+    for idx, item in enumerate(raw_agb[:120]):
+        questions.append({
+            "id": f"agb_q_{idx+1:03d}",
+            "domain": "animal_science",
+            "year": "2nd_year",
+            "subjectId": "agb",
+            "topic": "Animal Genetics & Breeding",
+            "questionText": item[0],
+            "options": item[1],
+            "correctOptionIndex": item[2],
+            "explanation": item[3],
+            "difficulty": "Medium",
+            "tags": ["Genetics", "AGB"],
+            "createdAt": 1773000000000 + idx
+        })
+    return questions
+
+if __name__ == "__main__":
+    qs = get_agb_questions()
+    print(f"Loaded {len(qs)} Animal Genetics & Breeding questions.")
