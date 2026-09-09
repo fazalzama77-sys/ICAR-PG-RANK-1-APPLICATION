@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
-import { Award, BookOpen, Layers, BarChart3, Settings, ShieldCheck, Download, WifiOff } from 'lucide-react';
+import { Award, BookOpen, Layers, BarChart3, Settings, ShieldCheck, Download, WifiOff, Zap, Brain } from 'lucide-react';
 import { UserProfile, StorageService } from '../../storage/db';
 import { usePwa } from '../../hooks/usePwa';
 import { PwaStatusBanner } from '../pwa/PwaStatusBanner';
+import { NavigationTab } from '../../types';
 
 interface TopNavProps {
-  activeTab: 'dashboard' | 'cbt_config' | 'question_bank' | 'analytics';
-  setActiveTab: (tab: 'dashboard' | 'cbt_config' | 'question_bank' | 'analytics') => void;
+  activeTab: NavigationTab;
+  setActiveTab: (tab: NavigationTab) => void;
   userProfile: UserProfile;
   onProfileUpdate: (updated: UserProfile) => void;
   isExamInProgress: boolean;
+  srsDueCount?: number;
 }
 
 export const TopNav: React.FC<TopNavProps> = ({
@@ -17,7 +19,8 @@ export const TopNav: React.FC<TopNavProps> = ({
   setActiveTab,
   userProfile,
   onProfileUpdate,
-  isExamInProgress
+  isExamInProgress,
+  srsDueCount = 0
 }) => {
   const [showProfileModal, setShowProfileModal] = useState(false);
   const [editProfile, setEditProfile] = useState<UserProfile>(userProfile);
@@ -59,10 +62,10 @@ export const TopNav: React.FC<TopNavProps> = ({
             </div>
 
             {/* Navigation Tabs */}
-            <nav className="hidden md:flex space-x-1">
+            <nav className="hidden lg:flex space-x-1">
               <button
                 onClick={() => setActiveTab('dashboard')}
-                className={`flex items-center space-x-2 px-3.5 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`flex items-center space-x-1.5 px-3 py-2 rounded-md text-xs sm:text-sm font-medium transition-colors ${
                   activeTab === 'dashboard'
                     ? 'bg-emerald-50 text-emerald-700 font-semibold'
                     : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
@@ -73,20 +76,49 @@ export const TopNav: React.FC<TopNavProps> = ({
               </button>
 
               <button
+                onClick={() => setActiveTab('drill_test')}
+                className={`flex items-center space-x-1.5 px-3 py-2 rounded-md text-xs sm:text-sm font-medium transition-colors ${
+                  activeTab === 'drill_test'
+                    ? 'bg-amber-50 text-amber-800 font-semibold'
+                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+                }`}
+              >
+                <Zap className="w-4 h-4 text-amber-500 fill-amber-500" />
+                <span>Rapid Drill</span>
+              </button>
+
+              <button
+                onClick={() => setActiveTab('spaced_repetition')}
+                className={`flex items-center space-x-1.5 px-3 py-2 rounded-md text-xs sm:text-sm font-medium transition-colors relative ${
+                  activeTab === 'spaced_repetition'
+                    ? 'bg-indigo-50 text-indigo-700 font-semibold'
+                    : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+                }`}
+              >
+                <Brain className="w-4 h-4 text-indigo-600" />
+                <span>Spaced Repetition</span>
+                {srsDueCount > 0 && (
+                  <span className="bg-amber-400 text-slate-950 text-[10px] font-black px-1.5 py-0.2 rounded-full ml-1">
+                    {srsDueCount}
+                  </span>
+                )}
+              </button>
+
+              <button
                 onClick={() => setActiveTab('cbt_config')}
-                className={`flex items-center space-x-2 px-3.5 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`flex items-center space-x-1.5 px-3 py-2 rounded-md text-xs sm:text-sm font-medium transition-colors ${
                   activeTab === 'cbt_config'
                     ? 'bg-emerald-50 text-emerald-700 font-semibold'
                     : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
                 }`}
               >
                 <ShieldCheck className="w-4 h-4" />
-                <span>Take CBT Test</span>
+                <span>Take CBT Mock</span>
               </button>
 
               <button
                 onClick={() => setActiveTab('question_bank')}
-                className={`flex items-center space-x-2 px-3.5 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`flex items-center space-x-1.5 px-3 py-2 rounded-md text-xs sm:text-sm font-medium transition-colors ${
                   activeTab === 'question_bank'
                     ? 'bg-emerald-50 text-emerald-700 font-semibold'
                     : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
@@ -98,14 +130,14 @@ export const TopNav: React.FC<TopNavProps> = ({
 
               <button
                 onClick={() => setActiveTab('analytics')}
-                className={`flex items-center space-x-2 px-3.5 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`flex items-center space-x-1.5 px-3 py-2 rounded-md text-xs sm:text-sm font-medium transition-colors ${
                   activeTab === 'analytics'
                     ? 'bg-emerald-50 text-emerald-700 font-semibold'
                     : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
                 }`}
               >
                 <BarChart3 className="w-4 h-4" />
-                <span>Analytics & History</span>
+                <span>Analytics</span>
               </button>
             </nav>
 

@@ -60,6 +60,12 @@ npm run preview
   - Domain-wise and subject-wise precision matrix highlighting weak areas.
   - Question-by-question review with filters for incorrect, correct, and unattempted questions.
 
+- **100% Offline Progressive Web App (PWA)**:
+  - **Service Worker Precaching**: All HTML, JavaScript, CSS stylesheets, icons, and test engine assets are automatically cached for instant offline loading.
+  - **Zero Network Required**: Take full 120-question mock exams or practice drills completely offline without an internet connection. All questions and test records persist locally in the browser's storage.
+  - **Desktop & Mobile App Installation**: Click the **"Install App"** button in the top navigation bar or your browser's install icon to install the platform as a standalone desktop or mobile application.
+  - **Live Offline Status Indicator**: Real-time badge indicators show connectivity status and confirm local evaluation security during exams.
+
 ---
 
 ## 📚 Detailed Documentation
