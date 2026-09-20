@@ -136,14 +136,14 @@ export const BulkImportExport: React.FC<BulkImportExportProps> = ({
               const res = StorageService.loadPyqPack();
               setFeedback({
                 type: 'success',
-                message: `Loaded 300 ICAR PG PYQs (100 Pathology + 100 Microbiology + 100 Biochemistry)! Added ${res.added} new questions (Total in bank: ${res.total}).`
+                message: `Loaded 350 ICAR PG PYQs (50 Anatomy + 100 Pathology + 100 Microbiology + 100 Biochemistry)! Added ${res.added} new questions (Total in bank: ${res.total}).`
               });
               onQuestionsImported();
             }}
             className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg border border-purple-600 bg-purple-600 hover:bg-purple-700 text-white font-extrabold text-xs shadow-xs transition-colors cursor-pointer"
-            title="Populates the Question Bank with 100 most important ICAR PG PYQs each for Pathology, Microbiology, and Biochemistry (300 questions total)"
+            title="Populates the Question Bank with authentic ICAR PG PYQs across Anatomy, Pathology, Microbiology, and Biochemistry (350 questions total)"
           >
-            <span>🔥 Load 300 ICAR PG PYQs (VPP, VMC, VBC)</span>
+            <span>🔥 Load 350 ICAR PG PYQs (VAN, VPP, VMC, VBC)</span>
           </button>
 
           {/* Load Verified Master Question Bank */}
@@ -152,14 +152,14 @@ export const BulkImportExport: React.FC<BulkImportExportProps> = ({
               const res = StorageService.loadAllMasterQuestions();
               setFeedback({
                 type: 'success',
-                message: `Loaded all ${res.count} verified questions! (565 Core Syllabus + 300 ICAR PG PYQs, 0 dummy questions) are now active in your Question Bank.`
+                message: `Loaded all ${res.count} verified questions! (565 Core Syllabus + 350 ICAR PG PYQs, 0 dummy questions) are now active in your Question Bank.`
               });
               onQuestionsImported();
             }}
             className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg border border-amber-500 bg-amber-500 hover:bg-amber-600 text-slate-900 font-extrabold text-xs shadow-xs transition-colors cursor-pointer"
             title="Populates the Question Bank with all verified authentic questions across all subjects and PYQ modules"
           >
-            <span>⚡ Load Master Bank (865 Verified Qs)</span>
+            <span>⚡ Load Master Bank (915 Verified Qs)</span>
           </button>
 
           {/* Download JSON Template */}

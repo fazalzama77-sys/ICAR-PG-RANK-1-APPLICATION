@@ -7,12 +7,15 @@ import android.net.Uri
 import android.os.Bundle
 import android.view.ViewGroup
 import android.webkit.CookieManager
+import android.webkit.JavascriptInterface
 import android.webkit.WebChromeClient
 import android.webkit.WebResourceError
 import android.webkit.WebResourceRequest
 import android.webkit.WebSettings
+import android.webkit.WebStorage
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
@@ -62,6 +65,22 @@ class MainActivity : ComponentActivity() {
                     )
                 }
             }
+        }
+    }
+class WebAppInterface(private val context: android.content.Context, private val webView: WebView) {
+    @JavascriptInterface
+    fun resetCacheMemory() {
+        (context as? ComponentActivity)?.runOnUiThread {
+            webView.clearCache(true)
+            Toast.makeText(context, "Android WebView cache memory cleared", Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    @JavascriptInterface
+    fun resetData() {
+        (context as? ComponentActivity)?.runOnUiThread {
+            WebStorage.getInstance().deleteAllData()
+            Toast.makeText(context, "Android app data reset", Toast.LENGTH_SHORT).show()
         }
     }
 }
@@ -171,7 +190,7 @@ fun CbtWebAppContainer(
                                 isLoading = false
                             }
                         }
-                    }
+                    addJavascriptInterface(WebAppInterface(context, this), "AndroidBridge")
 
                     loadUrl(url)
                     webViewInstance = this
