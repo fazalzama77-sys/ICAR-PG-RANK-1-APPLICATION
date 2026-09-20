@@ -130,20 +130,36 @@ export const BulkImportExport: React.FC<BulkImportExportProps> = ({
           </p>
         </div>
 
-          {/* Load 120 Questions Per Subject (All 9 Subjects) */}
+          {/* Load 300 ICAR PG PYQs */}
           <button
             onClick={() => {
-              const res = StorageService.loadAll1080Questions();
+              const res = StorageService.loadPyqPack();
               setFeedback({
                 type: 'success',
-                message: `Loaded all ${res.count} high-yield MCQs! Exactly 120 questions across all 9 subjects are now ready.`
+                message: `Loaded 300 ICAR PG PYQs (100 Pathology + 100 Microbiology + 100 Biochemistry)! Added ${res.added} new questions (Total in bank: ${res.total}).`
+              });
+              onQuestionsImported();
+            }}
+            className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg border border-purple-600 bg-purple-600 hover:bg-purple-700 text-white font-extrabold text-xs shadow-xs transition-colors cursor-pointer"
+            title="Populates the Question Bank with 100 most important ICAR PG PYQs each for Pathology, Microbiology, and Biochemistry (300 questions total)"
+          >
+            <span>🔥 Load 300 ICAR PG PYQs (VPP, VMC, VBC)</span>
+          </button>
+
+          {/* Load All 1,380 Questions */}
+          <button
+            onClick={() => {
+              const res = StorageService.loadAll1380Questions();
+              setFeedback({
+                type: 'success',
+                message: `Loaded all ${res.count} questions! (1,080 Core Syllabus + 300 ICAR PG PYQs) are now active in your Question Bank.`
               });
               onQuestionsImported();
             }}
             className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg border border-amber-500 bg-amber-500 hover:bg-amber-600 text-slate-900 font-extrabold text-xs shadow-xs transition-colors cursor-pointer"
-            title="Populates the Question Bank with 120 most important questions per subject across all 9 subjects (1,080 questions total)"
+            title="Populates the Question Bank with all 1,380 questions across all subjects and PYQ modules"
           >
-            <span>⚡ Load 120 Qs Per Subject (1,080 Qs)</span>
+            <span>⚡ Load Master Bank (1,380 Qs)</span>
           </button>
 
           {/* Download JSON Template */}
@@ -152,7 +168,7 @@ export const BulkImportExport: React.FC<BulkImportExportProps> = ({
             className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 text-slate-700 text-xs font-semibold shadow-2xs transition-colors"
           >
             <Download className="w-3.5 h-3.5 text-blue-600" />
-            <span>Download JSON Template</span>
+            <span>JSON Template</span>
           </button>
 
           {/* Import JSON File */}
@@ -161,7 +177,7 @@ export const BulkImportExport: React.FC<BulkImportExportProps> = ({
             className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg border border-emerald-500 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-xs font-semibold transition-colors"
           >
             <Upload className="w-3.5 h-3.5 text-emerald-700" />
-            <span>Import Questions (.json)</span>
+            <span>Import (.json)</span>
           </button>
           <input
             ref={fileInputRef}

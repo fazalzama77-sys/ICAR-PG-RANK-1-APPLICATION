@@ -43,7 +43,7 @@ export interface UserResponseState {
 }
 
 export interface TestConfig {
-  mode: 'full_mock' | 'custom_practice';
+  mode: 'full_mock' | 'custom_practice' | 'pyq_special';
   title: string;
   totalQuestions: number;
   durationMinutes: number; // 0 for untimed

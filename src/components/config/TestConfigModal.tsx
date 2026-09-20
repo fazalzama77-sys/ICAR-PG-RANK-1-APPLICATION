@@ -16,8 +16,8 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
   onNavigateToBank,
   preSelectedQuestions
 }) => {
-  // Mode: full_mock (120 Qs, 120 mins) or custom_practice
-  const [mode, setMode] = useState<'full_mock' | 'custom_practice'>('full_mock');
+  // Mode: full_mock (120 Qs, 120 mins) or pyq_special or custom_practice
+  const [mode, setMode] = useState<'full_mock' | 'custom_practice' | 'pyq_special'>('full_mock');
   const [title, setTitle] = useState<string>('ICAR AIEEA PG (M.V.Sc.) CBT Mock Exam');
   
   // Custom settings
@@ -84,12 +84,16 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
   };
 
   // Available matching questions
-  const availablePool = preSelectedQuestions || questions.filter(q => {
-    const matchesDomain = selectedDomains.includes(q.domain);
-    const matchesYear = selectedYears.includes(q.year);
-    const matchesSubject = selectedSubjectIds.includes(q.subjectId);
-    return matchesDomain && matchesYear && matchesSubject;
-  });
+  const availablePool = preSelectedQuestions || (
+    mode === 'pyq_special'
+      ? questions.filter(q => (q.tags?.includes('ICAR PG PYQ') || q.id.startsWith('pyq_')) && ['vpp', 'vmc', 'vbc'].includes(q.subjectId))
+      : questions.filter(q => {
+          const matchesDomain = selectedDomains.includes(q.domain);
+          const matchesYear = selectedYears.includes(q.year);
+          const matchesSubject = selectedSubjectIds.includes(q.subjectId);
+          return matchesDomain && matchesYear && matchesSubject;
+        })
+  );
 
   const handleLaunch = () => {
     if (availablePool.length === 0) {
@@ -105,18 +109,24 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
     // Limit to requested question count (or total available)
     const effectiveQCount = mode === 'full_mock' 
       ? Math.min(120, pool.length)
+      : mode === 'pyq_special'
+      ? Math.min(100, pool.length)
       : Math.min(questionCount, pool.length);
 
     const testQuestions = pool.slice(0, effectiveQCount);
 
     const config: TestConfig = {
       mode,
-      title: mode === 'full_mock' ? 'ICAR AIEEA PG (M.V.Sc.) Full CBT Mock Exam' : (title.trim() || 'ICAR PG Practice Drill'),
+      title: mode === 'full_mock' 
+        ? 'ICAR AIEEA PG (M.V.Sc.) Full CBT Mock Exam' 
+        : mode === 'pyq_special'
+        ? 'ICAR AIEEA PG - 300 PYQ Booster (Pathology, Microbiology, Biochemistry)'
+        : (title.trim() || 'ICAR PG Practice Drill'),
       totalQuestions: testQuestions.length,
-      durationMinutes: isUntimed ? 0 : (mode === 'full_mock' ? 120 : durationMinutes),
-      selectedDomains,
-      selectedYears,
-      selectedSubjectIds,
+      durationMinutes: isUntimed ? 0 : (mode === 'full_mock' ? 120 : mode === 'pyq_special' ? 100 : durationMinutes),
+      selectedDomains: mode === 'pyq_special' ? ['veterinary_science'] : selectedDomains,
+      selectedYears: mode === 'pyq_special' ? ['2nd_year'] : selectedYears,
+      selectedSubjectIds: mode === 'pyq_special' ? ['vpp', 'vmc', 'vbc'] : selectedSubjectIds,
       positiveMarks,
       negativeMarks,
       shuffleQuestions
@@ -142,7 +152,7 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
       </div>
 
       {/* Mode Selection Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {/* Option 1: Official ICAR AIEEA PG Full Mock */}
         <div
           onClick={() => {
@@ -164,29 +174,72 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
           )}
           <div className="flex items-center space-x-2 mb-2">
             <span className="bg-emerald-600 text-white text-[11px] font-bold px-2 py-0.5 rounded uppercase">
-              Recommended
+              Full Syllabus
             </span>
             <span className="text-xs font-bold text-slate-700">Official Exam Format</span>
           </div>
-          <h3 className="font-extrabold text-slate-900 text-base sm:text-lg">
+          <h3 className="font-extrabold text-slate-900 text-base">
             Full 120-Question ICAR PG Mock Exam
           </h3>
           <p className="text-xs text-slate-600 mt-1.5 leading-relaxed">
             Exact replica of the entrance test: 120 questions across Veterinary Science and Animal Science, 120 minutes (2 Hours), +4 for correct, -1 for negative marking.
           </p>
-          <div className="mt-4 flex items-center space-x-4 text-xs font-semibold text-slate-700">
+          <div className="mt-4 flex items-center space-x-3 text-xs font-semibold text-slate-700">
             <span className="flex items-center space-x-1">
               <Clock className="w-3.5 h-3.5 text-slate-500" />
-              <span>120 Minutes</span>
+              <span>120 Mins</span>
             </span>
             <span>&bull;</span>
             <span>120 MCQs</span>
             <span>&bull;</span>
-            <span>Total Marks: 480</span>
+            <span>480 Marks</span>
           </div>
         </div>
 
-        {/* Option 2: Custom Practice Drill */}
+        {/* Option 2: 300 ICAR PG PYQ Special */}
+        <div
+          onClick={() => {
+            setMode('pyq_special');
+            setQuestionCount(100);
+            setDurationMinutes(100);
+            setIsUntimed(false);
+          }}
+          className={`p-5 rounded-xl border-2 transition-all cursor-pointer relative ${
+            mode === 'pyq_special'
+              ? 'bg-purple-50/70 border-purple-600 shadow-md ring-1 ring-purple-500'
+              : 'bg-white border-slate-200 hover:border-purple-200 shadow-xs'
+          }`}
+        >
+          {mode === 'pyq_special' && (
+            <div className="absolute top-4 right-4 text-purple-600">
+              <CheckCircle2 className="w-5 h-5" />
+            </div>
+          )}
+          <div className="flex items-center space-x-2 mb-2">
+            <span className="bg-purple-600 text-white text-[11px] font-bold px-2 py-0.5 rounded uppercase">
+              🔥 PYQ Special
+            </span>
+            <span className="text-xs font-bold text-purple-800">Pathology &bull; Micro &bull; Biochem</span>
+          </div>
+          <h3 className="font-extrabold text-slate-900 text-base">
+            300 ICAR PG PYQ Booster Test
+          </h3>
+          <p className="text-xs text-slate-600 mt-1.5 leading-relaxed">
+            100 high-yield questions sampled strictly from the 300 PYQ pool for Veterinary Pathology, Microbiology, and Biochemistry. +4 / -1 official NTA marking.
+          </p>
+          <div className="mt-4 flex items-center space-x-3 text-xs font-semibold text-purple-900">
+            <span className="flex items-center space-x-1">
+              <Clock className="w-3.5 h-3.5 text-purple-600" />
+              <span>100 Mins</span>
+            </span>
+            <span>&bull;</span>
+            <span>100 MCQs</span>
+            <span>&bull;</span>
+            <span>400 Marks</span>
+          </div>
+        </div>
+
+        {/* Option 3: Custom Practice Drill */}
         <div
           onClick={() => setMode('custom_practice')}
           className={`p-5 rounded-xl border-2 transition-all cursor-pointer relative ${
@@ -206,19 +259,19 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
             </span>
             <span className="text-xs font-bold text-slate-700">Targeted Revision</span>
           </div>
-          <h3 className="font-extrabold text-slate-900 text-base sm:text-lg">
+          <h3 className="font-extrabold text-slate-900 text-base">
             Custom Subject &amp; Speed Practice
           </h3>
           <p className="text-xs text-slate-600 mt-1.5 leading-relaxed">
-            Choose exact number of questions (e.g. 20, 30, 50), custom timer or untimed, and focus specifically on 1st or 2nd year subjects you are currently studying.
+            Choose exact number of questions (e.g. 20, 30, 50), custom timer or untimed, and focus specifically on any selected subjects or professional years.
           </p>
-          <div className="mt-4 flex items-center space-x-4 text-xs font-semibold text-slate-700">
+          <div className="mt-4 flex items-center space-x-3 text-xs font-semibold text-slate-700">
             <span className="flex items-center space-x-1">
               <Sliders className="w-3.5 h-3.5 text-slate-500" />
-              <span>Custom Time &amp; Qs</span>
+              <span>Custom Settings</span>
             </span>
             <span>&bull;</span>
-            <span>Subject-wise Filters</span>
+            <span>Any Subjects</span>
           </div>
         </div>
       </div>
@@ -517,12 +570,18 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
           <h3 className="font-extrabold text-lg text-white">
             {mode === 'full_mock'
               ? 'ICAR AIEEA PG (M.V.Sc.) Official CBT Exam Replica'
+              : mode === 'pyq_special'
+              ? '🔥 300 ICAR PG PYQ Booster Test (Pathology, Micro, Biochem)'
               : `${questionCount} Qs &bull; ${isUntimed ? 'Untimed' : `${durationMinutes} Mins`} &bull; Custom Drill`}
           </h3>
           <p className="text-xs text-slate-200 max-w-xl">
             {availablePool.length === 0
-              ? 'Your Question Bank has no questions matching the selected subjects yet. Add questions or import sample MCQs to test.'
-              : `Launching with ${Math.min(availablePool.length, mode === 'full_mock' ? 120 : questionCount)} questions in official NTA interface.`}
+              ? 'Your Question Bank has no questions matching the selected subjects yet. Click the load PYQ button in Question Bank to activate them.'
+              : mode === 'full_mock'
+              ? 'Launching official full 120-question mock exam (120 mins, +4/-1 marking).'
+              : mode === 'pyq_special'
+              ? `Launching 100-question PYQ Special across Pathology, Microbiology & Biochemistry (Total PYQ pool: ${availablePool.length} Qs, 100 mins, +4/-1 marking).`
+              : `Launching with ${Math.min(availablePool.length, questionCount)} questions in official NTA interface.`}
           </p>
         </div>
 

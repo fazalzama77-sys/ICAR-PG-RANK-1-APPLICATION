@@ -1,5 +1,5 @@
 import { Question, TestResult, SRSRecord, SRSRating, SRSMetrics, DailyProgress } from '../types';
-import { ALL_HIGH_YIELD_QUESTIONS } from '../data/questionPacks/allQuestions';
+import { ALL_HIGH_YIELD_QUESTIONS, ALL_ICAR_PG_PYQ_QUESTIONS } from '../data/questionPacks/allQuestions';
 
 const STORAGE_KEYS = {
   QUESTIONS: 'icar_pg_questions_v1',
@@ -31,7 +31,7 @@ export const StorageService = {
     try {
       const data = localStorage.getItem(STORAGE_KEYS.QUESTIONS);
       if (!data) {
-        // Auto-seed with all 1,080 high-yield questions across all 9 subjects
+        // Auto-seed with all 1,380 high-yield questions (1,080 base + 300 PYQs)
         localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
         return ALL_HIGH_YIELD_QUESTIONS;
       }
@@ -39,6 +39,14 @@ export const StorageService = {
       if (parsed.length === 0) {
         localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
         return ALL_HIGH_YIELD_QUESTIONS;
+      }
+      // Auto-sync missing questions (e.g. 300 PYQs for existing users)
+      const existingIds = new Set(parsed.map(q => q.id));
+      const missing = ALL_HIGH_YIELD_QUESTIONS.filter(q => !existingIds.has(q.id));
+      if (missing.length > 0) {
+        const merged = [...parsed, ...missing];
+        localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(merged));
+        return merged;
       }
       return parsed;
     } catch (e) {
@@ -50,6 +58,20 @@ export const StorageService = {
   loadAll1080Questions(): { count: number } {
     localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
     return { count: ALL_HIGH_YIELD_QUESTIONS.length };
+  },
+
+  loadAll1380Questions(): { count: number } {
+    localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+    return { count: ALL_HIGH_YIELD_QUESTIONS.length };
+  },
+
+  loadPyqPack(): { added: number; total: number } {
+    const existing = this.getQuestions();
+    const existingIds = new Set(existing.map(q => q.id));
+    const toAdd = ALL_ICAR_PG_PYQ_QUESTIONS.filter(q => !existingIds.has(q.id));
+    const merged = [...existing, ...toAdd];
+    this.saveQuestions(merged);
+    return { added: toAdd.length, total: merged.length };
   },
 
 

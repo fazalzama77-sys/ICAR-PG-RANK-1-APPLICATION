@@ -21,6 +21,7 @@ export const QuestionBankView: React.FC<QuestionBankViewProps> = ({
   const [selectedYear, setSelectedYear] = useState<string>('all');
   const [selectedSubject, setSelectedSubject] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
+  const [pyqOnly, setPyqOnly] = useState<boolean>(false);
 
   // Add/Edit modal state
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -35,6 +36,7 @@ export const QuestionBankView: React.FC<QuestionBankViewProps> = ({
 
   // Filter questions
   const filteredQuestions = questions.filter(q => {
+    if (pyqOnly && !(q.tags?.includes('ICAR PG PYQ') || q.id.startsWith('pyq_'))) return false;
     if (selectedDomain !== 'all' && q.domain !== selectedDomain) return false;
     if (selectedYear !== 'all' && q.year !== selectedYear) return false;
     if (selectedSubject !== 'all' && q.subjectId !== selectedSubject) return false;
@@ -82,6 +84,7 @@ export const QuestionBankView: React.FC<QuestionBankViewProps> = ({
   const animalCount = questions.filter(q => q.domain === 'animal_science').length;
   const y1Count = questions.filter(q => q.year === '1st_year').length;
   const y2Count = questions.filter(q => q.year === '2nd_year').length;
+  const pyqCount = questions.filter(q => q.tags?.includes('ICAR PG PYQ') || q.id.startsWith('pyq_')).length;
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
@@ -93,7 +96,7 @@ export const QuestionBankView: React.FC<QuestionBankViewProps> = ({
             <span>Question Bank & Repository</span>
           </h2>
           <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
-            Manage your high-yield ICAR AIEEA PG question collection across 1st & 2nd year subjects.
+            Manage your high-yield ICAR AIEEA PG question collection across 1st & 2nd year subjects + Official PYQs.
           </p>
         </div>
 
@@ -121,10 +124,23 @@ export const QuestionBankView: React.FC<QuestionBankViewProps> = ({
       </div>
 
       {/* Metrics Row */}
-      <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 sm:gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
         <div className="bg-white p-3.5 rounded-xl border border-slate-200 shadow-2xs">
           <p className="text-xs font-semibold text-slate-500">Total in Bank</p>
           <p className="text-xl sm:text-2xl font-black text-slate-900 mt-1">{questions.length}</p>
+        </div>
+        <div 
+          onClick={() => setPyqOnly(!pyqOnly)}
+          className={`p-3.5 rounded-xl border shadow-2xs cursor-pointer transition-all ${
+            pyqOnly ? 'bg-purple-100/70 border-purple-500 ring-2 ring-purple-500/30' : 'bg-white border-purple-200 hover:border-purple-300'
+          }`}
+          title="Click to toggle ICAR PG PYQs only"
+        >
+          <div className="flex items-center justify-between">
+            <p className="text-xs font-bold text-purple-700">🔥 ICAR PG PYQs</p>
+            {pyqOnly && <span className="text-[10px] bg-purple-700 text-white px-1.5 py-0.2 rounded-full font-bold">Active</span>}
+          </div>
+          <p className="text-xl sm:text-2xl font-black text-purple-900 mt-1">{pyqCount}</p>
         </div>
         <div className="bg-white p-3.5 rounded-xl border border-blue-200 shadow-2xs">
           <p className="text-xs font-semibold text-blue-700">Veterinary Science</p>
@@ -138,9 +154,9 @@ export const QuestionBankView: React.FC<QuestionBankViewProps> = ({
           <p className="text-xs font-semibold text-indigo-700">1st Year Subjects</p>
           <p className="text-xl sm:text-2xl font-black text-indigo-900 mt-1">{y1Count}</p>
         </div>
-        <div className="bg-white p-3.5 rounded-xl border border-purple-200 shadow-2xs">
-          <p className="text-xs font-semibold text-purple-700">2nd Year Subjects</p>
-          <p className="text-xl sm:text-2xl font-black text-purple-900 mt-1">{y2Count}</p>
+        <div className="bg-white p-3.5 rounded-xl border border-pink-200 shadow-2xs">
+          <p className="text-xs font-semibold text-pink-700">2nd Year Subjects</p>
+          <p className="text-xl sm:text-2xl font-black text-pink-900 mt-1">{y2Count}</p>
         </div>
       </div>
 
@@ -284,6 +300,11 @@ export const QuestionBankView: React.FC<QuestionBankViewProps> = ({
                     {q.topic && (
                       <span className="bg-amber-50 text-amber-800 px-2 py-0.5 rounded border border-amber-200">
                         {q.topic}
+                      </span>
+                    )}
+                    {(q.tags?.includes('ICAR PG PYQ') || q.id.startsWith('pyq_')) && (
+                      <span className="bg-purple-100 text-purple-900 px-2 py-0.5 rounded border border-purple-300 font-bold">
+                        🔥 ICAR PG PYQ
                       </span>
                     )}
                     <span className="text-slate-400">&bull;</span>
