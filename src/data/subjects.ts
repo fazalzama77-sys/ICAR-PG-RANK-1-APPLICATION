@@ -1,14 +1,14 @@
 import { Subject } from '../types';
 
 export const SUBJECT_LIST: Subject[] = [
-  // 1st Year - Veterinary Science
+  // 1st Year - Veterinary Science (ICAR Major Subject Group Code 13)
   {
     id: 'van',
     name: 'Veterinary Anatomy',
     code: 'VAN',
     domain: 'veterinary_science',
     year: '1st_year',
-    description: 'Gross anatomy, osteology, arthrology, myology, histology, embryology and neuroanatomy of domestic animals.',
+    description: 'Gross anatomy, osteology, arthrology, myology, histology, embryology and neuroanatomy of domestic animals. (ICAR Code 13.1)',
     topics: [
       'Osteology & Arthrology',
       'Myology & Angiology',
@@ -18,13 +18,15 @@ export const SUBJECT_LIST: Subject[] = [
       'Avian Anatomy'
     ]
   },
+
+  // 1st Year - Animal Science (ICAR Major Subject Group Code 14)
   {
     id: 'vpy',
     name: 'Veterinary Physiology',
     code: 'VPY',
-    domain: 'veterinary_science',
+    domain: 'animal_science',
     year: '1st_year',
-    description: 'Cellular biophysics, blood, cardiovascular, respiratory, renal, digestive, endocrine and reproductive physiology.',
+    description: 'Cellular biophysics, blood, cardiovascular, respiratory, renal, digestive, endocrine and reproductive physiology. (ICAR Code 14.3)',
     topics: [
       'Hematology & Cardiovascular System',
       'Respiration & Environmental Physiology',
@@ -38,9 +40,9 @@ export const SUBJECT_LIST: Subject[] = [
     id: 'vbc',
     name: 'Veterinary Biochemistry',
     code: 'VBC',
-    domain: 'veterinary_science',
+    domain: 'animal_science',
     year: '1st_year',
-    description: 'Biomolecules, enzymology, bioenergetics, metabolism, molecular biology, and clinical diagnostic biochemistry.',
+    description: 'Biomolecules, enzymology, bioenergetics, nutrient metabolism, molecular biology, and clinical diagnostic biochemistry. (ICAR Code 14 Unit II)',
     topics: [
       'Biomolecules & Enzymes',
       'Intermediary Metabolism (Carbs, Lipids, Proteins)',
@@ -50,8 +52,6 @@ export const SUBJECT_LIST: Subject[] = [
       'Mineral, Vitamin & Hormone Chemistry'
     ]
   },
-
-  // 1st Year - Animal Science
   {
     id: 'lpm',
     name: 'Livestock Production Management',
@@ -175,8 +175,8 @@ export const SUBJECT_LIST: Subject[] = [
 ];
 
 export const DOMAIN_LABELS: Record<string, string> = {
-  veterinary_science: 'Veterinary Science Subjects',
-  animal_science: 'Animal Science Subjects'
+  veterinary_science: 'Veterinary Science (Code 13)',
+  animal_science: 'Animal Sciences (Code 14)'
 };
 
 export const YEAR_LABELS: Record<string, string> = {
