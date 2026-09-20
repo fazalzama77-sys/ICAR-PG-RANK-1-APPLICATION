@@ -9,6 +9,7 @@ import { AnalyticsView } from './components/analytics/AnalyticsView';
 import { SpacedRepetitionView } from './components/spacedRepetition/SpacedRepetitionView';
 import { DrillTestLauncher } from './components/drill/DrillTestLauncher';
 import { InstantDrillRunner } from './components/drill/InstantDrillRunner';
+import { SettingsModal } from './components/settings/SettingsModal';
 import { Question, TestResult, TestConfig, NavigationTab, DrillConfig, DrillPreset } from './types';
 import { StorageService, UserProfile } from './storage/db';
 
@@ -19,6 +20,15 @@ export function App() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [testResults, setTestResults] = useState<TestResult[]>([]);
   const [userProfile, setUserProfile] = useState<UserProfile>(StorageService.getUserProfile());
+
+  // Settings & Storage modal state
+  const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+  const [settingsDefaultTab, setSettingsDefaultTab] = useState<'profile' | 'cache' | 'data'>('profile');
+
+  const handleOpenSettings = (tab: 'profile' | 'cache' | 'data' = 'profile') => {
+    setSettingsDefaultTab(tab);
+    setIsSettingsOpen(true);
+  };
 
   // Active Exam state (CBT)
   const [isExamActive, setIsExamActive] = useState(false);
@@ -197,7 +207,7 @@ export function App() {
           setActiveTab(tab);
         }}
         userProfile={userProfile}
-        onProfileUpdate={setUserProfile}
+        onOpenSettings={handleOpenSettings}
         isExamInProgress={isExamActive || isInstantDrillActive}
         srsDueCount={srsMetrics.dueToday}
       />
@@ -250,6 +260,7 @@ export function App() {
             onOpenDrillLauncher={() => setActiveTab('drill_test')}
             onViewResult={handleViewResult}
             onNavigateToBank={() => setActiveTab('question_bank')}
+            onOpenSettings={handleOpenSettings}
           />
         )}
 
@@ -310,6 +321,16 @@ export function App() {
           />
         )}
       </main>
+
+      {/* Global Settings, Reset Cache Memory & Reset Data Modal */}
+      <SettingsModal
+        isOpen={isSettingsOpen}
+        onClose={() => setIsSettingsOpen(false)}
+        userProfile={userProfile}
+        onProfileUpdate={setUserProfile}
+        onDataReset={refreshData}
+        defaultTab={settingsDefaultTab}
+      />
     </div>
   );
 }

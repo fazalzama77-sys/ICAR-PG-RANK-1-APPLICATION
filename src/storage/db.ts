@@ -1,7 +1,7 @@
 import { Question, TestResult, SRSRecord, SRSRating, SRSMetrics, DailyProgress } from '../types';
 import { ALL_HIGH_YIELD_QUESTIONS, ALL_ICAR_PG_PYQ_QUESTIONS } from '../data/questionPacks/allQuestions';
 
-const STORAGE_KEYS = {
+export const STORAGE_KEYS = {
   QUESTIONS: 'icar_pg_questions_v1',
   RESULTS: 'icar_pg_results_v1',
   USER_PROFILE: 'icar_pg_user_profile_v1',
@@ -49,6 +49,7 @@ export const StorageService = {
       }
 
       // Automatically purge any dummy / placeholder questions from storage
+      let modified = missing.length > 0;
       const isDummy = (q: Question) => 
         q.questionText.includes('Clinical Landmark MCQ #') ||
         Boolean(q.topic && q.topic.includes('Core Diagnostic')) ||

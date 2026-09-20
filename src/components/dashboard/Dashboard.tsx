@@ -10,7 +10,11 @@ import {
   Brain,
   Zap,
   Flame,
-  AlertTriangle
+  AlertTriangle,
+  HardDrive,
+  Cpu,
+  Database,
+  Settings
 } from 'lucide-react';
 import { Question, TestResult, DrillPreset } from '../../types';
 import { SUBJECT_LIST } from '../../data/subjects';
@@ -28,6 +32,7 @@ interface DashboardProps {
   onOpenDrillLauncher: () => void;
   onViewResult: (result: TestResult) => void;
   onNavigateToBank: () => void;
+  onOpenSettings?: (tab?: 'profile' | 'cache' | 'data') => void;
 }
 
 export const Dashboard: React.FC<DashboardProps> = ({
@@ -41,7 +46,8 @@ export const Dashboard: React.FC<DashboardProps> = ({
   onOpenSpacedRepetition,
   onOpenDrillLauncher,
   onViewResult,
-  onNavigateToBank
+  onNavigateToBank,
+  onOpenSettings
 }) => {
   const [subjectFilter, setSubjectFilter] = useState<'all' | '1st_year' | '2nd_year' | 'veterinary_science' | 'animal_science'>('all');
 
@@ -645,6 +651,53 @@ export const Dashboard: React.FC<DashboardProps> = ({
             ))}
           </div>
         )}
+      </div>
+
+      {/* 6. Device Storage, Cache & Data Controls */}
+      <div className="bg-gradient-to-r from-slate-900 via-slate-800 to-indigo-950 text-white rounded-2xl p-5 sm:p-6 shadow-md border border-slate-700/50">
+        <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-5">
+          <div className="space-y-1.5 max-w-xl">
+            <div className="flex items-center space-x-2">
+              <div className="p-2 rounded-lg bg-indigo-500/20 text-indigo-300 border border-indigo-400/30">
+                <HardDrive className="w-5 h-5" />
+              </div>
+              <h3 className="font-extrabold text-base sm:text-lg tracking-tight">
+                Device Storage, Cache &amp; Data Management
+              </h3>
+            </div>
+            <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+              Flush cached memory bundles and offline service worker assets without touching your test scores, or manage your stored question bank and mock exam scorecards.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap items-center gap-3">
+            <button
+              onClick={() => onOpenSettings?.('cache')}
+              className="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white font-bold text-xs sm:text-sm flex items-center space-x-2 shadow-sm transition-all transform active:scale-98 cursor-pointer"
+              title="Clear temporary cache storage and refresh application"
+            >
+              <Cpu className="w-4 h-4 text-indigo-200" />
+              <span>Reset Cache Memory</span>
+            </button>
+
+            <button
+              onClick={() => onOpenSettings?.('data')}
+              className="px-4 py-2.5 rounded-xl bg-slate-800 hover:bg-rose-700 active:bg-rose-800 text-white border border-slate-600 hover:border-rose-600 font-bold text-xs sm:text-sm flex items-center space-x-2 shadow-sm transition-all transform active:scale-98 cursor-pointer"
+              title="Manage stored test scorecards, SRS progress, and factory reset"
+            >
+              <Database className="w-4 h-4 text-rose-300" />
+              <span>Reset App Data</span>
+            </button>
+
+            <button
+              onClick={() => onOpenSettings?.('profile')}
+              className="p-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700 transition-colors cursor-pointer"
+              title="Open Settings & Candidate Profile"
+            >
+              <Settings className="w-4 h-4" />
+            </button>
+          </div>
+        </div>
       </div>
 
     </div>
