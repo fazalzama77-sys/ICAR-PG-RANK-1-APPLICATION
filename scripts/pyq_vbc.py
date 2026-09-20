@@ -416,7 +416,7 @@ def get_vbc_pyqs():
     for idx, item in enumerate(pyqs[:100]):
         final_list.append({
             "id": f"pyq_vbc_{idx+1:03d}",
-            "domain": "veterinary_science",
+            "domain": "animal_science",
             "year": "2nd_year",
             "subjectId": "vbc",
             "topic": "Veterinary Biochemistry (ICAR PG PYQ)",

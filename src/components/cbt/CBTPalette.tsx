@@ -132,7 +132,7 @@ export const CBTPalette: React.FC<CBTPaletteProps> = ({
       {/* Palette Title */}
       <div className="px-3 py-2 bg-[#2b547e] text-white flex items-center justify-between">
         <span className="text-xs font-bold uppercase tracking-wide">
-          {currentSection === 'veterinary_science' ? 'Veterinary Science Grid' : 'Animal Science Grid'}
+          {currentSection === 'veterinary_science' ? 'Veterinary Science (Code 13)' : 'Animal Sciences (Code 14)'}
         </span>
         <span className="text-[11px] bg-white/20 px-2 py-0.5 rounded font-mono">
           {sectionQuestionsWithOriginalIndex.length} Questions

@@ -57,6 +57,19 @@ def main():
     if os.path.exists(base_json_path):
         with open(base_json_path, "r", encoding="utf-8") as f:
             base_1080 = json.load(f)
+
+        # Harmonize domains according to official ICAR AIEEA PG Codes 13 & 14
+        for q in base_1080:
+            if q.get('subjectId') in ['vpy', 'vbc']:
+                q['domain'] = 'animal_science'
+            elif q.get('subjectId') in ['van', 'vpp', 'vmc', 'vpa']:
+                q['domain'] = 'veterinary_science'
+            elif q.get('subjectId') in ['lpm', 'agb', 'ann']:
+                q['domain'] = 'animal_science'
+
+        # Also write back updated base_1080
+        with open(base_json_path, "w", encoding="utf-8") as f:
+            json.dump(base_1080, f, indent=2)
         
         master_1380 = base_1080 + all_pyqs
         master_json_path = os.path.join("src", "data", "questionPacks", "high_yield_master_1380.json")

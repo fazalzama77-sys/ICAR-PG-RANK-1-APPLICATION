@@ -4611,7 +4611,7 @@ export const VMC_PYQ_QUESTIONS: Question[] = [
 export const VBC_PYQ_QUESTIONS: Question[] = [
   {
     "id": "pyq_vbc_001",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4634,7 +4634,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_002",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4657,7 +4657,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_003",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4680,7 +4680,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_004",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4703,7 +4703,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_005",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4726,7 +4726,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_006",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4749,7 +4749,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_007",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4772,7 +4772,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_008",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4795,7 +4795,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_009",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4818,7 +4818,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_010",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4841,7 +4841,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_011",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4864,7 +4864,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_012",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4887,7 +4887,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_013",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4910,7 +4910,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_014",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4933,7 +4933,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_015",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4956,7 +4956,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_016",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -4979,7 +4979,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_017",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5002,7 +5002,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_018",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5025,7 +5025,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_019",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5048,7 +5048,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_020",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5071,7 +5071,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_021",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5094,7 +5094,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_022",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5117,7 +5117,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_023",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5140,7 +5140,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_024",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5163,7 +5163,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_025",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5186,7 +5186,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_026",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5209,7 +5209,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_027",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5232,7 +5232,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_028",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5255,7 +5255,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_029",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5278,7 +5278,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_030",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5301,7 +5301,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_031",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5324,7 +5324,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_032",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5347,7 +5347,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_033",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5370,7 +5370,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_034",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5393,7 +5393,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_035",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5416,7 +5416,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_036",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5439,7 +5439,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_037",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5462,7 +5462,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_038",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5485,7 +5485,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_039",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5508,7 +5508,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_040",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5531,7 +5531,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_041",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5554,7 +5554,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_042",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5577,7 +5577,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_043",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5600,7 +5600,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_044",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5623,7 +5623,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_045",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5646,7 +5646,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_046",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5669,7 +5669,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_047",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5692,7 +5692,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_048",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5715,7 +5715,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_049",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5738,7 +5738,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_050",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5761,7 +5761,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_051",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5784,7 +5784,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_052",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5807,7 +5807,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_053",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5830,7 +5830,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_054",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5853,7 +5853,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_055",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5876,7 +5876,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_056",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5899,7 +5899,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_057",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5922,7 +5922,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_058",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5945,7 +5945,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_059",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5968,7 +5968,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_060",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -5991,7 +5991,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_061",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6014,7 +6014,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_062",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6037,7 +6037,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_063",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6060,7 +6060,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_064",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6083,7 +6083,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_065",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6106,7 +6106,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_066",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6129,7 +6129,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_067",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6152,7 +6152,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_068",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6175,7 +6175,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_069",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6198,7 +6198,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_070",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6221,7 +6221,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_071",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6244,7 +6244,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_072",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6267,7 +6267,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_073",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6290,7 +6290,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_074",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6313,7 +6313,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_075",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6336,7 +6336,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_076",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6359,7 +6359,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_077",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6382,7 +6382,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_078",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6405,7 +6405,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_079",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6428,7 +6428,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_080",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6451,7 +6451,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_081",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6474,7 +6474,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_082",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6497,7 +6497,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_083",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6520,7 +6520,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_084",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6543,7 +6543,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_085",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6566,7 +6566,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_086",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6589,7 +6589,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_087",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6612,7 +6612,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_088",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6635,7 +6635,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_089",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6658,7 +6658,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_090",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6681,7 +6681,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_091",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6704,7 +6704,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_092",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6727,7 +6727,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_093",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6750,7 +6750,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_094",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6773,7 +6773,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_095",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6796,7 +6796,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_096",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6819,7 +6819,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_097",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6842,7 +6842,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_098",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6865,7 +6865,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_099",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
@@ -6888,7 +6888,7 @@ export const VBC_PYQ_QUESTIONS: Question[] = [
   },
   {
     "id": "pyq_vbc_100",
-    "domain": "veterinary_science",
+    "domain": "animal_science",
     "year": "2nd_year",
     "subjectId": "vbc",
     "topic": "Veterinary Biochemistry (ICAR PG PYQ)",

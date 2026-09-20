@@ -107,7 +107,7 @@ export const CBTHeader: React.FC<CBTHeaderProps> = ({
                 : 'bg-white/10 text-slate-200 hover:bg-white/20'
             }`}
           >
-            <span>Veterinary Science</span>
+            <span>Veterinary Science (Code 13)</span>
             <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
               currentSection === 'veterinary_science' ? 'bg-[#1f3f60] text-white' : 'bg-white/20 text-white'
             }`}>
@@ -123,7 +123,7 @@ export const CBTHeader: React.FC<CBTHeaderProps> = ({
                 : 'bg-white/10 text-slate-200 hover:bg-white/20'
             }`}
           >
-            <span>Animal Science</span>
+            <span>Animal Sciences (Code 14)</span>
             <span className={`text-[10px] px-1.5 py-0.2 rounded-full ${
               currentSection === 'animal_science' ? 'bg-[#1f3f60] text-white' : 'bg-white/20 text-white'
             }`}>

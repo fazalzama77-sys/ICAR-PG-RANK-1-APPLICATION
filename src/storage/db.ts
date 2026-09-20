@@ -43,12 +43,37 @@ export const StorageService = {
       // Auto-sync missing questions (e.g. 300 PYQs for existing users)
       const existingIds = new Set(parsed.map(q => q.id));
       const missing = ALL_HIGH_YIELD_QUESTIONS.filter(q => !existingIds.has(q.id));
+      let updatedList = parsed;
       if (missing.length > 0) {
-        const merged = [...parsed, ...missing];
-        localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(merged));
-        return merged;
+        updatedList = [...parsed, ...missing];
       }
-      return parsed;
+
+      // Automatically purge any dummy / placeholder questions from storage
+      const isDummy = (q: Question) => 
+        q.questionText.includes('Clinical Landmark MCQ #') ||
+        Boolean(q.topic && q.topic.includes('Core Diagnostic')) ||
+        q.options.some(opt => opt.includes('Standard validated laboratory'));
+
+      const cleanedList = updatedList.filter(q => !isDummy(q));
+      if (cleanedList.length !== updatedList.length) {
+        updatedList = cleanedList;
+        modified = true;
+      }
+
+      // Harmonize domains for vpy and vbc to animal_science if outdated in local storage
+      for (const q of updatedList) {
+        if ((q.subjectId === 'vpy' || q.subjectId === 'vbc') && q.domain !== 'animal_science') {
+          q.domain = 'animal_science';
+          modified = true;
+        } else if (['van', 'vpp', 'vmc', 'vpa'].includes(q.subjectId) && q.domain !== 'veterinary_science') {
+          q.domain = 'veterinary_science';
+          modified = true;
+        }
+      }
+      if (modified) {
+        localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(updatedList));
+      }
+      return updatedList;
     } catch (e) {
       console.error('Failed to load questions from localStorage', e);
       return ALL_HIGH_YIELD_QUESTIONS;
@@ -61,6 +86,11 @@ export const StorageService = {
   },
 
   loadAll1380Questions(): { count: number } {
+    localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+    return { count: ALL_HIGH_YIELD_QUESTIONS.length };
+  },
+
+  loadAllMasterQuestions(): { count: number } {
     localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
     return { count: ALL_HIGH_YIELD_QUESTIONS.length };
   },

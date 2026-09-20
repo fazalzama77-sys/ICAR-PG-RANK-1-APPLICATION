@@ -108,7 +108,7 @@ export const CBTSubmitModal: React.FC<CBTSubmitModalProps> = ({
               <tbody className="divide-y divide-slate-200 text-center font-medium">
                 {/* Veterinary Science Row */}
                 <tr className="hover:bg-slate-50">
-                  <td className="py-2 px-3 text-left font-semibold text-slate-800">Veterinary Science</td>
+                  <td className="py-2 px-3 text-left font-semibold text-slate-800">Veterinary Science (Code 13)</td>
                   <td className="py-2 px-2 font-mono">{vetStats.total}</td>
                   <td className="py-2 px-2 text-emerald-700 font-bold">{vetStats.answered}</td>
                   <td className="py-2 px-2 text-red-600 font-semibold">{vetStats.notAnswered}</td>
@@ -119,7 +119,7 @@ export const CBTSubmitModal: React.FC<CBTSubmitModalProps> = ({
 
                 {/* Animal Science Row */}
                 <tr className="hover:bg-slate-50">
-                  <td className="py-2 px-3 text-left font-semibold text-slate-800">Animal Science</td>
+                  <td className="py-2 px-3 text-left font-semibold text-slate-800">Animal Sciences (Code 14)</td>
                   <td className="py-2 px-2 font-mono">{animalStats.total}</td>
                   <td className="py-2 px-2 text-emerald-700 font-bold">{animalStats.answered}</td>
                   <td className="py-2 px-2 text-red-600 font-semibold">{animalStats.notAnswered}</td>
