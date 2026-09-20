@@ -67,6 +67,8 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+}
+
 class WebAppInterface(private val context: android.content.Context, private val webView: WebView) {
     @JavascriptInterface
     fun resetCacheMemory() {
@@ -190,6 +192,8 @@ fun CbtWebAppContainer(
                                 isLoading = false
                             }
                         }
+                    }
+
                     addJavascriptInterface(WebAppInterface(context, this), "AndroidBridge")
 
                     loadUrl(url)
