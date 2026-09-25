@@ -44,3 +44,8 @@ for q in combined:
     s = q.get('subjectId')
     total_subjs[s] = total_subjs.get(s, 0) + 1
 print("Total by subject:", total_subjs)
+
+from collections import Counter
+print("PYQ correctOptionIndex:", Counter(q.get('correctOptionIndex') for q in pyq_qs))
+print("Base correctOptionIndex:", Counter(q.get('correctOptionIndex') for q in all_qs))
+
