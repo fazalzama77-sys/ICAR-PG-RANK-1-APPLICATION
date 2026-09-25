@@ -1,0 +1,2318 @@
+[
+  {
+    "id": "van_q_090",
+    "subjectId": "van",
+    "topic": "Splanchnology",
+    "questionText": "The right lung of the ox is divided into how many lobes?",
+    "correct": "4 lobes (cranial divided into 2, middle, caudal, accessory)",
+    "distractors": [
+      "2 lobes",
+      "6 lobes",
+      "3 lobes"
+    ]
+  },
+  {
+    "id": "vpy_q_028",
+    "subjectId": "vpy",
+    "topic": "Physiology & Endocrinology",
+    "questionText": "The predominant volatile fatty acid metabolized directly by the ruminal epithelial wall during absorption is:",
+    "correct": "Butyrate (converted to beta-hydroxybutyrate)",
+    "distractors": [
+      "Propionate",
+      "Acetate",
+      "Formate"
+    ]
+  },
+  {
+    "id": "vpy_q_037",
+    "subjectId": "vpy",
+    "topic": "Physiology & Endocrinology",
+    "questionText": "Frothy bloat (primary tympany) is triggered by:",
+    "correct": "Stable foam trapping fermentation gas in the rumen fluid (legume bloat)",
+    "distractors": [
+      "Rumen flukes",
+      "Esophageal foreign body",
+      "Vagus nerve trauma"
+    ]
+  },
+  {
+    "id": "vpy_q_046",
+    "subjectId": "vpy",
+    "topic": "Physiology & Endocrinology",
+    "questionText": "The primary site of cellulose and hemicellulose digestion in the horse is the:",
+    "correct": "Cecum and large colon (hindgut fermentation)",
+    "distractors": [
+      "Stomach",
+      "Duodenum",
+      "Ileum"
+    ]
+  },
+  {
+    "id": "vpy_q_088",
+    "subjectId": "vpy",
+    "topic": "Physiology & Endocrinology",
+    "questionText": "The mare is classified reproductively as a:",
+    "correct": "Seasonally polyestrous long-day breeder (spring/summer breeder)",
+    "distractors": [
+      "Monoestrous",
+      "Short-day breeder",
+      "Induced ovulator"
+    ]
+  },
+  {
+    "id": "vpy_q_096",
+    "subjectId": "vpy",
+    "topic": "Physiology & Endocrinology",
+    "questionText": "Growth Hormone (GH / Somatotropin) exerts its growth-promoting actions on long bones primarily via liver production of:",
+    "correct": "Insulin-like Growth Factor 1 (IGF-1 / Somatomedin C)",
+    "distractors": [
+      "Thyroxine",
+      "Calcitonin",
+      "Insulin"
+    ]
+  },
+  {
+    "id": "vpy_q_102",
+    "subjectId": "vpy",
+    "topic": "Veterinary Physiology High-Yield Core",
+    "questionText": "In equine exercise physiology, heat is dissipated predominantly through sweating, mediated by which receptor type on apocrine sweat glands?",
+    "correct": "Beta-2 adrenergic receptors (stimulated by circulating epinephrine)",
+    "distractors": [
+      "Nicotinic",
+      "Alpha-2 adrenergic",
+      "Muscarinic cholinergic"
+    ]
+  },
+  {
+    "id": "vpy_q_107",
+    "subjectId": "vpy",
+    "topic": "Veterinary Physiology High-Yield Core",
+    "questionText": "The site of active fertilization of the ovulated ovum in domestic mammals is the:",
+    "correct": "Ampullary-isthmic junction of the oviduct (fallopian tube)",
+    "distractors": [
+      "Cervix",
+      "Ovarian bursa",
+      "Uterine body"
+    ]
+  },
+  {
+    "id": "vpy_q_109",
+    "subjectId": "vpy",
+    "topic": "Veterinary Physiology High-Yield Core",
+    "questionText": "The 'acrosome reaction' is triggered when the capacitated sperm binds to which glycoprotein of the zona pellucida?",
+    "correct": "ZP3 (Zona Pellucida Glycoprotein 3)",
+    "distractors": [
+      "ZP2",
+      "ZP4",
+      "ZP1"
+    ]
+  },
+  {
+    "id": "vpy_q_110",
+    "subjectId": "vpy",
+    "topic": "Veterinary Physiology High-Yield Core",
+    "questionText": "The 'polyspermy block' (cortical reaction) in mammalian oocytes is triggered by:",
+    "correct": "Exocytosis of cortical granules releasing enzymes that harden the zona pellucida (zona reaction)",
+    "distractors": [
+      "Phagocytosis of excess sperm",
+      "Rapid membrane depolarization only",
+      "Immediate extrusion of polar body"
+    ]
+  },
+  {
+    "id": "vpy_q_111",
+    "subjectId": "vpy",
+    "topic": "Veterinary Physiology High-Yield Core",
+    "questionText": "The dominant follicle produces high levels of Inhibin to selectively suppress anterior pituitary secretion of:",
+    "correct": "FSH (Follicle-Stimulating Hormone)",
+    "distractors": [
+      "LH",
+      "ACTH",
+      "TSH"
+    ]
+  },
+  {
+    "id": "vbc_q_015",
+    "subjectId": "vbc",
+    "topic": "Biochemistry & Metabolism",
+    "questionText": "The key regulatory enzyme of gluconeogenesis that bypasses pyruvate kinase is:",
+    "correct": "Pyruvate carboxylase and Phosphoenolpyruvate carboxykinase (PEPCK)",
+    "distractors": [
+      "Phosphofructokinase",
+      "Hexokinase",
+      "Glucokinase"
+    ]
+  },
+  {
+    "id": "vbc_q_030",
+    "subjectId": "vbc",
+    "topic": "Biochemistry & Metabolism",
+    "questionText": "The essential fatty acids required in feline diets that cats cannot synthesize from linoleic acid are:",
+    "correct": "Arachidonic acid (due to lack of delta-6 desaturase activity)",
+    "distractors": [
+      "Oleic acid",
+      "Palmitic acid",
+      "Stearic acid"
+    ]
+  },
+  {
+    "id": "vbc_q_045",
+    "subjectId": "vbc",
+    "topic": "Biochemistry & Metabolism",
+    "questionText": "The 'start codon' that initiates eukaryotic and prokaryotic translation is:",
+    "correct": "AUG (coding for Methionine / N-formylmethionine)",
+    "distractors": [
+      "UGA",
+      "UAG",
+      "UAA"
+    ]
+  },
+  {
+    "id": "vbc_q_055",
+    "subjectId": "vbc",
+    "topic": "Biochemistry & Metabolism",
+    "questionText": "Deficiency of Vitamin E and/or Selenium in calves and lambs produces which classic pathological condition?",
+    "correct": "White Muscle Disease (Enzootic Nutritional Muscular Dystrophy)",
+    "distractors": [
+      "Rickets",
+      "Night blindness",
+      "Goiter"
+    ]
+  },
+  {
+    "id": "vbc_q_057",
+    "subjectId": "vbc",
+    "topic": "Biochemistry & Metabolism",
+    "questionText": "Anticoagulant rodenticide poisoning (e.g. Brodifacoum, Warfarin) fatally inhibits which enzyme in the vitamin K cycle?",
+    "correct": "Vitamin K epoxide reductase (VKOR)",
+    "distractors": [
+      "Thrombin",
+      "Tissue factor",
+      "Factor Xa"
+    ]
+  },
+  {
+    "id": "lpm_q_018",
+    "subjectId": "lpm",
+    "topic": "Livestock Production Management",
+    "questionText": "Debudding (disbudding) of dairy calves using a hot-iron cautery should ideally be performed at:",
+    "correct": "7 to 15 days of age (before the horn bud adheres to frontal bone)",
+    "distractors": [
+      "At birth immediately",
+      "1 year of age",
+      "6 months of age"
+    ]
+  },
+  {
+    "id": "lpm_q_028",
+    "subjectId": "lpm",
+    "topic": "Livestock Production Management",
+    "questionText": "The world-famous 'Murrah' buffalo breed originated from:",
+    "correct": "Haryana and Punjab (Rohtak, Jind, Hisar districts)",
+    "distractors": [
+      "Gujarat",
+      "Maharashtra",
+      "Tamil Nadu"
+    ]
+  },
+  {
+    "id": "lpm_q_030",
+    "subjectId": "lpm",
+    "topic": "Livestock Production Management",
+    "questionText": "The 'Nili-Ravi' buffalo breed is distinguished by white markings on the forehead, face, muzzle, legs, and tail switch, termed:",
+    "correct": "Panchkalyan (five auspicious white points)",
+    "distractors": [
+      "Kalyani",
+      "Shankar",
+      "Chouhan"
+    ]
+  },
+  {
+    "id": "vpp_q_016",
+    "subjectId": "vpp",
+    "topic": "Veterinary Pathology",
+    "questionText": "The 'bread and butter' appearance of the heart is gross pathology characteristic of:",
+    "correct": "Fibrinous pericarditis (e.g. Traumatic Reticulopericarditis in cattle)",
+    "distractors": [
+      "Fatty degeneration",
+      "Myocardial infarction",
+      "Hydropericardium"
+    ]
+  },
+  {
+    "id": "vpp_q_022",
+    "subjectId": "vpp",
+    "topic": "Veterinary Pathology",
+    "questionText": "Bovine Papillomavirus Type 4 (BPV-4) along with ingestion of bracken fern (Pteridium aquilinum) causes:",
+    "correct": "Squamous cell carcinoma of the upper digestive tract and urinary bladder (Enzootic Bovine Hematuria)",
+    "distractors": [
+      "Foot rot",
+      "Papillomatosis of skin exclusively",
+      "Bovine leukosis"
+    ]
+  },
+  {
+    "id": "vpp_q_024",
+    "subjectId": "vpp",
+    "topic": "Veterinary Pathology",
+    "questionText": "Lymphoid leukosis in chickens is caused by an:",
+    "correct": "Avian Retrovirus (Avian Leukosis Virus - ALV)",
+    "distractors": [
+      "Adenovirus",
+      "Poxvirus",
+      "Herpesvirus"
+    ]
+  },
+  {
+    "id": "vpp_q_030",
+    "subjectId": "vpp",
+    "topic": "Veterinary Pathology",
+    "questionText": "Cowdry Type A intranuclear inclusion bodies are the classic histological hallmark of:",
+    "correct": "Herpesvirus infections and Infectious Canine Hepatitis (Adenovirus)",
+    "distractors": [
+      "Poxvirus",
+      "Rabies",
+      "Rotavirus"
+    ]
+  },
+  {
+    "id": "vmc_q_001",
+    "subjectId": "vmc",
+    "topic": "Veterinary Microbiology",
+    "questionText": "The primary chemical component of the bacterial endospore cortex and core conferring resistance to extreme heat is:",
+    "correct": "Calcium dipicolinate (dipicolinic acid complexed with calcium)",
+    "distractors": [
+      "Lipopolysaccharide",
+      "Teichoic acid",
+      "Peptidoglycan"
+    ]
+  },
+  {
+    "id": "vmc_q_016",
+    "subjectId": "vmc",
+    "topic": "Veterinary Microbiology",
+    "questionText": "The enzyme that distinguishes all Staphylococci (positive) from Streptococci (negative) is:",
+    "correct": "Catalase (producing effervescence with 3% H2O2)",
+    "distractors": [
+      "Oxidase",
+      "Urease",
+      "Coagulase"
+    ]
+  },
+  {
+    "id": "vmc_q_017",
+    "subjectId": "vmc",
+    "topic": "Veterinary Microbiology",
+    "questionText": "On MacConkey agar, Escherichia coli forms distinctive bright pink colonies because it is a:",
+    "correct": "Lactose fermenter (producing acid that turns neutral red indicator pink)",
+    "distractors": [
+      "Non-lactose fermenter",
+      "Gelatin liquefier",
+      "Urease producer"
+    ]
+  },
+  {
+    "id": "vmc_q_020",
+    "subjectId": "vmc",
+    "topic": "Veterinary Microbiology",
+    "questionText": "Actinomyces bovis, the causative agent of 'lumpy jaw' in cattle, produces diagnostic granules in pus known as:",
+    "correct": "Sulfur granules (yellow granules of bacterial filaments embedded in protein matrix)",
+    "distractors": [
+      "Cowdry bodies",
+      "Aschoff bodies",
+      "Russell bodies"
+    ]
+  },
+  {
+    "id": "vmc_q_029",
+    "subjectId": "vmc",
+    "topic": "Veterinary Microbiology",
+    "questionText": "Foot and Mouth Disease Virus (FMDV) is an Aphthovirus belonging to which viral family?",
+    "correct": "Picornaviridae (single-stranded positive-sense RNA, non-enveloped)",
+    "distractors": [
+      "Flaviviridae",
+      "Paramyxoviridae",
+      "Rhabdoviridae"
+    ]
+  },
+  {
+    "id": "vmc_q_038",
+    "subjectId": "vmc",
+    "topic": "Veterinary Microbiology",
+    "questionText": "The immunoglobulin isotype that possesses the highest concentration in normal adult bovine serum is:",
+    "correct": "IgG (specifically IgG1 in ruminants)",
+    "distractors": [
+      "IgE",
+      "IgM",
+      "IgA"
+    ]
+  },
+  {
+    "id": "vpa_q_013",
+    "subjectId": "vpa",
+    "topic": "Veterinary Parasitology",
+    "questionText": "Eggs of Moniezia expansa are distinctive under microscopic fecal flotation because they possess a triangular/round shape with a unique inner:",
+    "correct": "Pyriform apparatus (pear-shaped embryophore containing the hexacanth embryo)",
+    "distractors": [
+      "Radial striations",
+      "Bipolar plugs",
+      "Operculum"
+    ]
+  },
+  {
+    "id": "vpa_q_014",
+    "subjectId": "vpa",
+    "topic": "Veterinary Parasitology",
+    "questionText": "Dipylidium caninum (the double-pored tapeworm of dogs and cats) is transmitted by ingestion of infected:",
+    "correct": "Adult fleas (Ctenocephalides canis / felis) or biting lice (Trichodectes canis)",
+    "distractors": [
+      "Snails",
+      "Pasture mites",
+      "Raw beef"
+    ]
+  },
+  {
+    "id": "vpa_q_019",
+    "subjectId": "vpa",
+    "topic": "Veterinary Parasitology",
+    "questionText": "Ancylostoma caninum (canine hookworm) is a voracious blood-sucker in the small intestine that possesses cutting teeth and secretes anticoagulants, predominantly transmitted to nursing pups via:",
+    "correct": "Transmammary route (via bitch's milk during first 3 weeks of lactation)",
+    "distractors": [
+      "Flea bites",
+      "Tick bites",
+      "Airborne droplets"
+    ]
+  },
+  {
+    "id": "vpa_q_046",
+    "subjectId": "vpa",
+    "topic": "Veterinary Parasitology",
+    "questionText": "The definitive host of Toxoplasma gondii, which is the ONLY host that sheds infective oocysts in feces, is the:",
+    "correct": "Domestic and wild felids (Cat family)",
+    "distractors": [
+      "Sheep",
+      "Dog",
+      "Human"
+    ]
+  },
+  {
+    "id": "agb_q_030",
+    "subjectId": "agb",
+    "topic": "Animal Genetics & Breeding",
+    "questionText": "The 'inbreeding coefficient' (Fx) calculated by Sewall Wright's formula represents:",
+    "correct": "The probability that two alleles at a locus in an individual are identical by descent (IBD)",
+    "distractors": [
+      "The proportion of heterozygous loci",
+      "The mutation frequency",
+      "The degree of hybrid vigor"
+    ]
+  },
+  {
+    "id": "ann_q_008",
+    "subjectId": "ann",
+    "topic": "Animal Nutrition",
+    "questionText": "In the Total Digestible Nutrients (TDN) formula, why is Digestible Ether Extract (DEE) multiplied by 2.25?",
+    "correct": "Because fat yields 2.25 times more energy per gram than carbohydrates or protein (9.45 / 4.15 = 2.25)",
+    "distractors": [
+      "To correct for fecal losses",
+      "Because fat is 2.25 times denser",
+      "To convert fat into protein"
+    ]
+  },
+  {
+    "id": "ann_q_009",
+    "subjectId": "ann",
+    "topic": "Animal Nutrition",
+    "questionText": "Metabolizable Energy (ME) in ruminant nutrition is defined as Digestible Energy (DE) minus energy lost in:",
+    "correct": "Urine and gaseous products of fermentation (principally methane)",
+    "distractors": [
+      "Feces only",
+      "Sweat",
+      "Heat increment"
+    ]
+  },
+  {
+    "id": "ann_q_014",
+    "subjectId": "ann",
+    "topic": "Animal Nutrition",
+    "questionText": "To ensure efficient utilization of urea nitrogen by ruminal microbes and prevent toxicity, the diet must provide an abundant source of:",
+    "correct": "Readily fermentable, rapidly available soluble carbohydrates (e.g. Molasses or crushed grains)",
+    "distractors": [
+      "Bypass protein",
+      "Excess dietary fat",
+      "Coarse cereal straw"
+    ]
+  },
+  {
+    "id": "ann_q_015",
+    "subjectId": "ann",
+    "topic": "Animal Nutrition",
+    "questionText": "The clinical signs of acute urea (ammonia) toxicity in cattle (salivation, muscle tremors, incoordination, bloat, convulsions) appear when rumen pH rises above:",
+    "correct": "8.0 (free non-ionized NH3 rapidly diffuses across the rumen wall into blood)",
+    "distractors": [
+      "6.5",
+      "5.0",
+      "7.0"
+    ]
+  },
+  {
+    "id": "ann_q_027",
+    "subjectId": "ann",
+    "topic": "Animal Nutrition",
+    "questionText": "The pathognomonic necropsy finding in animals dying of acute Cyanide (HCN / Prussic acid) poisoning is:",
+    "correct": "Bright, cherry-red colored blood due to inability of tissues to utilize oxygen (oxyhemoglobin persistence)",
+    "distractors": [
+      "Watery pale blood",
+      "Tarry black unclotted blood",
+      "Chocolate-brown colored blood"
+    ]
+  },
+  {
+    "id": "ann_q_037",
+    "subjectId": "ann",
+    "topic": "Animal Nutrition",
+    "questionText": "To prevent Milk Fever in transition cows, pre-partum diets during the close-up dry period (last 3 weeks) are often formulated to have a:",
+    "correct": "Negative Dietary Cation-Anion Difference (DCAD) using anionic salts (sulfates, chlorides)",
+    "distractors": [
+      "Zero protein",
+      "High positive DCAD",
+      "High calcium and alfalfa hay"
+    ]
+  },
+  {
+    "id": "ann_q_039",
+    "subjectId": "ann",
+    "topic": "Animal Nutrition",
+    "questionText": "Vitamin E acts synergistically with which trace element to protect cell membranes against lipid peroxidation?",
+    "correct": "Selenium (as a component of cytosolic Glutathione Peroxidase)",
+    "distractors": [
+      "Zinc",
+      "Cobalt",
+      "Iron"
+    ]
+  },
+  {
+    "id": "pyq_van_008",
+    "subjectId": "van",
+    "topic": "Veterinary Anatomy (ICAR PG PYQ)",
+    "questionText": "The 'malar bone' or zygomatic bone in the ox is notable because its frontal process articulates with:",
+    "correct": "Frontal bone to form a complete bony orbital ring (circumorbital frame)",
+    "distractors": [
+      "Nasal bone",
+      "Occipital bone",
+      "Parietal bone directly"
+    ]
+  },
+  {
+    "id": "pyq_vpp_017",
+    "subjectId": "vpp",
+    "topic": "Veterinary Pathology (ICAR PG PYQ)",
+    "questionText": "The 'bread-and-butter' heart is the classical gross description for:",
+    "correct": "Fibrinous pericarditis (e.g. Traumatic Reticulopericarditis in cattle)",
+    "distractors": [
+      "Hydropericardium",
+      "Uremic pericarditis",
+      "Purulent pericarditis"
+    ]
+  },
+  {
+    "id": "pyq_vpp_028",
+    "subjectId": "vpp",
+    "topic": "Veterinary Pathology (ICAR PG PYQ)",
+    "questionText": "Farcy in horses represents the cutaneous form of Glanders, characterized by:",
+    "correct": "Nodules ('farcy buds') along subcutaneous lymphatics with thickening of vessels ('farcy pipes')",
+    "distractors": [
+      "Alopecia on mane",
+      "Urticarial wheals",
+      "Dry gangrene of tail"
+    ]
+  },
+  {
+    "id": "pyq_vpp_063",
+    "subjectId": "vpp",
+    "topic": "Veterinary Pathology (ICAR PG PYQ)",
+    "questionText": "In contrast to Parvovirus, 'Rotavirus' and 'Coronavirus' in calves and piglets target and destroy:",
+    "correct": "Mature absorptive enterocytes on the upper two-thirds of the intestinal villi (sparing crypts)",
+    "distractors": [
+      "Crypt cells exclusively",
+      "Peyer's patches",
+      "Lymph nodes exclusively"
+    ]
+  },
+  {
+    "id": "pyq_vpp_070",
+    "subjectId": "vpp",
+    "topic": "Veterinary Pathology (ICAR PG PYQ)",
+    "questionText": "The cytokine primarily responsible for inducing fever (pyrogenesis) by acting on the hypothalamic thermoregulatory center is:",
+    "correct": "Interleukin-1 (IL-1) and Tumor Necrosis Factor-alpha (TNF-alpha)",
+    "distractors": [
+      "Interferon-gamma",
+      "Interleukin-10",
+      "Interleukin-2"
+    ]
+  },
+  {
+    "id": "pyq_vpp_078",
+    "subjectId": "vpp",
+    "topic": "Veterinary Pathology (ICAR PG PYQ)",
+    "questionText": "The microscopic appearance of 'Gout' in birds and reptiles consists of periarticular and visceral deposits of:",
+    "correct": "Needle-shaped radiating monosodium urate crystals surrounded by foreign-body giant cells (tophi)",
+    "distractors": [
+      "Cholesterol crystals",
+      "Calcium oxalate",
+      "Calcium pyrophosphate"
+    ]
+  },
+  {
+    "id": "pyq_vpp_094",
+    "subjectId": "vpp",
+    "topic": "Veterinary Pathology (ICAR PG PYQ)",
+    "questionText": "The primary cause of 'osteodystrophia fibrosa' (big head disease / rubber jaw) in horses and goats is:",
+    "correct": "Secondary Hyperparathyroidism (nutritional Ca:P imbalance or chronic renal failure)",
+    "distractors": [
+      "Vitamin D toxicity",
+      "Fluorosis",
+      "Hypoparathyroidism"
+    ]
+  },
+  {
+    "id": "pyq_vpp_095",
+    "subjectId": "vpp",
+    "topic": "Veterinary Pathology (ICAR PG PYQ)",
+    "questionText": "'Rickets' in growing young animals is characterized histologically by:",
+    "correct": "Failure of osteoid mineralization and persistence of hypertrophic chondrocyte columns at the growth plate (physis)",
+    "distractors": [
+      "Atrophy of trabeculae",
+      "Fibrous osteitis",
+      "Excessive brittle bone formation"
+    ]
+  },
+  {
+    "id": "pyq_vmc_025",
+    "subjectId": "vmc",
+    "topic": "Veterinary Microbiology (ICAR PG PYQ)",
+    "questionText": "The specific capsular serotypes of Pasteurella multocida responsible for Hemorrhagic Septicemia (HS) in cattle and buffaloes in Asia and Africa are:",
+    "correct": "B:2 (Asian serotype) and E:2 (African serotype) (Carter and Heddleston classification)",
+    "distractors": [
+      "A:3 and B:1",
+      "A:1 and D:2",
+      "C:1 and D:1"
+    ]
+  },
+  {
+    "id": "pyq_vbc_018",
+    "subjectId": "vbc",
+    "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
+    "questionText": "The complete beta-oxidation of one molecule of Palmitic acid (16:0) yields how many net moles of ATP (assuming P/O ratios of 2.5 for NADH and 1.5 for FADH2)?",
+    "correct": "106 ATP (108 produced minus 2 used for activation)",
+    "distractors": [
+      "36 ATP",
+      "96 ATP",
+      "129 ATP"
+    ]
+  },
+  {
+    "id": "pyq_vbc_037",
+    "subjectId": "vbc",
+    "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
+    "questionText": "The net energetic cost for the synthesis of one molecule of urea in the urea cycle is:",
+    "correct": "4 high-energy phosphate bonds (equivalent to 4 ATP hydrolyzed to 2 ADP + 2 Pi and 1 AMP + PPi)",
+    "distractors": [
+      "6 ATP",
+      "1 ATP",
+      "2 ATP"
+    ]
+  },
+  {
+    "id": "pyq_vbc_043",
+    "subjectId": "vbc",
+    "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
+    "questionText": "Which amino acid is the direct precursor for the synthesis of the inhibitory neurotransmitter GABA (Gamma-Aminobutyric Acid)?",
+    "correct": "L-Glutamate (via Glutamate decarboxylase requiring PLP)",
+    "distractors": [
+      "L-Aspartate",
+      "L-Glycine",
+      "L-Serine"
+    ]
+  },
+  {
+    "id": "pyq_vbc_079",
+    "subjectId": "vbc",
+    "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
+    "questionText": "The serum creatinine concentration is widely used to assess the Glomerular Filtration Rate (GFR) because:",
+    "correct": "It is produced at a constant rate from muscle creatine and phosphocreatine, freely filtered by the glomerulus, and neither significantly reabsorbed nor secreted",
+    "distractors": [
+      "It reflects dietary carbohydrate intake",
+      "It is actively secreted by proximal tubules",
+      "It is synthesized by the liver proportionally to protein intake"
+    ]
+  },
+  {
+    "id": "pyq_vbc_083",
+    "subjectId": "vbc",
+    "topic": "Veterinary Biochemistry (ICAR PG PYQ)",
+    "questionText": "Vitamin E (alpha-tocopherol) and Selenium act synergistically in biological membranes because:",
+    "correct": "Vitamin E breaks peroxyl free radical chain reactions in lipid bilayers while Selenium is an essential component of cytosolic Glutathione Peroxidase",
+    "distractors": [
+      "Selenium synthesizes Vitamin E in vivo",
+      "Vitamin E oxidizes selenium",
+      "Both chelate calcium ions"
+    ]
+  },
+  {
+    "id": "vpp_exp_074",
+    "subjectId": "vpp",
+    "topic": "General Pathology",
+    "questionText": "Goiter in domestic animals (diffuse non-toxic enlargement of the thyroid gland) is a classic pathological example of:",
+    "correct": "Hyperplasia driven by elevated Thyroid-Stimulating Hormone (TSH)",
+    "distractors": [
+      "Atrophy of follicular lining",
+      "Pure cellular hypertrophy without cell division",
+      "Squamous metaplasia"
+    ]
+  },
+  {
+    "id": "vpp_exp_104",
+    "subjectId": "vpp",
+    "topic": "Neuropathology (ICAR PG PYQ)",
+    "questionText": "The characteristic lesion of 'laminar cortical necrosis' (autofluorescence of the cerebral cortex under UV light at 365 nm) in ruminants is pathognomonic for:",
+    "correct": "Polioencephalomalacia (PEM / Cerebrocortical Necrosis CCN)",
+    "distractors": [
+      "Bovine Spongiform Encephalopathy (BSE)",
+      "Enterotoxemia",
+      "Lead poisoning"
+    ]
+  },
+  {
+    "id": "vpp_exp_117",
+    "subjectId": "vpp",
+    "topic": "Nutritional Pathology (ICAR PG PYQ)",
+    "questionText": "'Crazy Chick Disease' (Nutritional Encephalomalacia) in broiler chicks is caused by deficiency of:",
+    "correct": "Vitamin E (frequently precipitated by high dietary unsaturated fatty acids)",
+    "distractors": [
+      "Vitamin C",
+      "Vitamin A",
+      "Vitamin K"
+    ]
+  },
+  {
+    "id": "vpp_exp_150",
+    "subjectId": "vpp",
+    "topic": "Parasitic Pathology (ICAR PG PYQ)",
+    "questionText": "The pathognomonic lesion of 'Syngamiasis' (Gapeworm disease) in game birds and young poultry caused by Syngamus trachea is:",
+    "correct": "Permanent in copula 'Y-shaped' red nematodes attached to the tracheal mucosa, causing hemorrhagic tracheitis and gasping ('gapes')",
+    "distractors": [
+      "Severe thickening of the crop mucosa",
+      "Massive nodular lesions in the gizzard",
+      "Caseous plugs in the cecum"
+    ]
+  },
+  {
+    "id": "vpp_exp_165",
+    "subjectId": "vpp",
+    "topic": "Cardiopulmonary Pathology (ICAR PG PYQ)",
+    "questionText": "Ascites Syndrome (Pulmonary Hypertension Syndrome / Water Belly) in fast-growing meat-type broilers is fundamentally initiated by:",
+    "correct": "Mismatch between rapid muscle growth and inadequate pulmonary vascular capacity, leading to hypoxia, pulmonary hypertension, and right-sided congestive heart failure",
+    "distractors": [
+      "Excessive dietary sodium chloride leading to primary renal failure",
+      "Congenital absence of the pericardial sac",
+      "Primary hepatic cirrhosis caused by aflatoxins"
+    ]
+  },
+  {
+    "id": "vpp_exp_167",
+    "subjectId": "vpp",
+    "topic": "Avian Pathology (ICAR PG PYQ)",
+    "questionText": "In poultry, Gout is classified anatomically into two distinct syndromes:",
+    "correct": "Visceral gout (pericardial/hepatic/serosal urate deposits) and Articular gout (synovial/periarticular deposits)",
+    "distractors": [
+      "Renal gout and Hepatic gout",
+      "Gastric gout and Intestinal gout",
+      "Cutaneous gout and Ocular gout"
+    ]
+  },
+  {
+    "id": "vpp_exp_177",
+    "subjectId": "vpp",
+    "topic": "Diagnostic Pathology (ICAR PG PYQ)",
+    "questionText": "The specific anatomical site of choice for collecting diagnostic tissue sections to demonstrate Cowdry Type A intranuclear inclusions in chickens with Infectious Laryngotracheitis is:",
+    "correct": "Tracheal epithelium and conjunctival mucosa during the early acute stage (first 3 to 5 days)",
+    "distractors": [
+      "Brainstem neurons",
+      "Bursal follicles on day 14",
+      "Spleen red pulp on day 10"
+    ]
+  },
+  {
+    "id": "vpp_exp_185",
+    "subjectId": "vpp",
+    "topic": "Cardiopulmonary Pathology (ICAR PG PYQ)",
+    "questionText": "High Altitude Disease ('Brisket Disease') in cattle grazing at elevations above 2,500 meters is caused by:",
+    "correct": "Chronic alveolar hypoxia triggering severe pulmonary arteriolar vasoconstriction, medial hypertrophy, pulmonary hypertension, and right heart failure",
+    "distractors": [
+      "Congenital deficiency of carbonic anhydrase",
+      "Severe carbon monoxide toxicity from thin atmosphere",
+      "Acute ruminal bloat"
+    ]
+  },
+  {
+    "id": "vpp_exp_199",
+    "subjectId": "vpp",
+    "topic": "Toxicologic Pathology (ICAR PG PYQ)",
+    "questionText": "Lantana camara poisoning in grazing cattle produces severe secondary (hepatogenous) photosensitization through hepatic retention of which photodynamic metabolite?",
+    "correct": "Phylloerythrin (a porphyrin breakdown product of chlorophyll)",
+    "distractors": [
+      "Hypericin",
+      "Fagopyrin",
+      "Porphobilinogen"
+    ]
+  },
+  {
+    "id": "vpp_exp_200",
+    "subjectId": "vpp",
+    "topic": "Systemic Pathology (ICAR PG PYQ)",
+    "questionText": "Congenital Portosystemic Shunts (PSS) in dogs are characterized histopathologically in the liver by:",
+    "correct": "Microhepatica with hypoplastic portal veins, absence of visible intrahepatic portal branches, and compensatory arteriolar tortuosity/hyperplasia",
+    "distractors": [
+      "Extensive peliosis hepatis",
+      "Diffuse centrilobular coagulative necrosis",
+      "Massive hepatic cirrhosis with marked nodular regeneration"
+    ]
+  },
+  {
+    "id": "vpp_exp_210",
+    "subjectId": "vpp",
+    "topic": "Genital Pathology (ICAR PG PYQ)",
+    "questionText": "In mares, Granulosa Cell Tumor (GCT) of the ovary is clinically and pathologically distinguished by producing high circulating levels of:",
+    "correct": "Inhibin and Testosterone, accompanied by nymphomania or stallion-like aggressiveness and contralateral ovarian atrophy",
+    "distractors": [
+      "Progesterone and prolactin",
+      "Luteinizing hormone",
+      "Thyroxine"
+    ]
+  },
+  {
+    "id": "vpp_exp_212",
+    "subjectId": "vpp",
+    "topic": "Neuropathology (ICAR PG PYQ)",
+    "questionText": "In horses, 'Wobbler Syndrome' (Cervical Vertebral Malformation / CVM) causes progressive bilateral hindlimb ataxia due to:",
+    "correct": "Dynamic or static stenotic compression of the cervical spinal cord by malformed cervical vertebrae (C3-C7)",
+    "distractors": [
+      "Sarcocystis neurona schizont multiplication",
+      "Primary degeneration of cerebellar Purkinje cells",
+      "Clostridial neurotoxin binding at the neuromuscular junction"
+    ]
+  },
+  {
+    "id": "vpp_exp_218",
+    "subjectId": "vpp",
+    "topic": "Skeletal Pathology (ICAR PG PYQ)",
+    "questionText": "Fibrous Osteodystrophy ('Rubber Jaw' / Osteodystrophia fibrosa) in dogs and horses is a metabolic bone disorder caused by:",
+    "correct": "Prolonged secondary hyperparathyroidism (renal in dogs, nutritional in horses) stimulating excessive osteoclastic bone resorption and replacement by fibrovascular stroma",
+    "distractors": [
+      "Lead poisoning",
+      "Primary dietary deficiency of calcium in adult horses",
+      "Excessive secretion of calcitonin by C cells"
+    ]
+  },
+  {
+    "id": "vpp_exp_221",
+    "subjectId": "vpp",
+    "topic": "Endocrine Pathology (ICAR PG PYQ)",
+    "questionText": "Pituitary Pars Intermedia Dysfunction (PPID / Equine Cushing's Disease) in aged horses is caused by:",
+    "correct": "Loss of dopaminergic inhibitory input from the hypothalamus due to neurodegeneration, causing adenoma or hyperplasia of the pars intermedia producing POMC peptides",
+    "distractors": [
+      "Thyroid follicular carcinoma",
+      "Primary functional adrenocortical adenoma",
+      "Iatrogenic corticosteroid administration"
+    ]
+  },
+  {
+    "id": "vpp_exp_241",
+    "subjectId": "vpp",
+    "topic": "Veterinary Oncology (ICAR PG PYQ)",
+    "questionText": "Canine Mammary Tumors show a marked reduction in incidence if ovariohysterectomy (spaying) is performed before the first estrus, reducing the risk to approximately:",
+    "correct": "0.5% (compared to 8% after 1st estrus and 26% after 2nd estrus)",
+    "distractors": [
+      "50%",
+      "75%",
+      "15%"
+    ]
+  },
+  {
+    "id": "vpp_exp_247",
+    "subjectId": "vpp",
+    "topic": "Veterinary Oncology (ICAR PG PYQ)",
+    "questionText": "Histologically, an Equine Sarcoid is characterized by the diagnostic combination of:",
+    "correct": "Hyperplastic epidermis with elongated, hyperkeratotic rete pegs ('picket-fence' pattern) and a dermal proliferation of fibroblasts in whorls and interlacing bundles",
+    "distractors": [
+      "Caseous granulomas with Langhans giant cells",
+      "Sheets of round cells with metachromatic granules",
+      "Pure squamous cell carcinoma with epithelial pearls"
+    ]
+  },
+  {
+    "id": "vpp_exp_254",
+    "subjectId": "vpp",
+    "topic": "Endocrine Pathology (ICAR PG PYQ)",
+    "questionText": "A 'Pheochromocytoma' in dogs and cattle is a neoplasm of the adrenal medulla arising from which cell type?",
+    "correct": "Chromaffin cells, secreting excessive catecholamines (epinephrine and norepinephrine)",
+    "distractors": [
+      "Zona glomerulosa cells",
+      "Cortical stromal cells",
+      "Zona fasciculata cells"
+    ]
+  },
+  {
+    "id": "vpp_exp_267",
+    "subjectId": "vpp",
+    "topic": "Veterinary Oncology (ICAR PG PYQ)",
+    "questionText": "Canine Plasmacytoma (extramedullary plasmacytoma) is cytologically recognized by which distinctive cellular features?",
+    "correct": "Eccentric round nuclei, coarse 'clock-face' or 'cartwheel' chromatin, deeply basophilic cytoplasm, and a prominent perinuclear clear halo (Golgi zone)",
+    "distractors": [
+      "Central spindle-shaped nuclei with bipolar tails",
+      "Clear vacuolated cytoplasm with signet-ring morphology",
+      "Multinucleated osteoclasts"
+    ]
+  },
+  {
+    "id": "vpp_exp_271",
+    "subjectId": "vpp",
+    "topic": "Necropsy Techniques (ICAR PG PYQ)",
+    "questionText": "During a routine post-mortem examination of a bovine carcass, the recommended position of the carcass for external opening is:",
+    "correct": "Left lateral recumbency (left side down, right side up to keep the rumen underneath)",
+    "distractors": [
+      "Dorsal recumbency",
+      "Right lateral recumbency",
+      "Ventral recumbency"
+    ]
+  },
+  {
+    "id": "vpp_exp_273",
+    "subjectId": "vpp",
+    "topic": "Histopathological Techniques (ICAR PG PYQ)",
+    "questionText": "The standard universal fixative employed for routine diagnostic veterinary histopathology is:",
+    "correct": "10% Neutral Buffered Formalin (NBF, approximately 4% formaldehyde, pH 7.2 - 7.4)",
+    "distractors": [
+      "Glutaraldehyde 10%",
+      "Pure glacial acetic acid",
+      "100% Absolute ethanol"
+    ]
+  },
+  {
+    "id": "vpp_exp_274",
+    "subjectId": "vpp",
+    "topic": "Histopathological Techniques (ICAR PG PYQ)",
+    "questionText": "The recommended minimum volumetric ratio of fixative fluid to tissue volume for adequate histopathological fixation is:",
+    "correct": "10:1 to 20:1 (fixative to tissue volume)",
+    "distractors": [
+      "2:1",
+      "50:1",
+      "1:1"
+    ]
+  },
+  {
+    "id": "vpp_exp_281",
+    "subjectId": "vpp",
+    "topic": "Histopathological Techniques (ICAR PG PYQ)",
+    "questionText": "In routine Hematoxylin and Eosin (H&E) staining of tissue sections, Hematoxylin is a basic dye that stains acidic nuclear DNA:",
+    "correct": "Blue to purple (basophilic), while Eosin is an acidic dye that stains basic cytoplasmic proteins pink to red (eosinophilic)",
+    "distractors": [
+      "Green, while Eosin stains cytoplasm yellow",
+      "Black, while Eosin stains cytoplasm brown",
+      "Pink, while Eosin stains nuclei dark blue"
+    ]
+  },
+  {
+    "id": "vpp_exp_287",
+    "subjectId": "vpp",
+    "topic": "Histopathological Techniques (ICAR PG PYQ)",
+    "questionText": "The definitive histological method used to confirm whether intracytoplasmic PAS-positive granules within hepatocytes represent Glycogen is:",
+    "correct": "Diastase (alpha-amylase) digestion prior to PAS staining (glycogen is digested and vanishes)",
+    "distractors": [
+      "Decalcification with EDTA",
+      "Staining with Sudan Black B",
+      "Bleaching with potassium permanganate"
+    ]
+  },
+  {
+    "id": "vpp_exp_292",
+    "subjectId": "vpp",
+    "topic": "Clinical Pathology (ICAR PG PYQ)",
+    "questionText": "The Rivalta test is a simple bedside laboratory assay commonly used in feline medicine to differentiate FIP effusions from transudates, where a positive test is indicated by:",
+    "correct": "A drop of effusion forming a distinct jellyfish-like precipitate or droplet that slowly sinks to the bottom of dilute acetic acid solution without dissolving",
+    "distractors": [
+      "Formation of gas bubbles at the surface",
+      "Immediate clearing and disappearance of the drop",
+      "A color change from clear to deep purple"
+    ]
+  },
+  {
+    "id": "vpp_exp_294",
+    "subjectId": "vpp",
+    "topic": "Clinical Pathology (ICAR PG PYQ)",
+    "questionText": "A 'Leukemoid Reaction' is characterized by extreme leukocytosis (>50,000 to 100,000/uL) that mimics granulocytic leukemia, but is differentiated from true leukemia because a leukemoid reaction:",
+    "correct": "Is an orderly, non-neoplastic, hyper-reactive response to severe inflammation (e.g. closed pyometra, abscess) with a mature left shift and absence of blast cells",
+    "distractors": [
+      "Is an autonomous clonal proliferation of malignant blast cells",
+      "Always shows chromosomal translocations",
+      "Is refractory to resolving the underlying infection"
+    ]
+  },
+  {
+    "id": "vpp_exp_295",
+    "subjectId": "vpp",
+    "topic": "Clinical Pathology (ICAR PG PYQ)",
+    "questionText": "A 'Degenerative Left Shift' on a canine or feline complete blood count (CBC) is defined as:",
+    "correct": "Immature neutrophil forms (band cells, metamyelocytes) exceeding the number of mature segmented neutrophils, indicating severe bone marrow exhaustion and a poor prognosis",
+    "distractors": [
+      "Absence of any neutrophils in peripheral blood",
+      "Presence of a few band neutrophils alongside a massive mature neutrophilia",
+      "Elevated eosinophils and basophils only"
+    ]
+  },
+  {
+    "id": "vpp_exp_297",
+    "subjectId": "vpp",
+    "topic": "Clinical Pathology (ICAR PG PYQ)",
+    "questionText": "Pelger-Huët anomaly, an inherited or acquired benign condition in dogs and cats, is recognized on blood smears by:",
+    "correct": "Failure of normal nuclear segmentation of granulocytes, resulting in hyposegmented (bilobed, peanut-shaped, or round) mature neutrophils with normal mature chromatin and function",
+    "distractors": [
+      "Presence of giant platelets",
+      "Total absence of cytoplasmic granules in eosinophils",
+      "Hypersegmentation of neutrophils with >5 nuclear lobes"
+    ]
+  },
+  {
+    "id": "vpp_exp_300",
+    "subjectId": "vpp",
+    "topic": "Clinical Pathology (ICAR PG PYQ)",
+    "questionText": "A true immune-mediated Agglutination of erythrocytes on a glass slide (autoagglutination) is definitively distinguished from physiological Rouleaux by:",
+    "correct": "The Saline Dilution Test: adding a drop of physiological saline disperses rouleaux but does not disperse true antibody-mediated agglutination",
+    "distractors": [
+      "Centrifuging the sample at high speed",
+      "Staining with New Methylene Blue",
+      "Warming the slide to 37°C"
+    ]
+  },
+  {
+    "id": "vmc_exp_003",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "McFadyean's reaction, a rapid presumptive diagnostic test for Anthrax in blood smears, utilizes which polychrome dye to demonstrate pink capsules around blue bacilli?",
+    "correct": "Polychrome Methylene Blue (Loeffler's alkaline methylene blue aged with potassium carbonate)",
+    "distractors": [
+      "Gram's crystal violet",
+      "Ziehl-Neelsen carbol fuchsin",
+      "India ink"
+    ]
+  },
+  {
+    "id": "vmc_exp_005",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "The 'String of Pearls' reaction, used to distinguish Bacillus anthracis from other non-pathogenic environmental Bacillus species (such as B. cereus), is performed on:",
+    "correct": "Nutrient agar containing 0.05 to 0.5 units/mL of penicillin, where B. anthracis swells into round, spherical pearl-like chains within 3-6 hours",
+    "distractors": [
+      "MacConkey agar without salt",
+      "Blood agar with 10% sodium chloride",
+      "Sabouraud dextrose agar"
+    ]
+  },
+  {
+    "id": "vmc_exp_006",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "The lethal action of Tetanospasmin (tetanus neurotoxin from Clostridium tetani) on the central nervous system occurs through which molecular mechanism?",
+    "correct": "Retrograde axonal transport to inhibitory Renshaw interneurons, where its zinc endopeptidase light chain cleaves synaptobrevin (VAMP-2), blocking release of GABA and glycine",
+    "distractors": [
+      "Direct irreversible blockade of post-synaptic nicotinic acetylcholine receptors at motor endplates",
+      "Continuous stimulation of dopamine receptors",
+      "Degradation of myelin sheaths by phospholipase C"
+    ]
+  },
+  {
+    "id": "vmc_exp_010",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "Clostridium chauvoei, the etiological agent of Blackleg in cattle and sheep, can be definitively differentiated from Clostridium septicum on liver impression smears because C. chauvoei:",
+    "correct": "Appears as single cells or pairs of pleomorphic rods, whereas C. septicum forms long filamentous chains (serpentine filaments)",
+    "distractors": [
+      "Is Gram-negative",
+      "Does not produce gas in muscle tissue",
+      "Is completely non-spore-forming"
+    ]
+  },
+  {
+    "id": "vmc_exp_012",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "Listeria monocytogenes exhibits characteristic 'tumbling motility' when incubated in semi-solid motility medium at:",
+    "correct": "22°C to 25°C (room temperature), but is non-motile at 37°C due to temperature-dependent flagellar repression",
+    "distractors": [
+      "37°C exclusively",
+      "56°C",
+      "42°C"
+    ]
+  },
+  {
+    "id": "vmc_exp_013",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "The primary virulence factor utilized by intracellular Listeria monocytogenes to escape from the phagolysosome into the host cell cytoplasm is:",
+    "correct": "Listeriolysin O (LLO, a cholesterol-dependent cytolysin)",
+    "distractors": [
+      "Lecithinase C",
+      "Catalase",
+      "Protein A"
+    ]
+  },
+  {
+    "id": "vmc_exp_019",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology",
+    "questionText": "The primary surface protective antigen and major virulence factor of Erysipelothrix rhusiopathiae is:",
+    "correct": "Neuraminidase (sialidase) and SpaA (surface protective antigen A)",
+    "distractors": [
+      "Lecithinase",
+      "Teichoic acid",
+      "Protein G"
+    ]
+  },
+  {
+    "id": "vmc_exp_027",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "Actinobacillus lignieresii differs fundamentally from Actinomyces bovis in that Actinobacillus lignieresii is:",
+    "correct": "Gram-negative, aerobic to facultatively anaerobic, non-branching coccobacillus that typically invades soft tissues (tongue, lymph nodes)",
+    "distractors": [
+      "Acid-fast",
+      "Spore-forming",
+      "Gram-positive and strictly anaerobic"
+    ]
+  },
+  {
+    "id": "vmc_exp_028",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "Dermatophilus congolensis, the etiological agent of 'Rain Rot' / 'Streptothricosis' in cattle and horses, displays which distinctive microscopic morphology on Giemsa-stained crust smears?",
+    "correct": "Branching filamentous hyphae that divide transversely and longitudinally to form parallel rows of coccoid zoospores resembling 'train tracks' / 'tram tracks'",
+    "distractors": [
+      "Single giant sporangia with endospores",
+      "Encapsulated diplococci in pairs",
+      "Large spiral organisms with terminal hooks"
+    ]
+  },
+  {
+    "id": "vmc_exp_030",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology",
+    "questionText": "The primary diagnostic method for detecting Trueperella pyogenes (formerly Arcanobacterium pyogenes) in suppurative lesions is observing:",
+    "correct": "Tiny pinpoint colonies on sheep blood agar surrounded by a narrow zone of beta-hemolysis at 48 hours, Gram-positive pleomorphic diphtheroid rods, and strong gelatinase activity",
+    "distractors": [
+      "Large spreading swarming colonies",
+      "Medusa-head colonies on plain agar",
+      "Green pigmentation on MacConkey agar"
+    ]
+  },
+  {
+    "id": "vmc_exp_031",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "In cattle, the tissue tropism of Brucella abortus for the gravid placenta, chorionic cotyledons, and fetal fluids is directly mediated by the presence of:",
+    "correct": "Erythritol (a 4-carbon polyhydric alcohol synthesized by the bovine placenta)",
+    "distractors": [
+      "Fructose",
+      "Sialic acid",
+      "Glycogen"
+    ]
+  },
+  {
+    "id": "vmc_exp_036",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "In blood and tissue smears from cattle dying of acute Hemorrhagic Septicemia, Pasteurella multocida exhibits pathognomonic staining as:",
+    "correct": "Gram-negative coccobacilli showing distinct 'bipolar staining' (dense terminal coloration with a clear center) with Leishman, Giemsa, or Methylene Blue",
+    "distractors": [
+      "Large encapsulated diplococci",
+      "Gram-positive square-ended rods in long chains",
+      "Acid-fast beaded filaments"
+    ]
+  },
+  {
+    "id": "vmc_exp_040",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Microbiology (ICAR PG PYQ)",
+    "questionText": "The laboratory animal of choice used for the biological isolation and virulence typing of Pasteurella multocida from clinical field samples is:",
+    "correct": "White mouse (Mus musculus), which dies within 18 to 24 hours of subcutaneous inoculation with pure septicemia",
+    "distractors": [
+      "Guinea pig",
+      "Hamster",
+      "Adult rabbit"
+    ]
+  },
+  {
+    "id": "vmc_exp_041",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "In the Kauffmann-White classification scheme for Salmonella, serovars are classified based on the antigenic variation of which cellular structures?",
+    "correct": "O (somatic lipopolysaccharide) antigens, H (flagellar phase 1 and phase 2) antigens, and Vi (capsular virulence) antigens",
+    "distractors": [
+      "Capsular polysaccharides only",
+      "Cell wall peptidoglycan cross-links",
+      "Pili proteins only"
+    ]
+  },
+  {
+    "id": "vmc_exp_042",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "Salmonella enterica serovar Dublin is of paramount veterinary significance because it is the host-adapted serovar of:",
+    "correct": "Cattle, causing severe neonatal septicemia, dry gangrene of extremities, and chronic carrier states in adult dairy cows",
+    "distractors": [
+      "Horses",
+      "Poultry",
+      "Swine exclusively"
+    ]
+  },
+  {
+    "id": "vmc_exp_043",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "On differential selective media, Salmonella species are distinguished from typical commensal Escherichia coli because Salmonella is:",
+    "correct": "Lactose non-fermenting (pale translucent colonies on MacConkey) and produces Hydrogen Sulfide (H2S, black centers on XLD and Hektoen enteric agar)",
+    "distractors": [
+      "Completely non-motile in all serotypes",
+      "Lactose fermenting (bright pink on MacConkey)",
+      "Urease positive within 2 hours"
+    ]
+  },
+  {
+    "id": "vmc_exp_051",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "Pseudomonas aeruginosa is an opportunistic pathogen of veterinary importance that produces which two characteristic diagnostic pigments?",
+    "correct": "Pyocyanin (blue-green phenazine pigment) and Pyoverdine (yellow-green fluorescent siderophore)",
+    "distractors": [
+      "Prodigiosin and Melanin",
+      "Bacteriochlorophyll and Carotenoid",
+      "Violacein and Hematin"
+    ]
+  },
+  {
+    "id": "vmc_exp_054",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Microbiology (ICAR PG PYQ)",
+    "questionText": "The official diagnostic allergic skin test for Glanders in horses is the Mallein test, and the preferred international method of administration is the:",
+    "correct": "Intradermo-palpebral test (injection of 0.1 mL mallein into the skin of the lower eyelid, causing marked edema and purulent conjunctivitis at 48 hours)",
+    "distractors": [
+      "Subcutaneous thermal test",
+      "Cervical skin pinch test",
+      "Caudal fold test"
+    ]
+  },
+  {
+    "id": "vmc_exp_067",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "On specialized solid agar media (such as Hayflick's or PPLO agar), colonies of Mycoplasma species typically display which pathognomonic macroscopic appearance?",
+    "correct": "'Fried-egg' appearance (a dense central core embedded in the agar surrounded by a flat translucent peripheral zone)",
+    "distractors": [
+      "Medusa-head colonies",
+      "Smooth mucoid dome-shaped colonies",
+      "Spreading swarming colonies"
+    ]
+  },
+  {
+    "id": "vmc_exp_071",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "Staphylococcus aureus is definitively differentiated from commensal coagulase-negative staphylococci (such as S. epidermidis) by the production of:",
+    "correct": "Coagulase enzyme (converting rabbit or bovine plasma fibrinogen to fibrin clot)",
+    "distractors": [
+      "Oxidase enzyme",
+      "Lecithinase",
+      "Catalase enzyme"
+    ]
+  },
+  {
+    "id": "vmc_exp_072",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "In bovine mastitis diagnostics, Staphylococcus aureus colonies on sheep blood agar characteristically exhibit 'Double-Zone Hemolysis' produced by the synergistic action of:",
+    "correct": "Alpha-toxin (complete inner zone of clear hemolysis) and Beta-toxin (outer wide zone of incomplete hot-cold hemolysis / sphingomyelinase)",
+    "distractors": [
+      "Enterotoxin A and TSST-1",
+      "Delta-toxin and Leukocidin",
+      "Beta-toxin and Gamma-toxin"
+    ]
+  },
+  {
+    "id": "vmc_exp_082",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "Taylorella equigenitalis, the causative agent of Contagious Equine Metritis (CEM), is culturally isolated on chocolate agar incubated under 5-10% CO2 and is biochemically:",
+    "correct": "Strongly Oxidase positive, Catalase positive, and Phosphatase positive, but inert to all carbohydrate fermentations",
+    "distractors": [
+      "Lactose fermenting with gas",
+      "Coagulase positive",
+      "Urease positive"
+    ]
+  },
+  {
+    "id": "vmc_exp_083",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "Avian Chlamydiosis (Psittacosis / Ornithosis) is caused by Chlamydia psittaci, which possesses a biphasic developmental cycle consisting of which two distinct morphological forms?",
+    "correct": "Infectious, metabolically inert 'Elementary Bodies' (EB) and non-infectious, intracellular multiplying 'Reticulate Bodies' (RB)",
+    "distractors": [
+      "Vegetative cells and endospores",
+      "Trophozoites and cysts",
+      "Sporozoites and merozoites"
+    ]
+  },
+  {
+    "id": "vmc_exp_084",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "Coxiella burnetii, the causative agent of Q Fever in ruminants and humans, is exceptionally resistant to environmental heat, desiccation, and disinfectants because it forms:",
+    "correct": "A small, condensed, spore-like cell form termed the 'Small Cell Variant' (SCV)",
+    "distractors": [
+      "A poly-D-glutamic acid capsule",
+      "A thick peptidoglycan cell wall like Bacillus",
+      "Endospores containing dipicolinic acid"
+    ]
+  },
+  {
+    "id": "vmc_exp_087",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "Anaplasma centrale differs from Anaplasma marginale in that Anaplasma centrale:",
+    "correct": "Produces mild or subclinical anemia, exhibits inclusion bodies located centrally within erythrocytes, and is used as a live vaccine in cattle",
+    "distractors": [
+      "Is fatal in 90% of cattle",
+      "Lacks DNA",
+      "Is transmitted exclusively by lice"
+    ]
+  },
+  {
+    "id": "vmc_exp_090",
+    "subjectId": "vmc",
+    "topic": "Systematic Bacteriology (ICAR PG PYQ)",
+    "questionText": "The 'Satellite Phenomenon' is a classic bacteriological culture characteristic of Actinobacillus pleuropneumoniae and Glaesserella parasuis, observed when grown on sheep blood agar near a nurse streak of:",
+    "correct": "Staphylococcus aureus, which secretes excess V-factor (NAD) required for satellite colony growth",
+    "distractors": [
+      "Bacillus anthracis",
+      "Escherichia coli",
+      "Pseudomonas aeruginosa"
+    ]
+  },
+  {
+    "id": "vmc_exp_102",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "The surface glycoprotein G of Rabies virus mediates viral attachment to peripheral host cells by binding with high affinity to which neuronal receptor?",
+    "correct": "Nicotinic Acetylcholine Receptor (nAChR) at the neuromuscular junction (and NCAM / p75NTR)",
+    "distractors": [
+      "Dopamine D2 receptor",
+      "Beta-2 adrenergic receptor",
+      "GABA-A receptor"
+    ]
+  },
+  {
+    "id": "vmc_exp_107",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "Lumpy Skin Disease (LSD) of cattle and water buffaloes is caused by a Capripoxvirus that is primarily transmitted between animals by:",
+    "correct": "Hematophagous mechanical insect vectors (such as stable flies Stomoxys calcitrans, mosquitoes, and Rhipicephalus ticks)",
+    "distractors": [
+      "Aerosol droplets across long distances",
+      "Venereal transmission only",
+      "Water-borne ingestion of spores"
+    ]
+  },
+  {
+    "id": "vmc_exp_109",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "Bovine Papular Stomatitis and Pseudocowpox (milker's nodules) in cattle are caused by members of which genus in the family Poxviridae?",
+    "correct": "Parapoxvirus (ovoid virions with a criss-cross spiral filament pattern)",
+    "distractors": [
+      "Capripoxvirus",
+      "Orthopoxvirus",
+      "Avipoxvirus"
+    ]
+  },
+  {
+    "id": "vmc_exp_112",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "Infectious Bovine Rhinotracheitis (IBR) virus (Bovine alphaherpesvirus 1 / BHV-1) establishes lifelong latency primarily within neurons of which anatomical structure?",
+    "correct": "Trigeminal ganglion (following respiratory infection) and Sacral ganglion (following genital infection)",
+    "distractors": [
+      "Hippocampus",
+      "Ventral horn motor neurons of the cervical spinal cord",
+      "Dorsal root ganglia of thoracic segments exclusively"
+    ]
+  },
+  {
+    "id": "vmc_exp_114",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "Malignant Catarrhal Fever (MCF) in cattle and deer is an acute fatal lymphoproliferative panvasculitis caused by which gammaherpesviruses transmitted from carrier reservoir hosts?",
+    "correct": "Alcelaphine gammaherpesvirus 1 (wildebeest-associated) and Ovine gammaherpesvirus 2 (sheep-associated)",
+    "distractors": [
+      "Bovine herpesvirus 4",
+      "Equine herpesvirus 1",
+      "Gallid herpesvirus 1"
+    ]
+  },
+  {
+    "id": "vmc_exp_122",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Virology (ICAR PG PYQ)",
+    "questionText": "In horses, the official international gold standard serological test for Equine Infectious Anemia (EIA) required for racehorse certification is the:",
+    "correct": "Coggins Test (Agar Gel Immunodiffusion / AGID detecting antibodies against the p26 capsid protein)",
+    "distractors": [
+      "Serum neutralization test",
+      "Latex agglutination",
+      "Western blot for gp120"
+    ]
+  },
+  {
+    "id": "vmc_exp_123",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "Bovine Leukemia Virus (BLV) is classified in the genus Deltaretrovirus and is unique among oncogenic retroviruses because it induces B-cell lymphosarcoma in cattle without:",
+    "correct": "Carrying a viral oncogene (v-onc) and without insertional mutagenesis near a proto-oncogene (instead using Tax protein transactivation)",
+    "distractors": [
+      "Infecting white blood cells",
+      "Producing any antibodies",
+      "Integrating into host DNA"
+    ]
+  },
+  {
+    "id": "vmc_exp_127",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "Bovine Viral Diarrhea Virus (BVDV) exists in two distinct biotypes in cell culture, termed Cytopathic (CP) and Non-Cytopathic (NCP), which are differentiated by:",
+    "correct": "Induction of vacuolation and lysis of cultured bovine cell monolayers (CP) versus absence of visible cytopathic effect (NCP)",
+    "distractors": [
+      "Different capsid symmetries",
+      "Genome size differences of 10-fold",
+      "Sensitivity to pasteurization"
+    ]
+  },
+  {
+    "id": "vmc_exp_129",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "Border Disease in sheep ('Hairy Shaker Disease' / 'Fuzzy Lamb Disease') is caused by an ovine pestivirus that produces:",
+    "correct": "Excessive birth coat hairiness (halo hairs), rhythmic muscle tremors due to hypomyelinogenesis, and skeletal defects in newborn lambs",
+    "distractors": [
+      "Acute bloody diarrhea with 100% mortality in adult ewes",
+      "Severe wool discoloration to green",
+      "Purulent mastitis only"
+    ]
+  },
+  {
+    "id": "vmc_exp_139",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "The primary host-protective neutralizing epitope of Infectious Bursal Disease Virus (IBDV) resides within the hypervariable region of which structural protein?",
+    "correct": "VP2 capsid protein (specifically loops Pbc and Pde between amino acids 206 and 350)",
+    "distractors": [
+      "VP3 internal protein",
+      "VP4 protease",
+      "VP1 polymerase"
+    ]
+  },
+  {
+    "id": "vmc_exp_142",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "In cats, Feline Infectious Peritonitis (FIP) arises in individual cats not through direct horizontal transmission of FIP virus, but via:",
+    "correct": "Spontaneous internal mutation of ubiquitous enteric Feline Coronavirus (FECV) within an infected cat, acquiring tropism for monocytes and macrophages",
+    "distractors": [
+      "Inhalation of fungal spores",
+      "Contaminated drinking water containing viral cysts",
+      "Direct bite transmission from wild felids"
+    ]
+  },
+  {
+    "id": "vmc_exp_145",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "The pathognomonic microscopic lesion in lymphoid tissues of weanling pigs with Porcine Circovirus-Associated Disease (PCVAD / PMWS) is:",
+    "correct": "Lymphoid depletion with replacement by histiocytes and multinucleated giant cells containing grape-like basophilic intracytoplasmic inclusion bodies",
+    "distractors": [
+      "Severe neutrophilic abscesses in lymphoid follicles",
+      "Total absence of histiocytes",
+      "Extensive caseous necrosis with Langhans cells"
+    ]
+  },
+  {
+    "id": "vmc_exp_147",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "Equine Viral Arteritis (EVA) is caused by an Arterivirus that causes acute fever, conjunctivitis, edema of limbs and prepuce, and abortion in mares, with the virus establishing a long-term carrier state in:",
+    "correct": "The reproductive tract (ampullae of the vas deferens) of stallions, shed continuously in semen in a testosterone-dependent manner",
+    "distractors": [
+      "The thyroid gland",
+      "The guttural pouches of mares",
+      "The intestinal crypts"
+    ]
+  },
+  {
+    "id": "vmc_exp_152",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "In Avian Influenza epidemiology, 'Antigenic Shift' differs from 'Antigenic Drift' because Antigenic Shift:",
+    "correct": "Is a sudden, major genetic reassortment resulting from genetic exchange of complete RNA segments between different influenza subtypes in a co-infected host cell",
+    "distractors": [
+      "Involves minor point mutations in hemagglutinin accumulated over time",
+      "Never produces pandemic strains",
+      "Occurs only in DNA viruses"
+    ]
+  },
+  {
+    "id": "vmc_exp_153",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "The primary avian reservoir hosts maintaining the global genetic diversity of Influenza A viruses without typically developing clinical disease are:",
+    "correct": "Wild aquatic waterfowl (Anseriformes: ducks, geese, swans; and Charadriiformes: gulls, shorebirds)",
+    "distractors": [
+      "Passerine songbirds",
+      "Commercial broiler chickens",
+      "Domestic turkeys"
+    ]
+  },
+  {
+    "id": "vmc_exp_154",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "The molecular diagnostic hallmark distinguishing Highly Pathogenic Avian Influenza (HPAI) from Low Pathogenic Avian Influenza (LPAI) strains in poultry is:",
+    "correct": "Presence of multiple basic amino acids (arginine and lysine) at the Hemagglutinin cleavage site, permitting cleavage by ubiquitous intracellular furin-like proteases",
+    "distractors": [
+      "Duplication of the neuraminidase stalk",
+      "Deletion of the M2 ion channel",
+      "Loss of the nucleoprotein"
+    ]
+  },
+  {
+    "id": "vmc_exp_156",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "Swine are historically referred to as 'mixing vessels' for the generation of novel pandemic Influenza A strains because porcine respiratory epithelium uniquely expresses:",
+    "correct": "Both alpha-2,3-linked and alpha-2,6-linked sialic acid receptors, allowing co-infection by both avian and human influenza viruses",
+    "distractors": [
+      "No sialic acid receptors",
+      "Only alpha-2,6 receptors",
+      "Only alpha-2,3 receptors"
+    ]
+  },
+  {
+    "id": "vmc_exp_157",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology (ICAR PG PYQ)",
+    "questionText": "Avian Reoviruses (genus Orthoreovirus, family Reoviridae) are characterized pathologically by producing which disease in broiler chickens?",
+    "correct": "Viral Arthritis / Tenosynovitis (swelling of the hock joint and rupture of the gastrocnemius tendon)",
+    "distractors": [
+      "Hydropericardium syndrome",
+      "Egg Drop Syndrome",
+      "Visceral gout"
+    ]
+  },
+  {
+    "id": "vmc_exp_159",
+    "subjectId": "vmc",
+    "topic": "Systematic Virology",
+    "questionText": "Goose Hemorrhagic Polyomavirus (GHPv) is the etiological agent of 'Hemorrhagic Nephritis and Enteritis of Geese' (HNEG), which is characterized by:",
+    "correct": "Sudden high mortality in goslings aged 3 to 10 weeks, severe subcutaneous edema, hemorrhagic nephritis, and enteritis",
+    "distractors": [
+      "Atrophy of the tongue",
+      "Chronic feather loss in adult ganders",
+      "Pure corneal opacity"
+    ]
+  },
+  {
+    "id": "vmc_exp_164",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Virology (ICAR PG PYQ)",
+    "questionText": "The 'Hemadsorption' (HAD) phenomenon is a specialized virological diagnostic technique where red blood cells adhere to the surface of virus-infected cell culture monolayers, pathognomonic for:",
+    "correct": "African Swine Fever Virus and Paramyxoviruses (Newcastle Disease / Parainfluenza)",
+    "distractors": [
+      "Herpesviruses",
+      "Adenoviruses",
+      "Parvoviruses"
+    ]
+  },
+  {
+    "id": "vmc_exp_165",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Virology (ICAR PG PYQ)",
+    "questionText": "In the Hemagglutination Inhibition (HI) test, the official unit used to express the concentration of viral antigen required to perform the test is:",
+    "correct": "4 Hemagglutinating Units (4 HAU)",
+    "distractors": [
+      "1 HAU",
+      "100 HAU",
+      "10 HAU"
+    ]
+  },
+  {
+    "id": "vmc_exp_184",
+    "subjectId": "vmc",
+    "topic": "General Bacteriology (ICAR PG PYQ)",
+    "questionText": "Negative staining (using India ink or 10% Nigrosin) is specifically utilized in veterinary microbiology to demonstrate bacterial and fungal:",
+    "correct": "Capsules (which remain clear and unstained against a dark carbon background)",
+    "distractors": [
+      "Flagella",
+      "Cell walls directly",
+      "Ribosomes"
+    ]
+  },
+  {
+    "id": "vmc_exp_191",
+    "subjectId": "vmc",
+    "topic": "Bacterial Genetics (ICAR PG PYQ)",
+    "questionText": "The classical discovery of genetic 'Transformation' by Frederick Griffith (1928) utilized which veterinary/medical pathogen?",
+    "correct": "Streptococcus pneumoniae (demonstrating transfer of capsule virulence from heat-killed smooth to live rough strains)",
+    "distractors": [
+      "Salmonella Typhimurium",
+      "Bacillus anthracis",
+      "Escherichia coli"
+    ]
+  },
+  {
+    "id": "vmc_exp_197",
+    "subjectId": "vmc",
+    "topic": "Bacterial Genetics (ICAR PG PYQ)",
+    "questionText": "An 'F-prime' (F') plasmid is created when an integrated F factor in an Hfr strain undergoes:",
+    "correct": "Imprecise, faulty excision from the chromosome, carrying adjacent host bacterial genes with it into the autonomous plasmid",
+    "distractors": [
+      "Complete chromosomal deletion",
+      "Inversion of the entire genome",
+      "Duplication of all transposons"
+    ]
+  },
+  {
+    "id": "vmc_exp_198",
+    "subjectId": "vmc",
+    "topic": "Bacterial Genetics (ICAR PG PYQ)",
+    "questionText": "R-Plasmids (Resistance Plasmids) of multi-drug resistant Enterobacteriaceae consist structurally of two distinct functional components:",
+    "correct": "Resistance Transfer Factor (RTF, encoding conjugative transfer) and the r-determinant (carrying multiple antibiotic resistance genes)",
+    "distractors": [
+      "Promoter and Operator only",
+      "Inverted terminal repeats only",
+      "Leader sequence and Attenuator"
+    ]
+  },
+  {
+    "id": "vmc_exp_212",
+    "subjectId": "vmc",
+    "topic": "General Bacteriology (ICAR PG PYQ)",
+    "questionText": "MacConkey Agar is a classic example of a medium that is both:",
+    "correct": "Selective (bile salts and crystal violet inhibit Gram-positive bacteria) and Differential (lactose fermentation indicated by neutral red)",
+    "distractors": [
+      "Completely non-selective",
+      "Enriched and Transport only",
+      "Synthetic and chemically defined"
+    ]
+  },
+  {
+    "id": "vmc_exp_213",
+    "subjectId": "vmc",
+    "topic": "General Bacteriology (ICAR PG PYQ)",
+    "questionText": "Robertson's Cooked Meat Medium (RCM) is an enriched transport and culture medium specially designed for the cultivation of:",
+    "correct": "Anaerobic spore-forming bacteria (such as Clostridium species)",
+    "distractors": [
+      "Chlamydiae",
+      "Mycoplasmas",
+      "Strict aerobes"
+    ]
+  },
+  {
+    "id": "vmc_exp_214",
+    "subjectId": "vmc",
+    "topic": "General Bacteriology (ICAR PG PYQ)",
+    "questionText": "Thioglycollate broth creates an oxygen gradient from top to bottom, allowing classification of microbial oxygen requirements. Strict obligate anaerobes grow exclusively:",
+    "correct": "At the bottom of the tube where oxygen tension is lowest (indicated by decolorized resazurin / methylene blue)",
+    "distractors": [
+      "In the top 1 cm only",
+      "Uniformly throughout the tube",
+      "At the very surface meniscus"
+    ]
+  },
+  {
+    "id": "vmc_exp_216",
+    "subjectId": "vmc",
+    "topic": "Veterinary Immunology (ICAR PG PYQ)",
+    "questionText": "In ruminants (cattle, sheep, goats), the predominant immunoglobulin class present in colostrum is:",
+    "correct": "IgG1 (selectively transported across the mammary alveolar epithelium via FcRn receptors)",
+    "distractors": [
+      "IgA",
+      "IgE",
+      "IgM"
+    ]
+  },
+  {
+    "id": "vmc_exp_217",
+    "subjectId": "vmc",
+    "topic": "Veterinary Immunology (ICAR PG PYQ)",
+    "questionText": "The phenomenon of 'Gut Closure' (cessation of macromolecular absorption of intact colostral immunoglobulins) in newborn calves and foals is completed by approximately:",
+    "correct": "24 to 36 hours after birth (with highest absorption efficiency in the first 4-6 hours)",
+    "distractors": [
+      "6 hours",
+      "2 weeks",
+      "3 to 5 days"
+    ]
+  },
+  {
+    "id": "vmc_exp_220",
+    "subjectId": "vmc",
+    "topic": "Veterinary Immunology (ICAR PG PYQ)",
+    "questionText": "The primary immunoglobulin class responsible for activating the Classical Pathway of the Complement cascade with the highest molecular efficiency is:",
+    "correct": "IgM (a pentamer requiring only a single molecule to bind C1q)",
+    "distractors": [
+      "IgA",
+      "IgD",
+      "IgG4"
+    ]
+  },
+  {
+    "id": "vmc_exp_222",
+    "subjectId": "vmc",
+    "topic": "Immunological Techniques (ICAR PG PYQ)",
+    "questionText": "Monoclonal antibodies were originally produced by Georges Köhler and César Milstein (1975) utilizing 'Hybridoma Technology', which involves fusing:",
+    "correct": "Antigen-primed splenic B-lymphocytes with immortal non-secreting myeloma cells using Polyethylene Glycol (PEG)",
+    "distractors": [
+      "Erythrocytes with stem cells",
+      "T-lymphocytes with macrophages",
+      "Plasma cells with fibroblasts"
+    ]
+  },
+  {
+    "id": "vmc_exp_228",
+    "subjectId": "vmc",
+    "topic": "Veterinary Immunology (ICAR PG PYQ)",
+    "questionText": "The Membrane Attack Complex (MAC), which inserts into lipid membranes to form transmembrane hydrophilic pores causing osmotic lysis of target pathogens, is composed of:",
+    "correct": "C5b, C6, C7, C8, and multiple C9 molecules (C5b-9 complex)",
+    "distractors": [
+      "C3a and C5a",
+      "C4b and C2a",
+      "C1q, C1r, C1s"
+    ]
+  },
+  {
+    "id": "vmc_exp_231",
+    "subjectId": "vmc",
+    "topic": "Veterinary Immunology (ICAR PG PYQ)",
+    "questionText": "Major Histocompatibility Complex (MHC) Class I molecules are expressed on:",
+    "correct": "All nucleated cells of the body, and present endogenous (viral/intracellular) peptide antigens to CD8+ Cytotoxic T-lymphocytes (CTLs)",
+    "distractors": [
+      "B-lymphocytes only",
+      "Antigen-presenting cells exclusively",
+      "Erythrocytes only"
+    ]
+  },
+  {
+    "id": "vmc_exp_235",
+    "subjectId": "vmc",
+    "topic": "Veterinary Immunology (ICAR PG PYQ)",
+    "questionText": "Interleukin-4 (IL-4) secreted by CD4+ Th2 lymphocytes drives antibody class-switching in B-lymphocytes towards which immunoglobulin class?",
+    "correct": "IgE (and IgG1 in mice / IgG4 in humans)",
+    "distractors": [
+      "IgD",
+      "IgM",
+      "IgA only"
+    ]
+  },
+  {
+    "id": "vmc_exp_237",
+    "subjectId": "vmc",
+    "topic": "Veterinary Immunology (ICAR PG PYQ)",
+    "questionText": "Systemic Anaphylaxis in domestic animals exhibits species-specific 'shock organs' (the primary organ that fails during acute anaphylactic collapse). In the dog, the primary shock organ is the:",
+    "correct": "Hepatic veins (hepatic venous sphincter contraction causing massive portal venous pooling and splanchnic shock)",
+    "distractors": [
+      "Lungs (bronchospasm)",
+      "Kidney",
+      "Heart (coronary occlusion)"
+    ]
+  },
+  {
+    "id": "vmc_exp_242",
+    "subjectId": "vmc",
+    "topic": "Veterinary Immunology (ICAR PG PYQ)",
+    "questionText": "'Corneal Opacity' ('Blue Eye') observed in dogs recovering from Canine Adenovirus Type 1 (CAV-1 / Infectious Canine Hepatitis) is a classic example of:",
+    "correct": "Type III hypersensitivity (immune-complex deposition in the anterior chamber and corneal endothelial cells)",
+    "distractors": [
+      "Type I immediate allergic reaction",
+      "Direct viral cytolysis of the retina",
+      "Bacterial endophthalmitis"
+    ]
+  },
+  {
+    "id": "vmc_exp_244",
+    "subjectId": "vmc",
+    "topic": "Veterinary Immunology (ICAR PG PYQ)",
+    "questionText": "Allergic Contact Dermatitis in dogs (e.g. from flea collars, carpet dyes, or topical medications) is mediated by low-molecular-weight chemical substances termed:",
+    "correct": "Haptens (which are non-immunogenic alone, but become immunogenic upon covalently binding host epidermal proteins)",
+    "distractors": [
+      "Complete antigens",
+      "Superantigens",
+      "Adjuvants"
+    ]
+  },
+  {
+    "id": "vmc_exp_253",
+    "subjectId": "vmc",
+    "topic": "Vaccinology (ICAR PG PYQ)",
+    "questionText": "In veterinary vaccinology, the 'Marker Vaccine' (DIVA vaccine: Differentiating Infected from Vaccinated Animals) concept requires which critical combination?",
+    "correct": "A vaccine with a deleted non-essential gene (e.g. gE-deleted Pseudorabies vaccine) used alongside a companion diagnostic ELISA that detects antibodies against the deleted protein",
+    "distractors": [
+      "A vaccine given only by oral route",
+      "A vaccine with green fluorescent protein added",
+      "A vaccine that uses live human pathogens"
+    ]
+  },
+  {
+    "id": "vmc_exp_254",
+    "subjectId": "vmc",
+    "topic": "Vaccinology (ICAR PG PYQ)",
+    "questionText": "DNA vaccines (plasmid DNA immunization) elicit both humoral and strong cell-mediated immunity because the encoded antigen is:",
+    "correct": "Synthesized endogenously inside host myocytes and antigen-presenting cells, allowing processing and presentation on both MHC Class I and Class II pathways",
+    "distractors": [
+      "Coated on red blood cells",
+      "Derived entirely from plant leaves",
+      "Excreted directly in urine"
+    ]
+  },
+  {
+    "id": "vmc_exp_255",
+    "subjectId": "vmc",
+    "topic": "Vaccinology (ICAR PG PYQ)",
+    "questionText": "The primary reason that maternal derived antibodies (MDA) interfere with active immunization in young puppies and calves during early life is that maternal IgG:",
+    "correct": "Binds and neutralizes the vaccine antigen and cross-links the inhibitory Fc-gamma-RIIB receptor on naive B-cells, blocking activation",
+    "distractors": [
+      "Inactivates complement",
+      "Cleaves host T-cell receptors",
+      "Directly destroys the host thymus"
+    ]
+  },
+  {
+    "id": "vmc_exp_257",
+    "subjectId": "vmc",
+    "topic": "Veterinary Immunology (ICAR PG PYQ)",
+    "questionText": "Severe Combined Immunodeficiency (SCID) in Arabian foals is a fatal autosomal recessive genetic disease caused by a defect in:",
+    "correct": "DNA-dependent protein kinase catalytic subunit (DNA-PKcs), preventing V(D)J recombination of T-cell receptors and immunoglobulins",
+    "distractors": [
+      "Complement C3",
+      "CD18 integrin subunit",
+      "Myeloperoxidase"
+    ]
+  },
+  {
+    "id": "vmc_exp_259",
+    "subjectId": "vmc",
+    "topic": "Veterinary Immunology",
+    "questionText": "Autoimmune (Lymphocytic) Thyroiditis in dogs is the primary cause of primary adult hypothyroidism, characterized histopathologically by:",
+    "correct": "Diffuse infiltration of the thyroid gland by lymphocytes, plasma cells, and macrophages with progressive destruction of follicular architecture",
+    "distractors": [
+      "Pure calcification of follicles",
+      "C-cell adenoma",
+      "Massive follicular hyperplasia with goiter"
+    ]
+  },
+  {
+    "id": "vmc_exp_265",
+    "subjectId": "vmc",
+    "topic": "General Virology",
+    "questionText": "The phenomenon of 'Phenotypic Mixing' in virology occurs during co-infection of a single cell by two related viruses when:",
+    "correct": "Progeny virions contain the genome of one virus packaged within a capsid or envelope composed partly or entirely of proteins from the other virus",
+    "distractors": [
+      "A virus loses its envelope permanently",
+      "Two RNA segments cross over homologous sequences",
+      "A mutation occurs in the polymerase gene"
+    ]
+  },
+  {
+    "id": "vmc_exp_268",
+    "subjectId": "vmc",
+    "topic": "General Virology (ICAR PG PYQ)",
+    "questionText": "In virology, a 'Defective Interfering' (DI) particle is a subviral entity characterized as a:",
+    "correct": "Spontaneous deletion mutant lacking essential replication genes that can only replicate in the presence of a homologous helper virus, competing for replication machinery and reducing wild-type viral yields",
+    "distractors": [
+      "Virion containing foreign cellular DNA only",
+      "Virus that only infects bacteria",
+      "Non-infectious empty capsid"
+    ]
+  },
+  {
+    "id": "vmc_exp_269",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Virology (ICAR PG PYQ)",
+    "questionText": "Which physical or chemical agent is routinely utilized in veterinary diagnostic laboratories to determine whether an unknown viral isolate possesses a lipid envelope?",
+    "correct": "Chloroform or Diethyl Ether treatment (enveloped viruses lose infectivity; non-enveloped viruses survive)",
+    "distractors": [
+      "Heat treatment at 37°C",
+      "Exposure to pH 7.0",
+      "Freezing at -20°C"
+    ]
+  },
+  {
+    "id": "vmc_exp_272",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Virology (ICAR PG PYQ)",
+    "questionText": "Cowdry Type A inclusion bodies, the classical intranuclear diagnostic hallmark of Herpesvirus infections, are microscopically described as:",
+    "correct": "Single, large, round, eosinophilic, amorphous intranuclear masses surrounded by a clear halo, with chromatin margination along the nuclear membrane",
+    "distractors": [
+      "Intracytoplasmic lipid droplets",
+      "Multiple tiny basophilic granules scattered in the cytoplasm",
+      "Dense crystalline arrays of virions filling the nucleolus"
+    ]
+  },
+  {
+    "id": "vmc_exp_273",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Virology",
+    "questionText": "Cowdry Type B inclusion bodies differ from Cowdry Type A inclusions because Type B inclusions:",
+    "correct": "Are smaller, more variable in number, do not cause marked chromatin margination, and are seen in Adenovirus or Poliovirus infections",
+    "distractors": [
+      "Stain bright blue with Gram stain",
+      "Are exclusively cytoplasmic",
+      "Are always calcified"
+    ]
+  },
+  {
+    "id": "vmc_exp_276",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Virology (ICAR PG PYQ)",
+    "questionText": "The pH indicator universally incorporated into mammalian cell culture media (e.g. MEM, DMEM) that turns yellow upon medium acidification is:",
+    "correct": "Phenol Red (red at physiological pH 7.2-7.4, yellow when acidic < 6.8, purple when alkaline > 7.8)",
+    "distractors": [
+      "Methyl Red",
+      "Bromothymol Blue",
+      "Neutral Red"
+    ]
+  },
+  {
+    "id": "vmc_exp_278",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Virology (ICAR PG PYQ)",
+    "questionText": "In diagnostic virology, 'Interference' is a diagnostic phenomenon where:",
+    "correct": "Infection of a cell culture by a non-cytopathic virus inhibits or blocks subsequent replication and cytopathic effect of a superinfecting challenge virus",
+    "distractors": [
+      "A virus loses its genome",
+      "Antiserum fails to neutralize a virus",
+      "Two viruses kill the host cell in half the time"
+    ]
+  },
+  {
+    "id": "vmc_exp_283",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Virology (ICAR PG PYQ)",
+    "questionText": "The primary diagnostic utility of the 'Hemagglutination' (HA) test in veterinary virology is that it:",
+    "correct": "Provides a rapid, simple, in vitro quantification of viral particles without requiring living host cells, based on surface hemagglutinins bridging erythrocytes",
+    "distractors": [
+      "Identifies bacterial spores",
+      "Measures host cell apoptosis",
+      "Measures the precise number of viable neutralizing antibodies"
+    ]
+  },
+  {
+    "id": "vmc_exp_285",
+    "subjectId": "vmc",
+    "topic": "Diagnostic Virology (ICAR PG PYQ)",
+    "questionText": "The preservative solution universally recommended for submitting field tissue samples for viral isolation when samples cannot be frozen immediately in liquid nitrogen is:",
+    "correct": "50% Buffered Glycerol Saline (equal parts glycerol and 0.01M phosphate-buffered saline, pH 7.4)",
+    "distractors": [
+      "10% Neutral Buffered Formalin",
+      "Distilled water with penicillin",
+      "70% Ethanol"
+    ]
+  },
+  {
+    "id": "vmc_exp_286",
+    "subjectId": "vmc",
+    "topic": "Veterinary Mycology (ICAR PG PYQ)",
+    "questionText": "Microsporum canis, the primary cause of ringworm (dermatophytosis) in dogs and cats, is identified on direct microscopic examination of hair plucks by producing:",
+    "correct": "Ectothrix arthrospores forming a dense mosaic sheath around the exterior of the hair shaft, and fluorescing bright apple-green under Wood's lamp (365 nm)",
+    "distractors": [
+      "Endothrix large spores packed solely inside the hair shaft",
+      "Intracellular yeasts inside RBCs",
+      "No fluorescence under any lamp"
+    ]
+  },
+  {
+    "id": "vmc_exp_288",
+    "subjectId": "vmc",
+    "topic": "Veterinary Mycology (ICAR PG PYQ)",
+    "questionText": "Microsporum canis is microscopically distinguished from Trichophyton species in culture by its characteristic macroconidia, which are:",
+    "correct": "Abundant, large, thick-walled, spindle-shaped (fusiform) with an asymmetrical curved terminal beak, containing 6 or more internal transverse septa",
+    "distractors": [
+      "Spherical, single-celled chlamydospores",
+      "Pencil-shaped, smooth, and thin-walled",
+      "Completely absent in culture"
+    ]
+  },
+  {
+    "id": "vmc_exp_290",
+    "subjectId": "vmc",
+    "topic": "Veterinary Mycology (ICAR PG PYQ)",
+    "questionText": "Candida albicans is rapidly differentiated from all other non-albicans Candida species in the diagnostic mycology laboratory by the positive:",
+    "correct": "Germ Tube Test (formation of true germ tubes extending without constriction from yeast cells incubated in horse or fetal calf serum at 37°C within 2 to 3 hours)",
+    "distractors": [
+      "Bile-esculin hydrolysis",
+      "Catalase test",
+      "Urease test"
+    ]
+  },
+  {
+    "id": "vmc_exp_291",
+    "subjectId": "vmc",
+    "topic": "Veterinary Mycology (ICAR PG PYQ)",
+    "questionText": "Cryptococcus neoformans is an environmental encapsulated yeast associated with dried pigeon droppings, recognized under negative staining with India ink by its:",
+    "correct": "Massive, mucopolysaccharide (glucuronoxylomannan) capsule that repels colloidal carbon particles, appearing as a wide clear halo around the yeast cell",
+    "distractors": [
+      "Internal spore-bearing asci",
+      "Dense, non-encapsulated oval cells forming pseudohyphae",
+      "Acid-fast staining with Ziehl-Neelsen"
+    ]
+  },
+  {
+    "id": "vmc_exp_293",
+    "subjectId": "vmc",
+    "topic": "Veterinary Mycology (ICAR PG PYQ)",
+    "questionText": "Blastomyces dermatitidis, causing canine blastomycosis (pulmonary and cutaneous pyogranulomatous disease), appears in infected host tissues as a:",
+    "correct": "Large (8 to 15 um), thick, refractile 'double-contoured' wall yeast cell that buds singly with a characteristic broad base of attachment to the daughter cell",
+    "distractors": [
+      "Giant spherule with endospores",
+      "Narrow-based budding yeast",
+      "Tiny (2 to 4 um) intracellular yeast packed in macrophages"
+    ]
+  },
+  {
+    "id": "vmc_exp_295",
+    "subjectId": "vmc",
+    "topic": "Mycotoxicoses (ICAR PG PYQ)",
+    "questionText": "Aflatoxin B1, produced primarily by Aspergillus flavus and Aspergillus parasiticus on stored cereal grains and oilseeds, exerts its potent hepatotoxic and carcinogenic effects following bioactivation by hepatic CYP450 enzymes into:",
+    "correct": "Aflatoxin B1-8,9-epoxide, which covalently binds to the N7 position of guanine residues in genomic DNA",
+    "distractors": [
+      "Gluconic acid",
+      "Ascorbic acid",
+      "Free benzoic acid"
+    ]
+  },
+  {
+    "id": "vmc_exp_297",
+    "subjectId": "vmc",
+    "topic": "Mycotoxicoses (ICAR PG PYQ)",
+    "questionText": "Ochratoxin A, synthesized by Aspergillus ochraceus and Penicillium verrucosum, is of major clinical significance in swine and poultry because it is primarily a potent:",
+    "correct": "Nephrotoxin, causing porcine nephropathy characterized by proximal renal tubular degeneration, interstitial fibrosis, and pale swollen kidneys",
+    "distractors": [
+      "Hepatocarcinogen only",
+      "Cardiac glycoside",
+      "Neurotoxin causing flaccid paralysis"
+    ]
+  },
+  {
+    "id": "vmc_exp_298",
+    "subjectId": "vmc",
+    "topic": "Mycotoxicoses (ICAR PG PYQ)",
+    "questionText": "Zearalenone (F-2 toxin), produced by Fusarium graminearum and Fusarium culmorum in moldy maize, is notorious in swine production because it binds host estrogen receptors, causing:",
+    "correct": "Hyperestrogenism in prepubertal gilts (swollen hyperemic vulva / 'vulvovaginitis', mammary enlargement, and rectal prolapse)",
+    "distractors": [
+      "Dry gangrene of the tail",
+      "Acute pulmonary edema and hydrothorax",
+      "Severe bone marrow aplasia"
+    ]
+  },
+  {
+    "id": "vmc_exp_299",
+    "subjectId": "vmc",
+    "topic": "Mycotoxicoses (ICAR PG PYQ)",
+    "questionText": "Fumonisin B1 (FB1), produced by Fusarium verticillioides in moldy corn, inhibits ceramide synthase (sphingosine N-acyltransferase), leading to accumulation of toxic sphinganine and causing which two species-specific fatal diseases?",
+    "correct": "Equine Leukoencephalomalacia (ELEM / 'Moldy Corn Disease' in horses) and Porcine Pulmonary Edema (PPE in swine)",
+    "distractors": [
+      "Avian gout and Newcastle disease",
+      "Canine hepatitis and feline lymphoma",
+      "Bovine mastitis and ovine enterotoxemia"
+    ]
+  },
+  {
+    "id": "van_exp_019",
+    "subjectId": "van",
+    "topic": "Comparative Osteology (ICAR PG PYQ)",
+    "questionText": "The total number of functional carpal bones present in the carpus of the adult Horse is typically:",
+    "correct": "7 or 8 (Radial, Intermediate, Ulnar, Accessory in proximal row; II, III, IV, and inconsistently I in distal row)",
+    "distractors": [
+      "6",
+      "5",
+      "10"
+    ]
+  },
+  {
+    "id": "van_exp_022",
+    "subjectId": "van",
+    "topic": "Comparative Osteology (ICAR PG PYQ)",
+    "questionText": "In the bovine pelvis, the Tuber Ischiadicum ('Pin bone') differs from that of the horse because the bovine tuber ischiadicum is:",
+    "correct": "Trifid (possessing three distinct blunt bony tuberosities: dorsal, ventral, and lateral)",
+    "distractors": [
+      "A smooth, single rounded plate",
+      "Completely absent",
+      "Pointed like a needle"
+    ]
+  },
+  {
+    "id": "van_exp_025",
+    "subjectId": "van",
+    "topic": "Comparative Osteology (ICAR PG PYQ)",
+    "questionText": "In cattle, the distal extremity of the fibula persists throughout adult life as an independent, separate tarsal bone termed the:",
+    "correct": "Os malleolare (Malleolar bone / external malleolus)",
+    "distractors": [
+      "Os cordis",
+      "Patella",
+      "Os penis"
+    ]
+  },
+  {
+    "id": "van_exp_027",
+    "subjectId": "van",
+    "topic": "Comparative Osteology (ICAR PG PYQ)",
+    "questionText": "Heterotopic (visceral / splanchnic) bones are osseous elements that develop within soft tissues or organs. The 'Os Cordis' is normally present in the heart of:",
+    "correct": "Cattle (Bovine, typically two bones in the aortic fibrous ring)",
+    "distractors": [
+      "Fowl",
+      "Dogs",
+      "Horses"
+    ]
+  },
+  {
+    "id": "van_exp_034",
+    "subjectId": "van",
+    "topic": "Arthrology (ICAR PG PYQ)",
+    "questionText": "The cranial and caudal Cruciate Ligaments (Ligamenta cruciata genus) of the stifle joint cross each other within which anatomical space?",
+    "correct": "Intercondylar fossa of the femur and intercondylar area of the tibia (intra-articular but extrasynovial)",
+    "distractors": [
+      "Tarsal canal",
+      "Extensor fossa",
+      "Subcutaneous prepatellar bursa"
+    ]
+  },
+  {
+    "id": "van_exp_037",
+    "subjectId": "van",
+    "topic": "Arthrology (ICAR PG PYQ)",
+    "questionText": "The 'Nuchal Ligament' (Ligamentum nuchae), which assists in supporting the heavy weight of the head, consists of a Funicular part (cord) and a Lamellar part (sheet) in the Horse and Ox, but in the Dog it:",
+    "correct": "Consists solely of a Funicular part extending from the axis to the first thoracic spine, and lacks a lamellar part entirely",
+    "distractors": [
+      "Has only a lamellar part",
+      "Is completely absent",
+      "Is identical to the ox"
+    ]
+  },
+  {
+    "id": "van_exp_051",
+    "subjectId": "van",
+    "topic": "Digestive Splanchnology (ICAR PG PYQ)",
+    "questionText": "The 'Spiral Colon' (colon ascendens) of ruminants is anatomically arranged in flat concentric loops comprising:",
+    "correct": "Centripetal coils (running inwards towards the central flexure) and Centrifugal coils (running outwards from the central flexure)",
+    "distractors": [
+      "A descending spiral without a central flexure",
+      "Haustrated sacculations with 4 taeniae",
+      "A simple U-shaped loop"
+    ]
+  },
+  {
+    "id": "van_exp_053",
+    "subjectId": "van",
+    "topic": "Digestive Splanchnology (ICAR PG PYQ)",
+    "questionText": "In the domestic Horse, the ascending Great Colon is divided into four consecutive anatomical segments that form two U-shaped loops connected by which narrow, non-sacculated flexure that is a frequent site of impaction colic?",
+    "correct": "Pelvic Flexure (between the Left Ventral Colon and Left Dorsal Colon)",
+    "distractors": [
+      "Duodenojejunal flexure",
+      "Diaphragmatic flexure",
+      "Sternal flexure"
+    ]
+  },
+  {
+    "id": "van_exp_064",
+    "subjectId": "van",
+    "topic": "Respiratory Splanchnology (ICAR PG PYQ)",
+    "questionText": "In the horse, the lateral laryngeal ventricle (sacculus laryngis of Morgagni) is a blind mucous pouch located between which two laryngeal folds?",
+    "correct": "Ventricular fold (vestibular fold / false vocal cord) and Vocal fold (true vocal cord)",
+    "distractors": [
+      "Cricoid and thyroid",
+      "Tracheal ring and cricoid",
+      "Epiglottis and arytenoid"
+    ]
+  },
+  {
+    "id": "van_exp_070",
+    "subjectId": "van",
+    "topic": "Respiratory Splanchnology (ICAR PG PYQ)",
+    "questionText": "The stylohyoid bone divides each equine Guttural Pouch into two unequal compartments: a smaller Lateral Compartment and a larger Medial Compartment. Which vital cranial nerves and arteries lie in direct contact with the thin mucous lining of the Medial Compartment?",
+    "correct": "Internal Carotid Artery and Cranial Nerves IX (Glossopharyngeal), X (Vagus), XI (Accessory), XII (Hypoglossal), and sympathetic trunk",
+    "distractors": [
+      "Femoral nerve and Iliac artery",
+      "Radial nerve and Brachial artery",
+      "External Carotid Artery and Facial nerve only"
+    ]
+  },
+  {
+    "id": "van_exp_073",
+    "subjectId": "van",
+    "topic": "Urogenital Splanchnology (ICAR PG PYQ)",
+    "questionText": "In the equine kidney, the renal pelvis and terminal collecting ducts are histologically unique because they contain:",
+    "correct": "Mucus-secreting tubuloalveolar glands (glandulae pelvis renalis), which make normal equine urine thick, cloudy, and viscous",
+    "distractors": [
+      "Abundant stratified squamous epithelium",
+      "No mucus glands",
+      "Heavy calcification in all nephrons"
+    ]
+  },
+  {
+    "id": "van_exp_082",
+    "subjectId": "van",
+    "topic": "Angiology (ICAR PG PYQ)",
+    "questionText": "The 'Moderator Band' (Septomarginal Trabecula / Trabecula septomarginalis) is a muscular-tendinous cord traversing the lumen of which cardiac chamber to conduct electrical impulses?",
+    "correct": "Right Ventricle (connecting the interventricular septum to the base of the parietal wall / anterior papillary muscle)",
+    "distractors": [
+      "Left Atrium",
+      "Ascending aorta",
+      "Right Atrium"
+    ]
+  },
+  {
+    "id": "van_exp_086",
+    "subjectId": "van",
+    "topic": "Angiology",
+    "questionText": "The 'Cisterna Chyli' (the dilated abdominal receiving reservoir for lymph from the pelvis, hindlimbs, and viscera that gives rise to the Thoracic Duct) is located dorsal to the aorta at the level of:",
+    "correct": "L1 to L4 (between the crura of the diaphragm)",
+    "distractors": [
+      "C6 to C7",
+      "Sacrum",
+      "T5 to T7"
+    ]
+  },
+  {
+    "id": "van_exp_089",
+    "subjectId": "van",
+    "topic": "Angiology",
+    "questionText": "The portal vein (Vena portae) transports nutrient-rich blood from the digestive viscera to the liver, formed by the convergence of which three major veins?",
+    "correct": "Splenic vein, Cranial Mesenteric vein, and Caudal Mesenteric vein (and Gastroduodenal vein)",
+    "distractors": [
+      "Jugular vein and Subclavian vein",
+      "Azygos vein and Iliac vein",
+      "Renal vein, Hepatic vein, and Femoral vein"
+    ]
+  },
+  {
+    "id": "van_exp_097",
+    "subjectId": "van",
+    "topic": "Neurology (ICAR PG PYQ)",
+    "questionText": "The Hypoglossal Nerve (Cranial Nerve XII) exits through the hypoglossal canal and provides motor innervation to:",
+    "correct": "All intrinsic and extrinsic muscles of the Tongue (styloglossus, hyoglossus, genioglossus)",
+    "distractors": [
+      "Pharyngeal constrictors",
+      "Muscles of mastication",
+      "Facial muscles"
+    ]
+  },
+  {
+    "id": "van_exp_106",
+    "subjectId": "van",
+    "topic": "Clinical Anatomy (ICAR PG PYQ)",
+    "questionText": "Cerebrospinal Fluid (CSF) is collected in horses and cattle from the Cisterna Magna (cerebellomedullary cistern) at which anatomical landmark?",
+    "correct": "Atlanto-Occipital Space (articulation between the occipital condyles and the atlas)",
+    "distractors": [
+      "C7-T1 junction",
+      "Between thoracic spines",
+      "Lumbosacral junction"
+    ]
+  },
+  {
+    "id": "van_exp_110",
+    "subjectId": "van",
+    "topic": "Angiology (ICAR PG PYQ)",
+    "questionText": "The 'Jugular Furrow' (sulcus jugularis) of the horse and ox, accommodating the external jugular vein for routine venipuncture, is bounded ventrally by which muscle?",
+    "correct": "Sternocephalicus muscle (specifically the sternomandibularis in ox and horse)",
+    "distractors": [
+      "Brachiocephalicus muscle",
+      "Omohyoideus muscle",
+      "Splenius muscle"
+    ]
+  },
+  {
+    "id": "van_exp_126",
+    "subjectId": "van",
+    "topic": "Organ Histology (ICAR PG PYQ)",
+    "questionText": "In the domestic Ox and Sheep, the outer adrenal cortex (zona subcapsularis) exhibits cellular cords arranged in arched or loop-like clusters, earning it the histological designation:",
+    "correct": "Zona arcuata (characteristic of carnivores and equines, whereas ruminants display rounded clusters as classic Zona glomerulosa)",
+    "distractors": [
+      "Chromaffin zone",
+      "Zona fasciculata",
+      "Zona reticularis"
+    ]
+  },
+  {
+    "id": "van_exp_144",
+    "subjectId": "van",
+    "topic": "Avian Anatomy (ICAR PG PYQ)",
+    "questionText": "How many total air sacs (sacci pneumatici) are typically present in the domestic fowl (Gallus domesticus)?",
+    "correct": "9 (1 single interclavicular, 2 cervical, 2 cranial thoracic, 2 caudal thoracic, and 2 abdominal)",
+    "distractors": [
+      "7",
+      "8",
+      "12"
+    ]
+  },
+  {
+    "id": "vpa_exp_028",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "In horses, cutaneous habronemiasis ('Summer Sores' / Granular Dermatitis) presenting as non-healing granulomatous wound ulcerations with exuberant granulation tissue is caused by larvae of Habronema and Draschia megastoma deposited by:",
+    "correct": "Biting flies and house flies (Musca domestica and Stomoxys calcitrans)",
+    "distractors": [
+      "Mosquitoes",
+      "Tabanid horse flies",
+      "Culicoides midges"
+    ]
+  },
+  {
+    "id": "vpa_exp_042",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "The structural difference between a fully sporulated oocyst of the genus Eimeria versus the genus Isospora (Cystoisospora) is:",
+    "correct": "Eimeria contains 4 sporocysts with 2 sporozoites each (Total 8 sporozoites); Isospora contains 2 sporocysts with 4 sporozoites each (Total 8 sporozoites)",
+    "distractors": [
+      "Eimeria has no sporocysts",
+      "Eimeria has 2 sporocysts; Isospora has 4 sporocysts",
+      "Eimeria contains 16 sporozoites"
+    ]
+  },
+  {
+    "id": "vpa_exp_044",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "Cryptosporidium parvum, an important cause of profuse watery diarrhea in neonatal calves (5-15 days of age) and immunodeficient humans, occupies which unique cellular niche in the enterocyte?",
+    "correct": "Intracellular but Extracytoplasmic (located in the microvillar brush border enclosed in a parasitophorous vacuole)",
+    "distractors": [
+      "Free in the intestinal lumen",
+      "Deep nuclear matrix",
+      "Inside the mitochondrial matrix"
+    ]
+  },
+  {
+    "id": "vpa_exp_046",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "In pregnant ewes, abortion due to Toxoplasma gondii typically displays pathognomonic gross placental lesions described as:",
+    "correct": "Bright red cotyledons studded with small, discrete, white focal calcified necrotic plaques ('Strawberry jam' / 'Frosted' cotyledons)",
+    "distractors": [
+      "Complete absence of gross lesions",
+      "Uniform diffuse leathery brownish cotyledons",
+      "Hydatid cysts on the placenta"
+    ]
+  }
+]
