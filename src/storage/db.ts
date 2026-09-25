@@ -3,7 +3,7 @@ import { ALL_HIGH_YIELD_QUESTIONS, ALL_ICAR_PG_PYQ_QUESTIONS } from '../data/que
 
 export const STORAGE_KEYS = {
   QUESTIONS: 'icar_pg_questions_v1',
-  QUESTIONS_BALANCED_VERSION: 'icar_pg_questions_balanced_v2',
+  QUESTIONS_BALANCED_VERSION: 'icar_pg_questions_balanced_v3',
   RESULTS: 'icar_pg_results_v1',
   USER_PROFILE: 'icar_pg_user_profile_v1',
   SRS_RECORDS: 'icar_pg_srs_records_v1',

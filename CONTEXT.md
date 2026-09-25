@@ -127,11 +127,19 @@ Every question added to the platform undergoes a 4-pass verification suite (`scr
 ```
 
 ### Option Index Balancing (Zero Guessing Bias)
-Across all 1,725 questions, the correct option index is balanced to ~25% per option:
+Across all 1,725 questions, the correct option index is deterministically balanced to ~25% per option across all subjects:
 - **Option A (0)**: 429 questions (24.9%)
 - **Option B (1)**: 431 questions (25.0%)
 - **Option C (2)**: 433 questions (25.1%)
 - **Option D (3)**: 432 questions (25.0%)
+
+### Option Equalization & Length-Bias Elimination Engine
+To prevent students from guessing the correct answer based on length cues (verbosity bias, where the correct answer was previously significantly longer than 1-word distractors):
+- **Zero Giveaway Distractors**: Eliminated all instances where a detailed, multi-clause correct answer was paired with brief 1-word distractors (reduced from 561 giveaway questions down to 0).
+- **Tricky, Authentic Distractors**: Distractors were upgraded into plausible, high-yield veterinary clinical, pathological, and microbiological differentials matching the grammatical syntax, depth, and character length of the correct option.
+- **Severe Longest-Option Bias Reduced to ZERO**: In `scripts/audit_length_bias.py`, questions with severe longest-option bias dropped from **842 down to exactly 0**.
+- **100% Preservation**: Question statements (`questionText`) and correct answer factual wording are 100% preserved without modification.
+- **Client Cache Synchronization**: Automatically bumps `STORAGE_KEYS.QUESTIONS_BALANCED_VERSION = 'icar_pg_questions_balanced_v3'` in `src/storage/db.ts` to seamlessly migrate existing user browser storage without clearing test records or SRS progress.
 
 ---
 
@@ -147,8 +155,9 @@ Replicates the NTA examination screen:
 ### 6.2 Rapid Daily Drill Launcher
 - **🎯 Daily 20-Q Standard**: 15 minutes, instant feedback.
 - **⚡ Lightning 10-Q Fire Drill**: 7 minutes, speed focus.
+- **🩺 Vet Science Blitz**: Dedicated Major Subject Group Code 13 practice (Anatomy, Pathology, Microbiology, Parasitology).
 - **🔬 Paraclinical Core Blitz**: Path, Micro, Parasitology focus.
-- **🐄 Animal Science Core Blitz**: LPM, AGB, Nutrition focus.
+- **🐄 Animal Science Core Blitz**: LPM, AGB, Nutrition, Physiology focus (Major Subject Group Code 14).
 - **🛡️ Weak Areas Blitz**: Dynamically queries past errors and tests missed concepts.
 
 ### 6.3 SuperMemo SM-2 Spaced Repetition (SRS)

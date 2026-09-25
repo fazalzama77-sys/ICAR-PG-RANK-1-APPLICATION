@@ -22,7 +22,7 @@ def main():
 
     total_processed = 0
     for filename in pack_files:
-        path = os.path.join(packs_dir, filename)
+        path = os.path.normpath(os.path.join(packs_dir, filename))
         if not os.path.exists(path):
             print(f"Skipping {filename} (not found)")
             continue
