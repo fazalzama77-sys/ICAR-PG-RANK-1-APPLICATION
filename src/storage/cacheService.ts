@@ -192,8 +192,9 @@ export const CacheService = {
       localStorage.removeItem(STORAGE_KEYS.SRS_RECORDS);
       localStorage.removeItem(STORAGE_KEYS.DAILY_PROGRESS);
       
-      // 2. Re-seed default 1,380 official questions (1,080 base + 300 PYQs)
+      // 2. Re-seed default 1,515 official questions (balanced options across A, B, C, D)
       localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+      localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
 
       // 3. Reset Candidate Profile to Default
       localStorage.setItem(STORAGE_KEYS.USER_PROFILE, JSON.stringify(DEFAULT_USER_PROFILE));
@@ -219,7 +220,7 @@ export const CacheService = {
 
       return {
         success: true,
-        message: 'All application data has been reset to pristine factory defaults with all 1,380 verified questions reloaded.'
+        message: 'All application data has been reset to pristine factory defaults with all 1,515 verified questions reloaded.'
       };
     } catch (e: any) {
       console.error('Failed to reset all data:', e);
@@ -245,10 +246,11 @@ export const CacheService = {
   },
 
   /**
-   * Restores Question Bank to the official 1,380 high-yield questions
+   * Restores Question Bank to the official 1,515 high-yield questions
    */
   restoreDefaultQuestionBank(): { count: number } {
     localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+    localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
     return { count: ALL_HIGH_YIELD_QUESTIONS.length };
   },
 

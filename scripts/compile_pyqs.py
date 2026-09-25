@@ -3,7 +3,9 @@ import json
 import os
 import sys
 
-# Ensure current dir is in path
+# Force UTF-8 stdout
+sys.stdout.reconfigure(encoding='utf-8')
+
 scripts_dir = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(scripts_dir)
 
@@ -11,30 +13,37 @@ from pyq_van import get_van_pyqs
 from pyq_vpp import get_vpp_pyqs
 from pyq_vmc import get_vmc_pyqs
 from pyq_vbc import get_vbc_pyqs
+from build_pathology_300 import get_all_300_vpp_questions
+from build_microbiology_300 import get_all_300_vmc_questions
+from build_anatomy_150 import get_all_150_van_questions
 
 def main():
-    print("Compiling 350 ICAR PG PYQ Questions (50 VAN + 100 VPP + 100 VMC + 100 VBC)...")
-    van_qs = get_van_pyqs()
-    vpp_qs = get_vpp_pyqs()
-    vmc_qs = get_vmc_pyqs()
-    vbc_qs = get_vbc_pyqs()
+    print("Compiling Complete Question Bank (565 Base + 350 Core PYQs + 300 VPP Exp + 300 VMC Exp + 150 VAN Exp = 1,665 Questions)...")
+    
+    van_pyqs = get_van_pyqs() # 50
+    vpp_pyqs = get_vpp_pyqs() # 100
+    vmc_pyqs = get_vmc_pyqs() # 100
+    vbc_pyqs = get_vbc_pyqs() # 100
+    
+    new_vpp_300 = get_all_300_vpp_questions() # 300
+    new_vmc_300 = get_all_300_vmc_questions() # 300
+    new_van_150 = get_all_150_van_questions() # 150
 
-    print(f"Veterinary Anatomy (VAN): {len(van_qs)} questions")
-    print(f"Veterinary Pathology (VPP): {len(vpp_qs)} questions")
-    print(f"Veterinary Microbiology (VMC): {len(vmc_qs)} questions")
-    print(f"Veterinary Biochemistry (VBC): {len(vbc_qs)} questions")
+    print(f"Veterinary Anatomy Core PYQs (VAN): {len(van_pyqs)}")
+    print(f"Veterinary Pathology Core PYQs (VPP): {len(vpp_pyqs)}")
+    print(f"Veterinary Microbiology Core PYQs (VMC): {len(vmc_pyqs)}")
+    print(f"Veterinary Biochemistry Core PYQs (VBC): {len(vbc_pyqs)}")
+    print(f"New Expanded Veterinary Pathology (VPP): {len(new_vpp_300)}")
+    print(f"New Expanded Veterinary Microbiology (VMC): {len(new_vmc_300)}")
+    print(f"New Expanded Veterinary Anatomy (VAN): {len(new_van_150)}")
 
-    assert len(van_qs) == 50, f"Expected 50 VAN questions, got {len(van_qs)}"
-    assert len(vpp_qs) == 100, f"Expected 100 VPP questions, got {len(vpp_qs)}"
-    assert len(vmc_qs) == 100, f"Expected 100 VMC questions, got {len(vmc_qs)}"
-    assert len(vbc_qs) == 100, f"Expected 100 VBC questions, got {len(vbc_qs)}"
+    all_core_pyqs = van_pyqs + vpp_pyqs + vmc_pyqs + vbc_pyqs
+    assert len(all_core_pyqs) == 350, f"Expected 350 core PYQs, got {len(all_core_pyqs)}"
 
-    all_pyqs = van_qs + vpp_qs + vmc_qs + vbc_qs
-    print(f"Total compiled PYQs: {len(all_pyqs)}")
-
-    # Check for ID uniqueness
+    # Check ID uniqueness across all new and pyq sets
+    all_combined_new_and_pyq = all_core_pyqs + new_vpp_300 + new_vmc_300 + new_van_150
     ids = set()
-    for q in all_pyqs:
+    for q in all_combined_new_and_pyq:
         if q["id"] in ids:
             raise ValueError(f"Duplicate ID found: {q['id']}")
         ids.add(q["id"])
@@ -43,37 +52,11 @@ def main():
     root_dir = os.path.join(scripts_dir, "..")
     packs_dir = os.path.join(root_dir, "src", "data", "questionPacks")
 
-    # 1. Output src/data/questionPacks/pyqQuestions.ts
-    pyq_ts_path = os.path.join(packs_dir, "pyqQuestions.ts")
-    with open(pyq_ts_path, "w", encoding="utf-8") as f:
-        f.write("// ICAR AIEEA PG (M.V.Sc.) 350 Previous Year Questions (PYQs)\n")
-        f.write("// Veterinary Anatomy (50), Veterinary Pathology (100), Veterinary Microbiology (100), Veterinary Biochemistry (100)\n")
-        f.write("import { Question } from '../../types';\n\n")
-        f.write("export const VAN_PYQ_QUESTIONS: Question[] = " + json.dumps(van_qs, indent=2, ensure_ascii=False) + ";\n\n")
-        f.write("export const VPP_PYQ_QUESTIONS: Question[] = " + json.dumps(vpp_qs, indent=2, ensure_ascii=False) + ";\n\n")
-        f.write("export const VMC_PYQ_QUESTIONS: Question[] = " + json.dumps(vmc_qs, indent=2, ensure_ascii=False) + ";\n\n")
-        f.write("export const VBC_PYQ_QUESTIONS: Question[] = " + json.dumps(vbc_qs, indent=2, ensure_ascii=False) + ";\n\n")
-        f.write("export const ALL_ICAR_PG_PYQ_QUESTIONS: Question[] = [\n")
-        f.write("  ...VAN_PYQ_QUESTIONS,\n")
-        f.write("  ...VPP_PYQ_QUESTIONS,\n")
-        f.write("  ...VMC_PYQ_QUESTIONS,\n")
-        f.write("  ...VBC_PYQ_QUESTIONS\n")
-        f.write("];\n")
-
-    print(f"Saved: {pyq_ts_path}")
-
-    # 2. Output src/data/questionPacks/pyqs_300.json
-    json_path = os.path.join(packs_dir, "pyqs_300.json")
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(all_pyqs, f, indent=2, ensure_ascii=False)
-    print(f"Saved: {json_path}")
-
-    # 3. Read base clean questions and append all PYQs
-    base_json_path = os.path.join(packs_dir, "high_yield_1080.json")
+    # Read base clean questions (565)
+    base_json_path = os.path.join(packs_dir, "high_yield_clean_base.json")
     with open(base_json_path, "r", encoding="utf-8") as f:
         clean_base = json.load(f)
 
-    # Filter out any synthetic / dummy placeholder questions just in case
     clean_base = [
         q for q in clean_base 
         if 'Clinical Landmark MCQ' not in q.get('questionText', '')
@@ -81,27 +64,21 @@ def main():
     ]
     print(f"Verified genuine base questions: {len(clean_base)}")
 
-    master_915 = clean_base + all_pyqs
-    master_json_path = os.path.join(packs_dir, "high_yield_master_1380.json")
-    with open(master_json_path, "w", encoding="utf-8") as f:
-        json.dump(master_915, f, indent=2, ensure_ascii=False)
-    print(f"Saved master JSON ({len(master_915)} questions): {master_json_path}")
+    master_1665 = clean_base + all_core_pyqs + new_vpp_300 + new_vmc_300 + new_van_150
+    print(f"Total Master Questions: {len(master_1665)}")
+    assert len(master_1665) == 1665, f"Expected 1,665 questions, got {len(master_1665)}"
 
-    # Update src/data/questionPacks/allQuestions.ts
-    all_ts_path = os.path.join(packs_dir, "allQuestions.ts")
-    with open(all_ts_path, "w", encoding="utf-8") as f:
-        f.write(f"// Autogenerated Master Question Bank ({len(clean_base)} Authentic Core + {len(all_pyqs)} High-Yield ICAR PG PYQs = {len(master_915)} Total Verified)\n")
-        f.write("import { Question } from '../../types';\n")
-        f.write("import { ALL_ICAR_PG_PYQ_QUESTIONS, VAN_PYQ_QUESTIONS, VPP_PYQ_QUESTIONS, VMC_PYQ_QUESTIONS, VBC_PYQ_QUESTIONS } from './pyqQuestions';\n\n")
-        f.write("export { ALL_ICAR_PG_PYQ_QUESTIONS, VAN_PYQ_QUESTIONS, VPP_PYQ_QUESTIONS, VMC_PYQ_QUESTIONS, VBC_PYQ_QUESTIONS };\n\n")
-        f.write("const AUTHENTIC_BASE_QUESTIONS: Question[] = " + json.dumps(clean_base, indent=2, ensure_ascii=False) + ";\n\n")
-        f.write("export const ALL_HIGH_YIELD_QUESTIONS: Question[] = [\n")
-        f.write("  ...AUTHENTIC_BASE_QUESTIONS,\n")
-        f.write("  ...ALL_ICAR_PG_PYQ_QUESTIONS\n")
-        f.write("];\n")
-    print(f"Updated {all_ts_path} with total {len(master_915)} 100% authentic questions!")
+    # Save initial un-shuffled JSONs
+    with open(os.path.join(packs_dir, "vpp_300_new.json"), "w", encoding="utf-8") as f:
+        json.dump(new_vpp_300, f, indent=2, ensure_ascii=False)
+    with open(os.path.join(packs_dir, "vmc_300_new.json"), "w", encoding="utf-8") as f:
+        json.dump(new_vmc_300, f, indent=2, ensure_ascii=False)
+    with open(os.path.join(packs_dir, "van_150_new.json"), "w", encoding="utf-8") as f:
+        json.dump(new_van_150, f, indent=2, ensure_ascii=False)
 
-    print("Compilation complete!")
+    print("Now executing apply_balance() to balance distractor indices across all 1665 questions...")
+    from apply_balanced_options import apply_balance
+    apply_balance()
 
 if __name__ == "__main__":
     main()

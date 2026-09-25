@@ -25,6 +25,7 @@ export interface Question {
   difficulty?: 'Easy' | 'Medium' | 'Hard';
   tags?: string[];
   createdAt?: number;
+  isPYQ?: boolean;
 }
 
 // NTA CBT 5 Official States

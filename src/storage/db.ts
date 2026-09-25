@@ -3,6 +3,7 @@ import { ALL_HIGH_YIELD_QUESTIONS, ALL_ICAR_PG_PYQ_QUESTIONS } from '../data/que
 
 export const STORAGE_KEYS = {
   QUESTIONS: 'icar_pg_questions_v1',
+  QUESTIONS_BALANCED_VERSION: 'icar_pg_questions_balanced_v2',
   RESULTS: 'icar_pg_results_v1',
   USER_PROFILE: 'icar_pg_user_profile_v1',
   SRS_RECORDS: 'icar_pg_srs_records_v1',
@@ -31,16 +32,18 @@ export const StorageService = {
     try {
       const data = localStorage.getItem(STORAGE_KEYS.QUESTIONS);
       if (!data) {
-        // Auto-seed with all 1,380 high-yield questions (1,080 base + 300 PYQs)
+        // Auto-seed with all balanced high-yield questions
         localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+        localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
         return ALL_HIGH_YIELD_QUESTIONS;
       }
       const parsed = JSON.parse(data) as Question[];
       if (parsed.length === 0) {
         localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+        localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
         return ALL_HIGH_YIELD_QUESTIONS;
       }
-      // Auto-sync missing questions (e.g. 300 PYQs for existing users)
+      // Auto-sync missing questions
       const existingIds = new Set(parsed.map(q => q.id));
       const missing = ALL_HIGH_YIELD_QUESTIONS.filter(q => !existingIds.has(q.id));
       let updatedList = parsed;
@@ -59,6 +62,28 @@ export const StorageService = {
       if (cleanedList.length !== updatedList.length) {
         updatedList = cleanedList;
         modified = true;
+      }
+
+      // Balanced Options Migration: check if stored questions have option A bias (>40% option A) or unmigrated flag
+      const isBalancedMigrated = localStorage.getItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION) === 'true';
+      const optionACount = updatedList.filter(q => q.correctOptionIndex === 0).length;
+      const optionARatio = updatedList.length > 0 ? optionACount / updatedList.length : 0;
+
+      if (!isBalancedMigrated || optionARatio > 0.40) {
+        const masterMap = new Map<string, Question>(ALL_HIGH_YIELD_QUESTIONS.map(q => [q.id, q]));
+        updatedList = updatedList.map(storedQ => {
+          const masterQ = masterMap.get(storedQ.id);
+          if (masterQ) {
+            return {
+              ...storedQ,
+              options: masterQ.options,
+              correctOptionIndex: masterQ.correctOptionIndex
+            };
+          }
+          return storedQ;
+        });
+        modified = true;
+        localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
       }
 
       // Harmonize domains for vpy and vbc to animal_science if outdated in local storage
@@ -81,18 +106,22 @@ export const StorageService = {
     }
   },
 
+
   loadAll1080Questions(): { count: number } {
     localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+    localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
     return { count: ALL_HIGH_YIELD_QUESTIONS.length };
   },
 
   loadAll1380Questions(): { count: number } {
     localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+    localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
     return { count: ALL_HIGH_YIELD_QUESTIONS.length };
   },
 
   loadAllMasterQuestions(): { count: number } {
     localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
+    localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
     return { count: ALL_HIGH_YIELD_QUESTIONS.length };
   },
 
@@ -559,12 +588,12 @@ export const StorageService = {
         topic: 'Dairy Cattle & Buffalo Management',
         questionText: 'What is the optimum floor space requirement (covered area) for an adult dairy cow in a loose housing system?',
         options: [
-          '3.5 square meters',
           '7.0 square meters',
+          '3.5 square meters',
           '1.5 square meters',
           '10.0 square meters'
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 1,
         explanation: 'According to standard Bureau of Indian Standards (BIS) norms for loose housing systems, an adult dairy cow requires approximately 3.5 sq. meters (35 sq. ft.) of covered area and 7.0 sq. meters of open paddock area.',
         difficulty: 'Easy',
         tags: ['Housing', 'Space Requirement', 'Dairy Cattle']
@@ -577,12 +606,12 @@ export const StorageService = {
         topic: 'General Pathology',
         questionText: 'Zenker’s degeneration is a specific type of hyaline degeneration classically observed in which tissue?',
         options: [
-          'Striated (skeletal) muscle',
           'Hepatic parenchymal cells',
           'Renal tubular epithelial cells',
+          'Striated (skeletal) muscle',
           'Cardiac Purkinje fibers'
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 2,
         explanation: 'Zenker’s degeneration (hyaline or waxy degeneration) specifically affects striated skeletal muscles and is commonly observed in conditions such as White Muscle Disease (Vitamin E / Selenium deficiency) or acute severe infections.',
         difficulty: 'Medium',
         tags: ['General Pathology', 'Degenerations', 'Muscle Pathology']
@@ -595,12 +624,12 @@ export const StorageService = {
         topic: 'Population Genetics',
         questionText: 'In a random mating population at Hardy-Weinberg equilibrium, if the frequency of recessive allele (q) is 0.3, what is the frequency of heterozygous carriers (2pq)?',
         options: [
-          '0.42',
           '0.49',
           '0.09',
-          '0.21'
+          '0.21',
+          '0.42'
         ],
-        correctOptionIndex: 0,
+        correctOptionIndex: 3,
         explanation: 'Given q = 0.3. Since p + q = 1, p = 1 - 0.3 = 0.7. The heterozygous genotype frequency is 2pq = 2 * 0.7 * 0.3 = 0.42.',
         difficulty: 'Easy',
         tags: ['Hardy-Weinberg', 'Population Genetics', 'Gene Frequency']
