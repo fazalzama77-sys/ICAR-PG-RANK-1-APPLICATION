@@ -287,10 +287,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
               Start a high-yield drill immediately. Choose from instant feedback active learning or official timed test conditions:
             </p>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mt-3 pt-2 border-t border-slate-100">
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mt-3 pt-2 border-t border-slate-100">
               <button
                 onClick={() => onLaunchPresetDrill('standard_20')}
-                className="p-2.5 rounded-lg border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50/40 text-left transition-all group"
+                className="p-2.5 rounded-lg border border-slate-200 hover:border-emerald-500 hover:bg-emerald-50/40 text-left transition-all group cursor-pointer"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-slate-800 group-hover:text-emerald-700">🎯 Daily 20-Q</span>
@@ -300,7 +300,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
               <button
                 onClick={() => onLaunchPresetDrill('lightning_10')}
-                className="p-2.5 rounded-lg border border-slate-200 hover:border-amber-500 hover:bg-amber-50/40 text-left transition-all group"
+                className="p-2.5 rounded-lg border border-slate-200 hover:border-amber-500 hover:bg-amber-50/40 text-left transition-all group cursor-pointer"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-slate-800 group-hover:text-amber-700">⚡ Lightning 10</span>
@@ -309,18 +309,18 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </button>
 
               <button
-                onClick={() => onLaunchPresetDrill('clinical_blitz')}
-                className="p-2.5 rounded-lg border border-slate-200 hover:border-purple-500 hover:bg-purple-50/40 text-left transition-all group"
+                onClick={() => onLaunchPresetDrill('vet_science_blitz')}
+                className="p-2.5 rounded-lg border border-slate-200 hover:border-blue-500 hover:bg-blue-50/40 text-left transition-all group cursor-pointer"
               >
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-bold text-slate-800 group-hover:text-purple-700">🔬 Paraclinical</span>
+                  <span className="text-xs font-bold text-slate-800 group-hover:text-blue-700">🩺 Vet Science</span>
                 </div>
-                <span className="text-[10px] text-slate-500 block">Path, Micro, Parasito</span>
+                <span className="text-[10px] text-slate-500 block">Anat, Path, Micro, Parasito</span>
               </button>
 
               <button
                 onClick={() => onLaunchPresetDrill('animal_blitz')}
-                className="p-2.5 rounded-lg border border-slate-200 hover:border-teal-500 hover:bg-teal-50/40 text-left transition-all group"
+                className="p-2.5 rounded-lg border border-slate-200 hover:border-teal-500 hover:bg-teal-50/40 text-left transition-all group cursor-pointer"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-slate-800 group-hover:text-teal-700">🐄 Animal Sci</span>
@@ -329,8 +329,18 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </button>
 
               <button
+                onClick={() => onLaunchPresetDrill('clinical_blitz')}
+                className="p-2.5 rounded-lg border border-slate-200 hover:border-purple-500 hover:bg-purple-50/40 text-left transition-all group cursor-pointer"
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-bold text-slate-800 group-hover:text-purple-700">🔬 Paraclinical</span>
+                </div>
+                <span className="text-[10px] text-slate-500 block">Path, Micro, Parasito</span>
+              </button>
+
+              <button
                 onClick={() => onLaunchPresetDrill('weak_blitz')}
-                className="p-2.5 rounded-lg border border-slate-200 hover:border-red-500 hover:bg-red-50/40 text-left transition-all group"
+                className="p-2.5 rounded-lg border border-slate-200 hover:border-red-500 hover:bg-red-50/40 text-left transition-all group cursor-pointer"
               >
                 <div className="flex items-center justify-between">
                   <span className="text-xs font-bold text-slate-800 group-hover:text-red-700">🛡️ Weak Blitz</span>
@@ -339,13 +349,24 @@ export const Dashboard: React.FC<DashboardProps> = ({
               </button>
 
               <button
+                onClick={() => onLaunchPresetDrill('deep_30')}
+                className="p-2.5 rounded-lg border border-slate-200 hover:border-indigo-500 hover:bg-indigo-50/40 text-left transition-all group cursor-pointer"
+              >
+                <div className="flex items-center justify-between">
+                  <span className="text-xs font-bold text-slate-800 group-hover:text-indigo-700">🔥 Deep 30-Q</span>
+                </div>
+                <span className="text-[10px] text-slate-500 block">25 Mins &bull; High Focus</span>
+              </button>
+
+              <button
                 onClick={onOpenDrillLauncher}
-                className="p-2.5 rounded-lg border border-dashed border-slate-300 hover:border-slate-400 text-left transition-all text-slate-600 hover:text-slate-900"
+                className="p-2.5 rounded-lg border border-dashed border-slate-300 hover:border-slate-400 hover:bg-slate-50 text-left transition-all text-slate-600 hover:text-slate-900 cursor-pointer"
               >
                 <span className="text-xs font-bold block">⚙️ More Drills</span>
                 <span className="text-[10px] text-slate-400 block">Configure options</span>
               </button>
             </div>
+
           </div>
 
           <button

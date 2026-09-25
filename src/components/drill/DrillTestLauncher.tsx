@@ -100,6 +100,12 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
           pool = questions.filter(q => ['vpp', 'vmc', 'vpa'].includes(q.subjectId));
         }
         break;
+      case 'vet_science_blitz':
+        title = '🩺 Veterinary Science Core Blitz (VAN, VPP, VMC, VPA)';
+        qCount = 20;
+        duration = 15;
+        pool = questions.filter(q => q.domain === 'veterinary_science' || ['van', 'vpp', 'vmc', 'vpa'].includes(q.subjectId));
+        break;
       case 'clinical_blitz':
         title = '🔬 Paraclinical & Diagnostic Blitz (VPP, VMC, VPA)';
         qCount = 20;
@@ -110,7 +116,7 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
         title = '🐄 Animal Science & Production Blitz (LPM, AGB, ANN)';
         qCount = 20;
         duration = 15;
-        pool = questions.filter(q => ['lpm', 'agb', 'ann'].includes(q.subjectId));
+        pool = questions.filter(q => q.domain === 'animal_science' || ['lpm', 'agb', 'ann'].includes(q.subjectId));
         break;
       case 'custom':
         title = '⚙️ Custom Rapid Drill';
@@ -323,24 +329,24 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
             </p>
           </div>
 
-          {/* Preset 4: Paraclinical Blitz */}
+          {/* Preset 4: Veterinary Science Blitz */}
           <div
-            onClick={() => setSelectedPreset('clinical_blitz')}
+            onClick={() => setSelectedPreset('vet_science_blitz')}
             className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${
-              selectedPreset === 'clinical_blitz'
+              selectedPreset === 'vet_science_blitz'
                 ? 'border-emerald-600 bg-emerald-50/60 shadow-xs ring-1 ring-emerald-500'
                 : 'border-slate-200 hover:border-slate-300 bg-white'
             }`}
           >
             <div className="flex items-center justify-between mb-2">
-              <span className="bg-purple-600 text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">
-                2nd Year Core
+              <span className="bg-blue-600 text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">
+                Veterinary Science
               </span>
-              <Sparkles className="w-4 h-4 text-purple-500" />
+              <Sparkles className="w-4 h-4 text-blue-500" />
             </div>
-            <h4 className="font-bold text-slate-900 text-sm">🔬 Paraclinical Trio</h4>
+            <h4 className="font-bold text-slate-900 text-sm">🩺 Vet Science Core</h4>
             <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              High-weightage Pathology, Microbiology & Parasitology questions.
+              Comprehensive Anatomy, Pathology, Microbiology & Parasitology (Code 13).
             </p>
           </div>
 
@@ -365,7 +371,28 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
             </p>
           </div>
 
-          {/* Preset 6: Custom Drill */}
+          {/* Preset 6: Paraclinical Blitz */}
+          <div
+            onClick={() => setSelectedPreset('clinical_blitz')}
+            className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${
+              selectedPreset === 'clinical_blitz'
+                ? 'border-emerald-600 bg-emerald-50/60 shadow-xs ring-1 ring-emerald-500'
+                : 'border-slate-200 hover:border-slate-300 bg-white'
+            }`}
+          >
+            <div className="flex items-center justify-between mb-2">
+              <span className="bg-purple-600 text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">
+                2nd Year Core
+              </span>
+              <Sparkles className="w-4 h-4 text-purple-500" />
+            </div>
+            <h4 className="font-bold text-slate-900 text-sm">🔬 Paraclinical Trio</h4>
+            <p className="text-xs text-slate-500 mt-1 leading-relaxed">
+              High-weightage Pathology, Microbiology & Parasitology questions.
+            </p>
+          </div>
+
+          {/* Preset 7: Custom Drill */}
           <div
             onClick={() => setSelectedPreset('custom')}
             className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${

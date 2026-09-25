@@ -139,6 +139,7 @@ export type DrillPreset =
   | 'weak_blitz'
   | 'clinical_blitz'
   | 'animal_blitz'
+  | 'vet_science_blitz'
   | 'custom';
 
 export type DrillFeedbackMode = 'instant' | 'exam';

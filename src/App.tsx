@@ -87,6 +87,15 @@ export function App() {
       title = '⚡ Lightning 10-Q Fire Drill';
       qCount = 10;
       duration = 7;
+    } else if (preset === 'deep_30') {
+      title = '🔥 Deep Focus 30-Q Drill';
+      qCount = 30;
+      duration = 25;
+    } else if (preset === 'vet_science_blitz') {
+      title = '🩺 Veterinary Science Core Blitz';
+      pool = questions.filter(q => q.domain === 'veterinary_science' || ['van', 'vpp', 'vmc', 'vpa'].includes(q.subjectId));
+      qCount = 20;
+      duration = 15;
     } else if (preset === 'clinical_blitz') {
       title = '🔬 Paraclinical Core Blitz';
       pool = questions.filter(q => ['vpp', 'vmc', 'vpa'].includes(q.subjectId));
@@ -94,7 +103,7 @@ export function App() {
       duration = 15;
     } else if (preset === 'animal_blitz') {
       title = '🐄 Animal Science Core Blitz';
-      pool = questions.filter(q => ['lpm', 'agb', 'ann'].includes(q.subjectId));
+      pool = questions.filter(q => q.domain === 'animal_science' || ['lpm', 'agb', 'ann'].includes(q.subjectId));
       qCount = 20;
       duration = 15;
     } else if (preset === 'weak_blitz') {
