@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { X } from 'lucide-react';
 import { Question, TestConfig, UserResponseState, TestResult, Domain, SubjectPerformance, DomainPerformance } from '../../types';
 import { UserProfile } from '../../storage/db';
 import { SUBJECT_LIST } from '../../data/subjects';
@@ -53,6 +54,9 @@ export const CBTExamContainer: React.FC<CBTExamContainerProps> = ({
 
   // Submit confirmation modal toggle
   const [showSubmitModal, setShowSubmitModal] = useState(false);
+
+  // Mobile Question Palette drawer toggle
+  const [isMobilePaletteOpen, setIsMobilePaletteOpen] = useState(false);
 
   // Fullscreen state
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -430,12 +434,15 @@ export const CBTExamContainer: React.FC<CBTExamContainerProps> = ({
         sectionCounts={sectionCounts}
         isFullscreen={isFullscreen}
         onToggleFullscreen={handleToggleFullscreen}
+        onOpenMobilePalette={() => setIsMobilePaletteOpen(true)}
+        currentQuestionIndex={currentQuestionIndex}
+        totalQuestions={questions.length}
       />
 
       {/* 2. Main CBT Body (Question Area + Question Palette) */}
-      <div className="flex-1 flex flex-col lg:flex-row overflow-hidden p-2 sm:p-3 gap-2 sm:gap-3">
-        {/* Left Side: Question Viewport and Bottom Action Bar */}
-        <div className="flex-1 flex flex-col overflow-hidden">
+      <div className="flex-1 flex flex-col lg:flex-row overflow-hidden p-1.5 sm:p-3 gap-2 sm:gap-3">
+        {/* Left Side: Question Viewport and Bottom Action Bar (Takes full height on mobile) */}
+        <div className="flex-1 flex flex-col overflow-hidden h-full">
           <CBTQuestionArea
             questionNumber={currentQuestionIndex + 1}
             totalQuestions={questions.length}
@@ -456,11 +463,12 @@ export const CBTExamContainer: React.FC<CBTExamContainerProps> = ({
             isFirstQuestion={currentQuestionIndex === 0}
             isLastQuestion={currentQuestionIndex === questions.length - 1}
             hasSelectedOption={selectedOption !== null}
+            onOpenPalette={() => setIsMobilePaletteOpen(true)}
           />
         </div>
 
-        {/* Right Side: NTA Question Palette */}
-        <div className="w-full lg:w-80 h-72 lg:h-auto shrink-0 flex flex-col">
+        {/* Right Side: Desktop Dedicated Question Palette (>= lg) */}
+        <div className="hidden lg:flex w-80 h-full shrink-0 flex-col">
           <CBTPalette
             questions={questions}
             userResponses={userResponses}
@@ -472,6 +480,54 @@ export const CBTExamContainer: React.FC<CBTExamContainerProps> = ({
           />
         </div>
       </div>
+
+      {/* Mobile Question Palette Slide-over Drawer (< lg) */}
+      {isMobilePaletteOpen && (
+        <div className="lg:hidden fixed inset-0 z-50 flex">
+          {/* Backdrop overlay */}
+          <div 
+            className="fixed inset-0 bg-black/60 backdrop-blur-xs transition-opacity"
+            onClick={() => setIsMobilePaletteOpen(false)}
+          />
+
+          {/* Drawer Panel */}
+          <div className="relative ml-auto w-full max-w-sm sm:max-w-md bg-white h-full shadow-2xl flex flex-col z-10 animate-in slide-in-from-right duration-200">
+            {/* Mobile Drawer Header with Close Button */}
+            <div className="px-4 py-3 bg-[#1f3f60] text-white flex items-center justify-between border-b border-[#2b547e] pt-safe shrink-0">
+              <div className="flex items-center space-x-2">
+                <span className="font-bold text-sm">Question Palette</span>
+                <span className="text-xs text-amber-300 font-mono">({questions.length} Questions)</span>
+              </div>
+              <button
+                onClick={() => setIsMobilePaletteOpen(false)}
+                className="p-1 rounded-md bg-white/10 hover:bg-white/20 text-white transition-colors cursor-pointer"
+                title="Close Palette"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+
+            {/* Palette Body */}
+            <div className="flex-1 overflow-hidden flex flex-col">
+              <CBTPalette
+                questions={questions}
+                userResponses={userResponses}
+                currentQuestionIndex={currentQuestionIndex}
+                onSelectQuestion={(idx) => {
+                  navigateToQuestion(idx);
+                  setIsMobilePaletteOpen(false); // auto-close drawer upon choosing question on mobile
+                }}
+                onSubmitExam={() => {
+                  setIsMobilePaletteOpen(false);
+                  setShowSubmitModal(true);
+                }}
+                userProfile={userProfile}
+                currentSection={currentSection}
+              />
+            </div>
+          </div>
+        </div>
+      )}
 
       {/* 3. Official NTA Submit Summary Modal */}
       {showSubmitModal && (

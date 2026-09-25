@@ -305,14 +305,14 @@
     "Consists of a single undivided continuous lung mass without any accessory lobules"
   ],
   "van_exp_068": [
-    "Right side in the Ox, and both sides in the Dog and Horse",
     "Left side exclusively in the Horse, and absent in the Dog",
+    "Neither side (it never extends beyond the 1st rib in any domestic quadruped)",
     "Bilateral and symmetrical in the Pig, and absent in the Ox"
   ],
   "van_exp_069": [
-    "Eustachian auditory tubes, each having a volume of approximately 300 to 500 mL",
     "Maxillary sinuses, each holding approximately 50 to 75 mL of serous fluid",
-    "Frontal sinus diverticula, holding over 1,000 mL of mucosal secretions"
+    "Frontal sinus diverticula, holding over 1,000 mL of mucosal secretions",
+    "Sphenoid and palatine sinuses, communicating directly with ventral conchal cells"
   ],
   "van_exp_071": [
     "Externally Lobated with 15 to 25 distinct superficial lobes, and lacks a renal pelvis",
@@ -325,14 +325,14 @@
     "Elongated flattened right kidney, while left kidney is spherical"
   ],
   "van_exp_075": [
-    "Sigmoid Flexure (Flexura sigmoidea of penis)",
     "Corpus cavernosum (Erectile venous cavernous tissue)",
-    "Os penis / Baculum (Splanchnic penile bone)"
+    "Os penis / Baculum (Splanchnic penile bone)",
+    "Bulbus glandis (Vascular spherical erectile expansion of the glans)"
   ],
   "van_exp_076": [
-    "Processus urethrae (Vermiform urethral appendage)",
     "Corona glandis (Expanded dorsal rim of the glans)",
-    "Bulbus glandis (Spherical vascular erectile bulb)"
+    "Bulbus glandis (Spherical vascular erectile bulb)",
+    "Collum glandis (Constricted neck region behind the penile head)"
   ],
   "van_exp_077": [
     "Spiral corkscrew terminal twist that locks into the sow's cervix",
@@ -340,7 +340,7 @@
     "Folded prepuce containing a dorsal preputial diverticulum sac"
   ],
   "van_exp_079": [
-    "Convex in the Cow, but Concave (cup-shaped) in the Ewe",
+    "Concave in the Cow, but Flat and Linear in the Ewe",
     "Flat in the Cow, but Highly Branched (villous) in the Ewe",
     "Zonary in the Cow, but Diffuse and Follicular in the Ewe"
   ],
@@ -350,34 +350,34 @@
     "Smooth longitudinal mucosal folds extending continuously into the fornix"
   ],
   "van_exp_082": [
-    "Right Ventricle (connecting the interventricular septum to parietal wall)",
     "Left Ventricle (anchoring the mitral valve cusps to papillary muscles)",
-    "Right Atrium (spanning the terminal crest to the coronary sinus valve)"
+    "Right Atrium (spanning the terminal crest to the coronary sinus valve)",
+    "Left Atrium (forming the pectinate muscular wall of the left auricle)"
   ],
   "van_exp_086": [
-    "L1 to L4 (between the crura of the diaphragm in dorsal abdomen)",
     "T10 to T13 (adjacent to the thoracic duct in posterior mediastinum)",
-    "L5 to S2 (within the pelvic canal dorsal to the internal iliac vessels)"
+    "L5 to S2 (within the pelvic canal dorsal to the internal iliac vessels)",
+    "C6 to C7 (at the caudal cervical thoracic inlet adjacent to jugulars)"
   ],
   "van_exp_087": [
-    "Superficial Cervical Lymph Node (Prescapular lymph node center)",
     "Subiliac Lymph Node (Prefemoral lymph node in flank fold)",
-    "Popliteal Lymph Node (Deep caudal stifle lymph node center)"
+    "Popliteal Lymph Node (Deep caudal stifle lymph node center)",
+    "Parotid Lymph Node (Ventral to the auricle on the masseter muscle)"
   ],
   "van_exp_088": [
-    "Tensor fasciae latae muscle, in the fold of the flank",
     "Biceps brachii muscle, at the cranial border of shoulder",
-    "Sternocephalicus muscle, along the ventral jugular furrow"
+    "Sternocephalicus muscle, along the ventral jugular furrow",
+    "Gastrocnemius muscle, along the common calcanean tendon"
   ],
   "van_exp_089": [
-    "Splenic vein, Cranial Mesenteric vein, and Caudal Mesenteric vein",
     "Renal vein, Hepatic vein, and Phrenicoabdominal venous trunk",
-    "Internal Iliac vein, External Iliac vein, and Caudal Vena Cava"
+    "Internal Iliac vein, External Iliac vein, and Caudal Vena Cava",
+    "Right Azygos vein, Subclavian vein, and Internal Thoracic vein"
   ],
   "van_exp_091": [
-    "Cribriform plate of the Ethmoid bone (Lamina cribrosa)",
     "Hypoglossal canal of the Occipital bone (Canalis hypoglossi)",
-    "Stylomastoid foramen of the Temporal bone (Foramen stylomastoideum)"
+    "Stylomastoid foramen of the Temporal bone (Foramen stylomastoideum)",
+    "Optic canal of the Sphenoid bone (Canalis opticus)"
   ],
   "van_exp_092": [
     "Optic Canal of the Presphenoid bone (Canalis opticus)",
@@ -385,29 +385,29 @@
     "Foramen lacerum of the Basioccipital and Temporal bones"
   ],
   "van_exp_093": [
-    "CN III (Oculomotor), CN IV (Trochlear), and CN VI (Abducent)",
     "CN II (Optic), CN V (Trigeminal), and CN VII (Facial)",
-    "CN IX (Glossopharyngeal), CN X (Vagus), and CN XII (Hypoglossal)"
+    "CN IX (Glossopharyngeal), CN X (Vagus), and CN XII (Hypoglossal)",
+    "CN I (Olfactory), CN VIII (Vestibulocochlear), and CN XI (Accessory)"
   ],
   "van_exp_094": [
-    "Foramen Ovale (or notch in the foramen lacerum)",
     "Foramen Rotundum (transmitting maxillary nerve CN V2)",
-    "Orbital Fissure (transmitting ophthalmic nerve CN V1)"
+    "Orbital Fissure (transmitting ophthalmic nerve CN V1)",
+    "Hypoglossal Canal (transmitting hypoglossal nerve CN XII)"
   ],
   "van_exp_095": [
-    "Cranial Nerve VII (Facial Nerve), exiting through the Stylomastoid Foramen",
     "Cranial Nerve V (Trigeminal Nerve), exiting through the Oval Foramen",
-    "Cranial Nerve XII (Hypoglossal Nerve), exiting through the Hypoglossal Canal"
+    "Cranial Nerve XII (Hypoglossal Nerve), exiting through the Hypoglossal Canal",
+    "Cranial Nerve XI (Spinal Accessory Nerve), exiting through the Jugular Foramen"
   ],
   "van_exp_096": [
-    "Cricoarytenoideus Dorsalis muscle (CAD, the sole laryngeal abductor)",
     "Cricoarytenoideus Lateralis muscle (CAL, laryngeal adductor muscle)",
-    "Thyroarytenoideus muscle (vocal fold relaxer and sphincter muscle)"
+    "Thyroarytenoideus muscle (vocal fold relaxer and sphincter muscle)",
+    "Cricothyroideus muscle (tensing the vocal folds via external branch)"
   ],
   "van_exp_099": [
-    "Obturator Nerve inside the pelvic canal against the shaft of the ilium",
-    "Femoral Nerve as it penetrates the deep lacuna musculorum",
-    "Pudendal Nerve within the ischiorectal fossa near the pelvic outlet"
+    "Femoral Nerve running through the psoas muscles to quadriceps femoris",
+    "Sciatic Nerve passing through the greater ischiatic notch of the pelvis",
+    "Pudendal Nerve passing along the lateral wall of the pelvic cavity"
   ],
   "van_exp_101": [
     "Suprascapular Nerve as it winds around the cranial border of scapula",
@@ -415,9 +415,9 @@
     "Musculocutaneous Nerve as it passes between coracobrachialis heads"
   ],
   "van_exp_102": [
-    "Femoral Nerve (innervating the Quadriceps Femoris muscle)",
     "Sciatic Nerve (innervating the Hamstring and distal limb muscles)",
-    "Peroneal Nerve (innervating the Cranial Tibial and digital extensors)"
+    "Peroneal Nerve (innervating the Cranial Tibial and digital extensors)",
+    "Obturator Nerve (innervating the Gracilis and Adductor muscles)"
   ],
   "van_exp_103": [
     "Oculosympathetic pathway (cervical sympathetic trunk / T1-T3)",
@@ -430,44 +430,44 @@
     "Interlumbar space between Lumbar 4 and Lumbar 5 vertebrae"
   ],
   "van_exp_105": [
-    "Lumbar 7 (L7) and Sacral 1 (S1) vertebrae (Lumbosacral space)",
     "Thoracic 13 (T13) and Lumbar 1 (L1) vertebrae (Thoracolumbar space)",
-    "Lumbar 3 (L3) and Lumbar 4 (L4) vertebrae (Mid-lumbar space)"
+    "Lumbar 3 (L3) and Lumbar 4 (L4) vertebrae (Mid-lumbar space)",
+    "Coccygeal 1 (Co1) and Coccygeal 2 (Co2) vertebrae (Intercoccygeal space)"
   ],
   "van_exp_106": [
-    "Atlanto-Occipital Space (between the occipital condyles and atlas)",
     "Atlanto-Axial Space (between the atlas and axis dorsal spines)",
-    "Lumbosacral Space (between the last lumbar vertebra and sacrum)"
+    "Lumbosacral Space (between the last lumbar vertebra and sacrum)",
+    "Cervicothoracic Space (between the seventh cervical and first thoracic spine)"
   ],
   "van_exp_107": [
-    "Relaxation and desensitization of the retractor penis muscle",
-    "Total motor paralysis of the hindlimbs and recumbency of the bull",
-    "Complete sympathetic block causing severe systemic hypotension"
+    "Paralysis of the hindlimb quadriceps and adductor muscles",
+    "Desensitization of the dorsal lumbar skin and subperitoneal fat",
+    "Complete anesthesia of the scrotal skin and testicular tunics"
   ],
   "van_exp_108": [
-    "Zygomaticotemporal nerve (branch of Trigeminal CN V1 / V2)",
     "Infratrochlear nerve (branch of Nasociliary nerve CN V1)",
-    "Supraorbital nerve (branch of Frontal nerve of Trigeminal)"
+    "Supraorbital nerve (branch of Frontal nerve of Trigeminal)",
+    "Infraorbital nerve (terminal sensory branch of Maxillary nerve CN V2)"
   ],
   "van_exp_109": [
-    "T13 (Costoabdominal), L1 (Iliohypogastric), and L2 (Ilioinguinal) nerves",
     "L3 (Genitofemoral), L4 (Femoral), and L5 (Obturator) spinal nerves",
-    "T10, T11, and T12 intercostal nerves along the caudal costal arch"
+    "T10, T11, and T12 intercostal nerves along the caudal costal arch",
+    "C6, C7, and C8 ventral branches of the brachial plexus"
   ],
   "van_exp_110": [
-    "Sternocephalicus muscle (specifically sternomandibularis in ox)",
     "Brachiocephalicus muscle (cleidomastoideus and cleido-occipitalis)",
-    "Omohyoideus muscle (subclavius and omohyoid cervical fascia)"
+    "Omohyoideus muscle (subclavius and omohyoid cervical fascia)",
+    "Splenius muscle (cervical and capital deep extensor compartments)"
   ],
   "van_exp_111": [
-    "Fibrocartilage (e.g., intervertebral discs and pelvic symphysis)",
     "Costal cartilage (hyaline cartilage of the thoracic wall ribs)",
-    "Elastic cartilage (auricular cartilage of the external ear pinna)"
+    "Elastic cartilage (auricular cartilage of the external ear pinna)",
+    "Tracheal cartilage (hyaline cartilage rings supporting the respiratory airway)"
   ],
   "van_exp_112": [
-    "Volkmann's canals (Perforating vascular channels)",
     "Haversian canals (Longitudinal central osteonal canals)",
-    "Canaliculi (Microscopic osteocyte cytoplasmic processes)"
+    "Canaliculi (Microscopic osteocyte cytoplasmic processes)",
+    "Lacunae (Small cavities housing osteocyte cell bodies)"
   ],
   "van_exp_113": [
     "One central T-tubule flanked by two sarcoplasmic reticulum terminal cisternae",
@@ -475,58 +475,58 @@
     "Three parallel myofibrils encircled by continuous subsarcolemmal caveolae"
   ],
   "van_exp_120": [
-    "Pacinian corpuscles (Lamellar mechanoreceptors sensing vibration)",
     "Meissner's corpuscles (Tactile encapsulated receptors sensing light touch)",
-    "Ruffini corpuscles (Spindle-shaped mechanoreceptors sensing skin stretch)"
+    "Ruffini corpuscles (Spindle-shaped mechanoreceptors sensing skin stretch)",
+    "Merkel discs / nerve endings (Slowly adapting mechanoreceptors sensing sustained pressure)"
   ],
   "van_exp_121": [
-    "Space of Disse (Perisinusoidal space containing Ito / stellate cells)",
     "Space of Mall (Periportal space between connective tissue and hepatocytes)",
-    "Canal of Hering (Bile ductule lined by cholangiocytes and hepatocytes)"
+    "Canal of Hering (Bile ductule lined by cholangiocytes and hepatocytes)",
+    "Bile canaliculi (Intercellular channels carrying bile away from hepatocytes)"
   ],
   "van_exp_124": [
-    "Hassall's corpuscle (Thymic corpuscle of degenerated reticular cells)",
     "Malpighian corpuscle (Splenic lymphoid follicle with central arteriole)",
-    "Herring body (Neurosecretory terminal dilatations in neurohypophysis)"
+    "Herring body (Neurosecretory terminal dilatations in neurohypophysis)",
+    "Peyer's patches (Aggregated lymphoid nodules in ileal submucosa)"
   ],
   "van_exp_127": [
-    "Type II Pneumocyte (Great alveolar cell synthesizing surfactant)",
     "Type I Pneumocyte (Squamous cell providing gas exchange barrier)",
-    "Alveolar macrophage (Dust cell phagocytosing particulate debris)"
+    "Alveolar macrophage (Dust cell phagocytosing particulate debris)",
+    "Club cells / Clara cells (Dome-shaped non-ciliated bronchiolar exocrine cells)"
   ],
   "van_exp_129": [
-    "The axial skeleton (vertebrae, neural arches, and ribs)",
     "All skeletal musculature of the body trunk and limbs",
-    "Dermis of the dorsal trunk skin and subcutaneous connective tissue"
+    "Dermis of the dorsal trunk skin and subcutaneous connective tissue",
+    "Urogenital system (kidneys and gonads derived from intermediate mesoderm)"
   ],
   "van_exp_133": [
-    "Ligamentum teres hepatis (Round ligament of the liver)",
     "Ligamentum venosum (Fibrous remnant of the ductus venosus)",
-    "Ligamentum arteriosum (Fibrous remnant of the ductus arteriosus)"
+    "Ligamentum arteriosum (Fibrous remnant of the ductus arteriosus)",
+    "Median umbilical ligament (Fibrous urachal remnant on ventral abdominal wall)"
   ],
   "van_exp_135": [
-    "Paramesonephric duct (M\u00fcllerian duct forming uterus and oviducts)",
     "Mesonephric duct (Wolffian duct forming epididymis and deferent duct)",
-    "Pronephric duct (Transient non-functional cranial embryonic pronephros)"
+    "Pronephric duct (Transient non-functional cranial embryonic pronephros)",
+    "Metanephric diverticulum (Ureteric bud forming renal collecting tubules)"
   ],
   "van_exp_140": [
-    "Right and Left Clavicles (along with the median interclavicle)",
     "Two Coracoid bones (struts bracing the shoulder against sternum)",
-    "Two Scapulae (sword-like blade bones dorsal to the rib cage)"
+    "Two Scapulae (sword-like blade bones dorsal to the rib cage)",
+    "Costal cartilages (Sternal and asternal rib cartilaginous connections)"
   ],
   "van_exp_141": [
-    "Pectoralis muscle (Pectoralis major causing the wing downstroke)",
     "Supracoracoideus muscle (Deep pectoral causing the wing upstroke)",
-    "Latissimus dorsi muscle (Superficial dorsal muscle retracting wing)"
+    "Latissimus dorsi muscle (Superficial dorsal muscle retracting wing)",
+    "Biceps brachii muscle (Flexor of the antebrachium across the elbow joint)"
   ],
   "van_exp_143": [
-    "Parabronchi (Air capillaries) with unidirectional airflow",
     "Blind alveolar saccules with bidirectional tidal airflow",
-    "Alveolar ducts and sacs terminating in respiratory bronchioles"
+    "Alveolar ducts and sacs terminating in respiratory bronchioles",
+    "Muscular trabeculae and visceral pleural sinuses without true gas exchange"
   ],
   "van_exp_145": [
-    "Koilin layer (hardened protein secreted by mucosal tubular glands)",
     "Keratinized stratified squamous epithelium with stratum corneum",
-    "Dense mucosal glycocalyx layer with high neutral mucin content"
+    "Dense mucosal glycocalyx layer with high neutral mucin content",
+    "Enamel-like hydroxyapatite crystals embedded in fibrous connective tissue"
   ]
 }
