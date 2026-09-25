@@ -30,76 +30,32 @@ export const StorageService = {
   // Questions Bank Management
   getQuestions(): Question[] {
     try {
+      const masterMap = new Map<string, Question>(ALL_HIGH_YIELD_QUESTIONS.map(q => [q.id, q]));
       const data = localStorage.getItem(STORAGE_KEYS.QUESTIONS);
-      if (!data) {
-        // Auto-seed with all balanced high-yield questions
-        localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
-        localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
-        return ALL_HIGH_YIELD_QUESTIONS;
-      }
-      const parsed = JSON.parse(data) as Question[];
-      if (parsed.length === 0) {
-        localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(ALL_HIGH_YIELD_QUESTIONS));
-        localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
-        return ALL_HIGH_YIELD_QUESTIONS;
-      }
-      // Auto-sync missing questions
-      const existingIds = new Set(parsed.map(q => q.id));
-      const missing = ALL_HIGH_YIELD_QUESTIONS.filter(q => !existingIds.has(q.id));
-      let updatedList = parsed;
-      if (missing.length > 0) {
-        updatedList = [...parsed, ...missing];
-      }
-
-      // Automatically purge any dummy / placeholder questions from storage
-      let modified = missing.length > 0;
-      const isDummy = (q: Question) => 
-        q.questionText.includes('Clinical Landmark MCQ #') ||
-        Boolean(q.topic && q.topic.includes('Core Diagnostic')) ||
-        q.options.some(opt => opt.includes('Standard validated laboratory'));
-
-      const cleanedList = updatedList.filter(q => !isDummy(q));
-      if (cleanedList.length !== updatedList.length) {
-        updatedList = cleanedList;
-        modified = true;
-      }
-
-      // Balanced Options Migration: check if stored questions have option A bias (>40% option A) or unmigrated flag
-      const isBalancedMigrated = localStorage.getItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION) === 'true';
-      const optionACount = updatedList.filter(q => q.correctOptionIndex === 0).length;
-      const optionARatio = updatedList.length > 0 ? optionACount / updatedList.length : 0;
-
-      if (!isBalancedMigrated || optionARatio > 0.40) {
-        const masterMap = new Map<string, Question>(ALL_HIGH_YIELD_QUESTIONS.map(q => [q.id, q]));
-        updatedList = updatedList.map(storedQ => {
-          const masterQ = masterMap.get(storedQ.id);
-          if (masterQ) {
-            return {
-              ...storedQ,
-              options: masterQ.options,
-              correctOptionIndex: masterQ.correctOptionIndex
-            };
-          }
-          return storedQ;
-        });
-        modified = true;
-        localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
-      }
-
-      // Harmonize domains for vpy and vbc to animal_science if outdated in local storage
-      for (const q of updatedList) {
-        if ((q.subjectId === 'vpy' || q.subjectId === 'vbc') && q.domain !== 'animal_science') {
-          q.domain = 'animal_science';
-          modified = true;
-        } else if (['van', 'vpp', 'vmc', 'vpa'].includes(q.subjectId) && q.domain !== 'veterinary_science') {
-          q.domain = 'veterinary_science';
-          modified = true;
+      
+      let customQuestions: Question[] = [];
+      if (data) {
+        try {
+          const parsed = JSON.parse(data) as Question[];
+          // Preserve any custom user-created questions that aren't in masterMap
+          customQuestions = parsed.filter(q => !masterMap.has(q.id));
+        } catch {
+          // If parse fails, ignore
         }
       }
-      if (modified) {
-        localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(updatedList));
+
+      // Always synchronize master questions with ALL_HIGH_YIELD_QUESTIONS so options & indices are authoritative
+      const fullList = [...ALL_HIGH_YIELD_QUESTIONS, ...customQuestions];
+
+      // Save the synchronized list to localStorage to keep cache warm
+      try {
+        localStorage.setItem(STORAGE_KEYS.QUESTIONS, JSON.stringify(fullList));
+        localStorage.setItem(STORAGE_KEYS.QUESTIONS_BALANCED_VERSION, 'true');
+      } catch (saveErr) {
+        console.warn('Could not cache questions to localStorage:', saveErr);
       }
-      return updatedList;
+
+      return fullList;
     } catch (e) {
       console.error('Failed to load questions from localStorage', e);
       return ALL_HIGH_YIELD_QUESTIONS;

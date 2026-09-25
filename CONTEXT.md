@@ -128,18 +128,23 @@ Every question added to the platform undergoes a 4-pass verification suite (`scr
 
 ### Option Index Balancing (Zero Guessing Bias)
 Across all 1,725 questions, the correct option index is deterministically balanced to ~25% per option across all subjects:
-- **Option A (0)**: 429 questions (24.9%)
-- **Option B (1)**: 431 questions (25.0%)
-- **Option C (2)**: 433 questions (25.1%)
-- **Option D (3)**: 432 questions (25.0%)
+- **Option A (0)**: 433 questions (25.1%)
+- **Option B (1)**: 424 questions (24.6%)
+- **Option C (2)**: 429 questions (24.9%)
+- **Option D (4)**: 439 questions (25.4%)
 
-### Option Equalization & Length-Bias Elimination Engine
-To prevent students from guessing the correct answer based on length cues (verbosity bias, where the correct answer was previously significantly longer than 1-word distractors):
-- **Zero Giveaway Distractors**: Eliminated all instances where a detailed, multi-clause correct answer was paired with brief 1-word distractors (reduced from 561 giveaway questions down to 0).
-- **Tricky, Authentic Distractors**: Distractors were upgraded into plausible, high-yield veterinary clinical, pathological, and microbiological differentials matching the grammatical syntax, depth, and character length of the correct option.
-- **Severe Longest-Option Bias Reduced to ZERO**: In `scripts/audit_length_bias.py`, questions with severe longest-option bias dropped from **842 down to exactly 0**.
-- **100% Preservation**: Question statements (`questionText`) and correct answer factual wording are 100% preserved without modification.
-- **Client Cache Synchronization**: Automatically bumps `STORAGE_KEYS.QUESTIONS_BALANCED_VERSION = 'icar_pg_questions_balanced_v3'` in `src/storage/db.ts` to seamlessly migrate existing user browser storage without clearing test records or SRS progress.
+### Option Equalization & Length-Bias Elimination Policy
+To prevent students from guessing answers through artificial visual cues (verbosity bias, where the correct answer is conspicuously longer than short distractors):
+- **Authentic PYQ Preservation Rule**:
+  - **Core Past Year Questions (350 Authentic PYQs: `pyq_van_*`, `pyq_vpp_*`, `pyq_vmc_*`, `pyq_vbc_001`–`100`)**: The exact original wording, phrasing, and distractors from official ICAR/NTA past exam papers are **100% preserved**. No synthetic alteration is made to real historical examination questions.
+- **Platform-Created & Expanded Questions (1,375 Questions)**:
+  - **Zero Giveaway Distractors**: Eliminated cases where a detailed, multi-clause correct answer was paired with brief 1-word distractors.
+  - **Tricky, Authentic Distractors**: Distractors were upgraded into plausible, high-yield veterinary clinical, pathological, and anatomical differentials matching the grammatical syntax, scientific depth, and character length of the correct option.
+  - **Zero Artificial Boilerplate**: Distractors use genuine subject concepts (e.g., specific diseases, anatomical structures, or bacterial toxins) instead of repetitive generic filler phrases.
+- **Zero Question & Correct-Answer Alteration**:
+  - All question statements (`questionText`) and correct answer scientific contents remain 100% untouched.
+- **Dynamic Client Cache Synchronization Engine**:
+  - To prevent browsers from serving stale, unmigrated question options from `localStorage`, `StorageService.getQuestions()` in `src/storage/db.ts` dynamically reconstructs the question catalog on every load from `ALL_HIGH_YIELD_QUESTIONS`, overwriting stale cached entries while preserving all user mock test history and Spaced Repetition (SRS) progress.
 
 ---
 
