@@ -1,0 +1,222 @@
+{
+  "vpp_exp_101": [
+    "Tetanus (Clostridium tetani producing tetanospasmin and tetanolysin)",
+    "Botulism (Clostridium botulinum producing neuroparalytic botulinum toxin)",
+    "Rabies (Lyssavirus causing acute fatal encephalomyelitis in all mammals)"
+  ],
+  "vpp_exp_102": [
+    "Spastic paralysis with persistent tonic spasms and 'sawhorse' stance",
+    "Ascending flaccid paralysis with loss of deep tendon reflexes and jaw drop",
+    "Severe tremors, hyperesthesia, aggressiveness, and hydrophobia"
+  ],
+  "vpp_exp_103": [
+    "Botulism (Clostridium botulinum producing flaccid neuroparalytic toxico-infection)",
+    "Listeriosis (Listeria monocytogenes producing microabscess encephalitis)",
+    "Scrapie (Prion disease causing severe neurodegenerative pruritus)"
+  ],
+  "vpp_exp_104": [
+    "Ascending flaccid motor paralysis with dilated pupils, tongue protrusion, and dysphagia",
+    "Persistent extensor muscle rigidity with erect ears and prolapsed third eyelid",
+    "Circling towards affected side with head tilt, facial palsy, and unilateral strabismus"
+  ],
+  "vpp_exp_105": [
+    "Anthrax (Bacillus anthracis peracute zoonotic septicemia)",
+    "Blackleg (Clostridium chauvoei acute emphysematous myositis)",
+    "Bovine Ephemeral Fever (Rhabdovirus transient stiff-sickness)"
+  ],
+  "vpp_exp_106": [
+    "Splenomegaly ('blackberry jam' soft dark red spleen) and failure of blood to clot",
+    "Severe fibrinous pleuropneumonia with marbled interlobular pulmonary septa",
+    "Discrete caseous calcified tubercles scattered across liver, spleen, and lungs"
+  ],
+  "vpp_exp_107": [
+    "DO NOT OPEN THE CARCASS (prevent sporulation of bacilli in environmental oxygen)",
+    "Immediately perform full necropsy and collect whole spleen for histopathology",
+    "Incinerate all visceral organs while leaving the hide intact for commercial tanning"
+  ],
+  "vpp_exp_108": [
+    "Bovine Tuberculosis (Mycobacterium bovis acid-fast bacterial infection)",
+    "Contagious Bovine Pleuropneumonia (Mycoplasma mycoides pleuropneumonia)",
+    "Enzootic Bovine Leukosis (Bovine leukemia retrovirus lymphosarcoma)"
+  ],
+  "vpp_exp_109": [
+    "Tubercles (granulomas with central caseation, calcification, and Langhans giant cells)",
+    "Cauliflower-like vegetative thrombotic lesions strictly on the tricuspid valve",
+    "Superficial erosive ulcers that heal rapidly without leaving any connective tissue scar"
+  ],
+  "vpp_exp_111": [
+    "Button ulcers in the cecum and colon, petechiae on kidneys ('turkey egg'), and splenic infarcts",
+    "Marked megalospleen (enlarged 3 to 6 times) with extensive friable hemorrhagic necrosis",
+    "Diffuse fibrinous pleuropneumonia with wide edematous marbled interlobular septa"
+  ],
+  "vpp_exp_112": [
+    "Equine Infectious Anemia (EIA / Swamp Fever caused by a Lentivirus)",
+    "Equine Viral Arteritis (EVA caused by an Arterivirus producing panarteritis)",
+    "African Horse Sickness (AHSV caused by an Orbivirus producing pulmonary edema)"
+  ],
+  "vpp_exp_113": [
+    "Recurrent fever, severe hemolytic anemia, thrombocytopenia, and ventral edema",
+    "Ascending spastic paralysis, hyperesthesia, and severe persistent muscular tetany",
+    "Discrete cutaneous rhomboid plaques followed by chronic vegetative endocarditis"
+  ],
+  "vpp_exp_114": [
+    "Coggin's test (Agar Gel Immunodiffusion / AGID detecting antibodies against p26)",
+    "Mallein test (Intradermo-palpebral injection measuring lower eyelid skin swelling)",
+    "Schick test (Intracutaneous test measuring neutralizing humoral antitoxin levels)"
+  ],
+  "vpp_exp_115": [
+    "Bovine Viral Diarrhea / Mucosal Disease (BVDV-1 and BVDV-2 Pestiviruses)",
+    "Rinderpest (Morbillivirus causing severe eradicated cattle plague)",
+    "Foot and Mouth Disease (Aphthovirus causing vesicular stomatitis)"
+  ],
+  "vpp_exp_116": [
+    "Linear erosions and ulcers in the esophagus and Peyer's patch lymphoid necrosis",
+    "Large cauliflower vegetations on the mitral valve and severe pulmonary infarcts",
+    "Diffuse granulomatous hepatitis with extensive Langhans giant cell infiltration"
+  ],
+  "vpp_exp_117": [
+    "Cerebellar hypoplasia in calves infected in utero between 100 to 170 days of gestation",
+    "Hydrocephalus and spina bifida caused by direct viral invasion of choroid plexus",
+    "Congenital microphthalmia and cyclopia caused by ingestion of toxic plant alkaloids"
+  ],
+  "vpp_exp_120": [
+    "Fowl Typhoid (Salmonella Gallinarum acute septicemic enteritis)",
+    "Pullorum Disease (Salmonella Pullorum bacillary white diarrhea)",
+    "Infectious Coryza (Avibacterium paragallinarum upper respiratory infection)"
+  ],
+  "vpp_exp_121": [
+    "Bronze-colored (coppery green) liver with enlarged dark spleen and catarrhal enteritis",
+    "Severely atrophied bursa of Fabricius filled with dense gelatinous exudates",
+    "Diffuse white necrotic spots on liver without any proventricular hemorrhages"
+  ],
+  "vpp_exp_122": [
+    "Pullorum Disease (Bacillary White Diarrhea caused by Salmonella Pullorum)",
+    "Avian Encephalomyelitis (Epidemic tremor caused by a Picornavirus)",
+    "Infectious Bursal Disease (Gumboro disease caused by a Birnavirus)"
+  ],
+  "vpp_exp_124": [
+    "Infectious Bursal Disease (IBD / Gumboro Disease caused by an Avibirnavirus)",
+    "Marek's Disease (Herpesvirus causing malignant T-cell lymphomas)",
+    "Avian Leukosis (Retrovirus causing clonal bursal B-cell lymphomas)"
+  ],
+  "vpp_exp_125": [
+    "Bursa of Fabricius (edematous, hemorrhagic, and later severely atrophic)",
+    "Sciatic and brachial nerve trunks (markedly enlarged with loss of striations)",
+    "Skeletal musculature of the thigh (diffuse Zenker's hyaline degeneration)"
+  ],
+  "vpp_exp_126": [
+    "Marek's Disease (Alphaherpesvirus causing T-cell lymphoma)",
+    "Lymphoid Leukosis (Alpharetrovirus causing bursal B-cell lymphoma)",
+    "Reticuloendotheliosis (Gammaretrovirus causing chronic runting syndrome)"
+  ],
+  "vpp_exp_127": [
+    "Enlargement of peripheral nerves (especially sciatic and vagus) with loss of striations",
+    "Nodular lymphoid tumors restricted exclusively to the lumen of the bursa of Fabricius",
+    "Multiple caseous granulomas scattered throughout lung, liver, and splenic parenchyma"
+  ],
+  "vpp_exp_128": [
+    "Transient paralysis, 'range paralysis' (one leg forward, one leg back), and grey eye",
+    "Severe explosive watery diarrhea, trembling tremors, and rapid prostration",
+    "Massive ascites, hydropericardium, and severe right-sided heart failure"
+  ],
+  "vpp_exp_129": [
+    "Lymphoid Leukosis (ALV retrovirus affecting birds over 16-20 weeks of age)",
+    "Fowl Pox (Poxvirus causing cutaneous and diphtheritic lesions in young birds)",
+    "Newcastle Disease (Paramyxovirus causing acute hemorrhagic neurotropic signs)"
+  ],
+  "vpp_exp_131": [
+    "Newcastle Disease (Ranikhet Disease caused by Avian Orthoavulavirus 1)",
+    "Infectious Laryngotracheitis (Avian alphaherpesvirus 1 infection)",
+    "Avian Infectious Bronchitis (Avian gammacoronavirus infection)"
+  ],
+  "vpp_exp_132": [
+    "Hemorrhages at the tips of proventricular glands and necrotic button-like cecal tonsils",
+    "Marked edema and caseous plug formation inside the lumen of the bursa of Fabricius",
+    "Diffuse white necrotic spots on liver without any proventricular hemorrhages"
+  ],
+  "vpp_exp_133": [
+    "Doyle's form (Viscerotropic Velogenic Newcastle Disease / VVND)",
+    "Beach's form (Neurotropic Velogenic Newcastle Disease / NVND)",
+    "Beaudette's form (Mesogenic Newcastle Disease with respiratory signs)"
+  ],
+  "vpp_exp_134": [
+    "Infectious Laryngotracheitis (ILT caused by Gallid Alphaherpesvirus 1)",
+    "Chronic Respiratory Disease (CRD caused by Mycoplasma gallisepticum)",
+    "Infectious Coryza (caused by Avibacterium paragallinarum)"
+  ],
+  "vpp_exp_135": [
+    "Severe necrotizing and hemorrhagic tracheitis with fibrinous pseudomembranes",
+    "Extensive granulomatous air sacculitis with dense caseous cheesy exudates",
+    "Marked subcutaneous edema of the head and facial cellulitis with nasal discharge"
+  ],
+  "vpp_exp_136": [
+    "Intranuclear inclusion bodies (Cowdry Type A) in respiratory epithelial cells",
+    "Intracytoplasmic inclusion bodies (Bollinger bodies) in squamous epithelial cells",
+    "Basophilic intracytoplasmic inclusions (Chlamydia elementary bodies) in macrophages"
+  ],
+  "vpp_exp_137": [
+    "Infectious Bronchitis (IB caused by an Avian Gammacoronavirus)",
+    "Avian Metapneumovirus infection (Swollen head syndrome in chickens)",
+    "Avian Paramyxovirus type 2 infection (Mild respiratory illness in turkeys)"
+  ],
+  "vpp_exp_138": [
+    "Tracheal rales, coughing, sneezing, and 'misshapen, rough-shelled thin eggs'",
+    "Severe unilateral flaccid paralysis with wings drooping down to the ground",
+    "Extensive cutaneous nodular proliferations on the comb, eyelids, and wattles"
+  ],
+  "vpp_exp_139": [
+    "Chronic Respiratory Disease (CRD caused by Mycoplasma gallisepticum)",
+    "Infectious Synovitis (caused by Mycoplasma synoviae)",
+    "Turkey Coryza (caused by Bordetella avium)"
+  ],
+  "vpp_exp_140": [
+    "Fibrinous air sacculitis, perihepatitis, and pericarditis (often with E. coli)",
+    "Marked caseous necrosis strictly limited to the cecal pouches and cecal tonsils",
+    "Discrete ulcerations along the dorsal surface of the muscular gizzard"
+  ],
+  "vpp_exp_141": [
+    "Fowl Pox (Avipoxvirus producing cutaneous and diphtheritic forms)",
+    "Avian Encephalomyelitis (Tremovirus causing ataxia and cataracts)",
+    "Duck Viral Enteritis (Duck plague caused by an Anatid herpesvirus)"
+  ],
+  "vpp_exp_142": [
+    "Cutaneous dry form (papules/crusts on unfeathered skin) and Wet diphtheritic form (mouth/pharynx)",
+    "Visceral form (tumors in viscera) and Neural form (nerve enlargement with paresis)",
+    "Septicemic form (splenomegaly and liver necrosis) and Chronic synovial form (arthritis)"
+  ],
+  "vpp_exp_144": [
+    "Highly Pathogenic Avian Influenza (HPAI caused by H5 or H7 influenza A viruses)",
+    "Low Pathogenic Avian Influenza (LPAI producing mild respiratory signs and egg drop)",
+    "Avian Metapneumovirus infection (causing turkey rhinotracheitis and swollen head)"
+  ],
+  "vpp_exp_145": [
+    "Cyanosis of comb and wattles, petechiae on shanks, and rapid peracute mortality",
+    "Severe caseous necrosis of the cecum and pathognomonic target lesions in liver",
+    "Marked swelling of the facial infraorbital sinuses with copious nasal catarrh"
+  ],
+  "vpp_exp_146": [
+    "Polybasic cleavage site in the hemagglutinin (HA) protein cleavable by ubiquitous furins",
+    "Duplication of the neuraminidase stalk enhancing receptor-destroying enzymatic activity",
+    "Complete deletion of the non-structural protein 1 (NS1) gene abolishing interferon antagonism"
+  ],
+  "vpp_exp_147": [
+    "Duck Viral Enteritis (Duck Plague caused by Anatid Alphaherpesvirus 1)",
+    "Duck Viral Hepatitis (caused by Avihepatovirus / Picornavirus)",
+    "Goose Parvovirus infection (Derzsy's disease in goslings)"
+  ],
+  "vpp_exp_148": [
+    "Annular hemorrhagic bands on the mucosal surface of the intestine and cloacal diphtheresis",
+    "Massive ascites with diffuse right-sided ventricular hypertrophy and hydropericardium",
+    "Severe muscular atrophy of the pectoral flight muscles with dense fibrous scarring"
+  ],
+  "vpp_exp_149": [
+    "Duck Viral Hepatitis (DHV-1, a Picornavirus causing acute fatal hepatitis in ducklings)",
+    "Duck Circovirus infection (causing severe lymphoid depletion and immunosuppression)",
+    "Duck Plague (Anatid herpesvirus causing acute hemorrhagic mucosal necrosis)"
+  ],
+  "vpp_exp_150": [
+    "Opisthotonos ('head retracted backwards towards back') and enlarged hemorrhagic liver",
+    "Marked unilateral flaccid paralysis with one leg stretched forward and one backward",
+    "Severe swelling of the infraorbital sinuses with dense caseous exudative accumulation"
+  ]
+}

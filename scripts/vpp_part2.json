@@ -1,0 +1,152 @@
+{
+  "vpp_exp_033": [
+    "Severe acute anemic anoxia reducing oxygen-carrying capacity of blood",
+    "Histotoxic hypoxia caused by cyanide poisoning inhibiting cytochrome oxidase",
+    "Hypoxemic hypoxia caused by high altitude or severe pulmonary hypoventilation"
+  ],
+  "vpp_exp_034": [
+    "Complete detachment and systemic migration of an intravascular thrombus",
+    "Rupture of an arterial wall with massive extravasation into tissue spaces",
+    "Transient functional spasm of muscular arteries relieving distal perfusion"
+  ],
+  "vpp_exp_035": [
+    "Coagulative necrosis (except in the central nervous system where liquefaction occurs)",
+    "Caseous necrosis with extensive dystrophic calcification and fibrosis",
+    "Fibrinoid necrosis limited strictly to the tunica adventitia of large veins"
+  ],
+  "vpp_exp_037": [
+    "Marked vasodilation and increased vascular permeability mediated by chemical mediators",
+    "Widespread intravascular microvascular thrombosis and total capillary occlusion",
+    "Selective accumulation of dense fibrous connective tissue and collagen remodeling"
+  ],
+  "vpp_exp_038": [
+    "Rolling along endothelium -> Firm adhesion -> Extravasation (diapedesis) -> Chemotaxis",
+    "Chemotaxis -> Firm adhesion -> Opsonization -> Intracellular phagolysosomal killing",
+    "Extravasation -> Rolling -> Degranulation -> Secretion of neutralizing antibodies"
+  ],
+  "vpp_exp_039": [
+    "P-selectin and E-selectin (mediating leukocyte rolling on endothelial cells)",
+    "ICAM-1 and VCAM-1 (mediating firm leukocyte adhesion and arrest)",
+    "PECAM-1 / CD31 (mediating leukocyte transendothelial migration)"
+  ],
+  "vpp_exp_040": [
+    "Leukocyte Adhesion Deficiency (BLAD / CLAD due to CD18 beta-2 integrin defect)",
+    "Severe Combined Immunodeficiency (SCID due to DNA-PKcs catalytic defect)",
+    "Ch\u00e9diak-Higashi syndrome (due to LYST lysosomal trafficking gene defect)"
+  ],
+  "vpp_exp_041": [
+    "C3a, C4a, and C5a (anaphylatoxins stimulating histamine release from mast cells)",
+    "Bradykinin (vasoactive peptide stimulating vascular permeability and pain)",
+    "Leukotriene B4 (LTB4, potent lipid mediator of neutrophil chemotaxis)"
+  ],
+  "vpp_exp_042": [
+    "Prostaglandin E2 (PGE2) acting on hypothalamic thermoregulatory centers",
+    "Histamine acting on H1 receptors of peripheral vascular endothelial cells",
+    "Thromboxane A2 (TXA2) stimulating platelet aggregation and vasoconstriction"
+  ],
+  "vpp_exp_043": [
+    "C5b-6-7-8-9 (Membrane Attack Complex / MAC causing direct osmotic cell lysis)",
+    "C3b and iC3b (opsonins facilitating phagocytosis by tissue macrophages)",
+    "C3a and C5a (anaphylatoxins triggering mast cell degranulation)"
+  ],
+  "vpp_exp_044": [
+    "Lipoxygenase pathway producing leukotrienes (LTB4, LTC4, LTD4, LTE4)",
+    "Cyclooxygenase pathway producing prostaglandins and thromboxanes (PGE2, PGF2a, TXA2)",
+    "Nitric oxide synthase pathway producing peroxynitrite and reactive nitrogen species"
+  ],
+  "vpp_exp_046": [
+    "Serous inflammation (marked by clear, watery, protein-poor transudate)",
+    "Suppurative inflammation (marked by purulent exudate rich in degenerate neutrophils)",
+    "Granulomatous inflammation (marked by epithelioid macrophages and multinucleated cells)"
+  ],
+  "vpp_exp_047": [
+    "Pericardial and peritoneal sacs (producing shaggy bread-and-butter exudates)",
+    "Brain meninges and cerebral ventricles (producing purulent leptomeningitis)",
+    "Cutaneous stratified epidermis (producing intraepithelial vesicular blisters)"
+  ],
+  "vpp_exp_048": [
+    "Liquefactive necrosis (purulent suppurative necrosis induced by neutrophil enzymes)",
+    "Caseous necrosis (friable, cheesy amorphous necrosis characteristic of tuberculosis)",
+    "Coagulative necrosis (ischemic preservation of basic cell architectural outlines)"
+  ],
+  "vpp_exp_049": [
+    "Epithelioid macrophages and multinucleated giant cells (Langhans or foreign-body type)",
+    "Eosinophils and tissue mast cells releasing major basic protein and histamine",
+    "Neutrophils and plasma cells undergoing intense karyorrhectic degeneration"
+  ],
+  "vpp_exp_050": [
+    "Mycobacterium tuberculosis and Mycobacterium bovis (Tuberculosis granulomas)",
+    "Pasteurella multocida and Mannheimia haemolytica (Fibrinous pleuropneumonia)",
+    "Streptococcus equi and Streptococcus suis (Acute suppurative lymphadenitis)"
+  ],
+  "vpp_exp_051": [
+    "Langhans giant cells (nuclei arranged in a peripheral horseshoe ring)",
+    "Foreign-body giant cells (nuclei haphazardly clustered throughout cytoplasm)",
+    "Touton giant cells (nuclei encircling a central lipid-rich cytoplasmic core)"
+  ],
+  "vpp_exp_052": [
+    "Splendore-Hoeppli phenomenon (asteroid bodies of immune-complex deposition)",
+    "Russell bodies (eosinophilic immunoglobulin condensations in plasma cells)",
+    "Aschoff bodies (pathognomonic myocardial granulomas of rheumatic carditis)"
+  ],
+  "vpp_exp_053": [
+    "Vascular endothelial cells, fibroblasts, and newly formed capillaries",
+    "Dense parallel bundles of mature type I collagen with minimal cellularity",
+    "Epithelioid macrophages forming nodular cuffs around caseous necrotic cores"
+  ],
+  "vpp_exp_054": [
+    "Healing by first intention (Primary union with minimal tissue loss and narrow scar)",
+    "Healing by third intention (Delayed primary closure of contaminated open wounds)",
+    "Fibromatosis (Non-neoplastic aggressive fibroblastic proliferation of fascia)"
+  ],
+  "vpp_exp_055": [
+    "Type I Collagen (mature tensile collagen replacing delicate type III reticulin)",
+    "Type IV Collagen (specialized non-fibrillar meshwork forming basement membranes)",
+    "Type II Collagen (hyaline cartilage collagen resisting compressive forces)"
+  ],
+  "vpp_exp_056": [
+    "Keloid (excessive formation of dense collagenous keloidal scar tissue)",
+    "Proud flesh (exuberant granulation tissue protruding above the wound margin in horses)",
+    "Desmoid tumor (deep fibromatosis invading local aponeurotic tissue)"
+  ],
+  "vpp_exp_058": [
+    "Secondary bone healing with intermediate fibrocartilaginous and hard bony callus",
+    "Direct primary contact healing without any detectable external callus formation",
+    "Enchondral dyschondroplasia with persistent cartilaginous metaphyseal cores"
+  ],
+  "vpp_exp_060": [
+    "Incomplete pseudoarthrosis (false joint formation due to continuous motion)",
+    "Avascular osteonecrosis of bone fragments caused by total periosteal disruption",
+    "Chronic suppurative osteomyelitis resulting from deep bacterial contamination"
+  ],
+  "vpp_exp_061": [
+    "Erythrocyte extravasation (Diapedesis / Hemorrhage per rhexin)",
+    "Leukocyte margination (Pavementing along activated endothelial walls)",
+    "Platelet aggregation (Primary hemostatic plug formation at injury sites)"
+  ],
+  "vpp_exp_062": [
+    "Thromboxane A2 (platelet derived) and Prostacyclin PGI2 (endothelial derived)",
+    "Histamine (mast cell derived) and Serotonin (enterochromaffin derived)",
+    "Bradykinin (plasma derived) and Substance P (nociceptive nerve derived)"
+  ],
+  "vpp_exp_063": [
+    "Disseminated Intravascular Coagulation (DIC / Consumptive coagulopathy)",
+    "Immune-Mediated Hemolytic Anemia (IMHA with spherocytosis and autoagglutination)",
+    "Von Willebrand Disease (inherited defect in primary platelet adhesion)"
+  ],
+  "vpp_exp_064": [
+    "Splenic torsion and acute congestive splenomegaly in deep-chested dogs",
+    "Chronic suppurative splenitis caused by Trueperella pyogenes bacteremia",
+    "Diffuse amyloidosis of red pulp cords and splenic follicular arterioles"
+  ],
+  "vpp_exp_066": [
+    "Subendocardial petechiae and ecchymoses in the left ventricle",
+    "Severe fibrinous pleuropneumonia with marbled interlobular septa",
+    "Focal necrotic button ulcers scattered throughout the colonic mucosa"
+  ],
+  "vpp_exp_067": [
+    "Severe acute pulmonary edema and diffuse bilateral alveolar flooding",
+    "Massive hepatic lipidosis with markedly swollen pale yellow parenchyma",
+    "Extensive cortical necrosis of the kidneys with tubular hemoglobin casts"
+  ]
+}

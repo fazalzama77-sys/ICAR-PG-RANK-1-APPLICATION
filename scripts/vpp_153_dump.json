@@ -1,0 +1,1685 @@
+[
+  {
+    "id": "vpp_q_006",
+    "sub": "vpp",
+    "q": "The 'nutmeg liver' appearance on gross necropsy is characteristic of:",
+    "c": "Chronic passive venous congestion (Right-sided heart failure)",
+    "d": [
+      "Acute viral hepatitis (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Biliary cirrhosis (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Hepatic lipidosis (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_q_007",
+    "sub": "vpp",
+    "q": "The 'Virchow\u2019s triad' outlines the three primary predisposing factors for intravascular thrombosis, which are:",
+    "c": "Endothelial injury, Stasis / abnormal blood flow, and Hypercoagulability",
+    "d": [
+      "Fever, Leukopenia, and Thrombocytopenia (producing marked histopathological lesions with widespread tissue disruption)",
+      "Hyperglycemia, Hypokalemia, and Edema (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Hypotension, Anemia, and Hypocalcemia (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_q_015",
+    "sub": "vpp",
+    "q": "Eosinophilic inflammatory infiltrates are classically associated with:",
+    "c": "Parasitic (helminth) infections and Type I IgE-mediated allergic reactions",
+    "d": [
+      "Acute viral infections (producing marked histopathological lesions with widespread tissue disruption)",
+      "Infarction (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Bacterial septicemia (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_q_016",
+    "sub": "vpp",
+    "q": "The 'bread and butter' appearance of the heart is gross pathology characteristic of:",
+    "c": "Fibrinous pericarditis (e.g. Traumatic Reticulopericarditis in cattle)",
+    "d": [
+      "Hydropericardium (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Fatty degeneration (producing marked histopathological lesions with widespread tissue disruption)",
+      "Myocardial infarction (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_q_018",
+    "sub": "vpp",
+    "q": "The universal hallmark diagnostic feature distinguishing malignant tumors from benign tumors is:",
+    "c": "Invasion into surrounding tissues and capability of metastasis",
+    "d": [
+      "Presence of fibrous capsule (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Mitotic figures (producing marked histopathological lesions with widespread tissue disruption)",
+      "Rapid growth alone (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_q_021",
+    "sub": "vpp",
+    "q": "The 'p53' protein functions biologically as a:",
+    "c": "Tumor suppressor protein ('Guardian of the Genome') regulating cell cycle arrest and apoptosis",
+    "d": [
+      "Growth factor receptor (accompanied by acute enzymatic breakdown and coagulative protein denaturation)",
+      "DNA polymerase (characterized by severe ischemic cell death and loss of nuclear basophilia)",
+      "Oncogene stimulating mitosis (associated with severe microvascular thrombosis and hemorrhagic extravasation)"
+    ]
+  },
+  {
+    "id": "vpp_q_022",
+    "sub": "vpp",
+    "q": "Bovine Papillomavirus Type 4 (BPV-4) along with ingestion of bracken fern (Pteridium aquilinum) causes:",
+    "c": "Squamous cell carcinoma of the upper digestive tract and urinary bladder (Enzootic Bovine Hematuria)",
+    "d": [
+      "Foot rot (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Papillomatosis of skin exclusively (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Bovine leukosis (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_q_023",
+    "sub": "vpp",
+    "q": "The 'Marek\u2019s Disease' in domestic poultry is a lymphoproliferative neoplastic disease caused by:",
+    "c": "Marek's Disease Virus (an Alphaherpesvirus)",
+    "d": [
+      "Retrovirus (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Coronavirus (producing marked histopathological lesions with widespread tissue disruption)",
+      "Birnavirus (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_q_024",
+    "sub": "vpp",
+    "q": "Lymphoid leukosis in chickens is caused by an:",
+    "c": "Avian Retrovirus (Avian Leukosis Virus - ALV)",
+    "d": [
+      "Adenovirus (producing marked histopathological lesions with widespread tissue disruption)",
+      "Poxvirus (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Herpesvirus (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_q_025",
+    "sub": "vpp",
+    "q": "Canine Transmissible Venereal Tumor (CTVT / Sticker's sarcoma) has a characteristic diploid chromosome count of:",
+    "c": "59 chromosomes (compared to the normal canine 78)",
+    "d": [
+      "90 chromosomes (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "78 chromosomes (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "38 chromosomes (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_q_028",
+    "sub": "vpp",
+    "q": "The hallmark intestinal pathology of 'Johne\u2019s Disease' (Paratuberculosis / Mycobacterium avium subsp. paratuberculosis) in cattle is:",
+    "c": "Thickened, corrugation of the ileal and colonic mucosa resembling cerebral gyri that cannot be smoothed out",
+    "d": [
+      "Linear button ulcers (producing marked histopathological lesions with widespread tissue disruption)",
+      "Hemorrhagic pseudomembranes (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Fibrinous cast formation (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_q_034",
+    "sub": "vpp",
+    "q": "The 'turkey egg kidney' (subcapsular petechial hemorrhages on the renal cortex) is classically observed in:",
+    "c": "Classical Swine Fever (Hog Cholera)",
+    "d": [
+      "Foot and Mouth Disease (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Glanders (producing marked histopathological lesions with widespread tissue disruption)",
+      "Anthrax (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_q_036",
+    "sub": "vpp",
+    "q": "In Foot and Mouth Disease (FMD), the characteristic lesion in young nursing calves without oral blisters is acute myocardial necrosis termed:",
+    "c": "'Tiger heart' (myocarditis with grayish-yellow stripes)",
+    "d": [
+      "Nutmeg heart (producing marked histopathological lesions with widespread tissue disruption)",
+      "Bread-and-butter heart (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Cor bovinum (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_q_037",
+    "sub": "vpp",
+    "q": "The 'pipe-stem liver' characterized by massively fibrosed, calcified, protruding bile ducts in cattle is pathognomonic for chronic infection by:",
+    "c": "Fasciola hepatica (or Fasciola gigantica)",
+    "d": [
+      "Ascaris suum (producing marked histopathological lesions with widespread tissue disruption)",
+      "Haemonchus contortus (producing marked histopathological lesions with widespread tissue disruption)",
+      "Echinococcus granulosus (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_q_040",
+    "sub": "vpp",
+    "q": "'Bottle jaw' (submandibular edema) in small ruminants with Haemonchosis is primarily a result of:",
+    "c": "Severe hypoproteinemia (hypoalbuminemia) reducing plasma oncotic pressure due to abomasal blood loss",
+    "d": [
+      "Lymphatic obstruction by adult worms (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Congestive heart failure (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Renal amyloidosis (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_006",
+    "sub": "vpp",
+    "q": "Which of the following biochemical defects is the primary cause of 'Fat Cow Syndrome' (severe bovine ketosis / fatty liver)?",
+    "c": "Imbalance between fat mobilization from adipose reserves and hepatic VLDL secretion",
+    "d": [
+      "Excessive production of ketone bodies by the rumen wall (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Congenital deficiency of apolipoprotein B-100 (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Dietary deficiency of methionine alone (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_010",
+    "sub": "vpp",
+    "q": "Primary (AL) amyloidosis in dogs and horses is most commonly associated with which underlying neoplasm?",
+    "c": "Multiple myeloma (plasma cell myeloma)",
+    "d": [
+      "Lymphoma (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Squamous cell carcinoma (producing marked histopathological lesions with widespread tissue disruption)",
+      "Hemangiosarcoma (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_011",
+    "sub": "vpp",
+    "q": "Russell bodies observed inside plasma cells during chronic antigenic stimulation represent intra-cytoplasmic accumulations of:",
+    "c": "Synthesized immunoglobulins in distended rough endoplasmic reticulum cisternae",
+    "d": [
+      "Degenerated mitochondrial remnants (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Phagocytosed bacterial fragments (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Aggregated actin filaments (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_013",
+    "sub": "vpp",
+    "q": "The definitive microscopic hallmark distinguishing coagulative necrosis from liquefactive necrosis is:",
+    "c": "Preservation of basic cellular outline and tissue architectural ghost shadows",
+    "d": [
+      "Complete enzymatic dissolution of all cell margins (producing marked histopathological lesions with widespread tissue disruption)",
+      "Infiltration by Langhans giant cells (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Presence of abundant caseous debris (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_016",
+    "sub": "vpp",
+    "q": "The phagocytic scavenger cells responsible for clearing necrotic lipid-rich debris in brain liquefactive necrosis (malacia) are termed:",
+    "c": "Gitter cells (lipophages / foamy microglia)",
+    "d": [
+      "Langhans cells (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Kupffer cells (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Ito cells (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_017",
+    "sub": "vpp",
+    "q": "Caseous necrosis is pathognomonic for which of the following chronic veterinary infections?",
+    "c": "Mycobacterium bovis (Bovine Tuberculosis)",
+    "d": [
+      "Bacillus anthracis (Anthrax) (producing marked histopathological lesions with widespread tissue disruption)",
+      "Clostridium chauvoei (Blackleg)",
+      "Streptococcus equi (Strangles)"
+    ]
+  },
+  {
+    "id": "vpp_exp_019",
+    "sub": "vpp",
+    "q": "Fibrinoid necrosis is classically seen in blood vessel walls during which pathological condition?",
+    "c": "Type III hypersensitivity reactions and immune complex vasculitis",
+    "d": [
+      "Chronic venous congestion (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Primary amyloidosis (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Severe Vitamin C deficiency (Scurvy) (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_020",
+    "sub": "vpp",
+    "q": "Apoptosis differs fundamentally from necrosis in domestic animals because apoptosis:",
+    "c": "Involves single cells without eliciting an acute inflammatory reaction",
+    "d": [
+      "Causes widespread plasma membrane rupture and cellular leakage",
+      "Always causes marked neutrophilic infiltration (producing marked histopathological lesions with widespread tissue disruption)",
+      "Is exclusively a pathological event (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_027",
+    "sub": "vpp",
+    "q": "Which diagnostic feature allows a veterinary pathologist to distinguish ante-mortem bloat (ruminal tympany) from post-mortem tympany?",
+    "c": "Presence of a sharp 'bloat line' in the thoracic esophagus",
+    "d": [
+      "Dark red color of the rumen wall (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Presence of froth in the rumen (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Distension of the left paralumbar fossa (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_028",
+    "sub": "vpp",
+    "q": "Dystrophic calcification occurs under which of the following metabolic states?",
+    "c": "Normal serum calcium and phosphate levels in dead or degenerating tissues",
+    "d": [
+      "Excessive dietary intake of Vitamin D3 (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Severe hyperparathyroidism with normal tissues (producing marked histopathological lesions with widespread tissue disruption)",
+      "Elevated serum calcium and normal phosphate levels (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_030",
+    "sub": "vpp",
+    "q": "Enzootic calcinosis in grazing cattle (Manchester wasting disease) is caused by chronic ingestion of plants containing Vitamin D-like glycosides, such as:",
+    "c": "Solanum malacoxylon (Solanum glaucophyllum) and Cestrum diurnum",
+    "d": [
+      "Lantana camara (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Pteridium aquilinum (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Senecio jacobaea (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_032",
+    "sub": "vpp",
+    "q": "Dry gangrene in domestic animals is characterized pathologically by:",
+    "c": "Arterial occlusion in extremities leading to ischemic mummification with a clear line of demarcation",
+    "d": [
+      "Rapid liquefactive necrosis with saprophytic putrefaction and foul odor",
+      "Extensive gas bubble formation inside crepitating muscle (producing marked histopathological lesions with widespread tissue disruption)",
+      "Abundant purulent exudate dripping from the lesion (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_033",
+    "sub": "vpp",
+    "q": "Ergot poisoning (Claviceps purpurea) in grazing cattle produces dry gangrene of the tail tip, ears, and hooves through which mechanism?",
+    "c": "Direct vasoconstriction of peripheral arterioles and endothelial injury caused by ergot alkaloids",
+    "d": [
+      "Suppression of bone marrow megakaryocytes (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Bacterial invasion of digital corium (producing marked histopathological lesions with widespread tissue disruption)",
+      "Hypersecretion of parathyroid hormone (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_034",
+    "sub": "vpp",
+    "q": "Congenital melanosis (Melanosis maculosa) in calves is characterized by flat, dark melanin patches on organs such as the lungs, aorta, and meninges, and its clinical significance is:",
+    "c": "Completely benign incidental finding with normal organ architecture and function",
+    "d": [
+      "Highly aggressive premalignant condition requiring euthanasia",
+      "Always accompanied by severe cardiac insufficiency (producing marked histopathological lesions with widespread tissue disruption)",
+      "Associated with lethal albinism (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_035",
+    "sub": "vpp",
+    "q": "The histochemical technique of choice for distinguishing melanin pigment from other dark pigments (such as formalin pigment or lipofuscin) is:",
+    "c": "Fontana-Masson silver reduction stain and bleachability with hydrogen peroxide",
+    "d": [
+      "Pearl's Prussian blue stain (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Von Kossa silver nitrate stain (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Oil Red O stain (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_036",
+    "sub": "vpp",
+    "q": "Hemosiderin, the intracellular storage complex of ferric iron, is demonstrated histochemically as a brilliant Prussian blue precipitate using:",
+    "c": "Perls' Prussian blue reaction (potassium ferrocyanide + dilute HCl)",
+    "d": [
+      "Periodic Acid-Schiff (PAS) reaction (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Sudan IV (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Alizarin Red S stain (demonstrating birefringent red calcium precipitates)"
+    ]
+  },
+  {
+    "id": "vpp_exp_037",
+    "sub": "vpp",
+    "q": "'Heart failure cells' found in the pulmonary alveolar spaces during chronic passive congestion of the lungs are:",
+    "c": "Alveolar macrophages packed with phagocytosed hemosiderin",
+    "d": [
+      "Degenerated Type II pneumocytes (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Extravasated cardiac Purkinje fibers (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Hypertrophied bronchial myofibroblasts (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_039",
+    "sub": "vpp",
+    "q": "Lipofuscin ('wear-and-tear' or brown atrophy pigment) accumulates primarily in tertiary lysosomes of post-mitotic cells and represents:",
+    "c": "Incompletely digested, oxidized polyunsaturated fatty acid-protein complexes",
+    "d": [
+      "Unused glycogen polymers (producing marked histopathological lesions with widespread tissue disruption)",
+      "Excessive breakdown of hemoglobin (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Phagocytosed melanin particles (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_042",
+    "sub": "vpp",
+    "q": "The fundamental hemodynamic difference between active hyperemia and passive congestion is that hyperemia:",
+    "c": "Is an active process mediated by arteriolar dilation with increased oxygenated arterial inflow",
+    "d": [
+      "Is invariably associated with thrombosis (producing marked histopathological lesions with widespread tissue disruption)",
+      "Always causes severe centrilobular hepatic necrosis (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Results from impaired venous outflow with accumulation of deoxygenated blood"
+    ]
+  },
+  {
+    "id": "vpp_exp_043",
+    "sub": "vpp",
+    "q": "The classical gross pathological appearance of 'nutmeg liver' is produced by:",
+    "c": "Chronic passive congestion of the liver resulting from right-sided congestive heart failure",
+    "d": [
+      "Diffuse hepatocellular amyloidosis (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Acute infectious canine hepatitis (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Severe biliary cirrhosis (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_046",
+    "sub": "vpp",
+    "q": "The three primary components of Virchow's Triad governing the pathogenesis of intravascular thrombosis are:",
+    "c": "Endothelial injury, stasis or turbulent blood flow, and blood hypercoagulability",
+    "d": [
+      "Hypertension, hypothermia, and hypoglycemia (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Hypercalcemia, hyperkalemia, and acidosis (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Leukopenia, thrombocytopenia, and anemia (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_049",
+    "sub": "vpp",
+    "q": "Fibrocartilaginous embolic myelopathy (FCEM) in dogs originates from the embolization of which tissue into spinal cord vasculature?",
+    "c": "Nucleus pulposus of degenerate intervertebral discs",
+    "d": [
+      "Metastatic osteosarcoma (producing marked histopathological lesions with widespread tissue disruption)",
+      "Bacterial vegetative valvular endocarditis",
+      "Bone marrow fat after femoral fracture"
+    ]
+  },
+  {
+    "id": "vpp_exp_050",
+    "sub": "vpp",
+    "q": "In domestic animals, septic shock triggered by Gram-negative septicemia (such as E. coli or Salmonella) is fundamentally driven by the interaction of which bacterial molecule with host macrophages?",
+    "c": "Lipopolysaccharide (LPS, specifically Lipid A)",
+    "d": [
+      "Peptidoglycan monomer (producing marked histopathological lesions with widespread tissue disruption)",
+      "Dipicolinic acid (producing marked histopathological lesions with widespread tissue disruption)",
+      "Bacterial flagellin (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_051",
+    "sub": "vpp",
+    "q": "Disseminated Intravascular Coagulation (DIC) represents a severe consumptive coagulopathy characterized paradoxical combination of:",
+    "c": "Widespread microvascular thrombosis alongside spontaneous systemic hemorrhages",
+    "d": [
+      "Isolated venous thrombosis without any bleeding tendency",
+      "Massive neutrophilia with decreased clotting times (producing marked histopathological lesions with widespread tissue disruption)",
+      "Excessive production of albumin by the liver (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_052",
+    "sub": "vpp",
+    "q": "The classic 'triple response of Lewis' observed in acute inflammatory vascular responses consists of:",
+    "c": "Red line (local vasodilation), Flare (surrounding arteriolar dilation), and Wheal (local edema)",
+    "d": [
+      "Pallor, cyanosis, and gangrene (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Vasoconstriction, thrombosis, and necrosis (producing marked histopathological lesions with widespread tissue disruption)",
+      "Ulceration, scarring, and fibrosis (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_053",
+    "sub": "vpp",
+    "q": "The immediate, transient increase in vascular permeability in acute inflammation (lasting 15 to 30 minutes) is primarily mediated by the action of histamine on:",
+    "c": "Endothelial cells of post-capillary venules causing cell contraction and intercellular gaps",
+    "d": [
+      "Large muscular arteries causing dissection (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Capillary pericytes causing proliferation (producing marked histopathological lesions with widespread tissue disruption)",
+      "Arteriolar smooth muscle cells causing constriction (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_055",
+    "sub": "vpp",
+    "q": "Bovine Leukocyte Adhesion Deficiency (BLAD) in Holstein calves is an inherited autosomal recessive disorder caused by a mutation in the gene encoding:",
+    "c": "CD18 (the common beta-2 integrin subunit)",
+    "d": [
+      "CD4 (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "P-selectin glycoprotein ligand-1 (PSGL-1)",
+      "ICAM-1 (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_057",
+    "sub": "vpp",
+    "q": "Which of the following endogenous chemical mediators serves as the most potent chemoattractant for neutrophils in acute inflammation?",
+    "c": "Complement component C5a and Leukotriene B4 (LTB4)",
+    "d": [
+      "Prostaglandin E2 (PGE2) (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Histamine (producing marked histopathological lesions with widespread tissue disruption)",
+      "Bradykinin (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_059",
+    "sub": "vpp",
+    "q": "Chronic Granulomatous Disease (CGD) is a congenital immunodeficiency characterized by recurrent suppurative infections due to a genetic defect in:",
+    "c": "NADPH oxidase complex subunits (phagocyte oxidase)",
+    "d": [
+      "Myeloperoxidase (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Lysozyme (producing marked histopathological lesions with widespread tissue disruption)",
+      "Lactoferrin (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_060",
+    "sub": "vpp",
+    "q": "The Ch\u00e9diak-Higashi syndrome occurring in Hereford cattle, Persian cats, and Aleutian mink is pathologically characterized by:",
+    "c": "Abnormally giant lysosomal granules in neutrophils and partial oculocutaneous albinism",
+    "d": [
+      "Total absence of neutrophils in peripheral blood (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Hypersegmentation of neutrophil nuclei (producing marked histopathological lesions with widespread tissue disruption)",
+      "Excessive production of collagen in tissues (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_062",
+    "sub": "vpp",
+    "q": "Aspirin and traditional Non-Steroidal Anti-Inflammatory Drugs (NSAIDs) reduce inflammatory swelling and pain primarily by inhibiting:",
+    "c": "Cyclooxygenase (COX-1 and COX-2) enzymes",
+    "d": [
+      "Histaminase (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Phospholipase A2 (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "5-Lipoxygenase (5-LOX) (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_064",
+    "sub": "vpp",
+    "q": "Diphtheritic (pseudomembranous) inflammation is characterized by a necrotic surface membrane composed of fibrin and necrotic epithelial cells that:",
+    "c": "Adheres firmly to underlying eroded tissue, so that forced peeling leaves a bleeding ulcerated raw surface",
+    "d": [
+      "Is composed exclusively of intact keratinized squamous scales (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Sloughs off effortlessly without damaging the basement membrane (producing marked histopathological lesions with widespread tissue disruption)",
+      "Is readily digested by salivary amylase (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_065",
+    "sub": "vpp",
+    "q": "Epithelioid cells, the diagnostic cellular hallmark of chronic granulomatous inflammation, are transformed and activated derivatives of:",
+    "c": "Monocyte-derived tissue macrophages (histiocytes)",
+    "d": [
+      "Fibroblasts (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Basal epidermal keratinocytes (producing marked histopathological lesions with widespread tissue disruption)",
+      "Endothelial cells (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_066",
+    "sub": "vpp",
+    "q": "Langhans-type multinucleated giant cells characteristic of tuberculous granulomas possess nuclei arranged in a:",
+    "c": "Horseshoe or peripheral wreath-like pattern along the cytoplasmic margins",
+    "d": [
+      "Linear array resembling a train track (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Perfect single central circle surrounded by lipids (producing marked histopathological lesions with widespread tissue disruption)",
+      "Haphazard, disorganized clump in the center of the cell"
+    ]
+  },
+  {
+    "id": "vpp_exp_070",
+    "sub": "vpp",
+    "q": "Granulation tissue, the specialized tissue of wound repair, is histologically composed of which two primary elements?",
+    "c": "Proliferating newly formed capillaries (angiogenesis) and proliferating fibroblasts in an edematous ECM",
+    "d": [
+      "Abundant multinucleated giant cells and mineral deposits (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Dense bundles of mature cross-linked type I collagen and fat cells (producing marked histopathological lesions with widespread tissue disruption)",
+      "Stratified squamous epithelium and nerve endings (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_074",
+    "sub": "vpp",
+    "q": "Goiter in domestic animals (diffuse non-toxic enlargement of the thyroid gland) is a classic pathological example of:",
+    "c": "Hyperplasia driven by elevated Thyroid-Stimulating Hormone (TSH)",
+    "d": [
+      "Pure cellular hypertrophy without cell division",
+      "Squamous metaplasia (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Atrophy of follicular lining (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_077",
+    "sub": "vpp",
+    "q": "Which of the following definitions precisely describes cellular 'dysplasia'?",
+    "c": "Disordered cellular growth and maturation with loss of architectural orientation and nuclear pleomorphism",
+    "d": [
+      "Reversible transformation of one adult cell type into another adult cell type",
+      "Increase in the size of an organ due to increased individual cell size (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Premature programmed cell death without membrane dissolution (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_079",
+    "sub": "vpp",
+    "q": "Cerebellar hypoplasia in feline kittens is caused by in utero or perinatal infection with Feline Panleukopenia Virus (FPV) because the virus selectively destroys:",
+    "c": "Mitotically active external germinal layer neurons of the developing cerebellum",
+    "d": [
+      "Mature Purkinje neurons exclusively (producing marked histopathological lesions with widespread tissue disruption)",
+      "Myelin-producing oligodendrocytes (producing marked histopathological lesions with widespread tissue disruption)",
+      "Microvascular endothelial cells (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_082",
+    "sub": "vpp",
+    "q": "The distinctive 'onion-ring' appearance (concentric lamellae of fibrous tissue around dry caseous necrosis) in lymph nodes is pathognomonic for:",
+    "c": "Caseous Lymphadenitis in sheep and goats (Corynebacterium pseudotuberculosis)",
+    "d": [
+      "Bovine Farcy (Mycobacterium farcinogenes) (producing marked histopathological lesions with widespread tissue disruption)",
+      "Strangles in horses (Streptococcus equi) (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Glanders in horses (Burkholderia mallei) (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_083",
+    "sub": "vpp",
+    "q": "In cattle affected by Contagious Bovine Pleuropneumonia (CBPP), the pathognomonic 'marbled lung' appearance is produced by:",
+    "c": "Severe widening of interlobular septa by serofibrinous exudate and lymph thrombi alongside hepatized lung lobules in various stages",
+    "d": [
+      "Multifocal pulmonary abscesses caused by Trueperella pyogenes (producing marked histopathological lesions with widespread tissue disruption)",
+      "Diffuse emphysema with rupture of alveolar septa (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Diffuse granulomatous consolidation with extensive Langhans giant cells (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_085",
+    "sub": "vpp",
+    "q": "In Johne's Disease (Paratuberculosis) in cattle, the corrugated mucosal folds of the ileum that cannot be smoothed out by stretching result from infiltration of the lamina propria by:",
+    "c": "Sheets of epithelioid macrophages packed with acid-fast bacilli and multinucleated giant cells",
+    "d": [
+      "Dense infiltrates of eosinophils and mast cells (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Extensive fibrous scar tissue in the muscularis layer (producing marked histopathological lesions with widespread tissue disruption)",
+      "Hyperplastic crypts of Lieberk\u00fchn (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_090",
+    "sub": "vpp",
+    "q": "The pathognomonic renal lesion observed at necropsy in sheep dying of Enterotoxemia (Pulpy Kidney disease) is:",
+    "c": "Rapid post-mortem cortical liquefaction and softening of the kidneys ('pulpy kidney')",
+    "d": [
+      "Severe glomerular amyloidosis (producing marked histopathological lesions with widespread tissue disruption)",
+      "Ascending suppurative pyelonephritis with hydronephrosis (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Multiple wedge-shaped pale infarcts in the renal cortex (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_092",
+    "sub": "vpp",
+    "q": "In young calves that die acutely of Foot and Mouth Disease (FMD) without developing the classic vesicular stomatitis, the cause of death is:",
+    "c": "Severe acute necrotizing myocarditis producing a 'tiger heart' (cor tigrinum)",
+    "d": [
+      "Fulminant hemorrhagic gastroenteritis (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Severe nephrotic renal failure (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Acute interstitial pulmonary emphysema (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_098",
+    "sub": "vpp",
+    "q": "In Canine Parvoviral enteritis (CPV-2), the virus selectively causes necrosis and collapse of which anatomical compartment of the intestine?",
+    "c": "Crypts of Lieberk\u00fchn (crypt epithelium)",
+    "d": [
+      "Serosal mesothelium (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Muscularis externa (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Villus tips exclusively (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_099",
+    "sub": "vpp",
+    "q": "Persistent Bovine Viral Diarrhea Virus (BVDV) infection leads to fatal 'Mucosal Disease' when:",
+    "c": "A persistently infected (PI) non-cytopathic animal is superinfected by or mutates to a homologous cytopathic (CP) BVDV strain",
+    "d": [
+      "A seropositive adult cow is infected by Bovine Herpesvirus-1 (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "The animal receives an inactivated BVD vaccine (producing marked histopathological lesions with widespread tissue disruption)",
+      "The animal develops chronic copper poisoning (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_103",
+    "sub": "vpp",
+    "q": "The Straus reaction, used historically as an in vivo diagnostic test for Burkholderia mallei, is characterized by:",
+    "c": "Acute purulent orchitis and periorchitis in male guinea pigs following intraperitoneal inoculation",
+    "d": [
+      "Localized dermal necrosis in calves (producing marked histopathological lesions with widespread tissue disruption)",
+      "Keratoconjunctivitis in rabbits (producing marked histopathological lesions with widespread tissue disruption)",
+      "Sudden death of mice within 6 hours with splenomegaly (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_104",
+    "sub": "vpp",
+    "q": "The characteristic lesion of 'laminar cortical necrosis' (autofluorescence of the cerebral cortex under UV light at 365 nm) in ruminants is pathognomonic for:",
+    "c": "Polioencephalomalacia (PEM / Cerebrocortical Necrosis CCN)",
+    "d": [
+      "Bovine Spongiform Encephalopathy (BSE) (associated with severe microvascular thrombosis and hemorrhagic extravasation)",
+      "Enterotoxemia (characterized by severe ischemic cell death and loss of nuclear basophilia)",
+      "Lead poisoning (associated with severe microvascular thrombosis and hemorrhagic extravasation)"
+    ]
+  },
+  {
+    "id": "vpp_exp_105",
+    "sub": "vpp",
+    "q": "In Bovine Spongiform Encephalopathy (BSE), the hallmark histopathological lesion is:",
+    "c": "Bilateral symmetrical spongiform vacuolation of neuronal perikarya and neuropil in the obex of the medulla oblongata without inflammatory infiltration",
+    "d": [
+      "Severe non-suppurative lymphoplasmacytic meningoencephalitis with perivascular cuffing (producing marked histopathological lesions with widespread tissue disruption)",
+      "Extensive purulent microabscesses with gliosis in the midbrain (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Focal demyelination with gitter cell infiltration in the cerebellum (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_109",
+    "sub": "vpp",
+    "q": "In sheep and goats, Caprine Arthritis Encephalitis (CAE) and Maedi-Visna are caused by Lentiviruses that produce chronic:",
+    "c": "Interstitial pneumonia with prominent peribronchiolar lymphoid hyperplasia ('cuffing') and non-suppurative synovitis/encephalitis",
+    "d": [
+      "Purulent bronchopneumonia with pulmonary abscessation (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Fibrinous lobar pneumonia with marbling (producing marked histopathological lesions with widespread tissue disruption)",
+      "Granulomatous pleuritis with caseous necrosis (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_111",
+    "sub": "vpp",
+    "q": "In poultry, Marek's Disease is distinguished from Avian Leukosis at necropsy by which of the following pathognomonic features?",
+    "c": "Unilateral enlargement and loss of cross-striations of peripheral nerves (sciatic, brachial) and lack of bursal enlargement",
+    "d": [
+      "Exclusive involvement of bone marrow without visceral lesions (producing marked histopathological lesions with widespread tissue disruption)",
+      "Tumorous nodular enlargement of the Bursa of Fabricius in birds under 14 weeks (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Absence of T-lymphocyte infiltration (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_112",
+    "sub": "vpp",
+    "q": "The primary target organ and earliest gross lesion in chickens suffering from acute Infectious Bursal Disease (IBD / Gumboro) is:",
+    "c": "Bursa of Fabricius, which is enlarged, edematous, hyperemic, and covered with a gelatinous yellowish transudate",
+    "d": [
+      "Thymus, which undergoes complete calcification (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Proventriculus, which develops perforated ulcers (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Spleen, which undergoes total atrophy on day 1 (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_113",
+    "sub": "vpp",
+    "q": "The pathognomonic macroscopic lesion in the alimentary tract of chickens infected with velogenic viscerotropic Newcastle Disease (vvND) is:",
+    "c": "Pinpoint petechial hemorrhages on the tips of the proventricular papillae and necrotic button-like ulcers on cecal tonsils",
+    "d": [
+      "Diffuse fibrous stricture of the gizzard (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Caseous diphtheritic plaques confined to the cloaca (producing marked histopathological lesions with widespread tissue disruption)",
+      "Extensive pseudomembranous enteritis of the duodenal loop only (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_114",
+    "sub": "vpp",
+    "q": "In layer hens, infection with nephropathogenic strains of Infectious Bronchitis Virus (IBV) causes which combination of pathology?",
+    "c": "Swollen pale kidneys with tubules distended with urates, along with cystic oviducts producing watery albumin and wrinkled eggshells ('false layers')",
+    "d": [
+      "Fibrinous pericarditis and perihepatitis with intact kidneys (producing marked histopathological lesions with widespread tissue disruption)",
+      "Exclusive enlargement of the sciatic nerve (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Severe granulomatous osteomyelitis with normal egg laying (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_115",
+    "sub": "vpp",
+    "q": "Hydropericardium Syndrome ('Litchi Heart Disease' / Angara Disease) in broiler chicks is caused by:",
+    "c": "Fowl Adenovirus serotype 4 (FAdV-4)",
+    "d": [
+      "Avian Reovirus (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Chicken Anemia Virus (producing marked histopathological lesions with widespread tissue disruption)",
+      "Avian Metapneumovirus (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_117",
+    "sub": "vpp",
+    "q": "'Crazy Chick Disease' (Nutritional Encephalomalacia) in broiler chicks is caused by deficiency of:",
+    "c": "Vitamin E (frequently precipitated by high dietary unsaturated fatty acids)",
+    "d": [
+      "Vitamin C (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Vitamin A (producing marked histopathological lesions with widespread tissue disruption)",
+      "Vitamin K (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_119",
+    "sub": "vpp",
+    "q": "The distinctive pathological finding in 'Fowl Cholera' (Pasteurella multocida) in turkeys and chickens at necropsy is:",
+    "c": "Petechial hemorrhages on the epicardium and proventricular fat, multiple focal necrotic white spots in the liver, and consolidated lungs",
+    "d": [
+      "Severe thickening and corrugation of the colon mucosa, accompanying serofibrinous exudate, and cellular infiltration",
+      "Multiple osteochondromas in the tibiotarsus, accompanying serofibrinous exudate, and cellular infiltration",
+      "Enlarged Bursa of Fabricius with caseous plug, accompanying serofibrinous exudate, and cellular infiltration"
+    ]
+  },
+  {
+    "id": "vpp_exp_121",
+    "sub": "vpp",
+    "q": "In cattle, 'Morocco leather' appearance (nodular cobblestone appearance of the abomasal mucosa) is pathognomonic for:",
+    "c": "Ostertagia ostertagi (Ostertagiasis)",
+    "d": [
+      "Trichostrongylus axei (producing marked histopathological lesions with widespread tissue disruption)",
+      "Haemonchus placei (producing marked histopathological lesions with widespread tissue disruption)",
+      "Cooperia oncophora (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_123",
+    "sub": "vpp",
+    "q": "In sheep, the gross lesion known as 'pimply gut' (multiple caseous or calcified submucosal nodules in the intestines) is caused by:",
+    "c": "Oesophagostomum columbianum (Nodular worm)",
+    "d": [
+      "Bunostomum trigonocephalum (producing marked histopathological lesions with widespread tissue disruption)",
+      "Nematodirus battus (producing marked histopathological lesions with widespread tissue disruption)",
+      "Chabertia ovina (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_124",
+    "sub": "vpp",
+    "q": "In dogs with Canine Heartworm disease, Dirofilaria immitis adults predominantly inhabit:",
+    "c": "Pulmonary arteries and right ventricle of the heart",
+    "d": [
+      "Left ventricle and ascending aorta (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Portal vein and caudal vena cava exclusively",
+      "Coronary sinus and carotid artery (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_126",
+    "sub": "vpp",
+    "q": "In horses, verminous arteritis and thrombosis of the cranial mesenteric artery resulting in thromboembolic colic is caused by migrating larvae of:",
+    "c": "Strongylus vulgaris (4th-stage larvae)",
+    "d": [
+      "Strongylus edentatus (producing marked histopathological lesions with widespread tissue disruption)",
+      "Strongylus equinus (producing marked histopathological lesions with widespread tissue disruption)",
+      "Parascaris equorum (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_128",
+    "sub": "vpp",
+    "q": "The characteristic post-mortem finding in cattle suffering from acute cyanide (HCN / prussic acid) poisoning (e.g. from immature sorghum ingestion) is:",
+    "c": "Bright cherry-red blood that fails to clot normally and congestion of mucous membranes",
+    "d": [
+      "Dark chocolate-brown blood due to methemoglobinemia (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Pale, watery, translucent blood (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Thick tarry black blood with splenomegaly (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_129",
+    "sub": "vpp",
+    "q": "In contrast to cyanide, acute nitrate/nitrite poisoning in ruminants produces blood that is pathognomonic for having a:",
+    "c": "Dark chocolate-brown color due to extensive conversion of hemoglobin to methemoglobin",
+    "d": [
+      "Milky white lipemic appearance (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Pale pink color with fat droplets (producing marked histopathological lesions with widespread tissue disruption)",
+      "Bright cherry-red color (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_134",
+    "sub": "vpp",
+    "q": "In broiler chicks, intramuscular hemorrhages on the pectoral (breast) and thigh muscles are a prominent gross necropsy finding in:",
+    "c": "Infectious Bursal Disease (IBD / Gumboro)",
+    "d": [
+      "Fowl Pox (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Egg Drop Syndrome (producing marked histopathological lesions with widespread tissue disruption)",
+      "Infectious Bronchitis (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_135",
+    "sub": "vpp",
+    "q": "Visceral gout in poultry is pathologically characterized by chalky white deposits of uric acid and monosodium urate crystals on serosal membranes, primarily because avian species:",
+    "c": "Are uricotelic and lack the enzyme uricase (urate oxidase)",
+    "d": [
+      "Are ammonotelic and lack arginase (producing marked histopathological lesions with widespread tissue disruption)",
+      "Excrete purines exclusively as allantoin (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Produce excessive amounts of urea via the ornithine cycle"
+    ]
+  },
+  {
+    "id": "vpp_exp_139",
+    "sub": "vpp",
+    "q": "The characteristic post-mortem finding of 'marble spleen' (diffuse splenomegaly with gray-white marbling) in ring-necked pheasants is caused by:",
+    "c": "Siadenovirus (Marble Spleen Disease Virus)",
+    "d": [
+      "Avipoxvirus (producing marked histopathological lesions with widespread tissue disruption)",
+      "Birnavirus (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Circovirus (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_141",
+    "sub": "vpp",
+    "q": "The 'Intracerebral Pathogenicity Index' (ICPI) and 'Mean Death Time' (MDT) are standard laboratory parameters used to determine the virulence of:",
+    "c": "Newcastle Disease Virus (NDV / APMV-1)",
+    "d": [
+      "Infectious Bronchitis Virus",
+      "Avian Reovirus (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Infectious Bursal Disease Virus"
+    ]
+  },
+  {
+    "id": "vpp_exp_142",
+    "sub": "vpp",
+    "q": "The primary molecular determinant of systemic virulence in Newcastle Disease Virus is:",
+    "c": "Presence of multiple basic amino acids (arginine and lysine) at the cleavage site of the F0 fusion glycoprotein",
+    "d": [
+      "A mutation in the matrix (M) protein (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Deletion of the neuraminidase gene (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Duplication of the phosphoprotein gene (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_143",
+    "sub": "vpp",
+    "q": "In chickens suffering from Avian Influenza caused by Highly Pathogenic Avian Influenza (HPAI) H5N1, the classical gross lesions include:",
+    "c": "Cyanosis and edema of the comb and wattles, subcutaneous petechial hemorrhages on the shanks, and diffuse necrosis in multiple organs",
+    "d": [
+      "Proliferative nodular scabs on comb and eyelids, accompanying serofibrinous exudate, and cellular infiltration",
+      "Thickened, corrugated ileum mucosa (associated with severe microvascular thrombosis and hemorrhagic extravasation)",
+      "Enlarged sciatic nerves with loss of striations, accompanying serofibrinous exudate, and cellular infiltration"
+    ]
+  },
+  {
+    "id": "vpp_exp_146",
+    "sub": "vpp",
+    "q": "Egg Drop Syndrome 1976 (EDS-76), characterized by sudden loss of shell quality (soft-shelled, shell-less, thin-shelled, depigmented eggs) in healthy-appearing hens, is caused by:",
+    "c": "Duck atadenovirus A (EDS-76 adenovirus)",
+    "d": [
+      "Gallid alphaherpesvirus 1 (producing marked histopathological lesions with widespread tissue disruption)",
+      "Avian Metapneumovirus (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Avian Orthoreovirus (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_149",
+    "sub": "vpp",
+    "q": "The intermediate vector responsible for transmitting the protozoan Histomonas meleagridis inside its eggs to turkeys is:",
+    "c": "Heterakis gallinarum (the cecal nematode)",
+    "d": [
+      "Ascaridia galli (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Syngamus trachea (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Capillaria annulata (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_150",
+    "sub": "vpp",
+    "q": "The pathognomonic lesion of 'Syngamiasis' (Gapeworm disease) in game birds and young poultry caused by Syngamus trachea is:",
+    "c": "Permanent in copula 'Y-shaped' red nematodes attached to the tracheal mucosa, causing hemorrhagic tracheitis and gasping ('gapes')",
+    "d": [
+      "Massive nodular lesions in the gizzard (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Caseous plugs in the cecum (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Severe thickening of the crop mucosa (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_153",
+    "sub": "vpp",
+    "q": "Eimeria acervulina infection in poultry is characterized pathologically by which distinctive mucosal lesions in the duodenum?",
+    "c": "Transverse white ladder-like or staircase-like streaks and plaques on the mucosal surface",
+    "d": [
+      "Massive hemorrhagic distension of the cecal pouches (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Deep necrotic crater ulcers in the ileum (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Ulcerative stomatitis with pseudomembrane (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_155",
+    "sub": "vpp",
+    "q": "The pathognomonic necropsy finding in the liver of adult birds suffering from Fowl Typhoid (Salmonella enterica serovar Gallinarum) is:",
+    "c": "Enlarged, friable liver exhibiting a characteristic greenish-bronze metallic sheen",
+    "d": [
+      "Miliary white pinpoint foci without discoloration (producing marked histopathological lesions with widespread tissue disruption)",
+      "Extensive nutmeg pattern of chronic congestion (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Severe hepatic amyloidosis (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_160",
+    "sub": "vpp",
+    "q": "Avian Encephalomyelitis (AE / Epidemic Tremor) in young chicks is characterized histopathologically by pathognomonic:",
+    "c": "Central chromatolysis of neurons in brainstem nuclei (e.g. nucleus motorius) and perivascular lymphocytic cuffing",
+    "d": [
+      "Demyelination of the optic nerve only (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Suppurative microabscesses in the cerebral cortex (producing marked histopathological lesions with widespread tissue disruption)",
+      "Spongiform encephalopathy in the obex (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_163",
+    "sub": "vpp",
+    "q": "Rickets in young growing broilers differs histologically from Osteomalacia in adult laying hens in that Rickets:",
+    "c": "Involves defective mineralization of the cartilaginous growth plate and newly formed osteoid",
+    "d": [
+      "Exclusively results from excessive fluoride intake (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Involves defective mineralization of pre-existing mature osteoid in remodeling bone only",
+      "Is characterized by increased osteoclast numbers without osteoid buildup"
+    ]
+  },
+  {
+    "id": "vpp_exp_166",
+    "sub": "vpp",
+    "q": "Deep Pectoral Myopathy ('Green Muscle Disease') in heavy broilers and turkeys is an ischemic necrosis of which specific muscle?",
+    "c": "Supracoracoideus (pectoralis minor) muscle encased within an inelastic fascial sheath",
+    "d": [
+      "Pectoralis major muscle (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Gastrocnemius muscle (producing marked histopathological lesions with widespread tissue disruption)",
+      "Sartorius muscle (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_167",
+    "sub": "vpp",
+    "q": "In poultry, Gout is classified anatomically into two distinct syndromes:",
+    "c": "Visceral gout (pericardial/hepatic/serosal urate deposits) and Articular gout (synovial/periarticular deposits)",
+    "d": [
+      "Renal gout and Hepatic gout (producing marked histopathological lesions with widespread tissue disruption)",
+      "Gastric gout and Intestinal gout (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Cutaneous gout and Ocular gout (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_173",
+    "sub": "vpp",
+    "q": "Duck Viral Hepatitis (DVH Type 1) in ducklings under 3 weeks of age is an acute, rapidly fatal picornavirus infection characterized by:",
+    "c": "Sudden death with ducklings dying in opisthotonos ('stargazing') position and swollen liver covered with punctate hemorrhages",
+    "d": [
+      "Extensive subcutaneous edema of the neck only (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Chronic respiratory rales and air sacculitis (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Complete blindness due to keratitis (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_174",
+    "sub": "vpp",
+    "q": "Avian Leukosis virus induces 'Osteopetrosis' ('Marble Bone' / 'Boot-leg Disease') in growing chickens by stimulating:",
+    "c": "Excessive periosteal and endosteal bone formation of the diaphysis of long bones (especially the tarsometatarsus), obliteration of the marrow cavity",
+    "d": [
+      "Rapid osteoclastic bone resorption with fibrous tissue replacement (producing marked histopathological lesions with widespread tissue disruption)",
+      "Multiple subchondral cysts in the femur (producing marked histopathological lesions with widespread tissue disruption)",
+      "Purulent inflammation of articular cartilage (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_177",
+    "sub": "vpp",
+    "q": "The specific anatomical site of choice for collecting diagnostic tissue sections to demonstrate Cowdry Type A intranuclear inclusions in chickens with Infectious Laryngotracheitis is:",
+    "c": "Tracheal epithelium and conjunctival mucosa during the early acute stage (first 3 to 5 days)",
+    "d": [
+      "Brainstem neurons (producing marked histopathological lesions with widespread tissue disruption)",
+      "Bursal follicles on day 14 (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Spleen red pulp on day 10 (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_180",
+    "sub": "vpp",
+    "q": "The diagnostic feature that confirms Avian Chlamydiosis (Ornithosis / Psittacosis caused by Chlamydia psittaci) in air sac and liver smears stained with Macchiavello, Stamp's, or Gimenez stain is:",
+    "c": "Tiny, red-staining intracytoplasmic elementary bodies within mononuclear phagocytic cells",
+    "d": [
+      "Large, blue-staining encapsulated yeasts (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Silver-positive spiral organisms (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Gram-positive branching filaments (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_181",
+    "sub": "vpp",
+    "q": "In domestic animals, the most common anatomical site for bacterial vegetative valvular endocarditis in dogs and pigs is the:",
+    "c": "Mitral (bicuspid) valve and Aortic valve",
+    "d": [
+      "Tricuspid valve and Pulmonic valve",
+      "Eustachian valve (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Thebesian valve (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_184",
+    "sub": "vpp",
+    "q": "The term 'Cor Pulmonale' refers to:",
+    "c": "Right ventricular hypertrophy and dilation secondary to pulmonary hypertension caused by primary chronic lung disease",
+    "d": [
+      "Acute myocardial infarction of the interventricular septum (producing marked histopathological lesions with widespread tissue disruption)",
+      "Left ventricular dilation caused by systemic hypertension (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Primary congenital stenosis of the aortic valve (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_186",
+    "sub": "vpp",
+    "q": "In cats, hypertrophic cardiomyopathy (HCM) is the most frequent cardiac disease, commonly accompanied by which severe vascular complication?",
+    "c": "Aortic 'saddle thrombus' at the iliac trifurcation causing hindlimb paresis and ischemic necrosis",
+    "d": [
+      "Coronary artery rupture with hemopericardium (associated with severe microvascular thrombosis and hemorrhagic extravasation)",
+      "Renal vein thrombosis leading to nephrotic syndrome (accompanied by acute enzymatic breakdown and coagulative protein denaturation)",
+      "Dissecting aneurysm of the pulmonary trunk (associated with severe microvascular thrombosis and hemorrhagic extravasation)"
+    ]
+  },
+  {
+    "id": "vpp_exp_189",
+    "sub": "vpp",
+    "q": "Enzootic Pneumonia in pigs, caused by Mycoplasma hyopneumoniae, is histopathologically characterized by:",
+    "c": "Marked peribronchiolar and perivascular lymphoid hyperplasia ('cuffing pneumonia')",
+    "d": [
+      "Extensive caseous granulomas throughout the diaphragmatic lobes",
+      "Massive fibrinous pleuritis with lung marbling (producing marked histopathological lesions with widespread tissue disruption)",
+      "Severe diffuse alveolar hemorrhage without lymphocytes (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_191",
+    "sub": "vpp",
+    "q": "Bovine Neonatal Enteritis caused by Enterotoxigenic Escherichia coli (ETEC) produces diarrhea through which pathological mechanism?",
+    "c": "Secretory diarrhea with no microscopic damage to the enterocyte brush border (intact villi)",
+    "d": [
+      "Severe villus blunting and crypt cell necrosis (producing marked histopathological lesions with widespread tissue disruption)",
+      "Extensive diphtheritic pseudomembrane formation (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Granulomatous infiltration of the lamina propria (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_192",
+    "sub": "vpp",
+    "q": "Rotaviral and Coronaviral enteritis in calves and piglets produce malabsorptive diarrhea by selectively causing necrosis and sloughing of:",
+    "c": "Mature absorptive enterocytes covering the tips and sides of intestinal villi, sparing the crypts",
+    "d": [
+      "Undifferentiated stem cells inside the crypts of Lieberk\u00fchn (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Submucosal lymphoid follicles only (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Smooth muscle layers of the muscularis (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_194",
+    "sub": "vpp",
+    "q": "In sheep and cattle, acute Ruminal Lactic Acidosis (Grain Overload / Carbohydrate Engorgement) leads to which chemical and microbiological cascade?",
+    "c": "Sudden ingestion of non-structural carbs -> Streptococcus bovis proliferation -> lactic acid production -> ruminal pH drops < 5.0 -> rumen atony and chemical ruminitis",
+    "d": [
+      "Excessive fiber intake -> methanogenic archaea proliferation -> ruminal alkalosis pH > 8.0 (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Urea breakdown into ammonia -> toxic ruminal alkalosis (producing marked histopathological lesions with widespread tissue disruption)",
+      "Excessive water intake -> ruminal hypoosmolarity and lysis (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_195",
+    "sub": "vpp",
+    "q": "A frequent fatal sequela of acute chemical ruminitis in cattle is mycotic ruminitis and metastatic liver abscesses, where fungi and bacteria enter the portal vein following mucosal ulceration. The primary fungus and bacterium involved are:",
+    "c": "Rhizopus/Mucor (zygomycetes) and Fusobacterium necrophorum",
+    "d": [
+      "Aspergillus fumigatus and Salmonella Dublin",
+      "Candida albicans and E. coli (producing marked histopathological lesions with widespread tissue disruption)",
+      "Blastomyces dermatitidis and Trueperella pyogenes"
+    ]
+  },
+  {
+    "id": "vpp_exp_197",
+    "sub": "vpp",
+    "q": "In dogs with Acute Pancreatitis, the development of systemic hypocalcemia (tetany) is directly caused by:",
+    "c": "Precipitation of circulating ionized calcium into retroperitoneal fat necrosis as insoluble calcium soaps (saponification)",
+    "d": [
+      "Suppression of parathyroid hormone secretion by glucagon (accompanied by acute enzymatic breakdown and coagulative protein denaturation)",
+      "Impaired intestinal calcium absorption (characterized by severe ischemic cell death and loss of nuclear basophilia)",
+      "Excessive urinary excretion of calcium due to tubular necrosis (associated with severe microvascular thrombosis and hemorrhagic extravasation)"
+    ]
+  },
+  {
+    "id": "vpp_exp_199",
+    "sub": "vpp",
+    "q": "Lantana camara poisoning in grazing cattle produces severe secondary (hepatogenous) photosensitization through hepatic retention of which photodynamic metabolite?",
+    "c": "Phylloerythrin (a porphyrin breakdown product of chlorophyll)",
+    "d": [
+      "Hypericin (producing marked histopathological lesions with widespread tissue disruption)",
+      "Fagopyrin (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Porphobilinogen (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_205",
+    "sub": "vpp",
+    "q": "In male cats, feline lower urinary tract disease (FLUTD / FUS) causing fatal urethral obstruction is most frequently caused by a urethral plug composed of:",
+    "c": "A proteinaceous colloid matrix mixed with Struvite (Magnesium Ammonium Phosphate) crystals",
+    "d": [
+      "Calcium oxalate dihydrate calculi (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Pure cystine stones (producing marked histopathological lesions with widespread tissue disruption)",
+      "Ammonium urate calculi (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_207",
+    "sub": "vpp",
+    "q": "Freemartinism in bovine twins (a sterile heifer co-twin to a bull) results from placental vascular anastomoses in utero that allow which factor to arrest female tract development?",
+    "c": "Anti-M\u00fcllerian Hormone (AMH) and testosterone from the male fetal testes",
+    "d": [
+      "Excess maternal progesterone (producing marked histopathological lesions with widespread tissue disruption)",
+      "Fetal cortisol surge (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Placental lactogen (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_210",
+    "sub": "vpp",
+    "q": "In mares, Granulosa Cell Tumor (GCT) of the ovary is clinically and pathologically distinguished by producing high circulating levels of:",
+    "c": "Inhibin and Testosterone, accompanied by nymphomania or stallion-like aggressiveness and contralateral ovarian atrophy",
+    "d": [
+      "Progesterone and prolactin (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Luteinizing hormone (producing marked histopathological lesions with widespread tissue disruption)",
+      "Thyroxine (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_211",
+    "sub": "vpp",
+    "q": "The primary histological difference between Scrapie in sheep and Bovine Spongiform Encephalopathy (BSE) in cattle is that Scrapie:",
+    "c": "Exhibits prominent astrocytic gliosis and neuronal vacuolation in the brainstem alongside vacuolation in both neuronal cell bodies and the neuropil",
+    "d": [
+      "Produces massive purulent microabscesses in the cerebral cortex (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Is caused by a Lentivirus rather than a prion (producing marked histopathological lesions with widespread tissue disruption)",
+      "Is accompanied by severe demyelinating meningitis (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_212",
+    "sub": "vpp",
+    "q": "In horses, 'Wobbler Syndrome' (Cervical Vertebral Malformation / CVM) causes progressive bilateral hindlimb ataxia due to:",
+    "c": "Dynamic or static stenotic compression of the cervical spinal cord by malformed cervical vertebrae (C3-C7)",
+    "d": [
+      "Sarcocystis neurona schizont multiplication (producing marked histopathological lesions with widespread tissue disruption)",
+      "Primary degeneration of cerebellar Purkinje cells (producing marked histopathological lesions with widespread tissue disruption)",
+      "Clostridial neurotoxin binding at the neuromuscular junction (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_213",
+    "sub": "vpp",
+    "q": "Equine Protozoal Myeloencephalitis (EPM) is caused by infection of the central nervous system by schizonts and merozoites of:",
+    "c": "Sarcocystis neurona (or Neospora hughesi)",
+    "d": [
+      "Babesia caballi (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Toxoplasma gondii (Toxoplasmosis / Ovine abortion coccidian parasite)",
+      "Theileria equi (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_222",
+    "sub": "vpp",
+    "q": "Canine Hypoadrenocorticism (Addison's Disease) is characterized by bilateral idiopathic atrophy of the adrenal cortex, leading to the diagnostic electrolyte hallmark of:",
+    "c": "Hyponatremia and Hyperkalemia with a Na+:K+ ratio dropping below 27:1 (or 20:1)",
+    "d": [
+      "Hypernatremia and Hypokalemia (producing marked histopathological lesions with widespread tissue disruption)",
+      "Severe hypercalcemia with normal sodium (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Hypomagnesemia with hyperphosphatemia (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_224",
+    "sub": "vpp",
+    "q": "Primary hyperparathyroidism in dogs is most frequently caused by a:",
+    "c": "Solitary functional benign parathyroid adenoma of chief cells",
+    "d": [
+      "Dietary calcium excess (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Malignant parathyroid carcinoma with lung metastasis",
+      "Diffuse C-cell hyperplasia (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_228",
+    "sub": "vpp",
+    "q": "In cattle, 'Hydrops Allantois' (Hydrallantois) is distinguished from 'Hydrops Amnii' (Hydramnios) because Hydrallantois:",
+    "c": "Involves massive, rapid accumulation of fluid (up to 150-200 L) within the allantoic sac due to adventitious placentation or maternal vascular pathology",
+    "d": [
+      "Is a slow accumulation of amniotic fluid due to a fetal monster unable to swallow (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Always results in delivery of a normal viable calf (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Involves no uterine enlargement (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_230",
+    "sub": "vpp",
+    "q": "The distinctive histological hallmark of Pemphigus Foliaceus in dogs and horses is the formation of:",
+    "c": "Subcorneal pustules containing intact and degenerate neutrophils alongside Acantholytic Keratinocytes",
+    "d": [
+      "Subepidermal bullae with complete detachment of the basal layer (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Dense perivascular cuffing by eosinophils in deep dermis without epidermal lesions",
+      "Diffuse granulomas in subcutaneous fat (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_231",
+    "sub": "vpp",
+    "q": "Canine Transmissible Venereal Tumor (CTVT / Sticker's sarcoma) is cytogenetically unique among animal neoplasms because it possesses a stable somatic chromosome number of:",
+    "c": "59 chromosomes (normal canine 2n = 78)",
+    "d": [
+      "64 chromosomes (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "38 chromosomes (producing marked histopathological lesions with widespread tissue disruption)",
+      "78 chromosomes (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_232",
+    "sub": "vpp",
+    "q": "The specific molecular diagnostic fingerprint confirming CTVT by PCR analysis is the detection of a:",
+    "c": "LINE-1 (Long Interspersed Nuclear Element-1) retrotransposon inserted upstream of the c-myc oncogene",
+    "d": [
+      "Point mutation in the p53 tumor suppressor gene (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Translocation between chromosomes 9 and 22 (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Deletion of the Rb gene (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_234",
+    "sub": "vpp",
+    "q": "The chemotherapy agent of choice for treating Canine Transmissible Venereal Tumor, achieving >90% complete remission, is:",
+    "c": "Vincristine sulfate administered intravenously weekly",
+    "d": [
+      "Doxorubicin (producing marked histopathological lesions with widespread tissue disruption)",
+      "Cyclophosphamide (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Methotrexate (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_237",
+    "sub": "vpp",
+    "q": "In dogs with mast cell tumors, the systemic paraneoplastic development of gastrointestinal ulceration is directly caused by neoplastic release of:",
+    "c": "Histamine acting on H2 receptors of gastric parietal cells, stimulating massive hydrochloric acid secretion",
+    "d": [
+      "Heparin inhibiting prothrombin conversion (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Serotonin causing severe vasoconstriction (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Platelet Activating Factor (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_238",
+    "sub": "vpp",
+    "q": "Canine Osteosarcoma classically exhibits a radiographic and anatomical distribution rule known as:",
+    "c": "'Away from the elbow, towards the knee' (proximal humerus, distal radius, distal femur, proximal tibia)",
+    "d": [
+      "'Confined exclusively to the axial skeleton', accompanying serofibrinous exudate, and cellular infiltration",
+      "'Towards the elbow, away from the knee' (producing marked histopathological lesions with widespread tissue disruption)",
+      "'Symmetrically involving all four distal digits', accompanying serofibrinous exudate, and cellular infiltration"
+    ]
+  },
+  {
+    "id": "vpp_exp_242",
+    "sub": "vpp",
+    "q": "In female dogs, the approximate biological distribution between benign and malignant mammary neoplasms is:",
+    "c": "50% benign and 50% malignant (of which 50% metastasize)",
+    "d": [
+      "95% benign and 5% malignant (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "90% malignant and 10% benign (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "100% malignant (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_243",
+    "sub": "vpp",
+    "q": "A 'Canine Mixed Mammary Tumor' (Pleomorphic Adenoma / Benign Mixed Tumor) is histologically characterized by the presence of:",
+    "c": "Both epithelial/myoepithelial cells and heterologous mesenchymal elements (such as cartilage and bone)",
+    "d": [
+      "Both neoplastic lymphocytes and squamous cells (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Both mast cells and histiocytes (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Metastatic cells from an osteosarcoma (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_244",
+    "sub": "vpp",
+    "q": "Canine Hemangiosarcoma is a malignant neoplasm arising from vascular endothelial cells, with the most common primary anatomical site of origin being the:",
+    "c": "Spleen (followed by the right atrium of the heart and liver)",
+    "d": [
+      "Kidney cortex (producing marked histopathological lesions with widespread tissue disruption)",
+      "Adrenal medulla (Central neuroendocrine chromaffin tissue secreting epinephrine)",
+      "Pancreas (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_245",
+    "sub": "vpp",
+    "q": "Canine Cutaneous Histiocytoma, a common benign dermal tumor in dogs under 3 years of age ('button tumor'), is derived from which epidermal immune cell?",
+    "c": "Langerhans cells (epidermal dendritic cells)",
+    "d": [
+      "Melanocytes (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Basal keratinocytes (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Merkel cells (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_246",
+    "sub": "vpp",
+    "q": "Equine Sarcoid, the most common skin tumor of horses, donkeys, and mules, is fundamentally induced by infection with:",
+    "c": "Bovine Papillomavirus Type 1 and Type 2 (BPV-1 and BPV-2)",
+    "d": [
+      "Equine Herpesvirus 1 (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Equine Arteritis Virus (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Equine Papillomavirus Type 1 (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_249",
+    "sub": "vpp",
+    "q": "The pathognomonic microscopic feature confirming a diagnosis of well-differentiated Squamous Cell Carcinoma (SCC) is the presence of:",
+    "c": "'Keratin pearls' (concentric lamellae of keratinized squames) and intercellular bridges (desmosomes)",
+    "d": [
+      "Intracellular mucin droplets staining with Mucicarmine (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Melanin granules within spindle cells (producing marked histopathological lesions with widespread tissue disruption)",
+      "Osteoid matrix trabeculae surrounded by osteoblasts (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_250",
+    "sub": "vpp",
+    "q": "In horses, melanomas and melanocytomas have an exceptionally high incidence in which specific coat color and anatomical region?",
+    "c": "Gray horses, located in the perineal region, ventral tail base, and parotid gland area",
+    "d": [
+      "Chestnut horses, on the distal limbs (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Bay horses, on the cornea (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Black horses, on the ventral abdomen (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_252",
+    "sub": "vpp",
+    "q": "Canine Apocrine Gland Adenocarcinoma of the Anal Sac (AGASACA) is a malignant perineal tumor that is characterized clinically by:",
+    "c": "Severe paraneoplastic hypercalcemia (PTHrP-induced) and early metastasis to the sublumbar (medial iliac) lymph nodes",
+    "d": [
+      "Benign behavior in 99% of cases (producing marked histopathological lesions with widespread tissue disruption)",
+      "Bilateral alopecia without lymph node enlargement (producing marked histopathological lesions with widespread tissue disruption)",
+      "Severe hypoglycemia (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_253",
+    "sub": "vpp",
+    "q": "In ferrets and dogs, an 'Insulinoma' is a functional neuroendocrine tumor originating from which cell type in the islets of Langerhans?",
+    "c": "Pancreatic Beta cells, causing paraneoplastic hypoglycemia through autonomous insulin secretion",
+    "d": [
+      "Delta cells, secreting somatostatin (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Alpha cells, causing persistent hyperglycemia (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "PP cells, secreting pancreatic polypeptide (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_254",
+    "sub": "vpp",
+    "q": "A 'Pheochromocytoma' in dogs and cattle is a neoplasm of the adrenal medulla arising from which cell type?",
+    "c": "Chromaffin cells, secreting excessive catecholamines (epinephrine and norepinephrine)",
+    "d": [
+      "Zona glomerulosa cells (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Cortical stromal cells (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Zona fasciculata cells (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_255",
+    "sub": "vpp",
+    "q": "The definitive microscopic distinction between an 'Adenoma' and an 'Adenocarcinoma' is that the adenocarcinoma exhibits:",
+    "c": "Invasion through the basement membrane into surrounding stroma, lymphatic/vascular permeation, and cellular anaplasia",
+    "d": [
+      "Glandular architectural organization, accompanying serofibrinous exudate, and cellular infiltration",
+      "A thin, fibrous capsule (producing marked histopathological lesions with widespread tissue disruption)",
+      "Uniform round nuclei without mitoses, accompanying serofibrinous exudate, and cellular infiltration"
+    ]
+  },
+  {
+    "id": "vpp_exp_257",
+    "sub": "vpp",
+    "q": "Feline Injection-Site Sarcoma (FISS / Vaccine-Associated Sarcoma) is an aggressive mesenchymal malignancy, predominantly a Fibrosarcoma, strongly linked to chronic inflammation induced by:",
+    "c": "Adjuvanted vaccines (such as Rabies and Feline Leukemia Virus vaccines) containing aluminum adjuvants",
+    "d": [
+      "Subcutaneous insulin injections (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Intramuscular antibiotic therapy (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Intravenous catheterization (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_263",
+    "sub": "vpp",
+    "q": "In diagnostic veterinary oncology, CD3 and CD79a (or CD20) immunohistochemical markers are universally employed to differentiate:",
+    "c": "T-cell Lymphoma (CD3 positive) from B-cell Lymphoma (CD79a/CD20 positive)",
+    "d": [
+      "Adenoma from Papilloma (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Melanoma from Mast cell tumor (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Carcinoma from Sarcoma (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_265",
+    "sub": "vpp",
+    "q": "Von Willebrand Factor (Factor VIII-related antigen) and CD31 (PECAM-1) are specific immunohistochemical markers for:",
+    "c": "Vascular endothelial cells (confirming Hemangioma and Hemangiosarcoma)",
+    "d": [
+      "Skeletal myocytes (producing marked histopathological lesions with widespread tissue disruption)",
+      "Epithelial keratinocytes (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Adipocytes (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_266",
+    "sub": "vpp",
+    "q": "In cytological evaluation of a fine-needle aspirate (FNA), which triad of cytological criteria provides the most definitive evidence of malignancy?",
+    "c": "Marked anisokaryosis (variation in nuclear size), prominent and multiple nucleoli, and atypical mitotic figures",
+    "d": [
+      "Uniform cell size, round nuclei, and low N:C ratio (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Presence of normal inflammatory cells only, accompanying serofibrinous exudate, and cellular infiltration",
+      "Abundant mature cytoplasm with absence of mitoses, accompanying serofibrinous exudate, and cellular infiltration"
+    ]
+  },
+  {
+    "id": "vpp_exp_268",
+    "sub": "vpp",
+    "q": "Bovine Papillomatosis (cutaneous warts in cattle) is caused by Bovine Papillomaviruses (BPV-1, BPV-2, BPV-6) that produce benign neoplasms characterized histologically by:",
+    "c": "Marked epidermal hyperkeratosis, acanthosis, and proliferating rete pegs over a fibrovascular core, containing koilocytes with clear halos",
+    "d": [
+      "Invasive nests of squamous cells with keratin pearls, accompanying serofibrinous exudate, and cellular infiltration",
+      "Pure liquefactive necrosis of the dermis, accompanying serofibrinous exudate, and cellular infiltration",
+      "Diffuse granulomatous panniculitis, accompanying serofibrinous exudate, and cellular infiltration"
+    ]
+  },
+  {
+    "id": "vpp_exp_270",
+    "sub": "vpp",
+    "q": "The 'Warburg Effect' observed in veterinary oncology describes the metabolic preference of neoplastic cells to:",
+    "c": "Ferment glucose into lactate via aerobic glycolysis even in the abundant presence of oxygen",
+    "d": [
+      "Oxidize fatty acids exclusively in the mitochondrial matrix (producing marked histopathological lesions with widespread tissue disruption)",
+      "Depend exclusively on glutamine transamination (producing marked histopathological lesions with widespread tissue disruption)",
+      "Produce all ATP via the urea cycle (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_271",
+    "sub": "vpp",
+    "q": "During a routine post-mortem examination of a bovine carcass, the recommended position of the carcass for external opening is:",
+    "c": "Left lateral recumbency (left side down, right side up to keep the rumen underneath)",
+    "d": [
+      "Dorsal recumbency (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Right lateral recumbency (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Ventral recumbency (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_272",
+    "sub": "vpp",
+    "q": "In equines, the standard recommended positioning for post-mortem examination is:",
+    "c": "Right lateral recumbency (left side up)",
+    "d": [
+      "Suspension by hindlimbs (producing marked histopathological lesions with widespread tissue disruption)",
+      "Dorsal recumbency (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Left lateral recumbency (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_274",
+    "sub": "vpp",
+    "q": "The recommended minimum volumetric ratio of fixative fluid to tissue volume for adequate histopathological fixation is:",
+    "c": "10:1 to 20:1 (fixative to tissue volume)",
+    "d": [
+      "1:1 (producing marked histopathological lesions with widespread tissue disruption)",
+      "2:1 (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "50:1 (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_275",
+    "sub": "vpp",
+    "q": "To ensure rapid and complete penetration of 10% neutral buffered formalin, tissue specimens submitted for histopathology should not exceed a maximum thickness of:",
+    "c": "5 to 6 mm (approximately the thickness of a coin or pencil)",
+    "d": [
+      "25 mm (1 inch) (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "50 mm (2 inches) (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "100 mm (standard reference baseline comparative value)"
+    ]
+  },
+  {
+    "id": "vpp_exp_278",
+    "sub": "vpp",
+    "q": "Glutaraldehyde (2.5% buffered solution) is the specialized fixative utilized when tissues are prepared for:",
+    "c": "Transmission Electron Microscopy (TEM) and Scanning Electron Microscopy (SEM)",
+    "d": [
+      "Frozen section fat staining (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Standard paraffin block wax embedding (producing marked histopathological lesions with widespread tissue disruption)",
+      "Routine brightfield light microscopy with H&E (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_279",
+    "sub": "vpp",
+    "q": "The chronological sequence of steps involved in standard automated paraffin wax tissue processing is:",
+    "c": "Fixation -> Dehydration (graded alcohols) -> Clearing (xylene) -> Infiltration / Embedding (molten paraffin wax)",
+    "d": [
+      "Dehydration -> Fixation -> Infiltration -> Clearing (producing marked histopathological lesions with widespread tissue disruption)",
+      "Embedding -> Clearing -> Dehydration -> Fixation (producing marked histopathological lesions with widespread tissue disruption)",
+      "Fixation -> Staining -> Clearing -> Embedding (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_281",
+    "sub": "vpp",
+    "q": "In routine Hematoxylin and Eosin (H&E) staining of tissue sections, Hematoxylin is a basic dye that stains acidic nuclear DNA:",
+    "c": "Blue to purple (basophilic), while Eosin is an acidic dye that stains basic cytoplasmic proteins pink to red (eosinophilic)",
+    "d": [
+      "Pink, while Eosin stains nuclei dark blue (producing marked histopathological lesions with widespread tissue disruption)",
+      "Green, while Eosin stains cytoplasm yellow (producing marked histopathological lesions with widespread tissue disruption)",
+      "Black, while Eosin stains cytoplasm brown (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_285",
+    "sub": "vpp",
+    "q": "The Grocott-Gomori Methenamine Silver (GMS) stain demonstrates fungal hyphae and yeasts (e.g. Aspergillus, Blastomyces, Histoplasma) by staining their cell walls:",
+    "c": "Intense jet black against a light green counterstained background",
+    "d": [
+      "Bright red (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Deep blue (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Brilliant yellow (producing marked histopathological lesions with widespread tissue disruption)"
+    ]
+  },
+  {
+    "id": "vpp_exp_287",
+    "sub": "vpp",
+    "q": "The definitive histological method used to confirm whether intracytoplasmic PAS-positive granules within hepatocytes represent Glycogen is:",
+    "c": "Diastase (alpha-amylase) digestion prior to PAS staining (glycogen is digested and vanishes)",
+    "d": [
+      "Decalcification with EDTA (producing marked histopathological lesions with widespread tissue disruption)",
+      "Staining with Sudan Black B (producing marked histopathological lesions with widespread tissue disruption)",
+      "Bleaching with potassium permanganate (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_288",
+    "sub": "vpp",
+    "q": "In the preparation of bone and tooth specimens for histological sectioning, the chemical decalcifying agent that preserves tissue antigenicity and enzymatic activity for immunohistochemistry is:",
+    "c": "EDTA (Ethylenediaminetetraacetic acid, a chelating agent at neutral pH)",
+    "d": [
+      "Hydrochloric acid (Parietal cell secretion creating low pH gastric environment)",
+      "Formic acid 20% (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Concentrated Nitric Acid (10%) (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_290",
+    "sub": "vpp",
+    "q": "Crush artifact (nuclear pyknosis and elongation of nuclei resembling spindle cells, termed 'smudge cells') in biopsy samples is most commonly produced by:",
+    "c": "Rough handling or crushing of delicate tissues with surgical forceps prior to fixation",
+    "d": [
+      "Prolonged immersion in paraffin wax (producing marked histopathological lesions with widespread tissue disruption)",
+      "Exposure to sunlight (producing marked histopathological lesions with widespread tissue disruption)",
+      "Over-dehydration in 100% alcohol (accompanied by severe microvascular congestion and inflammatory infiltration)"
+    ]
+  },
+  {
+    "id": "vpp_exp_291",
+    "sub": "vpp",
+    "q": "In the laboratory analysis of cavitary effusions (peritoneal, pleural, pericardial), a 'Transudate' is distinguished from an 'Exudate' by having:",
+    "c": "Total protein < 2.5 g/dL, Total nucleated cell count (TNCC) < 1,500/uL, and low specific gravity (<1.015)",
+    "d": [
+      "Abundant degenerative neutrophils and bacteria, accompanying serofibrinous exudate, and cellular infiltration",
+      "Total protein > 3.0 g/dL and TNCC > 5,000/uL (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Positive Rivalta reaction, accompanying serofibrinous exudate, and cellular infiltration"
+    ]
+  },
+  {
+    "id": "vpp_exp_293",
+    "sub": "vpp",
+    "q": "In synovial fluid analysis in horses, normal healthy equine joint fluid is characterized by:",
+    "c": "High viscosity (stringing > 2.5-5 cm), total protein < 2.0 g/dL, and TNCC < 500-1,000 cells/uL (predominantly large mononuclear cells)",
+    "d": [
+      "Low viscosity resembling water with TNCC > 50,000 cells/uL (producing marked histopathological lesions with widespread tissue disruption)",
+      "Presence of visible fibrin clots, accompanying serofibrinous exudate, and cellular infiltration",
+      "Cloudy turbid appearance with abundant degenerate neutrophils, accompanying serofibrinous exudate, and cellular infiltration"
+    ]
+  },
+  {
+    "id": "vpp_exp_299",
+    "sub": "vpp",
+    "q": "Rouleaux formation of erythrocytes (stack of coins appearance) is a normal, prominent physiological feature on routine blood films of healthy:",
+    "c": "Horses (and to a lesser degree cats)",
+    "d": [
+      "Dogs and ruminants (producing marked histopathological lesions with widespread tissue disruption)",
+      "Birds and reptiles (producing marked histopathological lesions with widespread tissue disruption)",
+      "Sheep and goats (characterized by distinctive cellular morphologic alterations in target viscera)"
+    ]
+  },
+  {
+    "id": "vpp_exp_300",
+    "sub": "vpp",
+    "q": "A true immune-mediated Agglutination of erythrocytes on a glass slide (autoagglutination) is definitively distinguished from physiological Rouleaux by:",
+    "c": "The Saline Dilution Test: adding a drop of physiological saline disperses rouleaux but does not disperse true antibody-mediated agglutination",
+    "d": [
+      "Centrifuging the sample at high speed (forming distinctive pathognomonic intracellular inclusions and protein deposits)",
+      "Staining with New Methylene Blue (forming distinctive pathognomonic intracellular inclusions and protein deposits)",
+      "Warming the slide to 37\u00b0C (exhibiting dystrophic mineral precipitation along degenerated basement membranes)"
+    ]
+  }
+]

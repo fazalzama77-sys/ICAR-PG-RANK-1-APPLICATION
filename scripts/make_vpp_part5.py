@@ -1,0 +1,189 @@
+﻿import json
+
+part5 = {
+    "vpp_exp_059": [
+        "Myeloperoxidase lysosomal granules within primary neutrophil azurophilic vesicles",
+        "Catalase antioxidant heme enzymes located in intracellular peroxisomal compartments",
+        "Superoxide dismutase dimeric metalloenzymes in mitochondrial intermembrane spaces"
+    ],
+    "vpp_exp_065": [
+        "Polymorphonuclear heterophils undergoing accelerated karyorrhectic degranulation",
+        "Plasma cells actively secreting pentameric immunoglobulin M against surface antigens",
+        "Mature unactivated mast cells packed with histamine and heparin proteoglycans"
+    ],
+    "vpp_exp_119": [
+        "Severe fibrinous pleuropneumonia with marbled interlobular septa and thoracic exudates",
+        "Extensive button ulcers scattered across the ileocecal valve and colonic mucosal folds",
+        "Nodular caseous granulomas distributed throughout the pulmonary and hepatic parenchyma"
+    ],
+    "vpp_exp_123": [
+        "Haemonchus contortus (Barber's pole worm causing acute abomasal blood loss)",
+        "Nematodirus battus (Thread-necked intestinal worm causing acute dehydration)",
+        "Moniezia expansa (Common pasture tapeworm requiring oribatid mite vectors)"
+    ],
+    "vpp_exp_143": [
+        "Focal nodular diphtheritic scabs on comb, wattles, eyelids, and oral mucosa",
+        "Marked bilateral sciatic nerve enlargement with loss of cross-striations",
+        "Diffuse cheesy caseous exudate distending the infraorbital sinuses and trachea"
+    ],
+    "vpp_exp_153": [
+        "Discrete deep necrotic button ulcers on the ileocecal mucosal junction",
+        "Confluent hemorrhagic pseudomembranes lining the proximal jejunal lumen",
+        "Diffuse chronic polypoid hyperplasia throughout the cecal pouches"
+    ],
+    "vpp_exp_155": [
+        "Markedly pale, shrunken, cirrhotic liver with extensive nodular fibrosis",
+        "Enlarged pale yellow fatty liver with rounded margins and greasy texture",
+        "Deep dark mahogany liver studded with discrete chalky white calcium soaps"
+    ],
+    "vpp_exp_160": [
+        "Severe acute suppurative leptomeningitis packed with intact neutrophils",
+        "Extensive liquefactive necrosis of white matter (leukoencephalomalacia)",
+        "Diffuse spongiform vacuolation restricted strictly to cerebellar purkinje cells"
+    ],
+    "vpp_exp_163": [
+        "Selective excessive osteoclastic resorption with replacement by fibrous stroma",
+        "Diffuse necrosis of osteocytes with periosteal new bone formation (involucrum)",
+        "Accumulation of dense unmineralized lamellar bone along diaphyseal cortices"
+    ],
+    "vpp_exp_166": [
+        "Pectoralis major (superficial breast muscle) causing forceful wing downstroke",
+        "Gastrocnemius muscle group encased within the dense caudal tibial fascia",
+        "Biceps brachii muscle undergoing acute bilateral exertional rhabdomyolysis"
+    ],
+    "vpp_exp_167": [
+        "Septicemic gout (bacterial septicemia) and Granulomatous gout (foreign body)",
+        "Cutaneous gout (subcutaneous nodules) and Hepatic gout (biliary precipitates)",
+        "Intestinal gout (mucosal erosions) and Pulmonary gout (pleural adhesions)"
+    ],
+    "vpp_exp_173": [
+        "Persistent extensor rigidity with sawhorse stance and elevated tail base",
+        "Severe unilateral flaccid paralysis with wings drooping down to the ground",
+        "Chronic proliferative scabby plaques on the unfeathered skin of legs and feet"
+    ],
+    "vpp_exp_174": [
+        "Severe softening and bending of the keel bone and ribs with bead-like costal junctions",
+        "Focal osteolytic destruction and pathological fracture of the proximal tibiotarsus",
+        "Generalized osteomalacia with excessive accumulation of uncalcified osteoid seams"
+    ],
+    "vpp_exp_177": [
+        "Bone marrow stroma and circulating erythrocytes during the recovery convalescent stage",
+        "Cecal tonsils and cloacal bursa during chronic subclinical carrier transmission",
+        "Pectoral skeletal musculature and sciatic nerve sheath during late clinical paralysis"
+    ],
+    "vpp_exp_180": [
+        "Large basophilic intranuclear inclusion bodies within degenerating hepatocytes",
+        "Eosinophilic intracytoplasmic Negri bodies inside hippocampal pyramidal neurons",
+        "Extracellular branching fungal hyphae surrounded by Splendore-Hoeppli material"
+    ],
+    "vpp_exp_181": [
+        "Tricuspid (right atrioventricular) valve and Pulmonary semilunar valve",
+        "Right atrioventricular valve and Coronary sinus vascular ostium",
+        "Eustachian valve and Thebesian venous valves of the right atrium"
+    ],
+    "vpp_exp_184": [
+        "Left ventricular eccentric hypertrophy secondary to chronic systemic arterial hypertension",
+        "Bilateral concentric ventricular hypertrophy caused by severe subaortic valvular stenosis",
+        "Right atrial dilation caused by idiopathic tricuspid valvular endocardiosis"
+    ],
+    "vpp_exp_186": [
+        "Cranial mesenteric arterial aneurysm causing ischemic non-strangulating colic",
+        "Portal vein thrombosis leading to acute severe post-hepatic portal hypertension",
+        "Renal artery embolism producing wedge-shaped bilateral cortical infarctions"
+    ],
+    "vpp_exp_189": [
+        "Acute fibrinous pleuropneumonia with wide edematous interlobular septa",
+        "Diffuse suppurative bronchopneumonia with cranioventral lobular consolidation",
+        "Chronic caseating granulomatous pneumonia with cavitation and calcification"
+    ],
+    "vpp_exp_191": [
+        "Malabsorptive diarrhea with extensive necrosis and sloughing of villous enterocytes",
+        "Hemorrhagic enteritis with deep crypt cell destruction and mucosal ulceration",
+        "Granulomatous enteritis with marked lamina propria macrophage infiltration"
+    ],
+    "vpp_exp_192": [
+        "Undifferentiated crypt stem cells located within the deep crypts of Lieberkühn",
+        "Lamina propria capillary endothelial cells leading to extensive hemorrhagic infarction",
+        "Mucosal goblet cells resulting in complete loss of protective mucus secretions"
+    ],
+    "vpp_exp_194": [
+        "Excessive protein intake -> rapid ammonia accumulation -> systemic alkalosis -> death",
+        "Dietary sulfur excess -> microbial thiaminase activation -> polioencephalomalacia",
+        "Inadequate crude fiber -> delayed ruminal transit -> abomasal impaction and rupture"
+    ],
+    "vpp_exp_195": [
+        "Aspergillus fumigatus and Trueperella pyogenes (secondary suppurative invaders)",
+        "Candida albicans and Pasteurella multocida (secondary opportunistic pathogens)",
+        "Clostridium perfringens type A and Escherichia coli (toxigenic bacteria)"
+    ],
+    "vpp_exp_197": [
+        "Severe acute hypercalcemia induced by excessive autonomous parathyroid hormone release",
+        "Metastatic soft tissue calcification resulting from elevated calcium-phosphate product",
+        "Direct vascular endothelial damage allowing systemic calcium extravasation into urine"
+    ],
+    "vpp_exp_199": [
+        "Bilirubin (derived from excessive intravascular erythrocyte destruction)",
+        "Porphyrin (derived from inherited congenital uroporphyrinogen decarboxylase defect)",
+        "Hemosiderin (derived from massive tissue breakdown of ferric iron stores)"
+    ],
+    "vpp_exp_205": [
+        "Pure Calcium Oxalate monohydrate crystals embedded in fibrin meshwork",
+        "Uric acid and Ammonium Urate crystals suspended in purulent exudate",
+        "Cystine crystals mixed with desquamated transitional epithelial cells"
+    ],
+    "vpp_exp_207": [
+        "Excessive maternal estrogen transfer across the synepitheliochorial placenta",
+        "Genetic chimera where XX fetal cells completely replace XY male donor cells",
+        "Placental failure of cortisol synthesis triggering premature luteal regression"
+    ],
+    "vpp_exp_210": [
+        "Progesterone and Relaxin, causing persistent vaginal mucification and lordosis",
+        "Prolactin and Oxytocin, causing continuous galactorrhea and maternal behavior",
+        "Estrogen and Luteinizing Hormone, causing continuous behavioral estrus and polyuria"
+    ],
+    "vpp_exp_211": [
+        "Severe acute suppurative polioencephalitis with massive neutrophilic cuffing",
+        "Widespread demyelination of cerebral white matter with severe perivascular cuffs",
+        "Extensive focal liquefactive necrosis forming prominent brain pseudocysts"
+    ],
+    "vpp_exp_212": [
+        "Acute thromboembolic fibrocartilaginous infarction of spinal cord grey matter",
+        "Congenital atlantoaxial subluxation with dens hypoplasia in miniature dogs",
+        "Progressive degenerative myelopathy with chronic axon and myelin sheath loss"
+    ],
+    "vpp_exp_213": [
+        "Toxoplasma gondii (or Cryptosporidium parvum protozoan parasites)",
+        "Babesia caballi (or Theileria equi intraerythrocytic piroplasms)",
+        "Trypanosoma evansi (or Trypanosoma equiperdum flagellated protozoa)"
+    ],
+    "vpp_exp_222": [
+        "Hypernatremia and Hypokalemia with an elevated Na+:K+ ratio exceeding 40:1",
+        "Hypercalcemia and Hypophosphatemia accompanied by marked azotemia and polyuria",
+        "Severe hypomagnesemia and hypercalcemia with severe ventricular arrhythmias"
+    ],
+    "vpp_exp_224": [
+        "Severe diffuse primary bilateral parathyroid hyperplasia of water-clear cells",
+        "Metastatic parathyroid carcinoma infiltrating local thyroid and tracheal tissues",
+        "Iatrogenic destruction of parathyroid glands following radical thyroidectomy"
+    ],
+    "vpp_exp_228": [
+        "Gradual accumulation of amniotic fluid due to fetal swallowing failure (monsters)",
+        "Massive peritoneal transudation leaking through the inguinal canal into scrotum",
+        "Severe uterine wall edema secondary to torsion and acute venous congestion"
+    ],
+    "vpp_exp_230": [
+        "Deep subepidermal bullae with complete detachment of basal lamina (Pemphigoid)",
+        "Intraepidermal suprabasal clefts with row of tombstones basal cells (P. vulgaris)",
+        "Severe interface lichenoid dermatitis with apoptotic keratinocytes (Lupus)"
+    ],
+    "vpp_exp_231": [
+        "78 chromosomes (normal unaltered diploid canine karyotype)",
+        "38 chromosomes (haploid feline chromosomal complement)",
+        "96 chromosomes (hyperdiploid polyploid neoplastic karyotype)"
+    ]
+}
+
+with open('scripts/vpp_part5.json', 'w', encoding='utf-8') as f:
+    json.dump(part5, f, indent=2)
+
+print(f"Wrote {len(part5)} overrides in part 5")

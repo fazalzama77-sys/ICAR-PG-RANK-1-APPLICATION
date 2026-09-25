@@ -1,0 +1,152 @@
+{
+  "vpp_q_006": [
+    "Acute diffuse toxic hepatitis (Aflatoxin B1 hepatotoxicosis)",
+    "Biliary cirrhosis with marked portal fibrosis (Fascioliasis)",
+    "Diffuse severe hepatic lipidosis (Bovine fatty liver syndrome)"
+  ],
+  "vpp_q_007": [
+    "Systemic fever, Peripheral leukopenia, and Severe thrombocytopenia",
+    "Marked hyperglycemia, Hypokalemia, and Generalized dependent edema",
+    "Arterial hypotension, Microcytic anemia, and Acute hypocalcemia"
+  ],
+  "vpp_q_015": [
+    "Acute lytic viral infections and Type IV cell-mediated delayed responses",
+    "Ischemic tissue infarction and massive localized coagulative necrosis",
+    "Acute pyogenic bacterial septicemia and purulent suppurative abscesses"
+  ],
+  "vpp_q_016": [
+    "Serous hydropericardium (e.g. Heartwater / Ehrlichia ruminantium infection)",
+    "Fatty infiltration of myocardium (e.g. Severe chronic feline lipidosis)",
+    "Myocardial infarction (e.g. Acute coronary thrombotic arterial occlusion)"
+  ],
+  "vpp_q_018": [
+    "Presence of an intact fibrous capsule and slow expansile growth",
+    "High mitotic figures without any nuclear pleomorphism or atypia",
+    "Rapid volumetric enlargement solely through cellular hyperplasia"
+  ],
+  "vpp_q_021": [
+    "Proto-oncogene protein accelerating G1/S transition via continuous cyclin D1 transcription",
+    "Receptor tyrosine kinase stimulating continuous downstream Ras-Raf-MAPK signal transduction",
+    "DNA mismatch repair endonuclease correcting spontaneous base insertion and deletion errors"
+  ],
+  "vpp_q_022": [
+    "Infectious interdigital pododermatitis and severe deep interdigital necrobacillosis (Foot rot)",
+    "Benign cutaneous fibropapillomatosis restricted exclusively to teats and penile epithelium",
+    "Enzootic bovine leukosis causing multicentric lymphosarcoma in abomasum and right atrium"
+  ],
+  "vpp_q_023": [
+    "Avian Leukosis Virus (an Alpharetrovirus)",
+    "Infectious Bursal Disease Virus (an Avibirnavirus)",
+    "Infectious Bronchitis Virus (a Gammacoronavirus)"
+  ],
+  "vpp_q_024": [
+    "Avian Herpesvirus (Marek's Disease Virus - MDV)",
+    "Avian Adenovirus (Inclusion Body Hepatitis Virus)",
+    "Avian Poxvirus (Fowlpox Virus / Chordopoxvirinae)"
+  ],
+  "vpp_q_025": [
+    "38 chromosomes (compared to the normal feline 38)",
+    "78 chromosomes (normal unaltered canine karyotype)",
+    "96 chromosomes (hyperdiploid polyploid chromosomal state)"
+  ],
+  "vpp_q_028": [
+    "Discrete crater-like button ulcers on the ileocecal valve with surrounding mucosal hemorrhage",
+    "Severe hemorrhagic pseudomembranes with diffuse mucosal sloughing throughout small intestine",
+    "Dense fibrinous luminal casts with acute transmural infarction and widespread gas crepitation"
+  ],
+  "vpp_q_034": [
+    "Foot and Mouth Disease (Aphthovirus infection)",
+    "Bovine Malignant Catarrhal Fever (Ovine herpesvirus-2)",
+    "Infectious Bovine Rhinotracheitis (Bovine herpesvirus-1)"
+  ],
+  "vpp_q_036": [
+    "Cor bovinum (marked eccentric ventricular hypertrophy)",
+    "Nutmeg heart (chronic passive congestion with myofibrillar atrophy)",
+    "Bread-and-butter heart (diffuse fibrinous pericarditis with shaggy deposits)"
+  ],
+  "vpp_q_037": [
+    "Ascaris suum (larval migration causing milk spots)",
+    "Haemonchus contortus (abomasal blood feeding)",
+    "Echinococcus granulosus (hydatid cyst formation)"
+  ],
+  "vpp_q_040": [
+    "Mechanical lymphatic obstruction of the cervical trunk caused by heavy adult worm encystment",
+    "Right-sided congestive heart failure leading to severe central systemic venous hypertension",
+    "Renal glomerular amyloidosis collapsing selective macromolecular capillary charge filtration"
+  ],
+  "vpp_exp_006": [
+    "Primary excessive de novo synthesis of ketone bodies within the ruminal papillae",
+    "Congenital familial deficiency of apolipoprotein B-100 preventing chylomicron assembly",
+    "Severe absolute dietary deficiency of methionine and choline in high-forage rations"
+  ],
+  "vpp_exp_010": [
+    "Multicentric malignant lymphoma (lymphosarcoma of B- or T-cell lineage)",
+    "Cutaneous squamous cell carcinoma with regional lymph node metastasis",
+    "Visceral hemangiosarcoma originating from splenic vascular endothelial cells"
+  ],
+  "vpp_exp_011": [
+    "Degenerated mitochondrial remnants within autophagic lysosomal vacuoles",
+    "Aggregated actin filaments forming structural cytoskeleton condensations",
+    "Phagocytosed bacterial fragments inside secondary heterophagic lysosomes"
+  ],
+  "vpp_exp_013": [
+    "Complete enzymatic dissolution of all cell margins forming liquid necrotic malacia",
+    "Extensive granulomatous cuffing composed of epithelioid macrophages and giant cells",
+    "Presence of abundant friable, cheesy, amorphous caseous necrotic debris"
+  ],
+  "vpp_exp_016": [
+    "Langhans giant cells (multinucleated horseshoe macrophages)",
+    "Kupffer cells (fixed sinusoidal liver macrophages)",
+    "Ito cells (perisinusoidal hepatic fat-storing cells)"
+  ],
+  "vpp_exp_017": [
+    "Granulomatous lymphadenitis with extensive epithelioid macrophage sheets",
+    "Purulent suppurative microabscesses packed with degenerate heterophils",
+    "Fibrinous serositis with organizing fibroblastic granulation tissue"
+  ],
+  "vpp_exp_020": [
+    "Lipofuscin (brown wear-and-tear pigment derived from lipid peroxidation)",
+    "Hemosiderin (golden-yellow iron storage pigment derived from hemoglobin)",
+    "Melanin (brown-black pigment synthesized by melanocytes via tyrosinase)"
+  ],
+  "vpp_exp_021": [
+    "Perls' Prussian blue stain demonstrating brilliant azure-blue ferric iron",
+    "Masson's trichrome stain demonstrating bright green collagen fiber bundles",
+    "Periodic acid-Schiff (PAS) stain demonstrating magenta glycol-glycoproteins"
+  ],
+  "vpp_exp_022": [
+    "Precipitation of calcium salts in normal tissues due to systemic hypercalcemia",
+    "Deposition of insoluble urate crystals in articular and periarticular tissues",
+    "Extracellular aggregation of fibrillar beta-pleated sheet amyloid proteins"
+  ],
+  "vpp_exp_024": [
+    "Exogenous inhalation of airborne silica particles (Silicosis in working equids)",
+    "Endogenous accumulation of porphyrin precursors in dental enamel and bone",
+    "Systemic copper poisoning causing severe acute intravascular hemolytic crisis"
+  ],
+  "vpp_exp_025": [
+    "Severe direct primary destruction of osteocytes and osteoblasts by bacterial toxins",
+    "Congenital absolute metabolic deficiency of acid phosphatase in osteoclasts",
+    "Excessive autonomous calcitonin secretion by thyroid parafollicular C-cells"
+  ],
+  "vpp_exp_027": [
+    "Post-mortem blood clotting forming smooth, glistening chicken-fat clots",
+    "Hypertrophy of vascular smooth muscle cells narrowing the vascular lumen",
+    "Extravasation of red blood cells through damaged capillary endothelial gaps"
+  ],
+  "vpp_exp_028": [
+    "Deep red, gelatinous, soft clot unattached to vessel wall and easily removed",
+    "Dense fibrinous vegetation encrusted with large colonies of staphylococci",
+    "Atherosomatous plaque composed of lipid core covered by a fibrous cap"
+  ],
+  "vpp_exp_031": [
+    "Acute right-sided congestive heart failure and severe tricuspid valve insufficiency",
+    "Portal vein thrombosis and chronic post-hepatic caval vein obstruction",
+    "Systemic arteriolar vasoconstriction induced by severe catecholamine release"
+  ],
+  "vpp_exp_032": [
+    "Acute pulmonary edema with interlobular septal distension and alveolar foam",
+    "Severe chronic passive congestion with 'nutmeg liver' and ascites",
+    "Bilateral renal cortical necrosis with petechial hemorrhages"
+  ]
+}

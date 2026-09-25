@@ -1,0 +1,2032 @@
+{
+  "lpm_q_044": [
+    "95.0 to 95.5 degrees Fahrenheit (35.0 to 35.3 degrees C)",
+    "105.0 to 105.5 degrees Fahrenheit (40.5 to 40.8 degrees C)",
+    "102.0 to 102.5 degrees Fahrenheit (38.8 to 39.2 degrees C)"
+  ],
+  "lpm_q_050": [
+    "Breeding replacement stock are continually mixed with market-ready animals in shared shed compartments",
+    "Animals are housed permanently across successive production cycles without scheduled sanitary depopulation",
+    "New susceptible livestock are introduced weekly while unmarketed older animals remain in adjoining pens"
+  ],
+  "vpp_q_017": [
+    "Cellular swelling, plasma membrane rupture, nuclear pyknosis, and intense neutrophil influx",
+    "Enzymatic fat saponification, dystrophic calcification, basophilic debris, and fibrosis",
+    "Extensive coagulative necrosis, vascular thrombosis, ghost cell outlines, and marked inflammation"
+  ],
+  "vmc_q_047": [
+    "Type I (Immediate / IgE-Mediated Anaphylactic) Hypersensitivity",
+    "Type II (Antibody-Dependent / Cytotoxic) Hypersensitivity",
+    "Type III (Soluble Immune Complex-Mediated) Hypersensitivity"
+  ],
+  "ann_q_036": [
+    "Severe Hypomagnesemia (serum Mg falling below 1.0 mg/dL)",
+    "Acute Hypercalcemia (serum Ca exceeding 14.5 mg/dL)",
+    "Severe Hyperglycemia (blood glucose exceeding 250 mg/dL)"
+  ],
+  "pyq_vpp_100": [
+    "Marked reduction in intraocular pressure (hypotony) resulting from ciliary body atrophy and detachment",
+    "Full-thickness corneal stromal perforation secondary to chronic melting ulcerative keratitis",
+    "Primary posterior luxation of the lens into the vitreous chamber without outflow obstruction"
+  ],
+  "pyq_vmc_084": [
+    "Type I Hypersensitivity (IgE-mediated immediate anaphylaxis)",
+    "Type II Hypersensitivity (Antibody-dependent cytotoxic lysis)",
+    "Type IV Hypersensitivity (T-cell-mediated delayed reaction)"
+  ],
+  "pyq_vbc_022": [
+    "Excessive dietary carbohydrate intake saturating hepatic glycogen storage capacity and driving lipogenesis",
+    "Severe hyperinsulinemia promoting peripheral glucose uptake and totally suppressing adipose lipolysis",
+    "Dietary crude protein deficiency causing generalized hypoproteinemia and impaired amino acid transport"
+  ],
+  "pyq_vbc_088": [
+    "Chronic Vitamin D toxicity leading to severe hypercalcemic nephropathy and soft tissue mineralization",
+    "Acute ionized hypocalcemia resulting from sudden calcitonin hypersecretion during early lactation",
+    "Marked hyperphosphatemia secondary to chronic renal failure and impaired tubular phosphate excretion"
+  ],
+  "vpp_exp_110": [
+    "Discrete button ulcers on the ileocecal valve and colon mucosal surface with minimal splenic involvement",
+    "Normal-sized firm spleen exhibiting sharp, raised marginal hemorrhagic infarcts along the splenic borders",
+    "Diffuse multifocal white necrotic foci scattered across the liver and spleen without gross organ enlargement"
+  ],
+  "vpp_exp_118": [
+    "Heavily calcified fibrocaseous pulmonary nodules with rare acid-fast bacilli restricted to bronchial lymph nodes",
+    "Suppurative microabscesses localized exclusively to the avian comb, wattles, and unfeathered leg skin",
+    "Severe follicular bursal atrophy accompanied by intense heterophilic infiltration in the bursa of Fabricius"
+  ],
+  "vpp_exp_170": [
+    "Markedly cirrhotic, nodular, shrunken liver with extensive periportal biliary ductular hyperplasia and fibrosis",
+    "Severely distended gallbladder filled with inspissated bile and surrounded by acute necrotizing cholecystitis",
+    "Diffuse chronic granulomatous hepatitis with numerous multinucleated giant cells surrounding fungal hyphae"
+  ],
+  "vpp_exp_215": [
+    "Multiple expansive dark red intramuscular hematomas localized strictly to the abdominal wall musculature",
+    "Acute diffuse suppurative and necrotizing myositis with marked subcutaneous crepitation and gas bubble formation",
+    "Marked asymmetric compensatory hypertrophy of unilateral pectoral muscles with prominent myofibrillar enlargement"
+  ],
+  "vpp_exp_218": [
+    "Chronic plumbism / lead poisoning causing dense metaphyseal sclerotic lead lines in growing long bones",
+    "Primary severe dietary calcium deficiency in adult horses stimulating accelerated osteomalacic remodeling",
+    "Persistent autonomous hypersecretion of calcitonin by thyroid parafollicular C-cells suppressing bone turnover"
+  ],
+  "vpp_exp_221": [
+    "Metastatic thyroid follicular carcinoma infiltrating local cervical tissues and producing excessive thyroxine",
+    "Primary autonomous functional adrenocortical adenoma of the zona fasciculata secreting excess cortisol",
+    "Chronic iatrogenic corticosteroid administration leading to secondary bilateral adrenocortical atrophy"
+  ],
+  "vpp_exp_247": [
+    "Dermal sheets of uniform round cells containing intensely metachromatic intracytoplasmic heparin granules",
+    "Infiltrative squamous cell carcinoma characterized by marked keratinization with prominent epithelial pearls",
+    "Chronic caseating granulomatous dermatitis with numerous central Langhans multinucleated giant cells"
+  ],
+  "vpp_exp_283": [
+    "Acidic oxidation inducing a distinct metachromatic absorption wavelength shift in polychrome azure dyes",
+    "Enzymatic cleavage of terminal galactosyl residues by specific bacterial beta-galactosidase hydrolases",
+    "Silver nitrate chemical reduction by free diphenolic hydroxyl groups forming insoluble black metallic silver"
+  ],
+  "vpp_exp_292": [
+    "Immediate rapid effervescence and gaseous bubble formation at the surface of the dilute acidic solution",
+    "Instantaneous complete dissolution and total clearing of the effusion droplet upon entering the test solution",
+    "A dramatic instantaneous chemical color shift turning the clear acidic reagent into an opaque deep purple solution"
+  ],
+  "vpp_exp_297": [
+    "Circulating macrothrombocytes and giant platelets associated with congenital or immune-mediated thrombocytopenia",
+    "Total congenital absence of secondary specific granules in eosinophils causing impaired parasitic defense",
+    "Pathologic hypersegmentation of mature neutrophils displaying five or more lobes due to prolonged blood circulation"
+  ],
+  "vmc_exp_026": [
+    "Gram-negative, strictly aerobic, motile rod that produces soluble green pyocyanin phenazine pigment",
+    "Cell-wall-free pleomorphic microorganism requiring exogenous sterols for growth on complex Eaton agar",
+    "Strictly acid-fast, spore-forming coccobacillus demonstrating prominent mycolic acid envelope resistance"
+  ],
+  "vmc_exp_027": [
+    "Acid-fast, obligate intracellular mycobacterial bacillus proliferating within macrophages and causing tuberculoid granulomas",
+    "Spore-forming, strictly anaerobic, Gram-positive rod producing potent gas-forming histotoxins in deep muscle tissue",
+    "Gram-positive, strictly anaerobic non-sporeforming branching bacillus forming indurated fistulous osteomyelitis"
+  ],
+  "vmc_exp_028": [
+    "Encapsulated Gram-positive lancet-shaped diplococci arranged characteristically in short chains and pairs",
+    "Large terminal spherical sporangia filled with motile flagellated endospores in mature hyphal structures",
+    "Tightly coiled slender spirochetes exhibiting prominent terminal hooked ends with rapid corkscrew motility"
+  ],
+  "vmc_exp_030": [
+    "Large, spreading, swarming waves of confluent growth over non-inhibitory agar with distinct fishy odor and alkaline pH",
+    "Rough, swirling, tenacious Medusa-head edge colonies on plain nutrient agar displaying standing inverted fir-tree gelatin stab",
+    "Abundant brilliant blue-green pyocyanin pigmentation and fruity grape-like odor on selective MacConkey agar plates"
+  ],
+  "vmc_exp_042": [
+    "Horses, causing acute suppurative gutteral pouch empyema, purpura hemorrhagica, and submandibular lymphadenitis",
+    "Domestic poultry, causing acute hemorrhagic enteritis, marble spleen disease, and severe drop in commercial egg laying",
+    "Swine exclusively, causing contagious atrophic rhinitis, facial snout distortion, and severe bronchopneumonia"
+  ],
+  "vmc_exp_054": [
+    "Subcutaneous thermal test (parenteral injection of tuberculin monitoring rectal temperature spikes every two hours)",
+    "Cervical skin pinch test (intradermal injection into the mid-cervical dermis measuring double skin-fold thickness calipers)",
+    "Caudal fold test (intradermal injection of purified protein derivative into the ventral tail base fold at 72 hours)"
+  ],
+  "vmc_exp_087": [
+    "Produces fatal acute hemolytic crisis in over 90% of susceptible adult cattle with severe marked hemoglobinuria",
+    "Lacks nuclear genomic DNA and relies entirely on host erythrocyte ribosomal machinery for structural translation",
+    "Is transmitted exclusively by biting lice vectors without intermediate biological developmental cycles in ticks"
+  ],
+  "vmc_exp_130": [
+    "Sole definitive biological hosts in which mandatory sexual reproduction of the viral pathogen takes place",
+    "Primary sylvatic reservoir amplifying hosts that maintain high-titer persistent viremia during peak transmission",
+    "Mechanical tick-borne vectors transmitting the viral pathogen directly during blood feeding without replication"
+  ],
+  "vmc_exp_144": [
+    "Enveloped retroviruses containing reverse transcriptase and diploid single-stranded RNA (ssRNA) genomes",
+    "Segmented double-stranded DNA viruses possessing large icosahedral capsids and complex envelope proteins",
+    "Largest known poxviruses containing complex linear double-stranded DNA genomes exceeding 300 kilobase pairs"
+  ],
+  "vmc_exp_154": [
+    "Tandem duplication of the neuraminidase stalk domain enhancing receptor-destroying enzymatic catalytic activity",
+    "Complete genomic deletion of the M2 proton-selective ion channel protein preventing amantadine drug sensitivity",
+    "Loss of the internal viral nucleoprotein triggering unconstrained non-segmented structural genomic transcription"
+  ],
+  "vmc_exp_240": [
+    "Preformed vasoactive amine granules released directly from sensitized tissue mast cells upon allergen binding",
+    "Insoluble amorphous calcium phosphate crystals precipitating spontaneously along vascular basement membranes",
+    "Sensitized cytotoxic CD8+ T-lymphocytes directly mediating perforin-granzyme lysis of infected endothelial cells"
+  ],
+  "vmc_exp_253": [
+    "A vaccine engineered with green fluorescent protein (GFP) tag to visualize intracellular viral distribution in cells",
+    "An attenuated vaccine formulated using live virulent human viral pathogens to induce cross-species immunity in pigs",
+    "An inactivated whole-pathogen vaccine formulation designed exclusively for needle-free oral mucosal delivery"
+  ],
+  "vmc_exp_254": [
+    "Adsorbed externally onto autologous carrier red blood cells stimulating exclusively transient peripheral humoral immunity",
+    "Purified entirely from transgenic plant leaf tissue inducing specialized mucosal tolerance in digestive tract epithelium",
+    "Excreted rapidly and unchanged through renal glomerular filtration without interacting with splenic lymphoid follicles"
+  ],
+  "vmc_exp_257": [
+    "Central complement component C3, preventing alternative and classical pathway complement-mediated opsonization",
+    "Leukocyte adhesion molecule CD18 integrin beta-subunit, impairing neutrophil extravasation into inflammatory foci",
+    "Lysosomal myeloperoxidase enzyme, preventing halogenation and hydrogen peroxide-mediated bacterial intracellular killing"
+  ],
+  "vmc_exp_260": [
+    "Employs unadsorbed native red blood cells directly agglutinated by intrinsic viral surface hemagglutinin proteins",
+    "Requires pre-incubation of serum at 56\u00b0C for 30 minutes to activate endogenous complement cascade components",
+    "Relies on live infectious influenza virions to induce active receptor-mediated hemadsorption on cell monolayers"
+  ],
+  "vmc_exp_265": [
+    "Two distinct segmented viral RNA genomes undergo homologous genetic crossing-over during simultaneous infection",
+    "A lipid-enveloped virus undergoes permanent loss of its outer membrane during passage through host cells",
+    "A spontaneous point mutation arises in the viral RNA-dependent RNA polymerase gene altering virulence"
+  ],
+  "vmc_exp_268": [
+    "Lytic bacteriophage that exclusively infects and destroys bacterial cells without any capacity to replicate in animals",
+    "Non-infectious empty viral capsid assembled without encapsidating any internal viral genomic nucleic acid sequences",
+    "Mature viral particle encapsidating host cellular chromosomal DNA fragments instead of genuine viral genomic sequences"
+  ],
+  "vmc_exp_283": [
+    "Differentiates between viable bacterial endospores and vegetative bacilli based on differential thermal resistance",
+    "Quantifies host cell programmed apoptotic cell death in cell culture monolayers using flow cytometric annexin binding",
+    "Directly measures the exact absolute titer of protective virus-neutralizing antibodies present in convalescent patient serum"
+  ],
+  "vmc_exp_290": [
+    "Bile-esculin agar hydrolysis (hydrolysis of glycoside esculin yielding black iron-phenolic complex in bile medium)",
+    "Catalase test (vigorous gas bubble effervescence produced upon addition of hydrogen peroxide to yeast colonies)",
+    "Urease agar slant test (rapid hydrolysis of urea to alkaline ammonia changing yellow phenol red to vivid magenta pink)"
+  ],
+  "vmc_exp_297": [
+    "Potent hepatocarcinogen, inducing hepatocellular carcinoma and hepatic bile duct proliferation in multiple species",
+    "Steroid cardiac glycoside, inhibiting myocardial sodium-potassium ATPase pump and precipitating severe ventricular arrhythmias",
+    "Presynaptic neurotoxin, cleaving synaptic vesicle fusion proteins and causing ascending generalized flaccid paralysis"
+  ],
+  "van_exp_019": [
+    "6 (Radial, Intermediate, and Ulnar in proximal row; fused II+III, IV, and V in distal carpal row)",
+    "5 (Radial and Ulnar in proximal row; single large III, IV, and V in distal carpal row)",
+    "10 (Five distinct anatomical carpal bones in proximal row and five in distal row without fusion)"
+  ],
+  "van_exp_020": [
+    "Metacarpal II and Metacarpal III (forming a rudimentary medial splint)",
+    "Metacarpal IV and Metacarpal V (forming an incomplete lateral vestige)",
+    "Metacarpal I and Metacarpal II (fused completely without any visible sulcus)"
+  ],
+  "van_exp_039": [
+    "Actively rotate the distal equine digit medially during the propulsion phase of stride",
+    "Produce powerful active flexion of the carpal joint during limb elevation in locomotion",
+    "Retract the cornified hoof capsule caudally to cushion impact against hard ground surfaces"
+  ],
+  "van_exp_059": [
+    "2 x [ I 0/4, C 0/0, PM 3/3, M 3/3 ] = 32 teeth (Ruminant dental formula)",
+    "2 x [ I 3/3, C 1/1, PM 4/4, M 2/3 ] = 42 teeth (Canine dental formula)",
+    "2 x [ I 3/3, C 0/0, PM 3/3, M 3/3 ] = 36 teeth (Equine mare dental formula)"
+  ],
+  "van_exp_115": [
+    "Extensive Golgi apparatus cisternae and condensing secretory vesicles",
+    "Dense aggregations of cristate mitochondria and intracellular peroxisomes",
+    "Cytoskeletal neurofilaments, neurotubules, and associated microfilaments"
+  ],
+  "van_exp_126": [
+    "Chromaffin zone (central medullary layer composed of epinephrine and norepinephrine secreting cells)",
+    "Zona fasciculata (broad intermediate cortical zone composed of parallel radial cords of clear spongiocytes)",
+    "Zona reticularis (deepest cortical layer consisting of an anastomosing network of pigmented glandular cords)"
+  ],
+  "pyq_vpp_065": [
+    "Chronic proliferative and hyperkeratotic stomatitis with fungal hyphal infiltration",
+    "Deep necrotizing and diphtheritic stomatitis with pseudomembrane formation",
+    "Granulomatous and eosinophilic stomatitis with foreign body giant cell reaction"
+  ],
+  "van_q_090": [
+    "2 lobes (cranial undivided and caudal large lobes)",
+    "3 lobes (cranial, caudal, and middle intermediate lobes)",
+    "6 lobes (cranial divided into 2, middle, caudal, and 2 accessory)"
+  ],
+  "ann_q_015": [
+    "6.5 (ionized ammonium NH4+ predominates with minimal passive diffusion)",
+    "5.0 (acidic ruminal fluid trapping nitrogen as non-diffusible ammonium ions)",
+    "7.0 (neutral physiological pH maintaining dynamic equilibrium between ions)"
+  ],
+  "pyq_vbc_079": [
+    "It directly reflects daily dietary carbohydrate intake and rapid fluctuating ruminal volatile fatty acid production",
+    "It is actively secreted in massive quantities by renal proximal tubular epithelial cells via organic anion transporters",
+    "It is synthesized de novo primarily by hepatic parenchymal cells proportionally to dietary crude protein nitrogen intake"
+  ],
+  "vpp_exp_165": [
+    "Excessive dietary sodium chloride leading to primary renal failure with generalized anasarca and ascites",
+    "Congenital aplasia or total absence of the parietal and visceral pericardial sac causing cardiac luxation",
+    "Primary chronic toxic hepatic cirrhosis caused by massive dietary aflatoxin B1 contamination in poultry feed"
+  ],
+  "vpp_exp_185": [
+    "Congenital metabolic deficiency of carbonic anhydrase causing severe hypercapnic metabolic acidosis",
+    "Severe carbon monoxide toxicity from thin atmospheric combustion gases inducing carboxyhemoglobinemia",
+    "Acute ruminal tympany / frothy bloat causing severe diaphragm compression and respiratory failure"
+  ],
+  "vpp_exp_200": [
+    "Extensive diffuse peliosis hepatis with blood-filled parenchymal cystic spaces throughout the liver",
+    "Diffuse acute centrilobular coagulative necrosis secondary to toxic carbon tetrachloride poisoning",
+    "Massive post-necrotic hepatic cirrhosis with marked nodular regeneration and biliary proliferation"
+  ],
+  "vpp_exp_241": [
+    "50.0% (representing substantial risk reduction when ovariohysterectomy is performed after 4th estrus)",
+    "75.0% (representing negligible risk difference between intact bitches and late spayed females)",
+    "15.0% (representing intermediate risk reduction when ovariohysterectomy occurs after puberty)"
+  ],
+  "vpp_exp_267": [
+    "Central elongated spindle-shaped nuclei with bipolar cytoplasmic tails and abundant intercellular collagen",
+    "Clear, deeply vacuolated cytoplasm with marked eccentric signet-ring cell morphological appearance",
+    "Large multinucleated osteoclasts containing multiple central nuclei and eosinophilic ruffled borders"
+  ],
+  "vpp_exp_294": [
+    "Is an autonomous clonal neoplastic proliferation of malignant blast cells with progressive cytopenias",
+    "Always displays specific pathognomonic reciprocal chromosomal translocations under cytogenetic karyotyping",
+    "Is completely refractory to medical or surgical resolution of the underlying inciting septic focus"
+  ],
+  "vpp_exp_295": [
+    "Complete absence of any mature segmented neutrophils in peripheral circulation (severe absolute neutropenia)",
+    "Presence of occasional band neutrophils alongside a massive mature segmented neutrophilia (regenerative shift)",
+    "Marked selective elevation of circulating tissue eosinophils and basophils without immature neutrophil precursors"
+  ],
+  "vmc_exp_005": [
+    "MacConkey agar without bile salts, where organisms fail to undergo morphological spherical changes",
+    "Sheep blood agar containing 10% sodium chloride, where colonies display heavy beta-hemolysis",
+    "Sabouraud dextrose agar with cycloheximide, where mycelial hyphal growth occurs after prolonged incubation"
+  ],
+  "vmc_exp_006": [
+    "Direct irreversible blockade of post-synaptic nicotinic acetylcholine receptors at motor endplates in muscle",
+    "Continuous constitutive stimulation of post-synaptic dopamine D2 receptors in basal ganglia nuclei",
+    "Extensive enzymatic degradation of axonal myelin sheaths by bacterial phospholipase C alpha-toxin enzymes"
+  ],
+  "vmc_exp_036": [
+    "Large encapsulated Gram-positive diplococci displaying prominent clear mucoid capsule zones on smear",
+    "Gram-positive, square-ended, sporulating rods arranged in long filamentous chains resembling bamboo reeds",
+    "Acid-fast, slender, beaded branching filaments demonstrating marked resistance to mineral acid decolorization"
+  ],
+  "vmc_exp_041": [
+    "Capsular polysaccharide K-antigens and enterobacterial common antigen (ECA) cell surface determinants only",
+    "Peptidoglycan murein cross-linked pentapeptide polymers and outer membrane porin proteins exclusively",
+    "Pili and fimbrial adhesin subunit proteins mediating localized colonization of mucosal epithelial surfaces"
+  ],
+  "vmc_exp_082": [
+    "Lactose fermenting with copious gas production turning neutral red indicator vivid pink on MacConkey agar",
+    "Coagulase positive, converting citrated rabbit plasma into a firm clotted gel within four hours of incubation",
+    "Rapidly Urease positive, hydrolyzing urea broth and turning phenol red indicator deep magenta within two hours"
+  ],
+  "vmc_exp_083": [
+    "Vegetative metabolically active bacterial bacilli and highly resistant dormant dehydrated endospore structures",
+    "Active motile flagellated trophozoites and thick-walled environmentally resistant encysted cystic forms",
+    "Infectious extracellular sporozoites and intracellular actively multiplying asexual merozoite stages"
+  ],
+  "vmc_exp_090": [
+    "Bacillus anthracis, which secretes abundant protective antigen and lethal factor into the surrounding medium",
+    "Escherichia coli, which produces excessive enterotoxins and colicin bacteriocins inhibiting adjacent growth",
+    "Pseudomonas aeruginosa, which produces water-soluble pyocyanin and pyoverdine pigments diffusing through agar"
+  ],
+  "vmc_exp_129": [
+    "Acute profuse hemorrhagic enterocolitis with 100% case fatality rate among adult pregnant breeding ewes",
+    "Severe generalized chronic wool discoloration turning the fleece brilliant emerald green due to pyocyanin",
+    "Acute purulent gangrenous mastitis causing extensive udder sloughing without congenital fetal defects"
+  ],
+  "vmc_exp_159": [
+    "Marked selective atrophy of the lingual mucosa and dorsal horny papillae on the dorsal surface of tongue",
+    "Chronic symmetric bilateral feather loss localized exclusively to the pectoral breast region of adult ganders",
+    "Pure corneal keratitis and bilateral corneal opacity without visceral systemic vascular or renal involvement"
+  ],
+  "vmc_exp_191": [
+    "Salmonella Typhimurium (demonstrating smooth-to-rough colonial variation following flagellar phase shifting)",
+    "Bacillus anthracis (demonstrating loss of protective capsule plasmid upon prolonged subculture at 42\u00b0C)",
+    "Escherichia coli (demonstrating acquisition of lactose fermentation operon through bacteriophage infection)"
+  ],
+  "vmc_exp_197": [
+    "Complete irreversible deletion of the entire bacterial circular chromosome following transposon insertion",
+    "Inversion of the entire bacterial genome between inverted repeats without incorporating adjacent host sequences",
+    "Spontaneous tandem duplication of all insertion sequences and chromosomal transposon cassettes in the genome"
+  ],
+  "vmc_exp_259": [
+    "Pure dystrophic calcification of thyroid follicles without any cellular inflammatory or immune infiltration",
+    "Autonomous benign functional C-cell adenoma secreting excessive quantities of calcitonin polypeptide",
+    "Massive diffuse colloid follicular hyperplasia producing marked bilateral non-inflammatory endemic goiter"
+  ],
+  "vmc_exp_272": [
+    "Multiple small intracytoplasmic clear neutral lipid droplets displacing the nucleus to the cellular margin",
+    "Numerous tiny basophilic granular inclusions scattered diffusely throughout the cytoplasmic compartment",
+    "Dense crystalline lattices of non-enveloped virions completely replacing the nucleolar fibrillar center"
+  ],
+  "vmc_exp_273": [
+    "Stain intensely and brilliantly dark blue with routine Gram staining and display strict acid-fastness",
+    "Are localized exclusively within the cytoplasmic compartment of infected epithelial and lymphoid cells",
+    "Are universally heavily calcified and demonstrate pathognomonic concentric lamellar psammoma body rings"
+  ],
+  "vmc_exp_276": [
+    "Methyl Red (red at acidic pH below 4.4, yellow at neutral and alkaline pH above 6.0 in mixed acid fermentation)",
+    "Bromothymol Blue (yellow at acidic pH below 6.0, green at neutral pH, deep blue at alkaline pH above 7.6)",
+    "Neutral Red (red/pink at acidic pH below 6.8, yellow/orange at neutral to alkaline pH above 8.0 on MacConkey)"
+  ],
+  "vmc_exp_288": [
+    "Spherical, thick-walled, terminal or intercalary chlamydospores arranged singly or in short linear chains",
+    "Slender, pencil-shaped, smooth, thin-walled macroconidia containing 2 to 4 internal transverse septa",
+    "Completely absent in culture, producing exclusively sterile vegetative hyphae without any conidia formation"
+  ],
+  "vmc_exp_291": [
+    "Internal spore-bearing tubular asci containing multiple single-celled haploid sexual ascospores on smear",
+    "Dense, non-encapsulated oval budding yeast cells forming extensive pseudohyphae and terminal chlamydospores",
+    "Distinct acid-fast staining bacilli demonstrating bright red intracellular rods with Ziehl-Neelsen staining"
+  ],
+  "vmc_exp_293": [
+    "Giant thick-walled spherules (20 to 100 um) densely packed with numerous small uninucleate endospores",
+    "Narrow-based budding oval yeast cells surrounded by a distinct halo and displaying multi-polar budding",
+    "Tiny (2 to 4 um) oval intracellular yeast forms packed densely within the cytoplasm of tissue macrophages"
+  ],
+  "vmc_exp_295": [
+    "D-Gluconic acid, which chelates divalent cations and inhibits mitochondrial electron transport complexes",
+    "L-Ascorbic acid, which acts as a physiological water-soluble antioxidant and reducing agent in cells",
+    "Free benzoic acid, which disrupts microbial plasma membrane proton gradients and inhibits citric acid cycle"
+  ],
+  "vmc_exp_298": [
+    "Dry gangrene and ischemic necrosis of the tail, ears, and distal hooves caused by ergot alkaloid toxicity",
+    "Acute pulmonary edema and severe hydrothorax secondary to ingestion of fumonisin B1 contaminated maize feed",
+    "Severe aplastic pancytopenia with bone marrow suppression caused by acute triterpenoid mycotoxicosis"
+  ],
+  "van_exp_070": [
+    "Femoral Nerve, Deep Femoral Artery, Medial Saphenous Vein, and surrounding lumbosacral plexus autonomic trunk branches",
+    "Radial Nerve, Deep Brachial Artery, Cephalic Vein, and adjacent regional brachial plexus collateral muscular branches",
+    "External Carotid Artery, Facial Nerve (CN VII), Parotid Salivary Duct, and regional superficial facial vein trunk"
+  ],
+  "van_exp_073": [
+    "Abundant keratinized stratified squamous epithelial lining completely devoid of any mucous secretory specialization",
+    "Complete absence of any mucous gland tissue resulting in crystal-clear, watery, non-viscous dilute urine output",
+    "Extensive dystrophic calcification and diffuse microscopic hydroxyapatite mineral concretions in all nephron tubules"
+  ],
+  "van_exp_144": [
+    "7 (1 single clavicular, 2 cervical, 2 thoracic, and 2 paired caudal abdominal air sacs)",
+    "8 (2 clavicular, 2 cervical, 2 cranial thoracic, and 2 caudal abdominal air sacs)",
+    "12 (2 cervical, 4 thoracic, 2 axillary, 2 pelvic, and 2 caudal abdominal air sacs)"
+  ],
+  "vmc_exp_040": [
+    "Adult guinea pig (Cavia porcellus), exhibiting localized granulomatous abscessation after 7 to 10 days",
+    "Syrian golden hamster (Mesocricetus auratus), which survives standard subcutaneous bacterial challenge",
+    "Laboratory rabbit (Oryctolagus cuniculus), developing chronic focal cutaneous necrotic lesions only"
+  ],
+  "vmc_exp_072": [
+    "Beta-toxin (inner zone of incomplete lysis) and Gamma-toxin (outer narrow bicomponent pore-forming hemolysin)",
+    "Enterotoxin A (staphylococcal food-poisoning superantigen) and TSST-1 (toxic shock syndrome pyrogenic exotoxin)",
+    "Delta-toxin (amphipathic surfactant membrane disruptor) and Panton-Valentine leukocidin (specific leukocyte cytotoxin)"
+  ],
+  "vmc_exp_107": [
+    "Long-distance airborne aerosol droplet transmission throughout confined communal barn housing units",
+    "Obligate venereal transmission via copulation with asymptomatic infected breeding bulls exclusively",
+    "Water-borne oral ingestion of persistent infectious environmental bacterial endospores from stagnant ponds"
+  ],
+  "vmc_exp_123": [
+    "Lacking the reverse transcriptase pol gene completely and requiring a helper virus for particle maturation",
+    "Carrying duplicated structural env envelope glycoproteins facilitating rapid pan-tropic cellular invasion",
+    "Incorporating the human papillomavirus E6 and E7 oncoproteins directly into its retroviral proviral genome"
+  ],
+  "vmc_exp_136": [
+    "Extensive diffuse necrotizing bronchitis and desquamation of ciliated respiratory epithelium with alveolar collapse",
+    "Massive acute immune-complex glomerulonephritis resulting in profound proteinuria and generalized dependent anasarca",
+    "Direct intravascular cytotoxic lysis of mature erythrocytes producing acute hemolytic anemia and icteric crisis"
+  ],
+  "vmc_exp_147": [
+    "The central nervous system microglia and astrocyte foot processes within the cerebral cortex, maintained by neurotrophins",
+    "The splenic red pulp sinusoids and germinal centers of mesenteric lymph nodes, maintained by persistent antigenic stimulation",
+    "The thyroid follicular epithelium and adrenal cortical glandular parenchyma, maintained by chronic pituitary hormone surges"
+  ],
+  "vmc_exp_163": [
+    "Possess a strict normal diploid karyotype and undergo mandatory cellular senescence and death after 30 to 50 serial passages",
+    "Require specialized daily inoculation into embryonated chicken eggs or irradiated feeder cell layers for viable maintenance",
+    "Are derived exclusively from differentiated plant callus tissues engineered with recombinant mammalian surface receptors"
+  ],
+  "vmc_exp_198": [
+    "Origin of vegetative replication (oriV) and integrated lysogenic prophage genome (encoding structural bacteriophage heads)",
+    "Compound transposon Tn5 (encoding kanamycin resistance) and flanking inverted insertion sequence IS1 regulatory modules",
+    "Constitutive repressor operator locus (lacO) and downstream multi-cistronic structural operon (encoding metabolic permeases)"
+  ],
+  "vmc_exp_212": [
+    "Enriched medium (containing whole defibrinated sheep blood and hemin) and Reducing medium (containing sodium thioglycollate)",
+    "Transport medium (containing non-nutritive semi-solid buffering salts) and Storage medium (containing cryoprotective glycerol)",
+    "Chemically defined minimal synthetic medium (containing pure inorganic salts) and Differential indicator medium (bromothymol blue)"
+  ],
+  "vmc_exp_231": [
+    "Professional antigen-presenting cells exclusively (dendritic cells, macrophages, B-cells), presenting exogenous peptides to CD4+ T-cells",
+    "Mature enucleated erythrocytes only, presenting membrane-bound complement regulatory proteins to circulating splenic macrophages",
+    "Thymic cortical epithelial cells strictly, presenting self-peptides to developing thymocytes during positive and negative selection"
+  ],
+  "vmc_exp_255": [
+    "Directly binds and induces widespread apoptotic lysis of immature host B-lymphocytes within fetal liver and bone marrow niches",
+    "Cross-links surface Fc-epsilon receptors on tissue mast cells, triggering uncontrolled immediate systemic anaphylactic degranulation",
+    "Irreversibly blocks Toll-like pattern recognition receptors on host macrophages, preventing transcription of pro-inflammatory cytokines"
+  ],
+  "vmc_exp_278": [
+    "Two distinct segmented viruses simultaneously coinfect a single host cell and exchange entire genomic RNA segments via reassortment",
+    "Heat treatment of viral stock suspensions at 56\u00b0C for thirty minutes denatures viral envelope proteins, destroying infectivity",
+    "Sub-neutralizing concentrations of antiviral antibodies paradoxically enhance viral entry into monocytes via Fc-receptor mediated uptake"
+  ],
+  "vmc_exp_286": [
+    "Endothrix invasion where chains of arthrospores are strictly confined inside the hair shaft, producing no fluorescence under Wood's lamp",
+    "Favic invasion characterized by intra-hyphal air bubbles, fat droplets, and yellow sulfur-colored saucer-shaped crusts termed scutula",
+    "Neo-endothrix invasion where arthrospores actively proliferate both internally and externally along deep subcutaneous hair bulb matrices"
+  ],
+  "van_q_020": [
+    "Caudal translation of tibia relative to the femoral condyles",
+    "Medial luxation of patella relative to femoral trochlea",
+    "Severe hyperextension and valgus deviation of the stifle joint"
+  ],
+  "van_q_030": [
+    "Third permanent lower molar (M3 in mandible)",
+    "Erupted canine tooth in the adult stallion (C1)",
+    "Deciduous first lower incisor (Di1 in foal)"
+  ],
+  "van_q_031": [
+    "Biceps femoris, semitendinosus, and gracilis muscles",
+    "Pectineus, adductor, and deep digital flexor muscles",
+    "Tibialis cranialis and peroneus tertius tendons"
+  ],
+  "van_q_042": [
+    "Renal vein and Internal iliac venous trunk",
+    "External jugular vein and Cephalic vein",
+    "Right azygos vein and Caudal vena cava"
+  ],
+  "van_q_050": [
+    "Facial nerve (CN VII) and Mandibular nerve (CN V3)",
+    "Phrenic nerve and Spinal accessory nerve (CN XI)",
+    "Vagus nerve (CN X) and Glossopharyngeal nerve (CN IX)"
+  ],
+  "van_q_051": [
+    "Internal jugular vein and Subclavian vein",
+    "Superficial cephalic vein and Brachial vein",
+    "Caudal auricular vein and Occipital vein"
+  ],
+  "van_q_058": [
+    "The primary and exclusive arterial supply to the brain",
+    "A direct continuous branch of the vertebral artery",
+    "Markedly hypertrophied and twice the caliber of maxillary artery"
+  ],
+  "van_q_067": [
+    "Smooth external surface with single renal crest (unipapillary)",
+    "Heart-shaped right kidney with smooth cortex (multipyramidal)",
+    "Elongated flattened kidney with internal calyces (multipapillary)"
+  ],
+  "van_q_078": [
+    "Rostral entrance of the cranial larynx at the glottis",
+    "Base of the tongue anterior to the hyoid apparatus",
+    "Intrapulmonary mesobronchus within the lung parenchyma"
+  ],
+  "van_q_084": [
+    "Smooth longitudinal folds without transverse rings (in the mare)",
+    "Interdigitating corkscrew mucosal pads (pulvini cervicales in sow)",
+    "Single transverse spiral fold with smooth canal (in the bitch)"
+  ],
+  "van_exp_002": [
+    "C13 T6 L5 S5 Cy18-20 (Avian vertebral formula)",
+    "C7 T13 L7 S3 Cy20-23 (Canine vertebral formula)",
+    "C7 T14-15 L6-7 S4 Cy20-23 (Porcine vertebral formula)"
+  ],
+  "van_exp_003": [
+    "Facial crest extending horizontally onto the nasal bone",
+    "Supraorbital process forming a complete bony orbital rim",
+    "Cornual process projecting caudolaterally from the parietal"
+  ],
+  "van_exp_004": [
+    "Medial aspect of the proximal extremity of the tibia",
+    "Lateral epicondyle of the humerus distal to the crest",
+    "Cranial border of the neck of the scapula near tuber"
+  ],
+  "van_exp_005": [
+    "Large single central canal for the transmission of spinal cord",
+    "Nutrient foramen dedicated strictly to medullary blood supply",
+    "Muscular fossa providing extensive attachment for masseter"
+  ],
+  "van_exp_006": [
+    "Ox and Sheep (Ruminantia)",
+    "Dog and Cat (Carnivora)",
+    "Pig and Camel (Suina / Tylopoda)"
+  ],
+  "van_exp_011": [
+    "Distal extremity of the femur (condyles and trochlea)",
+    "Medial malleolus of the distal tibia and fibula",
+    "Radial tuberosity of the proximal radius and ulna"
+  ],
+  "van_exp_012": [
+    "Spina scapulae is low and terminates without an acromion",
+    "Possesses a distinct hamate and suprahamate acromial process",
+    "Tuber spinae is absent and the spine divides scapula equally"
+  ],
+  "van_exp_014": [
+    "Shaft is fused completely to radius along its entire length",
+    "Proximal end is completely absent while distal end forms styloid",
+    "Distal end articulates with the intermediate carpal bone only"
+  ],
+  "van_exp_015": [
+    "Four digits (Digits II, III, IV, and V with small dewclaws)",
+    "Two fully developed weight-bearing functional digits (Digits III and IV)",
+    "Three digits (Digit III primary, with rudimentary Digits II and IV)"
+  ],
+  "van_exp_016": [
+    "Metacarpal III and IV (bearing distinct medial and lateral splints)",
+    "Metacarpal I and V (forming prominent accessory weight-bearing bones)",
+    "Metacarpal II and V (present as thin proximal rudimentary splints)"
+  ],
+  "van_exp_017": [
+    "Extensor process on the dorsal articular border of the proximal phalanx",
+    "Flexor tuberosity on the palmar surface of the middle phalanx",
+    "Crest of the ungual process surrounded by the ungual hood"
+  ],
+  "van_exp_021": [
+    "Two functional weight-bearing digits (Digits III and IV)",
+    "Four functional digits (Digits II, III, IV, and V bearing weight)",
+    "Single solitary functional digit (Digit III supporting limb)"
+  ],
+  "van_exp_022": [
+    "Lateral malleolus of the distal fibular shaft",
+    "Olecranon tuberosity of the proximal ulna",
+    "Greater trochanter of the proximal femur"
+  ],
+  "van_exp_023": [
+    "Trochanter tertius (third trochanter) on lateral shaft",
+    "Fovea capitis femoris located on articular head",
+    "Supracondyloid fossa on the caudal distal shaft"
+  ],
+  "van_exp_024": [
+    "Tuber calcanei of the fibular tarsal bone",
+    "Tuber coxae of the iliac cranial wing",
+    "Patella (kneecap) gliding on trochlea"
+  ],
+  "van_exp_025": [
+    "Single large bone formed by total fusion of all seven tarsals",
+    "Eight bones arranged in three distinct transverse rows",
+    "Five bones (Tibial, Fibular, Central, fused I+II, and IV)"
+  ],
+  "van_exp_026": [
+    "Ox and Sheep (Ruminants)",
+    "Horse (Equine)",
+    "Pig (Porcine)"
+  ],
+  "van_exp_028": [
+    "Ox (Bovine, situated along the medial pubic crest)",
+    "Horse (Equine, located at the caudal border of pubis)",
+    "Pig (Porcine, forming an ossified ventral symphysis)"
+  ],
+  "van_exp_029": [
+    "Synarthrosis (immovable cranial suture or synchondrosis)",
+    "Amphiarthrosis (slightly movable intervertebral cartilaginous joint)",
+    "Gomphosis (specialized fibrous dentoalveolar peg-and-socket joint)"
+  ],
+  "van_exp_030": [
+    "Synovial hinge joint (Ginglymus permitting flexion/extension)",
+    "Suture joint (Gomphosis binding cranial bones immovably)",
+    "Fibrous syndesmosis (connected solely by interosseous ligaments)"
+  ],
+  "van_exp_031": [
+    "Ox (Bovine, possessing only the round ligament / ligamentum teres)",
+    "Dog (Canine, possessing an extensive transverse acetabular ligament)",
+    "Pig (Porcine, possessing a wide capsular ligament without accessory bands)"
+  ],
+  "van_exp_032": [
+    "Sacrotuberous ligament running from the sacrum to the ischiatic tuber",
+    "Dorsal sacroiliac ligament reinforcing the dorsal pelvic margin",
+    "Inguinal ligament spanning the caudal abdominal internal margin"
+  ],
+  "van_exp_033": [
+    "Collateral ligaments of the femorotibial joint",
+    "Meniscofemoral ligament of the lateral meniscus",
+    "Transverse ligament connecting cranial meniscal horns"
+  ],
+  "van_exp_034": [
+    "Three distinct patellar ligaments (Medial, Middle, and Lateral)",
+    "Two patellar ligaments (Cranial and Caudal patellar bands)",
+    "Four patellar ligaments forming a cruciate fibrous meshwork"
+  ],
+  "van_exp_035": [
+    "Femorotibial and femoropatellar joint compartments",
+    "Tibiotarsal (tarsocrural) joint compartment",
+    "Proximal and distal intertarsal joint compartments"
+  ],
+  "van_exp_036": [
+    "Masseter muscle (closing the jaw with powerful lateral chewing)",
+    "Temporalis muscle (raising the mandible vertically against maxilla)",
+    "Medial pterygoid muscle (elevating and adducting the mandible)"
+  ],
+  "van_exp_037": [
+    "Supraspinatus muscle (acting across the shoulder joint)",
+    "Biceps brachii muscle (acting across shoulder and elbow)",
+    "Latissimus dorsi muscle (retracting the forelimb caudally)"
+  ],
+  "van_exp_038": [
+    "Horse (Equus caballus) and Ox (Bos taurus)",
+    "Dog (Canis familiaris) and Sheep (Ovis aries)",
+    "Camel (Camelus dromedarius) and Goat (Capra hircus)"
+  ],
+  "van_exp_041": [
+    "Iliopsoas muscle inserting onto the lesser trochanter",
+    "Quadriceps femoris muscle inserting onto the patella",
+    "Biceps femoris muscle inserting onto the calcaneus"
+  ],
+  "van_exp_042": [
+    "Cranial tibial muscle and Peroneus longus muscle",
+    "Gastrocnemius muscle and Soleus muscle tendons",
+    "Gracilis muscle and Pectineus muscle aponeuroses"
+  ],
+  "van_exp_044": [
+    "Inability to extend the elbow joint with dropped shoulder posture",
+    "Loss of cutaneous sensation over the caudolateral thigh skin",
+    "Severe hyperflexion of the hock with inability to extend digits"
+  ],
+  "van_exp_045": [
+    "Inability to bear weight due to collapse of stifle flexion",
+    "Hyperflexion of the hock joint with knuckling of distal fetlock",
+    "Lateral abduction of the thigh with inability to adduct limb"
+  ],
+  "van_exp_046": [
+    "Loss of the patellar tendon reflex (quadriceps femoris paralysis)",
+    "Inability to flex the hip joint and retract the abdominal wall",
+    "Severe overextension of the hock with hyperflexion of digits"
+  ],
+  "van_exp_048": [
+    "Parotid salivary gland (situated ventral to the ear canal)",
+    "Submandibular lymph node (located at the angle of mandible)",
+    "External jugular vein (running within the jugular furrow)"
+  ],
+  "van_exp_049": [
+    "Deep circumflex iliac artery and internal abdominal oblique",
+    "Caudal epigastric artery and external abdominal oblique",
+    "External pudendal artery and superficial inguinal ring"
+  ],
+  "van_exp_050": [
+    "Superficial and deep digital flexor muscle tendons",
+    "Suspensory ligament (interosseous medius muscle)",
+    "Biceps brachii and lacertus fibrosus tendinous cord"
+  ],
+  "van_exp_051": [
+    "Peroneus tertius and superficial digital flexor tendons",
+    "Gastrocnemius and deep digital flexor muscle tendons",
+    "Cranial tibial muscle and lateral digital extensor tendons"
+  ],
+  "van_exp_052": [
+    "Ventral border of the sternum along the costal cartilages",
+    "Dorsal midline of the thoracic and lumbar vertebral spines",
+    "Lateral border of the ribs forming the costal arch line"
+  ],
+  "van_exp_053": [
+    "Linea alba (median fibrous raphe of the ventral abdomen)",
+    "Prepubic tendon (anchoring the rectus abdominis to pelvis)",
+    "Thoracolumbar fascia (investing the epaxial musculature)"
+  ],
+  "van_exp_054": [
+    "Femoral hernia (protrusion through the vascular lacuna)",
+    "Umbilical hernia (protrusion through the ventral umbilical ring)",
+    "Perineal hernia (weakness between levator ani and coccygeus)"
+  ],
+  "van_exp_055": [
+    "Filiform papillae (mechanical, slender, cornified papillae)",
+    "Conical papillae (large, sharp mechanical buccal papillae)",
+    "Lenticular papillae (flattened, lens-shaped mechanical papillae)"
+  ],
+  "van_exp_056": [
+    "Ox and Sheep (Ruminants possessing a distinct torus linguae)",
+    "Dog and Cat (Carnivores possessing a dorsal median lingual groove)",
+    "Pig and Camel (Omnivores possessing paired foliate papillae)"
+  ],
+  "van_exp_057": [
+    "Lyssa (fibrocartilaginous cord embedded in ventral carnivore tongue)",
+    "Cartilago dorsi linguae (median dorsal fibrous lingual bar in horse)",
+    "Torus linguae (dorsal muscular lingual prominence in ruminants)"
+  ],
+  "van_exp_058": [
+    "Mandibular salivary gland (mixed seromucous gland in jaw angle)",
+    "Sublingual salivary gland (polystomatic and monostomatic parts)",
+    "Zygomatic salivary gland (dorsal buccal gland in carnivores)"
+  ],
+  "van_exp_060": [
+    "Infundibulum (deep enamel invagination on occlusal table)",
+    "Pulp cavity (central vascular chamber containing odontoblasts)",
+    "Secondary dentin (protective reparative dentin covering pulp)"
+  ],
+  "van_exp_062": [
+    "Simple monogastric stomach with extensive non-glandular pars esophagea",
+    "Composite stomach with three distinct glandular mucosal compartments",
+    "Ruminant stomach lacking an omasal compartment (pseudoruminant)"
+  ],
+  "van_exp_063": [
+    "Left paralumbar fossa and abdominal wall (Rumen atrium and dorsal sac)",
+    "Ventral abdominal floor caudal to the xiphoid cartilage (Abomasum)",
+    "Right hypochondriac region medial to the 7th-9th ribs (Omasum)"
+  ],
+  "van_exp_064": [
+    "Esophageal groove (Sulcus reticuli) directly into the omasal canal",
+    "Ventral ruminal sac via the large ruminoreticular orifice",
+    "Pyloric sphincter directly into the cranial duodenal ampulla"
+  ],
+  "van_exp_065": [
+    "Glandular stomach producing gastric acid, pepsin, and lysozyme",
+    "Fermentation vat lined by stratified squamous keratinized epithelium",
+    "Mechanical grinding organ containing ingested gravel and stones"
+  ],
+  "van_exp_066": [
+    "Equine ascending colon (divided into four large parallel segments)",
+    "Canine ascending colon (simple, short, straight segment)",
+    "Feline ascending colon (reduced, non-sacculated tube)"
+  ],
+  "van_exp_067": [
+    "Lacks external interlobar fissures, so cranial and middle lobes are fused into a single lobe",
+    "Divided into four separate cranial lobes and three large caudal lobes by deep fissures",
+    "Consists of a single undivided continuous lung mass without any accessory lobules"
+  ],
+  "van_exp_068": [
+    "Right side in the Ox, and both sides in the Dog and Horse",
+    "Left side exclusively in the Horse, and absent in the Dog",
+    "Bilateral and symmetrical in the Pig, and absent in the Ox"
+  ],
+  "van_exp_069": [
+    "Eustachian auditory tubes, each having a volume of approximately 300 to 500 mL",
+    "Maxillary sinuses, each holding approximately 50 to 75 mL of serous fluid",
+    "Frontal sinus diverticula, holding over 1,000 mL of mucosal secretions"
+  ],
+  "van_exp_071": [
+    "Externally Lobated with 15 to 25 distinct superficial lobes, and lacks a renal pelvis",
+    "Smooth multipyramidal kidney with single central renal pelvis and crest",
+    "Heart-shaped right kidney and bean-shaped left kidney with terminal calyces"
+  ],
+  "van_exp_072": [
+    "Heart-shaped right kidney, while the left kidney is bean-shaped",
+    "Lobated right kidney, while the left kidney is completely smooth",
+    "Elongated flattened right kidney, while left kidney is spherical"
+  ],
+  "van_exp_075": [
+    "Sigmoid Flexure (Flexura sigmoidea of penis)",
+    "Corpus cavernosum (Erectile venous cavernous tissue)",
+    "Os penis / Baculum (Splanchnic penile bone)"
+  ],
+  "van_exp_076": [
+    "Processus urethrae (Vermiform urethral appendage)",
+    "Corona glandis (Expanded dorsal rim of the glans)",
+    "Bulbus glandis (Spherical vascular erectile bulb)"
+  ],
+  "van_exp_077": [
+    "Spiral corkscrew terminal twist that locks into the sow's cervix",
+    "Prominent os penis bone grooved ventrally for the urethra",
+    "Folded prepuce containing a dorsal preputial diverticulum sac"
+  ],
+  "van_exp_079": [
+    "Convex in the Cow, but Concave (cup-shaped) in the Ewe",
+    "Flat in the Cow, but Highly Branched (villous) in the Ewe",
+    "Zonary in the Cow, but Diffuse and Follicular in the Ewe"
+  ],
+  "van_exp_080": [
+    "Interdigitating mucosal prominences (Pulvini cervicales) that occlude the lumen",
+    "Transverse circular mucosal rings (annular folds) numbering 3 to 4 in total",
+    "Smooth longitudinal mucosal folds extending continuously into the fornix"
+  ],
+  "van_exp_082": [
+    "Right Ventricle (connecting the interventricular septum to parietal wall)",
+    "Left Ventricle (anchoring the mitral valve cusps to papillary muscles)",
+    "Right Atrium (spanning the terminal crest to the coronary sinus valve)"
+  ],
+  "van_exp_086": [
+    "L1 to L4 (between the crura of the diaphragm in dorsal abdomen)",
+    "T10 to T13 (adjacent to the thoracic duct in posterior mediastinum)",
+    "L5 to S2 (within the pelvic canal dorsal to the internal iliac vessels)"
+  ],
+  "van_exp_087": [
+    "Superficial Cervical Lymph Node (Prescapular lymph node center)",
+    "Subiliac Lymph Node (Prefemoral lymph node in flank fold)",
+    "Popliteal Lymph Node (Deep caudal stifle lymph node center)"
+  ],
+  "van_exp_088": [
+    "Tensor fasciae latae muscle, in the fold of the flank",
+    "Biceps brachii muscle, at the cranial border of shoulder",
+    "Sternocephalicus muscle, along the ventral jugular furrow"
+  ],
+  "van_exp_089": [
+    "Splenic vein, Cranial Mesenteric vein, and Caudal Mesenteric vein",
+    "Renal vein, Hepatic vein, and Phrenicoabdominal venous trunk",
+    "Internal Iliac vein, External Iliac vein, and Caudal Vena Cava"
+  ],
+  "van_exp_091": [
+    "Cribriform plate of the Ethmoid bone (Lamina cribrosa)",
+    "Hypoglossal canal of the Occipital bone (Canalis hypoglossi)",
+    "Stylomastoid foramen of the Temporal bone (Foramen stylomastoideum)"
+  ],
+  "van_exp_092": [
+    "Optic Canal of the Presphenoid bone (Canalis opticus)",
+    "Foramen orbitorotundum of the Sphenoid complex bone",
+    "Foramen lacerum of the Basioccipital and Temporal bones"
+  ],
+  "van_exp_093": [
+    "CN III (Oculomotor), CN IV (Trochlear), and CN VI (Abducent)",
+    "CN II (Optic), CN V (Trigeminal), and CN VII (Facial)",
+    "CN IX (Glossopharyngeal), CN X (Vagus), and CN XII (Hypoglossal)"
+  ],
+  "van_exp_094": [
+    "Foramen Ovale (or notch in the foramen lacerum)",
+    "Foramen Rotundum (transmitting maxillary nerve CN V2)",
+    "Orbital Fissure (transmitting ophthalmic nerve CN V1)"
+  ],
+  "van_exp_095": [
+    "Cranial Nerve VII (Facial Nerve), exiting through the Stylomastoid Foramen",
+    "Cranial Nerve V (Trigeminal Nerve), exiting through the Oval Foramen",
+    "Cranial Nerve XII (Hypoglossal Nerve), exiting through the Hypoglossal Canal"
+  ],
+  "van_exp_096": [
+    "Cricoarytenoideus Dorsalis muscle (CAD, the sole laryngeal abductor)",
+    "Cricoarytenoideus Lateralis muscle (CAL, laryngeal adductor muscle)",
+    "Thyroarytenoideus muscle (vocal fold relaxer and sphincter muscle)"
+  ],
+  "van_exp_099": [
+    "Obturator Nerve inside the pelvic canal against the shaft of the ilium",
+    "Femoral Nerve as it penetrates the deep lacuna musculorum",
+    "Pudendal Nerve within the ischiorectal fossa near the pelvic outlet"
+  ],
+  "van_exp_101": [
+    "Suprascapular Nerve as it winds around the cranial border of scapula",
+    "Radial Nerve as it enters the spiral groove of the humerus shaft",
+    "Musculocutaneous Nerve as it passes between coracobrachialis heads"
+  ],
+  "van_exp_102": [
+    "Femoral Nerve (innervating the Quadriceps Femoris muscle)",
+    "Sciatic Nerve (innervating the Hamstring and distal limb muscles)",
+    "Peroneal Nerve (innervating the Cranial Tibial and digital extensors)"
+  ],
+  "van_exp_103": [
+    "Oculosympathetic pathway (cervical sympathetic trunk / T1-T3)",
+    "Parasympathetic oculomotor pathway (Edinger-Westphal nucleus / CN III)",
+    "Trigeminal sensory pathway (Ophthalmic division CN V1 axons)"
+  ],
+  "van_exp_104": [
+    "First Intercoccygeal space (Co1-Co2) or Sacrococcygeal space (S5-Co1)",
+    "Lumbosacral space (L6-S1 in ruminants / L7-S1 in carnivores)",
+    "Interlumbar space between Lumbar 4 and Lumbar 5 vertebrae"
+  ],
+  "van_exp_105": [
+    "Lumbar 7 (L7) and Sacral 1 (S1) vertebrae (Lumbosacral space)",
+    "Thoracic 13 (T13) and Lumbar 1 (L1) vertebrae (Thoracolumbar space)",
+    "Lumbar 3 (L3) and Lumbar 4 (L4) vertebrae (Mid-lumbar space)"
+  ],
+  "van_exp_106": [
+    "Atlanto-Occipital Space (between the occipital condyles and atlas)",
+    "Atlanto-Axial Space (between the atlas and axis dorsal spines)",
+    "Lumbosacral Space (between the last lumbar vertebra and sacrum)"
+  ],
+  "van_exp_107": [
+    "Relaxation and desensitization of the retractor penis muscle",
+    "Total motor paralysis of the hindlimbs and recumbency of the bull",
+    "Complete sympathetic block causing severe systemic hypotension"
+  ],
+  "van_exp_108": [
+    "Zygomaticotemporal nerve (branch of Trigeminal CN V1 / V2)",
+    "Infratrochlear nerve (branch of Nasociliary nerve CN V1)",
+    "Supraorbital nerve (branch of Frontal nerve of Trigeminal)"
+  ],
+  "van_exp_109": [
+    "T13 (Costoabdominal), L1 (Iliohypogastric), and L2 (Ilioinguinal) nerves",
+    "L3 (Genitofemoral), L4 (Femoral), and L5 (Obturator) spinal nerves",
+    "T10, T11, and T12 intercostal nerves along the caudal costal arch"
+  ],
+  "van_exp_110": [
+    "Sternocephalicus muscle (specifically sternomandibularis in ox)",
+    "Brachiocephalicus muscle (cleidomastoideus and cleido-occipitalis)",
+    "Omohyoideus muscle (subclavius and omohyoid cervical fascia)"
+  ],
+  "van_exp_111": [
+    "Fibrocartilage (e.g., intervertebral discs and pelvic symphysis)",
+    "Costal cartilage (hyaline cartilage of the thoracic wall ribs)",
+    "Elastic cartilage (auricular cartilage of the external ear pinna)"
+  ],
+  "van_exp_112": [
+    "Volkmann's canals (Perforating vascular channels)",
+    "Haversian canals (Longitudinal central osteonal canals)",
+    "Canaliculi (Microscopic osteocyte cytoplasmic processes)"
+  ],
+  "van_exp_113": [
+    "One central T-tubule flanked by two sarcoplasmic reticulum terminal cisternae",
+    "Two longitudinal T-tubules flanked by a single central sarcoplasmic cisterna",
+    "Three parallel myofibrils encircled by continuous subsarcolemmal caveolae"
+  ],
+  "van_exp_120": [
+    "Pacinian corpuscles (Lamellar mechanoreceptors sensing vibration)",
+    "Meissner's corpuscles (Tactile encapsulated receptors sensing light touch)",
+    "Ruffini corpuscles (Spindle-shaped mechanoreceptors sensing skin stretch)"
+  ],
+  "van_exp_121": [
+    "Space of Disse (Perisinusoidal space containing Ito / stellate cells)",
+    "Space of Mall (Periportal space between connective tissue and hepatocytes)",
+    "Canal of Hering (Bile ductule lined by cholangiocytes and hepatocytes)"
+  ],
+  "van_exp_124": [
+    "Hassall's corpuscle (Thymic corpuscle of degenerated reticular cells)",
+    "Malpighian corpuscle (Splenic lymphoid follicle with central arteriole)",
+    "Herring body (Neurosecretory terminal dilatations in neurohypophysis)"
+  ],
+  "van_exp_127": [
+    "Type II Pneumocyte (Great alveolar cell synthesizing surfactant)",
+    "Type I Pneumocyte (Squamous cell providing gas exchange barrier)",
+    "Alveolar macrophage (Dust cell phagocytosing particulate debris)"
+  ],
+  "van_exp_129": [
+    "The axial skeleton (vertebrae, neural arches, and ribs)",
+    "All skeletal musculature of the body trunk and limbs",
+    "Dermis of the dorsal trunk skin and subcutaneous connective tissue"
+  ],
+  "van_exp_133": [
+    "Ligamentum teres hepatis (Round ligament of the liver)",
+    "Ligamentum venosum (Fibrous remnant of the ductus venosus)",
+    "Ligamentum arteriosum (Fibrous remnant of the ductus arteriosus)"
+  ],
+  "van_exp_135": [
+    "Paramesonephric duct (M\u00fcllerian duct forming uterus and oviducts)",
+    "Mesonephric duct (Wolffian duct forming epididymis and deferent duct)",
+    "Pronephric duct (Transient non-functional cranial embryonic pronephros)"
+  ],
+  "van_exp_140": [
+    "Right and Left Clavicles (along with the median interclavicle)",
+    "Two Coracoid bones (struts bracing the shoulder against sternum)",
+    "Two Scapulae (sword-like blade bones dorsal to the rib cage)"
+  ],
+  "van_exp_141": [
+    "Pectoralis muscle (Pectoralis major causing the wing downstroke)",
+    "Supracoracoideus muscle (Deep pectoral causing the wing upstroke)",
+    "Latissimus dorsi muscle (Superficial dorsal muscle retracting wing)"
+  ],
+  "van_exp_143": [
+    "Parabronchi (Air capillaries) with unidirectional airflow",
+    "Blind alveolar saccules with bidirectional tidal airflow",
+    "Alveolar ducts and sacs terminating in respiratory bronchioles"
+  ],
+  "van_exp_145": [
+    "Koilin layer (hardened protein secreted by mucosal tubular glands)",
+    "Keratinized stratified squamous epithelium with stratum corneum",
+    "Dense mucosal glycocalyx layer with high neutral mucin content"
+  ],
+  "vpp_q_006": [
+    "Acute diffuse toxic hepatitis (Aflatoxin B1 hepatotoxicosis)",
+    "Biliary cirrhosis with marked portal fibrosis (Fascioliasis)",
+    "Diffuse severe hepatic lipidosis (Bovine fatty liver syndrome)"
+  ],
+  "vpp_q_007": [
+    "Systemic fever, Peripheral leukopenia, and Severe thrombocytopenia",
+    "Marked hyperglycemia, Hypokalemia, and Generalized dependent edema",
+    "Arterial hypotension, Microcytic anemia, and Acute hypocalcemia"
+  ],
+  "vpp_q_015": [
+    "Acute lytic viral infections and Type IV cell-mediated delayed responses",
+    "Ischemic tissue infarction and massive localized coagulative necrosis",
+    "Acute pyogenic bacterial septicemia and purulent suppurative abscesses"
+  ],
+  "vpp_q_016": [
+    "Serous hydropericardium (e.g. Heartwater / Ehrlichia ruminantium infection)",
+    "Fatty infiltration of myocardium (e.g. Severe chronic feline lipidosis)",
+    "Myocardial infarction (e.g. Acute coronary thrombotic arterial occlusion)"
+  ],
+  "vpp_q_018": [
+    "Presence of an intact fibrous capsule and slow expansile growth",
+    "High mitotic figures without any nuclear pleomorphism or atypia",
+    "Rapid volumetric enlargement solely through cellular hyperplasia"
+  ],
+  "vpp_q_021": [
+    "Proto-oncogene protein accelerating G1/S transition via continuous cyclin D1 transcription",
+    "Receptor tyrosine kinase stimulating continuous downstream Ras-Raf-MAPK signal transduction",
+    "DNA mismatch repair endonuclease correcting spontaneous base insertion and deletion errors"
+  ],
+  "vpp_q_022": [
+    "Infectious interdigital pododermatitis and severe deep interdigital necrobacillosis (Foot rot)",
+    "Benign cutaneous fibropapillomatosis restricted exclusively to teats and penile epithelium",
+    "Enzootic bovine leukosis causing multicentric lymphosarcoma in abomasum and right atrium"
+  ],
+  "vpp_q_023": [
+    "Avian Leukosis Virus (an Alpharetrovirus)",
+    "Infectious Bursal Disease Virus (an Avibirnavirus)",
+    "Infectious Bronchitis Virus (a Gammacoronavirus)"
+  ],
+  "vpp_q_024": [
+    "Avian Herpesvirus (Marek's Disease Virus - MDV)",
+    "Avian Adenovirus (Inclusion Body Hepatitis Virus)",
+    "Avian Poxvirus (Fowlpox Virus / Chordopoxvirinae)"
+  ],
+  "vpp_q_025": [
+    "38 chromosomes (compared to the normal feline 38)",
+    "78 chromosomes (normal unaltered canine karyotype)",
+    "96 chromosomes (hyperdiploid polyploid chromosomal state)"
+  ],
+  "vpp_q_028": [
+    "Discrete crater-like button ulcers on the ileocecal valve with surrounding mucosal hemorrhage",
+    "Severe hemorrhagic pseudomembranes with diffuse mucosal sloughing throughout small intestine",
+    "Dense fibrinous luminal casts with acute transmural infarction and widespread gas crepitation"
+  ],
+  "vpp_q_034": [
+    "Foot and Mouth Disease (Aphthovirus infection)",
+    "Bovine Malignant Catarrhal Fever (Ovine herpesvirus-2)",
+    "Infectious Bovine Rhinotracheitis (Bovine herpesvirus-1)"
+  ],
+  "vpp_q_036": [
+    "Cor bovinum (marked eccentric ventricular hypertrophy)",
+    "Nutmeg heart (chronic passive congestion with myofibrillar atrophy)",
+    "Bread-and-butter heart (diffuse fibrinous pericarditis with shaggy deposits)"
+  ],
+  "vpp_q_037": [
+    "Ascaris suum (larval migration causing milk spots)",
+    "Haemonchus contortus (abomasal blood feeding)",
+    "Echinococcus granulosus (hydatid cyst formation)"
+  ],
+  "vpp_q_040": [
+    "Mechanical lymphatic obstruction of the cervical trunk caused by heavy adult worm encystment",
+    "Right-sided congestive heart failure leading to severe central systemic venous hypertension",
+    "Renal glomerular amyloidosis collapsing selective macromolecular capillary charge filtration"
+  ],
+  "vpp_exp_006": [
+    "Primary excessive de novo synthesis of ketone bodies within the ruminal papillae",
+    "Congenital familial deficiency of apolipoprotein B-100 preventing chylomicron assembly",
+    "Severe absolute dietary deficiency of methionine and choline in high-forage rations"
+  ],
+  "vpp_exp_010": [
+    "Multicentric malignant lymphoma (lymphosarcoma of B- or T-cell lineage)",
+    "Cutaneous squamous cell carcinoma with regional lymph node metastasis",
+    "Visceral hemangiosarcoma originating from splenic vascular endothelial cells"
+  ],
+  "vpp_exp_011": [
+    "Degenerated mitochondrial remnants within autophagic lysosomal vacuoles",
+    "Aggregated actin filaments forming structural cytoskeleton condensations",
+    "Phagocytosed bacterial fragments inside secondary heterophagic lysosomes"
+  ],
+  "vpp_exp_013": [
+    "Complete enzymatic dissolution of all cell margins forming liquid necrotic malacia",
+    "Extensive granulomatous cuffing composed of epithelioid macrophages and giant cells",
+    "Presence of abundant friable, cheesy, amorphous caseous necrotic debris"
+  ],
+  "vpp_exp_016": [
+    "Langhans giant cells (multinucleated horseshoe macrophages)",
+    "Kupffer cells (fixed sinusoidal liver macrophages)",
+    "Ito cells (perisinusoidal hepatic fat-storing cells)"
+  ],
+  "vpp_exp_017": [
+    "Granulomatous lymphadenitis with extensive epithelioid macrophage sheets",
+    "Purulent suppurative microabscesses packed with degenerate heterophils",
+    "Fibrinous serositis with organizing fibroblastic granulation tissue"
+  ],
+  "vpp_exp_020": [
+    "Lipofuscin (brown wear-and-tear pigment derived from lipid peroxidation)",
+    "Hemosiderin (golden-yellow iron storage pigment derived from hemoglobin)",
+    "Melanin (brown-black pigment synthesized by melanocytes via tyrosinase)"
+  ],
+  "vpp_exp_021": [
+    "Perls' Prussian blue stain demonstrating brilliant azure-blue ferric iron",
+    "Masson's trichrome stain demonstrating bright green collagen fiber bundles",
+    "Periodic acid-Schiff (PAS) stain demonstrating magenta glycol-glycoproteins"
+  ],
+  "vpp_exp_022": [
+    "Precipitation of calcium salts in normal tissues due to systemic hypercalcemia",
+    "Deposition of insoluble urate crystals in articular and periarticular tissues",
+    "Extracellular aggregation of fibrillar beta-pleated sheet amyloid proteins"
+  ],
+  "vpp_exp_024": [
+    "Exogenous inhalation of airborne silica particles (Silicosis in working equids)",
+    "Endogenous accumulation of porphyrin precursors in dental enamel and bone",
+    "Systemic copper poisoning causing severe acute intravascular hemolytic crisis"
+  ],
+  "vpp_exp_025": [
+    "Severe direct primary destruction of osteocytes and osteoblasts by bacterial toxins",
+    "Congenital absolute metabolic deficiency of acid phosphatase in osteoclasts",
+    "Excessive autonomous calcitonin secretion by thyroid parafollicular C-cells"
+  ],
+  "vpp_exp_027": [
+    "Post-mortem blood clotting forming smooth, glistening chicken-fat clots",
+    "Hypertrophy of vascular smooth muscle cells narrowing the vascular lumen",
+    "Extravasation of red blood cells through damaged capillary endothelial gaps"
+  ],
+  "vpp_exp_028": [
+    "Deep red, gelatinous, soft clot unattached to vessel wall and easily removed",
+    "Dense fibrinous vegetation encrusted with large colonies of staphylococci",
+    "Atherosomatous plaque composed of lipid core covered by a fibrous cap"
+  ],
+  "vpp_exp_031": [
+    "Acute right-sided congestive heart failure and severe tricuspid valve insufficiency",
+    "Portal vein thrombosis and chronic post-hepatic caval vein obstruction",
+    "Systemic arteriolar vasoconstriction induced by severe catecholamine release"
+  ],
+  "vpp_exp_032": [
+    "Acute pulmonary edema with interlobular septal distension and alveolar foam",
+    "Severe chronic passive congestion with 'nutmeg liver' and ascites",
+    "Bilateral renal cortical necrosis with petechial hemorrhages"
+  ],
+  "vpp_exp_033": [
+    "Severe acute anemic anoxia reducing oxygen-carrying capacity of blood",
+    "Histotoxic hypoxia caused by cyanide poisoning inhibiting cytochrome oxidase",
+    "Hypoxemic hypoxia caused by high altitude or severe pulmonary hypoventilation"
+  ],
+  "vpp_exp_034": [
+    "Complete detachment and systemic migration of an intravascular thrombus",
+    "Rupture of an arterial wall with massive extravasation into tissue spaces",
+    "Transient functional spasm of muscular arteries relieving distal perfusion"
+  ],
+  "vpp_exp_035": [
+    "Coagulative necrosis (except in the central nervous system where liquefaction occurs)",
+    "Caseous necrosis with extensive dystrophic calcification and fibrosis",
+    "Fibrinoid necrosis limited strictly to the tunica adventitia of large veins"
+  ],
+  "vpp_exp_037": [
+    "Marked vasodilation and increased vascular permeability mediated by chemical mediators",
+    "Widespread intravascular microvascular thrombosis and total capillary occlusion",
+    "Selective accumulation of dense fibrous connective tissue and collagen remodeling"
+  ],
+  "vpp_exp_038": [
+    "Rolling along endothelium -> Firm adhesion -> Extravasation (diapedesis) -> Chemotaxis",
+    "Chemotaxis -> Firm adhesion -> Opsonization -> Intracellular phagolysosomal killing",
+    "Extravasation -> Rolling -> Degranulation -> Secretion of neutralizing antibodies"
+  ],
+  "vpp_exp_039": [
+    "P-selectin and E-selectin (mediating leukocyte rolling on endothelial cells)",
+    "ICAM-1 and VCAM-1 (mediating firm leukocyte adhesion and arrest)",
+    "PECAM-1 / CD31 (mediating leukocyte transendothelial migration)"
+  ],
+  "vpp_exp_040": [
+    "Leukocyte Adhesion Deficiency (BLAD / CLAD due to CD18 beta-2 integrin defect)",
+    "Severe Combined Immunodeficiency (SCID due to DNA-PKcs catalytic defect)",
+    "Ch\u00e9diak-Higashi syndrome (due to LYST lysosomal trafficking gene defect)"
+  ],
+  "vpp_exp_041": [
+    "C3a, C4a, and C5a (anaphylatoxins stimulating histamine release from mast cells)",
+    "Bradykinin (vasoactive peptide stimulating vascular permeability and pain)",
+    "Leukotriene B4 (LTB4, potent lipid mediator of neutrophil chemotaxis)"
+  ],
+  "vpp_exp_042": [
+    "Prostaglandin E2 (PGE2) acting on hypothalamic thermoregulatory centers",
+    "Histamine acting on H1 receptors of peripheral vascular endothelial cells",
+    "Thromboxane A2 (TXA2) stimulating platelet aggregation and vasoconstriction"
+  ],
+  "vpp_exp_043": [
+    "C5b-6-7-8-9 (Membrane Attack Complex / MAC causing direct osmotic cell lysis)",
+    "C3b and iC3b (opsonins facilitating phagocytosis by tissue macrophages)",
+    "C3a and C5a (anaphylatoxins triggering mast cell degranulation)"
+  ],
+  "vpp_exp_044": [
+    "Lipoxygenase pathway producing leukotrienes (LTB4, LTC4, LTD4, LTE4)",
+    "Cyclooxygenase pathway producing prostaglandins and thromboxanes (PGE2, PGF2a, TXA2)",
+    "Nitric oxide synthase pathway producing peroxynitrite and reactive nitrogen species"
+  ],
+  "vpp_exp_046": [
+    "Serous inflammation (marked by clear, watery, protein-poor transudate)",
+    "Suppurative inflammation (marked by purulent exudate rich in degenerate neutrophils)",
+    "Granulomatous inflammation (marked by epithelioid macrophages and multinucleated cells)"
+  ],
+  "vpp_exp_047": [
+    "Pericardial and peritoneal sacs (producing shaggy bread-and-butter exudates)",
+    "Brain meninges and cerebral ventricles (producing purulent leptomeningitis)",
+    "Cutaneous stratified epidermis (producing intraepithelial vesicular blisters)"
+  ],
+  "vpp_exp_048": [
+    "Liquefactive necrosis (purulent suppurative necrosis induced by neutrophil enzymes)",
+    "Caseous necrosis (friable, cheesy amorphous necrosis characteristic of tuberculosis)",
+    "Coagulative necrosis (ischemic preservation of basic cell architectural outlines)"
+  ],
+  "vpp_exp_049": [
+    "Epithelioid macrophages and multinucleated giant cells (Langhans or foreign-body type)",
+    "Eosinophils and tissue mast cells releasing major basic protein and histamine",
+    "Neutrophils and plasma cells undergoing intense karyorrhectic degeneration"
+  ],
+  "vpp_exp_050": [
+    "Mycobacterium tuberculosis and Mycobacterium bovis (Tuberculosis granulomas)",
+    "Pasteurella multocida and Mannheimia haemolytica (Fibrinous pleuropneumonia)",
+    "Streptococcus equi and Streptococcus suis (Acute suppurative lymphadenitis)"
+  ],
+  "vpp_exp_051": [
+    "Langhans giant cells (nuclei arranged in a peripheral horseshoe ring)",
+    "Foreign-body giant cells (nuclei haphazardly clustered throughout cytoplasm)",
+    "Touton giant cells (nuclei encircling a central lipid-rich cytoplasmic core)"
+  ],
+  "vpp_exp_052": [
+    "Splendore-Hoeppli phenomenon (asteroid bodies of immune-complex deposition)",
+    "Russell bodies (eosinophilic immunoglobulin condensations in plasma cells)",
+    "Aschoff bodies (pathognomonic myocardial granulomas of rheumatic carditis)"
+  ],
+  "vpp_exp_053": [
+    "Vascular endothelial cells, fibroblasts, and newly formed capillaries",
+    "Dense parallel bundles of mature type I collagen with minimal cellularity",
+    "Epithelioid macrophages forming nodular cuffs around caseous necrotic cores"
+  ],
+  "vpp_exp_054": [
+    "Healing by first intention (Primary union with minimal tissue loss and narrow scar)",
+    "Healing by third intention (Delayed primary closure of contaminated open wounds)",
+    "Fibromatosis (Non-neoplastic aggressive fibroblastic proliferation of fascia)"
+  ],
+  "vpp_exp_055": [
+    "Type I Collagen (mature tensile collagen replacing delicate type III reticulin)",
+    "Type IV Collagen (specialized non-fibrillar meshwork forming basement membranes)",
+    "Type II Collagen (hyaline cartilage collagen resisting compressive forces)"
+  ],
+  "vpp_exp_056": [
+    "Keloid (excessive formation of dense collagenous keloidal scar tissue)",
+    "Proud flesh (exuberant granulation tissue protruding above the wound margin in horses)",
+    "Desmoid tumor (deep fibromatosis invading local aponeurotic tissue)"
+  ],
+  "vpp_exp_058": [
+    "Secondary bone healing with intermediate fibrocartilaginous and hard bony callus",
+    "Direct primary contact healing without any detectable external callus formation",
+    "Enchondral dyschondroplasia with persistent cartilaginous metaphyseal cores"
+  ],
+  "vpp_exp_060": [
+    "Incomplete pseudoarthrosis (false joint formation due to continuous motion)",
+    "Avascular osteonecrosis of bone fragments caused by total periosteal disruption",
+    "Chronic suppurative osteomyelitis resulting from deep bacterial contamination"
+  ],
+  "vpp_exp_061": [
+    "Erythrocyte extravasation (Diapedesis / Hemorrhage per rhexin)",
+    "Leukocyte margination (Pavementing along activated endothelial walls)",
+    "Platelet aggregation (Primary hemostatic plug formation at injury sites)"
+  ],
+  "vpp_exp_062": [
+    "Thromboxane A2 (platelet derived) and Prostacyclin PGI2 (endothelial derived)",
+    "Histamine (mast cell derived) and Serotonin (enterochromaffin derived)",
+    "Bradykinin (plasma derived) and Substance P (nociceptive nerve derived)"
+  ],
+  "vpp_exp_063": [
+    "Disseminated Intravascular Coagulation (DIC / Consumptive coagulopathy)",
+    "Immune-Mediated Hemolytic Anemia (IMHA with spherocytosis and autoagglutination)",
+    "Von Willebrand Disease (inherited defect in primary platelet adhesion)"
+  ],
+  "vpp_exp_064": [
+    "Splenic torsion and acute congestive splenomegaly in deep-chested dogs",
+    "Chronic suppurative splenitis caused by Trueperella pyogenes bacteremia",
+    "Diffuse amyloidosis of red pulp cords and splenic follicular arterioles"
+  ],
+  "vpp_exp_066": [
+    "Subendocardial petechiae and ecchymoses in the left ventricle",
+    "Severe fibrinous pleuropneumonia with marbled interlobular septa",
+    "Focal necrotic button ulcers scattered throughout the colonic mucosa"
+  ],
+  "vpp_exp_067": [
+    "Severe acute pulmonary edema and diffuse bilateral alveolar flooding",
+    "Massive hepatic lipidosis with markedly swollen pale yellow parenchyma",
+    "Extensive cortical necrosis of the kidneys with tubular hemoglobin casts"
+  ],
+  "vpp_exp_068": [
+    "Marked swelling and enlargement of the thyroid and parathyroid glands",
+    "Acute catarrhal enteritis with copious watery luminal diarrhea",
+    "Multiple discrete caseous granulomas within mesenteric lymph nodes"
+  ],
+  "vpp_exp_069": [
+    "Equine Purpura Hemorrhagica (aseptic necrotizing vasculitis post-strangles)",
+    "Equine Infectious Anemia (retroviral chronic immune-mediated hemolysis)",
+    "African Horse Sickness (orbiviral severe pulmonary edema and cardiac effusion)"
+  ],
+  "vpp_exp_070": [
+    "Type III Hypersensitivity (Arthus reaction with immune complex deposition)",
+    "Type I Hypersensitivity (Immediate IgE-mediated mast cell anaphylaxis)",
+    "Type IV Hypersensitivity (Delayed-type cell-mediated T-cell cytotoxicity)"
+  ],
+  "vpp_exp_071": [
+    "Fibrinoid necrosis of small muscular arteries with intense neutrophil infiltration",
+    "Extensive amyloid deposition within renal glomerular capillary loops",
+    "Severe caseous necrosis with multinucleated Langhans giant cells"
+  ],
+  "vpp_exp_073": [
+    "Equine Viral Arteritis (EVA, arterivirus causing panvasculitis and edema)",
+    "Equine Herpesvirus-1 (EHV-1, herpesvirus causing myeloencephalopathy)",
+    "African Horse Sickness (AHSV, orbivirus causing high-protein pulmonary effusion)"
+  ],
+  "vpp_exp_074": [
+    "Bovine Malignant Catarrhal Fever (Ovine herpesvirus-2 causing lymphoproliferation)",
+    "Bovine Viral Diarrhea (Pestivirus causing mucosal disease and ulcers)",
+    "Infectious Bovine Rhinotracheitis (Bovine herpesvirus-1 causing tracheitis)"
+  ],
+  "vpp_exp_075": [
+    "Generalized necrotizing vasculitis with marked perivascular lymphoid cuffing",
+    "Severe chronic granulomatous lymphadenitis with caseous necrosis",
+    "Extensive microvesicular fatty degeneration of hepatic parenchyma"
+  ],
+  "vpp_exp_076": [
+    "Bluetongue Virus (Orbivirus transmitted by Culicoides midges)",
+    "Peste des Petits Ruminants Virus (Morbillivirus transmitted by aerosols)",
+    "Sheeppox Virus (Capripoxvirus transmitted by direct contact and fomites)"
+  ],
+  "vpp_exp_077": [
+    "Cyanosis of tongue, coronitis, pulmonary artery base hemorrhage, and muscle necrosis",
+    "Severe erosive stomatitis, button ulcers in colon, and splenomegaly",
+    "Generalized cutaneous papules, pocks, and proliferative lung nodules"
+  ],
+  "vpp_exp_078": [
+    "Peste des Petits Ruminants (PPR / Goat Plague caused by a Morbillivirus)",
+    "Contagious Caprine Pleuropneumonia (CCPP caused by Mycoplasma)",
+    "Contagious Ecthyma (Orf caused by a Parapoxvirus producing scabs)"
+  ],
+  "vpp_exp_079": [
+    "Zebra-stripe hemorrhages on the mucosal folds of the large intestine and rectum",
+    "Pale chalky dry streaks of Zenker's degeneration in pectoral muscles",
+    "Concentric 'onion-peel' caseous lymphadenitis of superficial lymph nodes"
+  ],
+  "vpp_exp_080": [
+    "Erosive stomatitis, catarrhal conjunctivitis, severe enteritis, and pneumonia",
+    "Severe acute laminitis with hooves sloughing and dorsal decubitus ulcers",
+    "Extensive generalized cutaneous nodular plaques healing with star-shaped scars"
+  ],
+  "vpp_exp_081": [
+    "Swine Erysipelas (Diamond skin disease caused by Erysipelothrix rhusiopathiae)",
+    "Porcine Dermatitis and Nephropathy Syndrome (PDNS caused by PCV-2)",
+    "Greasy Pig Disease (Exudative epidermitis caused by Staphylococcus hyicus)"
+  ],
+  "vpp_exp_082": [
+    "Microvascular thrombosis, endothelial necrosis, and cutaneous rhomboid infarcts",
+    "Superficial bacterial colonization producing excessive exfoliative sebaceous crusts",
+    "Type III immune-complex glomerulonephritis with widespread purpuric vasculitis"
+  ],
+  "vpp_exp_083": [
+    "Vegetative endocarditis of the mitral and aortic valves resembling cauliflower",
+    "Chronic caseous lymphadenitis of mesenteric and bronchial lymph nodes",
+    "Extensive button ulcers encircling the mucosal folds of the cecum"
+  ],
+  "vpp_exp_084": [
+    "Glanders (Farcy caused by Burkholderia mallei in equids)",
+    "Strangles (Suppurative lymphadenitis caused by Streptococcus equi)",
+    "Epizootic Lymphangitis (Granulomatous lymphangitis caused by Histoplasma)"
+  ],
+  "vpp_exp_085": [
+    "Stellate (star-shaped) scars following ulceration of nasal mucosal nodules",
+    "Extensive button ulcers on the mucosal surface of the ileocecal valve",
+    "Concentric calcified laminar rings within mediastinal lymph node capsules"
+  ],
+  "vpp_exp_086": [
+    "Nasal, pulmonary, and cutaneous forms (Farcy with beaded lymphatics)",
+    "Visceral, ocular, and cutaneous forms with severe internal lymphosarcoma",
+    "Neural, visceral, and ocular forms with bilateral sciatic enlargement"
+  ],
+  "vpp_exp_087": [
+    "Contagious Bovine Pleuropneumonia (CBPP caused by Mycoplasma mycoides)",
+    "Hemorrhagic Septicemia (HS caused by Pasteurella multocida B:2 / E:2)",
+    "Bovine Tuberculosis (BTB caused by Mycobacterium bovis)"
+  ],
+  "vpp_exp_088": [
+    "Marbled appearance of lungs due to wide interlobular septa distended with lymph and fibrin",
+    "Consolidation of cranial ventral lung lobes with suppurative bronchopneumonia",
+    "Disseminated fibrocaseous calcified granulomas throughout the dorsal lung lobes"
+  ],
+  "vpp_exp_089": [
+    "Sequestrum formation (necrotic lung parenchyma encapsulated by dense fibrous tissue)",
+    "Cavitation with bronchopleural fistula draining into thoracic cavity",
+    "Complete resolution without any residual fibrosis or pleural adhesions"
+  ],
+  "vpp_exp_090": [
+    "Hemorrhagic Septicemia (Pasteurella multocida serotypes B:2 and E:2)",
+    "Blackleg (Clostridium chauvoei emphysematous necrotizing myositis)",
+    "Anthrax (Bacillus anthracis peracute septicemic splenomegaly)"
+  ],
+  "vpp_exp_091": [
+    "Severe submandibular, pharyngeal, and brisket edema with marked petechiae",
+    "Emphysematous crackling crepitant swelling of thigh and shoulder muscles",
+    "Marked uncoagulated tarry dark blood oozing from all natural body orifices"
+  ],
+  "vpp_exp_092": [
+    "Blackleg (Black Quarter / Emphysematous Gangrene caused by Clostridium chauvoei)",
+    "Malignant Edema (False blackleg caused by Clostridium septicum)",
+    "Bacillary Hemoglobinuria (Redwater disease caused by Clostridium novyi type D)"
+  ],
+  "vpp_exp_093": [
+    "Dark red/black crepitant swelling in heavy muscle masses smelling of rancid butter",
+    "Diffuse soft, non-crepitant, cold gelatinous subcutaneous edema without gas",
+    "Massive focal ischemic infarction of the liver with pale necrotic borders"
+  ],
+  "vpp_exp_094": [
+    "Malignant Edema (Gas Gangrene following wound contamination by Clostridium septicum)",
+    "Tetanus (Spastic neurotoxic paralysis following Clostridium tetani puncture)",
+    "Botulism (Flaccid neurotoxic paralysis following Clostridium botulinum ingestion)"
+  ],
+  "vpp_exp_095": [
+    "Bacillary Hemoglobinuria (Redwater Disease caused by Clostridium haemolyticum / novyi type D)",
+    "Black Disease (Infectious Necrotic Hepatitis caused by Clostridium novyi type B)",
+    "Pulpy Kidney Disease (Enterotoxemia caused by Clostridium perfringens type D)"
+  ],
+  "vpp_exp_096": [
+    "Large ischemic infarct in liver initiated by migrating immature Fasciola hepatica flukes",
+    "Diffuse hepatic lipidosis accompanied by severe ketonuria and hypoglycemia",
+    "Severe caseous abscessation of mesenteric lymph nodes causing portal hypertension"
+  ],
+  "vpp_exp_097": [
+    "Black Disease (Infectious Necrotic Hepatitis caused by Clostridium novyi type B)",
+    "Braxy (Acute abomasitis in sheep caused by Clostridium septicum)",
+    "Lamb Dysentery (Hemorrhagic enterotoxemia caused by Clostridium perfringens type B)"
+  ],
+  "vpp_exp_098": [
+    "Pulpy Kidney Disease (Enterotoxemia / Overeating disease caused by Clostridium perfringens type D)",
+    "Struck (Acute enterotoxemia in adult sheep caused by Clostridium perfringens type C)",
+    "Lamb Dysentery (Severe ulcerating enteritis caused by Clostridium perfringens type B)"
+  ],
+  "vpp_exp_099": [
+    "Epsilon toxin (activated by trypsin in the intestinal lumen into a lethal neurotoxin)",
+    "Alpha toxin (phospholipase C causing rapid membrane destruction and hemolysis)",
+    "Beta toxin (necrotizing toxin inducing acute severe hemorrhagic enteritis)"
+  ],
+  "vpp_exp_100": [
+    "Rapid post-mortem autolysis of renal parenchyma (pulpy kidneys) and glucosuria",
+    "Extensive button ulcers in the colon mucosa and severe splenic infarction",
+    "Chronic caseous lymphadenitis with concentric onion-ring laminations"
+  ],
+  "vpp_exp_101": [
+    "Tetanus (Clostridium tetani producing tetanospasmin and tetanolysin)",
+    "Botulism (Clostridium botulinum producing neuroparalytic botulinum toxin)",
+    "Rabies (Lyssavirus causing acute fatal encephalomyelitis in all mammals)"
+  ],
+  "vpp_exp_102": [
+    "Spastic paralysis with persistent tonic spasms and 'sawhorse' stance",
+    "Ascending flaccid paralysis with loss of deep tendon reflexes and jaw drop",
+    "Severe tremors, hyperesthesia, aggressiveness, and hydrophobia"
+  ],
+  "vpp_exp_103": [
+    "Botulism (Clostridium botulinum producing flaccid neuroparalytic toxico-infection)",
+    "Listeriosis (Listeria monocytogenes producing microabscess encephalitis)",
+    "Scrapie (Prion disease causing severe neurodegenerative pruritus)"
+  ],
+  "vpp_exp_104": [
+    "Ascending flaccid motor paralysis with dilated pupils, tongue protrusion, and dysphagia",
+    "Persistent extensor muscle rigidity with erect ears and prolapsed third eyelid",
+    "Circling towards affected side with head tilt, facial palsy, and unilateral strabismus"
+  ],
+  "vpp_exp_105": [
+    "Anthrax (Bacillus anthracis peracute zoonotic septicemia)",
+    "Blackleg (Clostridium chauvoei acute emphysematous myositis)",
+    "Bovine Ephemeral Fever (Rhabdovirus transient stiff-sickness)"
+  ],
+  "vpp_exp_106": [
+    "Splenomegaly ('blackberry jam' soft dark red spleen) and failure of blood to clot",
+    "Severe fibrinous pleuropneumonia with marbled interlobular pulmonary septa",
+    "Discrete caseous calcified tubercles scattered across liver, spleen, and lungs"
+  ],
+  "vpp_exp_107": [
+    "DO NOT OPEN THE CARCASS (prevent sporulation of bacilli in environmental oxygen)",
+    "Immediately perform full necropsy and collect whole spleen for histopathology",
+    "Incinerate all visceral organs while leaving the hide intact for commercial tanning"
+  ],
+  "vpp_exp_108": [
+    "Bovine Tuberculosis (Mycobacterium bovis acid-fast bacterial infection)",
+    "Contagious Bovine Pleuropneumonia (Mycoplasma mycoides pleuropneumonia)",
+    "Enzootic Bovine Leukosis (Bovine leukemia retrovirus lymphosarcoma)"
+  ],
+  "vpp_exp_109": [
+    "Tubercles (granulomas with central caseation, calcification, and Langhans giant cells)",
+    "Cauliflower-like vegetative thrombotic lesions strictly on the tricuspid valve",
+    "Superficial erosive ulcers that heal rapidly without leaving any connective tissue scar"
+  ],
+  "vpp_exp_111": [
+    "Button ulcers in the cecum and colon, petechiae on kidneys ('turkey egg'), and splenic infarcts",
+    "Marked megalospleen (enlarged 3 to 6 times) with extensive friable hemorrhagic necrosis",
+    "Diffuse fibrinous pleuropneumonia with wide edematous marbled interlobular septa"
+  ],
+  "vpp_exp_112": [
+    "Equine Infectious Anemia (EIA / Swamp Fever caused by a Lentivirus)",
+    "Equine Viral Arteritis (EVA caused by an Arterivirus producing panarteritis)",
+    "African Horse Sickness (AHSV caused by an Orbivirus producing pulmonary edema)"
+  ],
+  "vpp_exp_113": [
+    "Recurrent fever, severe hemolytic anemia, thrombocytopenia, and ventral edema",
+    "Ascending spastic paralysis, hyperesthesia, and severe persistent muscular tetany",
+    "Discrete cutaneous rhomboid plaques followed by chronic vegetative endocarditis"
+  ],
+  "vpp_exp_114": [
+    "Coggin's test (Agar Gel Immunodiffusion / AGID detecting antibodies against p26)",
+    "Mallein test (Intradermo-palpebral injection measuring lower eyelid skin swelling)",
+    "Schick test (Intracutaneous test measuring neutralizing humoral antitoxin levels)"
+  ],
+  "vpp_exp_115": [
+    "Bovine Viral Diarrhea / Mucosal Disease (BVDV-1 and BVDV-2 Pestiviruses)",
+    "Rinderpest (Morbillivirus causing severe eradicated cattle plague)",
+    "Foot and Mouth Disease (Aphthovirus causing vesicular stomatitis)"
+  ],
+  "vpp_exp_116": [
+    "Linear erosions and ulcers in the esophagus and Peyer's patch lymphoid necrosis",
+    "Large cauliflower vegetations on the mitral valve and severe pulmonary infarcts",
+    "Diffuse granulomatous hepatitis with extensive Langhans giant cell infiltration"
+  ],
+  "vpp_exp_117": [
+    "Cerebellar hypoplasia in calves infected in utero between 100 to 170 days of gestation",
+    "Hydrocephalus and spina bifida caused by direct viral invasion of choroid plexus",
+    "Congenital microphthalmia and cyclopia caused by ingestion of toxic plant alkaloids"
+  ],
+  "vpp_exp_120": [
+    "Fowl Typhoid (Salmonella Gallinarum acute septicemic enteritis)",
+    "Pullorum Disease (Salmonella Pullorum bacillary white diarrhea)",
+    "Infectious Coryza (Avibacterium paragallinarum upper respiratory infection)"
+  ],
+  "vpp_exp_121": [
+    "Bronze-colored (coppery green) liver with enlarged dark spleen and catarrhal enteritis",
+    "Severely atrophied bursa of Fabricius filled with dense gelatinous exudates",
+    "Diffuse white necrotic spots on liver without any proventricular hemorrhages"
+  ],
+  "vpp_exp_122": [
+    "Pullorum Disease (Bacillary White Diarrhea caused by Salmonella Pullorum)",
+    "Avian Encephalomyelitis (Epidemic tremor caused by a Picornavirus)",
+    "Infectious Bursal Disease (Gumboro disease caused by a Birnavirus)"
+  ],
+  "vpp_exp_124": [
+    "Infectious Bursal Disease (IBD / Gumboro Disease caused by an Avibirnavirus)",
+    "Marek's Disease (Herpesvirus causing malignant T-cell lymphomas)",
+    "Avian Leukosis (Retrovirus causing clonal bursal B-cell lymphomas)"
+  ],
+  "vpp_exp_125": [
+    "Bursa of Fabricius (edematous, hemorrhagic, and later severely atrophic)",
+    "Sciatic and brachial nerve trunks (markedly enlarged with loss of striations)",
+    "Skeletal musculature of the thigh (diffuse Zenker's hyaline degeneration)"
+  ],
+  "vpp_exp_126": [
+    "Marek's Disease (Alphaherpesvirus causing T-cell lymphoma)",
+    "Lymphoid Leukosis (Alpharetrovirus causing bursal B-cell lymphoma)",
+    "Reticuloendotheliosis (Gammaretrovirus causing chronic runting syndrome)"
+  ],
+  "vpp_exp_127": [
+    "Enlargement of peripheral nerves (especially sciatic and vagus) with loss of striations",
+    "Nodular lymphoid tumors restricted exclusively to the lumen of the bursa of Fabricius",
+    "Multiple caseous granulomas scattered throughout lung, liver, and splenic parenchyma"
+  ],
+  "vpp_exp_128": [
+    "Transient paralysis, 'range paralysis' (one leg forward, one leg back), and grey eye",
+    "Severe explosive watery diarrhea, trembling tremors, and rapid prostration",
+    "Massive ascites, hydropericardium, and severe right-sided heart failure"
+  ],
+  "vpp_exp_129": [
+    "Lymphoid Leukosis (ALV retrovirus affecting birds over 16-20 weeks of age)",
+    "Fowl Pox (Poxvirus causing cutaneous and diphtheritic lesions in young birds)",
+    "Newcastle Disease (Paramyxovirus causing acute hemorrhagic neurotropic signs)"
+  ],
+  "vpp_exp_131": [
+    "Newcastle Disease (Ranikhet Disease caused by Avian Orthoavulavirus 1)",
+    "Infectious Laryngotracheitis (Avian alphaherpesvirus 1 infection)",
+    "Avian Infectious Bronchitis (Avian gammacoronavirus infection)"
+  ],
+  "vpp_exp_132": [
+    "Hemorrhages at the tips of proventricular glands and necrotic button-like cecal tonsils",
+    "Marked edema and caseous plug formation inside the lumen of the bursa of Fabricius",
+    "Diffuse white necrotic spots on liver without any proventricular hemorrhages"
+  ],
+  "vpp_exp_133": [
+    "Doyle's form (Viscerotropic Velogenic Newcastle Disease / VVND)",
+    "Beach's form (Neurotropic Velogenic Newcastle Disease / NVND)",
+    "Beaudette's form (Mesogenic Newcastle Disease with respiratory signs)"
+  ],
+  "vpp_exp_134": [
+    "Infectious Laryngotracheitis (ILT caused by Gallid Alphaherpesvirus 1)",
+    "Chronic Respiratory Disease (CRD caused by Mycoplasma gallisepticum)",
+    "Infectious Coryza (caused by Avibacterium paragallinarum)"
+  ],
+  "vpp_exp_135": [
+    "Severe necrotizing and hemorrhagic tracheitis with fibrinous pseudomembranes",
+    "Extensive granulomatous air sacculitis with dense caseous cheesy exudates",
+    "Marked subcutaneous edema of the head and facial cellulitis with nasal discharge"
+  ],
+  "vpp_exp_136": [
+    "Intranuclear inclusion bodies (Cowdry Type A) in respiratory epithelial cells",
+    "Intracytoplasmic inclusion bodies (Bollinger bodies) in squamous epithelial cells",
+    "Basophilic intracytoplasmic inclusions (Chlamydia elementary bodies) in macrophages"
+  ],
+  "vpp_exp_137": [
+    "Infectious Bronchitis (IB caused by an Avian Gammacoronavirus)",
+    "Avian Metapneumovirus infection (Swollen head syndrome in chickens)",
+    "Avian Paramyxovirus type 2 infection (Mild respiratory illness in turkeys)"
+  ],
+  "vpp_exp_138": [
+    "Tracheal rales, coughing, sneezing, and 'misshapen, rough-shelled thin eggs'",
+    "Severe unilateral flaccid paralysis with wings drooping down to the ground",
+    "Extensive cutaneous nodular proliferations on the comb, eyelids, and wattles"
+  ],
+  "vpp_exp_139": [
+    "Chronic Respiratory Disease (CRD caused by Mycoplasma gallisepticum)",
+    "Infectious Synovitis (caused by Mycoplasma synoviae)",
+    "Turkey Coryza (caused by Bordetella avium)"
+  ],
+  "vpp_exp_140": [
+    "Fibrinous air sacculitis, perihepatitis, and pericarditis (often with E. coli)",
+    "Marked caseous necrosis strictly limited to the cecal pouches and cecal tonsils",
+    "Discrete ulcerations along the dorsal surface of the muscular gizzard"
+  ],
+  "vpp_exp_141": [
+    "Fowl Pox (Avipoxvirus producing cutaneous and diphtheritic forms)",
+    "Avian Encephalomyelitis (Tremovirus causing ataxia and cataracts)",
+    "Duck Viral Enteritis (Duck plague caused by an Anatid herpesvirus)"
+  ],
+  "vpp_exp_142": [
+    "Cutaneous dry form (papules/crusts on unfeathered skin) and Wet diphtheritic form (mouth/pharynx)",
+    "Visceral form (tumors in viscera) and Neural form (nerve enlargement with paresis)",
+    "Septicemic form (splenomegaly and liver necrosis) and Chronic synovial form (arthritis)"
+  ],
+  "vpp_exp_144": [
+    "Highly Pathogenic Avian Influenza (HPAI caused by H5 or H7 influenza A viruses)",
+    "Low Pathogenic Avian Influenza (LPAI producing mild respiratory signs and egg drop)",
+    "Avian Metapneumovirus infection (causing turkey rhinotracheitis and swollen head)"
+  ],
+  "vpp_exp_145": [
+    "Cyanosis of comb and wattles, petechiae on shanks, and rapid peracute mortality",
+    "Severe caseous necrosis of the cecum and pathognomonic target lesions in liver",
+    "Marked swelling of the facial infraorbital sinuses with copious nasal catarrh"
+  ],
+  "vpp_exp_146": [
+    "Polybasic cleavage site in the hemagglutinin (HA) protein cleavable by ubiquitous furins",
+    "Duplication of the neuraminidase stalk enhancing receptor-destroying enzymatic activity",
+    "Complete deletion of the non-structural protein 1 (NS1) gene abolishing interferon antagonism"
+  ],
+  "vpp_exp_147": [
+    "Duck Viral Enteritis (Duck Plague caused by Anatid Alphaherpesvirus 1)",
+    "Duck Viral Hepatitis (caused by Avihepatovirus / Picornavirus)",
+    "Goose Parvovirus infection (Derzsy's disease in goslings)"
+  ],
+  "vpp_exp_148": [
+    "Annular hemorrhagic bands on the mucosal surface of the intestine and cloacal diphtheresis",
+    "Massive ascites with diffuse right-sided ventricular hypertrophy and hydropericardium",
+    "Severe muscular atrophy of the pectoral flight muscles with dense fibrous scarring"
+  ],
+  "vpp_exp_149": [
+    "Duck Viral Hepatitis (DHV-1, a Picornavirus causing acute fatal hepatitis in ducklings)",
+    "Duck Circovirus infection (causing severe lymphoid depletion and immunosuppression)",
+    "Duck Plague (Anatid herpesvirus causing acute hemorrhagic mucosal necrosis)"
+  ],
+  "vpp_exp_150": [
+    "Opisthotonos ('head retracted backwards towards back') and enlarged hemorrhagic liver",
+    "Marked unilateral flaccid paralysis with one leg stretched forward and one backward",
+    "Severe swelling of the infraorbital sinuses with dense caseous exudative accumulation"
+  ],
+  "vpp_exp_059": [
+    "Myeloperoxidase lysosomal granules within primary neutrophil azurophilic vesicles",
+    "Catalase antioxidant heme enzymes located in intracellular peroxisomal compartments",
+    "Superoxide dismutase dimeric metalloenzymes in mitochondrial intermembrane spaces"
+  ],
+  "vpp_exp_065": [
+    "Polymorphonuclear heterophils undergoing accelerated karyorrhectic degranulation",
+    "Plasma cells actively secreting pentameric immunoglobulin M against surface antigens",
+    "Mature unactivated mast cells packed with histamine and heparin proteoglycans"
+  ],
+  "vpp_exp_119": [
+    "Severe fibrinous pleuropneumonia with marbled interlobular septa and thoracic exudates",
+    "Extensive button ulcers scattered across the ileocecal valve and colonic mucosal folds",
+    "Nodular caseous granulomas distributed throughout the pulmonary and hepatic parenchyma"
+  ],
+  "vpp_exp_123": [
+    "Haemonchus contortus (Barber's pole worm causing acute abomasal blood loss)",
+    "Nematodirus battus (Thread-necked intestinal worm causing acute dehydration)",
+    "Moniezia expansa (Common pasture tapeworm requiring oribatid mite vectors)"
+  ],
+  "vpp_exp_143": [
+    "Focal nodular diphtheritic scabs on comb, wattles, eyelids, and oral mucosa",
+    "Marked bilateral sciatic nerve enlargement with loss of cross-striations",
+    "Diffuse cheesy caseous exudate distending the infraorbital sinuses and trachea"
+  ],
+  "vpp_exp_153": [
+    "Discrete deep necrotic button ulcers on the ileocecal mucosal junction",
+    "Confluent hemorrhagic pseudomembranes lining the proximal jejunal lumen",
+    "Diffuse chronic polypoid hyperplasia throughout the cecal pouches"
+  ],
+  "vpp_exp_155": [
+    "Markedly pale, shrunken, cirrhotic liver with extensive nodular fibrosis",
+    "Enlarged pale yellow fatty liver with rounded margins and greasy texture",
+    "Deep dark mahogany liver studded with discrete chalky white calcium soaps"
+  ],
+  "vpp_exp_160": [
+    "Severe acute suppurative leptomeningitis packed with intact neutrophils",
+    "Extensive liquefactive necrosis of white matter (leukoencephalomalacia)",
+    "Diffuse spongiform vacuolation restricted strictly to cerebellar purkinje cells"
+  ],
+  "vpp_exp_163": [
+    "Selective excessive osteoclastic resorption with replacement by fibrous stroma",
+    "Diffuse necrosis of osteocytes with periosteal new bone formation (involucrum)",
+    "Accumulation of dense unmineralized lamellar bone along diaphyseal cortices"
+  ],
+  "vpp_exp_166": [
+    "Pectoralis major (superficial breast muscle) causing forceful wing downstroke",
+    "Gastrocnemius muscle group encased within the dense caudal tibial fascia",
+    "Biceps brachii muscle undergoing acute bilateral exertional rhabdomyolysis"
+  ],
+  "vpp_exp_167": [
+    "Septicemic gout (bacterial septicemia) and Granulomatous gout (foreign body)",
+    "Cutaneous gout (subcutaneous nodules) and Hepatic gout (biliary precipitates)",
+    "Intestinal gout (mucosal erosions) and Pulmonary gout (pleural adhesions)"
+  ],
+  "vpp_exp_173": [
+    "Persistent extensor rigidity with sawhorse stance and elevated tail base",
+    "Severe unilateral flaccid paralysis with wings drooping down to the ground",
+    "Chronic proliferative scabby plaques on the unfeathered skin of legs and feet"
+  ],
+  "vpp_exp_174": [
+    "Severe softening and bending of the keel bone and ribs with bead-like costal junctions",
+    "Focal osteolytic destruction and pathological fracture of the proximal tibiotarsus",
+    "Generalized osteomalacia with excessive accumulation of uncalcified osteoid seams"
+  ],
+  "vpp_exp_177": [
+    "Bone marrow stroma and circulating erythrocytes during the recovery convalescent stage",
+    "Cecal tonsils and cloacal bursa during chronic subclinical carrier transmission",
+    "Pectoral skeletal musculature and sciatic nerve sheath during late clinical paralysis"
+  ],
+  "vpp_exp_180": [
+    "Large basophilic intranuclear inclusion bodies within degenerating hepatocytes",
+    "Eosinophilic intracytoplasmic Negri bodies inside hippocampal pyramidal neurons",
+    "Extracellular branching fungal hyphae surrounded by Splendore-Hoeppli material"
+  ],
+  "vpp_exp_181": [
+    "Tricuspid (right atrioventricular) valve and Pulmonary semilunar valve",
+    "Right atrioventricular valve and Coronary sinus vascular ostium",
+    "Eustachian valve and Thebesian venous valves of the right atrium"
+  ],
+  "vpp_exp_184": [
+    "Left ventricular eccentric hypertrophy secondary to chronic systemic arterial hypertension",
+    "Bilateral concentric ventricular hypertrophy caused by severe subaortic valvular stenosis",
+    "Right atrial dilation caused by idiopathic tricuspid valvular endocardiosis"
+  ],
+  "vpp_exp_186": [
+    "Cranial mesenteric arterial aneurysm causing ischemic non-strangulating colic",
+    "Portal vein thrombosis leading to acute severe post-hepatic portal hypertension",
+    "Renal artery embolism producing wedge-shaped bilateral cortical infarctions"
+  ],
+  "vpp_exp_189": [
+    "Acute fibrinous pleuropneumonia with wide edematous interlobular septa",
+    "Diffuse suppurative bronchopneumonia with cranioventral lobular consolidation",
+    "Chronic caseating granulomatous pneumonia with cavitation and calcification"
+  ],
+  "vpp_exp_191": [
+    "Malabsorptive diarrhea with extensive necrosis and sloughing of villous enterocytes",
+    "Hemorrhagic enteritis with deep crypt cell destruction and mucosal ulceration",
+    "Granulomatous enteritis with marked lamina propria macrophage infiltration"
+  ],
+  "vpp_exp_192": [
+    "Undifferentiated crypt stem cells located within the deep crypts of Lieberk\u00fchn",
+    "Lamina propria capillary endothelial cells leading to extensive hemorrhagic infarction",
+    "Mucosal goblet cells resulting in complete loss of protective mucus secretions"
+  ],
+  "vpp_exp_194": [
+    "Excessive protein intake -> rapid ammonia accumulation -> systemic alkalosis -> death",
+    "Dietary sulfur excess -> microbial thiaminase activation -> polioencephalomalacia",
+    "Inadequate crude fiber -> delayed ruminal transit -> abomasal impaction and rupture"
+  ],
+  "vpp_exp_195": [
+    "Aspergillus fumigatus and Trueperella pyogenes (secondary suppurative invaders)",
+    "Candida albicans and Pasteurella multocida (secondary opportunistic pathogens)",
+    "Clostridium perfringens type A and Escherichia coli (toxigenic bacteria)"
+  ],
+  "vpp_exp_197": [
+    "Severe acute hypercalcemia induced by excessive autonomous parathyroid hormone release",
+    "Metastatic soft tissue calcification resulting from elevated calcium-phosphate product",
+    "Direct vascular endothelial damage allowing systemic calcium extravasation into urine"
+  ],
+  "vpp_exp_199": [
+    "Bilirubin (derived from excessive intravascular erythrocyte destruction)",
+    "Porphyrin (derived from inherited congenital uroporphyrinogen decarboxylase defect)",
+    "Hemosiderin (derived from massive tissue breakdown of ferric iron stores)"
+  ],
+  "vpp_exp_205": [
+    "Pure Calcium Oxalate monohydrate crystals embedded in fibrin meshwork",
+    "Uric acid and Ammonium Urate crystals suspended in purulent exudate",
+    "Cystine crystals mixed with desquamated transitional epithelial cells"
+  ],
+  "vpp_exp_207": [
+    "Excessive maternal estrogen transfer across the synepitheliochorial placenta",
+    "Genetic chimera where XX fetal cells completely replace XY male donor cells",
+    "Placental failure of cortisol synthesis triggering premature luteal regression"
+  ],
+  "vpp_exp_210": [
+    "Progesterone and Relaxin, causing persistent vaginal mucification and lordosis",
+    "Prolactin and Oxytocin, causing continuous galactorrhea and maternal behavior",
+    "Estrogen and Luteinizing Hormone, causing continuous behavioral estrus and polyuria"
+  ],
+  "vpp_exp_211": [
+    "Severe acute suppurative polioencephalitis with massive neutrophilic cuffing",
+    "Widespread demyelination of cerebral white matter with severe perivascular cuffs",
+    "Extensive focal liquefactive necrosis forming prominent brain pseudocysts"
+  ],
+  "vpp_exp_212": [
+    "Acute thromboembolic fibrocartilaginous infarction of spinal cord grey matter",
+    "Congenital atlantoaxial subluxation with dens hypoplasia in miniature dogs",
+    "Progressive degenerative myelopathy with chronic axon and myelin sheath loss"
+  ],
+  "vpp_exp_213": [
+    "Toxoplasma gondii (or Cryptosporidium parvum protozoan parasites)",
+    "Babesia caballi (or Theileria equi intraerythrocytic piroplasms)",
+    "Trypanosoma evansi (or Trypanosoma equiperdum flagellated protozoa)"
+  ],
+  "vpp_exp_222": [
+    "Hypernatremia and Hypokalemia with an elevated Na+:K+ ratio exceeding 40:1",
+    "Hypercalcemia and Hypophosphatemia accompanied by marked azotemia and polyuria",
+    "Severe hypomagnesemia and hypercalcemia with severe ventricular arrhythmias"
+  ],
+  "vpp_exp_224": [
+    "Severe diffuse primary bilateral parathyroid hyperplasia of water-clear cells",
+    "Metastatic parathyroid carcinoma infiltrating local thyroid and tracheal tissues",
+    "Iatrogenic destruction of parathyroid glands following radical thyroidectomy"
+  ],
+  "vpp_exp_228": [
+    "Gradual accumulation of amniotic fluid due to fetal swallowing failure (monsters)",
+    "Massive peritoneal transudation leaking through the inguinal canal into scrotum",
+    "Severe uterine wall edema secondary to torsion and acute venous congestion"
+  ],
+  "vpp_exp_230": [
+    "Deep subepidermal bullae with complete detachment of basal lamina (Pemphigoid)",
+    "Intraepidermal suprabasal clefts with row of tombstones basal cells (P. vulgaris)",
+    "Severe interface lichenoid dermatitis with apoptotic keratinocytes (Lupus)"
+  ],
+  "vpp_exp_231": [
+    "78 chromosomes (normal unaltered diploid canine karyotype)",
+    "38 chromosomes (haploid feline chromosomal complement)",
+    "96 chromosomes (hyperdiploid polyploid neoplastic karyotype)"
+  ],
+  "vpp_exp_232": [
+    "SINE (Short Interspersed Nuclear Element) insertion upstream of p53 tumor suppressor",
+    "LTR (Long Terminal Repeat) retroviral promoter insertion into the feline c-kit gene",
+    "Reciprocal balanced chromosomal translocation fusing BCR and ABL kinase genes"
+  ],
+  "vpp_exp_234": [
+    "Doxorubicin hydrochloride administered as a slow intravenous infusion",
+    "Cyclophosphamide administered orally in alternating pulse doses",
+    "L-asparaginase administered intramuscularly alongside corticosteroids"
+  ],
+  "vpp_exp_237": [
+    "Serotonin acting on 5-HT3 receptors stimulating intense vagal emetic pathways",
+    "Heparin acting on clotting factors causing widespread diffuse mucosal bleeding",
+    "Leukotrienes stimulating mucosal goblet cells to hypersecrete viscous mucus"
+  ],
+  "vpp_exp_238": [
+    "'Towards the elbow, away from the knee' (distal humerus and proximal femur)",
+    "Axial skeleton exclusively (scapula, ribs, pelvic wing, and mandible)",
+    "Vertebral bodies and sternum (diaphyseal cortices of cancellous bone)"
+  ],
+  "vpp_exp_242": [
+    "80% malignant and 20% benign (of which 90% metastasize early to lungs)",
+    "90% benign and 10% malignant (of which less than 1% ever metastasize)",
+    "100% malignant with rapid lymphatic invasion and carcinomatosis"
+  ],
+  "vpp_exp_243": [
+    "Homogeneous monomorphic proliferation of neoplastic secretory ductal epithelial cells",
+    "Anaplastic spindle-shaped mesenchymal cells without any epithelial differentiation",
+    "Metastatic squamous cell carcinoma with prominent extracellular keratin pearls"
+  ],
+  "vpp_exp_244": [
+    "Kidney (followed by the urinary bladder trigone and prostate gland)",
+    "Lungs (followed by bronchial lymph nodes and pericardial cavity)",
+    "Skin (followed by deep subcutaneous adipose tissue of limbs)"
+  ],
+  "vpp_exp_245": [
+    "Tissue mast cells containing histamine and heparin metachromatic granules",
+    "Plasma cells actively producing monoclonal immunoglobulin paraproteins",
+    "Vascular endothelial cells forming disorganized irregular vascular slits"
+  ],
+  "vpp_exp_246": [
+    "Equine Herpesvirus 1 and Equine Herpesvirus 4 (EHV-1 / EHV-4)",
+    "Equine Arteritis Virus and Equine Infectious Anemia Virus (EVA / EIA)",
+    "Equine Papillomavirus Type 1 and Type 2 (EcPV-1 / EcPV-2)"
+  ],
+  "vpp_exp_249": [
+    "Homer-Wright rosettes and perivascular pseudorosettes of neuroblasts",
+    "Signet-ring cells containing abundant intracytoplasmic mucin droplets",
+    "Stellate cells embedded in abundant loose Alcian blue-positive myxoid stroma"
+  ],
+  "vpp_exp_250": [
+    "Chestnut horses, located on the dorsal withers, ventral abdomen, and flank",
+    "Bay horses, located strictly on the lower extremities and coronary band",
+    "Black horses, located along the jugular furrow and ventral cervical region"
+  ],
+  "vpp_exp_252": [
+    "Severe paraneoplastic hypoglycemia (Insulin-like growth factor II secretion)",
+    "Paraneoplastic polycythemia caused by autonomous erythropoietin secretion",
+    "Severe hypergammaglobulinemia with monoclonal spike and hyperviscosity"
+  ],
+  "vpp_exp_253": [
+    "Pancreatic Alpha cells, causing paraneoplastic hyperglycemia through glucagon",
+    "Pancreatic Delta cells, causing somatostatinoma and systemic malabsorption",
+    "Adrenal chromaffin cells, causing hypertensive crises through epinephrine"
+  ],
+  "vpp_exp_254": [
+    "Adrenal cortex zona glomerulosa cells, secreting excess aldosterone (Conn's)",
+    "Adrenal cortex zona fasciculata cells, secreting excess cortisol (Cushing's)",
+    "Thyroid parafollicular C-cells, secreting excess calcitonin and causing tetany"
+  ],
+  "vpp_exp_255": [
+    "Presence of an intact fibrous pseudocapsule and regular uniform cell cords",
+    "Low mitotic count without prominent nucleoli or nuclear pleomorphism",
+    "Secretory differentiation with retention of normal organellar microarchitecture"
+  ],
+  "vpp_exp_257": [
+    "Modified live viral vaccines administered subcutaneously without adjuvants",
+    "Intramuscular penicillin and oxytetracycline antimicrobial injections",
+    "Subcutaneous microchip transponder implantation in interscapular tissue"
+  ],
+  "vpp_exp_263": [
+    "Epithelial tumors (Cytokeratin positive) from Mesenchymal tumors (Vimentin positive)",
+    "Histiocytic tumors (Iba-1 positive) from Mast cell tumors (c-kit positive)",
+    "Melanocytic tumors (Melan-A positive) from Neural tumors (S100 positive)"
+  ],
+  "vpp_exp_265": [
+    "Smooth muscle and skeletal muscle cells (confirming Leiomyoma and Rhabdomyoma)",
+    "Pericytes and vascular mural cells (confirming Hemangiopericytoma)",
+    "Fibroblasts and myofibroblasts (confirming Fibrosarcoma and Myofibroma)"
+  ],
+  "vpp_exp_266": [
+    "Uniform cell size and shape, small round nuclei, and absence of mitotic figures",
+    "Abundant clear lipid-filled cytoplasm with eccentric pyknotic small nuclei",
+    "Regular honeycomb arrangement of cohesive cells with low nuclear:cytoplasm ratio"
+  ],
+  "vpp_exp_268": [
+    "Deep necrotic ulceration extending into subcutaneous adipose tissue with suppuration",
+    "Diffuse proliferation of uniform round cells arranged in sheets without stroma",
+    "Expansile encapsulated proliferation of mature adipocytes separated by thin septa"
+  ],
+  "vpp_exp_270": [
+    "Utilize fatty acid beta-oxidation exclusively while completely halting glycolysis",
+    "Shut down all metabolic glucose utilization to preserve extracellular energy",
+    "Rely strictly on oxidative phosphorylation generating maximum 36 ATP molecules"
+  ],
+  "vpp_exp_271": [
+    "Right lateral recumbency (right side down, left side up exposing rumen)",
+    "Dorsal recumbency (lying flat on back with all four limbs splayed outward)",
+    "Sternal recumbency (resting upright on brisket with head fully extended)"
+  ],
+  "vpp_exp_272": [
+    "Left lateral recumbency (left side down to expose right-side organs)",
+    "Dorsal recumbency (lying flat on spine with limbs secured symmetrically)",
+    "Sternal recumbency (resting on sternum to allow bilateral rib removal)"
+  ],
+  "vpp_exp_274": [
+    "1:1 to 2:1 (tissue specimen volume equal to fixative volume)",
+    "50:1 to 100:1 (large industrial reservoir immersion fixative volume)",
+    "5:1 to 7:1 (minimal practical fixative allowance in field biopsies)"
+  ],
+  "vpp_exp_275": [
+    "15 to 20 mm (approximately the width of two adult thumbs)",
+    "1 to 2 mm (ultra-thin biopsy specimen requiring rapid processing)",
+    "30 to 40 mm (large intact organ slices ensuring deep architecture)"
+  ],
+  "vpp_exp_278": [
+    "Routine light microscopic examination of paraffin-embedded tissue sections",
+    "Rapid intraoperative frozen section diagnosis using a cryostat",
+    "Immunohistochemical staining of delicate cell surface antigens"
+  ],
+  "vpp_exp_279": [
+    "Clearing (xylene) -> Dehydration (alcohols) -> Fixation -> Infiltration / Embedding",
+    "Fixation -> Infiltration / Embedding -> Dehydration (alcohols) -> Clearing (xylene)",
+    "Dehydration (alcohols) -> Fixation -> Clearing (xylene) -> Embedding in paraffin"
+  ],
+  "vpp_exp_281": [
+    "Pink to red (eosinophilic), while Eosin stains nuclear chromatin blue to purple (basophilic)",
+    "Bright green, while Eosin is a counterstain that stains cytoplasm yellow to orange",
+    "Dark black, while Eosin stains collagen fibers and muscle bundles bright azure blue"
+  ],
+  "vpp_exp_285": [
+    "Bright crimson red against an intense blue counterstained tissue background",
+    "Deep violet purple against a light yellow counterstained background",
+    "Brilliant magenta pink against a dark brown counterstained background"
+  ],
+  "vpp_exp_287": [
+    "Trypsin enzyme digestion prior to Masson's trichrome staining (collagen vanishes)",
+    "Hyaluronidase enzyme digestion prior to Alcian blue staining (mucin vanishes)",
+    "Lipase digestion prior to Oil Red O staining (lipid droplets vanish)"
+  ],
+  "vpp_exp_288": [
+    "Concentrated hydrochloric acid (10% aqueous HCl providing rapid decalcification)",
+    "Nitric acid solution (5% aqueous HNO3 providing rapid tissue softening)",
+    "Formic acid solution (buffered 10% formic acid providing gentle decalcification)"
+  ],
+  "vpp_exp_290": [
+    "Delayed immersion in fixative allowing post-mortem autolysis to proceed",
+    "Inadequate dehydration during tissue processing leaving water in tissues",
+    "Use of dull microtome knives producing chattering and thick-and-thin sections"
+  ],
+  "vpp_exp_291": [
+    "Total protein > 3.0 g/dL, TNCC > 7,000/uL, and high specific gravity (>1.025)",
+    "Total protein 2.5-3.0 g/dL, TNCC 1,500-5,000/uL, and intermediate specific gravity",
+    "Total protein > 5.0 g/dL, TNCC > 50,000/uL with degenerate neutrophils and bacteria"
+  ],
+  "vpp_exp_293": [
+    "Low viscosity (watery drop), total protein > 4.5 g/dL, and TNCC > 20,000 cells/uL",
+    "Zero viscosity, turbid serosanguinous fluid, and TNCC > 100,000 degenerate neutrophils",
+    "Moderate viscosity, total protein < 0.5 g/dL, and absence of all cellular elements"
+  ],
+  "vpp_exp_299": [
+    "Dogs (and to a lesser degree ruminants)",
+    "Cattle and sheep (ruminant domestic species)",
+    "Birds and reptiles (avian/reptilian species)"
+  ],
+  "vpp_exp_300": [
+    "The Coombs Test: direct antiglobulin test detecting red cell bound antibodies",
+    "The Osmotic Fragility Test: evaluating erythrocyte lysis in hypotonic saline solutions",
+    "The Crossmatch Test: incubating donor red cells with recipient serum for hemolysis"
+  ]
+}
