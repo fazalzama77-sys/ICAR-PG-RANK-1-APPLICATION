@@ -222,7 +222,7 @@ export function App() {
       />
 
       {/* 2. Main Viewport */}
-      <main className="flex-1">
+      <main className={`flex-1 ${!isExamActive && !isInstantDrillActive ? 'pb-20 md:pb-0' : ''}`}>
         {/* Full CBT Mock Exam Engine */}
         {isExamActive && activeExamConfig && (
           <CBTExamContainer

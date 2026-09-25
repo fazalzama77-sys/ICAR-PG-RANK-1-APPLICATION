@@ -213,35 +213,35 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
   }, [isAnswerSubmitted, selectedOption, isDrillCompleted, handleSubmitAnswer, handleNextQuestion]);
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 py-8 space-y-6">
+    <div className="w-full max-w-4xl mx-auto px-2.5 sm:px-6 pt-safe pb-safe min-h-screen flex flex-col justify-between space-y-3 sm:space-y-6">
       
-      {/* Top Header Bar */}
-      <div className="flex items-center justify-between bg-white border border-slate-200 rounded-xl p-4 shadow-xs">
-        <div className="flex items-center space-x-3">
-          <div className="w-8 h-8 rounded-lg bg-amber-500 text-white flex items-center justify-center font-bold">
-            <Zap className="w-5 h-5 fill-current" />
+      {/* Top Header Bar (Notch / Punch hole safe) */}
+      <div className="flex items-center justify-between bg-white border border-slate-200 rounded-xl p-3 sm:p-4 shadow-xs shrink-0">
+        <div className="flex items-center space-x-2.5 sm:space-x-3 min-w-0">
+          <div className="w-8 h-8 rounded-lg bg-amber-500 text-white flex items-center justify-center font-bold shrink-0 shadow-2xs">
+            <Zap className="w-4 h-4 sm:w-5 sm:h-5 fill-current" />
           </div>
-          <div>
-            <h2 className="font-extrabold text-slate-900 text-sm sm:text-base leading-tight">
+          <div className="min-w-0">
+            <h2 className="font-extrabold text-slate-900 text-xs sm:text-base leading-tight truncate">
               {config.title}
             </h2>
-            <span className="text-[11px] text-slate-500 font-medium">
+            <span className="text-[10px] sm:text-[11px] text-slate-500 font-medium truncate block">
               Instant Feedback Mode &bull; ICAR PG High-Yield Drill
             </span>
           </div>
         </div>
 
-        <div className="flex items-center space-x-4 text-xs font-bold">
+        <div className="flex items-center space-x-2 sm:space-x-4 text-xs font-bold shrink-0">
           {config.durationMinutes > 0 && (
-            <div className="flex items-center space-x-1.5 px-3 py-1 rounded-lg bg-slate-100 text-slate-700 font-mono">
-              <Clock className="w-4 h-4 text-slate-500" />
+            <div className="flex items-center space-x-1 sm:space-x-1.5 px-2 sm:px-3 py-1 rounded-lg bg-slate-100 text-slate-700 font-mono text-[11px] sm:text-xs">
+              <Clock className="w-3.5 h-3.5 text-slate-500" />
               <span>{formatTime(timeRemainingSeconds)}</span>
             </div>
           )}
 
           <button
             onClick={onAbortDrill}
-            className="text-slate-400 hover:text-red-600 transition-colors"
+            className="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-red-50 text-slate-500 hover:text-red-600 transition-colors text-xs font-semibold"
             title="Exit Drill"
           >
             Exit
@@ -251,7 +251,7 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
 
       {/* Completion View */}
       {isDrillCompleted ? (
-        <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 text-center space-y-6 shadow-sm">
+        <div className="bg-white border border-slate-200 rounded-2xl p-5 sm:p-8 text-center space-y-5 sm:space-y-6 shadow-sm my-auto">
           <div className="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto shadow-inner">
             <Award className="w-8 h-8" />
           </div>
@@ -264,8 +264,8 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
           </div>
 
           {/* Quick Metrics */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-xl mx-auto">
-            <div className="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 max-w-xl mx-auto">
+            <div className="bg-slate-50 p-3 sm:p-3.5 rounded-xl border border-slate-200">
               <span className="text-[10px] uppercase font-bold text-slate-400 block">Total Score</span>
               <span className="text-xl font-black text-slate-900">
                 {(correctCount * 4) - (incorrectCount * 1)}
@@ -273,7 +273,7 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
               </span>
             </div>
 
-            <div className="bg-slate-50 p-3.5 rounded-xl border border-emerald-200">
+            <div className="bg-slate-50 p-3 sm:p-3.5 rounded-xl border border-emerald-200">
               <span className="text-[10px] uppercase font-bold text-emerald-600 block">Accuracy</span>
               <span className="text-xl font-black text-emerald-700">
                 {correctCount + incorrectCount > 0 
@@ -282,12 +282,12 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
               </span>
             </div>
 
-            <div className="bg-slate-50 p-3.5 rounded-xl border border-emerald-200">
+            <div className="bg-slate-50 p-3 sm:p-3.5 rounded-xl border border-emerald-200">
               <span className="text-[10px] uppercase font-bold text-emerald-600 block">Correct</span>
               <span className="text-xl font-black text-emerald-600">+{correctCount * 4}</span>
             </div>
 
-            <div className="bg-slate-50 p-3.5 rounded-xl border border-red-200">
+            <div className="bg-slate-50 p-3 sm:p-3.5 rounded-xl border border-red-200">
               <span className="text-[10px] uppercase font-bold text-red-600 block">Negative Marks</span>
               <span className="text-xl font-black text-red-600">-{incorrectCount * 1}</span>
             </div>
@@ -295,15 +295,15 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
 
           {/* Auto-enrolled in SRS Notice */}
           {missedQuestionIds.length > 0 && (
-            <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-4 max-w-xl mx-auto flex items-center justify-between gap-3 text-left">
+            <div className="bg-indigo-50 border border-indigo-200 rounded-xl p-3.5 sm:p-4 max-w-xl mx-auto flex items-center justify-between gap-3 text-left">
               <div className="flex items-center space-x-2.5">
                 <Brain className="w-5 h-5 text-indigo-600 shrink-0" />
                 <div>
                   <p className="text-xs font-bold text-indigo-900">
                     {missedQuestionIds.length} Mistake{missedQuestionIds.length > 1 ? 's' : ''} Enrolled in Spaced Repetition
                   </p>
-                  <p className="text-[11px] text-indigo-700">
-                    These questions are queued for review in your active recall deck to prevent repeating mistakes.
+                  <p className="text-[11px] text-indigo-700 leading-tight">
+                    Queued for active recall review to prevent repeating mistakes.
                   </p>
                 </div>
               </div>
@@ -313,7 +313,7 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
                   onClick={onOpenSpacedRepetition}
                   className="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg text-xs font-bold shrink-0 shadow-2xs"
                 >
-                  Review Now
+                  Review
                 </button>
               )}
             </div>
@@ -323,7 +323,7 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
           <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
             <button
               onClick={onAbortDrill}
-              className="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm rounded-xl shadow-md flex items-center space-x-2"
+              className="px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm rounded-xl shadow-md flex items-center space-x-2 cursor-pointer"
             >
               <Home className="w-4 h-4" />
               <span>Return to Dashboard</span>
@@ -331,10 +331,10 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
           </div>
         </div>
       ) : currentQ ? (
-        <div className="bg-white border border-slate-200 rounded-2xl shadow-sm overflow-hidden">
+        <div className="bg-white border border-slate-200 rounded-2xl shadow-sm flex flex-col flex-1 overflow-hidden">
           
           {/* Progress bar */}
-          <div className="bg-slate-100 h-1.5 w-full">
+          <div className="bg-slate-100 h-1.5 w-full shrink-0">
             <div 
               className="bg-amber-500 h-1.5 transition-all duration-300"
               style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}
@@ -342,33 +342,33 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
           </div>
 
           {/* Question Header */}
-          <div className="p-4 sm:p-5 border-b border-slate-100 flex flex-wrap items-center justify-between gap-2 bg-slate-50/50">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="bg-slate-800 text-white text-[11px] font-bold px-2 py-0.5 rounded font-mono">
+          <div className="p-3 sm:p-4 border-b border-slate-100 flex items-center justify-between gap-2 bg-slate-50/70 shrink-0">
+            <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 min-w-0">
+              <span className="bg-slate-800 text-white text-[10px] sm:text-[11px] font-bold px-2 py-0.5 rounded font-mono">
                 Q{currentIndex + 1}
               </span>
-              <span className="text-xs font-bold text-slate-700">
+              <span className="text-xs font-bold text-slate-700 truncate max-w-[130px] sm:max-w-none">
                 {SUBJECT_LIST.find(s => s.id === currentQ.subjectId)?.name || 'Subject'}
               </span>
               {currentQ.topic && (
-                <span className="text-xs text-slate-400 font-medium">
+                <span className="text-[11px] sm:text-xs text-slate-400 font-medium hidden xs:inline truncate max-w-[120px] sm:max-w-none">
                   &bull; {currentQ.topic}
                 </span>
               )}
             </div>
 
-            <div className="flex items-center space-x-3 text-xs font-semibold">
-              <span className="text-emerald-700">✓ {correctCount}</span>
-              <span className="text-red-600">✗ {incorrectCount}</span>
-              <span className="font-mono text-slate-400">
-                {currentIndex + 1} / {questions.length}
+            <div className="flex items-center space-x-2 sm:space-x-3 text-xs font-semibold shrink-0">
+              <span className="text-emerald-700 font-bold">✓ {correctCount}</span>
+              <span className="text-red-600 font-bold">✗ {incorrectCount}</span>
+              <span className="font-mono text-slate-400 text-[11px] sm:text-xs">
+                {currentIndex + 1}/{questions.length}
               </span>
             </div>
           </div>
 
-          {/* Question Content */}
-          <div className="p-6 sm:p-8 space-y-6">
-            <h3 className="text-base sm:text-lg font-bold text-slate-900 leading-relaxed">
+          {/* Question Content (Scrollable) */}
+          <div className="p-4 sm:p-7 space-y-4 sm:space-y-6 flex-1 overflow-y-auto">
+            <h3 className="text-sm sm:text-lg font-bold text-slate-900 leading-relaxed select-text">
               {currentQ.questionText}
             </h3>
 
@@ -378,7 +378,7 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
                 const isSelected = selectedOption === idx;
                 const isCorrect = idx === currentQ.correctOptionIndex;
 
-                let style = 'border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-800';
+                let style = 'border-slate-200 hover:border-slate-300 hover:bg-slate-50 text-slate-800 bg-white';
 
                 if (isAnswerSubmitted) {
                   if (isCorrect) {
@@ -386,10 +386,10 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
                   } else if (isSelected) {
                     style = 'border-red-500 bg-red-50 text-red-900 font-medium line-through';
                   } else {
-                    style = 'border-slate-200 opacity-50 text-slate-400';
+                    style = 'border-slate-200 opacity-50 text-slate-400 bg-slate-50';
                   }
                 } else if (isSelected) {
-                  style = 'border-amber-500 bg-amber-50 text-amber-900 font-semibold ring-2 ring-amber-500';
+                  style = 'border-amber-500 bg-amber-50 text-amber-950 font-semibold ring-2 ring-amber-500';
                 }
 
                 return (
@@ -398,20 +398,20 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
                     onClick={() => {
                       if (!isAnswerSubmitted) setSelectedOption(idx);
                     }}
-                    className={`p-3.5 sm:p-4 rounded-xl border text-xs sm:text-sm flex items-center justify-between cursor-pointer transition-all ${style}`}
+                    className={`p-3 sm:p-4 rounded-xl border text-xs sm:text-sm flex items-center justify-between cursor-pointer transition-all min-h-[50px] touch-manipulation select-none active:scale-[0.99] ${style}`}
                   >
-                    <div className="flex items-center space-x-3">
-                      <span className="w-6 h-6 rounded-full border border-current flex items-center justify-center font-bold text-xs shrink-0">
+                    <div className="flex items-center space-x-3 flex-1 min-w-0 pr-2">
+                      <span className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-current flex items-center justify-center font-bold text-xs shrink-0">
                         {String.fromCharCode(65 + idx)}
                       </span>
-                      <span>{opt}</span>
+                      <span className="leading-snug">{opt}</span>
                     </div>
 
                     {isAnswerSubmitted && isCorrect && (
-                      <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
+                      <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 ml-1" />
                     )}
                     {isAnswerSubmitted && isSelected && !isCorrect && (
-                      <XCircle className="w-5 h-5 text-red-500 shrink-0" />
+                      <XCircle className="w-5 h-5 text-red-500 shrink-0 ml-1" />
                     )}
                   </div>
                 );
@@ -420,7 +420,7 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
 
             {/* Instant Feedback Explanation Card */}
             {isAnswerSubmitted && (
-              <div className={`p-4 sm:p-5 rounded-xl border animate-in fade-in duration-200 space-y-2 ${
+              <div className={`p-3.5 sm:p-5 rounded-xl border animate-in fade-in duration-200 space-y-2 ${
                 selectedOption === currentQ.correctOptionIndex
                   ? 'bg-emerald-50 border-emerald-200 text-emerald-900'
                   : 'bg-red-50 border-red-200 text-red-950'
@@ -437,37 +437,40 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
                       </span>
                     )}
                   </div>
-                  <span className="text-[11px] font-semibold opacity-75">
-                    Official Reference Explanation
+                  <span className="text-[10px] sm:text-[11px] font-semibold opacity-75">
+                    Reference Explanation
                   </span>
                 </div>
 
-                <p className="text-xs sm:text-sm leading-relaxed font-medium pt-1">
+                <p className="text-xs sm:text-sm leading-relaxed font-medium pt-1 select-text">
                   {currentQ.explanation}
                 </p>
               </div>
             )}
           </div>
 
-          {/* Bottom Actions */}
-          <div className="bg-slate-50 border-t border-slate-200 p-4 sm:p-5 flex items-center justify-between">
+          {/* Sticky Thumb-Friendly Bottom Action Bar */}
+          <div className="sticky bottom-0 z-30 bg-white/95 backdrop-blur-md border-t border-slate-200 p-3 sm:p-4 pb-[max(0.75rem,env(safe-area-inset-bottom,0px))] shadow-[0_-4px_12px_rgba(0,0,0,0.06)] sm:shadow-none flex items-center justify-between gap-3">
             <span className="text-[11px] text-slate-400 hidden sm:inline">
               {!isAnswerSubmitted ? 'Press [A/B/C/D] to select, [Enter] to submit' : 'Press [Space] or [Enter] for next'}
             </span>
+            <span className="text-xs font-mono text-slate-500 sm:hidden">
+              Q{currentIndex + 1}/{questions.length}
+            </span>
 
-            <div className="flex items-center space-x-3 ml-auto">
+            <div className="flex items-center space-x-3 w-full sm:w-auto justify-end">
               {!isAnswerSubmitted ? (
                 <button
                   onClick={handleSubmitAnswer}
                   disabled={selectedOption === null}
-                  className="px-6 py-2.5 bg-amber-500 hover:bg-amber-600 disabled:opacity-40 text-slate-950 font-black text-xs sm:text-sm rounded-xl shadow-md transition-all cursor-pointer"
+                  className="w-full sm:w-auto px-6 py-2.5 bg-amber-500 hover:bg-amber-600 disabled:opacity-40 text-slate-950 font-black text-xs sm:text-sm rounded-xl shadow-md transition-all cursor-pointer touch-manipulation active:scale-98"
                 >
                   Submit Answer
                 </button>
               ) : (
                 <button
                   onClick={handleNextQuestion}
-                  className="px-6 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-black text-xs sm:text-sm rounded-xl shadow-md flex items-center space-x-2 transition-all cursor-pointer"
+                  className="w-full sm:w-auto px-6 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-black text-xs sm:text-sm rounded-xl shadow-md flex items-center justify-center space-x-2 transition-all cursor-pointer touch-manipulation active:scale-98"
                 >
                   <span>{currentIndex + 1 < questions.length ? 'Next Question' : 'Complete Drill'}</span>
                   <ArrowRight className="w-4 h-4" />

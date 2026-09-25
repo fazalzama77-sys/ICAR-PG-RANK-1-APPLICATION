@@ -1,6 +1,13 @@
 @import "tailwindcss";
 
 @layer base {
+  :root {
+    --sat: env(safe-area-inset-top, 0px);
+    --sab: env(safe-area-inset-bottom, 0px);
+    --sal: env(safe-area-inset-left, 0px);
+    --sar: env(safe-area-inset-right, 0px);
+  }
+
   body {
     margin: 0;
     padding: 0;
@@ -8,8 +15,30 @@
     background-color: #f1f5f9;
     color: #1e293b;
     user-select: none;
+    -webkit-tap-highlight-color: transparent;
   }
 }
+
+/* Mobile Notch, Punch Hole & Status Bar Safe Area Utilities */
+.pt-safe {
+  padding-top: max(0.5rem, env(safe-area-inset-top, 0px));
+}
+.pb-safe {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom, 0px));
+}
+.pl-safe {
+  padding-left: max(0.5rem, env(safe-area-inset-left, 0px));
+}
+.pr-safe {
+  padding-right: max(0.5rem, env(safe-area-inset-right, 0px));
+}
+.top-safe {
+  top: env(safe-area-inset-top, 0px);
+}
+.bottom-safe {
+  bottom: env(safe-area-inset-bottom, 0px);
+}
+
 
 /* Authentic NTA Question Palette Shape & Color Classes */
 

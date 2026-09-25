@@ -80,7 +80,7 @@ export const TopNav: React.FC<TopNavProps> = ({
   return (
     <>
       <PwaStatusBanner />
-      <header className="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-xs">
+      <header className="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-xs pt-[env(safe-area-inset-top,0px)]">
         <div className="w-full max-w-[1580px] mx-auto px-3 sm:px-4 lg:px-6">
           <div className="flex items-center justify-between h-16 gap-2">
             
@@ -214,7 +214,7 @@ export const TopNav: React.FC<TopNavProps> = ({
       </header>
 
       {/* Mobile / Tablet Bottom Navigation Bar */}
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-slate-200 shadow-lg px-2 py-1 flex items-center justify-around">
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-slate-200 shadow-lg px-2 pt-1.5 pb-[max(0.6rem,env(safe-area-inset-bottom,0px))] flex items-center justify-around">
         {navItems.map((item) => {
           const Icon = item.icon;
           const isActive = activeTab === item.id;

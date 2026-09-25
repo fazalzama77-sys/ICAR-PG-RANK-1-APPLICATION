@@ -162,7 +162,7 @@ export const CBTPalette: React.FC<CBTPaletteProps> = ({
       </div>
 
       {/* Submit Exam Button in Palette Bottom */}
-      <div className="p-3 bg-white border-t border-slate-300 shadow-lg">
+      <div className="p-3 bg-white border-t border-slate-300 shadow-lg pb-[max(0.75rem,env(safe-area-inset-bottom,0px))]">
         <button
           onClick={onSubmitExam}
           className="w-full bg-[#16a34a] hover:bg-[#15803d] text-white py-2.5 px-4 rounded font-bold text-sm uppercase tracking-wider shadow-sm transition-all transform active:scale-98 flex items-center justify-center space-x-2"
