@@ -1,0 +1,167 @@
+{
+  "van_q_090": [
+    "2 lobes (cranial undivided and caudal large lobes)",
+    "3 lobes (cranial, caudal, and middle intermediate lobes)",
+    "6 lobes (cranial divided into 2, middle, caudal, and 2 accessory)"
+  ],
+  "ann_q_015": [
+    "6.5 (ionized ammonium NH4+ predominates with minimal passive diffusion)",
+    "5.0 (acidic ruminal fluid trapping nitrogen as non-diffusible ammonium ions)",
+    "7.0 (neutral physiological pH maintaining dynamic equilibrium between ions)"
+  ],
+  "pyq_vbc_079": [
+    "It directly reflects daily dietary carbohydrate intake and rapid fluctuating ruminal volatile fatty acid production",
+    "It is actively secreted in massive quantities by renal proximal tubular epithelial cells via organic anion transporters",
+    "It is synthesized de novo primarily by hepatic parenchymal cells proportionally to dietary crude protein nitrogen intake"
+  ],
+  "vpp_exp_165": [
+    "Excessive dietary sodium chloride leading to primary renal failure with generalized anasarca and ascites",
+    "Congenital aplasia or total absence of the parietal and visceral pericardial sac causing cardiac luxation",
+    "Primary chronic toxic hepatic cirrhosis caused by massive dietary aflatoxin B1 contamination in poultry feed"
+  ],
+  "vpp_exp_185": [
+    "Congenital metabolic deficiency of carbonic anhydrase causing severe hypercapnic metabolic acidosis",
+    "Severe carbon monoxide toxicity from thin atmospheric combustion gases inducing carboxyhemoglobinemia",
+    "Acute ruminal tympany / frothy bloat causing severe diaphragm compression and respiratory failure"
+  ],
+  "vpp_exp_200": [
+    "Extensive diffuse peliosis hepatis with blood-filled parenchymal cystic spaces throughout the liver",
+    "Diffuse acute centrilobular coagulative necrosis secondary to toxic carbon tetrachloride poisoning",
+    "Massive post-necrotic hepatic cirrhosis with marked nodular regeneration and biliary proliferation"
+  ],
+  "vpp_exp_241": [
+    "50.0% (representing substantial risk reduction when ovariohysterectomy is performed after 4th estrus)",
+    "75.0% (representing negligible risk difference between intact bitches and late spayed females)",
+    "15.0% (representing intermediate risk reduction when ovariohysterectomy occurs after puberty)"
+  ],
+  "vpp_exp_267": [
+    "Central elongated spindle-shaped nuclei with bipolar cytoplasmic tails and abundant intercellular collagen",
+    "Clear, deeply vacuolated cytoplasm with marked eccentric signet-ring cell morphological appearance",
+    "Large multinucleated osteoclasts containing multiple central nuclei and eosinophilic ruffled borders"
+  ],
+  "vpp_exp_294": [
+    "Is an autonomous clonal neoplastic proliferation of malignant blast cells with progressive cytopenias",
+    "Always displays specific pathognomonic reciprocal chromosomal translocations under cytogenetic karyotyping",
+    "Is completely refractory to medical or surgical resolution of the underlying inciting septic focus"
+  ],
+  "vpp_exp_295": [
+    "Complete absence of any mature segmented neutrophils in peripheral circulation (severe absolute neutropenia)",
+    "Presence of occasional band neutrophils alongside a massive mature segmented neutrophilia (regenerative shift)",
+    "Marked selective elevation of circulating tissue eosinophils and basophils without immature neutrophil precursors"
+  ],
+  "vmc_exp_005": [
+    "MacConkey agar without bile salts, where organisms fail to undergo morphological spherical changes",
+    "Sheep blood agar containing 10% sodium chloride, where colonies display heavy beta-hemolysis",
+    "Sabouraud dextrose agar with cycloheximide, where mycelial hyphal growth occurs after prolonged incubation"
+  ],
+  "vmc_exp_006": [
+    "Direct irreversible blockade of post-synaptic nicotinic acetylcholine receptors at motor endplates in muscle",
+    "Continuous constitutive stimulation of post-synaptic dopamine D2 receptors in basal ganglia nuclei",
+    "Extensive enzymatic degradation of axonal myelin sheaths by bacterial phospholipase C alpha-toxin enzymes"
+  ],
+  "vmc_exp_036": [
+    "Large encapsulated Gram-positive diplococci displaying prominent clear mucoid capsule zones on smear",
+    "Gram-positive, square-ended, sporulating rods arranged in long filamentous chains resembling bamboo reeds",
+    "Acid-fast, slender, beaded branching filaments demonstrating marked resistance to mineral acid decolorization"
+  ],
+  "vmc_exp_041": [
+    "Capsular polysaccharide K-antigens and enterobacterial common antigen (ECA) cell surface determinants only",
+    "Peptidoglycan murein cross-linked pentapeptide polymers and outer membrane porin proteins exclusively",
+    "Pili and fimbrial adhesin subunit proteins mediating localized colonization of mucosal epithelial surfaces"
+  ],
+  "vmc_exp_082": [
+    "Lactose fermenting with copious gas production turning neutral red indicator vivid pink on MacConkey agar",
+    "Coagulase positive, converting citrated rabbit plasma into a firm clotted gel within four hours of incubation",
+    "Rapidly Urease positive, hydrolyzing urea broth and turning phenol red indicator deep magenta within two hours"
+  ],
+  "vmc_exp_083": [
+    "Vegetative metabolically active bacterial bacilli and highly resistant dormant dehydrated endospore structures",
+    "Active motile flagellated trophozoites and thick-walled environmentally resistant encysted cystic forms",
+    "Infectious extracellular sporozoites and intracellular actively multiplying asexual merozoite stages"
+  ],
+  "vmc_exp_090": [
+    "Bacillus anthracis, which secretes abundant protective antigen and lethal factor into the surrounding medium",
+    "Escherichia coli, which produces excessive enterotoxins and colicin bacteriocins inhibiting adjacent growth",
+    "Pseudomonas aeruginosa, which produces water-soluble pyocyanin and pyoverdine pigments diffusing through agar"
+  ],
+  "vmc_exp_129": [
+    "Acute profuse hemorrhagic enterocolitis with 100% case fatality rate among adult pregnant breeding ewes",
+    "Severe generalized chronic wool discoloration turning the fleece brilliant emerald green due to pyocyanin",
+    "Acute purulent gangrenous mastitis causing extensive udder sloughing without congenital fetal defects"
+  ],
+  "vmc_exp_159": [
+    "Marked selective atrophy of the lingual mucosa and dorsal horny papillae on the dorsal surface of tongue",
+    "Chronic symmetric bilateral feather loss localized exclusively to the pectoral breast region of adult ganders",
+    "Pure corneal keratitis and bilateral corneal opacity without visceral systemic vascular or renal involvement"
+  ],
+  "vmc_exp_191": [
+    "Salmonella Typhimurium (demonstrating smooth-to-rough colonial variation following flagellar phase shifting)",
+    "Bacillus anthracis (demonstrating loss of protective capsule plasmid upon prolonged subculture at 42°C)",
+    "Escherichia coli (demonstrating acquisition of lactose fermentation operon through bacteriophage infection)"
+  ],
+  "vmc_exp_197": [
+    "Complete irreversible deletion of the entire bacterial circular chromosome following transposon insertion",
+    "Inversion of the entire bacterial genome between inverted repeats without incorporating adjacent host sequences",
+    "Spontaneous tandem duplication of all insertion sequences and chromosomal transposon cassettes in the genome"
+  ],
+  "vmc_exp_259": [
+    "Pure dystrophic calcification of thyroid follicles without any cellular inflammatory or immune infiltration",
+    "Autonomous benign functional C-cell adenoma secreting excessive quantities of calcitonin polypeptide",
+    "Massive diffuse colloid follicular hyperplasia producing marked bilateral non-inflammatory endemic goiter"
+  ],
+  "vmc_exp_272": [
+    "Multiple small intracytoplasmic clear neutral lipid droplets displacing the nucleus to the cellular margin",
+    "Numerous tiny basophilic granular inclusions scattered diffusely throughout the cytoplasmic compartment",
+    "Dense crystalline lattices of non-enveloped virions completely replacing the nucleolar fibrillar center"
+  ],
+  "vmc_exp_273": [
+    "Stain intensely and brilliantly dark blue with routine Gram staining and display strict acid-fastness",
+    "Are localized exclusively within the cytoplasmic compartment of infected epithelial and lymphoid cells",
+    "Are universally heavily calcified and demonstrate pathognomonic concentric lamellar psammoma body rings"
+  ],
+  "vmc_exp_276": [
+    "Methyl Red (red at acidic pH below 4.4, yellow at neutral and alkaline pH above 6.0 in mixed acid fermentation)",
+    "Bromothymol Blue (yellow at acidic pH below 6.0, green at neutral pH, deep blue at alkaline pH above 7.6)",
+    "Neutral Red (red/pink at acidic pH below 6.8, yellow/orange at neutral to alkaline pH above 8.0 on MacConkey)"
+  ],
+  "vmc_exp_288": [
+    "Spherical, thick-walled, terminal or intercalary chlamydospores arranged singly or in short linear chains",
+    "Slender, pencil-shaped, smooth, thin-walled macroconidia containing 2 to 4 internal transverse septa",
+    "Completely absent in culture, producing exclusively sterile vegetative hyphae without any conidia formation"
+  ],
+  "vmc_exp_291": [
+    "Internal spore-bearing tubular asci containing multiple single-celled haploid sexual ascospores on smear",
+    "Dense, non-encapsulated oval budding yeast cells forming extensive pseudohyphae and terminal chlamydospores",
+    "Distinct acid-fast staining bacilli demonstrating bright red intracellular rods with Ziehl-Neelsen staining"
+  ],
+  "vmc_exp_293": [
+    "Giant thick-walled spherules (20 to 100 um) densely packed with numerous small uninucleate endospores",
+    "Narrow-based budding oval yeast cells surrounded by a distinct halo and displaying multi-polar budding",
+    "Tiny (2 to 4 um) oval intracellular yeast forms packed densely within the cytoplasm of tissue macrophages"
+  ],
+  "vmc_exp_295": [
+    "D-Gluconic acid, which chelates divalent cations and inhibits mitochondrial electron transport complexes",
+    "L-Ascorbic acid, which acts as a physiological water-soluble antioxidant and reducing agent in cells",
+    "Free benzoic acid, which disrupts microbial plasma membrane proton gradients and inhibits citric acid cycle"
+  ],
+  "vmc_exp_298": [
+    "Dry gangrene and ischemic necrosis of the tail, ears, and distal hooves caused by ergot alkaloid toxicity",
+    "Acute pulmonary edema and severe hydrothorax secondary to ingestion of fumonisin B1 contaminated maize feed",
+    "Severe aplastic pancytopenia with bone marrow suppression caused by acute triterpenoid mycotoxicosis"
+  ],
+  "van_exp_070": [
+    "Femoral Nerve, Deep Femoral Artery, Medial Saphenous Vein, and surrounding lumbosacral plexus autonomic trunk branches",
+    "Radial Nerve, Deep Brachial Artery, Cephalic Vein, and adjacent regional brachial plexus collateral muscular branches",
+    "External Carotid Artery, Facial Nerve (CN VII), Parotid Salivary Duct, and regional superficial facial vein trunk"
+  ],
+  "van_exp_073": [
+    "Abundant keratinized stratified squamous epithelial lining completely devoid of any mucous secretory specialization",
+    "Complete absence of any mucous gland tissue resulting in crystal-clear, watery, non-viscous dilute urine output",
+    "Extensive dystrophic calcification and diffuse microscopic hydroxyapatite mineral concretions in all nephron tubules"
+  ],
+  "van_exp_144": [
+    "7 (1 single clavicular, 2 cervical, 2 thoracic, and 2 paired caudal abdominal air sacs)",
+    "8 (2 clavicular, 2 cervical, 2 cranial thoracic, and 2 caudal abdominal air sacs)",
+    "12 (2 cervical, 4 thoracic, 2 axillary, 2 pelvic, and 2 caudal abdominal air sacs)"
+  ]
+}

@@ -1,0 +1,407 @@
+[
+  [
+    "van_q_090",
+    "4 lobes (cranial divided into 2, middle, caudal, accessory)",
+    [
+      "2 lobes",
+      "6 lobes",
+      "3 lobes"
+    ]
+  ],
+  [
+    "ann_q_015",
+    "8.0 (free non-ionized NH3 rapidly diffuses across the rumen wall into blood)",
+    [
+      "6.5",
+      "5.0",
+      "7.0"
+    ]
+  ],
+  [
+    "pyq_vbc_079",
+    "It is produced at a constant rate from muscle creatine and phosphocreatine, freely filtered by the glomerulus, and neither significantly reabsorbed nor secreted",
+    [
+      "It reflects dietary carbohydrate intake",
+      "It is actively secreted by proximal tubules",
+      "It is synthesized by the liver proportionally to protein intake"
+    ]
+  ],
+  [
+    "vpp_exp_165",
+    "Mismatch between rapid muscle growth and inadequate pulmonary vascular capacity, leading to hypoxia, pulmonary hypertension, and right-sided congestive heart failure",
+    [
+      "Excessive dietary sodium chloride leading to primary renal failure",
+      "Congenital absence of the pericardial sac",
+      "Primary hepatic cirrhosis caused by aflatoxins"
+    ]
+  ],
+  [
+    "vpp_exp_185",
+    "Chronic alveolar hypoxia triggering severe pulmonary arteriolar vasoconstriction, medial hypertrophy, pulmonary hypertension, and right heart failure",
+    [
+      "Congenital deficiency of carbonic anhydrase",
+      "Severe carbon monoxide toxicity from thin atmosphere",
+      "Acute ruminal bloat"
+    ]
+  ],
+  [
+    "vpp_exp_200",
+    "Microhepatica with hypoplastic portal veins, absence of visible intrahepatic portal branches, and compensatory arteriolar tortuosity/hyperplasia",
+    [
+      "Extensive peliosis hepatis",
+      "Diffuse centrilobular coagulative necrosis",
+      "Massive hepatic cirrhosis with marked nodular regeneration"
+    ]
+  ],
+  [
+    "vpp_exp_218",
+    "Prolonged secondary hyperparathyroidism (renal in dogs, nutritional in horses) stimulating excessive osteoclastic bone resorption and replacement by fibrovascular stroma",
+    [
+      "Lead poisoning",
+      "Primary dietary deficiency of calcium in adult horses",
+      "Excessive secretion of calcitonin by C cells"
+    ]
+  ],
+  [
+    "vpp_exp_221",
+    "Loss of dopaminergic inhibitory input from the hypothalamus due to neurodegeneration, causing adenoma or hyperplasia of the pars intermedia producing POMC peptides",
+    [
+      "Thyroid follicular carcinoma",
+      "Primary functional adrenocortical adenoma",
+      "Iatrogenic corticosteroid administration"
+    ]
+  ],
+  [
+    "vpp_exp_241",
+    "0.5% (compared to 8% after 1st estrus and 26% after 2nd estrus)",
+    [
+      "50%",
+      "75%",
+      "15%"
+    ]
+  ],
+  [
+    "vpp_exp_247",
+    "Hyperplastic epidermis with elongated, hyperkeratotic rete pegs ('picket-fence' pattern) and a dermal proliferation of fibroblasts in whorls and interlacing bundles",
+    [
+      "Caseous granulomas with Langhans giant cells",
+      "Sheets of round cells with metachromatic granules",
+      "Pure squamous cell carcinoma with epithelial pearls"
+    ]
+  ],
+  [
+    "vpp_exp_267",
+    "Eccentric round nuclei, coarse 'clock-face' or 'cartwheel' chromatin, deeply basophilic cytoplasm, and a prominent perinuclear clear halo (Golgi zone)",
+    [
+      "Central spindle-shaped nuclei with bipolar tails",
+      "Clear vacuolated cytoplasm with signet-ring morphology",
+      "Multinucleated osteoclasts"
+    ]
+  ],
+  [
+    "vpp_exp_292",
+    "A drop of effusion forming a distinct jellyfish-like precipitate or droplet that slowly sinks to the bottom of dilute acetic acid solution without dissolving",
+    [
+      "Formation of gas bubbles at the surface",
+      "Immediate clearing and disappearance of the drop",
+      "A color change from clear to deep purple"
+    ]
+  ],
+  [
+    "vpp_exp_294",
+    "Is an orderly, non-neoplastic, hyper-reactive response to severe inflammation (e.g. closed pyometra, abscess) with a mature left shift and absence of blast cells",
+    [
+      "Is an autonomous clonal proliferation of malignant blast cells",
+      "Always shows chromosomal translocations",
+      "Is refractory to resolving the underlying infection"
+    ]
+  ],
+  [
+    "vpp_exp_295",
+    "Immature neutrophil forms (band cells, metamyelocytes) exceeding the number of mature segmented neutrophils, indicating severe bone marrow exhaustion and a poor prognosis",
+    [
+      "Absence of any neutrophils in peripheral blood",
+      "Presence of a few band neutrophils alongside a massive mature neutrophilia",
+      "Elevated eosinophils and basophils only"
+    ]
+  ],
+  [
+    "vpp_exp_297",
+    "Failure of normal nuclear segmentation of granulocytes, resulting in hyposegmented (bilobed, peanut-shaped, or round) mature neutrophils with normal mature chromatin and function",
+    [
+      "Presence of giant platelets",
+      "Total absence of cytoplasmic granules in eosinophils",
+      "Hypersegmentation of neutrophils with >5 nuclear lobes"
+    ]
+  ],
+  [
+    "vmc_exp_005",
+    "Nutrient agar containing 0.05 to 0.5 units/mL of penicillin, where B. anthracis swells into round, spherical pearl-like chains within 3-6 hours",
+    [
+      "MacConkey agar without salt",
+      "Blood agar with 10% sodium chloride",
+      "Sabouraud dextrose agar"
+    ]
+  ],
+  [
+    "vmc_exp_006",
+    "Retrograde axonal transport to inhibitory Renshaw interneurons, where its zinc endopeptidase light chain cleaves synaptobrevin (VAMP-2), blocking release of GABA and glycine",
+    [
+      "Direct irreversible blockade of post-synaptic nicotinic acetylcholine receptors at motor endplates",
+      "Continuous stimulation of dopamine receptors",
+      "Degradation of myelin sheaths by phospholipase C"
+    ]
+  ],
+  [
+    "vmc_exp_028",
+    "Branching filamentous hyphae that divide transversely and longitudinally to form parallel rows of coccoid zoospores resembling 'train tracks' / 'tram tracks'",
+    [
+      "Single giant sporangia with endospores",
+      "Encapsulated diplococci in pairs",
+      "Large spiral organisms with terminal hooks"
+    ]
+  ],
+  [
+    "vmc_exp_030",
+    "Tiny pinpoint colonies on sheep blood agar surrounded by a narrow zone of beta-hemolysis at 48 hours, Gram-positive pleomorphic diphtheroid rods, and strong gelatinase activity",
+    [
+      "Large spreading swarming colonies",
+      "Medusa-head colonies on plain agar",
+      "Green pigmentation on MacConkey agar"
+    ]
+  ],
+  [
+    "vmc_exp_036",
+    "Gram-negative coccobacilli showing distinct 'bipolar staining' (dense terminal coloration with a clear center) with Leishman, Giemsa, or Methylene Blue",
+    [
+      "Large encapsulated diplococci",
+      "Gram-positive square-ended rods in long chains",
+      "Acid-fast beaded filaments"
+    ]
+  ],
+  [
+    "vmc_exp_041",
+    "O (somatic lipopolysaccharide) antigens, H (flagellar phase 1 and phase 2) antigens, and Vi (capsular virulence) antigens",
+    [
+      "Capsular polysaccharides only",
+      "Cell wall peptidoglycan cross-links",
+      "Pili proteins only"
+    ]
+  ],
+  [
+    "vmc_exp_082",
+    "Strongly Oxidase positive, Catalase positive, and Phosphatase positive, but inert to all carbohydrate fermentations",
+    [
+      "Lactose fermenting with gas",
+      "Coagulase positive",
+      "Urease positive"
+    ]
+  ],
+  [
+    "vmc_exp_083",
+    "Infectious, metabolically inert 'Elementary Bodies' (EB) and non-infectious, intracellular multiplying 'Reticulate Bodies' (RB)",
+    [
+      "Vegetative cells and endospores",
+      "Trophozoites and cysts",
+      "Sporozoites and merozoites"
+    ]
+  ],
+  [
+    "vmc_exp_090",
+    "Staphylococcus aureus, which secretes excess V-factor (NAD) required for satellite colony growth",
+    [
+      "Bacillus anthracis",
+      "Escherichia coli",
+      "Pseudomonas aeruginosa"
+    ]
+  ],
+  [
+    "vmc_exp_129",
+    "Excessive birth coat hairiness (halo hairs), rhythmic muscle tremors due to hypomyelinogenesis, and skeletal defects in newborn lambs",
+    [
+      "Acute bloody diarrhea with 100% mortality in adult ewes",
+      "Severe wool discoloration to green",
+      "Purulent mastitis only"
+    ]
+  ],
+  [
+    "vmc_exp_154",
+    "Presence of multiple basic amino acids (arginine and lysine) at the Hemagglutinin cleavage site, permitting cleavage by ubiquitous intracellular furin-like proteases",
+    [
+      "Duplication of the neuraminidase stalk",
+      "Deletion of the M2 ion channel",
+      "Loss of the nucleoprotein"
+    ]
+  ],
+  [
+    "vmc_exp_159",
+    "Sudden high mortality in goslings aged 3 to 10 weeks, severe subcutaneous edema, hemorrhagic nephritis, and enteritis",
+    [
+      "Atrophy of the tongue",
+      "Chronic feather loss in adult ganders",
+      "Pure corneal opacity"
+    ]
+  ],
+  [
+    "vmc_exp_191",
+    "Streptococcus pneumoniae (demonstrating transfer of capsule virulence from heat-killed smooth to live rough strains)",
+    [
+      "Salmonella Typhimurium",
+      "Bacillus anthracis",
+      "Escherichia coli"
+    ]
+  ],
+  [
+    "vmc_exp_197",
+    "Imprecise, faulty excision from the chromosome, carrying adjacent host bacterial genes with it into the autonomous plasmid",
+    [
+      "Complete chromosomal deletion",
+      "Inversion of the entire genome",
+      "Duplication of all transposons"
+    ]
+  ],
+  [
+    "vmc_exp_253",
+    "A vaccine with a deleted non-essential gene (e.g. gE-deleted Pseudorabies vaccine) used alongside a companion diagnostic ELISA that detects antibodies against the deleted protein",
+    [
+      "A vaccine given only by oral route",
+      "A vaccine with green fluorescent protein added",
+      "A vaccine that uses live human pathogens"
+    ]
+  ],
+  [
+    "vmc_exp_259",
+    "Diffuse infiltration of the thyroid gland by lymphocytes, plasma cells, and macrophages with progressive destruction of follicular architecture",
+    [
+      "Pure calcification of follicles",
+      "C-cell adenoma",
+      "Massive follicular hyperplasia with goiter"
+    ]
+  ],
+  [
+    "vmc_exp_265",
+    "Progeny virions contain the genome of one virus packaged within a capsid or envelope composed partly or entirely of proteins from the other virus",
+    [
+      "A virus loses its envelope permanently",
+      "Two RNA segments cross over homologous sequences",
+      "A mutation occurs in the polymerase gene"
+    ]
+  ],
+  [
+    "vmc_exp_268",
+    "Spontaneous deletion mutant lacking essential replication genes that can only replicate in the presence of a homologous helper virus, competing for replication machinery and reducing wild-type viral yields",
+    [
+      "Virion containing foreign cellular DNA only",
+      "Virus that only infects bacteria",
+      "Non-infectious empty capsid"
+    ]
+  ],
+  [
+    "vmc_exp_272",
+    "Single, large, round, eosinophilic, amorphous intranuclear masses surrounded by a clear halo, with chromatin margination along the nuclear membrane",
+    [
+      "Intracytoplasmic lipid droplets",
+      "Multiple tiny basophilic granules scattered in the cytoplasm",
+      "Dense crystalline arrays of virions filling the nucleolus"
+    ]
+  ],
+  [
+    "vmc_exp_273",
+    "Are smaller, more variable in number, do not cause marked chromatin margination, and are seen in Adenovirus or Poliovirus infections",
+    [
+      "Stain bright blue with Gram stain",
+      "Are exclusively cytoplasmic",
+      "Are always calcified"
+    ]
+  ],
+  [
+    "vmc_exp_276",
+    "Phenol Red (red at physiological pH 7.2-7.4, yellow when acidic < 6.8, purple when alkaline > 7.8)",
+    [
+      "Methyl Red",
+      "Bromothymol Blue",
+      "Neutral Red"
+    ]
+  ],
+  [
+    "vmc_exp_288",
+    "Abundant, large, thick-walled, spindle-shaped (fusiform) with an asymmetrical curved terminal beak, containing 6 or more internal transverse septa",
+    [
+      "Spherical, single-celled chlamydospores",
+      "Pencil-shaped, smooth, and thin-walled",
+      "Completely absent in culture"
+    ]
+  ],
+  [
+    "vmc_exp_290",
+    "Germ Tube Test (formation of true germ tubes extending without constriction from yeast cells incubated in horse or fetal calf serum at 37°C within 2 to 3 hours)",
+    [
+      "Bile-esculin hydrolysis",
+      "Catalase test",
+      "Urease test"
+    ]
+  ],
+  [
+    "vmc_exp_291",
+    "Massive, mucopolysaccharide (glucuronoxylomannan) capsule that repels colloidal carbon particles, appearing as a wide clear halo around the yeast cell",
+    [
+      "Internal spore-bearing asci",
+      "Dense, non-encapsulated oval cells forming pseudohyphae",
+      "Acid-fast staining with Ziehl-Neelsen"
+    ]
+  ],
+  [
+    "vmc_exp_293",
+    "Large (8 to 15 um), thick, refractile 'double-contoured' wall yeast cell that buds singly with a characteristic broad base of attachment to the daughter cell",
+    [
+      "Giant spherule with endospores",
+      "Narrow-based budding yeast",
+      "Tiny (2 to 4 um) intracellular yeast packed in macrophages"
+    ]
+  ],
+  [
+    "vmc_exp_295",
+    "Aflatoxin B1-8,9-epoxide, which covalently binds to the N7 position of guanine residues in genomic DNA",
+    [
+      "Gluconic acid",
+      "Ascorbic acid",
+      "Free benzoic acid"
+    ]
+  ],
+  [
+    "vmc_exp_298",
+    "Hyperestrogenism in prepubertal gilts (swollen hyperemic vulva / 'vulvovaginitis', mammary enlargement, and rectal prolapse)",
+    [
+      "Dry gangrene of the tail",
+      "Acute pulmonary edema and hydrothorax",
+      "Severe bone marrow aplasia"
+    ]
+  ],
+  [
+    "van_exp_070",
+    "Internal Carotid Artery and Cranial Nerves IX (Glossopharyngeal), X (Vagus), XI (Accessory), XII (Hypoglossal), and sympathetic trunk",
+    [
+      "Femoral nerve and Iliac artery",
+      "Radial nerve and Brachial artery",
+      "External Carotid Artery and Facial nerve only"
+    ]
+  ],
+  [
+    "van_exp_073",
+    "Mucus-secreting tubuloalveolar glands (glandulae pelvis renalis), which make normal equine urine thick, cloudy, and viscous",
+    [
+      "Abundant stratified squamous epithelium",
+      "No mucus glands",
+      "Heavy calcification in all nephrons"
+    ]
+  ],
+  [
+    "van_exp_144",
+    "9 (1 single interclavicular, 2 cervical, 2 cranial thoracic, 2 caudal thoracic, and 2 abdominal)",
+    [
+      "7",
+      "8",
+      "12"
+    ]
+  ]
+]

@@ -73,6 +73,16 @@ QUESTION_OVERRIDES = {
         "Acute diffuse suppurative and necrotizing myositis with marked subcutaneous crepitation and gas bubble formation",
         "Marked asymmetric compensatory hypertrophy of unilateral pectoral muscles with prominent myofibrillar enlargement"
     ],
+    "vpp_exp_218": [
+        "Chronic plumbism / lead poisoning causing dense metaphyseal sclerotic lead lines in growing long bones",
+        "Primary severe dietary calcium deficiency in adult horses stimulating accelerated osteomalacic remodeling",
+        "Persistent autonomous hypersecretion of calcitonin by thyroid parafollicular C-cells suppressing bone turnover"
+    ],
+    "vpp_exp_221": [
+        "Metastatic thyroid follicular carcinoma infiltrating local cervical tissues and producing excessive thyroxine",
+        "Primary autonomous functional adrenocortical adenoma of the zona fasciculata secreting excess cortisol",
+        "Chronic iatrogenic corticosteroid administration leading to secondary bilateral adrenocortical atrophy"
+    ],
     "vpp_exp_247": [
         "Dermal sheets of uniform round cells containing intensely metachromatic intracytoplasmic heparin granules",
         "Infiltrative squamous cell carcinoma characterized by marked keratinization with prominent epithelial pearls",
@@ -88,15 +98,45 @@ QUESTION_OVERRIDES = {
         "Instantaneous complete dissolution and total clearing of the effusion droplet upon entering the test solution",
         "A dramatic instantaneous chemical color shift turning the clear acidic reagent into an opaque deep purple solution"
     ],
+    "vpp_exp_297": [
+        "Circulating macrothrombocytes and giant platelets associated with congenital or immune-mediated thrombocytopenia",
+        "Total congenital absence of secondary specific granules in eosinophils causing impaired parasitic defense",
+        "Pathologic hypersegmentation of mature neutrophils displaying five or more lobes due to prolonged blood circulation"
+    ],
     "vmc_exp_026": [
         "Gram-negative, strictly aerobic, motile rod that produces soluble green pyocyanin phenazine pigment",
         "Cell-wall-free pleomorphic microorganism requiring exogenous sterols for growth on complex Eaton agar",
         "Strictly acid-fast, spore-forming coccobacillus demonstrating prominent mycolic acid envelope resistance"
     ],
+    "vmc_exp_027": [
+        "Acid-fast, obligate intracellular mycobacterial bacillus proliferating within macrophages and causing tuberculoid granulomas",
+        "Spore-forming, strictly anaerobic, Gram-positive rod producing potent gas-forming histotoxins in deep muscle tissue",
+        "Gram-positive, strictly anaerobic non-sporeforming branching bacillus forming indurated fistulous osteomyelitis"
+    ],
     "vmc_exp_028": [
         "Encapsulated Gram-positive lancet-shaped diplococci arranged characteristically in short chains and pairs",
         "Large terminal spherical sporangia filled with motile flagellated endospores in mature hyphal structures",
         "Tightly coiled slender spirochetes exhibiting prominent terminal hooked ends with rapid corkscrew motility"
+    ],
+    "vmc_exp_030": [
+        "Large, spreading, swarming waves of confluent growth over non-inhibitory agar with distinct fishy odor and alkaline pH",
+        "Rough, swirling, tenacious Medusa-head edge colonies on plain nutrient agar displaying standing inverted fir-tree gelatin stab",
+        "Abundant brilliant blue-green pyocyanin pigmentation and fruity grape-like odor on selective MacConkey agar plates"
+    ],
+    "vmc_exp_042": [
+        "Horses, causing acute suppurative gutteral pouch empyema, purpura hemorrhagica, and submandibular lymphadenitis",
+        "Domestic poultry, causing acute hemorrhagic enteritis, marble spleen disease, and severe drop in commercial egg laying",
+        "Swine exclusively, causing contagious atrophic rhinitis, facial snout distortion, and severe bronchopneumonia"
+    ],
+    "vmc_exp_054": [
+        "Subcutaneous thermal test (parenteral injection of tuberculin monitoring rectal temperature spikes every two hours)",
+        "Cervical skin pinch test (intradermal injection into the mid-cervical dermis measuring double skin-fold thickness calipers)",
+        "Caudal fold test (intradermal injection of purified protein derivative into the ventral tail base fold at 72 hours)"
+    ],
+    "vmc_exp_087": [
+        "Produces fatal acute hemolytic crisis in over 90% of susceptible adult cattle with severe marked hemoglobinuria",
+        "Lacks nuclear genomic DNA and relies entirely on host erythrocyte ribosomal machinery for structural translation",
+        "Is transmitted exclusively by biting lice vectors without intermediate biological developmental cycles in ticks"
     ],
     "vmc_exp_130": [
         "Sole definitive biological hosts in which mandatory sexual reproduction of the viral pathogen takes place",
@@ -108,6 +148,11 @@ QUESTION_OVERRIDES = {
         "Segmented double-stranded DNA viruses possessing large icosahedral capsids and complex envelope proteins",
         "Largest known poxviruses containing complex linear double-stranded DNA genomes exceeding 300 kilobase pairs"
     ],
+    "vmc_exp_154": [
+        "Tandem duplication of the neuraminidase stalk domain enhancing receptor-destroying enzymatic catalytic activity",
+        "Complete genomic deletion of the M2 proton-selective ion channel protein preventing amantadine drug sensitivity",
+        "Loss of the internal viral nucleoprotein triggering unconstrained non-segmented structural genomic transcription"
+    ],
     "vmc_exp_240": [
         "Preformed vasoactive amine granules released directly from sensitized tissue mast cells upon allergen binding",
         "Insoluble amorphous calcium phosphate crystals precipitating spontaneously along vascular basement membranes",
@@ -117,6 +162,16 @@ QUESTION_OVERRIDES = {
         "A vaccine engineered with green fluorescent protein (GFP) tag to visualize intracellular viral distribution in cells",
         "An attenuated vaccine formulated using live virulent human viral pathogens to induce cross-species immunity in pigs",
         "An inactivated whole-pathogen vaccine formulation designed exclusively for needle-free oral mucosal delivery"
+    ],
+    "vmc_exp_254": [
+        "Adsorbed externally onto autologous carrier red blood cells stimulating exclusively transient peripheral humoral immunity",
+        "Purified entirely from transgenic plant leaf tissue inducing specialized mucosal tolerance in digestive tract epithelium",
+        "Excreted rapidly and unchanged through renal glomerular filtration without interacting with splenic lymphoid follicles"
+    ],
+    "vmc_exp_257": [
+        "Central complement component C3, preventing alternative and classical pathway complement-mediated opsonization",
+        "Leukocyte adhesion molecule CD18 integrin beta-subunit, impairing neutrophil extravasation into inflammatory foci",
+        "Lysosomal myeloperoxidase enzyme, preventing halogenation and hydrogen peroxide-mediated bacterial intracellular killing"
     ],
     "vmc_exp_260": [
         "Employs unadsorbed native red blood cells directly agglutinated by intrinsic viral surface hemagglutinin proteins",
@@ -129,14 +184,29 @@ QUESTION_OVERRIDES = {
         "A spontaneous point mutation arises in the viral RNA-dependent RNA polymerase gene altering virulence"
     ],
     "vmc_exp_268": [
-        "Bacteriophage that exclusively infects and lyses bacterial host cells without mammalian pathogenicity",
-        "Non-infectious empty viral capsid completely devoid of any internal nucleic acid genetic material",
-        "Mature viral particle encapsidating host cellular chromosomal DNA fragments instead of viral genome"
+        "Lytic bacteriophage that exclusively infects and destroys bacterial cells without any capacity to replicate in animals",
+        "Non-infectious empty viral capsid assembled without encapsidating any internal viral genomic nucleic acid sequences",
+        "Mature viral particle encapsidating host cellular chromosomal DNA fragments instead of genuine viral genomic sequences"
+    ],
+    "vmc_exp_283": [
+        "Differentiates between viable bacterial endospores and vegetative bacilli based on differential thermal resistance",
+        "Quantifies host cell programmed apoptotic cell death in cell culture monolayers using flow cytometric annexin binding",
+        "Directly measures the exact absolute titer of protective virus-neutralizing antibodies present in convalescent patient serum"
+    ],
+    "vmc_exp_290": [
+        "Bile-esculin agar hydrolysis (hydrolysis of glycoside esculin yielding black iron-phenolic complex in bile medium)",
+        "Catalase test (vigorous gas bubble effervescence produced upon addition of hydrogen peroxide to yeast colonies)",
+        "Urease agar slant test (rapid hydrolysis of urea to alkaline ammonia changing yellow phenol red to vivid magenta pink)"
+    ],
+    "vmc_exp_297": [
+        "Potent hepatocarcinogen, inducing hepatocellular carcinoma and hepatic bile duct proliferation in multiple species",
+        "Steroid cardiac glycoside, inhibiting myocardial sodium-potassium ATPase pump and precipitating severe ventricular arrhythmias",
+        "Presynaptic neurotoxin, cleaving synaptic vesicle fusion proteins and causing ascending generalized flaccid paralysis"
     ],
     "van_exp_019": [
-        "5 (Radial and Ulnar in proximal row; II, III, and IV in distal carpal row)",
-        "10 (Five distinct carpal bones in proximal row and five in distal row)",
-        "6 (Radial, Intermediate, and Ulnar in proximal row; II, III, IV in distal row)"
+        "6 (Radial, Intermediate, and Ulnar in proximal row; fused II+III, IV, and V in distal carpal row)",
+        "5 (Radial and Ulnar in proximal row; single large III, IV, and V in distal carpal row)",
+        "10 (Five distinct anatomical carpal bones in proximal row and five in distal row without fusion)"
     ],
     "van_exp_020": [
         "Metacarpal II and Metacarpal III (forming a rudimentary medial splint)",
@@ -158,12 +228,25 @@ QUESTION_OVERRIDES = {
         "Dense aggregations of cristate mitochondria and intracellular peroxisomes",
         "Cytoskeletal neurofilaments, neurotubules, and associated microfilaments"
     ],
+    "van_exp_126": [
+        "Chromaffin zone (central medullary layer composed of epinephrine and norepinephrine secreting cells)",
+        "Zona fasciculata (broad intermediate cortical zone composed of parallel radial cords of clear spongiocytes)",
+        "Zona reticularis (deepest cortical layer consisting of an anastomosing network of pigmented glandular cords)"
+    ],
     "pyq_vpp_065": [
         "Chronic proliferative and hyperkeratotic stomatitis with fungal hyphal infiltration",
         "Deep necrotizing and diphtheritic stomatitis with pseudomembrane formation",
         "Granulomatous and eosinophilic stomatitis with foreign body giant cell reaction"
     ]
 }
+
+# Merge all_overrides_45.json if present
+overrides_path = os.path.join(os.path.dirname(__file__), 'all_overrides_45.json')
+if os.path.exists(overrides_path):
+    with open(overrides_path, 'r', encoding='utf-8') as f:
+        extra_ov = json.load(f)
+        QUESTION_OVERRIDES.update(extra_ov)
+
 
 # 2. Comprehensive Master Term Dictionary
 ENHANCEMENTS = {
@@ -401,12 +484,6 @@ ENHANCEMENTS = {
 }
 
 def enhance_distractor(d_str, correct_str, subject_id, topic, q_id=None):
-    # Check if exact question ID override exists
-    if q_id and q_id in QUESTION_OVERRIDES:
-        # Find which distractor index this is
-        # Will be handled at question level
-        pass
-
     # If distractor is already at least 70% of correct length, no need to touch
     if len(d_str) >= len(correct_str) * 0.70:
         return d_str
@@ -478,24 +555,7 @@ def enhance_distractor(d_str, correct_str, subject_id, topic, q_id=None):
         else:
             return f"{clean_d} (reference physiological value)"
 
-    # 8. Parenthetical descriptor in correct option
-    paren_match = re.search(r'^(.*?)\s*\((.*?)\)$', correct_str)
-    if paren_match and '(' not in clean_d:
-        p_content = paren_match.group(2).strip()
-        if any(w in p_content.lower() for w in ['disease', 'fever', 'syndrome', 'infection', 'stomatitis', 'pox']):
-            return f"{clean_d} (associated clinical syndrome)"
-        elif any(w in p_content.lower() for w in ['vein', 'artery', 'nerve', 'muscle', 'ligament', 'sinus']):
-            return f"{clean_d} (collateral anatomical structure)"
-        elif any(w in p_content.lower() for w in ['stain', 'reaction', 'agar', 'broth', 'test']):
-            return f"{clean_d} (differential laboratory test)"
-        elif any(w in p_content.lower() for w in ['demonstrating', 'characterized by', 'resulting in']):
-            return f"{clean_d} (demonstrating characteristic histological appearance)"
-        elif len(p_content) <= 10 and p_content.isupper():
-            return f"{clean_d} ({clean_d[:4].upper()})"
-        else:
-            return f"{clean_d} ({clean_d} variant)"
-
-    # 9. Multi-item comma list expansion
+    # 8. Multi-item comma list expansion
     if ',' in correct_str and correct_str.count(',') >= 2 and ',' not in clean_d:
         if subject_id == 'van':
             return f"{clean_d}, regional arterial branches, and associated somatic nerves"
@@ -510,45 +570,118 @@ def enhance_distractor(d_str, correct_str, subject_id, topic, q_id=None):
         elif subject_id == 'agb':
             return f"{clean_d}, directional artificial selection, and non-random mating systems"
 
-    # 10. Long descriptive clause (>= 50 chars)
-    if len(correct_str) >= 50 and len(clean_d) < len(correct_str) * 0.65:
-        if subject_id == 'vpp':
-            if any(w in clean_d.lower() for w in ['necrosis', 'inflammation', 'degeneration', 'edema', 'hypertrophy', 'infarction']):
-                return f"{clean_d} accompanied by extensive cellular infiltration and tissue disruption"
-            elif any(w in clean_d.lower() for w in ['stomatitis', 'enteritis', 'pneumonia', 'nephritis', 'hepatitis', 'pericarditis']):
-                return f"{clean_d} characterized by severe fibrinous exudation and mucosal ulceration"
+    # 9. Deep semantic contextual expansion for long clauses
+    target_len = int(len(correct_str) * 0.90)
+    if len(clean_d) < target_len:
+        if subject_id == 'vmc':
+            if any(w in correct_str.lower() for w in ['capsule', 'spore', 'flagella', 'peptidoglycan', 'cell wall', 'membrane', 'toxin']):
+                suffixes = [
+                    "forming distinctive structural cell wall antigens and antiphagocytic barrier",
+                    "mediating localized tissue adherence, colonization, and endotoxic shock",
+                    "conferring marked physical resistance against environmental heat and desiccation"
+                ]
+            elif any(w in correct_str.lower() for w in ['stain', 'reaction', 'agar', 'broth', 'culture', 'colonies', 'test']):
+                suffixes = [
+                    "producing characteristic differential colonial morphology and enzymatic reactions",
+                    "demonstrating distinctive tinctorial staining properties under light microscopy",
+                    "forming distinctive phenotypic growth patterns on selective diagnostic media"
+                ]
+            elif any(w in correct_str.lower() for w in ['virus', 'dna', 'rna', 'genome', 'capsid', 'envelope']):
+                suffixes = [
+                    "exhibiting distinctive icosahedral symmetry and host viral tropism",
+                    "containing segmented structural genomes undergoing periodic antigenic variation",
+                    "possessing lipid bilayer envelope proteins mediating host membrane fusion"
+                ]
             else:
-                return f"{clean_d} resulting in marked histopathological alterations and tissue damage"
-        elif subject_id == 'vmc':
-            if any(w in clean_d.lower() for w in ['virus', 'bacillus', 'clostridium', 'streptococcus', 'staphylococcus', 'bacterium']):
-                return f"{clean_d} producing severe toxin-mediated cytopathic damage and lesions"
-            elif any(w in clean_d.lower() for w in ['toxin', 'antigen', 'protein', 'enzyme', 'capsule', 'spore']):
-                return f"{clean_d} mediating pathogenic bacterial attachment and systemic dissemination"
-            else:
-                return f"{clean_d} exhibiting characteristic antigenic and cultural growth features"
-        elif subject_id == 'van':
-            if any(w in clean_d.lower() for w in ['artery', 'vein', 'nerve', 'canal', 'duct', 'foramen']):
-                return f"{clean_d} traversing along the regional deep neuromuscular pathway"
-            elif any(w in clean_d.lower() for w in ['lobe', 'cartilage', 'muscle', 'bone', 'vertebra']):
-                return f"{clean_d} forming the structural osteomuscular framework of the region"
-            else:
-                return f"{clean_d} located within the visceral parenchymal compartment of the system"
-        elif subject_id == 'vpy':
-            return f"{clean_d} producing altered homeostatic and systemic autonomic regulatory feedback"
-        elif subject_id == 'vbc':
-            return f"{clean_d} serving as an essential cofactor in intermediary cellular biochemical pathways"
-        elif subject_id == 'ann':
-            return f"{clean_d} quantified in feedstuffs via proximate chemical and energy fractionation"
-        elif subject_id == 'agb':
-            return f"{clean_d} influencing population genotypic frequencies and phenotypic variance components"
-        elif subject_id == 'lpm':
-            return f"{clean_d} specified under recommended livestock housing and environmental shelter norms"
-        elif subject_id == 'vpa':
-            return f"{clean_d} serving as a biological vector and transmission vehicle in the parasitic cycle"
+                suffixes = [
+                    "associated with severe clinical manifestations and systemic bacteremia",
+                    "acting as a significant veterinary pathogen with distinctive antigenic traits",
+                    "exhibiting characteristic biochemical and physiological metabolic profiles"
+                ]
+            h = sum(ord(ch) for ch in clean_d) % len(suffixes)
+            return f"{clean_d} ({suffixes[h]})"
 
-    # Fallback
-    if len(clean_d) < len(correct_str) * 0.65:
-        return f"{clean_d} ({clean_d} reference structure)"
+        elif subject_id == 'vpp':
+            if any(w in correct_str.lower() for w in ['necrosis', 'apoptosis', 'infarct', 'ischemia', 'gangrene']):
+                suffixes = [
+                    "characterized by severe ischemic cell death and loss of nuclear basophilia",
+                    "accompanied by acute enzymatic breakdown and coagulative protein denaturation",
+                    "associated with severe microvascular thrombosis and hemorrhagic extravasation"
+                ]
+            elif any(w in correct_str.lower() for w in ['inflammation', 'abscess', 'granuloma', 'stomatitis', 'enteritis', 'hepatitis']):
+                suffixes = [
+                    "accompanied by marked fibrinous exudate, mucosal erosion, and cellular debris",
+                    "characterized by intense infiltration of heterophils and reactive macrophages",
+                    "producing extensive tissue remodeling, chronic fibroplasia, and granulomatous cuffing"
+                ]
+            elif any(w in correct_str.lower() for w in ['inclusion', 'body', 'pigment', 'amyloid', 'calcification']):
+                suffixes = [
+                    "forming distinctive pathognomonic intracellular inclusions and protein deposits",
+                    "demonstrating marked birefringence and positive tinctorial affinity with special stains",
+                    "exhibiting dystrophic mineral precipitation along degenerated basement membranes"
+                ]
+            else:
+                suffixes = [
+                    "producing marked histopathological lesions with widespread tissue disruption",
+                    "characterized by distinctive cellular morphologic alterations in target viscera",
+                    "accompanied by severe microvascular congestion and inflammatory infiltration"
+                ]
+            h = sum(ord(ch) for ch in clean_d) % len(suffixes)
+            return f"{clean_d} ({suffixes[h]})"
+
+        elif subject_id == 'van':
+            suffixes = [
+                "situated within the regional neurovascular fascia and muscular compartment",
+                "forming key topographical anatomical landmarks of the visceral region",
+                "providing collateral arterial distribution and somatic motor innervation"
+            ]
+            h = sum(ord(ch) for ch in clean_d) % len(suffixes)
+            return f"{clean_d} ({suffixes[h]})"
+
+        elif subject_id == 'vpy':
+            suffixes = [
+                "mediating altered systemic autonomic regulation and negative feedback loops",
+                "modulating peripheral vascular resistance and transmembrane action potentials",
+                "regulating target organ cellular receptor activation and intracellular second messengers"
+            ]
+            h = sum(ord(ch) for ch in clean_d) % len(suffixes)
+            return f"{clean_d} ({suffixes[h]})"
+
+        elif subject_id == 'vbc':
+            suffixes = [
+                "functioning as a key regulatory allosteric intermediate in energy metabolism",
+                "coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways",
+                "modulating key rate-limiting enzymatic steps in cellular macromolecule turnover"
+            ]
+            h = sum(ord(ch) for ch in clean_d) % len(suffixes)
+            return f"{clean_d} ({suffixes[h]})"
+
+        elif subject_id == 'ann':
+            suffixes = [
+                "determined via standardized proximate chemical partitioning and energy calculation",
+                "providing essential metabolic substrates for ruminal microbial protein synthesis",
+                "accounting for endogenous metabolic losses during nutrient digestion and transit"
+            ]
+            h = sum(ord(ch) for ch in clean_d) % len(suffixes)
+            return f"{clean_d} ({suffixes[h]})"
+
+        elif subject_id == 'vpa':
+            suffixes = [
+                "exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages",
+                "transmitting infectious larval metacestodes through intermediate arthropod hosts",
+                "mediating mucosal attachment and blood-feeding injury in the host digestive tract"
+            ]
+            h = sum(ord(ch) for ch in clean_d) % len(suffixes)
+            return f"{clean_d} ({suffixes[h]})"
+
+        else:
+            suffixes = [
+                "characterized by distinct physiological and comparative biological features",
+                "regulated in accordance with established veterinary standard protocols",
+                "exhibiting predictable phenotypic and functional developmental patterns"
+            ]
+            h = sum(ord(ch) for ch in clean_d) % len(suffixes)
+            return f"{clean_d} ({suffixes[h]})"
 
     return clean_d
 
@@ -571,7 +704,6 @@ def process_question(q):
         q_copy['options'] = new_opts
         return q_copy
 
-    # Standard equalization
     d_indices = [i for i in range(4) if i != c_idx]
     orig_ds = [opts[i] for i in d_indices]
     new_ds = [enhance_distractor(d, correct_text, q.get('subjectId', ''), q.get('topic', ''), q_id) for d in orig_ds]
@@ -591,6 +723,7 @@ def test_all():
 
     severe_before = 0
     severe_after = 0
+    remaining_ids = []
     for q in master:
         c_idx = q['correctOptionIndex']
         c_len = len(q['options'][c_idx])
@@ -604,12 +737,14 @@ def test_all():
         d_lens2 = [len(q_proc['options'][i]) for i in range(4) if i != c_idx2]
         if c_len2 >= 1.35 * (sum(d_lens2)/3) and (c_len2 - max(d_lens2)) >= 12:
             severe_after += 1
+            remaining_ids.append((q['id'], q['options'][c_idx], [q_proc['options'][i] for i in range(4) if i != c_idx2]))
 
     print(f"Total Questions in Master: {len(master)}")
     print(f"Severe Length Bias BEFORE: {severe_before}")
     print(f"Severe Length Bias AFTER: {severe_after}")
     print(f"Resolution Rate: {(severe_before - severe_after) / severe_before * 100:.1f}%")
-
+    if remaining_ids:
+        print(f"\nRemaining {len(remaining_ids)} question IDs: {[item[0] for item in remaining_ids]}")
 
 if __name__ == '__main__':
     test_all()
