@@ -16,9 +16,10 @@ from pyq_vbc import get_vbc_pyqs
 from build_pathology_300 import get_all_300_vpp_questions
 from build_microbiology_300 import get_all_300_vmc_questions
 from build_anatomy_150 import get_all_150_van_questions
+from build_parasitology_60 import get_all_60_vpa_questions
 
 def main():
-    print("Compiling Complete Question Bank (565 Base + 350 Core PYQs + 300 VPP Exp + 300 VMC Exp + 150 VAN Exp = 1,665 Questions)...")
+    print("Compiling Complete Question Bank (565 Base + 350 Core PYQs + 300 VPP Exp + 300 VMC Exp + 150 VAN Exp + 60 VPA Exp = 1,725 Questions)...")
     
     van_pyqs = get_van_pyqs() # 50
     vpp_pyqs = get_vpp_pyqs() # 100
@@ -28,6 +29,7 @@ def main():
     new_vpp_300 = get_all_300_vpp_questions() # 300
     new_vmc_300 = get_all_300_vmc_questions() # 300
     new_van_150 = get_all_150_van_questions() # 150
+    new_vpa_60 = get_all_60_vpa_questions() # 60
 
     print(f"Veterinary Anatomy Core PYQs (VAN): {len(van_pyqs)}")
     print(f"Veterinary Pathology Core PYQs (VPP): {len(vpp_pyqs)}")
@@ -36,12 +38,13 @@ def main():
     print(f"New Expanded Veterinary Pathology (VPP): {len(new_vpp_300)}")
     print(f"New Expanded Veterinary Microbiology (VMC): {len(new_vmc_300)}")
     print(f"New Expanded Veterinary Anatomy (VAN): {len(new_van_150)}")
+    print(f"New Expanded Veterinary Parasitology (VPA): {len(new_vpa_60)}")
 
     all_core_pyqs = van_pyqs + vpp_pyqs + vmc_pyqs + vbc_pyqs
     assert len(all_core_pyqs) == 350, f"Expected 350 core PYQs, got {len(all_core_pyqs)}"
 
     # Check ID uniqueness across all new and pyq sets
-    all_combined_new_and_pyq = all_core_pyqs + new_vpp_300 + new_vmc_300 + new_van_150
+    all_combined_new_and_pyq = all_core_pyqs + new_vpp_300 + new_vmc_300 + new_van_150 + new_vpa_60
     ids = set()
     for q in all_combined_new_and_pyq:
         if q["id"] in ids:
@@ -64,9 +67,9 @@ def main():
     ]
     print(f"Verified genuine base questions: {len(clean_base)}")
 
-    master_1665 = clean_base + all_core_pyqs + new_vpp_300 + new_vmc_300 + new_van_150
-    print(f"Total Master Questions: {len(master_1665)}")
-    assert len(master_1665) == 1665, f"Expected 1,665 questions, got {len(master_1665)}"
+    master_1725 = clean_base + all_core_pyqs + new_vpp_300 + new_vmc_300 + new_van_150 + new_vpa_60
+    print(f"Total Master Questions: {len(master_1725)}")
+    assert len(master_1725) == 1725, f"Expected 1,725 questions, got {len(master_1725)}"
 
     # Save initial un-shuffled JSONs
     with open(os.path.join(packs_dir, "vpp_300_new.json"), "w", encoding="utf-8") as f:
@@ -75,8 +78,10 @@ def main():
         json.dump(new_vmc_300, f, indent=2, ensure_ascii=False)
     with open(os.path.join(packs_dir, "van_150_new.json"), "w", encoding="utf-8") as f:
         json.dump(new_van_150, f, indent=2, ensure_ascii=False)
+    with open(os.path.join(packs_dir, "vpa_60_new.json"), "w", encoding="utf-8") as f:
+        json.dump(new_vpa_60, f, indent=2, ensure_ascii=False)
 
-    print("Now executing apply_balance() to balance distractor indices across all 1665 questions...")
+    print("Now executing apply_balance() to balance distractor indices across all 1725 questions...")
     from apply_balanced_options import apply_balance
     apply_balance()
 

@@ -7,12 +7,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "In the bovine skull, which cranial foramen represents the confluent fusion of the foramen rotundum and the orbital fissure (foramen lacerum anterius)?",
     "options": [
-      "Stylomastoid foramen",
-      "Foramen orbitorotundum",
       "Foramen ovale",
-      "Foramen lacerum"
+      "Foramen lacerum",
+      "Foramen orbitorotundum",
+      "Stylomastoid foramen"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "In ruminants and pigs, the orbital fissure and foramen rotundum merge into a single large oval opening termed the foramen orbitorotundum, through which cranial nerves III, IV, VI, and the ophthalmic and maxillary branches of CN V pass.",
     "difficulty": "Hard",
     "tags": [
@@ -32,12 +32,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The 'Facial Crest' (crista facialis), a prominent subcutaneous horizontal bony ridge on the lateral aspect of the face, is a characteristic anatomical feature of the skull of the:",
     "options": [
-      "Horse (Equine)",
-      "Ox (Bovine)",
       "Dog (Canine)",
-      "Pig (Porcine)"
+      "Ox (Bovine)",
+      "Pig (Porcine)",
+      "Horse (Equine)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "The facial crest is a prominent landmark on the lateral maxilla and zygomatic bone of the horse; in cattle, it is replaced by a blunt, circumscribed 'facial tuberosity' (tuber faciale) located dorsal to the 3rd-4th upper premolar.",
     "difficulty": "Hard",
     "tags": [
@@ -57,12 +57,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The 'Cornual Process' (processus cornus), which supports the horn in horned ruminants, is an osseous outgrowth arising directly from which cranial bone?",
     "options": [
-      "Occipital bone",
       "Temporal bone",
-      "Parietal bone",
-      "Frontal bone"
+      "Occipital bone",
+      "Frontal bone",
+      "Parietal bone"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 2,
     "explanation": "In cattle, sheep, and goats, horns are supported by the cornual processes, which are hollow bony projections extending from the caudal angles of the frontal bones, pneumatized by the frontal sinus.",
     "difficulty": "Hard",
     "tags": [
@@ -82,12 +82,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The Atlas (1st cervical vertebra) of the dog differs from that of the horse and ox because its modified transverse processes (wings of atlas) feature:",
     "options": [
-      "An 'Alar Notch' (incisura alaris) on its cranial border instead of an alar foramen",
+      "A high dorsal spinous process",
       "An absence of transverse foramina",
       "A complete alar foramen",
-      "A high dorsal spinous process"
+      "An 'Alar Notch' (incisura alaris) on its cranial border instead of an alar foramen"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "In carnivores, the cranial border of the wing of the atlas has an open notch (alar notch / incisura alaris), whereas in horses, cattle, and sheep, this is enclosed by bone to form a true alar foramen (foramen alare).",
     "difficulty": "Hard",
     "tags": [
@@ -107,10 +107,10 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The dens (odontoid process) of the Axis (2nd cervical vertebra) in cattle and horses exhibits which comparative anatomical shape?",
     "options": [
-      "Flat and square",
+      "Completely bifurcated",
       "Spout-shaped (semicylindrical, concave dorsally)",
       "Cylindrical (peg-like / conical)",
-      "Completely bifurcated"
+      "Flat and square"
     ],
     "correctOptionIndex": 1,
     "explanation": "In ruminants and equines, the dens of the axis is broad, semicylindrical, and spout-shaped (concave dorsally and rounded ventrally); in dogs and cats, it is a rounded, cylindrical, peg-like process.",
@@ -132,12 +132,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The total number of cervical vertebrae present in almost all domestic mammals (Ox, Horse, Dog, Pig, Sheep, Cat, and Camel) is universally:",
     "options": [
-      "8",
-      "14",
       "7",
-      "6"
+      "14",
+      "6",
+      "8"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "All mammalian domestic species (from the smallest cat to the camel and giraffe) consistently possess precisely 7 cervical vertebrae, whereas birds (such as Gallus domesticus) possess 14 cervical vertebrae.",
     "difficulty": "Hard",
     "tags": [
@@ -157,12 +157,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The 'Anticlinal Vertebra' (the thoracic vertebra whose spinous process is oriented perpendicular / vertical to the long axis of the vertebral column) is:",
     "options": [
-      "T11 in the Dog (T13 in Ox, T16 in Horse)",
       "T1 in the Dog",
       "L1 in all species",
-      "T7 in all species"
+      "T7 in all species",
+      "T11 in the Dog (T13 in Ox, T16 in Horse)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "The anticlinal vertebra represents the anatomical transition point of spinous process angulation (cranial spinous processes slope caudally; caudal processes slope cranially); it is T11 in dogs and cats, T13 in ruminants, and T16 in equines.",
     "difficulty": "Hard",
     "tags": [
@@ -183,11 +183,11 @@
     "questionText": "The Sacrum is formed by the complete fusion of how many sacral vertebrae in the Horse and Ox versus the Dog?",
     "options": [
       "4 in the Dog and 3 in the Horse",
+      "3 in all species",
       "5 in the Horse and Ox, 3 in the Dog (and 4 in the Pig)",
-      "7 in the Horse and 5 in the Ox",
-      "3 in all species"
+      "7 in the Horse and 5 in the Ox"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "The sacral segment consists of 5 fused vertebrae in equines and bovines (Os sacrum), 4 fused vertebrae in swine, and 3 fused vertebrae in dogs and cats.",
     "difficulty": "Hard",
     "tags": [
@@ -207,12 +207,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The 'Foramen Triosseum' (triosseal canal) in the avian pectoral girdle, through which the tendon of the supracoracoideus muscle passes like a pulley to elevate the wing, is formed by the junction of:",
     "options": [
-      "Humerus, Radius, and Ulna",
-      "Sternum and Ribs",
+      "Scapula, Coracoid, and Clavicle",
       "Ilium, Ischium, and Pubis",
-      "Scapula, Coracoid, and Clavicle"
+      "Sternum and Ribs",
+      "Humerus, Radius, and Ulna"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "In birds, the dorsal extremities of the scapula, coracoid bone, and clavicle articulate to bound the triosseal canal; the tendon of the deep pectoral (supracoracoideus) passes through it, acting as a pulley to raise the wing.",
     "difficulty": "Hard",
     "tags": [
@@ -232,12 +232,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The 'Pygostyle' of the avian skeleton is a plowshare-shaped bone formed by the fusion of the:",
     "options": [
-      "Lumbar vertebrae",
       "Cervical vertebrae",
       "Terminal 4 to 6 caudal (coccygeal) vertebrae, supporting the tail rectrices",
-      "Pelvic bones"
+      "Pelvic bones",
+      "Lumbar vertebrae"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 1,
     "explanation": "The avian tail skeleton terminates in the pygostyle, a compressed blade-like bone formed by the fusion of the last 4-6 caudal vertebrae that anchors the tail flight feathers (rectrices) and uropygial gland.",
     "difficulty": "Hard",
     "tags": [
@@ -258,11 +258,11 @@
     "questionText": "The Scapula of the horse differs from that of the ox, sheep, and dog because the horse scapula:",
     "options": [
       "Has a massive hook-like acromion",
-      "Lacks an Acromion process and possesses a prominent Tuber Spinae at the middle of the scapular spine",
       "Has a supraspinous fossa twice as large as the infraspinous fossa",
+      "Lacks an Acromion process and possesses a prominent Tuber Spinae at the middle of the scapular spine",
       "Possesses a clavicle"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "In the horse, the spine of the scapula gradually subsides distally without forming an acromion process, and features a roughened, thick tuber spinae in its middle; cattle and dogs have prominent acromion processes.",
     "difficulty": "Hard",
     "tags": [
@@ -283,9 +283,9 @@
     "questionText": "In the domestic cat, the distal end of the scapular spine features which unique projection extending caudally over the infraspinous fossa?",
     "options": [
       "Suprahamate process (processus suprahamatus)",
-      "Tuber spinae",
       "Glenoid notch",
-      "Coracoid process"
+      "Coracoid process",
+      "Tuber spinae"
     ],
     "correctOptionIndex": 0,
     "explanation": "The feline scapula is distinguished by having both a hamate process (the distal tip of the acromion) and a distinct, caudally projecting suprahamate process situated immediately dorsal to the hamate process.",
@@ -307,12 +307,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "In the equine humerus, the bicipital groove (sulcus intertubercularis) on the cranial aspect of the proximal extremity is unique because it is:",
     "options": [
+      "Enclosed by a bony bridge into a foramen",
       "Completely absent",
       "A single undivided shallow groove as in the ox and dog",
-      "Divided into two distinct channels by a central 'intermediate ridge' (sagittal ridge)",
-      "Enclosed by a bony bridge into a foramen"
+      "Divided into two distinct channels by a central 'intermediate ridge' (sagittal ridge)"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "In the horse, the tendon of the biceps brachii muscle is accommodated by a wide bicipital groove divided into medial and lateral channels by a prominent intermediate ridge, whereas in the ox, pig, and dog, it is a single undivided groove.",
     "difficulty": "Hard",
     "tags": [
@@ -332,12 +332,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The 'Supratrochlear Foramen' (a perforation through the thin bony septum between the radial and olecranon fossae of the humerus) is normally present in the:",
     "options": [
-      "Ox (Bovine)",
       "Horse (Equine)",
+      "Dog (Canine)",
       "Pig (Porcine)",
-      "Dog (Canine)"
+      "Ox (Bovine)"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "The dog humerus consistently possesses a supratrochlear foramen through which no major nerve or vessel passes; in contrast, the domestic cat possesses a 'supracondylar foramen' on the medial epicondyle transmitting the median nerve and brachial artery.",
     "difficulty": "Hard",
     "tags": [
@@ -357,10 +357,10 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "In the feline humerus, which vital neurovascular structures pass through the 'Supracondylar Foramen' located on the medial supracondylar crest?",
     "options": [
-      "Radial nerve and Deep brachial artery",
+      "Ulnar nerve and Collateral ulnar artery",
       "Median nerve and Brachial artery",
       "Musculocutaneous nerve",
-      "Ulnar nerve and Collateral ulnar artery"
+      "Radial nerve and Deep brachial artery"
     ],
     "correctOptionIndex": 1,
     "explanation": "The supracondylar foramen is present in felids on the distomedial humerus; fractures of the distal humerus risk severe iatrogenic or traumatic laceration of the median nerve and brachial artery passing through it.",
@@ -383,8 +383,8 @@
     "questionText": "The 'Musculospiral Groove' (sulcus musculi brachialis) is a prominent spiral depression winding laterally around the shaft of the:",
     "options": [
       "Tibia",
-      "Radius",
       "Femur",
+      "Radius",
       "Humerus, accommodating the brachialis muscle"
     ],
     "correctOptionIndex": 3,
@@ -408,9 +408,9 @@
     "questionText": "In the antebrachium of the Ox, the Radius and Ulna are characterized by having:",
     "options": [
       "Two distinct interosseous spaces (proximal and distal interosseous spaces) with complete fusion along their shafts in adults",
-      "Complete freedom of pronation and supination",
       "A single proximal interosseous space with a free, mobile ulna",
-      "Absence of the olecranon process"
+      "Absence of the olecranon process",
+      "Complete freedom of pronation and supination"
     ],
     "correctOptionIndex": 0,
     "explanation": "In ruminants, the ulna extends the entire length of the antebrachium and fuses with the radius, leaving two permanent openings: a proximal interosseous space and a small distal interosseous space.",
@@ -432,10 +432,10 @@
     "topic": "Comparative Osteology",
     "questionText": "The 'Accessory Carpal Bone' (Os carpi accessorium) is projected palmarward, providing insertion to the tendon of the:",
     "options": [
-      "Extensor carpi radialis",
       "Common digital extensor",
+      "Biceps brachii",
       "Flexor carpi ulnaris muscle (and abductor digiti quinti)",
-      "Biceps brachii"
+      "Extensor carpi radialis"
     ],
     "correctOptionIndex": 2,
     "explanation": "The accessory carpal bone forms the lateral boundary of the carpal canal and acts as a lever arm for the flexor carpi ulnaris and ulnaris lateralis muscles during carpal flexion.",
@@ -457,9 +457,9 @@
     "questionText": "The total number of functional carpal bones present in the carpus of the adult Horse is typically:",
     "options": [
       "7 or 8 (Radial, Intermediate, Ulnar, Accessory in proximal row; II, III, IV, and inconsistently I in distal row)",
+      "6",
       "5",
-      "10",
-      "6"
+      "10"
     ],
     "correctOptionIndex": 0,
     "explanation": "The horse carpus has 7 or 8 bones: proximal row (radial, intermediate, ulnar, accessory) and distal row (second, third, fourth carpal bones, with the first carpal bone present in ~30-50% of horses).",
@@ -481,12 +481,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "In the bovine forelimb, the 'Large Metacarpal Bone' (Cannon bone) is formed by the prenatal embryonic fusion of:",
     "options": [
+      "Metacarpal I and II",
       "Metacarpal II and III",
       "Metacarpal III and Metacarpal IV (marked by a longitudinal vascular groove)",
-      "Metacarpal IV and V",
-      "Metacarpal I and II"
+      "Metacarpal IV and V"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "In ruminants, the large cannon bone represents the developmental fusion of the 3rd and 4th metacarpals, featuring a vertical dorsal longitudinal groove and two distal articular condyles separated by an intertrochlear notch.",
     "difficulty": "Hard",
     "tags": [
@@ -506,12 +506,12 @@
     "topic": "Comparative Osteology",
     "questionText": "The 'Psoas Tubercle' (tuberculum psoas minus), providing insertion for the psoas minor muscle, is located on the ventral surface of the shaft of the:",
     "options": [
+      "Ischium",
       "Pubis",
       "Sacrum",
-      "Ilium (along the iliopectineal line)",
-      "Ischium"
+      "Ilium (along the iliopectineal line)"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "The psoas tubercle is a distinct rough ridge or tubercle located on the medial/ventral border of the shaft of the ilium in horses and cattle, providing insertion for the tendon of the psoas minor.",
     "difficulty": "Medium",
     "tags": [
@@ -530,12 +530,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "In the bovine pelvis, the Tuber Ischiadicum ('Pin bone') differs from that of the horse because the bovine tuber ischiadicum is:",
     "options": [
-      "Pointed like a needle",
-      "Completely absent",
       "A smooth, single rounded plate",
-      "Trifid (possessing three distinct blunt bony tuberosities: dorsal, ventral, and lateral)"
+      "Trifid (possessing three distinct blunt bony tuberosities: dorsal, ventral, and lateral)",
+      "Completely absent",
+      "Pointed like a needle"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "In cattle, the tuber ischiadicum is thick, rugged, and trifid (three-pointed), forming the anatomical 'pin bone' used in linear body measurements; in the horse, it forms a flat, rounded, single-crested plate.",
     "difficulty": "Hard",
     "tags": [
@@ -555,12 +555,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The 'Third Trochanter' (trochanter tertius), a massive flattened curved bony crest on the lateral border of the femoral shaft, is uniquely prominent in the:",
     "options": [
-      "Horse (Equine)",
-      "Pig (Porcine)",
       "Ox (Bovine)",
-      "Dog (Canine)"
+      "Pig (Porcine)",
+      "Dog (Canine)",
+      "Horse (Equine)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "The equine femur is distinguished by a large, prominent third trochanter on its lateral border providing insertion to the superficial gluteal muscle; it is completely absent in ruminants, dogs, and pigs.",
     "difficulty": "Hard",
     "tags": [
@@ -580,9 +580,9 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The 'Extensor Fossa' (fossa extensoria), a distinct depression on the distal extremity of the femur providing origin to the peroneus tertius and long digital extensor muscles, is located on the:",
     "options": [
-      "Trochlea",
-      "Lateral epicondyle / lateral condyle of the femur",
       "Medial epicondyle",
+      "Lateral epicondyle / lateral condyle of the femur",
+      "Trochlea",
       "Greater trochanter"
     ],
     "correctOptionIndex": 1,
@@ -605,10 +605,10 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "In cattle, the distal extremity of the fibula persists throughout adult life as an independent, separate tarsal bone termed the:",
     "options": [
-      "Os penis",
+      "Os cordis",
       "Patella",
       "Os malleolare (Malleolar bone / external malleolus)",
-      "Os cordis"
+      "Os penis"
     ],
     "correctOptionIndex": 2,
     "explanation": "In ruminants, the shaft of the fibula is absent, but its distal end develops as a separate, fully articulated quadrilateral bone called the os malleolare, articulating with the distal tibia, talus, and calcaneus.",
@@ -630,12 +630,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "In the equine tarsus (hock joint), the total number of tarsal bones typically present is:",
     "options": [
-      "4",
+      "6 (Talus, Calcaneus, Central, Tarsal I+II fused, Tarsal III, and Tarsal IV)",
       "5 (Central and IV fused)",
       "7",
-      "6 (Talus, Calcaneus, Central, Tarsal I+II fused, Tarsal III, and Tarsal IV)"
+      "4"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "The equine tarsus contains 6 bones: proximal row (talus, calcaneus), middle row (central tarsal), and distal row (fused 1st and 2nd tarsal, 3rd tarsal, and 4th tarsal); in cattle, central and 4th are fused and 2nd and 3rd are fused, yielding 5 bones.",
     "difficulty": "Hard",
     "tags": [
@@ -655,12 +655,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "Heterotopic (visceral / splanchnic) bones are osseous elements that develop within soft tissues or organs. The 'Os Cordis' is normally present in the heart of:",
     "options": [
-      "Dogs",
-      "Horses",
       "Fowl",
-      "Cattle (Bovine, typically two bones in the aortic fibrous ring)"
+      "Dogs",
+      "Cattle (Bovine, typically two bones in the aortic fibrous ring)",
+      "Horses"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 2,
     "explanation": "In cattle (and older sheep/goats), two heterotopic bones (os cordis dextrum and sinistrum) develop within the cardiac skeleton surrounding the aortic fibrous ring, providing support to the aortic valve and atrioventricular valves.",
     "difficulty": "Hard",
     "tags": [
@@ -682,8 +682,8 @@
     "options": [
       "Dorsal artery of the penis",
       "Penile Urethra",
-      "Internal pudendal nerve",
-      "Deep dorsal vein"
+      "Deep dorsal vein",
+      "Internal pudendal nerve"
     ],
     "correctOptionIndex": 1,
     "explanation": "The canine os penis is a heterotopic ossification within the glans penis; its ventral surface is excavated by a deep urethral sulcus (sulcus urethralis) that houses and protects the penile urethra.",
@@ -705,12 +705,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "The 'Os Rostri' is a splanchnic bone found in the muzzle of which domestic animal, serving to strengthen the snout for rooting behavior?",
     "options": [
-      "Pig (Porcine)",
       "Dog",
       "Horse",
-      "Ox"
+      "Ox",
+      "Pig (Porcine)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "The os rostri (rostral bone / os snout) is a triangular heterotopic bone situated within the cartilaginous nasal septum and rostral plate of swine, providing rigid support for burrowing and rooting.",
     "difficulty": "Hard",
     "tags": [
@@ -730,12 +730,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "Scleral Ossicles (a ring of overlapping thin bony plates embedded within the sclera of the eye) are a characteristic feature of:",
     "options": [
-      "Dogs",
-      "Ruminants",
       "Birds (Avian eye)",
-      "Horses"
+      "Horses",
+      "Ruminants",
+      "Dogs"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "Birds possess a ring of 10 to 18 overlapping scleral ossicles surrounding the cornea, providing rigid mechanical support to maintain the non-spherical shape of the large avian eye and resist intraocular pressure changes.",
     "difficulty": "Hard",
     "tags": [
@@ -755,12 +755,12 @@
     "topic": "Arthrology (ICAR PG PYQ)",
     "questionText": "The 'Accessory Ligament of the Femur' (Ligamentum accessorium ossis femoris) is an intra-articular ligament of the hip joint uniquely present in the:",
     "options": [
-      "Ox (Bovine)",
-      "Horse (Equine, originating from the prepubic tendon and preventing abduction)",
+      "Pig (Porcine)",
       "Dog (Canine)",
-      "Pig (Porcine)"
+      "Horse (Equine, originating from the prepubic tendon and preventing abduction)",
+      "Ox (Bovine)"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "The horse uniquely possesses an accessory ligament of the hip joint (in addition to the ligament of the head of the femur); it arises from the prepubic tendon of the abdominal muscles, passes through the acetabular notch, and inserts into the femoral fovea capitis, preventing kicking outward.",
     "difficulty": "Hard",
     "tags": [
@@ -780,12 +780,12 @@
     "topic": "Arthrology (ICAR PG PYQ)",
     "questionText": "The Stifle Joint (Femoropatellar joint) of the Horse and Ox possesses how many Patellar Ligaments connecting the patella to the tibial tuberosity?",
     "options": [
+      "1 single straight ligament",
       "2 ligaments",
       "4 ligaments",
-      "3 (Medial, Middle / Intermediate, and Lateral patellar ligaments)",
-      "1 single straight ligament"
+      "3 (Medial, Middle / Intermediate, and Lateral patellar ligaments)"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "Large ungulates (equines and bovines) possess three distinct patellar ligaments: lateral, intermediate (middle), and medial; in carnivores and humans, there is only a single straight patellar tendon/ligament.",
     "difficulty": "Hard",
     "tags": [
@@ -805,12 +805,12 @@
     "topic": "Arthrology (ICAR PG PYQ)",
     "questionText": "The 'Patellar Locking Mechanism' in the horse, which enables equines to rest while standing with minimal muscular energy (part of the stay apparatus), operates by hooking the medial patellar ligament and patellar fibrocartilage over the:",
     "options": [
-      "Lateral ridge of the femoral trochlea",
+      "Medial ridge of the femoral trochlea",
       "Intercondyloid fossa",
       "Extensor fossa",
-      "Medial ridge of the femoral trochlea"
+      "Lateral ridge of the femoral trochlea"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "The medial ridge of the equine femoral trochlea is markedly larger than the lateral ridge and terminates proximally in a round tubercle; rotating the patella medially hooks the looped medial ligament over this tubercle, locking the stifle in extension.",
     "difficulty": "Hard",
     "tags": [
@@ -830,12 +830,12 @@
     "topic": "Arthrology (ICAR PG PYQ)",
     "questionText": "The cranial and caudal Cruciate Ligaments (Ligamenta cruciata genus) of the stifle joint cross each other within which anatomical space?",
     "options": [
-      "Intercondylar fossa of the femur and intercondylar area of the tibia (intra-articular but extrasynovial)",
       "Tarsal canal",
+      "Intercondylar fossa of the femur and intercondylar area of the tibia (intra-articular but extrasynovial)",
       "Extensor fossa",
       "Subcutaneous prepatellar bursa"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 1,
     "explanation": "The cruciate ligaments reside inside the fibrous joint capsule (intra-articular) between the condyles of the femur and tibia, but are wrapped in reflections of synovial membrane (extrasynovial); the cranial cruciate prevents cranial tibial translation.",
     "difficulty": "Hard",
     "tags": [
@@ -879,9 +879,9 @@
     "topic": "Arthrology (ICAR PG PYQ)",
     "questionText": "The Atlanto-Axial Joint (articulatio atlantoaxialis) between the first and second cervical vertebrae is classified structurally and functionally as a:",
     "options": [
-      "Ball-and-socket joint",
       "Suture",
       "Saddle joint",
+      "Ball-and-socket joint",
       "Pivot joint (Trochoid joint) permitting axial rotation of the head"
     ],
     "correctOptionIndex": 3,
@@ -904,12 +904,12 @@
     "topic": "Arthrology (ICAR PG PYQ)",
     "questionText": "The 'Nuchal Ligament' (Ligamentum nuchae), which assists in supporting the heavy weight of the head, consists of a Funicular part (cord) and a Lamellar part (sheet) in the Horse and Ox, but in the Dog it:",
     "options": [
-      "Consists solely of a Funicular part extending from the axis to the first thoracic spine, and lacks a lamellar part entirely",
       "Has only a lamellar part",
       "Is completely absent",
+      "Consists solely of a Funicular part extending from the axis to the first thoracic spine, and lacks a lamellar part entirely",
       "Is identical to the ox"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 2,
     "explanation": "In the dog, the nuchal ligament is represented only by a slender funicular band stretching from the spinous process of the axis to the spinous process of T1; cats and pigs lack a nuchal ligament entirely.",
     "difficulty": "Hard",
     "tags": [
@@ -929,12 +929,12 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "Which domestic animal species completely lacks a Nuchal Ligament?",
     "options": [
-      "Dog and Sheep",
-      "Horse and Ox",
       "Pig (Porcine) and Cat (Feline)",
-      "Camel"
+      "Camel",
+      "Dog and Sheep",
+      "Horse and Ox"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "Because the pig carries its head low on a short, muscular neck, and the cat has an exceptionally flexible neck with independent head mobility, both pigs and cats completely lack a ligamentum nuchae.",
     "difficulty": "Hard",
     "tags": [
@@ -955,11 +955,11 @@
     "questionText": "The 'Suspensory Ligament' of the equine and bovine distal limb (Interosseous muscle / Musculus interosseus medius) functions to:",
     "options": [
       "Rotate the digit",
-      "Flex the carpus",
       "Prevent excessive hyperextension (dorsiflexion) of the fetlock (metacarpophalangeal) joint during weight-bearing",
+      "Flex the carpus",
       "Retract the hoof"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 1,
     "explanation": "The suspensory ligament (entirely tendinous in the adult horse, partially muscular in cattle) originates on the proximal metacarpus/carpus and bifurcates onto the proximal sesamoid bones, forming the primary tension band of the stay apparatus preventing fetlock sinking.",
     "difficulty": "Hard",
     "tags": [
@@ -979,12 +979,12 @@
     "topic": "Arthrology (ICAR PG PYQ)",
     "questionText": "The 'Check Ligaments' (accessory ligaments) of the equine distal limb include the Superior Check Ligament and Inferior Check Ligament, which reinforce which respective flexor tendons?",
     "options": [
-      "Both reinforce Common digital extensor",
+      "Superior reinforces Superficial Digital Flexor tendon; Inferior reinforces Deep Digital Flexor tendon",
       "Both reinforce Extensor carpi radialis",
-      "Superior reinforces DDFT; Inferior reinforces SDFT",
-      "Superior reinforces Superficial Digital Flexor tendon; Inferior reinforces Deep Digital Flexor tendon"
+      "Both reinforce Common digital extensor",
+      "Superior reinforces DDFT; Inferior reinforces SDFT"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "The superior (radial) check ligament arises from the distal caudal radius and blends with the superficial digital flexor tendon; the inferior (subcarpal) check ligament arises from the palmar carpal ligament and anchors to the deep digital flexor tendon.",
     "difficulty": "Hard",
     "tags": [
@@ -1004,12 +1004,12 @@
     "topic": "Digestive Splanchnology (ICAR PG PYQ)",
     "questionText": "In the ruminant stomach, the mucous membrane lining the interior of the Reticulum is arranged in a pathognomonic pattern resembling a:",
     "options": [
-      "Honeycomb (polygonal cells bounded by serrated mucosal ridges)",
       "Book with multiple leaf-like pages",
       "Smooth glistening velvet surface with no folds",
-      "Carpet of shaggy conical papillae"
+      "Carpet of shaggy conical papillae",
+      "Honeycomb (polygonal cells bounded by serrated mucosal ridges)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "The interior mucosa of the reticulum is thrown into permanent intersecting primary, secondary, and tertiary folds dividing the surface into 4- to 6-sided polygonal compartments resembling a honeycomb.",
     "difficulty": "Hard",
     "tags": [
@@ -1029,12 +1029,12 @@
     "topic": "Digestive Splanchnology (ICAR PG PYQ)",
     "questionText": "The 'Reticular Groove' (esophageal groove / sulcus reticuli) in suckling ruminants connects which two anatomical regions, allowing swallowed milk to bypass the rumen and reticulum?",
     "options": [
-      "Omasum to the abomasum",
-      "Cardia to the Reticulo-omasal orifice",
       "Pylorus to the duodenum",
-      "Dorsal ruminal sac to the ventral sac"
+      "Dorsal ruminal sac to the ventral sac",
+      "Cardia to the Reticulo-omasal orifice",
+      "Omasum to the abomasum"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "In nursing calves and lambs, the reticular groove reflexively contracts into a closed muscular tube extending from the cardia across the medial wall of the reticulum directly into the reticulo-omasal orifice, shunting milk directly into the abomasum.",
     "difficulty": "Hard",
     "tags": [
@@ -1054,12 +1054,12 @@
     "topic": "Digestive Splanchnology (ICAR PG PYQ)",
     "questionText": "The 'Torus Pyloricus' is a prominent, rounded, fibro-muscular erectile mucosal cushion located at the pyloric sphincter, uniquely present in the stomach of the:",
     "options": [
-      "Ox (Bovine) and Pig (Porcine)",
+      "Dog (Canine)",
       "Cat (Feline)",
-      "Horse (Equine)",
-      "Dog (Canine)"
+      "Ox (Bovine) and Pig (Porcine)",
+      "Horse (Equine)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 2,
     "explanation": "In ruminants and swine, the lesser curvature side of the pyloric canal features a hemispherical, bulbous projection called the torus pyloricus, which assists in closing the pyloric orifice and regulating digesta outflow.",
     "difficulty": "Hard",
     "tags": [
@@ -1079,12 +1079,12 @@
     "topic": "Digestive Splanchnology (ICAR PG PYQ)",
     "questionText": "The internal mucosal lining of the simple stomach of the Horse is sharply divided into a non-glandular stratified squamous region and a glandular region by a distinct, elevated, zigzag border known as the:",
     "options": [
-      "Torus pyloricus",
-      "Sulcus intermedius",
       "Plica gastrica",
-      "Margo Plicatus"
+      "Margo Plicatus",
+      "Torus pyloricus",
+      "Sulcus intermedius"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "The margo plicatus (folded border) is a prominent, raised, serrated cutoff line in the equine stomach separating the pale, cutaneous, non-glandular stratified squamous proventriculus from the dark, pink, glandular fundic mucosa.",
     "difficulty": "Hard",
     "tags": [
@@ -1104,12 +1104,12 @@
     "topic": "Digestive Splanchnology (ICAR PG PYQ)",
     "questionText": "The 'Diverticulum Ventriculi' is a cone-shaped, blind pouch extending cranially from the gastric fundus in the:",
     "options": [
-      "Ox",
       "Pig (Porcine)",
+      "Ox",
       "Horse",
       "Dog"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 0,
     "explanation": "The stomach of the domestic pig is distinguished by possessing a conical, blind-ending pouch projecting dorsomedially from the fundus, termed the diverticulum ventriculi.",
     "difficulty": "Hard",
     "tags": [
@@ -1131,10 +1131,10 @@
     "options": [
       "Pig (Porcine)",
       "Horse (Equine)",
-      "Ox (Bovine)",
-      "Dog (Canine)"
+      "Dog (Canine)",
+      "Ox (Bovine)"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "The bovine tongue is characterized by a prominent dorsal elevation in its caudal third (torus linguae), separated from the rostral body by a deep transverse groove (fossa linguae) where foreign plant awns frequently lodge.",
     "difficulty": "Hard",
     "tags": [
@@ -1154,12 +1154,12 @@
     "topic": "Digestive Splanchnology (ICAR PG PYQ)",
     "questionText": "The 'Lyssa' (a median, longitudinal, spindle-shaped, fibrous or fibro-cartilaginous cord embedded within the ventral muscular apex of the tongue) is present in the:",
     "options": [
+      "Ox",
       "Horse",
-      "Dog (Canine) and Cat (Feline)",
       "Pig",
-      "Ox"
+      "Dog (Canine) and Cat (Feline)"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 3,
     "explanation": "The lyssa is an elastic, rod-like structure wrapped in a dense connective tissue sheath located along the median ventral raphe of the tongue apex in carnivores, containing fat, cartilage cells, and muscle fibers.",
     "difficulty": "Hard",
     "tags": [
@@ -1179,12 +1179,12 @@
     "topic": "Digestive Splanchnology (ICAR PG PYQ)",
     "questionText": "In the domestic Horse, the Parotid Salivary Duct (Stensen's duct) opens into the buccal vestibule opposite the:",
     "options": [
-      "Upper 3rd cheek tooth (Premolar 4)",
-      "Upper 4th premolar in the dog",
+      "Lower canine tooth",
       "Upper 1st molar",
-      "Lower canine tooth"
+      "Upper 3rd cheek tooth (Premolar 4)",
+      "Upper 4th premolar in the dog"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 2,
     "explanation": "In equines, the parotid duct travels in the vascular notch of the mandible alongside the facial artery and vein, piercing the cheek to open on a mucosal papilla opposite the upper third cheek tooth (P4), whereas in cattle it opens opposite the 2nd molar, and in dogs opposite the 4th upper premolar (carnassial).",
     "difficulty": "Hard",
     "tags": [
@@ -1204,12 +1204,12 @@
     "topic": "Digestive Splanchnology (ICAR PG PYQ)",
     "questionText": "Which domestic animal species completely lacks a Gall Bladder (vesica fellea)?",
     "options": [
-      "Dog (Canine)",
       "Pig (Porcine)",
-      "Ox (Bovine)",
-      "Horse (Equine), along with Pigeon, Ostrich, and Camel"
+      "Horse (Equine), along with Pigeon, Ostrich, and Camel",
+      "Dog (Canine)",
+      "Ox (Bovine)"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "The horse possesses no gall bladder; bile synthesized continuously by hepatic lobules flows directly through the common bile duct (ductus choledochus) and empties at the major duodenal papilla within the diverticulum duodeni.",
     "difficulty": "Hard",
     "tags": [
@@ -1229,12 +1229,12 @@
     "topic": "Digestive Splanchnology (ICAR PG PYQ)",
     "questionText": "The liver of the domestic Pig is readily recognized both grossly and microscopically by which distinctive histological feature?",
     "options": [
-      "Total absence of lobulation",
-      "Complete lack of portal triads",
       "Prominent interlobular connective tissue septa surrounding each hepatic lobule, giving the surface a 'morocco-leather' pattern",
-      "Presence of central veins with no sinusoidal lining"
+      "Presence of central veins with no sinusoidal lining",
+      "Complete lack of portal triads",
+      "Total absence of lobulation"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "In swine, dense, thick bands of interlobular fibrous connective tissue encircle every individual hepatic lobule, imparting a distinct polygonal mosaic or 'morocco leather' appearance to the capsule and preventing easy parenchymal tearing.",
     "difficulty": "Hard",
     "tags": [
@@ -1254,12 +1254,12 @@
     "topic": "Digestive Splanchnology (ICAR PG PYQ)",
     "questionText": "The 'Spiral Colon' (colon ascendens) of ruminants is anatomically arranged in flat concentric loops comprising:",
     "options": [
-      "Centripetal coils (running inwards towards the central flexure) and Centrifugal coils (running outwards from the central flexure)",
       "A descending spiral without a central flexure",
-      "A simple U-shaped loop",
-      "Haustrated sacculations with 4 taeniae"
+      "Centripetal coils (running inwards towards the central flexure) and Centrifugal coils (running outwards from the central flexure)",
+      "Haustrated sacculations with 4 taeniae",
+      "A simple U-shaped loop"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 1,
     "explanation": "The ascending colon of ruminants forms a flattened planar spiral coiled within the mesentery; digesta travels inward along 1.5 to 2.5 centripetal gyri to the central flexure, and then reverses direction through centrifugal gyri.",
     "difficulty": "Hard",
     "tags": [
@@ -1279,12 +1279,12 @@
     "topic": "Digestive Splanchnology (ICAR PG PYQ)",
     "questionText": "The massive, comma-shaped Cecum of the Horse has a capacity of 30 to 35 liters and is characterized by possessing how many longitudinal muscular bands (taeniae) and sacculations (haustra)?",
     "options": [
-      "8 bands",
-      "No bands or haustra",
       "4 longitudinal bands (taeniae: dorsal, ventral, medial, lateral) and 4 rows of haustra",
-      "2 bands only"
+      "2 bands only",
+      "No bands or haustra",
+      "8 bands"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "The equine cecum is sacculated and banded, possessing exactly 4 longitudinal taeniae (dorsal, ventral, medial, lateral); the dorsal and medial bands receive the ileocecal and cecocolic folds, respectively.",
     "difficulty": "Hard",
     "tags": [
@@ -1305,11 +1305,11 @@
     "questionText": "In the domestic Horse, the ascending Great Colon is divided into four consecutive anatomical segments that form two U-shaped loops connected by which narrow, non-sacculated flexure that is a frequent site of impaction colic?",
     "options": [
       "Duodenojejunal flexure",
-      "Sternal flexure",
       "Diaphragmatic flexure",
-      "Pelvic Flexure (between the Left Ventral Colon and Left Dorsal Colon)"
+      "Pelvic Flexure (between the Left Ventral Colon and Left Dorsal Colon)",
+      "Sternal flexure"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 2,
     "explanation": "The equine large colon transitions from the wide, sacculated left ventral colon through a narrow, unbanded, unattached hairpin loop called the Pelvic Flexure before expanding into the left dorsal colon, making it the most common site of impaction.",
     "difficulty": "Hard",
     "tags": [
@@ -1329,12 +1329,12 @@
     "topic": "Avian Splanchnology (ICAR PG PYQ)",
     "questionText": "In birds (such as the domestic fowl), the anatomical junction between the small intestine and the large intestine is characterized by the presence of:",
     "options": [
-      "No cecum of any kind",
-      "Paired (two) elongated Ceca",
       "A single large comma-shaped cecum",
-      "Three ceca"
+      "No cecum of any kind",
+      "Three ceca",
+      "Paired (two) elongated Ceca"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 3,
     "explanation": "Birds possess two long, blind ceca arising symmetrically at the ileocecal-colic junction, extending cranially along the sides of the ileum, functioning in water reabsorption and bacterial cellulose fermentation.",
     "difficulty": "Hard",
     "tags": [
@@ -1354,12 +1354,12 @@
     "topic": "Avian Splanchnology (ICAR PG PYQ)",
     "questionText": "Meckel's Diverticulum (diverticulum vitellinum), situated along the antimesenteric border of the jejunum in domestic fowl, is an anatomical landmark representing the persistence of the embryonic:",
     "options": [
-      "Urachus",
-      "Mesonephric duct",
       "Allantoic stalk",
-      "Yolk sac stalk (vitelline duct)"
+      "Yolk sac stalk (vitelline duct)",
+      "Mesonephric duct",
+      "Urachus"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "Meckel's diverticulum is a small, constant, finger-like projection on the outer convex border of the jejunum in birds, demarcating the boundary between the jejunum and ileum, formed by the remnant of the yolk stalk.",
     "difficulty": "Hard",
     "tags": [
@@ -1379,10 +1379,10 @@
     "topic": "Comparative Osteology (ICAR PG PYQ)",
     "questionText": "In the canine carnassial (sectorial) tooth apparatus specialized for shearing flesh, the upper and lower carnassial teeth are which specific teeth?",
     "options": [
-      "Upper 1st Molar and Lower 4th Premolar",
+      "Upper 3rd Premolar and Lower 3rd Molar",
       "Upper Canine and Lower Canine",
       "Upper 4th Premolar (PM4) and Lower 1st Molar (M1)",
-      "Upper 3rd Premolar and Lower 3rd Molar"
+      "Upper 1st Molar and Lower 4th Premolar"
     ],
     "correctOptionIndex": 2,
     "explanation": "The shearing carnassial mechanism in dogs is formed by the occlusion of the upper 4th premolar (PM4) cutting against the lateral surface of the lower 1st molar (M1).",
@@ -1404,12 +1404,12 @@
     "topic": "Comparative Anatomy (ICAR PG PYQ)",
     "questionText": "The permanent dental formula of the adult domestic Ox (Bovine) is correctly written as:",
     "options": [
-      "2 x [ I 3/3, C 1/1, PM 3/3, M 3/3 ] = 40",
       "2 x [ I 0/4, C 0/0, PM 3/3, M 3/3 ] = 32 teeth (with the 4th lower incisiform tooth being a modified canine)",
+      "2 x [ I 3/3, C 1/1, PM 3/3, M 3/3 ] = 40",
       "2 x [ I 1/1, C 0/0, PM 1/1, M 3/3 ] = 16",
       "2 x [ I 3/3, C 1/1, PM 4/4, M 2/3 ] = 42"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 0,
     "explanation": "Ruminants completely lack upper incisors and upper canines (replaced by the tough fibrous dental pad / pulvinus dentalis); the 4 lower teeth on each side are 3 incisors + 1 canine that has adopted an incisiform shape (total 32).",
     "difficulty": "Hard",
     "tags": [
@@ -1429,12 +1429,12 @@
     "topic": "Comparative Anatomy (ICAR PG PYQ)",
     "questionText": "The permanent dental formula of the adult domestic Pig (Sus scrofa) is complete and unreduced, containing a total of:",
     "options": [
-      "44 teeth: 2 x [ I 3/3, C 1/1, PM 4/4, M 3/3 ]",
-      "42 teeth",
       "40 teeth",
-      "32 teeth"
+      "42 teeth",
+      "32 teeth",
+      "44 teeth: 2 x [ I 3/3, C 1/1, PM 4/4, M 3/3 ]"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "The domestic pig retains the primitive, complete, unreduced eutherian mammalian dentition comprising 3 incisors, 1 canine, 4 premolars, and 3 molars in each quadrant, totaling 44 permanent teeth.",
     "difficulty": "Hard",
     "tags": [
@@ -1454,12 +1454,12 @@
     "topic": "Comparative Anatomy (ICAR PG PYQ)",
     "questionText": "The permanent dental formula of the adult domestic Horse (Stallion) is:",
     "options": [
-      "2 x [ I 3/3, C 1/1, PM 3-4/3, M 3/3 ] = 40 or 42 teeth",
-      "2 x [ I 0/4, C 0/0, PM 3/3, M 3/3 ] = 32",
       "2 x [ I 3/3, C 1/1, PM 4/4, M 2/3 ] = 42",
-      "2 x [ I 3/3, C 0/0, PM 3/3, M 3/3 ] = 36"
+      "2 x [ I 3/3, C 1/1, PM 3-4/3, M 3/3 ] = 40 or 42 teeth",
+      "2 x [ I 3/3, C 0/0, PM 3/3, M 3/3 ] = 36",
+      "2 x [ I 0/4, C 0/0, PM 3/3, M 3/3 ] = 32"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 1,
     "explanation": "An adult stallion has 40-42 permanent teeth (3 incisors, 1 canine, 3 or 4 premolars - including the vestigial P1 'wolf tooth' - and 3 molars on each side); mares typically lack canine teeth (36 teeth).",
     "difficulty": "Hard",
     "tags": [
@@ -1479,12 +1479,12 @@
     "topic": "Comparative Anatomy (ICAR PG PYQ)",
     "questionText": "In the domestic dog, the 'Wolf Tooth' seen in horses does not occur; instead, the permanent canine dental formula comprises a total of:",
     "options": [
-      "30 teeth",
+      "42 teeth: 2 x [ I 3/3, C 1/1, PM 4/4, M 2/3 ]",
       "32 teeth",
-      "44 teeth",
-      "42 teeth: 2 x [ I 3/3, C 1/1, PM 4/4, M 2/3 ]"
+      "30 teeth",
+      "44 teeth"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "The permanent dental formula of the dog is I 3/3, C 1/1, PM 4/4, M 2/3 (total 42 teeth), whereas the domestic cat has a reduced dentition of only 30 teeth (I 3/3, C 1/1, PM 3/2, M 1/1).",
     "difficulty": "Hard",
     "tags": [
@@ -1506,10 +1506,10 @@
     "options": [
       "Cat and Rabbit",
       "Horse and Dog",
-      "Ruminants (Ox, Sheep, Goat) and Swine (Pig)",
-      "Birds"
+      "Birds",
+      "Ruminants (Ox, Sheep, Goat) and Swine (Pig)"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "In artiodactyls (ruminants and pigs), the right cranial lobe is ventilated independently by a dedicated tracheal bronchus arising 4-8 cm cranial to the carina, making the right cranial lobe particularly prone to aspiration.",
     "difficulty": "Hard",
     "tags": [
@@ -1529,12 +1529,12 @@
     "topic": "Respiratory Splanchnology (ICAR PG PYQ)",
     "questionText": "The Tracheal Rings (cartilagines tracheales) of domestic mammals are incomplete dorsally, where the gap is bridged by the smooth Trachealis Muscle. In the Dog and Cat, the trachealis muscle is unique because it is positioned:",
     "options": [
+      "On the INTERNAL (inner/luminal) surface of the tracheal cartilages as in Ox and Horse",
       "Within the cartilage rings",
       "On the EXTERNAL (outer) surface of the tracheal cartilages",
-      "On the INTERNAL (inner/luminal) surface of the tracheal cartilages as in Ox and Horse",
       "Completely absent"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "In carnivores (dogs and cats), the transverse smooth fibers of the trachealis muscle attach to the external perichondrial surfaces of the cartilage rings, whereas in horses, cattle, and sheep, the muscle attaches to the internal luminal surface.",
     "difficulty": "Hard",
     "tags": [
@@ -1554,12 +1554,12 @@
     "topic": "Respiratory Splanchnology",
     "questionText": "The Larynx consists of four major cartilages (Thyroid, Cricoid, Epiglottis, and paired Arytenoid). The vocal process and muscular process are anatomical landmarks located on the:",
     "options": [
-      "Epiglottic cartilage",
       "Arytenoid cartilages",
-      "Thyroid cartilage",
-      "Cricoid cartilage"
+      "Epiglottic cartilage",
+      "Cricoid cartilage",
+      "Thyroid cartilage"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 0,
     "explanation": "The paired arytenoid cartilages are pyramidal; the cranial/dorsal apex bears the corniculate process, the ventral angle forms the vocal process (anchoring the vocal ligament), and the lateral angle forms the muscular process.",
     "difficulty": "Medium",
     "tags": [
@@ -1578,12 +1578,12 @@
     "topic": "Respiratory Splanchnology (ICAR PG PYQ)",
     "questionText": "In the horse, the lateral laryngeal ventricle (sacculus laryngis of Morgagni) is a blind mucous pouch located between which two laryngeal folds?",
     "options": [
-      "Ventricular fold (vestibular fold / false vocal cord) and Vocal fold (true vocal cord)",
-      "Epiglottis and arytenoid",
       "Cricoid and thyroid",
-      "Tracheal ring and cricoid"
+      "Tracheal ring and cricoid",
+      "Epiglottis and arytenoid",
+      "Ventricular fold (vestibular fold / false vocal cord) and Vocal fold (true vocal cord)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "The laryngeal ventricle is a mucosal pocket situated between the vestibular fold cranially and the vocal fold caudally; surgical ventriculectomy ('Hobday operation') obliterates this pocket to alleviate roaring (laryngeal hemiplegia).",
     "difficulty": "Hard",
     "tags": [
@@ -1603,12 +1603,12 @@
     "topic": "Respiratory Splanchnology (ICAR PG PYQ)",
     "questionText": "In all domestic mammalian species (Ox, Horse, Dog, Pig, Sheep, and Cat), the Left Lung lacks which anatomical lobe?",
     "options": [
-      "Caudal lobe",
-      "Cranial lobe",
+      "Accessory lobe",
       "Middle lobe (Cardiac lobe)",
-      "Accessory lobe"
+      "Caudal lobe",
+      "Cranial lobe"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 1,
     "explanation": "The mammalian left lung is divided into a cranial lobe (often subdivided into cranial and caudal parts) and a caudal lobe, but never possesses a middle lobe; only the right lung has cranial, middle, caudal, and accessory lobes.",
     "difficulty": "Hard",
     "tags": [
@@ -1628,12 +1628,12 @@
     "topic": "Respiratory Splanchnology",
     "questionText": "The 'Cardiac Notch' (incisura cardiaca) of the lung, where the heart contacts the thoracic wall directly without intervening lung tissue, is clinically used for auscultation and pericardiocentesis. In the horse, it is largest on the:",
     "options": [
-      "Right side (between ribs 6 and 9)",
       "Dorsal aspect",
       "Caudal diaphragmatic border",
-      "Left side (between ribs 3 and 6)"
+      "Left side (between ribs 3 and 6)",
+      "Right side (between ribs 6 and 9)"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 2,
     "explanation": "Because the apex of the equine heart tilts to the left, the cardiac notch in the left lung is large and deep, occupying the 3rd to 6th intercostal spaces, allowing direct acoustic coupling and cardiac puncture.",
     "difficulty": "Medium",
     "tags": [
@@ -1652,12 +1652,12 @@
     "topic": "Respiratory Splanchnology (ICAR PG PYQ)",
     "questionText": "The Right Lung of the domestic Horse is unique among ungulate lungs because it:",
     "options": [
-      "Lacks external interlobar fissures, so the cranial and middle lobes are completely fused into a single lobe",
       "Has 6 distinct lobes separated by deep fissures",
-      "Is smaller than the left lung",
-      "Possesses a tracheal bronchus"
+      "Lacks external interlobar fissures, so the cranial and middle lobes are completely fused into a single lobe",
+      "Possesses a tracheal bronchus",
+      "Is smaller than the left lung"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 1,
     "explanation": "The equine lung is non-lobated externally; shallow fissures are absent, and the right lung possesses only an indistinct cranial lobe, a caudal lobe, and an accessory lobe (middle lobe is absent/fused), giving it a smooth external contour.",
     "difficulty": "Hard",
     "tags": [
@@ -1677,12 +1677,12 @@
     "topic": "Respiratory Splanchnology (ICAR PG PYQ)",
     "questionText": "The 'Cupula Pleurae' (cervical dome of the pleura) extends cranially beyond the first pair of ribs into the neck region, and is clinically vulnerable to traumatic pneumothorax on the:",
     "options": [
+      "Neither side (it never extends beyond the 1st rib)",
       "Left side only in all animals",
       "Right side in the Ox, and both sides in the Dog and Horse",
-      "Neither side (it never extends beyond the 1st rib)",
       "Dorsal aspect of T3"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "In cattle, the right pleural sac extends cranially beyond the first rib into the thoracic inlet (cupula pleurae dextra); deep punctures in the lower neck can tear this cupula, producing immediate bilateral tension pneumothorax.",
     "difficulty": "Hard",
     "tags": [
@@ -1702,12 +1702,12 @@
     "topic": "Respiratory Splanchnology (ICAR PG PYQ)",
     "questionText": "The Guttural Pouches (diverticula tubae auditivae) of the domestic Horse are large, bilateral, mucosal-lined diverticula of the:",
     "options": [
-      "Trachea",
+      "Eustachian (auditory) tubes, each having a volume of approximately 300 to 500 mL",
       "Sphenoid sinus",
       "Esophagus",
-      "Eustachian (auditory) tubes, each having a volume of approximately 300 to 500 mL"
+      "Trachea"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "The equine guttural pouch is a massive ventral diverticulum of the auditory tube, bounded dorsally by the cranial base and atlas, and medially separated from its fellow by the rectus capitis muscles and thin septum.",
     "difficulty": "Hard",
     "tags": [
@@ -1727,12 +1727,12 @@
     "topic": "Respiratory Splanchnology (ICAR PG PYQ)",
     "questionText": "The stylohyoid bone divides each equine Guttural Pouch into two unequal compartments: a smaller Lateral Compartment and a larger Medial Compartment. Which vital cranial nerves and arteries lie in direct contact with the thin mucous lining of the Medial Compartment?",
     "options": [
+      "Femoral nerve and Iliac artery",
       "Radial nerve and Brachial artery",
       "External Carotid Artery and Facial nerve only",
-      "Internal Carotid Artery and Cranial Nerves IX (Glossopharyngeal), X (Vagus), XI (Accessory), XII (Hypoglossal), and sympathetic trunk",
-      "Femoral nerve and Iliac artery"
+      "Internal Carotid Artery and Cranial Nerves IX (Glossopharyngeal), X (Vagus), XI (Accessory), XII (Hypoglossal), and sympathetic trunk"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "The caudomedial wall of the medial compartment is in direct contact with the internal carotid artery and CN IX, X, XI, XII; mycotic infection (Aspergillus) can erode the artery (causing fatal epistaxis) or paralyze these cranial nerves.",
     "difficulty": "Hard",
     "tags": [
@@ -1752,12 +1752,12 @@
     "topic": "Urogenital Splanchnology (ICAR PG PYQ)",
     "questionText": "The Kidney of the adult domestic Ox (Bovine) is anatomically unique among domestic mammals because it is:",
     "options": [
+      "Heart-shaped",
       "Externally Lobated (multilobed) with 15 to 25 distinct superficial lobes, and lacks a renal pelvis",
       "Smooth and unipyramidal with a renal pelvis",
-      "Smooth multipyramidal",
-      "Heart-shaped"
+      "Smooth multipyramidal"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 1,
     "explanation": "The bovine kidney is multilobar (multipyramidal) both internally and externally, exhibiting 15 to 25 polygonal lobes separated by interlobar fissures; calyces minores join to form two calyces majores that lead directly to the ureter without a renal pelvis.",
     "difficulty": "Hard",
     "tags": [
@@ -1777,12 +1777,12 @@
     "topic": "Urogenital Splanchnology (ICAR PG PYQ)",
     "questionText": "The Right Kidney of the domestic Horse is pathognomonic on gross inspection for being:",
     "options": [
-      "Puckered like a walnut",
       "Multilobed with 20 lobes",
-      "Cylindrical",
-      "Heart-shaped (resembling a playing card spade), while the left kidney is bean-shaped"
+      "Puckered like a walnut",
+      "Heart-shaped (resembling a playing card spade), while the left kidney is bean-shaped",
+      "Cylindrical"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 2,
     "explanation": "In the horse, the right kidney is flattened dorsoventrally and distinctly heart-shaped (or cloverleaf/trefoil), situated under the 16th to 18th ribs; the left kidney is elongated and bean-shaped.",
     "difficulty": "Hard",
     "tags": [
@@ -1802,12 +1802,12 @@
     "topic": "Urogenital Splanchnology (ICAR PG PYQ)",
     "questionText": "In the equine kidney, the renal pelvis and terminal collecting ducts are histologically unique because they contain:",
     "options": [
-      "Abundant stratified squamous epithelium",
       "Mucus-secreting tubuloalveolar glands (glandulae pelvis renalis), which make normal equine urine thick, cloudy, and viscous",
+      "Abundant stratified squamous epithelium",
       "No mucus glands",
       "Heavy calcification in all nephrons"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 0,
     "explanation": "Normal horse urine is viscous and frothy due to high concentrations of mucus secreted by branched tubuloalveolar glands situated in the subepithelial connective tissue of the renal pelvis, combined with calcium carbonate crystals.",
     "difficulty": "Hard",
     "tags": [
@@ -1827,12 +1827,12 @@
     "topic": "Urogenital Splanchnology (ICAR PG PYQ)",
     "questionText": "The 'Crista Renalis' (renal crest), a continuous longitudinal sagittal ridge formed by the complete fusion of all renal medullary pyramids, is present in the unipyramidal kidneys of the:",
     "options": [
-      "Ox and Pig",
+      "Only in humans",
       "Only in birds",
-      "Dog, Cat, Sheep, Goat, and Horse",
-      "Only in humans"
+      "Ox and Pig",
+      "Dog, Cat, Sheep, Goat, and Horse"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "In unipyramidal kidneys (carnivores, small ruminants, and horses), embryonic medullary pyramids fuse into a single continuous central longitudinal ridge (crista renalis) from which the papillary ducts discharge urine into the renal pelvis.",
     "difficulty": "Hard",
     "tags": [
@@ -1852,12 +1852,12 @@
     "topic": "Urogenital Splanchnology (ICAR PG PYQ)",
     "questionText": "The fibroelastic Penis of the Bull, Ram, and Boar possesses an S-shaped curvature that straightens during erection to extend the penis, known as the:",
     "options": [
-      "Os penis",
-      "Corpus spongiosum",
       "Bulbus glandis",
-      "Sigmoid Flexure (Flexura sigmoidea)"
+      "Sigmoid Flexure (Flexura sigmoidea)",
+      "Corpus spongiosum",
+      "Os penis"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "Ruminants and swine possess a fibroelastic penis with high connective tissue content and minimal erectile cavernous tissue; in the flaccid state, the penis is folded into a post-scrotal (or pre-scrotal in boar) S-shaped curve (sigmoid flexure).",
     "difficulty": "Hard",
     "tags": [
@@ -1878,11 +1878,11 @@
     "questionText": "The glans penis of the Ram (and Buck) is characterized by an exceptionally long, slender, worm-like process projecting 3 to 4 cm beyond the glans, known as the:",
     "options": [
       "Bulbus glandis",
-      "Processus urethrae (Vermiform appendage)",
       "Corona glandis",
+      "Processus urethrae (Vermiform appendage)",
       "Collum glandis"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "The ram and billy goat possess an elongated filiform urethral process (processus urethrae) that extends 3-4 cm free beyond the tip of the glans penis; it rotates rapidly during ejaculation to spray semen onto the external os of the cervix.",
     "difficulty": "Hard",
     "tags": [
@@ -1902,12 +1902,12 @@
     "topic": "Urogenital Splanchnology (ICAR PG PYQ)",
     "questionText": "The glans penis of the adult Boar (Sus scrofa) is pathognomonic for having a:",
     "options": [
-      "Spiral, corkscrew-shaped terminal twist that locks into the interdigitating pulvini cervicales of the sow's cervix",
-      "Long vermiform appendage",
       "Massive mushroom-shaped flare",
-      "Bulbus glandis that causes a coital tie"
+      "Long vermiform appendage",
+      "Bulbus glandis that causes a coital tie",
+      "Spiral, corkscrew-shaped terminal twist that locks into the interdigitating pulvini cervicales of the sow's cervix"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "The distal extremity of the boar penis is twisted spirally like a carpenter's corkscrew; during prolonged copulation, this spiral tip threads into and locks between the interdigitating mucosal pads (pulvini cervicales) of the sow cervix.",
     "difficulty": "Hard",
     "tags": [
@@ -1927,12 +1927,12 @@
     "topic": "Urogenital Splanchnology (ICAR PG PYQ)",
     "questionText": "The 'Bulbus Glandis' is a massive expansile venous erectile ring located on the proximal glans penis responsible for the 'coital tie' (copulatory lock) in the:",
     "options": [
-      "Bull",
-      "Horse",
       "Dog (Canine)",
+      "Horse",
+      "Bull",
       "Ram"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "In male canids, the bulbus glandis expands enormously upon intromission when venous drainage is compressed, locking the penis inside the canine vestibular sphincter and vagina for 15 to 45 minutes (the 'tie').",
     "difficulty": "Hard",
     "tags": [
@@ -1952,12 +1952,12 @@
     "topic": "Urogenital Splanchnology (ICAR PG PYQ)",
     "questionText": "In the female bovine reproductive tract, the internal endometrium bears permanent, button-like, avascular-appearing aglandular elevations termed 'Caruncles', which are:",
     "options": [
+      "Concave in the cow",
       "Convex in the Cow, but Concave (cup-shaped) in the Ewe",
-      "Completely covered by uterine glands",
       "Flat in all ruminants",
-      "Concave in the cow"
+      "Completely covered by uterine glands"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 1,
     "explanation": "The uterine mucosa of ruminants features 70 to 120 specialized aglandular caruncles; in cows, the caruncles are mushroom-shaped and convex, whereas in ewes and does, they have a central depression and are cup-shaped/concave.",
     "difficulty": "Hard",
     "tags": [
@@ -1977,10 +1977,10 @@
     "topic": "Urogenital Splanchnology (ICAR PG PYQ)",
     "questionText": "The Cervix of the Sow (female pig) differs from that of the cow and mare because its cervical canal features:",
     "options": [
-      "Smooth longitudinal mucosal folds",
       "Total absence of muscularis",
+      "3 to 4 circular rigid annular rings with a deep fornix",
       "Interdigitating rounded mucosal prominences (Pulvini cervicales) that occlude the lumen like a zipper, and lacks a distinct fornix vaginae",
-      "3 to 4 circular rigid annular rings with a deep fornix"
+      "Smooth longitudinal mucosal folds"
     ],
     "correctOptionIndex": 2,
     "explanation": "The porcine cervix is long (15-20 cm) and transitions gradually from the vagina without forming an external portio vaginalis or fornix; its lumen is packed with alternating, interdigitating round cartilaginous-firm mucosal pads (pulvini cervicales).",
@@ -2002,12 +2002,12 @@
     "topic": "Angiology (ICAR PG PYQ)",
     "questionText": "In the domestic Ox and Dog, the coronary circulation is described as 'Left Coronary Artery Predominant' because the subsinuosal interventricular branch originates from the:",
     "options": [
+      "Left circumflex coronary artery",
       "Pulmonary trunk",
       "Directly from the aorta",
-      "Right coronary artery",
-      "Left circumflex coronary artery"
+      "Right coronary artery"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "In ruminants and carnivores, the left circumflex coronary artery continues along the caudal coronary groove to supply the subsinuosal interventricular groove (Left Predominance), whereas in the horse and pig, the subsinuosal branch arises from the Right coronary artery (Right/Bilateral Predominance).",
     "difficulty": "Hard",
     "tags": [
@@ -2027,12 +2027,12 @@
     "topic": "Angiology (ICAR PG PYQ)",
     "questionText": "The 'Moderator Band' (Septomarginal Trabecula / Trabecula septomarginalis) is a muscular-tendinous cord traversing the lumen of which cardiac chamber to conduct electrical impulses?",
     "options": [
+      "Left Atrium",
       "Ascending aorta",
-      "Right Ventricle (connecting the interventricular septum to the base of the parietal wall / anterior papillary muscle)",
       "Right Atrium",
-      "Left Atrium"
+      "Right Ventricle (connecting the interventricular septum to the base of the parietal wall / anterior papillary muscle)"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 3,
     "explanation": "The septomarginal trabecula crosses the right ventricular cavity, carrying a Purkinje-fiber conduction bundle from the bundle of His across the septum to the lateral parietal wall and papillary muscles, preventing overdistension.",
     "difficulty": "Hard",
     "tags": [
@@ -2052,12 +2052,12 @@
     "topic": "Angiology (ICAR PG PYQ)",
     "questionText": "In the domestic Horse and Ox, the aortic arch gives off which branch or branches supplying the head, neck, and thoracic limbs?",
     "options": [
+      "Separate carotid arteries directly from the arch",
       "Three independent brachiocephalic arteries",
       "A single Brachiocephalic Trunk alone (which subsequently divides into left subclavian, bicarotid trunk, and right subclavian)",
-      "Both a Brachiocephalic Trunk and a separate Left Subclavian Artery",
-      "Separate carotid arteries directly from the arch"
+      "Both a Brachiocephalic Trunk and a separate Left Subclavian Artery"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "In ungulates (equines and ruminants), the aortic arch emits only one single massive common vessel: the Brachiocephalic Trunk; in carnivores (dog/cat) and swine, two independent branches arise from the aortic arch: the Brachiocephalic Trunk and the Left Subclavian Artery.",
     "difficulty": "Hard",
     "tags": [
@@ -2077,12 +2077,12 @@
     "topic": "Angiology (ICAR PG PYQ)",
     "questionText": "The 'Rete Mirabile Epidurale' (an extensive intracranial arterial meshwork surrounding the pituitary gland in the cavernous sinus that functions in brain cooling) is present in:",
     "options": [
-      "Ruminants (Ox, Sheep, Goat) and Swine (Pig)",
       "Cat only",
       "Birds",
-      "Horse and Dog (completely absent)"
+      "Horse and Dog (completely absent)",
+      "Ruminants (Ox, Sheep, Goat) and Swine (Pig)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "Ruminants and pigs possess an extraordinary carotid rete mirabile (rete mirabile epidurale) in the cavernous sinus where the internal carotid artery breaks into a fine network of anastomosing arterioles bathed in venous blood from nasal mucosa, cooling arterial blood entering the brain.",
     "difficulty": "Hard",
     "tags": [
@@ -2102,12 +2102,12 @@
     "topic": "Angiology (ICAR PG PYQ)",
     "questionText": "The Left Azygos Vein (Vena hemiazygos / Vena azygos sinistra) drains the thoracic wall and empties directly into the Coronary Sinus in which domestic species?",
     "options": [
-      "Horse and Dog (where the Right Azygos empties into the Cranial Vena Cava)",
       "Birds",
-      "Cat only",
-      "Ruminants (Ox, Sheep, Goat) and Swine (Pig)"
+      "Ruminants (Ox, Sheep, Goat) and Swine (Pig)",
+      "Horse and Dog (where the Right Azygos empties into the Cranial Vena Cava)",
+      "Cat only"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "In cattle, sheep, and pigs, the primary functional azygos vein is the Left Azygos Vein, which curves ventrally around the left atrium to enter the right atrium via the coronary sinus; in horses and dogs, it is the Right Azygos vein.",
     "difficulty": "Hard",
     "tags": [
@@ -2127,12 +2127,12 @@
     "topic": "Angiology",
     "questionText": "The 'Cisterna Chyli' (the dilated abdominal receiving reservoir for lymph from the pelvis, hindlimbs, and viscera that gives rise to the Thoracic Duct) is located dorsal to the aorta at the level of:",
     "options": [
-      "T5 to T7",
-      "Sacrum",
       "L1 to L4 (between the crura of the diaphragm)",
-      "C6 to C7"
+      "C6 to C7",
+      "Sacrum",
+      "T5 to T7"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "The cisterna chyli is a retroperitoneal lymphatic reservoir situated between the crura of the diaphragm dorsal to the aorta and right of the coeliac and cranial mesenteric arteries, continuing through the aortic hiatus as the Thoracic Duct.",
     "difficulty": "Medium",
     "tags": [
@@ -2152,11 +2152,11 @@
     "questionText": "The superficial palpable lymph center of the bovine body located immediately cranial to the shoulder joint beneath the brachiocephalic muscle is the:",
     "options": [
       "Popliteal lymph node",
+      "Parotid lymph node",
       "Subiliac lymph node (Prefemoral)",
-      "Superficial Cervical Lymph Node (Prescapular lymph node)",
-      "Parotid lymph node"
+      "Superficial Cervical Lymph Node (Prescapular lymph node)"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "The superficial cervical (prescapular) lymph node lies along the cranial border of the supraspinatus muscle deep to the omotransversarius, draining the skin of the neck, shoulder, and cranial thoracic limb.",
     "difficulty": "Hard",
     "tags": [
@@ -2176,12 +2176,12 @@
     "topic": "Angiology (ICAR PG PYQ)",
     "questionText": "In bovine meat inspection, the 'Prefemoral Lymph Node' (Subiliac lymph node) is routinely palpated and incised on the carcass at the cranial border of the:",
     "options": [
-      "Gastrocnemius muscle",
+      "Tensor fasciae latae muscle, in the fold of the flank",
       "Brachialis muscle",
       "Trapezius muscle",
-      "Tensor fasciae latae muscle, in the fold of the flank"
+      "Gastrocnemius muscle"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "The subiliac (prefemoral) lymph center is situated subcutaneous in the flank fold along the cranial margin of the tensor fasciae latae muscle, about midway between the tuber coxae and patella.",
     "difficulty": "Hard",
     "tags": [
@@ -2201,12 +2201,12 @@
     "topic": "Angiology",
     "questionText": "The portal vein (Vena portae) transports nutrient-rich blood from the digestive viscera to the liver, formed by the convergence of which three major veins?",
     "options": [
-      "Renal vein, Hepatic vein, and Femoral vein",
-      "Splenic vein, Cranial Mesenteric vein, and Caudal Mesenteric vein (and Gastroduodenal vein)",
       "Jugular vein and Subclavian vein",
-      "Azygos vein and Iliac vein"
+      "Azygos vein and Iliac vein",
+      "Splenic vein, Cranial Mesenteric vein, and Caudal Mesenteric vein (and Gastroduodenal vein)",
+      "Renal vein, Hepatic vein, and Femoral vein"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "The portal trunk is formed dorsomedial to the pancreas by the junction of the cranial mesenteric, caudal mesenteric, and splenic/gastroduodenal veins, conveying venous blood from stomach, intestines, pancreas, and spleen directly to the liver sinusoids.",
     "difficulty": "Medium",
     "tags": [
@@ -2225,12 +2225,12 @@
     "topic": "Comparative Embryology (ICAR PG PYQ)",
     "questionText": "The ductus arteriosus in the mammalian fetus shunts deoxygenated blood from the pulmonary trunk directly into the descending aorta; upon closure at birth, its fibrous adult remnant is the:",
     "options": [
+      "Ligamentum Venosum",
       "Ligamentum Arteriosum",
       "Round ligament of the liver",
-      "Ligamentum Venosum",
       "Fossa Ovalis"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 1,
     "explanation": "Functional closure of the ductus arteriosus occurs within hours of initial pulmonary respiration; anatomical fibrosis over several weeks transforms this vascular shunt into the fibrous ligamentum arteriosum.",
     "difficulty": "Hard",
     "tags": [
@@ -2250,12 +2250,12 @@
     "topic": "Neurology (ICAR PG PYQ)",
     "questionText": "Cranial Nerve I (Olfactory nerve) fibers pass from the olfactory neuroepithelium into the olfactory bulbs through which perforated bony plate?",
     "options": [
-      "Hypoglossal canal",
       "Optic canal",
+      "Cribriform plate of the Ethmoid bone",
       "Petrous temporal bone",
-      "Cribriform plate of the Ethmoid bone"
+      "Hypoglossal canal"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "The non-myelinated fila olfactoria pass from the nasal mucosa through the multiple fine perforations of the lamina cribrosa (cribriform plate) of the ethmoid bone to terminate in the olfactory bulb of the telencephalon.",
     "difficulty": "Hard",
     "tags": [
@@ -2275,12 +2275,12 @@
     "topic": "Neurology",
     "questionText": "The Optic Nerve (Cranial Nerve II) exits the cranial vault through which bony canal?",
     "options": [
-      "Stylomastoid foramen",
+      "Foramen orbitorotundum",
       "Orbital fissure",
-      "Optic Canal (Canalis opticus) of the Presphenoid bone",
-      "Foramen orbitorotundum"
+      "Stylomastoid foramen",
+      "Optic Canal (Canalis opticus) of the Presphenoid bone"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "The optic nerve (surrounded by extensions of the meninges and CSF) passes through the optic canal of the presphenoid bone to enter the orbital cavity.",
     "difficulty": "Medium",
     "tags": [
@@ -2299,12 +2299,12 @@
     "topic": "Neurology (ICAR PG PYQ)",
     "questionText": "Which three cranial nerves supply motor innervation to the extrinsic muscles of the eyeball?",
     "options": [
-      "CN III (Oculomotor), CN IV (Trochlear), and CN VI (Abducent)",
       "CN V, CN VII, and CN IX",
-      "CN IV, CN VI, and CN VIII",
-      "CN II, CN III, and CN V"
+      "CN II, CN III, and CN V",
+      "CN III (Oculomotor), CN IV (Trochlear), and CN VI (Abducent)",
+      "CN IV, CN VI, and CN VIII"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 2,
     "explanation": "Eye muscles are innervated by: CN IV for the Dorsal Oblique muscle; CN VI for the Lateral Rectus and retractor bulbi; and CN III for all other extrinsic ocular muscles (Dorsal, Ventral, Medial Recti, and Ventral Oblique).",
     "difficulty": "Hard",
     "tags": [
@@ -2324,12 +2324,12 @@
     "topic": "Neurology (ICAR PG PYQ)",
     "questionText": "In the horse and dog, the Mandibular Nerve (the 3rd division of the Trigeminal nerve, CN V3) exits the cranial cavity through the:",
     "options": [
-      "Stylomastoid foramen",
       "Foramen Ovale (or notch in the foramen lacerum)",
-      "Hypoglossal canal",
-      "Foramen rotundum"
+      "Stylomastoid foramen",
+      "Foramen rotundum",
+      "Hypoglossal canal"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 0,
     "explanation": "CN V3 (mandibular nerve, providing sensory innervation to the lower jaw and motor innervation to the muscles of mastication) exits via the foramen ovale in dogs and ruminants, or the oval notch of the foramen lacerum in horses.",
     "difficulty": "Hard",
     "tags": [
@@ -2374,12 +2374,12 @@
     "topic": "Neurology (ICAR PG PYQ)",
     "questionText": "Damage to the Left Recurrent Laryngeal Nerve (a branch of Cranial Nerve X, the Vagus nerve) in horses causes 'Roaring' (Laryngeal Hemiplegia) due to paralysis of which sole abductor muscle of the vocal folds?",
     "options": [
-      "Thyroarytenoideus",
       "Cricothyroideus",
+      "Cricoarytenoideus Dorsalis muscle (CAD)",
       "Cricoarytenoideus lateralis",
-      "Cricoarytenoideus Dorsalis muscle (CAD)"
+      "Thyroarytenoideus"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "The dorsal cricoarytenoid muscle (CAD) is the ONLY muscle that abducts (opens) the vocal cords during inspiration; neurogenic atrophy of the left CAD muscle due to recurrent laryngeal neuropathy allows the vocal cord to collapse into the airway.",
     "difficulty": "Hard",
     "tags": [
@@ -2399,12 +2399,12 @@
     "topic": "Neurology (ICAR PG PYQ)",
     "questionText": "The Hypoglossal Nerve (Cranial Nerve XII) exits through the hypoglossal canal and provides motor innervation to:",
     "options": [
-      "Facial muscles",
-      "All intrinsic and extrinsic muscles of the Tongue (styloglossus, hyoglossus, genioglossus)",
       "Pharyngeal constrictors",
-      "Muscles of mastication"
+      "Muscles of mastication",
+      "All intrinsic and extrinsic muscles of the Tongue (styloglossus, hyoglossus, genioglossus)",
+      "Facial muscles"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "Cranial Nerve XII (Hypoglossal) provides motor supply to the tongue musculature; unilateral damage causes deviation of the tongue towards the paralyzed side when protruded.",
     "difficulty": "Hard",
     "tags": [
@@ -2424,12 +2424,12 @@
     "topic": "Neurology (ICAR PG PYQ)",
     "questionText": "The Sensory innervation to the rostral two-thirds of the tongue for taste (gustatory) is mediated by which specialized cranial nerve branch?",
     "options": [
-      "Hypoglossal nerve (CN XII)",
       "Mandibular nerve alone",
-      "Chorda Tympani (a branch of the Facial Nerve, CN VII, carried within the lingual nerve)",
-      "Glossopharyngeal nerve (CN IX)"
+      "Hypoglossal nerve (CN XII)",
+      "Glossopharyngeal nerve (CN IX)",
+      "Chorda Tympani (a branch of the Facial Nerve, CN VII, carried within the lingual nerve)"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "General somatic sensation from the rostral 2/3 of the tongue is carried by the lingual nerve (CN V3), but taste sensation from fungiform papillae is carried by the Chorda Tympani branch of CN VII hitchhiking with the lingual nerve.",
     "difficulty": "Hard",
     "tags": [
@@ -2449,12 +2449,12 @@
     "topic": "Neurology (ICAR PG PYQ)",
     "questionText": "The 'Calving Paralysis' syndrome in post-parturient dairy cows, characterized by inability to adduct the hindlimbs ('downer cow' with limbs splayed laterally), is caused by compressive trauma to the:",
     "options": [
-      "Obturator Nerve inside the pelvic canal against the shaft of the ilium during dystocia",
       "Pudendal nerve",
+      "Obturator Nerve inside the pelvic canal against the shaft of the ilium during dystocia",
       "Femoral nerve",
       "Sciatic nerve"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 1,
     "explanation": "The obturator nerve (L5-L6) courses subperiosteally along the medial surface of the iliac shaft inside the obturator foramen; during delivery of a large calf, fetal pressure crushes the nerve against the bone, paralyzing the adductor muscles.",
     "difficulty": "Hard",
     "tags": [
@@ -2474,8 +2474,8 @@
     "topic": "Neurology (ICAR PG PYQ)",
     "questionText": "In horses and cattle, complete paralysis of the Radial Nerve at the level of the arm produces which pathognomonic postural abnormality?",
     "options": [
-      "Inability to flex the shoulder",
       "Severe outward rotation of the hock",
+      "Inability to flex the shoulder",
       "Hyperextension of the carpus",
       "'Dropped Elbow' with inability to extend the elbow, carpus, and digits, and knuckling on the fetlock"
     ],
@@ -2500,11 +2500,11 @@
     "questionText": "'Sweeny' in draft horses is an equine neurogenic condition characterized by prominent atrophy of the supraspinatus and infraspinatus muscles on the lateral scapula, caused by trauma to the:",
     "options": [
       "Musculocutaneous nerve",
-      "Suprascapular Nerve as it winds around the cranial border (cervical border) of the scapular neck",
       "Axillary nerve",
+      "Suprascapular Nerve as it winds around the cranial border (cervical border) of the scapular neck",
       "Median nerve"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "Because the horse lacks an acromion process, the suprascapular nerve courses unprotected around the cranial neck of the scapula; collisions or ill-fitting collar harnesses compress the nerve, causing rapid denervation atrophy ('sweeny').",
     "difficulty": "Hard",
     "tags": [
@@ -2524,12 +2524,12 @@
     "topic": "Neurology (ICAR PG PYQ)",
     "questionText": "The 'Patellar Reflex' (knee jerk reflex in dogs) evaluates the integrity of the L4-L6 spinal cord segments and which peripheral spinal nerve?",
     "options": [
-      "Peroneal nerve",
-      "Obturator nerve",
       "Femoral Nerve (innervating the Quadriceps Femoris muscle)",
-      "Sciatic nerve"
+      "Peroneal nerve",
+      "Sciatic nerve",
+      "Obturator nerve"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "Tapping the straight patellar ligament stretches the quadriceps femoris muscle spindle; sensory fibers conduct impulses through the femoral nerve to L4-L6 spinal cord segments, firing motor neurons that extend the stifle.",
     "difficulty": "Hard",
     "tags": [
@@ -2574,12 +2574,12 @@
     "topic": "Clinical Anatomy (ICAR PG PYQ)",
     "questionText": "In cattle, Caudal Epidural Anesthesia is routinely performed by inserting a spinal needle into which intervertebral space?",
     "options": [
-      "First Intercoccygeal space (between Coccygeal 1 and Coccygeal 2) or the Sacrococcygeal space (S5-Co1)",
-      "T13-L1 space",
       "Lumbosacral space (L6-S1)",
-      "Atlanto-occipital space"
+      "Atlanto-occipital space",
+      "T13-L1 space",
+      "First Intercoccygeal space (between Coccygeal 1 and Coccygeal 2) or the Sacrococcygeal space (S5-Co1)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "Pumping the tail up and down reveals the first prominent movable joint caudal to the sacrum: the Co1-Co2 space (or S5-Co1); injecting local anesthetic into the epidural space desensitizes the perineum, vulva, and rectum without causing hindlimb paralysis.",
     "difficulty": "Hard",
     "tags": [
@@ -2599,12 +2599,12 @@
     "topic": "Clinical Anatomy (ICAR PG PYQ)",
     "questionText": "Lumbosacral Epidural Anesthesia in the Dog and Sheep is performed by needle puncture into the epidural space between:",
     "options": [
-      "T13 and L1",
       "L5 and L6",
-      "Co1 and Co2",
-      "Lumbar 7 (L7) and Sacral 1 (S1) vertebrae"
+      "T13 and L1",
+      "Lumbar 7 (L7) and Sacral 1 (S1) vertebrae",
+      "Co1 and Co2"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 2,
     "explanation": "In small animals and small ruminants, the spinal cord terminates cranial to L7 (the conus medullaris terminates at L6 in dogs and L7/S1 in cats); the prominent depression between the dorsal spines of L7 and S1 allows safe lumbosacral epidural injection.",
     "difficulty": "Hard",
     "tags": [
@@ -2624,12 +2624,12 @@
     "topic": "Clinical Anatomy (ICAR PG PYQ)",
     "questionText": "Cerebrospinal Fluid (CSF) is collected in horses and cattle from the Cisterna Magna (cerebellomedullary cistern) at which anatomical landmark?",
     "options": [
-      "Between thoracic spines",
-      "C7-T1 junction",
       "Atlanto-Occipital Space (articulation between the occipital condyles and the atlas)",
+      "C7-T1 junction",
+      "Between thoracic spines",
       "Lumbosacral junction"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "The cerebellomedullary cistern is located dorsal to the medulla oblongata directly beneath the dorsal atlanto-occipital membrane; with the head flexed at 90 degrees, a needle inserted midway between the occipital crest and cranial wings of the atlas enters the subarachnoid space.",
     "difficulty": "Hard",
     "tags": [
@@ -2649,12 +2649,12 @@
     "topic": "Clinical Anatomy (ICAR PG PYQ)",
     "questionText": "The Pudendal Nerve (Nervus pudendus) innervates the caudal external genitalia, and in the bull, Pudendal Nerve Block is performed to achieve:",
     "options": [
-      "Relaxation and desensitization of the retractor penis muscle, allowing protrusion and examination of the penis",
       "Flank desensitization",
-      "Complete hindlimb immobilization",
-      "Ruminal atony"
+      "Ruminal atony",
+      "Relaxation and desensitization of the retractor penis muscle, allowing protrusion and examination of the penis",
+      "Complete hindlimb immobilization"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 2,
     "explanation": "In the bull, bilateral pudendal nerve block (Larson's technique) at the lesser ischiatic foramen paralyzes the retractor penis muscles and desensitizes the glans and sheath, allowing easy manual exteriorization of the penis for surgical repair.",
     "difficulty": "Hard",
     "tags": [
@@ -2674,12 +2674,12 @@
     "topic": "Clinical Anatomy (ICAR PG PYQ)",
     "questionText": "The Cornual Nerve (Nervus cornualis), which is blocked with local anesthetic for surgical dehorning in cattle, is a terminal branch of which nerve?",
     "options": [
-      "Facial nerve (CN VII)",
       "Zygomaticotemporal nerve (branch of the Ophthalmic division of the Trigeminal nerve, CN V1)",
       "Infraorbital nerve (CN V2)",
-      "Mandibular nerve (CN V3)"
+      "Mandibular nerve (CN V3)",
+      "Facial nerve (CN VII)"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 0,
     "explanation": "The cornual nerve arises from the zygomaticotemporal branch of the ophthalmic nerve; it courses caudally beneath the lateral frontal crest midway between the lateral canthus of the eye and the base of the horn, covered only by skin and frontalis muscle.",
     "difficulty": "Hard",
     "tags": [
@@ -2699,12 +2699,12 @@
     "topic": "Clinical Anatomy (ICAR PG PYQ)",
     "questionText": "In cattle, paravertebral nerve block for standing flank laparotomy (such as cesarean section or rumenotomy) requires desensitization of which specific spinal nerves?",
     "options": [
-      "C6, C7, and C8",
-      "L4, L5, and L6",
+      "T10, T11, and T12",
       "T13 (Last thoracic / costoabdominal), L1 (Iliohypogastric), and L2 (Ilioinguinal) nerves",
-      "T10, T11, and T12"
+      "L4, L5, and L6",
+      "C6, C7, and C8"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 1,
     "explanation": "Farquharson's (proximal) and Magda's (distal) paravertebral blocks desensitize the dorsal and ventral primary branches of T13, L1, and L2 spinal nerves as they emerge from the intervertebral foramina along the transverse processes of L1, L2, and L4.",
     "difficulty": "Hard",
     "tags": [
@@ -2724,8 +2724,8 @@
     "topic": "Angiology (ICAR PG PYQ)",
     "questionText": "The 'Jugular Furrow' (sulcus jugularis) of the horse and ox, accommodating the external jugular vein for routine venipuncture, is bounded ventrally by which muscle?",
     "options": [
-      "Omohyoideus muscle",
       "Brachiocephalicus muscle",
+      "Omohyoideus muscle",
       "Splenius muscle",
       "Sternocephalicus muscle (specifically the sternomandibularis in ox and horse)"
     ],
@@ -2751,10 +2751,10 @@
     "options": [
       "Costal cartilage",
       "Elastic cartilage (e.g., external pinna)",
-      "Fibrocartilage (e.g., intervertebral discs and pelvic symphysis)",
-      "Hyaline cartilage (e.g., tracheal rings)"
+      "Hyaline cartilage (e.g., tracheal rings)",
+      "Fibrocartilage (e.g., intervertebral discs and pelvic symphysis)"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "Fibrocartilage lacks an outer perichondrium (unlike hyaline and elastic cartilages); it blends gradually into adjacent dense fibrous connective tissue and receives nutrition by diffusion from adjacent structures or synovial fluid.",
     "difficulty": "Hard",
     "tags": [
@@ -2774,12 +2774,12 @@
     "topic": "General Histology (ICAR PG PYQ)",
     "questionText": "In compact bone histology, the transverse or oblique vascular channels that penetrate the bone matrix to connect adjacent Haversian canals and periosteal vessels are known as:",
     "options": [
-      "Haversian canals (Central canals)",
       "Volkmann's canals (Perforating canals)",
-      "Lacunae",
-      "Canaliculi"
+      "Canaliculi",
+      "Haversian canals (Central canals)",
+      "Lacunae"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 0,
     "explanation": "Volkmann's canals run perpendicularly or obliquely to the long axis of osteons, carrying blood vessels and nerves from the periosteal and endosteal surfaces to communicate with Haversian (central) canals.",
     "difficulty": "Hard",
     "tags": [
@@ -2799,12 +2799,12 @@
     "topic": "General Histology (ICAR PG PYQ)",
     "questionText": "In mammalian skeletal muscle fibers, a 'Triad' observed at the junction of the A and I bands is anatomically composed of:",
     "options": [
-      "One T-tubule and one sarcoplasmic reticulum cisterna (Dyad)",
       "Three adjacent myofibrils",
-      "Two T-tubules and one terminal cisterna",
-      "One central transverse tubule (T-tubule) flanked by two terminal cisternae of the sarcoplasmic reticulum"
+      "One T-tubule and one sarcoplasmic reticulum cisterna (Dyad)",
+      "One central transverse tubule (T-tubule) flanked by two terminal cisternae of the sarcoplasmic reticulum",
+      "Two T-tubules and one terminal cisterna"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 2,
     "explanation": "In mammalian skeletal muscle, a triad consists of a central invagination of the sarcolemma (T-tubule) flanked on either side by two dilated terminal cisternae of the sarcoplasmic reticulum at each A-I band junction (two triads per sarcomere).",
     "difficulty": "Hard",
     "tags": [
@@ -2824,12 +2824,12 @@
     "topic": "General Histology (ICAR PG PYQ)",
     "questionText": "In cardiac muscle histology, the 'Intercalated Discs' that bind cardiomyocytes end-to-end contain which specialized intercellular junctions for low-resistance electrical coupling?",
     "options": [
+      "Zonula occludens (Tight junctions)",
       "Gap junctions (Nexus)",
-      "Hemidesmosomes",
       "Desmosomes (Macula adherens) only",
-      "Zonula occludens (Tight junctions)"
+      "Hemidesmosomes"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 1,
     "explanation": "While fascia adherens and desmosomes provide mechanical anchoring across the transverse portions of intercalated discs, the longitudinal lateral portions are packed with Gap Junctions (nexuses) that allow rapid ionic and action potential transmission.",
     "difficulty": "Hard",
     "tags": [
@@ -2849,12 +2849,12 @@
     "topic": "General Histology (ICAR PG PYQ)",
     "questionText": "In neuronal cytology, the basophilic clumps known as 'Nissl bodies' (Nissl substance) correspond ultrastructurally to:",
     "options": [
-      "Golgi apparatus complexes",
-      "Mitochondrial aggregations",
       "Rough Endoplasmic Reticulum (RER) and polyribosomes (absent in the axon and axon hillock)",
-      "Neurofilaments and microtubules"
+      "Neurofilaments and microtubules",
+      "Mitochondrial aggregations",
+      "Golgi apparatus complexes"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "Nissl granules represent prominent stacks of rough endoplasmic reticulum and free ribosomes actively synthesizing structural and neurotransmitter proteins; they are characteristically absent from the axon and axon hillock.",
     "difficulty": "Hard",
     "tags": [
@@ -2874,12 +2874,12 @@
     "topic": "General Histology (ICAR PG PYQ)",
     "questionText": "Which resident connective tissue cell is characterized by metachromatic cytoplasmic granules containing histamine, heparin, and serotonin, playing a central role in Type I hypersensitivity?",
     "options": [
-      "Mast cell (Mastocyte)",
-      "Macrophage (Histiocyte)",
+      "Fibroblast",
       "Plasma cell",
-      "Fibroblast"
+      "Mast cell (Mastocyte)",
+      "Macrophage (Histiocyte)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 2,
     "explanation": "Mast cells originate from bone marrow CD34+ precursors, reside in connective tissues along microvessels, and display intense metachromatic granules (staining purple-red with toluidine blue) rich in heparin and histamine.",
     "difficulty": "Hard",
     "tags": [
@@ -2899,12 +2899,12 @@
     "topic": "General Histology (ICAR PG PYQ)",
     "questionText": "The predominant collagen type found in hyaline cartilage matrix and the vitreous body of the eye is:",
     "options": [
-      "Type III Collagen (Reticular fibers)",
-      "Type I Collagen",
       "Type IV Collagen (Basement membrane)",
-      "Type II Collagen"
+      "Type II Collagen",
+      "Type I Collagen",
+      "Type III Collagen (Reticular fibers)"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "Type II collagen forms thin fibrils embedded in proteoglycan ground substance in hyaline and elastic cartilage; Type I is the chief structural collagen of bone, tendon, and skin; Type III forms reticular meshworks; Type IV forms basal laminae.",
     "difficulty": "Hard",
     "tags": [
@@ -2924,12 +2924,12 @@
     "topic": "General Histology",
     "questionText": "Which neuroglial cell of the Central Nervous System (CNS) is derived from embryonic mesoderm / monocytes rather than neuroectoderm, functioning as the resident phagocyte?",
     "options": [
-      "Oligodendrocyte",
-      "Microglia",
       "Ependymal cell",
-      "Astrocyte (Protoplasmic and Fibrous)"
+      "Oligodendrocyte",
+      "Astrocyte (Protoplasmic and Fibrous)",
+      "Microglia"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 3,
     "explanation": "Microglia are mononuclear phagocyte lineage cells originating from embryonic yolk sac mesenchyme that invade the developing CNS; all other glial cells (astrocytes, oligodendrocytes, ependymal cells) derive from neuroectoderm.",
     "difficulty": "Medium",
     "tags": [
@@ -2948,10 +2948,10 @@
     "topic": "General Histology",
     "questionText": "The epithelial lining of the urinary bladder and ureter that exhibits specialized umbrella (facet) cells and the ability to accommodate severe distension without rupture is:",
     "options": [
-      "Pseudostratified ciliated columnar epithelium",
-      "Transitional epithelium (Urothelium)",
       "Simple cuboidal epithelium",
-      "Stratified squamous non-keratinized epithelium"
+      "Transitional epithelium (Urothelium)",
+      "Stratified squamous non-keratinized epithelium",
+      "Pseudostratified ciliated columnar epithelium"
     ],
     "correctOptionIndex": 1,
     "explanation": "Transitional epithelium (urothelium) lines the renal calyces, pelvis, ureters, and urinary bladder; its superficial layer has specialized polyhedral umbrella cells with thickened apical asymmetric plaques that resist osmotic and mechanical stress.",
@@ -2972,12 +2972,12 @@
     "topic": "General Histology (ICAR PG PYQ)",
     "questionText": "The specialized sensory mechanoreceptors in deep skin, tendons, and joint capsules characterized by concentric lamellae of Schwann cells surrounding a central unmyelinated axon like an onion bulb are:",
     "options": [
-      "Merkel nerve endings",
+      "Pacinian corpuscles (Lamellar corpuscles)",
       "Ruffini corpuscles",
       "Meissner's corpuscles",
-      "Pacinian corpuscles (Lamellar corpuscles)"
+      "Merkel nerve endings"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "Pacinian corpuscles are large onion-like lamellated mechanoreceptors in the deep dermis, hypodermis, mesentery, and periosteum responsive to high-frequency vibration and deep pressure.",
     "difficulty": "Hard",
     "tags": [
@@ -2997,10 +2997,10 @@
     "topic": "Organ Histology (ICAR PG PYQ)",
     "questionText": "In liver histology, the microvascular perisinusoidal space where blood plasma filters through fenestrated endothelial cells to bathe hepatocyte microvilli is the:",
     "options": [
-      "Canal of Hering",
       "Space of Mall",
+      "Bile canaliculus",
       "Space of Disse (Perisinusoidal space)",
-      "Bile canaliculus"
+      "Canal of Hering"
     ],
     "correctOptionIndex": 2,
     "explanation": "The space of Disse lies between the sinusoidal fenestrated endothelial lining and the hepatocyte basolateral microvillar surface, permitting rapid macromolecular exchange and housing hepatic stellate (Ito) cells.",
@@ -3022,12 +3022,12 @@
     "topic": "Organ Histology (ICAR PG PYQ)",
     "questionText": "Hepatic stellate cells (Ito cells / Lipocytes) located within the Space of Disse are the primary physiological storage site for which lipid-soluble vitamin, and transform into myofibroblasts during liver fibrosis?",
     "options": [
-      "Vitamin A (Retinoids)",
-      "Vitamin D",
+      "Vitamin K",
       "Vitamin E",
-      "Vitamin K"
+      "Vitamin D",
+      "Vitamin A (Retinoids)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "Hepatic stellate cells (Ito cells) store approximately 80% of total body Vitamin A in cytoplasmic lipid droplets; upon chronic liver injury, they activate into alpha-smooth muscle actin-positive myofibroblasts, secreting collagen.",
     "difficulty": "Hard",
     "tags": [
@@ -3047,12 +3047,12 @@
     "topic": "Organ Histology (ICAR PG PYQ)",
     "questionText": "In the mammalian spleen, the 'Periarteriolar Lymphoid Sheath' (PALS) surrounding the central arterioles is predominantly composed of which immune cell population?",
     "options": [
+      "T lymphocytes",
       "Plasma cells",
-      "B lymphocytes",
       "Erythrocytes and platelets",
-      "T lymphocytes"
+      "B lymphocytes"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "PALS is the thymus-dependent periarterial lymphoid sheath of the splenic white pulp populated selectively by T lymphocytes, whereas splenic follicles (Malpighian bodies) are populated by B lymphocytes.",
     "difficulty": "Hard",
     "tags": [
@@ -3072,9 +3072,9 @@
     "topic": "Organ Histology (ICAR PG PYQ)",
     "questionText": "The diagnostic histological hallmark of the Thymus gland medulla, consisting of concentric whorls of keratinizing and degenerated eosinophilic epithelial reticular cells, is the:",
     "options": [
-      "Malpighian corpuscle",
-      "Hassall's corpuscle (Thymic corpuscle)",
       "Peyer's patch",
+      "Hassall's corpuscle (Thymic corpuscle)",
+      "Malpighian corpuscle",
       "Herring body"
     ],
     "correctOptionIndex": 1,
@@ -3098,11 +3098,11 @@
     "questionText": "In the mammalian kidney, the 'Juxtaglomerular Apparatus' includes a specialized plaque of densely packed, tall, narrow epithelial cells sensing sodium chloride concentration in which nephron segment?",
     "options": [
       "Descending thin limb of Henle",
+      "Cortical collecting duct",
       "Proximal Convoluted Tubule",
-      "Distal Convoluted Tubule (Macula densa)",
-      "Cortical collecting duct"
+      "Distal Convoluted Tubule (Macula densa)"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 3,
     "explanation": "The macula densa consists of specialized tubular epithelial cells in the initial segment of the distal convoluted tubule located directly adjacent to the afferent and efferent arterioles of its parent glomerulus, monitoring luminal NaCl.",
     "difficulty": "Hard",
     "tags": [
@@ -3122,12 +3122,12 @@
     "topic": "Organ Histology (ICAR PG PYQ)",
     "questionText": "In the domestic Ox and Sheep, the outer adrenal cortex (zona subcapsularis) exhibits cellular cords arranged in arched or loop-like clusters, earning it the histological designation:",
     "options": [
-      "Zona arcuata (characteristic of carnivores and equines, whereas ruminants display rounded clusters as classic Zona glomerulosa)",
       "Chromaffin zone",
       "Zona fasciculata",
+      "Zona arcuata (characteristic of carnivores and equines, whereas ruminants display rounded clusters as classic Zona glomerulosa)",
       "Zona reticularis"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 2,
     "explanation": "In dogs, cats, and horses, the subcapsular mineralocorticoid-producing zone has looping arches termed 'Zona arcuata'; in ruminants and humans, the cells are in rounded clumps designated 'Zona glomerulosa'.",
     "difficulty": "Hard",
     "tags": [
@@ -3147,12 +3147,12 @@
     "topic": "Organ Histology (ICAR PG PYQ)",
     "questionText": "In lung alveoli, which specialized epithelial cell type is responsible for the synthesis, storage in lamellar bodies, and secretion of pulmonary surfactant (dipalmitoylphosphatidylcholine)?",
     "options": [
-      "Type II Pneumocyte (Great alveolar cell)",
-      "Alveolar macrophage (Dust cell)",
       "Type I Pneumocyte (Squamous alveolar cell)",
-      "Club cell (Clara cell)"
+      "Alveolar macrophage (Dust cell)",
+      "Club cell (Clara cell)",
+      "Type II Pneumocyte (Great alveolar cell)"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "Type II pneumocytes are cuboidal cells with apical microvilli and lamellar bodies that secrete pulmonary surfactant to lower alveolar surface tension and prevent end-expiratory atelectasis; they also divide to regenerate Type I cells.",
     "difficulty": "Hard",
     "tags": [
@@ -3172,12 +3172,12 @@
     "topic": "Organ Histology (ICAR PG PYQ)",
     "questionText": "The specialized venous vessels in the paracortex of lymph nodes lined by plump cuboidal endothelial cells that facilitate lymphocyte homing from the bloodstream are designated:",
     "options": [
+      "Trabecular veins",
       "Sinusoids",
       "High Endothelial Venules (HEVs)",
-      "Trabecular veins",
       "Subcapsular sinuses"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "High Endothelial Venules (HEVs) in the paracortex have tall, plump, cuboidal endothelial cells expressing specific selectins and addressins that enable naive T and B lymphocytes in circulation to tether, roll, and extravasate into lymph node parenchyma.",
     "difficulty": "Hard",
     "tags": [
@@ -3198,11 +3198,11 @@
     "questionText": "In the developing mammalian embryo, the somites (derived from paraxial mesoderm) differentiate into three distinct cellular components: Sclerotome, Myotome, and Dermatome. The Sclerotome gives rise to:",
     "options": [
       "Dermis of the dorsal trunk skin",
-      "Urogenital system",
+      "The axial skeleton (vertebrae and ribs)",
       "All skeletal musculature of the trunk and limbs",
-      "The axial skeleton (vertebrae and ribs)"
+      "Urogenital system"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "Paraxial mesoderm divides into somites; the ventromedial sclerotome cells migrate around the notochord and neural tube to form vertebrae, intervertebral discs, and ribs; myotome forms striated skeletal muscle; dermatome forms dorsal dermis.",
     "difficulty": "Hard",
     "tags": [
@@ -3222,12 +3222,12 @@
     "topic": "Veterinary Embryology (ICAR PG PYQ)",
     "questionText": "Which extraordinary population of pluripotent embryonic cells arises from the neural fold margins during neurulation, migrating throughout the body to form melanocytes, Schwann cells, spinal and autonomic ganglia, and the adrenal medulla?",
     "options": [
-      "Endodermal epithelial cells",
-      "Notochordal cells",
       "Neural Crest cells",
-      "Lateral plate mesoderm"
+      "Endodermal epithelial cells",
+      "Lateral plate mesoderm",
+      "Notochordal cells"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "Neural crest cells (often called the 'fourth germ layer') delaminate from neural folds, giving rise to peripheral sensory and autonomic ganglia, Schwann cells, melanocytes, craniofacial skeletal tissues, and adrenal medullary chromaffin cells.",
     "difficulty": "Hard",
     "tags": [
@@ -3247,12 +3247,12 @@
     "topic": "Veterinary Embryology (ICAR PG PYQ)",
     "questionText": "In fetal circulation, the physiological vascular shunt that diverts oxygen-rich blood directly from the umbilical vein into the caudal vena cava, largely bypassing the fetal hepatic sinusoids, is the:",
     "options": [
-      "Urachus",
       "Ductus arteriosus",
       "Ductus venosus",
-      "Foramen ovale"
+      "Foramen ovale",
+      "Urachus"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 1,
     "explanation": "The ductus venosus shunts approximately 50% of umbilical venous blood directly into the inferior (caudal) vena cava, bypassing the liver; postnatally, its fibrous remnant persists as the Ligamentum Venosum.",
     "difficulty": "Hard",
     "tags": [
@@ -3272,12 +3272,12 @@
     "topic": "Veterinary Embryology (ICAR PG PYQ)",
     "questionText": "The adult anatomical remnant of the fetal 'Ductus Arteriosus' (which diverted pulmonary artery blood into the descending aorta) is the:",
     "options": [
-      "Ligamentum venosum",
-      "Ligamentum arteriosum",
+      "Ligamentum teres hepatis",
       "Fossa ovalis",
-      "Ligamentum teres hepatis"
+      "Ligamentum venosum",
+      "Ligamentum arteriosum"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 3,
     "explanation": "The ductus arteriosus connects the pulmonary artery to the descending aorta in the fetus; functional closure occurs at birth upon initiation of respiration, fibrosing into the adult Ligamentum Arteriosum (failure of closure results in Patent Ductus Arteriosus / PDA).",
     "difficulty": "Hard",
     "tags": [
@@ -3297,12 +3297,12 @@
     "topic": "Veterinary Embryology (ICAR PG PYQ)",
     "questionText": "The adult anatomical remnant of the embryonic Left Umbilical Vein, running in the free margin of the falciform ligament to the visceral surface of the liver, is the:",
     "options": [
-      "Ligamentum teres hepatis (Round ligament of the liver)",
-      "Median umbilical ligament",
+      "Coronary ligament",
       "Ligamentum arteriosum",
-      "Coronary ligament"
+      "Ligamentum teres hepatis (Round ligament of the liver)",
+      "Median umbilical ligament"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 2,
     "explanation": "The round ligament of the liver (Ligamentum teres hepatis) is the fibrous obliterated remnant of the embryonic left umbilical vein, transporting oxygenated blood from placenta to fetus during gestation.",
     "difficulty": "Hard",
     "tags": [
@@ -3322,12 +3322,12 @@
     "topic": "Veterinary Embryology",
     "questionText": "During embryonic gastrulation, the epithelial lining of the gastrointestinal tract, liver parenchyma, gall bladder, pancreas, and respiratory tree develops from which primary germ layer?",
     "options": [
-      "Ectoderm",
-      "Neural crest",
+      "Endoderm",
       "Mesoderm",
-      "Endoderm"
+      "Ectoderm",
+      "Neural crest"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "The endoderm forms the epithelial lining of the entire digestive canal (except stomodeum and proctodeum), the parenchyma of liver and pancreas, and the epithelial lining of the respiratory tract, urinary bladder, and urethra.",
     "difficulty": "Medium",
     "tags": [
@@ -3346,12 +3346,12 @@
     "topic": "Veterinary Embryology (ICAR PG PYQ)",
     "questionText": "In male mammalian embryology, the primordial embryonic duct system that regresses under the influence of Anti-Müllerian Hormone (AMH / MIS) secreted by fetal Sertoli cells is the:",
     "options": [
-      "Pronephric duct",
       "Mesonephric duct (Wolffian duct)",
       "Paramesonephric duct (Müllerian duct)",
-      "Metanephric duct"
+      "Metanephric duct",
+      "Pronephric duct"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 1,
     "explanation": "In male embryos, Sertoli cells produce AMH, causing regression of the paramesonephric (Müllerian) ducts (which would otherwise form uterine tubes, uterus, and cranial vagina), while testosterone supports Wolffian ducts to form epididymis and deferent ducts.",
     "difficulty": "Hard",
     "tags": [
@@ -3372,8 +3372,8 @@
     "questionText": "In the domestic fowl (Gallus domesticus), the fusion of the second to fifth thoracic vertebrae into a rigid dorsal bony unit to stabilize the trunk during flight is called the:",
     "options": [
       "Notarium (Os dorsale)",
-      "Pygostyle",
       "Synsacrum",
+      "Pygostyle",
       "Furcula"
     ],
     "correctOptionIndex": 0,
@@ -3396,9 +3396,9 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "The 'Synsacrum' of birds is a rigid skeletal complex formed by the extensive fusion of which vertebral regions with the pelvic ilium?",
     "options": [
-      "Sacral vertebrae alone",
       "Cervical and thoracic vertebrae",
       "Caudal coccygeal vertebrae only",
+      "Sacral vertebrae alone",
       "The last thoracic (T7), all lumbar, all sacral, and the first few caudal vertebrae"
     ],
     "correctOptionIndex": 3,
@@ -3421,12 +3421,12 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "The terminal fused caudal vertebrae in birds, shaped like a ploughshare and supporting the tail flight feathers (rectrices) and uropygial gland, is designated the:",
     "options": [
-      "Notarium",
-      "Pygostyle",
       "Synsacrum",
-      "Furcula"
+      "Furcula",
+      "Pygostyle",
+      "Notarium"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 2,
     "explanation": "The pygostyle consists of the fusion of the last 4 to 6 caudal coccygeal vertebrae, supporting the tail retrices (flight steering feathers) and providing an anchor for tail musculature and the preen gland.",
     "difficulty": "Hard",
     "tags": [
@@ -3446,12 +3446,12 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "The 'Triosseal Canal' (Foramen triosseum) of the avian pectoral girdle, through which the tendon of the Supracoracoideus muscle passes to act as a pulley for wing elevation, is formed by the junction of:",
     "options": [
+      "Scapula, Coracoid, and Clavicle",
       "Ilium, Ischium, and Pubis",
       "Humerus, Radius, and Ulna",
-      "Scapula, Coracoid, and Clavicle",
       "Sternum, Ribs, and Coracoid"
     ],
-    "correctOptionIndex": 2,
+    "correctOptionIndex": 0,
     "explanation": "The triosseal canal is bounded by the scapula, coracoid, and clavicle; the tendon of the deep supracoracoideus muscle traverses this canal over the shoulder joint to insert on the dorsal humerus, functioning as a pulley to raise the wing (upstroke).",
     "difficulty": "Hard",
     "tags": [
@@ -3471,12 +3471,12 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "The 'Furcula' (popularly known as the 'wishbone') in birds is formed by the ventral midline fusion of the:",
     "options": [
+      "Two Coracoid bones",
       "Two Scapulae",
-      "Right and Left Clavicles (along with the interclavicle)",
       "Costal cartilages",
-      "Two Coracoid bones"
+      "Right and Left Clavicles (along with the interclavicle)"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 3,
     "explanation": "The furcula is formed by the fusion of the left and right clavicles at their ventral ends, acting as an elastic spring during wing flapping to maintain spacing between shoulder joints.",
     "difficulty": "Hard",
     "tags": [
@@ -3496,12 +3496,12 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "In domestic poultry, the massive breast muscle responsible for the powerful downstroke of the wing during flight is the:",
     "options": [
-      "Pectoralis muscle (Pectoralis major / Pectoralis superficialis)",
       "Biceps brachii",
-      "Supracoracoideus muscle",
-      "Latissimus dorsi"
+      "Latissimus dorsi",
+      "Pectoralis muscle (Pectoralis major / Pectoralis superficialis)",
+      "Supracoracoideus muscle"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 2,
     "explanation": "The Pectoralis (pectoralis major) originates from the ventral keel of the sternum and clavicle and inserts on the deltopectoral crest of the humerus, providing the main power for the downstroke; the Supracoracoideus elevates the wing.",
     "difficulty": "Hard",
     "tags": [
@@ -3521,12 +3521,12 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "In birds, the primary vocal organ responsible for sound production is situated at the bifurcation of the trachea into the primary bronchi and is termed the:",
     "options": [
-      "Pharynx",
       "Tracheal bulb",
-      "Larynx (which lacks vocal cords)",
-      "Syrinx"
+      "Syrinx",
+      "Pharynx",
+      "Larynx (which lacks vocal cords)"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "The syrinx is the avian voice organ located at the caudal end of the trachea at the bronchial bifurcation, containing vibrating tympanic membranes (membrana tympaniformis) and syringeal muscles; the cranial avian larynx lacks vocal cords.",
     "difficulty": "Hard",
     "tags": [
@@ -3546,10 +3546,10 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "Avian lungs differ fundamentally from mammalian lungs because they are non-collapsible, constant-volume structures where gas exchange occurs in tubular:",
     "options": [
+      "Trabeculae carnae",
       "Pleural pouches",
-      "Terminal blind alveoli with tidal airflow",
       "Parabronchi (Air capillaries) with unidirectional airflow",
-      "Trabeculae carnae"
+      "Terminal blind alveoli with tidal airflow"
     ],
     "correctOptionIndex": 2,
     "explanation": "Avian lungs do not expand or collapse and lack dead-end alveoli; instead, inspired air flows unidirectionally through tertiary bronchi (parabronchi) and microscopic air capillaries that interlace with blood capillaries.",
@@ -3571,12 +3571,12 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "How many total air sacs (sacci pneumatici) are typically present in the domestic fowl (Gallus domesticus)?",
     "options": [
+      "9 (1 single interclavicular, 2 cervical, 2 cranial thoracic, 2 caudal thoracic, and 2 abdominal)",
       "7",
       "8",
-      "12",
-      "9 (1 single interclavicular, 2 cervical, 2 cranial thoracic, 2 caudal thoracic, and 2 abdominal)"
+      "12"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 0,
     "explanation": "The domestic chicken has 9 air sacs: one unpaired Interclavicular air sac, and four paired air sacs (Cervical, Cranial Thoracic, Caudal Thoracic, and Abdominal); they act as bellows to drive unidirectional air through the lungs.",
     "difficulty": "Hard",
     "tags": [
@@ -3596,9 +3596,9 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "The thick muscular grinding stomach (gizzard / ventriculus) of the domestic fowl is lined internally by a tough, wear-resistant, yellowish-green protective cuticle termed:",
     "options": [
-      "Enamel",
-      "Koilin layer (composed of hardened protein secreted by mucosal tubular glands)",
       "Stratified squamous keratinized epithelium",
+      "Koilin layer (composed of hardened protein secreted by mucosal tubular glands)",
+      "Enamel",
       "Mucous gel layer"
     ],
     "correctOptionIndex": 1,
@@ -3621,12 +3621,12 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "In the domestic fowl, the glandular stomach (Proventriculus) contains specialized mucosal cells that secrete both pepsinogen and hydrochloric acid, known as:",
     "options": [
-      "Oxynticopeptic cells",
-      "Parietal cells",
       "Chief cells",
-      "Enterochromaffin cells"
+      "Enterochromaffin cells",
+      "Parietal cells",
+      "Oxynticopeptic cells"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "Unlike mammals which have distinct parietal (HCl) and chief (pepsinogen) cells, avian proventricular glands possess a single composite cell type: the Oxynticopeptic cell, which performs both secretory functions.",
     "difficulty": "Hard",
     "tags": [
@@ -3647,11 +3647,11 @@
     "questionText": "Prominent lymphoid aggregations located in the mucosal wall at the proximal origin (base) of each of the two ceca in the domestic fowl are designated:",
     "options": [
       "Peyer's patches",
-      "Bursa of Fabricius",
+      "Cecal tonsils",
       "Harderian glands",
-      "Cecal tonsils"
+      "Bursa of Fabricius"
     ],
-    "correctOptionIndex": 3,
+    "correctOptionIndex": 1,
     "explanation": "The cecal tonsils are major gut-associated lymphoid tissue (GALT) structures located at the ileocecal junctions at the proximal neck of both ceca, mounting mucosal immune responses against enteric pathogens.",
     "difficulty": "Hard",
     "tags": [
@@ -3671,10 +3671,10 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "The dorsal diverticulum of the cloacal proctodeum in young birds that serves as the primary site of B lymphocyte differentiation and lymphopoiesis is the:",
     "options": [
+      "Thymus",
       "Harderian gland",
-      "Cecal tonsil",
       "Bursa of Fabricius (Cloacal bursa)",
-      "Thymus"
+      "Cecal tonsil"
     ],
     "correctOptionIndex": 2,
     "explanation": "The Bursa of Fabricius is a dorsal diverticulum opening into the proctodeum of the cloaca; it is the unique primary lymphoid organ where B-cell maturation and immunoglobulin gene conversion occur in young birds, undergoing involution at sexual maturity.",
@@ -3696,12 +3696,12 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "In the domestic hen, the segment of the functional left oviduct where the thick and thin albumen (egg white) is synthesized and secreted over approximately 3 hours is the:",
     "options": [
-      "Magnum",
       "Infundibulum",
       "Isthmus",
-      "Uterus (Shell gland)"
+      "Uterus (Shell gland)",
+      "Magnum"
     ],
-    "correctOptionIndex": 0,
+    "correctOptionIndex": 3,
     "explanation": "The magnum is the longest and most glandular segment of the avian oviduct (approx. 33 cm), densely lined with tubular glands secreting ovalbumin, conalbumin, ovomucoid, and lysozyme around the vitelline membrane of the descending yolk.",
     "difficulty": "Hard",
     "tags": [
@@ -3721,12 +3721,12 @@
     "topic": "Avian Anatomy (ICAR PG PYQ)",
     "questionText": "In birds, the excretory system is characteristically devoid of which two anatomical structures that are otherwise universal in domestic mammals?",
     "options": [
-      "Renal cortex and Medulla",
       "Renal pelvis and Urinary bladder",
-      "Glomeruli and Proximal tubules",
-      "Ureters and Collecting ducts"
+      "Renal cortex and Medulla",
+      "Ureters and Collecting ducts",
+      "Glomeruli and Proximal tubules"
     ],
-    "correctOptionIndex": 1,
+    "correctOptionIndex": 0,
     "explanation": "Birds lack both a renal pelvis and a urinary bladder; ureters transport a semi-solid paste of uric acid directly from the three-lobed kidneys to empty into the urodeum of the cloaca, minimizing weight for flight and conserving water.",
     "difficulty": "Hard",
     "tags": [

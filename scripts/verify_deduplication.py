@@ -14,6 +14,7 @@ sys.path.append(scripts_dir)
 from build_pathology_300 import get_all_300_vpp_questions
 from build_microbiology_300 import get_all_300_vmc_questions
 from build_anatomy_150 import get_all_150_van_questions
+from build_parasitology_60 import get_all_60_vpa_questions
 
 def load_existing_questions():
     root = os.path.join(scripts_dir, "..")
@@ -39,8 +40,13 @@ def load_existing_questions():
     pyqs = parse_blocks(pyq_text)
     base = parse_blocks(all_text)
     combined = pyqs + base
-    # Prior existing are those NOT starting with vpp_exp_, vmc_exp_, or van_exp_
-    prior_existing = [q for q in combined if not (q['id'].startswith('vpp_exp_') or q['id'].startswith('vmc_exp_') or q['id'].startswith('van_exp_'))]
+    # Prior existing are those NOT starting with vpp_exp_, vmc_exp_, van_exp_, or vpa_exp_
+    prior_existing = [q for q in combined if not (
+        q['id'].startswith('vpp_exp_') or 
+        q['id'].startswith('vmc_exp_') or 
+        q['id'].startswith('van_exp_') or
+        q['id'].startswith('vpa_exp_')
+    )]
     # Remove duplicate entries between pyq and all text
     seen = set()
     unique_prior = []
@@ -65,13 +71,14 @@ def main():
     existing_qs = load_existing_questions()
     print(f"[Loaded Prior Base Questions] Total: {len(existing_qs)}")
 
-    # 2. Load New Questions (300 VPP + 300 VMC + 150 VAN = 750)
+    # 2. Load New Questions (300 VPP + 300 VMC + 150 VAN + 60 VPA = 810)
     new_vpp = get_all_300_vpp_questions()
     new_vmc = get_all_300_vmc_questions()
     new_van = get_all_150_van_questions()
-    new_qs = new_vpp + new_vmc + new_van
-    print(f"[Loaded New Questions] VPP: {len(new_vpp)}, VMC: {len(new_vmc)}, VAN: {len(new_van)}, Total New: {len(new_qs)}")
-    assert len(new_qs) == 750, f"Expected 750 new questions, got {len(new_qs)}"
+    new_vpa = get_all_60_vpa_questions()
+    new_qs = new_vpp + new_vmc + new_van + new_vpa
+    print(f"[Loaded New Questions] VPP: {len(new_vpp)}, VMC: {len(new_vmc)}, VAN: {len(new_van)}, VPA: {len(new_vpa)}, Total New: {len(new_qs)}")
+    assert len(new_qs) == 810, f"Expected 810 new questions, got {len(new_qs)}"
 
     # -------------------------------------------------------------------------
     # PASS 1: Exact String Collision Check against Base
@@ -110,7 +117,7 @@ def main():
             print(f"   Intra-Collision: {id1} matches {id2}: '{txt[:80]}...'")
         sys.exit(1)
     else:
-        print(f"✅ PASS 1b: Zero exact string duplicates within the 750 new questions batch.")
+        print(f"✅ PASS 1b: Zero exact string duplicates within the 810 new questions batch.")
 
     # -------------------------------------------------------------------------
     # PASS 2: Normalized Canonical Key Matching
@@ -185,14 +192,14 @@ def main():
         assert len(q['explanation']) > 20, f"Question {q['id']} explanation too short: '{q['explanation']}'"
 
         # Topic & Subject check
-        assert q['subjectId'] in ['vpp', 'vmc', 'van'], f"Invalid subjectId: {q['subjectId']}"
+        assert q['subjectId'] in ['vpp', 'vmc', 'van', 'vpa'], f"Invalid subjectId: {q['subjectId']}"
         assert q['domain'] == 'veterinary_science', f"Invalid domain: {q['domain']}"
         if q['subjectId'] == 'van':
             assert q['year'] == '1st_year', f"Invalid year for VAN: {q['year']}"
         else:
             assert q['year'] == '2nd_year', f"Invalid year: {q['year']}"
 
-    print(f"✅ PASS 4: All 750 questions have valid unique IDs, exactly 4 unique options, valid answers [0-3], and rich textbook explanations.")
+    print(f"✅ PASS 4: All 810 questions have valid unique IDs, exactly 4 unique options, valid answers [0-3], and rich textbook explanations.")
 
     # -------------------------------------------------------------------------
     # AUTHENTIC PYQ AUDIT (Check 3 Times)
@@ -201,15 +208,17 @@ def main():
     vpp_pyqs = [q for q in new_vpp if q.get('isPYQ')]
     vmc_pyqs = [q for q in new_vmc if q.get('isPYQ')]
     van_pyqs = [q for q in new_van if q.get('isPYQ')]
+    vpa_pyqs = [q for q in new_vpa if q.get('isPYQ')]
 
     print(f"Veterinary Pathology: {len(vpp_pyqs)} / 300 questions are Authentic PYQs ({len(vpp_pyqs)/300*100:.1f}%)")
     print(f"Veterinary Microbiology: {len(vmc_pyqs)} / 300 questions are Authentic PYQs ({len(vmc_pyqs)/300*100:.1f}%)")
     print(f"Veterinary Anatomy: {len(van_pyqs)} / 150 questions are Authentic PYQs ({len(van_pyqs)/150*100:.1f}%)")
+    print(f"Veterinary Parasitology: {len(vpa_pyqs)} / 60 questions are Authentic PYQs ({len(vpa_pyqs)/60*100:.1f}%)")
 
-    total_new_pyqs = len(vpp_pyqs) + len(vmc_pyqs) + len(van_pyqs)
-    print(f"Total Authentic PYQs in Expanded Set: {total_new_pyqs} / 750 ({total_new_pyqs/750*100:.1f}%)")
+    total_new_pyqs = len(vpp_pyqs) + len(vmc_pyqs) + len(van_pyqs) + len(vpa_pyqs)
+    print(f"Total Authentic PYQs in Expanded Set: {total_new_pyqs} / 810 ({total_new_pyqs/810*100:.1f}%)")
 
-    # Verify high-yield core entities across all 3 subjects
+    # Verify high-yield core entities across all 4 subjects
     required_entities = [
         # Pathology
         "Negri", "Anthrax", "Blackleg", "CBPP", "Johne", "Listeria", "Marek", 
@@ -219,7 +228,12 @@ def main():
         "Brucella", "Pasteurella",
         # Anatomy
         "Os cordis", "Os penis", "Syrinx", "Notarium", "Synsacrum", "Pygostyle", 
-        "Guttural pouch", "Radial nerve", "Brachial plexus", "Triad", "Disse"
+        "Guttural pouch", "Radial nerve", "Brachial plexus", "Triad", "Disse",
+        # Parasitology
+        "Fasciola", "Amphistomiasis", "Dicrocoelium", "Schistosoma", "Taenia", 
+        "Echinococcus", "Moniezia", "Haemonchus", "Ostertagia", "Strongylus", 
+        "Toxocara", "Babesia", "Theileria", "Surra", "Eimeria", "Cryptosporidium", 
+        "Toxoplasma", "Neospora", "Sarcoptes", "Demodex", "Oestrus ovis", "Culicoides"
     ]
     entity_found = {}
     for ent in required_entities:
