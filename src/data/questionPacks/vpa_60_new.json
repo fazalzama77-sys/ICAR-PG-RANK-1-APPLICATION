@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "vpa_exp_001",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "In ruminant fasciolosis caused by Fasciola gigantica and Fasciola hepatica, the infective stage that encysts on aquatic vegetation and is ingested by grazing animals is the:",
+    "options": [
+      "Metacercaria",
+      "Cercaria",
+      "Miracidium",
+      "Redia"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The life cycle of Fasciola involves: Egg -> Miracidium (penetrates snail) -> Sporocyst -> Redia -> Cercaria (emerges from snail) -> Metacercaria (encysts on vegetation, serving as the infective stage for definitive hosts).",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000000
+  },
+  {
+    "id": "vpa_exp_002",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The primary intermediate freshwater snail host for the common liver fluke (Fasciola hepatica) in temperate regions and Fasciola gigantica in tropical India are, respectively:",
+    "options": [
+      "Lymnaea truncatula and Lymnaea auricularia (L. rufescens)",
+      "Indoplanorbis exustus and Bulinus truncatus",
+      "Planorbis planorbis and Bithynia tentaculata",
+      "Zebrina detrita and Helicella"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Lymnaea truncatula is the principal snail host of F. hepatica globally, whereas in India, Lymnaea auricularia (sensu lato, including L. rufescens and L. acuminata) is the primary snail vector for F. gigantica.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000001
+  },
+  {
+    "id": "vpa_exp_003",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "Severe, fatal acute fasciolosis in sheep is pathologically caused by:",
+    "options": [
+      "Traumatic migration of numerous immature flukes through hepatic parenchyma, rupturing capillaries",
+      "Obstruction of major bile ducts by adult flukes",
+      "Chronic calcification and pipe-stem liver",
+      "Bacterial fermentation in the gallbladder"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Acute fasciolosis occurs 6-8 weeks post-ingestion when thousands of juvenile flukes burrow aggressively through the liver parenchyma, causing extensive hemorrhage, coagulative necrosis, and traumatic hepatitis (often triggering Clostridium novyi Type B Black Disease).",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000002
+  },
+  {
+    "id": "vpa_exp_004",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The pathognomonic clinical condition known as 'Immature Amphistomiasis' (Paramphistomosis) in sheep and cattle is characterized by fetid watery diarrhea, severe hypoproteinemia, and submandibular edema ('bottle jaw') caused by:",
+    "options": [
+      "Massive plug-feeding and mucosal destruction by immature paramphistomes in the duodenum and abomasum",
+      "Adult flukes attaching to the rumen papillae",
+      "Rupture of the gallbladder",
+      "Biliary duct fibrosis"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "While adult amphistomes (e.g., Cotylophoron cotylophorum, Gastrothylax crumenifer) in the rumen are relatively benign, excysted juvenile flukes attach to the duodenal and abomasal mucosa, plug-feeding and causing severe catarrhal/erosive duodenitis, fatal hypoproteinemia, and diarrhea.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000003
+  },
+  {
+    "id": "vpa_exp_005",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The intermediate snail host for the common amphistomes (Cotylophoron cotylophorum and Paramphistomum cervi) in India is:",
+    "options": [
+      "Indoplanorbis exustus",
+      "Lymnaea truncatula",
+      "Gyraulus convexiusculus",
+      "Viviparus bengalensis"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Indoplanorbis exustus (a planorbid freshwater snail with a discoidal shell) is the principal intermediate host for Cotylophoron cotylophorum and Gastrothylax in the Indian subcontinent.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000004
+  },
+  {
+    "id": "vpa_exp_006",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The Lancet fluke (Dicrocoelium dendriticum) requires two intermediate hosts to complete its life cycle. The second intermediate host, in which metacercariae encyst and alter host behavior, is:",
+    "options": [
+      "The Brown Wood Ant (Formica fusca)",
+      "The freshwater snail (Lymnaea truncatula)",
+      "The water flea (Cyclops)",
+      "The dung beetle (Aphodius)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Dicrocoelium uses a terrestrial snail (1st host) and the brown ant Formica fusca (2nd host). One metacercaria encysts in the ant's subesophageal ganglion ('brainworm'), inducing temperature-dependent tetanic clamping of the ant's jaws onto grass tips at dawn/dusk to facilitate ingestion by ruminants.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000005
+  },
+  {
+    "id": "vpa_exp_007",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "In cattle, 'Nasal Schistosomiasis' (Nasal granuloma / 'Snoring Disease') characterized by cauliflower-like nodular granulomas on the nasal septum is caused by:",
+    "options": [
+      "Schistosoma nasale",
+      "Schistosoma spindale",
+      "Schistosoma bovis",
+      "Schistosoma japonicum"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Schistosoma nasale resides in the veins of the nasal mucosa of cattle, goats, and horses; its characteristic boomerang-shaped eggs with a terminal spine trigger pseudo-tuberculous granulomas and snoring dyspnea.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000006
+  },
+  {
+    "id": "vpa_exp_008",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The eggs of Schistosoma nasale are microscopically recognized in nasal discharge by their characteristic:",
+    "options": [
+      "Boomerang shape with a subterminal or terminal spine",
+      "Oval operculated yellowish shell with a knob",
+      "Spindle shape with flattened sides",
+      "Barrel shape with polar plugs"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Schistosoma nasale eggs are distinctly boomerang- or curved shoehorn-shaped with a terminal point/spine, whereas Schistosoma spindale eggs are elongated spindle-shaped with a terminal spine.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000007
+  },
+  {
+    "id": "vpa_exp_009",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "Which species of mammalian blood fluke exhibits an elongated spindle-shaped egg with a sharp terminal spine and causes visceral schistosomiasis and mesenteric phlebitis in Indian ruminants?",
+    "options": [
+      "Schistosoma spindale",
+      "Schistosoma nasale",
+      "Schistosoma incognitum",
+      "Schistosoma rodhaini"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Schistosoma spindale inhabits the mesenteric veins of cattle, buffalo, sheep, and goats; its characteristic spindle-shaped eggs with a straight spine induce granulomatous nodules, thrombosis, and hepatic periportal fibrosis.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000008
+  },
+  {
+    "id": "vpa_exp_010",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The definitive infective stage of blood flukes (Schistosoma species) that actively penetrates the intact skin of the definitive mammalian host in water is the:",
+    "options": [
+      "Fork-tailed cercaria (Furcocercous cercaria)",
+      "Encysted metacercaria",
+      "Redia",
+      "Amphistome miracidium"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Schistosomes do not have a metacercarial encystment stage on vegetation; instead, free-swimming furcocercous (fork-tailed) cercariae shed by aquatic snails actively penetrate the skin of animals entering water bodies, shedding their tails to become schistosomula.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000009
+  },
+  {
+    "id": "vpa_exp_011",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "'Measly Pork' (Porcine cysticercosis) is caused by the intermediate larval stage (Cysticercus cellulosae) of which human tapeworm?",
+    "options": [
+      "Taenia solium",
+      "Taenia saginata",
+      "Taenia hydatigena",
+      "Echinococcus granulosus"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Taenia solium (the pork tapeworm of humans) produces the intermediate metacestode Cysticercus cellulosae in the striated muscle of pigs (measly pork); humans become infected by ingesting undercooked pork or develop human neurocysticercosis via autoinfection.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000010
+  },
+  {
+    "id": "vpa_exp_012",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "'Measly Beef' (Bovine cysticercosis) is caused by the intermediate bladder worm stage (Cysticercus bovis) of which human tapeworm?",
+    "options": [
+      "Taenia saginata",
+      "Taenia solium",
+      "Taenia pisiformis",
+      "Taenia ovis"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Taenia saginata (the unarmed beef tapeworm of humans) forms Cysticercus bovis in the masseter, heart, tongue, and diaphragm muscles of cattle; unlike T. solium, the scolex lacks hooks (unarmed rostellum).",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000011
+  },
+  {
+    "id": "vpa_exp_013",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The neurological syndrome known as 'Gid' or 'Sturdy' in sheep (circling, head deviation, blindness, and skull softening) is caused by the intracranial intermediate coenurus stage (Coenurus cerebralis) of:",
+    "options": [
+      "Taenia multiceps",
+      "Taenia hydatigena",
+      "Taenia ovis",
+      "Echinococcus granulosus"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Taenia multiceps (adult in the canine small intestine) produces Coenurus cerebralis (a large fluid-filled bladder with multiple invaginated scolices) in the brain and spinal cord of sheep and goats, causing pressure necrosis and neurological 'gid'.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000012
+  },
+  {
+    "id": "vpa_exp_014",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The large fluid-filled larval bladder worm (Cysticercus tenuicollis) commonly found attached to the mesentery, omentum, and liver capsules of slaughtered sheep and goats is the larval stage of:",
+    "options": [
+      "Taenia hydatigena",
+      "Taenia pisiformis",
+      "Taenia taeniaeformis",
+      "Dipylidium caninum"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Taenia hydatigena is a common tapeworm of dogs; its metacestode (Cysticercus tenuicollis, the slender-necked bladder worm) migrates through the liver of ruminants, leaving fibrous tracts ('hepatitis cysticercosa') before encysting on the peritoneal serosa.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000013
+  },
+  {
+    "id": "vpa_exp_015",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "In hydatid disease (Echinococcosis), the adult tapeworm consisting of only 3 to 4 proglottids and a hooked scolex resides in the small intestine of:",
+    "options": [
+      "Dogs and other canids (Definitive Host)",
+      "Ruminants and horses",
+      "Cats and felids",
+      "Rodents"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Echinococcus granulosus adults (only 3-6 mm long, having a scolex and 3-4 segments) live exclusively in the small intestine of dogs and wild canids; herbivores and humans act as intermediate hosts developing large unilocular hydatid cysts.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000014
+  },
+  {
+    "id": "vpa_exp_016",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The characteristic microscopic diagnostic feature of Moniezia expansa eggs found in ruminant fecal sedimentation is the presence of a:",
+    "options": [
+      "Triangular shape containing a specialized Pyriform Apparatus enclosing the onchosphere",
+      "Bipolar plug at each end",
+      "Heavy thick-walled radial striation with hooks",
+      "Operculated lid with a ciliated miracidium"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Moniezia expansa eggs are triangular (whereas M. benedeni eggs are quadrangular/square) and contain a distinct internal, horn-like protective structure termed the 'Pyriform Apparatus' harboring the hexacanth onchosphere.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000015
+  },
+  {
+    "id": "vpa_exp_017",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The intermediate host required for the transmission and development of ruminant tapeworms (Moniezia species) and equine tapeworms (Anoplocephala species) on pasture is:",
+    "options": [
+      "Oribatid pasture mites (Free-living soil mites)",
+      "Aquatic freshwater snails",
+      "Biting midges (Culicoides)",
+      "Pasture ticks"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Oribatid soil mites (e.g., Scheloribates, Galumna) ingest tapeworm eggs on pasture; cysticercoids develop within the mites, and grazing livestock become infected by ingesting the mites along with grass.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000016
+  },
+  {
+    "id": "vpa_exp_018",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The equine tapeworm Anoplocephala perfoliata characteristically clusters at which anatomical site, predisposing horses to ulceration, perforation, and ileocecal intussusception / colic?",
+    "options": [
+      "The Ileocecal junction (Ileocecal valve and cecum)",
+      "The glandular fundus of the stomach",
+      "The terminal descending colon",
+      "The bile duct"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Anoplocephala perfoliata possesses rounded lappets behind each of its 4 suckers and characteristically anchors in dense clusters at the ileocecal orifice, causing localized ulceration, mucosal hypertrophy, and spasmodic or intussusceptive colic.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000017
+  },
+  {
+    "id": "vpa_exp_019",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The 'Double-pored Dog Tapeworm' (Dipylidium caninum) produces cucumber-seed shaped proglottids containing egg packets, and is transmitted to dogs and cats by the ingestion of infected:",
+    "options": [
+      "Fleas (Ctenocephalides felis / canis) and biting lice (Trichodectes canis)",
+      "Ticks (Rhipicephalus sanguineus)",
+      "Oribatid pasture mites",
+      "Earthworms"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Dipylidium caninum cysticercoids develop inside the larvae of fleas (Ctenocephalides canis/felis) and chewing lice (Trichodectes canis); pets ingest grooming fleas containing cysticercoids, acquiring infection.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000018
+  },
+  {
+    "id": "vpa_exp_020",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "In poultry, the microscopic, highly pathogenic tapeworm consisting of only 4 to 9 proglottids that penetrates deep into the duodenal crypts causing severe hemorrhagic enteritis is:",
+    "options": [
+      "Davainea proglottina",
+      "Raillietina cesticillus",
+      "Raillietina tetragona",
+      "Amoebotaenia sphenoides"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Davainea proglottina is tiny (0.5 to 3 mm long, with 4-9 segments); its scolex possesses hammer-shaped hooks that deeply penetrate duodenal villi, causing hemorrhagic enteritis and wasting in young chicks; intermediate hosts are terrestrial slugs and snails.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000019
+  },
+  {
+    "id": "vpa_exp_021",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The highly pathogenic abomasal nematode of sheep and goats known as the 'Barber's Pole Worm' that causes severe blood loss, microcytic anemia, and submandibular edema ('bottle jaw') without diarrhea is:",
+    "options": [
+      "Haemonchus contortus",
+      "Ostertagia ostertagi",
+      "Trichostrongylus axei",
+      "Cooperia curticei"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Haemonchus contortus possesses a lancet in its buccal cavity that lacerates abomasal microvessels, consuming up to 0.05 ml blood/worm/day. The female exhibits red blood-filled gut coiled around white ovaries ('barber's pole'). Infection causes marked hypoproteinemia, anemia, and bottle jaw with absence of diarrhea.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000020
+  },
+  {
+    "id": "vpa_exp_022",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "In cattle, 'Type II Ostertagiasis' occurs during late winter or spring and results from:",
+    "options": [
+      "Synchronous emergence of thousands of hypobiotic (arrested L4) larvae from gastric glands into the abomasal lumen",
+      "Rapid ingestion of massive numbers of infective L3 from pasture during monsoon",
+      "Ascending migration of larvae into bile ducts",
+      "Direct transplacental infection of fetuses"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In Type II ostertagiasis, thousands of dormant, hypobiotic L4 larvae that accumulated in the gastric pits synchronously emerge, destroying parietal cells, causing abomasal pH to rise from 2.0 to >7.0 (loss of pepsinogen activation), creating a pathognomonic 'Moroccan leather' / 'cobblestone' mucosa.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000021
+  },
+  {
+    "id": "vpa_exp_023",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The equine nematode whose migrating larvae (L4) cause severe verminous arteritis, thrombosis, and thromboembolic infarction / colic of the cranial mesenteric artery is:",
+    "options": [
+      "Strongylus vulgaris",
+      "Strongylus edentatus",
+      "Strongylus equinus",
+      "Parascaris equorum"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Strongylus vulgaris is the most pathogenic equine large strongyle; ingested L3 penetrate the intestinal wall, molt to L4, and migrate against arterial flow along the intima to the cranial mesenteric artery, causing thrombosis, aneurysm, and fatal thromboembolic colic.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000022
+  },
+  {
+    "id": "vpa_exp_024",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "In swine, 'Milk Spot Liver' lesions (multifocal fibrous scars on the hepatic capsule and parenchyma) are pathognomonic of migrating larvae of which ascarid?",
+    "options": [
+      "Ascaris suum",
+      "Oesophagostomum dentatum",
+      "Stephanurus dentatus",
+      "Hyostrongylus rubidus"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Ingested embryonated eggs of Ascaris suum hatch in the intestine; larvae burrow into mesenteric veins, reaching the liver via portal blood where eosinophilic infiltration and subsequent repair create milky-white fibrous capsular patches ('milk spots').",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000023
+  },
+  {
+    "id": "vpa_exp_025",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The canine ascarid Toxocara canis undergoes which predominant route of transmission that results in puppies being born with patent roundworm infections in their intestines?",
+    "options": [
+      "Transplacental (Prenatal) transmission of somatic arrested larvae across the placenta after Day 42 of pregnancy",
+      "Transovarial transmission",
+      "Percutaneous penetration of unbroken paw skin",
+      "Oral ingestion of infective adults in colostrum only"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In pregnant bitches, dormant somatic larvae mobilize during late gestation (around day 42) and cross the placenta to enter fetal liver/lungs; at birth, larvae migrate to the puppy's trachea and are swallowed into the intestine, maturing to patency by 2-3 weeks of age.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000024
+  },
+  {
+    "id": "vpa_exp_026",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "Visceral Larva Migrans (VLM) and Ocular Larva Migrans (OLM) in young children are serious zoonotic syndromes caused by accidental ingestion of embryonated eggs of:",
+    "options": [
+      "Toxocara canis (or Toxocara cati)",
+      "Ancylostoma caninum",
+      "Ascaris suum",
+      "Trichuris vulpis"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Humans are aberrant paratenic hosts for Toxocara canis; ingested eggs release larvae that cannot complete development into adults, wandering through human liver, lungs, brain (VLM) or retina (OLM), inciting eosinophilic granulomas.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000025
+  },
+  {
+    "id": "vpa_exp_027",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The canine hookworm Ancylostoma caninum causes severe, life-threatening hemorrhagic microcytic anemia in young puppies primarily transmitted through:",
+    "options": [
+      "Transmammary (Galactogenic) transmission in maternal colostrum and milk",
+      "Transovarial transmission",
+      "Direct fecal-oral ingestion of unembryonated eggs",
+      "Mosquito bites"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In nursing bitches, dormant somatic larvae activate and are shed directly into colostrum and milk during the first 3 weeks of lactation (transmammary route), leading to acute exsanguinating anemia in 2- to 3-week-old pups.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000026
+  },
+  {
+    "id": "vpa_exp_028",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "In horses, cutaneous habronemiasis ('Summer Sores' / Granular Dermatitis) presenting as non-healing granulomatous wound ulcerations with exuberant granulation tissue is caused by larvae of Habronema and Draschia megastoma deposited by:",
+    "options": [
+      "Biting flies and house flies (Musca domestica and Stomoxys calcitrans)",
+      "Culicoides midges",
+      "Tabanid horse flies",
+      "Mosquitoes"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Habronema microstoma, H. muscae, and Draschia megastoma larvae develop in Musca domestica and Stomoxys calcitrans; when flies feed on existing cutaneous wounds or eye medial canthi, deposited larvae fail to migrate to the stomach and incite intense eosinophilic granulation tissue ('summer sores').",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000027
+  },
+  {
+    "id": "vpa_exp_029",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The canine esophageal worm that induces granulomatous esophageal nodules that can neoplastic transform into fibrosarcoma or osteosarcoma, and causes aortic aneurysms, is:",
+    "options": [
+      "Spirocerca lupi",
+      "Dirofilaria immitis",
+      "Filaroides osleri",
+      "Angiostrongylus vasorum"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Spirocerca lupi larvae migrate through the thoracic aortic wall (causing scarring and aneurysms) into the distal esophagus, forming granulomatous nodules; in a significant percentage of cases, chronic inflammation induces malignant transformation into esophageal fibrosarcoma/osteosarcoma and secondary hypertrophic osteopathy (Marie's disease).",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000028
+  },
+  {
+    "id": "vpa_exp_030",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Helminthology (ICAR PG PYQ)",
+    "questionText": "The bovine lungworm Dictyocaulus viviparus, which causes verminous bronchitis ('Husk' / 'Hoose') in calves, utilizes which coprophilic fungus to propel its infective L3 larvae away from cattle dung pats onto surrounding pasture?",
+    "options": [
+      "Pilobolus kleinii (Pilobolus fungus)",
+      "Aspergillus flavus",
+      "Fusarium moniliforme",
+      "Candida albicans"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Dictyocaulus viviparus L3 larvae climb onto the sporangiophores of the dung fungus Pilobolus; when the fungal sporangium bursts towards light, larvae are forcefully discharged up to 3 meters across pasture, enhancing grazing transmission.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000029
+  },
+  {
+    "id": "vpa_exp_031",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "In bovine babesiosis ('Red Water' / Texas Cattle Fever), Babesia bigemina is differentiated morphologically in Giemsa-stained thin blood smears from Babesia bovis because Babesia bigemina is:",
+    "options": [
+      "A large piroplasm (>2.5 µm) that pairs at an acute angle inside the erythrocyte",
+      "A small piroplasm (<1.5 µm) pairing at an obtuse angle centrally",
+      "A signet-ring intra-erythrocytic schizont",
+      "A motile flagellated trypomastigote"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Babesia bigemina is a large piroplasm (approx. 4-5 µm long) typically seen as pairs of pear-shaped trophozoites joined at their pointed ends at an acute angle; Babesia bovis is small (approx. 1.5-2.0 µm) and pairs at an obtuse angle.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000030
+  },
+  {
+    "id": "vpa_exp_032",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "The primary biological vector responsible for transmitting Babesia bigemina and Anaplasma marginale to cattle in India is the one-host tick:",
+    "options": [
+      "Rhipicephalus (Boophilus) microplus",
+      "Hyalomma anatolicum",
+      "Rhipicephalus sanguineus",
+      "Argas persicus"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Rhipicephalus (Boophilus) microplus is an obligate one-host ixodid tick in tropical and subtropical climates, transmitting Babesia bigemina via transovarial transmission across generations and Anaplasma marginale via transstadial/mechanical routes.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000031
+  },
+  {
+    "id": "vpa_exp_033",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "Cerebral babesiosis in cattle, characterized by terminal hyperesthesia, paddling, convulsions, and cerebral capillary sludging / sequestration of parasitized RBCs, is uniquely caused by:",
+    "options": [
+      "Babesia bovis",
+      "Babesia bigemina",
+      "Theileria annulata",
+      "Trypanosoma theileri"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Babesia bovis induces surface modifications on infected erythrocytes that bind endothelial adhesion receptors (cytoadherence), leading to microvascular sludge, brain ischemia, and fatal cerebral babesiosis; brain squash smear is the diagnostic post-mortem method of choice.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000032
+  },
+  {
+    "id": "vpa_exp_034",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "In Tropical Bovine Theileriosis caused by Theileria annulata, the diagnostic hallmark observed in Giemsa-stained lymph node biopsy smears is the presence of:",
+    "options": [
+      "Koch's Blue Bodies (Macroschizonts within transformed mononuclear leukocytes)",
+      "Negri bodies in neural tissue",
+      "Leishman-Donovan bodies in neutrophils",
+      "Signet-ring trophozoites in plasma"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Theileria annulata sporozoites invade naive B cells and macrophages, transforming them into proliferative lymphoblastic cells harboring multi-nucleated multinucleate macroschizonts ('Koch's Blue Bodies'), which stain characteristic purplish-blue with Giemsa.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000033
+  },
+  {
+    "id": "vpa_exp_035",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "The principal vector transmitting Tropical Theileriosis (Theileria annulata) to cattle in India through transstadial (stage-to-stage) transmission is:",
+    "options": [
+      "Hyalomma anatolicum (Hyalomma anatolicum anatolicum)",
+      "Rhipicephalus microplus",
+      "Haemaphysalis bispinosa",
+      "Amblyomma variegatum"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Hyalomma anatolicum (a two- or three-host tick with striped legs and an ornate scutum) is the proven field vector of Theileria annulata in India; infection is acquired in the larval or nymphal stage and transmitted in the subsequent stage (transstadial).",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000034
+  },
+  {
+    "id": "vpa_exp_036",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "The protozoan parasite causing 'Surra' in camels, horses, cattle, and dogs in India is:",
+    "options": [
+      "Trypanosoma evansi",
+      "Trypanosoma brucei",
+      "Trypanosoma congolense",
+      "Trypanosoma equiperdum"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Trypanosoma evansi is the monomorphic salivarian trypanosome that causes Surra, causing recurrent paroxysmal fever, marked anemia, dependent edema, and death in domestic animals across Asia and Africa.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000035
+  },
+  {
+    "id": "vpa_exp_037",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "The transmission of Trypanosoma evansi (Surra) in livestock is primarily non-cyclical and mechanical, mediated by the interrupted bites of:",
+    "options": [
+      "Tabanus (Horse flies) and Stomoxys calcitrans (Stable flies)",
+      "Tsetse flies (Glossina species)",
+      "Culicoides midges",
+      "Black flies (Simulium)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Unlike African trypanosomes which develop cyclically in Glossina, Trypanosoma evansi is transmitted mechanically through contaminated mouthparts of tabanid flies (Tabanus, Haematopota) and Stomoxys when feeding is interrupted on an infected host and resumed on a susceptible host.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000036
+  },
+  {
+    "id": "vpa_exp_038",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "The venereally transmitted protozoan disease of equines known as 'Dourine' (Covering Sickness / Mal du Coit), characterized by edema of external genitalia and pathognomonic cutaneous 'Dollar Plaques' (Silver Dollar spots), is caused by:",
+    "options": [
+      "Trypanosoma equiperdum",
+      "Trypanosoma evansi",
+      "Babesia caballi",
+      "Theileria equi"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Trypanosoma equiperdum is transmitted directly during coitus without requiring an insect vector; it causes genital discharge, ulceration, paraplegia, and circular edematous urticarial cutaneous plaques ('silver dollar plaques').",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000037
+  },
+  {
+    "id": "vpa_exp_039",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "Bovine Anaplasmosis caused by Anaplasma marginale is clinically distinguished from Bovine Babesiosis (Babesia bigemina) by the:",
+    "options": [
+      "Absence of hemoglobinuria (No red water) in Anaplasmosis despite severe extravascular hemolytic anemia",
+      "Presence of bloody urine in Anaplasmosis only",
+      "Rapid cerebral signs in Anaplasmosis",
+      "Absence of fever in Babesiosis"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Anaplasma marginale causes extravascular phagocytosis of damaged erythrocytes in the spleen and liver (no intravascular lysis), so hemoglobin is converted to bilirubin (causing profound icterus and anemia WITHOUT hemoglobinuria); Babesia causes massive intravascular hemolysis WITH acute hemoglobinuria ('red water').",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000038
+  },
+  {
+    "id": "vpa_exp_040",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "Canine Visceral Leishmaniasis is transmitted biologically by the bite of phlebotomine sandflies, wherein the diagnostic intracellular stage residing within host macrophages is the:",
+    "options": [
+      "Amastigote (Leishman-Donovan body / LD body)",
+      "Promastigote",
+      "Epimastigote",
+      "Trypomastigote"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In vertebrate macrophage cytoplasm, Leishmania infantum/donovani exists as a non-motile, oval, aflagellated amastigote (LD body, 2-4 µm) containing a nucleus and distinct rod-like kinetoplast; sandflies harbor the flagellated promastigote form in their proboscis.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000039
+  },
+  {
+    "id": "vpa_exp_041",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "In poultry, acute cecal coccidiosis characterized by severe bloody droppings, high mortality, and coagulated blood cores distending both ceca in 3- to 6-week-old chicks is caused by:",
+    "options": [
+      "Eimeria tenella",
+      "Eimeria necatrix",
+      "Eimeria acervulina",
+      "Eimeria maxima"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Eimeria tenella develops deep in the lamina propria and submucosa of the ceca; its large 2nd-generation schizonts disrupt mucosal capillaries, causing massive sloughing, exsanguinating hemorrhage, and solid cecal blood cores.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000040
+  },
+  {
+    "id": "vpa_exp_042",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "The structural difference between a fully sporulated oocyst of the genus Eimeria versus the genus Isospora (Cystoisospora) is:",
+    "options": [
+      "Eimeria contains 4 sporocysts with 2 sporozoites each (Total 8 sporozoites); Isospora contains 2 sporocysts with 4 sporozoites each (Total 8 sporozoites)",
+      "Eimeria has 2 sporocysts; Isospora has 4 sporocysts",
+      "Eimeria has no sporocysts",
+      "Eimeria contains 16 sporozoites"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Both genera yield 8 sporozoites per sporulated oocyst, but Eimeria packages them into 4 sporocysts containing 2 sporozoites each (Formula: 1 x 4 x 2 = 8), while Isospora packages them into 2 sporocysts containing 4 sporozoites each (Formula: 1 x 2 x 4 = 8).",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000041
+  },
+  {
+    "id": "vpa_exp_043",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "Hepatic coccidiosis in domestic rabbits, characterized by multiple discrete yellowish-white nodular or cord-like lesions along the bile ducts and hepatomegaly, is caused by:",
+    "options": [
+      "Eimeria stiedae",
+      "Eimeria intestinalis",
+      "Eimeria perforans",
+      "Eimeria magna"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Eimeria stiedae sporozoites penetrate intestinal mesenteric venules/lymphatics and migrate to the liver, parasitizing the epithelial lining of intrahepatic bile ducts, inciting massive papillomatous hyperplasia and creamy white biliary nodules containing millions of oocysts.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000042
+  },
+  {
+    "id": "vpa_exp_044",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "Cryptosporidium parvum, an important cause of profuse watery diarrhea in neonatal calves (5-15 days of age) and immunodeficient humans, occupies which unique cellular niche in the enterocyte?",
+    "options": [
+      "Intracellular but Extracytoplasmic (located in the microvillar brush border enclosed in a parasitophorous vacuole)",
+      "Deep nuclear matrix",
+      "Free in the intestinal lumen",
+      "Inside the mitochondrial matrix"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Cryptosporidium organisms are intracellular yet extracytoplasmic: they displace the host cell's microvilli and reside at the apical cell surface enveloped by host cell membrane, visible as tiny round 4-5 µm bodies staining acid-fast bright red with modified Ziehl-Neelsen stain.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000043
+  },
+  {
+    "id": "vpa_exp_045",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "The definitive host of Toxoplasma gondii, which alone sheds unsporulated oocysts in feces that contaminate pastures, feed, and water, is the:",
+    "options": [
+      "Domestic Cat and other members of the Felidae family",
+      "Dog and canids",
+      "Sheep and goats",
+      "Cattle and equines"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The sexual cycle (gametogony and oocyst formation) of Toxoplasma gondii occurs exclusively in the intestinal epithelium of felids (cats); all other warm-blooded vertebrates act as intermediate hosts developing asexual tissue cysts (bradyzoites) and tachyzoites.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000044
+  },
+  {
+    "id": "vpa_exp_046",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "In pregnant ewes, abortion due to Toxoplasma gondii typically displays pathognomonic gross placental lesions described as:",
+    "options": [
+      "Bright red cotyledons studded with small, discrete, white focal calcified necrotic plaques ('Strawberry jam' / 'Frosted' cotyledons)",
+      "Uniform diffuse leathery brownish cotyledons",
+      "Hydatid cysts on the placenta",
+      "Complete absence of gross lesions"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Toxoplasmosis in sheep causes focal necrosis and calcification of placental cotyledons, which appear hyperemic and peppered with tiny white necrotic foci against bright red maternal caruncles ('strawberry jam' or 'frosted' appearance), while the intercotyledonary chorioallantois remains normal.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000045
+  },
+  {
+    "id": "vpa_exp_047",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "Neospora caninum is a major cause of mid-to-late gestation (5th to 7th month) abortion storms in dairy cattle herds globally. The definitive host that sheds oocysts in its feces is the:",
+    "options": [
+      "Dog (Canis familiaris)",
+      "Cat (Felis catus)",
+      "Cow (Bos taurus)",
+      "Pigeon"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The domestic dog (along with wild canids such as coyotes) serves as the definitive host for Neospora caninum, shedding infectious oocysts that contaminate feed; cattle can also maintain the infection across generations through highly efficient endogenous transplacental transmission.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000046
+  },
+  {
+    "id": "vpa_exp_048",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "The poultry disease known as 'Blackhead' or 'Infectious Enterohepatitis' in turkeys, characterized by cecal ulceration and pathognomonic circular depressed 'target-like' / saucer-shaped necrotic liver lesions, is caused by:",
+    "options": [
+      "Histomonas meleagridis",
+      "Trichomonas gallinae",
+      "Eimeria meleagrimitis",
+      "Pasteurella multocida"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Histomonas meleagridis is a flagellated protozoan causing fatal enterohepatitis in turkeys; it is transmitted via the eggs of the cecal nematode Heterakis gallinarum, producing circumscribed sunken necrotic hepatic rings with raised borders.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000047
+  },
+  {
+    "id": "vpa_exp_049",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "Bovine Venereal Trichomoniasis, causing post-coital pyometra, early embryonic death, and repeat breeding in cows, is caused by Tritrichomonas foetus, which morphologically exhibits:",
+    "options": [
+      "Three anterior flagella, one trailing recurrent flagellum with an undulating membrane, and an axostyle",
+      "Eight flagella and two nuclei",
+      "No flagella and amoeboid pseudopodia",
+      "Two flagella and an apical complex"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Tritrichomonas foetus is a pyriform flagellate (10-25 µm long) possessing 3 anterior flagella, an undulating membrane along its dorsal side with a posterior trailing flagellum, and a prominent rigid rod (axostyle) projecting from its caudal end.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000048
+  },
+  {
+    "id": "vpa_exp_050",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Protozoology (ICAR PG PYQ)",
+    "questionText": "Equine Protozoal Myeloencephalitis (EPM), causing asymmetric ataxia, focal muscle atrophy, and cranial nerve deficits in horses, is caused by the apicomplexan parasite:",
+    "options": [
+      "Sarcocystis neurona",
+      "Theileria equi",
+      "Babesia caballi",
+      "Trypanosoma equiperdum"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Sarcocystis neurona has the Virginia opossum (Didelphis virginiana) as its definitive host; horses are dead-end aberrant hosts that ingest sporocysts in feed/water, where schizonts and merozoites invade the spinal cord and brainstem parenchyma.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000049
+  },
+  {
+    "id": "vpa_exp_051",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Entomology (ICAR PG PYQ)",
+    "questionText": "The 'Fowl Tick' or 'Blue Bug' (Argas persicus) is a soft tick (Argasidae) that hides in cracks and crevices during daylight, feeds nocturnally on birds, and is the biological vector of:",
+    "options": [
+      "Borrelia anserina (Fowl Spirochaetosis) and Aegyptianella pullorum",
+      "Newcastle Disease Virus",
+      "Infectious Bursal Disease",
+      "Avian Leucosis"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Argas persicus lacks a dorsal scutum and its mouthparts are located ventrally; nocturnal blood-feeding causes severe anemia and tick paralysis, and it is the notorious vector of Borrelia anserina (spirochaetosis) and the piroplasm Aegyptianella pullorum.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000050
+  },
+  {
+    "id": "vpa_exp_052",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Entomology (ICAR PG PYQ)",
+    "questionText": "In veterinary parasitology, Sarcoptic Mange (Sarcoptes scabiei) is distinguished morphologically from Psoroptic Mange (Psoroptes ovis) under a microscope by:",
+    "options": [
+      "Sarcoptes is a burrowing mite with short legs and long, unjointed pedicels (stalks) bearing suckers",
+      "Sarcoptes has long three-jointed pedicels with trumpet suckers",
+      "Sarcoptes has no legs",
+      "Sarcoptes is a visible macroparasite"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Sarcoptes scabiei (burrowing mite of skin) has round bodies, dorsal triangular spines, and unjointed pretarsi/pedicels bearing suckers; Psoroptes ovis (non-burrowing scab mite) has pointed mouthparts and long, three-segmented pretarsi with trumpet-shaped suckers.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000051
+  },
+  {
+    "id": "vpa_exp_053",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Entomology (ICAR PG PYQ)",
+    "questionText": "The unique microscopic morphology of Demodex canis, which resides in the hair follicles and sebaceous glands of dogs to cause localized or generalized demodicosis ('Red Mange'), is described as:",
+    "options": [
+      "Elongated, cigar-shaped or alligator-shaped with 4 pairs of short stumpy anterior legs and a striated abdomen",
+      "Globular, tortoise-like with long dorsal spines",
+      "Dorsally flattened with prominent lateral combs",
+      "Segmented worm-like without legs"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Demodex canis is an obligate follicle mite possessing an elongated, tapering, cigar-like body with four pairs of short stumpy legs clustered on the podosoma and a transversely striated opisthosoma (abdomen), reproducing deep within hair follicles.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000052
+  },
+  {
+    "id": "vpa_exp_054",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Entomology (ICAR PG PYQ)",
+    "questionText": "The 'Red Mite' of poultry (Dermanyssus gallinae) is clinically differentiated from the 'Northern Fowl Mite' (Ornithonyssus sylviarum) because Dermanyssus gallinae:",
+    "options": [
+      "Feeds on the bird only at night and hides in crevices/roosts of the poultry house during the day",
+      "Lives permanently on the bird's feathers day and night",
+      "Burrows beneath the scales of the shanks and feet",
+      "Attacks only the feather quill base"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Dermanyssus gallinae spends the daylight hours off the host hiding in cage crevices, emerging at night to engorge on roosting birds (turning bright red to grey-black), whereas Ornithonyssus sylviarum completes its entire life cycle continuously on the feathers of the host.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000053
+  },
+  {
+    "id": "vpa_exp_055",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Entomology (ICAR PG PYQ)",
+    "questionText": "'Scaly Leg' in domestic fowls, characterized by thick crusty proliferation, lifting of shank scales, and lameness, is caused by the burrowing mite:",
+    "options": [
+      "Knemidocoptes mutans",
+      "Knemidocoptes gallinae",
+      "Dermanyssus gallinae",
+      "Laminosioptes cysticola"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Knemidocoptes mutans burrows under the epidermal scales of the unfeathered lower legs and feet of chickens and turkeys, causing vesicular hyperkeratosis, crust formation ('scaly leg'), and deformed feet; Knemidocoptes gallinae causes depluming itch.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000054
+  },
+  {
+    "id": "vpa_exp_056",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Entomology (ICAR PG PYQ)",
+    "questionText": "The 'Sheep Nasal Bot Fly' (Oestrus ovis) is larviparous, depositing live larvae (L1) around the nostrils of sheep; these larvae migrate to which anatomical site to develop into mature dark-banded bots, causing catarrhal sinusitis and 'False Gid'?",
+    "options": [
+      "The frontal sinuses and nasal cavities",
+      "The abomasal mucosa",
+      "The alveoli of the lungs",
+      "The subcutaneous tissues of the back"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Oestrus ovis female flies dart at sheep's muzzles, shooting living L1 into the nostrils; larvae crawl through nasal turbinates into the frontal and maxillary sinuses, irritating the mucosa, causing mucopurulent discharge and head tossing ('false gid').",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000055
+  },
+  {
+    "id": "vpa_exp_057",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Entomology (ICAR PG PYQ)",
+    "questionText": "In horses, larvae of the Stomach Bot Fly (Gasterophilus intestinalis) attach characteristically by strong mouth hooks to which region of the equine digestive tract?",
+    "options": [
+      "The non-glandular stratified squamous mucosa (margo plicatus / pars cardiaca) of the stomach",
+      "The glandular abomasum",
+      "The terminal cecum",
+      "The small colon"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Gasterophilus intestinalis females glue eggs to hair of the horse's forelegs; larvae are licked into the mouth, burrow through the tongue, and migrate to attach in dense clusters to the non-glandular squamo-columnar mucosa (margo plicatus and pars cardiaca) of the stomach.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000056
+  },
+  {
+    "id": "vpa_exp_058",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Entomology (ICAR PG PYQ)",
+    "questionText": "In cattle, the larvae of the 'Ox Warble Fly' (Hypoderma bovis and Hypoderma lineatum) migrate through internal organs before emerging to form painful subcutaneous cysts ('warbles') with breathing pores along the animal's back. During migration, Hypoderma bovis characteristically travels through the:",
+    "options": [
+      "Epidural fat of the spinal canal",
+      "Submucosa of the esophagus",
+      "Peritoneal cavity",
+      "Pulmonary parenchyma"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "First-stage larvae of Hypoderma lineatum migrate through the connective tissue of the esophageal submucosa, whereas Hypoderma bovis larvae migrate characteristically through the epidural fat of the lumbar spinal canal before reaching the dorsal back skin.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000057
+  },
+  {
+    "id": "vpa_exp_059",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Entomology (ICAR PG PYQ)",
+    "questionText": "Biting midges of the genus Culicoides are tiny crepuscular dipterans that serve as the principal biological vectors of which major veterinary viral diseases?",
+    "options": [
+      "Bluetongue Virus (BTV) and African Horse Sickness Virus (AHSV)",
+      "Foot-and-Mouth Disease (FMD) and Swine Fever",
+      "Rinderpest and Peste des Petits Ruminants",
+      "Rabies and Canine Parvovirus"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Culicoides species (e.g., C. oxystoma, C. imicola) are the obligate biological vectors of orbiviruses causing Bluetongue in sheep/cattle and African Horse Sickness in equines, as well as Bovine Ephemeral Fever and filarial Onchocerca nematodes.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000058
+  },
+  {
+    "id": "vpa_exp_060",
+    "domain": "veterinary_science",
+    "year": "2nd_year",
+    "subjectId": "vpa",
+    "topic": "Veterinary Entomology (ICAR PG PYQ)",
+    "questionText": "Lice of the suborder Anoplura (Sucking Lice) are distinguished from lice of the suborder Mallophaga (Biting / Chewing Lice) by possessing:",
+    "options": [
+      "A pointed head that is distinctly narrower than the thorax and piercing-sucking mouthparts for blood feeding",
+      "A broad head that is wider than the thorax and chewing mandibles",
+      "Wings and halteres",
+      "Four pairs of legs and no antennae"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Anoplura (e.g., Haematopinus suis, Linognathus vituli) have narrow heads narrower than the prothorax, feed exclusively on host blood, and parasitize only placental mammals; Mallophaga (e.g., Damalinia/Bovicola, Menacanthus) have broad heads wider than the thorax and chew epidermal debris and feathers.",
+    "difficulty": "Hard",
+    "tags": [
+      "Parasitology",
+      "High-Yield",
+      "ICAR PG PYQ",
+      "Authentic PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1774700000059
+  }
+]
