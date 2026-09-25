@@ -1,0 +1,959 @@
+[
+  {
+    "id": "van_q_020",
+    "sub": "van",
+    "q": "The 'cranial cruciate ligament' in the canine stifle prevents:",
+    "c": "Cranial translation of tibia relative to femur",
+    "d": [
+      "Internal rotation of patella (situated within the regional neurovascular fascia and muscular compartment)",
+      "Caudal translation of tibia relative to femur",
+      "Hyperextension of hip (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_q_030",
+    "sub": "van",
+    "q": "The 'wolf tooth' in the horse is an anatomical term for the:",
+    "c": "Vestigial first upper premolar (PM1)",
+    "d": [
+      "Canine tooth in stallion (forming key topographical anatomical landmarks of the visceral region)",
+      "Third lower molar (forming key topographical anatomical landmarks of the visceral region)",
+      "First lower incisor (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_q_031",
+    "sub": "van",
+    "q": "The 'Achilles tendon' (common calcanean tendon) is primarily formed by which two major muscles?",
+    "c": "Gastrocnemius and superficial digital flexor",
+    "d": [
+      "Biceps femoris and semimembranosus",
+      "Tibialis cranialis and peroneus longus",
+      "Gracilis and pectineus (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_q_042",
+    "sub": "van",
+    "q": "The portal vein is formed primarily by the union of which two major veins?",
+    "c": "Cranial mesenteric vein and Splenic vein",
+    "d": [
+      "Renal vein and Iliac vein (situated within the regional neurovascular fascia and muscular compartment)",
+      "Azygos vein and Vena cava (forming key topographical anatomical landmarks of the visceral region)",
+      "Jugular vein and Cephalic vein"
+    ]
+  },
+  {
+    "id": "van_q_050",
+    "sub": "van",
+    "q": "The 'ansa cervicalis' is a neural loop in the neck formed by connections between:",
+    "c": "C1/C2 and the hypoglossal nerve (CN XII)",
+    "d": [
+      "Vagus and glossopharyngeal (situated within the regional neurovascular fascia and muscular compartment)",
+      "Phrenic and accessory (forming key topographical anatomical landmarks of the visceral region)",
+      "Facial and trigeminal (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_q_051",
+    "sub": "van",
+    "q": "The external jugular vein in the horse is formed at the angle of the jaw by the confluence of the:",
+    "c": "Maxillary vein and linguofacial vein",
+    "d": [
+      "Internal jugular and subclavian",
+      "Facial and lingual veins (providing collateral arterial distribution and somatic motor innervation)",
+      "Cephalic vein and brachial vein"
+    ]
+  },
+  {
+    "id": "van_q_058",
+    "sub": "van",
+    "q": "The 'internal carotid artery' in the adult ox is:",
+    "c": "Functionally absent (regressed) extracranially",
+    "d": [
+      "The sole blood supply to the brain",
+      "A branch of the vertebral artery (providing collateral arterial distribution and somatic motor innervation)",
+      "Twice the size of the maxillary artery"
+    ]
+  },
+  {
+    "id": "van_q_067",
+    "sub": "van",
+    "q": "The bovine kidney is characterized by:",
+    "c": "Multilobulated external surface (15-25 lobes)",
+    "d": [
+      "Smooth unipapillary structure (forming key topographical anatomical landmarks of the visceral region)",
+      "Presence of renal pelvis (situated within the regional neurovascular fascia and muscular compartment)",
+      "Single common papilla (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_q_078",
+    "sub": "van",
+    "q": "The 'syrinx' (voice box) of birds is located at the:",
+    "c": "Bifurcation of the trachea into primary bronchi",
+    "d": [
+      "Base of tongue (situated within the regional neurovascular fascia and muscular compartment)",
+      "Rostral end of larynx (providing collateral arterial distribution and somatic motor innervation)",
+      "Within the lung parenchyma (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_q_084",
+    "sub": "van",
+    "q": "The cervix of the cow is characterized by which internal mucosal feature?",
+    "c": "3 to 4 circular/transverse mucosal rings (annular folds)",
+    "d": [
+      "Smooth longitudinal folds (forming key topographical anatomical landmarks of the visceral region)",
+      "Complete absence of folds (situated within the regional neurovascular fascia and muscular compartment)",
+      "Interdigitating mucosal pads (pulvini cervicales)"
+    ]
+  },
+  {
+    "id": "van_q_098",
+    "sub": "van",
+    "q": "The 'white pulp' of the spleen histologically consists of:",
+    "c": "Periarteriolar lymphoid sheaths (PALS) and splenic nodules",
+    "d": [
+      "Venous sinusoids and Billroth cords (forming key topographical anatomical landmarks of the visceral region)",
+      "Red blood cell reservoirs (forming key topographical anatomical landmarks of the visceral region)",
+      "Trabeculae exclusively (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_q_118",
+    "sub": "van",
+    "q": "The 'pronephros' represents which stage of vertebrate kidney development?",
+    "c": "Initial non-functional transient kidney",
+    "d": [
+      "The definitive functional adult kidney",
+      "The adrenal precursor (forming key topographical anatomical landmarks of the visceral region)",
+      "The embryonic excretory organ of birds"
+    ]
+  },
+  {
+    "id": "van_exp_004",
+    "sub": "van",
+    "q": "The Atlas (1st cervical vertebra) of the dog differs from that of the horse and ox because its modified transverse processes (wings of atlas) feature:",
+    "c": "An 'Alar Notch' (incisura alaris) on its cranial border instead of an alar foramen",
+    "d": [
+      "A high dorsal spinous process (forming key topographical anatomical landmarks of the visceral region)",
+      "An absence of transverse foramina (situated within the regional neurovascular fascia and muscular compartment)",
+      "A complete alar foramen (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_005",
+    "sub": "van",
+    "q": "The dens (odontoid process) of the Axis (2nd cervical vertebra) in cattle and horses exhibits which comparative anatomical shape?",
+    "c": "Spout-shaped (semicylindrical, concave dorsally)",
+    "d": [
+      "Cylindrical (peg-like / conical) (forming key topographical anatomical landmarks of the visceral region)",
+      "Flat and square (situated within the regional neurovascular fascia and muscular compartment)",
+      "Completely bifurcated (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_007",
+    "sub": "van",
+    "q": "The 'Anticlinal Vertebra' (the thoracic vertebra whose spinous process is oriented perpendicular / vertical to the long axis of the vertebral column) is:",
+    "c": "T11 in the Dog (T13 in Ox, T16 in Horse)",
+    "d": [
+      "T7 in all species (providing collateral arterial distribution and somatic motor innervation)",
+      "T1 in the Dog (situated within the regional neurovascular fascia and muscular compartment)",
+      "L1 in all species (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_008",
+    "sub": "van",
+    "q": "The Sacrum is formed by the complete fusion of how many sacral vertebrae in the Horse and Ox versus the Dog?",
+    "c": "5 in the Horse and Ox, 3 in the Dog (and 4 in the Pig)",
+    "d": [
+      "3 in all species (forming key topographical anatomical landmarks of the visceral region)",
+      "7 in the Horse and 5 in the Ox (forming key topographical anatomical landmarks of the visceral region)",
+      "4 in the Dog and 3 in the Horse (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_010",
+    "sub": "van",
+    "q": "The 'Pygostyle' of the avian skeleton is a plowshare-shaped bone formed by the fusion of the:",
+    "c": "Terminal 4 to 6 caudal (coccygeal) vertebrae, supporting the tail rectrices",
+    "d": [
+      "Pelvic bones (providing collateral arterial distribution and somatic motor innervation)",
+      "Lumbar vertebrae (forming key topographical anatomical landmarks of the visceral region)",
+      "Cervical vertebrae (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_011",
+    "sub": "van",
+    "q": "The Scapula of the horse differs from that of the ox, sheep, and dog because the horse scapula:",
+    "c": "Lacks an Acromion process and possesses a prominent Tuber Spinae at the middle of the scapular spine",
+    "d": [
+      "Has a massive hook-like acromion (situated within the regional neurovascular fascia and muscular compartment)",
+      "Has a supraspinous fossa twice as large as the infraspinous fossa (providing collateral arterial distribution and somatic motor innervation)",
+      "Possesses a clavicle (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_012",
+    "sub": "van",
+    "q": "In the domestic cat, the distal end of the scapular spine features which unique projection extending caudally over the infraspinous fossa?",
+    "c": "Suprahamate process (processus suprahamatus)",
+    "d": [
+      "Glenoid notch (situated within the regional neurovascular fascia and muscular compartment)",
+      "Coracoid process (forming key topographical anatomical landmarks of the visceral region)",
+      "Tuber spinae (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_013",
+    "sub": "van",
+    "q": "In the equine humerus, the bicipital groove (sulcus intertubercularis) on the cranial aspect of the proximal extremity is unique because it is:",
+    "c": "Divided into two distinct channels by a central 'intermediate ridge' (sagittal ridge)",
+    "d": [
+      "Enclosed by a bony bridge into a foramen (forming key topographical anatomical landmarks of the visceral region)",
+      "Completely absent (forming key topographical anatomical landmarks of the visceral region)",
+      "A single undivided shallow groove as in the ox and dog (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_016",
+    "sub": "van",
+    "q": "The 'Musculospiral Groove' (sulcus musculi brachialis) is a prominent spiral depression winding laterally around the shaft of the:",
+    "c": "Humerus, accommodating the brachialis muscle",
+    "d": [
+      "Femur (forming key topographical anatomical landmarks of the visceral region)",
+      "Radius (forming key topographical anatomical landmarks of the visceral region)",
+      "Tibia (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_017",
+    "sub": "van",
+    "q": "In the antebrachium of the Ox, the Radius and Ulna are characterized by having:",
+    "c": "Two distinct interosseous spaces (proximal and distal interosseous spaces) with complete fusion along their shafts in adults",
+    "d": [
+      "A single proximal interosseous space with a free, mobile ulna (situated within the regional neurovascular fascia and muscular compartment)",
+      "Absence of the olecranon process (forming key topographical anatomical landmarks of the visceral region)",
+      "Complete freedom of pronation and supination (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_018",
+    "sub": "van",
+    "q": "The 'Accessory Carpal Bone' (Os carpi accessorium) is projected palmarward, providing insertion to the tendon of the:",
+    "c": "Flexor carpi ulnaris muscle (and abductor digiti quinti)",
+    "d": [
+      "Extensor carpi radialis (providing collateral arterial distribution and somatic motor innervation)",
+      "Common digital extensor (providing collateral arterial distribution and somatic motor innervation)",
+      "Biceps brachii (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_021",
+    "sub": "van",
+    "q": "The 'Psoas Tubercle' (tuberculum psoas minus), providing insertion for the psoas minor muscle, is located on the ventral surface of the shaft of the:",
+    "c": "Ilium (along the iliopectineal line)",
+    "d": [
+      "Ischium (providing collateral arterial distribution and somatic motor innervation)",
+      "Pubis (providing collateral arterial distribution and somatic motor innervation)",
+      "Sacrum (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_024",
+    "sub": "van",
+    "q": "The 'Extensor Fossa' (fossa extensoria), a distinct depression on the distal extremity of the femur providing origin to the peroneus tertius and long digital extensor muscles, is located on the:",
+    "c": "Lateral epicondyle / lateral condyle of the femur",
+    "d": [
+      "Medial epicondyle (providing collateral arterial distribution and somatic motor innervation)",
+      "Trochlea (providing collateral arterial distribution and somatic motor innervation)",
+      "Greater trochanter (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_025",
+    "sub": "van",
+    "q": "In cattle, the distal extremity of the fibula persists throughout adult life as an independent, separate tarsal bone termed the:",
+    "c": "Os malleolare (Malleolar bone / external malleolus)",
+    "d": [
+      "Os cordis (situated within the regional neurovascular fascia and muscular compartment)",
+      "Patella (providing collateral arterial distribution and somatic motor innervation)",
+      "Os penis (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_027",
+    "sub": "van",
+    "q": "Heterotopic (visceral / splanchnic) bones are osseous elements that develop within soft tissues or organs. The 'Os Cordis' is normally present in the heart of:",
+    "c": "Cattle (Bovine, typically two bones in the aortic fibrous ring)",
+    "d": [
+      "Dogs (forming key topographical anatomical landmarks of the visceral region)",
+      "Horses (forming key topographical anatomical landmarks of the visceral region)",
+      "Fowl (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_031",
+    "sub": "van",
+    "q": "The 'Accessory Ligament of the Femur' (Ligamentum accessorium ossis femoris) is an intra-articular ligament of the hip joint uniquely present in the:",
+    "c": "Horse (Equine, originating from the prepubic tendon and preventing abduction)",
+    "d": [
+      "Pig (Porcine) (providing collateral arterial distribution and somatic motor innervation)",
+      "Dog (Canine) (forming key topographical anatomical landmarks of the visceral region)",
+      "Ox (Bovine) (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_033",
+    "sub": "van",
+    "q": "The 'Patellar Locking Mechanism' in the horse, which enables equines to rest while standing with minimal muscular energy (part of the stay apparatus), operates by hooking the medial patellar ligament and patellar fibrocartilage over the:",
+    "c": "Medial ridge of the femoral trochlea",
+    "d": [
+      "Intercondyloid fossa (providing collateral arterial distribution and somatic motor innervation)",
+      "Extensor fossa (situated within the regional neurovascular fascia and muscular compartment)",
+      "Lateral ridge of the femoral trochlea"
+    ]
+  },
+  {
+    "id": "van_exp_036",
+    "sub": "van",
+    "q": "The Atlanto-Axial Joint (articulatio atlantoaxialis) between the first and second cervical vertebrae is classified structurally and functionally as a:",
+    "c": "Pivot joint (Trochoid joint) permitting axial rotation of the head",
+    "d": [
+      "Suture (situated within the regional neurovascular fascia and muscular compartment)",
+      "Saddle joint (providing collateral arterial distribution and somatic motor innervation)",
+      "Ball-and-socket joint (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_037",
+    "sub": "van",
+    "q": "The 'Nuchal Ligament' (Ligamentum nuchae), which assists in supporting the heavy weight of the head, consists of a Funicular part (cord) and a Lamellar part (sheet) in the Horse and Ox, but in the Dog it:",
+    "c": "Consists solely of a Funicular part extending from the axis to the first thoracic spine, and lacks a lamellar part entirely",
+    "d": [
+      "Is completely absent (forming key topographical anatomical landmarks of the visceral region)",
+      "Is identical to the ox (providing collateral arterial distribution and somatic motor innervation)",
+      "Has only a lamellar part (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_040",
+    "sub": "van",
+    "q": "The 'Check Ligaments' (accessory ligaments) of the equine distal limb include the Superior Check Ligament and Inferior Check Ligament, which reinforce which respective flexor tendons?",
+    "c": "Superior reinforces Superficial Digital Flexor tendon; Inferior reinforces Deep Digital Flexor tendon",
+    "d": [
+      "Superior reinforces DDFT; Inferior reinforces SDFT (forming key topographical anatomical landmarks of the visceral region)",
+      "Both reinforce Extensor carpi radialis (forming key topographical anatomical landmarks of the visceral region)",
+      "Both reinforce Common digital extensor (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_041",
+    "sub": "van",
+    "q": "In the ruminant stomach, the mucous membrane lining the interior of the Reticulum is arranged in a pathognomonic pattern resembling a:",
+    "c": "Honeycomb (polygonal cells bounded by serrated mucosal ridges)",
+    "d": [
+      "Book with multiple leaf-like pages (providing collateral arterial distribution and somatic motor innervation)",
+      "Smooth glistening velvet surface with no folds",
+      "Carpet of shaggy conical papillae (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_042",
+    "sub": "van",
+    "q": "The 'Reticular Groove' (esophageal groove / sulcus reticuli) in suckling ruminants connects which two anatomical regions, allowing swallowed milk to bypass the rumen and reticulum?",
+    "c": "Cardia to the Reticulo-omasal orifice",
+    "d": [
+      "Pylorus to the duodenum (forming key topographical anatomical landmarks of the visceral region)",
+      "Dorsal ruminal sac to the ventral sac",
+      "Omasum to the abomasum (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_050",
+    "sub": "van",
+    "q": "The liver of the domestic Pig is readily recognized both grossly and microscopically by which distinctive histological feature?",
+    "c": "Prominent interlobular connective tissue septa surrounding each hepatic lobule, giving the surface a 'morocco-leather' pattern",
+    "d": [
+      "Total absence of lobulation (providing collateral arterial distribution and somatic motor innervation)",
+      "Presence of central veins with no sinusoidal lining (situated within the regional neurovascular fascia and muscular compartment)",
+      "Complete lack of portal triads (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_051",
+    "sub": "van",
+    "q": "The 'Spiral Colon' (colon ascendens) of ruminants is anatomically arranged in flat concentric loops comprising:",
+    "c": "Centripetal coils (running inwards towards the central flexure) and Centrifugal coils (running outwards from the central flexure)",
+    "d": [
+      "Haustrated sacculations with 4 taeniae (forming key topographical anatomical landmarks of the visceral region)",
+      "A simple U-shaped loop (providing collateral arterial distribution and somatic motor innervation)",
+      "A descending spiral without a central flexure (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_053",
+    "sub": "van",
+    "q": "In the domestic Horse, the ascending Great Colon is divided into four consecutive anatomical segments that form two U-shaped loops connected by which narrow, non-sacculated flexure that is a frequent site of impaction colic?",
+    "c": "Pelvic Flexure (between the Left Ventral Colon and Left Dorsal Colon)",
+    "d": [
+      "Diaphragmatic flexure (situated within the regional neurovascular fascia and muscular compartment)",
+      "Sternal flexure (situated within the regional neurovascular fascia and muscular compartment)",
+      "Duodenojejunal flexure (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_056",
+    "sub": "van",
+    "q": "In the canine carnassial (sectorial) tooth apparatus specialized for shearing flesh, the upper and lower carnassial teeth are which specific teeth?",
+    "c": "Upper 4th Premolar (PM4) and Lower 1st Molar (M1)",
+    "d": [
+      "Upper 3rd Premolar and Lower 3rd Molar",
+      "Upper Canine and Lower Canine (providing collateral arterial distribution and somatic motor innervation)",
+      "Upper 1st Molar and Lower 4th Premolar"
+    ]
+  },
+  {
+    "id": "van_exp_057",
+    "sub": "van",
+    "q": "The permanent dental formula of the adult domestic Ox (Bovine) is correctly written as:",
+    "c": "2 x [ I 0/4, C 0/0, PM 3/3, M 3/3 ] = 32 teeth (with the 4th lower incisiform tooth being a modified canine)",
+    "d": [
+      "2 x [ I 3/3, C 1/1, PM 4/4, M 2/3 ] = 42 (forming key topographical anatomical landmarks of the visceral region)",
+      "2 x [ I 3/3, C 1/1, PM 3/3, M 3/3 ] = 40 (forming key topographical anatomical landmarks of the visceral region)",
+      "2 x [ I 1/1, C 0/0, PM 1/1, M 3/3 ] = 16 (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_062",
+    "sub": "van",
+    "q": "The Tracheal Rings (cartilagines tracheales) of domestic mammals are incomplete dorsally, where the gap is bridged by the smooth Trachealis Muscle. In the Dog and Cat, the trachealis muscle is unique because it is positioned:",
+    "c": "On the EXTERNAL (outer) surface of the tracheal cartilages",
+    "d": [
+      "On the INTERNAL (inner/luminal) surface of the tracheal cartilages as in Ox and Horse",
+      "Within the cartilage rings (providing collateral arterial distribution and somatic motor innervation)",
+      "Completely absent (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_064",
+    "sub": "van",
+    "q": "In the horse, the lateral laryngeal ventricle (sacculus laryngis of Morgagni) is a blind mucous pouch located between which two laryngeal folds?",
+    "c": "Ventricular fold (vestibular fold / false vocal cord) and Vocal fold (true vocal cord)",
+    "d": [
+      "Epiglottis and arytenoid (situated within the regional neurovascular fascia and muscular compartment)",
+      "Cricoid and thyroid (forming key topographical anatomical landmarks of the visceral region)",
+      "Tracheal ring and cricoid (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_067",
+    "sub": "van",
+    "q": "The Right Lung of the domestic Horse is unique among ungulate lungs because it:",
+    "c": "Lacks external interlobar fissures, so the cranial and middle lobes are completely fused into a single lobe",
+    "d": [
+      "Has 6 distinct lobes separated by deep fissures (situated within the regional neurovascular fascia and muscular compartment)",
+      "Possesses a tracheal bronchus (situated within the regional neurovascular fascia and muscular compartment)",
+      "Is smaller than the left lung (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_068",
+    "sub": "van",
+    "q": "The 'Cupula Pleurae' (cervical dome of the pleura) extends cranially beyond the first pair of ribs into the neck region, and is clinically vulnerable to traumatic pneumothorax on the:",
+    "c": "Right side in the Ox, and both sides in the Dog and Horse",
+    "d": [
+      "Neither side (it never extends beyond the 1st rib)",
+      "Left side only in all animals (forming key topographical anatomical landmarks of the visceral region)",
+      "Dorsal aspect of T3 (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_069",
+    "sub": "van",
+    "q": "The Guttural Pouches (diverticula tubae auditivae) of the domestic Horse are large, bilateral, mucosal-lined diverticula of the:",
+    "c": "Eustachian (auditory) tubes, each having a volume of approximately 300 to 500 mL",
+    "d": [
+      "Esophagus (forming key topographical anatomical landmarks of the visceral region)",
+      "Trachea (Cartilaginous tracheobronchial conduit lined by pseudostratified ciliated epithelium)",
+      "Sphenoid sinus (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_071",
+    "sub": "van",
+    "q": "The Kidney of the adult domestic Ox (Bovine) is anatomically unique among domestic mammals because it is:",
+    "c": "Externally Lobated (multilobed) with 15 to 25 distinct superficial lobes, and lacks a renal pelvis",
+    "d": [
+      "Heart-shaped (forming key topographical anatomical landmarks of the visceral region)",
+      "Smooth and unipyramidal with a renal pelvis (situated within the regional neurovascular fascia and muscular compartment)",
+      "Smooth multipyramidal (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_072",
+    "sub": "van",
+    "q": "The Right Kidney of the domestic Horse is pathognomonic on gross inspection for being:",
+    "c": "Heart-shaped (resembling a playing card spade), while the left kidney is bean-shaped",
+    "d": [
+      "Multilobed with 20 lobes (forming key topographical anatomical landmarks of the visceral region)",
+      "Puckered like a walnut (situated within the regional neurovascular fascia and muscular compartment)",
+      "Cylindrical (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_075",
+    "sub": "van",
+    "q": "The fibroelastic Penis of the Bull, Ram, and Boar possesses an S-shaped curvature that straightens during erection to extend the penis, known as the:",
+    "c": "Sigmoid Flexure (Flexura sigmoidea)",
+    "d": [
+      "Bulbus glandis (providing collateral arterial distribution and somatic motor innervation)",
+      "Corpus spongiosum (situated within the regional neurovascular fascia and muscular compartment)",
+      "Os penis (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_076",
+    "sub": "van",
+    "q": "The glans penis of the Ram (and Buck) is characterized by an exceptionally long, slender, worm-like process projecting 3 to 4 cm beyond the glans, known as the:",
+    "c": "Processus urethrae (Vermiform appendage)",
+    "d": [
+      "Bulbus glandis (providing collateral arterial distribution and somatic motor innervation)",
+      "Corona glandis (situated within the regional neurovascular fascia and muscular compartment)",
+      "Collum glandis (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_077",
+    "sub": "van",
+    "q": "The glans penis of the adult Boar (Sus scrofa) is pathognomonic for having a:",
+    "c": "Spiral, corkscrew-shaped terminal twist that locks into the interdigitating pulvini cervicales of the sow's cervix",
+    "d": [
+      "Massive mushroom-shaped flare (forming key topographical anatomical landmarks of the visceral region)",
+      "Long vermiform appendage (forming key topographical anatomical landmarks of the visceral region)",
+      "Bulbus glandis that causes a coital tie (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_079",
+    "sub": "van",
+    "q": "In the female bovine reproductive tract, the internal endometrium bears permanent, button-like, avascular-appearing aglandular elevations termed 'Caruncles', which are:",
+    "c": "Convex in the Cow, but Concave (cup-shaped) in the Ewe",
+    "d": [
+      "Concave in the cow (providing collateral arterial distribution and somatic motor innervation)",
+      "Flat in all ruminants (forming key topographical anatomical landmarks of the visceral region)",
+      "Completely covered by uterine glands (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_080",
+    "sub": "van",
+    "q": "The Cervix of the Sow (female pig) differs from that of the cow and mare because its cervical canal features:",
+    "c": "Interdigitating rounded mucosal prominences (Pulvini cervicales) that occlude the lumen like a zipper, and lacks a distinct fornix vaginae",
+    "d": [
+      "3 to 4 circular rigid annular rings with a deep fornix (situated within the regional neurovascular fascia and muscular compartment)",
+      "Smooth longitudinal mucosal folds (situated within the regional neurovascular fascia and muscular compartment)",
+      "Total absence of muscularis (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_082",
+    "sub": "van",
+    "q": "The 'Moderator Band' (Septomarginal Trabecula / Trabecula septomarginalis) is a muscular-tendinous cord traversing the lumen of which cardiac chamber to conduct electrical impulses?",
+    "c": "Right Ventricle (connecting the interventricular septum to the base of the parietal wall / anterior papillary muscle)",
+    "d": [
+      "Left Atrium (situated within the regional neurovascular fascia and muscular compartment)",
+      "Ascending aorta (providing collateral arterial distribution and somatic motor innervation)",
+      "Right Atrium (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_086",
+    "sub": "van",
+    "q": "The 'Cisterna Chyli' (the dilated abdominal receiving reservoir for lymph from the pelvis, hindlimbs, and viscera that gives rise to the Thoracic Duct) is located dorsal to the aorta at the level of:",
+    "c": "L1 to L4 (between the crura of the diaphragm)",
+    "d": [
+      "C6 to C7 (situated within the regional neurovascular fascia and muscular compartment)",
+      "Sacrum (forming key topographical anatomical landmarks of the visceral region)",
+      "T5 to T7 (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_087",
+    "sub": "van",
+    "q": "The superficial palpable lymph center of the bovine body located immediately cranial to the shoulder joint beneath the brachiocephalic muscle is the:",
+    "c": "Superficial Cervical Lymph Node (Prescapular lymph node)",
+    "d": [
+      "Subiliac lymph node (Prefemoral) (providing collateral arterial distribution and somatic motor innervation)",
+      "Popliteal lymph node (forming key topographical anatomical landmarks of the visceral region)",
+      "Parotid lymph node (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_088",
+    "sub": "van",
+    "q": "In bovine meat inspection, the 'Prefemoral Lymph Node' (Subiliac lymph node) is routinely palpated and incised on the carcass at the cranial border of the:",
+    "c": "Tensor fasciae latae muscle, in the fold of the flank",
+    "d": [
+      "Brachialis muscle (providing collateral arterial distribution and somatic motor innervation)",
+      "Trapezius muscle (forming key topographical anatomical landmarks of the visceral region)",
+      "Gastrocnemius muscle (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_089",
+    "sub": "van",
+    "q": "The portal vein (Vena portae) transports nutrient-rich blood from the digestive viscera to the liver, formed by the convergence of which three major veins?",
+    "c": "Splenic vein, Cranial Mesenteric vein, and Caudal Mesenteric vein (and Gastroduodenal vein)",
+    "d": [
+      "Renal vein, Hepatic vein, and Femoral vein (forming key topographical anatomical landmarks of the visceral region)",
+      "Jugular vein and Subclavian vein, regional arterial branches, and associated somatic nerves",
+      "Azygos vein and Iliac vein, regional arterial branches, and associated somatic nerves"
+    ]
+  },
+  {
+    "id": "van_exp_091",
+    "sub": "van",
+    "q": "Cranial Nerve I (Olfactory nerve) fibers pass from the olfactory neuroepithelium into the olfactory bulbs through which perforated bony plate?",
+    "c": "Cribriform plate of the Ethmoid bone",
+    "d": [
+      "Optic canal (forming key topographical anatomical landmarks of the visceral region)",
+      "Petrous temporal bone (situated within the regional neurovascular fascia and muscular compartment)",
+      "Hypoglossal canal (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_092",
+    "sub": "van",
+    "q": "The Optic Nerve (Cranial Nerve II) exits the cranial vault through which bony canal?",
+    "c": "Optic Canal (Canalis opticus) of the Presphenoid bone",
+    "d": [
+      "Foramen orbitorotundum (forming key topographical anatomical landmarks of the visceral region)",
+      "Orbital fissure (situated within the regional neurovascular fascia and muscular compartment)",
+      "Stylomastoid foramen (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_093",
+    "sub": "van",
+    "q": "Which three cranial nerves supply motor innervation to the extrinsic muscles of the eyeball?",
+    "c": "CN III (Oculomotor), CN IV (Trochlear), and CN VI (Abducent)",
+    "d": [
+      "CN V, CN VII, and CN IX (forming key topographical anatomical landmarks of the visceral region)",
+      "CN II, CN III, and CN V (situated within the regional neurovascular fascia and muscular compartment)",
+      "CN IV, CN VI, and CN VIII (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_094",
+    "sub": "van",
+    "q": "In the horse and dog, the Mandibular Nerve (the 3rd division of the Trigeminal nerve, CN V3) exits the cranial cavity through the:",
+    "c": "Foramen Ovale (or notch in the foramen lacerum)",
+    "d": [
+      "Foramen rotundum (situated within the regional neurovascular fascia and muscular compartment)",
+      "Hypoglossal canal (situated within the regional neurovascular fascia and muscular compartment)",
+      "Stylomastoid foramen (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_095",
+    "sub": "van",
+    "q": "Motor innervation to all the muscles of facial expression (including orbicularis oculi, orbicularis oris, and levator labii) is provided by:",
+    "c": "Cranial Nerve VII (Facial Nerve), exiting through the Stylomastoid Foramen",
+    "d": [
+      "Cranial Nerve V (Trigeminal) (forming key topographical anatomical landmarks of the visceral region)",
+      "Cranial Nerve XI (Accessory) (forming key topographical anatomical landmarks of the visceral region)",
+      "Cranial Nerve XII (Hypoglossal) (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_096",
+    "sub": "van",
+    "q": "Damage to the Left Recurrent Laryngeal Nerve (a branch of Cranial Nerve X, the Vagus nerve) in horses causes 'Roaring' (Laryngeal Hemiplegia) due to paralysis of which sole abductor muscle of the vocal folds?",
+    "c": "Cricoarytenoideus Dorsalis muscle (CAD)",
+    "d": [
+      "Cricoarytenoideus lateralis (forming key topographical anatomical landmarks of the visceral region)",
+      "Thyroarytenoideus (situated within the regional neurovascular fascia and muscular compartment)",
+      "Cricothyroideus (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_099",
+    "sub": "van",
+    "q": "The 'Calving Paralysis' syndrome in post-parturient dairy cows, characterized by inability to adduct the hindlimbs ('downer cow' with limbs splayed laterally), is caused by compressive trauma to the:",
+    "c": "Obturator Nerve inside the pelvic canal against the shaft of the ilium during dystocia",
+    "d": [
+      "Femoral nerve (providing collateral arterial distribution and somatic motor innervation)",
+      "Sciatic nerve (providing collateral arterial distribution and somatic motor innervation)",
+      "Pudendal nerve (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_101",
+    "sub": "van",
+    "q": "'Sweeny' in draft horses is an equine neurogenic condition characterized by prominent atrophy of the supraspinatus and infraspinatus muscles on the lateral scapula, caused by trauma to the:",
+    "c": "Suprascapular Nerve as it winds around the cranial border (cervical border) of the scapular neck",
+    "d": [
+      "Musculocutaneous nerve (providing collateral arterial distribution and somatic motor innervation)",
+      "Axillary nerve (forming key topographical anatomical landmarks of the visceral region)",
+      "Median nerve (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_102",
+    "sub": "van",
+    "q": "The 'Patellar Reflex' (knee jerk reflex in dogs) evaluates the integrity of the L4-L6 spinal cord segments and which peripheral spinal nerve?",
+    "c": "Femoral Nerve (innervating the Quadriceps Femoris muscle)",
+    "d": [
+      "Peroneal nerve (situated within the regional neurovascular fascia and muscular compartment)",
+      "Sciatic nerve (providing collateral arterial distribution and somatic motor innervation)",
+      "Obturator nerve (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_103",
+    "sub": "van",
+    "q": "The 'Horner's Syndrome' in dogs, cats, and horses (characterized by miosis, ptosis, enophthalmos, and protrusion of the third eyelid) results from disruption of the:",
+    "c": "Oculosympathetic (cervical sympathetic) pathway",
+    "d": [
+      "Oculomotor parasympathetic pathway",
+      "Facial nerve (situated within the regional neurovascular fascia and muscular compartment)",
+      "Trigeminal sensory pathway (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_104",
+    "sub": "van",
+    "q": "In cattle, Caudal Epidural Anesthesia is routinely performed by inserting a spinal needle into which intervertebral space?",
+    "c": "First Intercoccygeal space (between Coccygeal 1 and Coccygeal 2) or the Sacrococcygeal space (S5-Co1)",
+    "d": [
+      "Lumbosacral space (L6-S1) (providing collateral arterial distribution and somatic motor innervation)",
+      "Atlanto-occipital space (providing collateral arterial distribution and somatic motor innervation)",
+      "T13-L1 space (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_105",
+    "sub": "van",
+    "q": "Lumbosacral Epidural Anesthesia in the Dog and Sheep is performed by needle puncture into the epidural space between:",
+    "c": "Lumbar 7 (L7) and Sacral 1 (S1) vertebrae",
+    "d": [
+      "L5 and L6 (situated within the regional neurovascular fascia and muscular compartment)",
+      "T13 and L1 (providing collateral arterial distribution and somatic motor innervation)",
+      "Co1 and Co2 (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_106",
+    "sub": "van",
+    "q": "Cerebrospinal Fluid (CSF) is collected in horses and cattle from the Cisterna Magna (cerebellomedullary cistern) at which anatomical landmark?",
+    "c": "Atlanto-Occipital Space (articulation between the occipital condyles and the atlas)",
+    "d": [
+      "Lumbosacral junction (forming key topographical anatomical landmarks of the visceral region)",
+      "C7-T1 junction (situated within the regional neurovascular fascia and muscular compartment)",
+      "Between thoracic spines (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_107",
+    "sub": "van",
+    "q": "The Pudendal Nerve (Nervus pudendus) innervates the caudal external genitalia, and in the bull, Pudendal Nerve Block is performed to achieve:",
+    "c": "Relaxation and desensitization of the retractor penis muscle, allowing protrusion and examination of the penis",
+    "d": [
+      "Flank desensitization (providing collateral arterial distribution and somatic motor innervation)",
+      "Ruminal atony (forming key topographical anatomical landmarks of the visceral region)",
+      "Complete hindlimb immobilization (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_108",
+    "sub": "van",
+    "q": "The Cornual Nerve (Nervus cornualis), which is blocked with local anesthetic for surgical dehorning in cattle, is a terminal branch of which nerve?",
+    "c": "Zygomaticotemporal nerve (branch of the Ophthalmic division of the Trigeminal nerve, CN V1)",
+    "d": [
+      "Infraorbital nerve (CN V2) (situated within the regional neurovascular fascia and muscular compartment)",
+      "Mandibular nerve (CN V3) (forming key topographical anatomical landmarks of the visceral region)",
+      "Facial nerve (CN VII) (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_109",
+    "sub": "van",
+    "q": "In cattle, paravertebral nerve block for standing flank laparotomy (such as cesarean section or rumenotomy) requires desensitization of which specific spinal nerves?",
+    "c": "T13 (Last thoracic / costoabdominal), L1 (Iliohypogastric), and L2 (Ilioinguinal) nerves",
+    "d": [
+      "T10, T11, and T12 (providing collateral arterial distribution and somatic motor innervation)",
+      "L4, L5, and L6 (providing collateral arterial distribution and somatic motor innervation)",
+      "C6, C7, and C8 (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_110",
+    "sub": "van",
+    "q": "The 'Jugular Furrow' (sulcus jugularis) of the horse and ox, accommodating the external jugular vein for routine venipuncture, is bounded ventrally by which muscle?",
+    "c": "Sternocephalicus muscle (specifically the sternomandibularis in ox and horse)",
+    "d": [
+      "Brachiocephalicus muscle (forming key topographical anatomical landmarks of the visceral region)",
+      "Omohyoideus muscle (situated within the regional neurovascular fascia and muscular compartment)",
+      "Splenius muscle (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_111",
+    "sub": "van",
+    "q": "Which of the following cartilages is completely devoid of a perichondrium, relying solely on surrounding synovial fluid or adjacent tissues for its nutrition?",
+    "c": "Fibrocartilage (e.g., intervertebral discs and pelvic symphysis)",
+    "d": [
+      "Costal cartilage (providing collateral arterial distribution and somatic motor innervation)",
+      "Elastic cartilage (e.g., external pinna) (providing collateral arterial distribution and somatic motor innervation)",
+      "Hyaline cartilage (e.g., tracheal rings) (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_112",
+    "sub": "van",
+    "q": "In compact bone histology, the transverse or oblique vascular channels that penetrate the bone matrix to connect adjacent Haversian canals and periosteal vessels are known as:",
+    "c": "Volkmann's canals (Perforating canals)",
+    "d": [
+      "Canaliculi (providing collateral arterial distribution and somatic motor innervation)",
+      "Haversian canals (Central canals)",
+      "Lacunae (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_113",
+    "sub": "van",
+    "q": "In mammalian skeletal muscle fibers, a 'Triad' observed at the junction of the A and I bands is anatomically composed of:",
+    "c": "One central transverse tubule (T-tubule) flanked by two terminal cisternae of the sarcoplasmic reticulum",
+    "d": [
+      "Three adjacent myofibrils (forming key topographical anatomical landmarks of the visceral region)",
+      "One T-tubule and one sarcoplasmic reticulum cisterna (Dyad) (situated within the regional neurovascular fascia and muscular compartment)",
+      "Two T-tubules and one terminal cisterna (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_120",
+    "sub": "van",
+    "q": "The specialized sensory mechanoreceptors in deep skin, tendons, and joint capsules characterized by concentric lamellae of Schwann cells surrounding a central unmyelinated axon like an onion bulb are:",
+    "c": "Pacinian corpuscles (Lamellar corpuscles)",
+    "d": [
+      "Meissner's corpuscles (situated within the regional neurovascular fascia and muscular compartment)",
+      "Merkel nerve endings (forming key topographical anatomical landmarks of the visceral region)",
+      "Ruffini corpuscles (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_121",
+    "sub": "van",
+    "q": "In liver histology, the microvascular perisinusoidal space where blood plasma filters through fenestrated endothelial cells to bathe hepatocyte microvilli is the:",
+    "c": "Space of Disse (Perisinusoidal space)",
+    "d": [
+      "Space of Mall (forming key topographical anatomical landmarks of the visceral region)",
+      "Bile canaliculus (situated within the regional neurovascular fascia and muscular compartment)",
+      "Canal of Hering (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_124",
+    "sub": "van",
+    "q": "The diagnostic histological hallmark of the Thymus gland medulla, consisting of concentric whorls of keratinizing and degenerated eosinophilic epithelial reticular cells, is the:",
+    "c": "Hassall's corpuscle (Thymic corpuscle)",
+    "d": [
+      "Malpighian corpuscle (forming key topographical anatomical landmarks of the visceral region)",
+      "Herring body (providing collateral arterial distribution and somatic motor innervation)",
+      "Peyer's patch (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_127",
+    "sub": "van",
+    "q": "In lung alveoli, which specialized epithelial cell type is responsible for the synthesis, storage in lamellar bodies, and secretion of pulmonary surfactant (dipalmitoylphosphatidylcholine)?",
+    "c": "Type II Pneumocyte (Great alveolar cell)",
+    "d": [
+      "Type I Pneumocyte (Squamous alveolar cell)",
+      "Alveolar macrophage (Dust cell)",
+      "Club cell (Clara cell) (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_129",
+    "sub": "van",
+    "q": "In the developing mammalian embryo, the somites (derived from paraxial mesoderm) differentiate into three distinct cellular components: Sclerotome, Myotome, and Dermatome. The Sclerotome gives rise to:",
+    "c": "The axial skeleton (vertebrae and ribs)",
+    "d": [
+      "Dermis of the dorsal trunk skin",
+      "All skeletal musculature of the trunk and limbs",
+      "Urogenital system (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_133",
+    "sub": "van",
+    "q": "The adult anatomical remnant of the embryonic Left Umbilical Vein, running in the free margin of the falciform ligament to the visceral surface of the liver, is the:",
+    "c": "Ligamentum teres hepatis (Round ligament of the liver)",
+    "d": [
+      "Coronary ligament (forming key topographical anatomical landmarks of the visceral region)",
+      "Ligamentum arteriosum (providing collateral arterial distribution and somatic motor innervation)",
+      "Median umbilical ligament (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_135",
+    "sub": "van",
+    "q": "In male mammalian embryology, the primordial embryonic duct system that regresses under the influence of Anti-M\u00fcllerian Hormone (AMH / MIS) secreted by fetal Sertoli cells is the:",
+    "c": "Paramesonephric duct (M\u00fcllerian duct)",
+    "d": [
+      "Mesonephric duct (Wolffian duct)",
+      "Metanephric duct (forming key topographical anatomical landmarks of the visceral region)",
+      "Pronephric duct (providing collateral arterial distribution and somatic motor innervation)"
+    ]
+  },
+  {
+    "id": "van_exp_140",
+    "sub": "van",
+    "q": "The 'Furcula' (popularly known as the 'wishbone') in birds is formed by the ventral midline fusion of the:",
+    "c": "Right and Left Clavicles (along with the interclavicle)",
+    "d": [
+      "Two Coracoid bones (forming key topographical anatomical landmarks of the visceral region)",
+      "Two Scapulae (providing collateral arterial distribution and somatic motor innervation)",
+      "Costal cartilages (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_141",
+    "sub": "van",
+    "q": "In domestic poultry, the massive breast muscle responsible for the powerful downstroke of the wing during flight is the:",
+    "c": "Pectoralis muscle (Pectoralis major / Pectoralis superficialis)",
+    "d": [
+      "Biceps brachii (providing collateral arterial distribution and somatic motor innervation)",
+      "Latissimus dorsi (situated within the regional neurovascular fascia and muscular compartment)",
+      "Supracoracoideus muscle (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  },
+  {
+    "id": "van_exp_143",
+    "sub": "van",
+    "q": "Avian lungs differ fundamentally from mammalian lungs because they are non-collapsible, constant-volume structures where gas exchange occurs in tubular:",
+    "c": "Parabronchi (Air capillaries) with unidirectional airflow",
+    "d": [
+      "Terminal blind alveoli with tidal airflow",
+      "Trabeculae carnae (forming key topographical anatomical landmarks of the visceral region)",
+      "Pleural pouches (forming key topographical anatomical landmarks of the visceral region)"
+    ]
+  },
+  {
+    "id": "van_exp_145",
+    "sub": "van",
+    "q": "The thick muscular grinding stomach (gizzard / ventriculus) of the domestic fowl is lined internally by a tough, wear-resistant, yellowish-green protective cuticle termed:",
+    "c": "Koilin layer (composed of hardened protein secreted by mucosal tubular glands)",
+    "d": [
+      "Mucous gel layer (providing collateral arterial distribution and somatic motor innervation)",
+      "Stratified squamous keratinized epithelium (forming key topographical anatomical landmarks of the visceral region)",
+      "Enamel (situated within the regional neurovascular fascia and muscular compartment)"
+    ]
+  }
+]

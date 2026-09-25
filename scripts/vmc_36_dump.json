@@ -1,0 +1,362 @@
+[
+  {
+    "id": "vmc_exp_005",
+    "q": "The 'String of Pearls' reaction, used to distinguish Bacillus anthracis from other non-pathogenic environmental Bacillus species (such as B. cereus), is performed on:",
+    "c": "Nutrient agar containing 0.05 to 0.5 units/mL of penicillin, where B. anthracis swells into round, spherical pearl-like chains within 3-6 hours",
+    "d": [
+      "MacConkey agar without salt",
+      "Blood agar with 10% sodium chloride",
+      "Sabouraud dextrose agar"
+    ]
+  },
+  {
+    "id": "vmc_exp_006",
+    "q": "The lethal action of Tetanospasmin (tetanus neurotoxin from Clostridium tetani) on the central nervous system occurs through which molecular mechanism?",
+    "c": "Retrograde axonal transport to inhibitory Renshaw interneurons, where its zinc endopeptidase light chain cleaves synaptobrevin (VAMP-2), blocking release of GABA and glycine",
+    "d": [
+      "Continuous stimulation of dopamine receptors",
+      "Degradation of myelin sheaths by phospholipase C",
+      "Direct irreversible blockade of post-synaptic nicotinic acetylcholine receptors at motor endplates"
+    ]
+  },
+  {
+    "id": "vmc_exp_028",
+    "q": "Dermatophilus congolensis, the etiological agent of 'Rain Rot' / 'Streptothricosis' in cattle and horses, displays which distinctive microscopic morphology on Giemsa-stained crust smears?",
+    "c": "Branching filamentous hyphae that divide transversely and longitudinally to form parallel rows of coccoid zoospores resembling 'train tracks' / 'tram tracks'",
+    "d": [
+      "Encapsulated diplococci in pairs",
+      "Single giant sporangia with endospores",
+      "Large spiral organisms with terminal hooks"
+    ]
+  },
+  {
+    "id": "vmc_exp_030",
+    "q": "The primary diagnostic method for detecting Trueperella pyogenes (formerly Arcanobacterium pyogenes) in suppurative lesions is observing:",
+    "c": "Tiny pinpoint colonies on sheep blood agar surrounded by a narrow zone of beta-hemolysis at 48 hours, Gram-positive pleomorphic diphtheroid rods, and strong gelatinase activity",
+    "d": [
+      "Large spreading swarming colonies",
+      "Medusa-head colonies on plain agar",
+      "Green pigmentation on MacConkey agar"
+    ]
+  },
+  {
+    "id": "vmc_exp_036",
+    "q": "In blood and tissue smears from cattle dying of acute Hemorrhagic Septicemia, Pasteurella multocida exhibits pathognomonic staining as:",
+    "c": "Gram-negative coccobacilli showing distinct 'bipolar staining' (dense terminal coloration with a clear center) with Leishman, Giemsa, or Methylene Blue",
+    "d": [
+      "Large encapsulated diplococci",
+      "Gram-positive square-ended rods in long chains",
+      "Acid-fast beaded filaments"
+    ]
+  },
+  {
+    "id": "vmc_exp_040",
+    "q": "The laboratory animal of choice used for the biological isolation and virulence typing of Pasteurella multocida from clinical field samples is:",
+    "c": "White mouse (Mus musculus), which dies within 18 to 24 hours of subcutaneous inoculation with pure septicemia",
+    "d": [
+      "Adult rabbit",
+      "Hamster",
+      "Guinea pig"
+    ]
+  },
+  {
+    "id": "vmc_exp_054",
+    "q": "The official diagnostic allergic skin test for Glanders in horses is the Mallein test, and the preferred international method of administration is the:",
+    "c": "Intradermo-palpebral test (injection of 0.1 mL mallein into the skin of the lower eyelid, causing marked edema and purulent conjunctivitis at 48 hours)",
+    "d": [
+      "Cervical skin pinch test",
+      "Subcutaneous thermal test",
+      "Caudal fold test"
+    ]
+  },
+  {
+    "id": "vmc_exp_072",
+    "q": "In bovine mastitis diagnostics, Staphylococcus aureus colonies on sheep blood agar characteristically exhibit 'Double-Zone Hemolysis' produced by the synergistic action of:",
+    "c": "Alpha-toxin (complete inner zone of clear hemolysis) and Beta-toxin (outer wide zone of incomplete hot-cold hemolysis / sphingomyelinase)",
+    "d": [
+      "Enterotoxin A and TSST-1",
+      "Beta-toxin and Gamma-toxin",
+      "Delta-toxin and Leukocidin"
+    ]
+  },
+  {
+    "id": "vmc_exp_087",
+    "q": "Anaplasma centrale differs from Anaplasma marginale in that Anaplasma centrale:",
+    "c": "Produces mild or subclinical anemia, exhibits inclusion bodies located centrally within erythrocytes, and is used as a live vaccine in cattle",
+    "d": [
+      "Is fatal in 90% of cattle",
+      "Is transmitted exclusively by lice",
+      "Lacks DNA"
+    ]
+  },
+  {
+    "id": "vmc_exp_107",
+    "q": "Lumpy Skin Disease (LSD) of cattle and water buffaloes is caused by a Capripoxvirus that is primarily transmitted between animals by:",
+    "c": "Hematophagous mechanical insect vectors (such as stable flies Stomoxys calcitrans, mosquitoes, and Rhipicephalus ticks)",
+    "d": [
+      "Venereal transmission only",
+      "Water-borne ingestion of spores",
+      "Aerosol droplets across long distances"
+    ]
+  },
+  {
+    "id": "vmc_exp_123",
+    "q": "Bovine Leukemia Virus (BLV) is classified in the genus Deltaretrovirus and is unique among oncogenic retroviruses because it induces B-cell lymphosarcoma in cattle without:",
+    "c": "Carrying a viral oncogene (v-onc) and without insertional mutagenesis near a proto-oncogene (instead using Tax protein transactivation)",
+    "d": [
+      "Infecting white blood cells",
+      "Integrating into host DNA",
+      "Producing any antibodies"
+    ]
+  },
+  {
+    "id": "vmc_exp_129",
+    "q": "Border Disease in sheep ('Hairy Shaker Disease' / 'Fuzzy Lamb Disease') is caused by an ovine pestivirus that produces:",
+    "c": "Excessive birth coat hairiness (halo hairs), rhythmic muscle tremors due to hypomyelinogenesis, and skeletal defects in newborn lambs",
+    "d": [
+      "Acute bloody diarrhea with 100% mortality in adult ewes",
+      "Severe wool discoloration to green",
+      "Purulent mastitis only"
+    ]
+  },
+  {
+    "id": "vmc_exp_136",
+    "q": "The pathognomonic clinical sign giving 'Bluetongue' its name is cyanosis of the tongue in sheep, which is caused by:",
+    "c": "Endothelial cell infection leading to microvascular thrombosis, ischemia, and venous congestion of the oral mucosa and tongue",
+    "d": [
+      "Severe methemoglobinemia from plant poisoning",
+      "Direct bacterial toxin production",
+      "Hypertrophy of lingual papillae"
+    ]
+  },
+  {
+    "id": "vmc_exp_144",
+    "q": "Porcine Circovirus Type 2 (PCV2), the causative agent of Postweaning Multisystemic Wasting Syndrome (PMWS), belongs to the family Circoviridae, which represents the:",
+    "c": "Smallest autonomously replicating DNA viruses in animals, containing a circular single-stranded DNA (ssDNA) genome of only 1.7 kb",
+    "d": [
+      "Only retroviruses affecting pigs",
+      "Only segmented DNA viruses",
+      "Largest known animal viruses"
+    ]
+  },
+  {
+    "id": "vmc_exp_147",
+    "q": "Equine Viral Arteritis (EVA) is caused by an Arterivirus that causes acute fever, conjunctivitis, edema of limbs and prepuce, and abortion in mares, with the virus establishing a long-term carrier state in:",
+    "c": "The reproductive tract (ampullae of the vas deferens) of stallions, shed continuously in semen in a testosterone-dependent manner",
+    "d": [
+      "The guttural pouches of mares",
+      "The thyroid gland",
+      "The intestinal crypts"
+    ]
+  },
+  {
+    "id": "vmc_exp_154",
+    "q": "The molecular diagnostic hallmark distinguishing Highly Pathogenic Avian Influenza (HPAI) from Low Pathogenic Avian Influenza (LPAI) strains in poultry is:",
+    "c": "Presence of multiple basic amino acids (arginine and lysine) at the Hemagglutinin cleavage site, permitting cleavage by ubiquitous intracellular furin-like proteases",
+    "d": [
+      "Loss of the nucleoprotein",
+      "Duplication of the neuraminidase stalk",
+      "Deletion of the M2 ion channel"
+    ]
+  },
+  {
+    "id": "vmc_exp_163",
+    "q": "In diagnostic virology, continuous cell lines (such as Vero cells, BHK-21 cells, and MDCK cells) differ from primary cell cultures because continuous cell lines:",
+    "c": "Are immortal, possess an abnormal heteroploid karyotype, and can be subcultured indefinitely through hundreds of passages",
+    "d": [
+      "Die after 5 to 10 passages",
+      "Have a normal diploid chromosome number",
+      "Can only be derived from chicken embryos"
+    ]
+  },
+  {
+    "id": "vmc_exp_198",
+    "q": "R-Plasmids (Resistance Plasmids) of multi-drug resistant Enterobacteriaceae consist structurally of two distinct functional components:",
+    "c": "Resistance Transfer Factor (RTF, encoding conjugative transfer) and the r-determinant (carrying multiple antibiotic resistance genes)",
+    "d": [
+      "Inverted terminal repeats only",
+      "Promoter and Operator only",
+      "Leader sequence and Attenuator"
+    ]
+  },
+  {
+    "id": "vmc_exp_212",
+    "q": "MacConkey Agar is a classic example of a medium that is both:",
+    "c": "Selective (bile salts and crystal violet inhibit Gram-positive bacteria) and Differential (lactose fermentation indicated by neutral red)",
+    "d": [
+      "Completely non-selective",
+      "Enriched and Transport only",
+      "Synthetic and chemically defined"
+    ]
+  },
+  {
+    "id": "vmc_exp_231",
+    "q": "Major Histocompatibility Complex (MHC) Class I molecules are expressed on:",
+    "c": "All nucleated cells of the body, and present endogenous (viral/intracellular) peptide antigens to CD8+ Cytotoxic T-lymphocytes (CTLs)",
+    "d": [
+      "B-lymphocytes only",
+      "Antigen-presenting cells exclusively",
+      "Erythrocytes only"
+    ]
+  },
+  {
+    "id": "vmc_exp_240",
+    "q": "Type III Hypersensitivity (Immune-Complex mediated) produces tissue injury fundamentally through the deposition of:",
+    "c": "Soluble antigen-antibody complexes formed in slight antigen excess, which activate complement and attract neutrophils in vessel walls",
+    "d": [
+      "Mast cell granules directly",
+      "Precipitated calcium crystals",
+      "Sensitized cytotoxic T-lymphocytes"
+    ]
+  },
+  {
+    "id": "vmc_exp_253",
+    "q": "In veterinary vaccinology, the 'Marker Vaccine' (DIVA vaccine: Differentiating Infected from Vaccinated Animals) concept requires which critical combination?",
+    "c": "A vaccine with a deleted non-essential gene (e.g. gE-deleted Pseudorabies vaccine) used alongside a companion diagnostic ELISA that detects antibodies against the deleted protein",
+    "d": [
+      "A vaccine with green fluorescent protein added",
+      "A vaccine that uses live human pathogens",
+      "A vaccine given only by oral route"
+    ]
+  },
+  {
+    "id": "vmc_exp_254",
+    "q": "DNA vaccines (plasmid DNA immunization) elicit both humoral and strong cell-mediated immunity because the encoded antigen is:",
+    "c": "Synthesized endogenously inside host myocytes and antigen-presenting cells, allowing processing and presentation on both MHC Class I and Class II pathways",
+    "d": [
+      "Derived entirely from plant leaves",
+      "Excreted directly in urine",
+      "Coated on red blood cells"
+    ]
+  },
+  {
+    "id": "vmc_exp_255",
+    "q": "The primary reason that maternal derived antibodies (MDA) interfere with active immunization in young puppies and calves during early life is that maternal IgG:",
+    "c": "Binds and neutralizes the vaccine antigen and cross-links the inhibitory Fc-gamma-RIIB receptor on naive B-cells, blocking activation",
+    "d": [
+      "Inactivates complement",
+      "Cleaves host T-cell receptors",
+      "Directly destroys the host thymus"
+    ]
+  },
+  {
+    "id": "vmc_exp_259",
+    "q": "Autoimmune (Lymphocytic) Thyroiditis in dogs is the primary cause of primary adult hypothyroidism, characterized histopathologically by:",
+    "c": "Diffuse infiltration of the thyroid gland by lymphocytes, plasma cells, and macrophages with progressive destruction of follicular architecture",
+    "d": [
+      "C-cell adenoma",
+      "Pure calcification of follicles",
+      "Massive follicular hyperplasia with goiter"
+    ]
+  },
+  {
+    "id": "vmc_exp_265",
+    "q": "The phenomenon of 'Phenotypic Mixing' in virology occurs during co-infection of a single cell by two related viruses when:",
+    "c": "Progeny virions contain the genome of one virus packaged within a capsid or envelope composed partly or entirely of proteins from the other virus",
+    "d": [
+      "Two RNA segments cross over homologous sequences",
+      "A virus loses its envelope permanently",
+      "A mutation occurs in the polymerase gene"
+    ]
+  },
+  {
+    "id": "vmc_exp_268",
+    "q": "In virology, a 'Defective Interfering' (DI) particle is a subviral entity characterized as a:",
+    "c": "Spontaneous deletion mutant lacking essential replication genes that can only replicate in the presence of a homologous helper virus, competing for replication machinery and reducing wild-type viral yields",
+    "d": [
+      "Virus that only infects bacteria",
+      "Non-infectious empty capsid",
+      "Virion containing foreign cellular DNA only"
+    ]
+  },
+  {
+    "id": "vmc_exp_272",
+    "q": "Cowdry Type A inclusion bodies, the classical intranuclear diagnostic hallmark of Herpesvirus infections, are microscopically described as:",
+    "c": "Single, large, round, eosinophilic, amorphous intranuclear masses surrounded by a clear halo, with chromatin margination along the nuclear membrane",
+    "d": [
+      "Multiple tiny basophilic granules scattered in the cytoplasm",
+      "Intracytoplasmic lipid droplets",
+      "Dense crystalline arrays of virions filling the nucleolus"
+    ]
+  },
+  {
+    "id": "vmc_exp_273",
+    "q": "Cowdry Type B inclusion bodies differ from Cowdry Type A inclusions because Type B inclusions:",
+    "c": "Are smaller, more variable in number, do not cause marked chromatin margination, and are seen in Adenovirus or Poliovirus infections",
+    "d": [
+      "Stain bright blue with Gram stain",
+      "Are exclusively cytoplasmic",
+      "Are always calcified"
+    ]
+  },
+  {
+    "id": "vmc_exp_278",
+    "q": "In diagnostic virology, 'Interference' is a diagnostic phenomenon where:",
+    "c": "Infection of a cell culture by a non-cytopathic virus inhibits or blocks subsequent replication and cytopathic effect of a superinfecting challenge virus",
+    "d": [
+      "Antiserum fails to neutralize a virus",
+      "A virus loses its genome",
+      "Two viruses kill the host cell in half the time"
+    ]
+  },
+  {
+    "id": "vmc_exp_283",
+    "q": "The primary diagnostic utility of the 'Hemagglutination' (HA) test in veterinary virology is that it:",
+    "c": "Provides a rapid, simple, in vitro quantification of viral particles without requiring living host cells, based on surface hemagglutinins bridging erythrocytes",
+    "d": [
+      "Identifies bacterial spores",
+      "Measures host cell apoptosis",
+      "Measures the precise number of viable neutralizing antibodies"
+    ]
+  },
+  {
+    "id": "vmc_exp_286",
+    "q": "Microsporum canis, the primary cause of ringworm (dermatophytosis) in dogs and cats, is identified on direct microscopic examination of hair plucks by producing:",
+    "c": "Ectothrix arthrospores forming a dense mosaic sheath around the exterior of the hair shaft, and fluorescing bright apple-green under Wood's lamp (365 nm)",
+    "d": [
+      "No fluorescence under any lamp",
+      "Intracellular yeasts inside RBCs",
+      "Endothrix large spores packed solely inside the hair shaft"
+    ]
+  },
+  {
+    "id": "vmc_exp_288",
+    "q": "Microsporum canis is microscopically distinguished from Trichophyton species in culture by its characteristic macroconidia, which are:",
+    "c": "Abundant, large, thick-walled, spindle-shaped (fusiform) with an asymmetrical curved terminal beak, containing 6 or more internal transverse septa",
+    "d": [
+      "Completely absent in culture",
+      "Pencil-shaped, smooth, and thin-walled",
+      "Spherical, single-celled chlamydospores"
+    ]
+  },
+  {
+    "id": "vmc_exp_290",
+    "q": "Candida albicans is rapidly differentiated from all other non-albicans Candida species in the diagnostic mycology laboratory by the positive:",
+    "c": "Germ Tube Test (formation of true germ tubes extending without constriction from yeast cells incubated in horse or fetal calf serum at 37\u00b0C within 2 to 3 hours)",
+    "d": [
+      "Urease test",
+      "Bile-esculin hydrolysis",
+      "Catalase test"
+    ]
+  },
+  {
+    "id": "vmc_exp_291",
+    "q": "Cryptococcus neoformans is an environmental encapsulated yeast associated with dried pigeon droppings, recognized under negative staining with India ink by its:",
+    "c": "Massive, mucopolysaccharide (glucuronoxylomannan) capsule that repels colloidal carbon particles, appearing as a wide clear halo around the yeast cell",
+    "d": [
+      "Internal spore-bearing asci",
+      "Acid-fast staining with Ziehl-Neelsen",
+      "Dense, non-encapsulated oval cells forming pseudohyphae"
+    ]
+  },
+  {
+    "id": "vmc_exp_293",
+    "q": "Blastomyces dermatitidis, causing canine blastomycosis (pulmonary and cutaneous pyogranulomatous disease), appears in infected host tissues as a:",
+    "c": "Large (8 to 15 um), thick, refractile 'double-contoured' wall yeast cell that buds singly with a characteristic broad base of attachment to the daughter cell",
+    "d": [
+      "Tiny (2 to 4 um) intracellular yeast packed in macrophages",
+      "Giant spherule with endospores",
+      "Narrow-based budding yeast"
+    ]
+  }
+]
