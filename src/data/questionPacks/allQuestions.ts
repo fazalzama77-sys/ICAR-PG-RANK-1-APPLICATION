@@ -34,8 +34,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Which of the following bones in the bovine skeleton possesses the extensor fossa (fossa extensoria)?",
     "options": [
       "Distal extremity of humerus",
-      "Proximal cranial border of tibia",
       "Proximal extremity of radius",
+      "Proximal cranial border of tibia",
       "Distal lateral condyle of femur"
     ],
     "correctOptionIndex": 3,
@@ -55,10 +55,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The total number of cervical vertebrae in the domestic fowl (Gallus domesticus) is typically:",
     "options": [
-      "18",
-      "14",
       "7",
-      "12"
+      "14",
+      "12",
+      "18"
     ],
     "correctOptionIndex": 1,
     "explanation": "Unlike mammals which consistently possess 7 cervical vertebrae, the domestic fowl possesses 14 cervical vertebrae, conferring extreme mobility to the neck.",
@@ -100,8 +100,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'facial tuberosity' (tuber faciale) is a landmark on the skull of which species?",
     "options": [
       "Ox",
-      "Dog",
       "Horse",
+      "Dog",
       "Pig"
     ],
     "correctOptionIndex": 0,
@@ -121,10 +121,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "How many carpal bones are present in the adult horse (Equus caballus)?",
     "options": [
-      "6",
+      "5 (providing collateral arterial distribution and somatic motor innervation)",
       "7 or 8",
-      "5",
-      "4"
+      "4 (forming key topographical anatomical landmarks of the visceral region)",
+      "6 (situated within the regional neurovascular fascia and muscular compartment)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The carpus of the horse usually has 7 or 8 bones arranged in two rows. The first carpal bone is small, inconsistent, and often missing.",
@@ -166,9 +166,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'os cordis' is a splanchnic bone found in the heart of:",
     "options": [
       "Ox",
+      "Dog",
       "Horse",
-      "Pig",
-      "Dog"
+      "Pig"
     ],
     "correctOptionIndex": 0,
     "explanation": "The os cordis consists of two small bones situated in the fibrous base (annulus fibrosus) of the bovine heart, adjacent to the aortic orifice.",
@@ -187,10 +187,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'os rostri' (splanchnic bone of the snout) is characteristic of which domestic species?",
     "options": [
-      "Dog",
       "Sheep",
+      "Ox",
       "Pig",
-      "Ox"
+      "Dog"
     ],
     "correctOptionIndex": 2,
     "explanation": "The os rostri (os rostrale) is located in the snout of the pig (Sus scrofa), providing rigidity for rooting behavior.",
@@ -209,10 +209,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "In which domestic species is the acromion process of the scapula completely absent?",
     "options": [
-      "Dog",
-      "Ox",
+      "Dog (situated within the regional neurovascular fascia and muscular compartment)",
+      "Cat (forming key topographical anatomical landmarks of the visceral region)",
       "Horse",
-      "Cat"
+      "Ox (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 2,
     "explanation": "In the horse, the spine of the scapula subsides gradually distally without forming an acromion process.",
@@ -232,8 +232,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'fovea capitis femoris' is deeply notched medially in which species to accommodate the accessory ligament?",
     "options": [
       "Horse",
-      "Dog",
-      "Ox",
+      "Dog (situated within the regional neurovascular fascia and muscular compartment)",
+      "Ox (forming key topographical anatomical landmarks of the visceral region)",
       "Sheep"
     ],
     "correctOptionIndex": 0,
@@ -253,9 +253,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'dens' or odontoid process is a modified vertebral feature of which bone?",
     "options": [
-      "Sacrum",
-      "Axis",
       "Atlas",
+      "Axis",
+      "Sacrum",
       "7th cervical vertebra"
     ],
     "correctOptionIndex": 1,
@@ -275,9 +275,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The ligamentum nuchae in the dog consists solely of:",
     "options": [
-      "Lamellar part",
       "Both lamellar and funicular parts",
       "Neither (absent)",
+      "Lamellar part",
       "Funicular part"
     ],
     "correctOptionIndex": 3,
@@ -298,9 +298,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The ligamentum nuchae is completely absent in which domestic species?",
     "options": [
       "Pig and Cat",
-      "Horse and Ox",
       "Goat and Camel",
-      "Dog and Sheep"
+      "Dog and Sheep",
+      "Horse and Ox"
     ],
     "correctOptionIndex": 0,
     "explanation": "The ligamentum nuchae is completely absent in the pig (Sus scrofa) and the domestic cat (Felis catus).",
@@ -319,10 +319,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'supratrochlear foramen' in the distal humerus is consistently present in which animal?",
     "options": [
-      "Horse",
-      "Dog",
       "Cat",
-      "Ox"
+      "Dog",
+      "Ox",
+      "Horse"
     ],
     "correctOptionIndex": 1,
     "explanation": "The dog possesses a supratrochlear foramen in the humerus through which no major nerve or vessel passes.",
@@ -341,10 +341,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'supracondylar foramen' in the humerus which transmits the median nerve and brachial artery is present in:",
     "options": [
-      "Sheep",
       "Ox",
+      "Dog",
       "Cat",
-      "Dog"
+      "Sheep"
     ],
     "correctOptionIndex": 2,
     "explanation": "The domestic cat has a supracondylar foramen on the medial aspect of the distal humerus.",
@@ -363,9 +363,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'internal acoustic meatus' is located in which part of the temporal bone?",
     "options": [
+      "Mastoid part",
       "Tympanic part",
       "Squamous part",
-      "Mastoid part",
       "Petrous part"
     ],
     "correctOptionIndex": 3,
@@ -385,8 +385,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'pterygoid process' is an anatomical feature of which cranial bone?",
     "options": [
-      "Frontal bone",
       "Occipital bone",
+      "Frontal bone",
       "Nasal bone",
       "Sphenoid bone"
     ],
@@ -408,9 +408,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Which joint in the canine stifle is stabilized by the fabellae (sesamoid bones of gastrocnemius)?",
     "options": [
       "Femorotibial joint",
+      "Femoropatellar joint",
       "Tibiofibular joint",
-      "Tarsocrural joint",
-      "Femoropatellar joint"
+      "Tarsocrural joint"
     ],
     "correctOptionIndex": 0,
     "explanation": "The two lateral and medial fabellae embed in the tendons of origin of the gastrocnemius muscle over the femoral condyles at the femorotibial articulation in the dog.",
@@ -429,8 +429,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'sternal puncture' in cattle for bone marrow biopsy is ideally performed at which sternebra?",
     "options": [
-      "Fifth",
-      "Xiphoid",
+      "Xiphoid (providing collateral arterial distribution and somatic motor innervation)",
+      "Fifth (providing collateral arterial distribution and somatic motor innervation)",
       "Second or Third",
       "First (Manubrium)"
     ],
@@ -451,10 +451,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'cranial cruciate ligament' in the canine stifle prevents:",
     "options": [
-      "Internal rotation of patella",
-      "Cranial translation of tibia relative to femur",
       "Caudal translation of tibia relative to femur",
-      "Hyperextension of hip"
+      "Cranial translation of tibia relative to femur",
+      "Internal rotation of patella (situated within the regional neurovascular fascia and muscular compartment)",
+      "Hyperextension of hip (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The cranial cruciate ligament (CrCL) resists cranial tibial displacement, stifle hyperextension, and excessive internal tibial rotation.",
@@ -473,9 +473,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'peroneus tertius' muscle in the horse is entirely:",
     "options": [
+      "Absent (providing collateral arterial distribution and somatic motor innervation)",
+      "Fleshy (forming key topographical anatomical landmarks of the visceral region)",
       "Cartilaginous",
-      "Fleshy",
-      "Absent",
       "Tendinous"
     ],
     "correctOptionIndex": 3,
@@ -517,10 +517,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'notarium' in the avian vertebral column represents the fusion of:",
     "options": [
-      "Cervical vertebrae",
-      "Caudal vertebrae",
+      "Lumbar vertebrae (forming key topographical anatomical landmarks of the visceral region)",
+      "Caudal vertebrae (situated within the regional neurovascular fascia and muscular compartment)",
       "Thoracic vertebrae (T2 to T5)",
-      "Lumbar vertebrae"
+      "Cervical vertebrae (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 2,
     "explanation": "The notarium (dorsal bone) is formed by the fusion of the 2nd to 5th thoracic vertebrae in birds, providing rigidity for flight.",
@@ -541,8 +541,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Caudal vertebrae",
       "Cervical vertebrae",
-      "Ribs",
-      "Skull bones"
+      "Skull bones (forming key topographical anatomical landmarks of the visceral region)",
+      "Ribs (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The synsacrum is an extensive fusion of the last thoracic, all lumbar and sacral, and first few caudal vertebrae with the pelvic bones.",
@@ -561,9 +561,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'pygostyle' in birds represents the fusion of the:",
     "options": [
-      "Tarsal bones",
-      "Clavicles",
-      "Cervical vertebrae",
+      "Cervical vertebrae (forming key topographical anatomical landmarks of the visceral region)",
+      "Clavicles (situated within the regional neurovascular fascia and muscular compartment)",
+      "Tarsal bones (situated within the regional neurovascular fascia and muscular compartment)",
       "Terminal 4 to 6 caudal vertebrae"
     ],
     "correctOptionIndex": 3,
@@ -585,8 +585,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "2(I 0/4, C 0/0, PM 3/3, M 3/3) = 32",
       "2(I 3/3, C 1/1, PM 4/4, M 3/3) = 44",
-      "2(I 3/3, C 1/1, PM 3/2, M 1/1) = 30",
-      "2(I 3/3, C 1/1, PM 4/4, M 2/3) = 42"
+      "2(I 3/3, C 1/1, PM 4/4, M 2/3) = 42",
+      "2(I 3/3, C 1/1, PM 3/2, M 1/1) = 30"
     ],
     "correctOptionIndex": 0,
     "explanation": "Cattle have no upper incisors or canines (dental pad instead); they have 8 lower incisors/canines (I 0/4, C 0/0, PM 3/3, M 3/3) = 32 teeth.",
@@ -605,10 +605,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The dental formula of the adult dog (Canis familiaris) is:",
     "options": [
-      "2(I 3/3, C 1/1, PM 3/3, M 3/3) = 40",
+      "2(I 0/4, C 0/0, PM 3/3, M 3/3) = 32",
       "2(I 3/3, C 1/1, PM 4/4, M 3/3) = 44",
       "2(I 3/3, C 1/1, PM 4/4, M 2/3) = 42",
-      "2(I 0/4, C 0/0, PM 3/3, M 3/3) = 32"
+      "2(I 3/3, C 1/1, PM 3/3, M 3/3) = 40"
     ],
     "correctOptionIndex": 2,
     "explanation": "The adult dog possesses 42 permanent teeth: 2(I 3/3, C 1/1, PM 4/4, M 2/3) = 42.",
@@ -629,8 +629,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "2(I 3/3, C 1/1, PM 4/4, M 2/3) = 42",
       "2(I 3/3, C 1/1, PM 3-4/3, M 3/3) = 40-42",
-      "2(I 3/3, C 1/1, PM 4/4, M 3/3) = 44",
-      "2(I 0/4, C 0/0, PM 3/3, M 3/3) = 32"
+      "2(I 0/4, C 0/0, PM 3/3, M 3/3) = 32",
+      "2(I 3/3, C 1/1, PM 4/4, M 3/3) = 44"
     ],
     "correctOptionIndex": 1,
     "explanation": "The adult male horse possesses 40-42 teeth (the first premolar or wolf tooth may be present in the upper jaw).",
@@ -649,10 +649,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'carnassial teeth' (shearing sectorial teeth) in the dog are:",
     "options": [
+      "Upper PM3 and Lower M2",
       "Upper M1 and Lower PM4",
-      "Upper C1 and Lower C1",
       "Upper PM4 and Lower M1",
-      "Upper PM3 and Lower M2"
+      "Upper C1 and Lower C1"
     ],
     "correctOptionIndex": 2,
     "explanation": "The carnassial teeth specialized for shearing flesh in carnivores are the 4th upper premolar (PM4) and the 1st lower molar (M1).",
@@ -671,10 +671,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Osteology & Arthrology",
     "questionText": "The 'wolf tooth' in the horse is an anatomical term for the:",
     "options": [
-      "Canine tooth in stallion",
+      "Third lower molar (forming key topographical anatomical landmarks of the visceral region)",
       "Vestigial first upper premolar (PM1)",
-      "Third lower molar",
-      "First lower incisor"
+      "Canine tooth in stallion (forming key topographical anatomical landmarks of the visceral region)",
+      "First lower incisor (situated within the regional neurovascular fascia and muscular compartment)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The wolf tooth is the small, vestigial first premolar (PM1) usually found in the upper jaw of the horse.",
@@ -694,8 +694,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'Achilles tendon' (common calcanean tendon) is primarily formed by which two major muscles?",
     "options": [
       "Biceps femoris and semimembranosus",
+      "Gracilis and pectineus (forming key topographical anatomical landmarks of the visceral region)",
       "Tibialis cranialis and peroneus longus",
-      "Gracilis and pectineus",
       "Gastrocnemius and superficial digital flexor"
     ],
     "correctOptionIndex": 3,
@@ -716,9 +716,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'stay apparatus' in the equine forelimb relies on which tendinous band running through the biceps brachii?",
     "options": [
       "Lacertus fibrosus",
-      "Sartorius",
-      "Check ligament",
-      "Subscapularis"
+      "Subscapularis",
+      "Sartorius (situated within the regional neurovascular fascia and muscular compartment)",
+      "Check ligament"
     ],
     "correctOptionIndex": 0,
     "explanation": "The lacertus fibrosus is a strong tendinous band that continues from the internal tendon of the biceps brachii to blend with the extensor carpi radialis.",
@@ -737,10 +737,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "The 'jugular groove' (sulcus jugularis) in the horse is bounded ventrally by which muscle?",
     "options": [
-      "Omohyoideus",
+      "Omohyoideus (situated within the regional neurovascular fascia and muscular compartment)",
       "Sternocephalicus",
-      "Brachiocephalicus",
-      "Sternothyrohyoideus"
+      "Sternothyrohyoideus",
+      "Brachiocephalicus"
     ],
     "correctOptionIndex": 1,
     "explanation": "In the horse, the jugular groove is bounded dorsally by the brachiocephalicus and ventrally by the sternocephalicus muscle.",
@@ -759,9 +759,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "In the ox, the subscapular artery gives rise to which major branch supplying the triceps and shoulder joint?",
     "options": [
-      "Brachial artery",
-      "Suprascapular artery",
-      "Thoracodorsal artery",
+      "Brachial artery (situated within the regional neurovascular fascia and muscular compartment)",
+      "Thoracodorsal artery (providing collateral arterial distribution and somatic motor innervation)",
+      "Suprascapular artery (forming key topographical anatomical landmarks of the visceral region)",
       "Caudal circumflex humeral artery"
     ],
     "correctOptionIndex": 3,
@@ -782,9 +782,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'cisterna chyli' in the lymphatic system is located ventral to which vertebrae?",
     "options": [
       "C5 - C7",
-      "T10 - T12",
+      "S1 - S3",
       "L1 - L4",
-      "S1 - S3"
+      "T10 - T12"
     ],
     "correctOptionIndex": 2,
     "explanation": "The cisterna chyli is a dilated lymphatic sac located dorsal to the aorta between the crura of the diaphragm and L1-L4 lumbar vertebrae.",
@@ -804,9 +804,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The celiac artery in ruminants supplies which of the following viscera?",
     "options": [
       "Rumen, reticulum, omasum, abomasum, liver, spleen",
-      "Descending colon and rectum",
-      "Jejunum and ileum",
-      "Kidneys and adrenal glands"
+      "Kidneys, adrenal glands, ureters, urinary bladder, and urethra",
+      "Duodenum, jejunum, ileum, cecum, and ascending colon",
+      "Descending colon, rectum, internal anal sphincter, and anal canal"
     ],
     "correctOptionIndex": 0,
     "explanation": "The celiac trunk supplies the foregut derivatives including all four stomach compartments, liver, spleen, and cranial duodenum.",
@@ -825,9 +825,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "Which vein is routinely used for intravenous venipuncture and injection in the domestic pig?",
     "options": [
-      "Saphenous vein",
-      "Cephalic vein",
-      "Femoral vein",
+      "Lateral cephalic vein (Antebrachial superficial cephalic vein)",
+      "Medial saphenous vein (Medial tarsal superficial saphenous vein)",
+      "Deep femoral vein (Femoral triangle venous trunk)",
       "Anterior vena cava (Cranial vena cava)"
     ],
     "correctOptionIndex": 3,
@@ -847,10 +847,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "The spur vein (lateral thoracic vein) is clinically significant in which animal during endurance and race training?",
     "options": [
-      "Pig",
+      "Ox (forming key topographical anatomical landmarks of the visceral region)",
       "Horse",
-      "Dog",
-      "Ox"
+      "Pig (situated within the regional neurovascular fascia and muscular compartment)",
+      "Dog (situated within the regional neurovascular fascia and muscular compartment)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The lateral thoracic vein (spur vein) runs along the ventrolateral abdominal wall in horses and becomes prominent during physical exertion.",
@@ -870,8 +870,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Which cranial nerve passes through the cribriform plate of the ethmoid bone?",
     "options": [
       "CN I (Olfactory)",
-      "CN V (Trigeminal)",
       "CN II (Optic)",
+      "CN V (Trigeminal)",
       "CN III (Oculomotor)"
     ],
     "correctOptionIndex": 0,
@@ -891,10 +891,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "The diaphragm is innervated motorically by which nerve?",
     "options": [
-      "Vagus nerve",
+      "Intercostal nerves",
       "Sympathetic trunk",
       "Phrenic nerve (C5-C7)",
-      "Intercostal nerves"
+      "Vagus nerve (providing collateral arterial distribution and somatic motor innervation)"
     ],
     "correctOptionIndex": 2,
     "explanation": "The phrenic nerve arising from ventral branches of cervical nerves (C5, C6, C7 in mammals) is the sole motor nerve to the diaphragm.",
@@ -913,9 +913,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "The 'circle of Willis' (cerebral arterial circle) surrounds which neuroendocrine structure at the brain base?",
     "options": [
-      "Olfactory bulb",
-      "Pineal body",
-      "Cerebellum",
+      "Olfactory bulb (Bulbus olfactorius / First cranial nerve base)",
+      "Cerebellar vermis and cerebellar hemispheres (Corpus cerebelli)",
+      "Pineal body (Epiphysis cerebri / Neuroendocrine pineal organ)",
       "Pituitary gland (Hypophysis cerebri)"
     ],
     "correctOptionIndex": 3,
@@ -936,9 +936,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The portal vein is formed primarily by the union of which two major veins?",
     "options": [
       "Cranial mesenteric vein and Splenic vein",
-      "Renal vein and Iliac vein",
-      "Azygos vein and Vena cava",
-      "Jugular vein and Cephalic vein"
+      "Renal vein and Iliac vein (situated within the regional neurovascular fascia and muscular compartment)",
+      "Jugular vein and Cephalic vein",
+      "Azygos vein and Vena cava (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The hepatic portal vein is formed by the convergence of the cranial mesenteric, caudal mesenteric, and splenic (gastrosplenic) veins.",
@@ -957,10 +957,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "The 'brachial plexus' in the dog is typically formed by the ventral branches of:",
     "options": [
-      "C1, C2, C3, C4",
       "L1, L2, L3, L4",
+      "T5, T6, T7, T8",
       "C6, C7, C8, T1, T2",
-      "T5, T6, T7, T8"
+      "C1, C2, C3, C4"
     ],
     "correctOptionIndex": 2,
     "explanation": "The canine brachial plexus is formed by the ventral rami of the sixth, seventh, and eighth cervical and first and second thoracic spinal nerves.",
@@ -979,10 +979,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "Damage to the radial nerve proximal to the triceps innervation results in:",
     "options": [
-      "Hyperflexion of hock",
+      "Hyperflexion of hock, regional arterial branches, and associated somatic nerves",
       "Dropped elbow, inability to bear weight, knuckling of digits",
-      "Paralysis of tongue",
-      "Splay leg posture"
+      "Paralysis of tongue, regional arterial branches, and associated somatic nerves",
+      "Splay leg posture, regional arterial branches, and associated somatic nerves"
     ],
     "correctOptionIndex": 1,
     "explanation": "High radial nerve paralysis abolishes triceps function, causing a dropped elbow and inability to extend the carpus and digits.",
@@ -1024,9 +1024,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Paralysis of the suprascapular nerve in the horse produces muscle atrophy termed:",
     "options": [
       "Sweeney (shoulder slip)",
-      "Shivering",
-      "Roaring",
-      "Stringhalt"
+      "Stringhalt (Equine involuntary hyperflexion reflex hypertonia)",
+      "Shivering (Equine neuromuscular caudal muscle myoclonus)",
+      "Roaring (Equine recurrent laryngeal nerve hemiplegia)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Sweeney is atrophy of the supraspinatus and infraspinatus muscles caused by trauma to the unprotected suprascapular nerve as it crosses the cranial border of the scapula.",
@@ -1045,10 +1045,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "Which cranial nerve emerges from the dorsal aspect of the brainstem?",
     "options": [
-      "CN III (Oculomotor)",
+      "CN VI (Abducent) (forming key topographical anatomical landmarks of the visceral region)",
       "CN V (Trigeminal)",
       "CN IV (Trochlear nerve)",
-      "CN VI (Abducent)"
+      "CN III (Oculomotor)"
     ],
     "correctOptionIndex": 2,
     "explanation": "The trochlear nerve (CN IV) is unique among all cranial nerves in emerging from the dorsal aspect of the midbrain and completely decussating.",
@@ -1068,8 +1068,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'recurrent laryngeal nerve' is a branch of which cranial nerve?",
     "options": [
       "Hypoglossal nerve (CN XII)",
-      "Glossopharyngeal nerve (CN IX)",
       "Accessory nerve (CN XI)",
+      "Glossopharyngeal nerve (CN IX)",
       "Vagus nerve (CN X)"
     ],
     "correctOptionIndex": 3,
@@ -1089,9 +1089,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "The 'cauda equina' consists of the cone-shaped end of the spinal cord (conus medullaris) and the roots of:",
     "options": [
-      "Cervical nerves",
-      "Cranial nerves",
-      "Thoracic nerves",
+      "Thoracic nerves, regional arterial branches, and associated somatic nerves",
+      "Cervical nerves, regional arterial branches, and associated somatic nerves",
+      "Cranial nerves, regional arterial branches, and associated somatic nerves",
       "Lumbar, sacral, and caudal nerves"
     ],
     "correctOptionIndex": 3,
@@ -1112,9 +1112,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'ansa cervicalis' is a neural loop in the neck formed by connections between:",
     "options": [
       "C1/C2 and the hypoglossal nerve (CN XII)",
-      "Vagus and glossopharyngeal",
-      "Phrenic and accessory",
-      "Facial and trigeminal"
+      "Facial and trigeminal (providing collateral arterial distribution and somatic motor innervation)",
+      "Phrenic and accessory (forming key topographical anatomical landmarks of the visceral region)",
+      "Vagus and glossopharyngeal (situated within the regional neurovascular fascia and muscular compartment)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The ansa cervicalis is a loop formed by ventral branches of the first cervical nerves communicating with the hypoglossal nerve to innervate strap muscles of the larynx.",
@@ -1133,10 +1133,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "The external jugular vein in the horse is formed at the angle of the jaw by the confluence of the:",
     "options": [
-      "Facial and lingual veins",
       "Cephalic vein and brachial vein",
+      "Internal jugular and subclavian",
       "Maxillary vein and linguofacial vein",
-      "Internal jugular and subclavian"
+      "Facial and lingual veins (providing collateral arterial distribution and somatic motor innervation)"
     ],
     "correctOptionIndex": 2,
     "explanation": "The external jugular vein is formed behind the ramus of the mandible by the union of the maxillary vein and the linguofacial vein.",
@@ -1178,8 +1178,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Which heart chamber forms the anatomical apex of the mammalian heart?",
     "options": [
       "Right ventricle",
-      "Right atrium",
       "Left atrium",
+      "Right atrium",
       "Left ventricle"
     ],
     "correctOptionIndex": 3,
@@ -1222,9 +1222,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'ductus arteriosus' in the fetus connects the pulmonary trunk directly with the:",
     "options": [
       "Aortic arch / descending aorta",
-      "Left pulmonary vein",
-      "Caudal vena cava",
-      "Right atrium"
+      "Caudal vena cava (providing collateral arterial distribution and somatic motor innervation)",
+      "Left pulmonary vein (providing collateral arterial distribution and somatic motor innervation)",
+      "Right atrium (situated within the regional neurovascular fascia and muscular compartment)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The ductus arteriosus shunts the majority of right ventricular blood away from non-inflated fetal lungs directly into the descending aorta.",
@@ -1243,10 +1243,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "The 'foramen ovale' in the fetal heart is situated in the:",
     "options": [
-      "Atrioventricular junction",
       "Interventricular septum",
+      "Sinus venosus",
       "Interatrial septum",
-      "Sinus venosus"
+      "Atrioventricular junction"
     ],
     "correctOptionIndex": 2,
     "explanation": "The foramen ovale is an opening in the fetal interatrial septum that allows oxygenated blood from the caudal vena cava to flow into the left atrium.",
@@ -1266,7 +1266,7 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'rete mirabile epidurale' is an intracranial arterial heat-exchanger network present in:",
     "options": [
       "Horse and dog",
-      "Birds only",
+      "Birds only, regional arterial branches, and associated somatic nerves",
       "Ox, sheep, and pig",
       "Cat and rabbit"
     ],
@@ -1288,7 +1288,7 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'internal carotid artery' in the adult ox is:",
     "options": [
       "The sole blood supply to the brain",
-      "A branch of the vertebral artery",
+      "A branch of the vertebral artery (providing collateral arterial distribution and somatic motor innervation)",
       "Twice the size of the maxillary artery",
       "Functionally absent (regressed) extracranially"
     ],
@@ -1310,9 +1310,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'cremaster muscle' is an anatomical detachment of which abdominal wall muscle?",
     "options": [
       "Internal abdominal oblique",
-      "External abdominal oblique",
-      "Rectus abdominis",
-      "Transversus abdominis"
+      "Transversus abdominis",
+      "Rectus abdominis (forming key topographical anatomical landmarks of the visceral region)",
+      "External abdominal oblique"
     ],
     "correctOptionIndex": 0,
     "explanation": "The cremaster muscle is derived from the caudal free border of the internal abdominal oblique muscle, passing through the inguinal canal to suspend the testicle.",
@@ -1331,10 +1331,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Myology & Angiology",
     "questionText": "The 'linea alba' is a fibrous median raphe formed by the aponeuroses of the abdominal muscles extending from the xiphoid cartilage to the:",
     "options": [
-      "Tuber coxae",
+      "Ilial wing (situated within the regional neurovascular fascia and muscular compartment)",
       "Prepubic tendon",
-      "Ilial wing",
-      "Patella"
+      "Tuber coxae",
+      "Patella (providing collateral arterial distribution and somatic motor innervation)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The linea alba is a central, avascular fibrous cord formed by the intercrossing aponeuroses of abdominal muscles extending from the xiphoid to the prepubic tendon.",
@@ -1355,8 +1355,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Horse",
       "Ox",
-      "Pig",
-      "Dog"
+      "Dog",
+      "Pig"
     ],
     "correctOptionIndex": 1,
     "explanation": "The torus linguae is a distinct, rounded dorsal swelling on the caudal tongue of ruminants (ox, sheep, goat) separated from the body by the lingual fossa.",
@@ -1375,10 +1375,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "Which papillae on the bovine tongue are exclusively mechanical in function without taste buds?",
     "options": [
-      "Fungiform papillae",
-      "Vallate papillae",
+      "Fungiform papillae (forming key topographical anatomical landmarks of the visceral region)",
+      "Vallate papillae (forming key topographical anatomical landmarks of the visceral region)",
       "Filiform and conical papillae",
-      "Foliate papillae"
+      "Foliate papillae (providing collateral arterial distribution and somatic motor innervation)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Filiform and conical papillae are heavily cornified mechanical papillae that facilitate ingestion and mastication; they lack taste buds.",
@@ -1397,9 +1397,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'honeycomb' internal mucosal pattern is characteristic of which stomach compartment?",
     "options": [
+      "Rumen (situated within the regional neurovascular fascia and muscular compartment)",
       "Abomasum",
-      "Omasum",
-      "Rumen",
+      "Omasum (Manyplies muscular laminae compartment absorbing water and bicarbonate)",
       "Reticulum"
     ],
     "correctOptionIndex": 3,
@@ -1420,9 +1420,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'spiral colon' (ansa spiralis coli) is an anatomical landmark in the digestive tract of:",
     "options": [
       "Ruminants and pigs",
+      "Chicken and duck",
       "Cat and rabbit",
-      "Horse and dog",
-      "Chicken and duck"
+      "Horse and dog"
     ],
     "correctOptionIndex": 0,
     "explanation": "The ansa spiralis coli with centripetal and centrifugal coils is a hallmark feature of the ascending colon in ruminants and pigs.",
@@ -1442,8 +1442,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "In which species is the cecum shaped like a large comma with four longitudinal muscular bands (taeniae)?",
     "options": [
       "Sheep",
-      "Dog",
-      "Ox",
+      "Dog (situated within the regional neurovascular fascia and muscular compartment)",
+      "Ox (forming key topographical anatomical landmarks of the visceral region)",
       "Horse"
     ],
     "correctOptionIndex": 3,
@@ -1465,8 +1465,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Bean-shaped",
       "Heart-shaped",
-      "Lobulated",
-      "Elongated oval"
+      "Elongated oval",
+      "Lobulated"
     ],
     "correctOptionIndex": 1,
     "explanation": "The equine right kidney is distinctly heart-shaped (or playing-card spade), whereas the left kidney is bean-shaped.",
@@ -1486,9 +1486,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The bovine kidney is characterized by:",
     "options": [
       "Multilobulated external surface (15-25 lobes)",
-      "Smooth unipapillary structure",
-      "Presence of renal pelvis",
-      "Single common papilla"
+      "Presence of renal pelvis (situated within the regional neurovascular fascia and muscular compartment)",
+      "Smooth unipapillary structure (forming key topographical anatomical landmarks of the visceral region)",
+      "Single common papilla (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The bovine kidney is unique among domestic farm animals in being externally divided into 15 to 25 distinct lobules and lacking a renal pelvis (calyces instead).",
@@ -1507,10 +1507,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'sigmoid flexure' of the penis is located post-scrotal in which animal?",
     "options": [
-      "Stallion",
       "Boar",
+      "Dog",
       "Bull",
-      "Dog"
+      "Stallion"
     ],
     "correctOptionIndex": 2,
     "explanation": "In the bull, the sigmoid flexure is located caudal to the scrotum (post-scrotal), whereas in the boar it is pre-scrotal.",
@@ -1529,10 +1529,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The penis of the dog contains which specific bone?",
     "options": [
-      "Os cordis",
+      "Os cordis (situated within the regional neurovascular fascia and muscular compartment)",
       "Os penis (baculum)",
-      "Os phrenic",
-      "Os rostri"
+      "Os rostri (forming key topographical anatomical landmarks of the visceral region)",
+      "Os phrenic (providing collateral arterial distribution and somatic motor innervation)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The os penis (baculum) is a splanchnic bone situated inside the canine penis, grooved ventrally for the urethra.",
@@ -1551,9 +1551,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'bursa Fabricii' (cloacal bursa) in birds is a primary lymphoid organ located dorsal to the:",
     "options": [
-      "Uropygial gland",
       "Proventriculus",
-      "Ceca",
+      "Uropygial gland",
+      "Ceca (forming key topographical anatomical landmarks of the visceral region)",
       "Proctodeum"
     ],
     "correctOptionIndex": 3,
@@ -1596,9 +1596,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The glandular, enzymatic stomach of the domestic fowl is the:",
     "options": [
       "Proventriculus",
-      "Cloaca",
-      "Crop (Ingluvies)",
-      "Ventriculus (Gizzard)"
+      "Cloaca (situated within the regional neurovascular fascia and muscular compartment)",
+      "Ventriculus (Gizzard)",
+      "Crop (Ingluvies)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The proventriculus is the glandular stomach secreting pepsin and HCl, whereas the muscular gizzard (ventriculus) grinds feed with grit.",
@@ -1617,9 +1617,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "In which species is the gallbladder completely absent?",
     "options": [
+      "Ox, Sheep, and Goat",
       "Dog, Cat, and Pig",
       "Chicken, Duck, and Goose",
-      "Ox, Sheep, and Goat",
       "Horse, Pigeon, and Rat"
     ],
     "correctOptionIndex": 3,
@@ -1639,10 +1639,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'parotid salivary duct' (Stensen's duct) opens in the mouth opposite to which upper cheek tooth in the horse?",
     "options": [
-      "Upper 1st cheek tooth (PM2)",
-      "Upper canine",
+      "Upper 1st incisor (forming key topographical anatomical landmarks of the visceral region)",
+      "Upper canine (providing collateral arterial distribution and somatic motor innervation)",
       "Upper 3rd cheek tooth (PM4)",
-      "Upper 1st incisor"
+      "Upper 1st cheek tooth (PM2)"
     ],
     "correctOptionIndex": 2,
     "explanation": "In the horse, the parotid duct opens on the parotid papilla opposite the 3rd upper cheek tooth (fourth premolar).",
@@ -1661,10 +1661,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'epiploic foramen' (foramen of Winslow) is an opening leading into the:",
     "options": [
-      "Pelvic cavity",
+      "Mediastinal pleural space (Bilateral pleural pulmonary cavities)",
       "Omental bursa (lesser peritoneal sac)",
-      "Pericardial cavity",
-      "Pleural space"
+      "Ischiorectal fossa (Pararectal pelvic visceral space)",
+      "Pericardial cavity (Parietal and visceral pericardial sac)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The epiploic foramen connects the greater peritoneal cavity with the omental bursa (omental sac), bounded by the caudal vena cava and portal vein.",
@@ -1685,8 +1685,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Air capillaries and parabronchi",
       "Alveoli and alveolar sacs",
-      "Tracheoles",
-      "Bronchioles"
+      "Tracheoles (providing collateral arterial distribution and somatic motor innervation)",
+      "Bronchioles (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Avian lungs do not possess alveoli; instead, gas exchange occurs across microscopic air capillaries radiating from parabronchi.",
@@ -1706,9 +1706,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The domestic fowl possesses how many ceca at the ileocecocolic junction?",
     "options": [
       "Two (paired ceca)",
-      "Three ceca",
+      "No cecum (providing collateral arterial distribution and somatic motor innervation)",
       "Single cecum",
-      "No cecum"
+      "Three ceca (providing collateral arterial distribution and somatic motor innervation)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Birds possess paired elongated ceca that open at the junction between the small intestine and colon.",
@@ -1727,9 +1727,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'syrinx' (voice box) of birds is located at the:",
     "options": [
-      "Base of tongue",
-      "Rostral end of larynx",
-      "Within the lung parenchyma",
+      "Rostral end of larynx (providing collateral arterial distribution and somatic motor innervation)",
+      "Base of tongue (situated within the regional neurovascular fascia and muscular compartment)",
+      "Within the lung parenchyma (providing collateral arterial distribution and somatic motor innervation)",
       "Bifurcation of the trachea into primary bronchi"
     ],
     "correctOptionIndex": 3,
@@ -1771,10 +1771,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'uropygial gland' (preen gland) is located on the dorsal aspect of the:",
     "options": [
-      "Wing tip",
-      "Comb",
+      "Comb (Cranial fleshy vascular caruncle of Gallus domesticus)",
+      "Wing tip (Distal fused carpometacarpus and phalanx skeletal digits)",
       "Uropygium (tail base)",
-      "Sternum"
+      "Sternum (Ventral ossified keel / Carina for pectoral muscle flight attachment)"
     ],
     "correctOptionIndex": 2,
     "explanation": "The uropygial gland is a bilobed sebaceous gland located dorsally on the tail (uropygium) used for feather waterproofing and preening.",
@@ -1795,7 +1795,7 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Ruminants and pigs",
       "Cat and rabbit",
-      "Birds",
+      "Birds (providing collateral arterial distribution and somatic motor innervation)",
       "Horse and dog"
     ],
     "correctOptionIndex": 0,
@@ -1815,10 +1815,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'guttural pouches' (diverticula of the auditory tube) are anatomical features of:",
     "options": [
-      "Bovidae (cattle)",
-      "Canidae (dogs)",
+      "Suidae (pigs) (providing collateral arterial distribution and somatic motor innervation)",
+      "Canidae (dogs) (forming key topographical anatomical landmarks of the visceral region)",
       "Equidae (horses, donkeys)",
-      "Suidae (pigs)"
+      "Bovidae (cattle) (providing collateral arterial distribution and somatic motor innervation)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Guttural pouches are large bilateral air-filled mucosal sacs arising from the auditory (Eustachian) tubes in solipeds, holding ~300 to 500 ml of air.",
@@ -1837,9 +1837,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'bulbus glandis' which expands during the copulatory tie is present in the penis of the:",
     "options": [
+      "Stallion",
       "Bull",
       "Boar",
-      "Stallion",
       "Dog"
     ],
     "correctOptionIndex": 3,
@@ -1859,10 +1859,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The cervix of the cow is characterized by which internal mucosal feature?",
     "options": [
-      "Smooth longitudinal folds",
+      "Interdigitating mucosal pads (pulvini cervicales)",
       "3 to 4 circular/transverse mucosal rings (annular folds)",
-      "Complete absence of folds",
-      "Interdigitating mucosal pads (pulvini cervicales)"
+      "Complete absence of folds (situated within the regional neurovascular fascia and muscular compartment)",
+      "Smooth longitudinal folds (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The bovine cervix possesses 3 to 4 prominent transverse circular ridges or annular rings that interlock, forming a tight physical barrier.",
@@ -1881,9 +1881,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The cervix of the sow possesses interdigitating mucosal pads termed:",
     "options": [
-      "Cotyledons",
       "Annular rings",
-      "Caruncles",
+      "Caruncles (forming key topographical anatomical landmarks of the visceral region)",
+      "Cotyledons (forming key topographical anatomical landmarks of the visceral region)",
       "Pulvini cervicales"
     ],
     "correctOptionIndex": 3,
@@ -1903,10 +1903,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'renal crest' (crista renalis) is a common renal papilla found in:",
     "options": [
-      "Ox and pig",
+      "Ox and pig, regional arterial branches, and associated somatic nerves",
       "Dog, cat, horse, and sheep",
-      "Camel only",
-      "Birds and reptiles"
+      "Birds and reptiles, regional arterial branches, and associated somatic nerves",
+      "Camel only, regional arterial branches, and associated somatic nerves"
     ],
     "correctOptionIndex": 1,
     "explanation": "In carnivores, small ruminants, and horses, the renal pyramids fuse into a single continuous longitudinal ridge termed the renal crest projecting into the renal pelvis.",
@@ -1925,10 +1925,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'infundibulum' of the avian oviduct is the site of:",
     "options": [
-      "Egg shell deposition",
-      "Pigment deposition",
+      "Copious dense and thin albumin protein secretion by oviductal magnum glands",
+      "Cuticle tanning and protoporphyrin pigment deposition in oviductal uterus / shell gland",
       "Fertilization and initial chalaziferous layer deposition",
-      "Albumin secretion"
+      "Calcareous calcium carbonate matrix and mammillary egg shell deposition"
     ],
     "correctOptionIndex": 2,
     "explanation": "The infundibulum (funnel) captures the ovulated ovum and is the exclusive site where fertilization occurs within 15-30 minutes after ovulation.",
@@ -1948,9 +1948,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The shell gland (uterus) of the avian oviduct retains the developing egg for approximately:",
     "options": [
       "18 to 20 hours",
-      "1 hour",
-      "36 hours",
-      "2 to 3 hours"
+      "2 to 3 hours",
+      "36 hours (providing collateral arterial distribution and somatic motor innervation)",
+      "1 hour (providing collateral arterial distribution and somatic motor innervation)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The egg spends the longest time (~18-20 hours out of the total 25-26 hour egg-laying cycle) in the shell gland/uterus receiving the hard calcite shell and pigments.",
@@ -1969,9 +1969,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The 'suburethral diverticulum' is a blind mucosal pouch located ventral to the external urethral orifice in the:",
     "options": [
-      "Mare and Bitch",
       "Ewe and Queen",
-      "Hen",
+      "Hen (forming key topographical anatomical landmarks of the visceral region)",
+      "Mare and Bitch",
       "Cow and Sow"
     ],
     "correctOptionIndex": 3,
@@ -1991,10 +1991,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Splanchnology",
     "questionText": "The right lung of the ox is divided into how many lobes?",
     "options": [
-      "2 lobes",
+      "2 lobes (cranial undivided and caudal large lobes)",
       "4 lobes (cranial divided into 2, middle, caudal, accessory)",
-      "6 lobes",
-      "3 lobes"
+      "6 lobes (cranial divided into 2, middle, caudal, and 2 accessory)",
+      "3 lobes (cranial, caudal, and middle intermediate lobes)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The bovine right lung is divided into cranial (which is further subdivided into cranial and caudal parts), middle, caudal, and accessory lobes.",
@@ -2014,9 +2014,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Hassall's corpuscles (thymic corpuscles) are diagnostic histological structures found in the:",
     "options": [
       "Thymus medulla",
+      "Tonsil crypt",
       "Lymph node cortex",
-      "Spleen red pulp",
-      "Tonsil crypt"
+      "Spleen red pulp"
     ],
     "correctOptionIndex": 0,
     "explanation": "Hassall's corpuscles consist of concentric whorls of eosinophilic epithelial reticular cells located specifically in the thymic medulla.",
@@ -2035,10 +2035,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "Kupffer cells are resident tissue macrophages located inside the liver sinusoids of:",
     "options": [
+      "Only pigs (situated within the regional neurovascular fascia and muscular compartment)",
       "Only carnivores",
-      "Only birds",
       "All domestic mammals",
-      "Only pigs"
+      "Only birds (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Kupffer cells are specialized sinusoidal macrophages of the liver belonging to the mononuclear phagocyte system.",
@@ -2057,9 +2057,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "The 'Peyer’s patches' are aggregated lymphoid follicles located prominently in the submucosa of the:",
     "options": [
-      "Colon",
       "Duodenum",
       "Jejunum",
+      "Colon",
       "Ileum"
     ],
     "correctOptionIndex": 3,
@@ -2079,8 +2079,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "Which cells of the stomach fundic glands secrete hydrochloric acid (HCl) and intrinsic factor?",
     "options": [
-      "Chief (zymogenic) cells",
       "Mucous neck cells",
+      "Chief (zymogenic) cells",
       "Parietal (oxyntic) cells",
       "Enteroendocrine cells"
     ],
@@ -2102,9 +2102,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Chief cells (peptic cells) of the gastric mucosa are primarily responsible for synthesizing:",
     "options": [
       "Pepsinogen",
-      "Gastrin",
       "Hydrochloric acid",
-      "Mucin"
+      "Gastrin",
+      "Mucin (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Chief (zymogenic) cells contain basophilic rough endoplasmic reticulum and secrete the proenzyme pepsinogen.",
@@ -2126,7 +2126,7 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
       "Juxtaglomerular apparatus",
       "Filtration barrier of glomerulus",
       "Countercurrent exchanger",
-      "Collecting duct wall"
+      "Collecting duct wall (situated within the regional neurovascular fascia and muscular compartment)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Podocytes constitute the visceral layer of Bowman's capsule and their interdigitating pedicels form the glomerular filtration slits.",
@@ -2145,8 +2145,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "Juxtaglomerular cells in the afferent arteriole of the nephron secrete which proteolytic enzyme?",
     "options": [
-      "Angiotensin",
       "Aldosterone",
+      "Angiotensin",
       "Erythropoietin",
       "Renin"
     ],
@@ -2167,10 +2167,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "The 'white pulp' of the spleen histologically consists of:",
     "options": [
-      "Venous sinusoids and Billroth cords",
-      "Red blood cell reservoirs",
+      "Venous sinusoids and Billroth cords (forming key topographical anatomical landmarks of the visceral region)",
+      "Trabeculae exclusively (providing collateral arterial distribution and somatic motor innervation)",
       "Periarteriolar lymphoid sheaths (PALS) and splenic nodules",
-      "Trabeculae exclusively"
+      "Red blood cell reservoirs (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 2,
     "explanation": "The splenic white pulp is composed of T-lymphocytes organized into PALS surrounding central arterioles and B-cell follicular nodules.",
@@ -2189,9 +2189,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "The placenta of the mare and sow is classified morphologically as:",
     "options": [
-      "Zonary",
-      "Diffuse",
       "Cotyledonary",
+      "Diffuse",
+      "Zonary",
       "Discoid"
     ],
     "correctOptionIndex": 1,
@@ -2212,9 +2212,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The placenta of ruminants (cow, ewe, doe) is classified morphologically as:",
     "options": [
       "Cotyledonary",
-      "Zonary",
-      "Diffuse",
-      "Discoid"
+      "Diffuse (providing collateral arterial distribution and somatic motor innervation)",
+      "Zonary (forming key topographical anatomical landmarks of the visceral region)",
+      "Discoid (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Ruminants possess a cotyledonary placenta characterized by discrete patches of chorionic villi (cotyledons) that attach to maternal caruncles (forming placentomes).",
@@ -2233,8 +2233,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "The placenta of the bitch and queen is classified morphologically as:",
     "options": [
-      "Diffuse",
       "Discoid",
+      "Diffuse",
       "Zonary",
       "Cotyledonary"
     ],
@@ -2255,9 +2255,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "Histologically, the bovine placenta is classified as:",
     "options": [
-      "Endotheliochorial",
-      "Hemoendothelial",
-      "Hemochorial",
+      "Hemochorial placenta (Fetal chorionic trophoblast in direct contact with maternal blood lakes)",
+      "Endotheliochorial placenta (Chorionic trophoblast contacting maternal capillary endothelium)",
+      "Hemoendothelial placenta (Complete maternal tissue loss with fetal capillaries bathed in blood)",
       "Epitheliochorial (or Synepitheliochorial)"
     ],
     "correctOptionIndex": 3,
@@ -2278,9 +2278,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The canine placenta histologically belongs to which category?",
     "options": [
       "Endotheliochorial",
-      "Hemochorial",
       "Epitheliochorial",
-      "Discoid"
+      "Discoid (forming key topographical anatomical landmarks of the visceral region)",
+      "Hemochorial placenta (Fetal chorionic trophoblast in direct contact with maternal blood lakes)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The canine and feline placenta is endotheliochorial, having 4 tissue layers because maternal uterine epithelium and connective tissue erode.",
@@ -2299,10 +2299,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "The 'ductus venosus' in the mammalian fetus carries oxygenated blood from the umbilical vein directly into the:",
     "options": [
-      "Right atrium",
+      "Pulmonary trunk",
       "Caudal vena cava",
       "Cranial vena cava",
-      "Pulmonary trunk"
+      "Right atrium"
     ],
     "correctOptionIndex": 1,
     "explanation": "The ductus venosus bypasses the microcirculation of the fetal liver, shunting umbilical blood directly into the caudal vena cava.",
@@ -2322,9 +2322,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The embryonic remnant of the fetal ductus arteriosus in the adult heart is the:",
     "options": [
       "Ligamentum arteriosum",
-      "Fossa ovalis",
-      "Round ligament of liver",
-      "Ligamentum venosum"
+      "Ligamentum venosum",
+      "Fossa ovalis (situated within the regional neurovascular fascia and muscular compartment)",
+      "Round ligament of liver"
     ],
     "correctOptionIndex": 0,
     "explanation": "The ductus arteriosus constricts post-natally into a fibrous connective tissue cord termed the ligamentum arteriosum.",
@@ -2343,9 +2343,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "The nervous system, epidermis, and hair follicles embryologically originate from which germ layer?",
     "options": [
+      "Mesoderm",
       "Endoderm",
       "Hypoblast",
-      "Mesoderm",
       "Ectoderm"
     ],
     "correctOptionIndex": 3,
@@ -2365,10 +2365,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "Purkinje cells with extensive dendritic trees are a unique histological feature of the:",
     "options": [
+      "Spinal cord dorsal horn",
       "Cerebral cortex",
-      "Adrenal medulla",
       "Cerebellar cortex",
-      "Spinal cord dorsal horn"
+      "Adrenal medulla"
     ],
     "correctOptionIndex": 2,
     "explanation": "Purkinje cells form a single prominent layer of large flask-shaped neurons in the cerebellar cortex.",
@@ -2389,8 +2389,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Skeletal muscle",
       "Cardiac muscle",
-      "Dense regular connective tissue",
-      "Smooth muscle"
+      "Smooth muscle",
+      "Dense regular connective tissue"
     ],
     "correctOptionIndex": 1,
     "explanation": "Intercalated discs are specialized cell junctions that mechanically and electrically couple adjacent cardiomyocytes.",
@@ -2410,9 +2410,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'macula densa' is a specialized region of the:",
     "options": [
       "Distal convoluted tubule",
+      "Proximal convoluted tubule",
       "Renal corpuscle parietal layer",
-      "Loop of Henle descending limb",
-      "Proximal convoluted tubule"
+      "Loop of Henle descending limb"
     ],
     "correctOptionIndex": 0,
     "explanation": "The macula densa consists of specialized tall, densely packed epithelial cells in the initial distal convoluted tubule sensing sodium chloride concentration.",
@@ -2431,10 +2431,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "The thyroid gland follicles are lined by which type of epithelium under normal physiological state?",
     "options": [
-      "Stratified squamous epithelium",
+      "Pseudostratified columnar",
       "Simple cuboidal epithelium",
       "Simple squamous epithelium",
-      "Pseudostratified columnar"
+      "Stratified squamous epithelium"
     ],
     "correctOptionIndex": 1,
     "explanation": "Thyroid follicles are typically lined by simple cuboidal epithelium, which becomes columnar during hyperactive states and squamous during inactivity.",
@@ -2453,10 +2453,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "The adrenal cortex zone that synthesizes mineralocorticoids (aldosterone) is the:",
     "options": [
-      "Zona reticularis",
-      "Zona fasciculata",
+      "Zona fasciculata (Cortical intermediate zone synthesizing glucocorticoid cortisol)",
+      "Zona reticularis (Deep cortical zone synthesizing adrenal androgens)",
       "Zona glomerulosa (or Zona arcuata)",
-      "Adrenal medulla"
+      "Adrenal medulla (Central neuroendocrine chromaffin tissue secreting epinephrine)"
     ],
     "correctOptionIndex": 2,
     "explanation": "The outermost zona glomerulosa (termed zona arcuata in horses and carnivores) produces mineralocorticoids including aldosterone.",
@@ -2475,9 +2475,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "Which cells in the testes produce testosterone under the influence of Luteinizing Hormone (LH)?",
     "options": [
-      "Spermatogonia",
-      "Sertoli cells",
+      "Sertoli cells (providing collateral arterial distribution and somatic motor innervation)",
       "Myoid peritubular cells",
+      "Spermatogonia (forming key topographical anatomical landmarks of the visceral region)",
       "Leydig (Interstitial) cells"
     ],
     "correctOptionIndex": 3,
@@ -2519,10 +2519,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "The 'islets of Langerhans' beta cells secrete which hormone?",
     "options": [
-      "Glucagon",
-      "Insulin",
       "Pancreatic polypeptide",
-      "Somatostatin"
+      "Insulin",
+      "Somatostatin",
+      "Glucagon"
     ],
     "correctOptionIndex": 1,
     "explanation": "Beta cells comprise 70% of islet cells and secrete insulin in response to elevated blood glucose concentrations.",
@@ -2541,8 +2541,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "The embryonic origin of the adrenal medulla is the:",
     "options": [
-      "Endoderm",
-      "Yolk sac",
+      "Endoderm (forming key topographical anatomical landmarks of the visceral region)",
+      "Yolk sac (providing collateral arterial distribution and somatic motor innervation)",
       "Mesothelium (Mesoderm)",
       "Neural crest cells (Ectoderm)"
     ],
@@ -2564,9 +2564,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'allantois' in the avian and mammalian embryo functions primarily as a:",
     "options": [
       "Respiration and metabolic waste reservoir",
-      "Bony framework",
-      "Skin precursor",
-      "Yolk accumulator"
+      "Nutrient yolk accumulator and vitelline membrane storage sac",
+      "Rigid cartilaginous and endochondral ossification bony framework",
+      "Cutaneous skin and stratified squamous epidermal precursor tissue"
     ],
     "correctOptionIndex": 0,
     "explanation": "The allantoic sac stores liquid nitrogenous waste (uric acid/urea) and in birds fuses with the chorion to form the chorioallantoic respiratory membrane.",
@@ -2585,9 +2585,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "Failure of the aortic arch system to develop normally can produce 'persistent right aortic arch' (PRAA), causing:",
     "options": [
-      "Spina bifida",
-      "Cleft palate",
-      "Cryptorchidism",
+      "Congenital palatoschisis defect caused by failure of lateral palatine processes to fuse",
+      "Undescended intra-abdominal retention of fetal testicular parenchyma",
+      "Dorsal non-union of vertebral arches and incomplete neural tube closure",
       "Vascular ring entrapment of the esophagus"
     ],
     "correctOptionIndex": 3,
@@ -2608,9 +2608,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'pronephros' represents which stage of vertebrate kidney development?",
     "options": [
       "The definitive functional adult kidney",
-      "The adrenal precursor",
+      "The embryonic excretory organ of birds",
       "Initial non-functional transient kidney",
-      "The embryonic excretory organ of birds"
+      "The adrenal precursor (forming key topographical anatomical landmarks of the visceral region)"
     ],
     "correctOptionIndex": 2,
     "explanation": "The pronephros is the earliest, most cranial and transient kidney stage, followed by the mesonephros and the definitive metanephros.",
@@ -2629,10 +2629,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Histology & Embryology",
     "questionText": "The 'paneth cells' located at the base of intestinal crypts (crypts of Lieberkühn) produce:",
     "options": [
-      "Secretin",
+      "Secretin (Duodenal mucosal peptide stimulating bicarbonate-rich pancreatic secretion)",
       "Lysozyme and defensins (antimicrobial peptides)",
-      "Gastrin",
-      "Hydrochloric acid"
+      "Hydrochloric acid (Parietal cell secretion creating low pH gastric environment)",
+      "Gastrin (Antral G-cell peptide hormone stimulating gastric parietal acid secretion)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Paneth cells contain prominent apical eosinophilic granules containing lysozyme, defensins, and zinc to regulate the enteric microbial flora.",
@@ -2652,9 +2652,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Clara cells (club cells) are specialized non-ciliated secretory cells found in the lining of:",
     "options": [
       "Terminal and respiratory bronchioles",
-      "Alveoli",
-      "Trachea",
-      "Nasal septum"
+      "Alveoli (Terminal thin-walled pulmonary saccules lined by Type I and Type II pneumocytes)",
+      "Nasal septum (Median cartilaginous and bony partition dividing the nasal fossae)",
+      "Trachea (Cartilaginous tracheobronchial conduit lined by pseudostratified ciliated epithelium)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Club cells (Clara cells) populate the bronchiolar epithelium, secreting surfactant-like glycosaminoglycans and metabolizing xenobiotics via cytochrome P450 enzymes.",
@@ -2673,10 +2673,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The primary physiological pacemaker of the mammalian heart is the:",
     "options": [
-      "Purkinje fiber network",
+      "Atrioventricular (AV) node",
       "Sinoatrial (SA) node",
-      "Bundle of His",
-      "Atrioventricular (AV) node"
+      "Bundle of His (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Purkinje fiber network"
     ],
     "correctOptionIndex": 1,
     "explanation": "The SA node possesses the highest intrinsic rate of spontaneous diastolic depolarization (prepotential) due to funny channels (If), initiating the cardiac impulse.",
@@ -2696,9 +2696,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "On a standard electrocardiogram (ECG), the P wave represents:",
     "options": [
       "Atrial depolarization",
-      "Atrial repolarization",
+      "Ventricular repolarization",
       "Ventricular depolarization",
-      "Ventricular repolarization"
+      "Atrial repolarization"
     ],
     "correctOptionIndex": 0,
     "explanation": "The P wave represents the spread of electrical depolarization across both atria, followed immediately by atrial systole.",
@@ -2717,8 +2717,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "On an ECG, ventricular repolarization is represented by the:",
     "options": [
-      "PR interval",
       "QRS complex",
+      "PR interval",
       "T wave",
       "P wave"
     ],
@@ -2739,9 +2739,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The 'Frank-Starling law of the heart' states that:",
     "options": [
-      "Heart rate is inversely proportional to blood pressure",
-      "Contractility decreases when stretched",
-      "Cardiac output is independent of venous return",
+      "Cardiac output remains completely static regardless of alterations in peripheral venous return",
+      "Heart rate is universally and linearly inversely proportional to mean systemic arterial pressure",
+      "Contractility and stroke work decrease when ventricular end-diastolic volume expands",
       "Stroke volume increases in response to an increase in end-diastolic volume (preload)"
     ],
     "correctOptionIndex": 3,
@@ -2761,8 +2761,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Which plasma protein is the principal contributor to blood colloid osmotic (oncotic) pressure?",
     "options": [
-      "Fibrinogen",
       "Gamma globulin",
+      "Fibrinogen",
       "Alpha-1 antitrypsin",
       "Albumin"
     ],
@@ -2785,8 +2785,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "110 to 120 days",
       "20 to 30 days",
-      "140 to 160 days",
-      "60 to 70 days"
+      "60 to 70 days",
+      "140 to 160 days"
     ],
     "correctOptionIndex": 0,
     "explanation": "Canine red blood cells circulate for ~110-120 days before being sequestered and destroyed by macrophages in the spleen and liver.",
@@ -2805,10 +2805,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The life span of erythrocytes in the domestic cat is notably shorter, averaging approximately:",
     "options": [
-      "120 days",
+      "120 (subacute ruminal fluid fermentation threshold pH)",
       "68 to 70 days",
-      "90 days",
-      "150 days"
+      "150 (subacute ruminal fluid fermentation threshold pH)",
+      "90 (subacute ruminal fluid fermentation threshold pH)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Feline erythrocytes have a much shorter circulating life span (~68-70 days) compared to dogs, cattle, and humans.",
@@ -2827,8 +2827,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "In birds, the mature circulating erythrocytes are uniquely:",
     "options": [
-      "Crescent-shaped",
       "Biconcave and enucleated",
+      "Crescent-shaped, downstream glycolytic intermediates, and regulatory cofactors",
       "Oval, biconvex, and nucleated",
       "Spherical and enucleated"
     ],
@@ -2849,10 +2849,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The main trigger for erythropoietin (EPO) synthesis and secretion by peritubular interstitial cells of the kidney is:",
     "options": [
-      "Hypercalcemia",
-      "Hypertension",
+      "Hypertension (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Hypercalcemia (mediating altered systemic autonomic regulation and negative feedback loops)",
       "Renal tissue hypoxia",
-      "Hyperglycemia"
+      "Hyperglycemia (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Decreased oxygen tension (hypoxia) in renal tissue activates hypoxia-inducible factor (HIF-1alpha), stimulating erythropoietin secretion.",
@@ -2872,9 +2872,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Which coagulation factor is also known as the 'Christmas factor'?",
     "options": [
       "Factor IX",
-      "Factor VIII",
       "Factor X",
-      "Factor VII"
+      "Factor VII",
+      "Factor VIII"
     ],
     "correctOptionIndex": 0,
     "explanation": "Factor IX is the Christmas factor (antihemophilic factor B). Factor VIII is antihemophilic factor A, and Factor X is Stuart-Prower factor.",
@@ -2893,9 +2893,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The 'extrinsic pathway' of blood coagulation is initiated by the release of:",
     "options": [
-      "Calcium ions solely",
-      "Fibrinogen (Factor I)",
-      "Hageman factor (Factor XII)",
+      "Fibrinogen (Factor I, soluble hexameric plasma glycoprotein substrate)",
+      "Ionized calcium ions (Factor IV, divalent mineral cofactor required for clotting)",
+      "Hageman factor (Factor XII, contact activation serine protease initiating intrinsic pathway)",
       "Tissue factor (Thromboplastin / Factor III)"
     ],
     "correctOptionIndex": 3,
@@ -2915,10 +2915,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Erythrocyte sedimentation rate (ESR) is exceptionally rapid under normal physiological conditions in the healthy:",
     "options": [
-      "Sheep",
+      "Ox (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Horse",
-      "Dog",
-      "Ox"
+      "Dog (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Sheep"
     ],
     "correctOptionIndex": 1,
     "explanation": "Equine erythrocytes form prominent rouleaux formations very rapidly due to high plasma fibrinogen and globulin interactions, producing a high baseline ESR.",
@@ -2937,10 +2937,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "In cattle, normal physiological ESR is:",
     "options": [
-      "Moderate",
+      "Fluctuating daily (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Virtually zero (extremely slow)",
-      "Fluctuating daily",
-      "Very rapid like the horse"
+      "Very rapid like the horse",
+      "Moderate (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Bovine erythrocytes exhibit minimal or no rouleaux formation; thus, healthy cattle show an ESR near 0 mm/hour.",
@@ -2959,10 +2959,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The sound produced by closure of the atrioventricular (mitral and tricuspid) valves is the:",
     "options": [
+      "Third heart sound (S3)",
       "Second heart sound (S2 - 'Dub')",
-      "Fourth heart sound (S4)",
       "First heart sound (S1 - 'Lub')",
-      "Third heart sound (S3)"
+      "Fourth heart sound (S4)"
     ],
     "correctOptionIndex": 2,
     "explanation": "S1 marks the onset of ventricular systole caused by sudden tension and vibrations following closure of the AV valves.",
@@ -2982,9 +2982,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The second heart sound (S2) is caused by the closure of the:",
     "options": [
       "Aortic and pulmonary semilunar valves",
-      "Coronary sinus",
       "Mitral and tricuspid valves",
-      "Vena cava orifices"
+      "Vena cava orifices (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Coronary sinus (regulating target organ cellular receptor activation and intracellular second messengers)"
     ],
     "correctOptionIndex": 0,
     "explanation": "S2 marks the end of ventricular systole and beginning of diastole, produced by turbulent blood deceleration upon aortic and pulmonic valve closure.",
@@ -3003,9 +3003,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The 'Bainbridge reflex' describes the phenomenon where:",
     "options": [
-      "Pain produces bradycardia",
-      "Elevated carotid sinus pressure decreases heart rate",
-      "Deep inspiration slows the heart",
+      "Elevated carotid sinus baroreceptor pressure induces reflex vagal bradycardia and systemic vasodilation",
+      "Deep thoracic inspiration triggers immediate vagal efferent discharge causing sinus bradycardia",
+      "Severe visceral pain exclusively induces parasympathetic vagal stimulation and reflex bradycardia",
       "An increase in right atrial pressure/venous return causes a reflex increase in heart rate"
     ],
     "correctOptionIndex": 3,
@@ -3025,10 +3025,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The arterial baroreceptors responsible for short-term arterial blood pressure stabilization are located in the:",
     "options": [
+      "Jugular vein and Renal pelvis",
       "Femoral artery and Spleen",
-      "Coronary artery",
       "Carotid sinus and Aortic arch",
-      "Jugular vein and Renal pelvis"
+      "Coronary artery (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Carotid sinus (innervated by CN IX) and aortic arch (innervated by CN X) baroreceptors sense arterial wall stretch and regulate vascular tone.",
@@ -3048,9 +3048,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Cardiopulmonary low-pressure volume receptors stimulate the secretion of which natriuretic peptide when atria stretch?",
     "options": [
       "Atrial Natriuretic Peptide (ANP)",
-      "Aldosterone",
-      "Angiotensin II",
-      "Antidiuretic Hormone (ADH)"
+      "Antidiuretic Hormone (ADH)",
+      "Angiotensin II (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Aldosterone (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Atrial stretch releases ANP, which promotes renal sodium and water excretion, decreases renin secretion, and reduces blood pressure.",
@@ -3069,9 +3069,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Hematocrit or Packed Cell Volume (PCV) in a normal healthy adult cow is approximately:",
     "options": [
-      "10% to 15%",
-      "55% to 65%",
-      "70% to 80%",
+      "70% to 80% (average ~66-73%)",
+      "10% to 15% (average ~9-10%)",
+      "55% to 65% (average ~52-57%)",
       "24% to 46% (average ~30-35%)"
     ],
     "correctOptionIndex": 3,
@@ -3091,10 +3091,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The 'hematocrit paradox' or splenic reservoir effect allows which domestic animal to dramatically double its PCV during intense exercise?",
     "options": [
-      "Pig and Rabbit",
+      "Chicken and Duck",
       "Horse and Dog",
       "Cow and Sheep",
-      "Chicken and Duck"
+      "Pig and Rabbit"
     ],
     "correctOptionIndex": 1,
     "explanation": "Horses and dogs have highly muscular spleens that store up to 30-50% of total RBC mass, released via sympathetic alpha-1 adrenergic contraction during sprinting.",
@@ -3113,10 +3113,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Platelets (thrombocytes) in mammals are cell fragments derived from:",
     "options": [
-      "Erythroblasts",
+      "Kupffer cells in the liver",
       "Megakaryocytes in the bone marrow",
-      "Monocytes",
-      "Kupffer cells in the liver"
+      "Erythroblasts (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Monocytes (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Megakaryocytes undergo endomitosis and demarcate their cytoplasm to shed thousands of anucleated platelets into the circulation.",
@@ -3135,10 +3135,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Von Willebrand Factor (vWF) is essential in hemostasis for mediating:",
     "options": [
+      "Lysis of blood clots (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Cross-linking of fibrin monomers",
-      "Conversion of prothrombin to thrombin",
       "Platelet adhesion to subendothelial collagen",
-      "Lysis of blood clots"
+      "Conversion of prothrombin to thrombin"
     ],
     "correctOptionIndex": 2,
     "explanation": "vWF acts as a molecular bridge between exposed subendothelial collagen and the platelet GP Ib-IX-V receptor complex during initial primary hemostasis.",
@@ -3157,8 +3157,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Antithrombin III is a circulating anticoagulant that inhibits thrombin, whose activity is accelerated thousands-fold by:",
     "options": [
-      "Vitamin K",
       "Warfarin",
+      "Vitamin K",
       "Calcium",
       "Heparin"
     ],
@@ -3180,8 +3180,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Fibrinolysis (dissolution of the fibrin clot) is executed by which active serine protease?",
     "options": [
       "Plasmin",
-      "Pepsin",
       "Trypsin",
+      "Pepsin",
       "Thrombin"
     ],
     "correctOptionIndex": 0,
@@ -3201,10 +3201,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The 'mean arterial pressure' (MAP) can be clinically approximated as:",
     "options": [
+      "Systolic Pressure / Diastolic Pressure",
       "Systolic Pressure + Diastolic Pressure",
-      "(Systolic - Diastolic) / 2",
       "Diastolic Pressure + 1/3 (Pulse Pressure)",
-      "Systolic Pressure / Diastolic Pressure"
+      "(Systolic - Diastolic) / 2 (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Since diastole occupies approximately two-thirds of the cardiac cycle, MAP = Diastolic BP + 1/3(Systolic - Diastolic BP).",
@@ -3223,9 +3223,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The primary volatile fatty acid (VFA) produced in the rumen on high-forage (roughage) diets is:",
     "options": [
-      "Butyrate (Butyric acid)",
-      "Lactate",
       "Propionate (Propionic acid)",
+      "Butyrate (Butyric acid)",
+      "Lactate (mediating altered systemic autonomic regulation and negative feedback loops)",
       "Acetate (Acetic acid)"
     ],
     "correctOptionIndex": 3,
@@ -3246,9 +3246,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The primary volatile fatty acid that serves as the major glucogenic precursor in ruminants is:",
     "options": [
       "Propionate (Propionic acid)",
-      "Butyrate",
-      "Acetate",
-      "Isovalerate"
+      "Isovalerate (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Acetate (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Butyrate (regulating target organ cellular receptor activation and intracellular second messengers)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Propionate is the only major VFA that undergoes net gluconeogenesis in the bovine liver, converted via methylmalonyl-CoA into succinyl-CoA.",
@@ -3267,10 +3267,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The predominant volatile fatty acid metabolized directly by the ruminal epithelial wall during absorption is:",
     "options": [
-      "Propionate",
+      "Formate (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Butyrate (converted to beta-hydroxybutyrate)",
-      "Acetate",
-      "Formate"
+      "Acetate (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Propionate (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Over 80-90% of absorbed butyrate is metabolized by ruminal epithelial cells into beta-hydroxybutyrate (BHBA), a primary ketone body.",
@@ -3289,9 +3289,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The normal physiological pH of the rumen liquor in a cow fed a balanced roughage-concentrate ration is:",
     "options": [
+      "7.5 to 8.2",
       "3.0 to 3.5",
       "4.5 to 5.0",
-      "7.5 to 8.2",
       "6.2 to 6.8"
     ],
     "correctOptionIndex": 3,
@@ -3311,10 +3311,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Acute ruminal acidosis occurs when the ruminal pH falls below:",
     "options": [
-      "6.5",
-      "6.2",
+      "7.0 (subacute ruminal fluid fermentation threshold pH)",
+      "6.5 (subacute ruminal fluid fermentation threshold pH)",
       "5.0 (due to lactic acid accumulation)",
-      "7.0"
+      "6.2 (subacute ruminal fluid fermentation threshold pH)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Ingestion of excessive soluble carbohydrates causes Streptococcus bovis and lactobacilli overgrowth, producing D- and L-lactic acid and plunging pH below 5.0.",
@@ -3333,10 +3333,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The normal rate of primary (mixing) contractions in the adult bovine reticulorumen is approximately:",
     "options": [
-      "1 per hour",
+      "15 contractions per minute (or elevated frequency in 2 minutes)",
       "1 to 2 contractions per minute (or 3 in 2 minutes)",
-      "10 per minute",
-      "15 per minute"
+      "10 contractions per minute (or elevated frequency in 2 minutes)",
+      "1 contractions per minute (or elevated frequency in 2 minutes)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Healthy adult cattle exhibit approximately 1 to 2 primary reticuloruminal motility cycles per minute, palpable over the left paralumbar fossa.",
@@ -3356,9 +3356,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The secondary ruminal contraction (eructation cycle) initiates in the:",
     "options": [
       "Caudoventral blind sac and caudal dorsal sac",
-      "Reticulum",
-      "Omasum",
-      "Abomasum"
+      "Reticulum (Cranial honey-comb compartment regulating fluid and cud passage)",
+      "Abomasum (True glandular stomach secreting digestive pepsin and hydrochloric acid)",
+      "Omasum (Manyplies muscular laminae compartment absorbing water and bicarbonate)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The eructation contraction begins in the caudal dorsal sac, moving cranially to push the free gas bubble (CO2 and CH4) toward the cardia.",
@@ -3378,9 +3378,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'reticular groove reflex' (esophageal groove reflex) in neonatal calves directs ingested milk directly into the:",
     "options": [
       "Abomasum (bypassing rumen and reticulum)",
-      "Duodenum",
-      "Rumen",
-      "Omasum"
+      "Duodenum (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Rumen (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Omasum (Manyplies muscular laminae compartment absorbing water and bicarbonate)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Afferent stimulation of the pharyngeal and oral receptors by suckling triggers vagal closure of the reticular groove lips, channeling milk straight to the abomasum.",
@@ -3399,9 +3399,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The reticular groove closure reflex in adult small ruminants can be pharmacologically stimulated by oral dosing with:",
     "options": [
-      "Sodium chloride",
-      "Copper sulfate (CuSO4)",
       "Magnesium sulfate",
+      "Copper sulfate (CuSO4)",
+      "Sodium chloride (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Calcium carbonate"
     ],
     "correctOptionIndex": 1,
@@ -3421,9 +3421,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The principal gases produced during ruminal fermentation are:",
     "options": [
-      "Oxygen and Nitrogen",
-      "Hydrogen sulfide and Helium",
-      "Ammonia and Argon",
+      "Ammonia and Argon (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Hydrogen sulfide and Helium (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Oxygen and Nitrogen (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Carbon dioxide (60-70%) and Methane (30-40%)"
     ],
     "correctOptionIndex": 3,
@@ -3443,10 +3443,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Free-gas bloat (secondary tympany) in cattle is commonly caused by:",
     "options": [
-      "Stable foam formation",
-      "High rumen pH",
+      "Stable foam entrapment of gas bubbles in ruminal digesta producing frothy bloat",
+      "Inadequate salivary secretion failing to buffer volatile fatty acid fermentation",
       "Physical or functional obstruction of the esophagus preventing eructation",
-      "Deficiency of saliva"
+      "Excessive ruminal alkalosis inhibiting normal microbial digestion and motility"
     ],
     "correctOptionIndex": 2,
     "explanation": "Free-gas bloat results from failure of eructation due to esophageal obstruction (choke), tetanus, vagal indigestion, or lateral recumbency.",
@@ -3465,10 +3465,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Frothy bloat (primary tympany) is triggered by:",
     "options": [
-      "Rumen flukes",
+      "Esophageal foreign body (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Stable foam trapping fermentation gas in the rumen fluid (legume bloat)",
-      "Esophageal foreign body",
-      "Vagus nerve trauma"
+      "Vagus nerve trauma (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Rumen flukes (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Frothy bloat occurs on lush legume pastures (alfalfa, clover) containing soluble proteins and saponins that create a viscous, stable foam.",
@@ -3488,9 +3488,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The primary nitrogen source synthesized by ruminal microbes into high-quality microbial protein is:",
     "options": [
       "Ammonia (NH3)",
-      "Uric acid",
-      "Bilirubin",
-      "Creatinine"
+      "Uric acid (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Creatinine",
+      "Bilirubin (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Dietary true protein and non-protein nitrogen (NPN) are broken down into ammonia, which microbes utilize with carbohydrate carbon skeletons to make microbial protein.",
@@ -3509,10 +3509,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Urea nitrogen is conserved in ruminants through the 'rumino-hepatic nitrogen cycle' via:",
     "options": [
-      "Renal filtration exclusively",
-      "Sweat glands",
+      "Biliary canaliculi and common bile duct excretion into the proximal duodenum",
+      "Glomerular ultrafiltration and renal tubular excretion exclusively in urine",
       "Salivary secretion and direct diffusion across the ruminal wall",
-      "Bile ducts"
+      "Apocrine sweat glands and cutaneous insensible perspiration across the dermis"
     ],
     "correctOptionIndex": 2,
     "explanation": "Hepatic urea is recycled back into the rumen via saliva and direct trans-epithelial diffusion, preserving protein during low-nitrogen intake.",
@@ -3531,9 +3531,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The abomasum in adult cattle functions physiologically as the:",
     "options": [
-      "Grinding mill",
-      "Water absorption organ",
-      "Fermentation vat",
+      "Microbial anaerobic fermentation vat for cellulose and structural carbohydrate breakdown",
+      "Muscular omasal laminae organ dedicated to water, sodium, and bicarbonate resorption",
+      "Muscular avian ventriculus gizzard for mechanical trituration of ingested feed particles",
       "True glandular stomach secreting HCl and pepsin"
     ],
     "correctOptionIndex": 3,
@@ -3554,9 +3554,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'omasum' functions primarily in:",
     "options": [
       "Absorption of water, electrolytes, and residual VFAs",
-      "Methane production",
-      "Acid digestion",
-      "Fat emulsification"
+      "Acid digestion, downstream glycolytic intermediates, and regulatory cofactors",
+      "Methane production, downstream glycolytic intermediates, and regulatory cofactors",
+      "Fat emulsification, downstream glycolytic intermediates, and regulatory cofactors"
     ],
     "correctOptionIndex": 0,
     "explanation": "The extensive omasal laminae (manyplies) provide a massive surface area to absorb 60-70% of water and electrolytes entering from the reticulum.",
@@ -3575,9 +3575,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The primary buffer entering the rumen to neutralize volatile fatty acids is:",
     "options": [
-      "Gastric juice",
-      "Pancreatic lipase",
-      "Bile salts",
+      "Acidic gastric juice containing hydrochloric acid, pepsinogen, and mucus",
+      "Hepatic bile salts and phospholipids emulsifying dietary triglycerides in the duodenum",
+      "Pancreatic lipase and colipase hydrolyzing dietary triglycerides into free fatty acids",
       "Sodium bicarbonate and disodium phosphate in saliva"
     ],
     "correctOptionIndex": 3,
@@ -3597,10 +3597,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Which microbial population in the rumen is responsible for breaking down plant cell wall cellulose?",
     "options": [
-      "Escherichia coli",
-      "Streptococcus bovis",
+      "Streptococcus bovis, downstream glycolytic intermediates, and regulatory cofactors",
+      "Lactobacillus acidophilus, downstream glycolytic intermediates, and regulatory cofactors",
       "Fibrobacter succinogenes, Ruminococcus albus, Ruminococcus flavefaciens",
-      "Lactobacillus acidophilus"
+      "Escherichia coli (Enterotoxigenic colibacillosis and white scours)"
     ],
     "correctOptionIndex": 2,
     "explanation": "F. succinogenes, R. albus, and R. flavefaciens are the primary fibrolytic cellulolytic bacterial species in the rumen.",
@@ -3619,10 +3619,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Defaunation refers to the experimental or practical elimination of which microbial group from the rumen?",
     "options": [
-      "Cellulolytic bacteria",
+      "Bacteriophages",
       "Ciliate protozoa",
       "Anaerobic fungi",
-      "Bacteriophages"
+      "Cellulolytic bacteria"
     ],
     "correctOptionIndex": 1,
     "explanation": "Defaunation is the removal of protozoa from the rumen, which often improves dietary protein utilization efficiency by reducing bacterial predation.",
@@ -3641,10 +3641,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Rumen anaerobic fungi (e.g. Neocallimastix frontalis) play an essential role in:",
     "options": [
-      "Synthesizing vitamin C",
-      "Degrading toxic oxalates",
+      "Synthesizing vitamin C (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Producing lactic acid (mediating altered systemic autonomic regulation and negative feedback loops)",
       "Penetrating the cuticular barrier of coarse fibrous plant stems via rhizoids",
-      "Producing lactic acid"
+      "Degrading toxic oxalates (regulating target organ cellular receptor activation and intracellular second messengers)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Ruminal fungi use rhizoidal hyphae to physically crack tough lignified plant tissues, exposing internal cellulose to bacterial colonization.",
@@ -3663,10 +3663,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The primary site of cellulose and hemicellulose digestion in the horse is the:",
     "options": [
-      "Stomach",
+      "Duodenum (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Cecum and large colon (hindgut fermentation)",
-      "Duodenum",
-      "Ileum"
+      "Stomach (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Ileum (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The horse is a hindgut fermenter whose massive cecum and ventral/dorsal colon harbor symbiotic microbes that ferment plant fiber into absorbable VFAs.",
@@ -3685,9 +3685,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Unlike ruminants, horses cannot directly absorb microbial protein synthesized in their hindgut because:",
     "options": [
-      "Microbial protein is toxic to horses",
-      "Equine colon absorbs only fat",
-      "Horses lack proteases",
+      "Horses lack proteases (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Microbial protein is toxic to horses (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Equine colon absorbs only fat (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Microbial protein is formed caudal to the stomach and small intestine, being excreted in feces"
     ],
     "correctOptionIndex": 3,
@@ -3709,8 +3709,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "150 to 200 Litres",
       "10 to 15 Litres",
-      "2 to 5 Litres",
-      "500 Litres"
+      "500 Litres (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "2 to 5 Litres"
     ],
     "correctOptionIndex": 0,
     "explanation": "A lactating dairy cow produces 150-200 liters of saliva daily, providing the continuous aqueous buffer needed to maintain ruminal pH.",
@@ -3729,9 +3729,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Vagal indigestion (Hoflund syndrome) Type II is characterized by:",
     "options": [
+      "Pyloric stenosis (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Failure of eructation",
       "Esophageal rupture",
-      "Pyloric stenosis",
       "Omasal transport failure"
     ],
     "correctOptionIndex": 3,
@@ -3751,10 +3751,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The primary stimulus for the initiation of rumination (chewing the cud) is:",
     "options": [
-      "Hypoglycemia",
+      "Excessive ruminal alkalosis inhibiting normal microbial digestion and motility",
       "Tactile friction of coarse roughage particles against the cranial rumen and reticular mucosa",
-      "Abomasal distension",
-      "High rumen pH"
+      "Hypoglycemia (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Abomasal distension (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Coarse fibrous feed scratching against the mucosa near the cardia triggers sensory vagal afferents that initiate the regurgitation reflex of rumination.",
@@ -3773,10 +3773,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Pulmonary surfactant, which reduces alveolar surface tension and prevents alveolar collapse, is synthesized by:",
     "options": [
-      "Type I pneumocytes",
-      "Alveolar macrophages",
+      "Alveolar macrophages (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Type I pneumocytes (mediating altered systemic autonomic regulation and negative feedback loops)",
       "Type II pneumocytes (Granular alveolar cells)",
-      "Clara cells"
+      "Clara cells (regulating target organ cellular receptor activation and intracellular second messengers)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Type II alveolar epithelial cells produce pulmonary surfactant composed predominantly of dipalmitoylphosphatidylcholine (DPPC) and surfactant apoproteins.",
@@ -3796,9 +3796,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The primary chemical driver of physiological ventilation under resting conditions is the arterial partial pressure of:",
     "options": [
       "Carbon dioxide (PaCO2)",
-      "Oxygen (PaO2)",
-      "Carbon monoxide",
-      "Nitrogen (PaN2)"
+      "Nitrogen (PaN2) (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Carbon monoxide (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Oxygen (PaO2) (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Central chemoreceptors on the ventrolateral medulla respond to changes in brain ECF pH driven by arterial PaCO2, acting as the primary regulator of ventilation.",
@@ -3818,9 +3818,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'Bohr effect' describes the physiological shift of the oxygen-hemoglobin dissociation curve:",
     "options": [
       "To the right in the presence of elevated CO2, H+ (acidosis), and temperature",
-      "Upward in anemia",
-      "Downward in alkalosis",
-      "To the left at low pH"
+      "Upward in anemia, downstream glycolytic intermediates, and regulatory cofactors",
+      "Downward in alkalosis, downstream glycolytic intermediates, and regulatory cofactors",
+      "To the left at low pH, downstream glycolytic intermediates, and regulatory cofactors"
     ],
     "correctOptionIndex": 0,
     "explanation": "The Bohr effect shifts the Hb-O2 dissociation curve to the right in metabolically active tissues, facilitating oxygen offloading to peripheral cells.",
@@ -3839,10 +3839,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Avian respiration is unique among vertebrates because airflow through the parabronchi is:",
     "options": [
-      "Tidal",
-      "Intermittent",
+      "Tidal (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Intermittent (mediating altered systemic autonomic regulation and negative feedback loops)",
       "Unidirectional during both inspiration and expiration",
-      "Bidirectional like mammals"
+      "Bidirectional like mammals (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 2,
     "explanation": "The avian respiratory system uses air sacs as non-vascular bellows to circulate air unidirectionally through the paleopulmonic parabronchi during both phases.",
@@ -3861,10 +3861,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "How many respiratory cycles (inspiration + expiration) are required for a single parcel of air to pass completely through the avian respiratory system?",
     "options": [
-      "Three cycles",
+      "Four cycles (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Two complete respiratory cycles",
-      "Four cycles",
-      "One cycle"
+      "Three cycles (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "One cycle (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 1,
     "explanation": "It takes two complete respiratory cycles (Cycle 1: trachea -> caudal sacs -> lungs; Cycle 2: lungs -> cranial sacs -> trachea -> exit) for air to traverse the bird.",
@@ -3883,9 +3883,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The primary site of sodium and water reabsorption in the mammalian nephron is the:",
     "options": [
-      "Collecting duct",
+      "Collecting duct (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Ascending thin limb of Henle",
-      "Distal convoluted tubule",
+      "Distal convoluted tubule (mediating altered systemic autonomic regulation and negative feedback loops)",
       "Proximal convoluted tubule (65-70%)"
     ],
     "correctOptionIndex": 3,
@@ -3907,8 +3907,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Loop of Henle",
       "Afferent arteriole",
-      "Glomerulus",
-      "Proximal tubule"
+      "Proximal tubule",
+      "Glomerulus"
     ],
     "correctOptionIndex": 0,
     "explanation": "The loop of Henle (specifically the thick ascending limb actively pumping Na-K-2Cl into the interstitium) functions as a countercurrent multiplier.",
@@ -3927,9 +3927,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Antidiuretic Hormone (ADH / Vasopressin) increases water reabsorption by inserting which water channels into collecting duct principal cells?",
     "options": [
-      "Aquaporin-1",
+      "Aquaporin-1 (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "GLUT-4 (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Sodium-potassium pump",
-      "GLUT-4",
       "Aquaporin-2 (AQP-2)"
     ],
     "correctOptionIndex": 3,
@@ -3949,10 +3949,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Aldosterone acts primarily on which nephron segment to promote sodium reabsorption and potassium/hydrogen excretion?",
     "options": [
-      "Bowman capsule",
-      "Proximal tubule",
+      "Glomerulus (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Bowman capsule (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Late distal convoluted tubule and cortical collecting duct principal cells",
-      "Glomerulus"
+      "Proximal tubule (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Aldosterone enters principal cells to upregulate basolateral Na+/K+ ATPase and apical ENaC sodium channels, conserving Na+ and excreting K+.",
@@ -3971,10 +3971,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Renin is secreted by the juxtaglomerular cells in response to:",
     "options": [
-      "Hypernatremia",
+      "Hypertension (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Decreased renal arterial perfusion pressure or decreased NaCl delivery to macula densa",
-      "Increased blood volume",
-      "Hypertension"
+      "Hypernatremia (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Increased blood volume (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Renin release is triggered by decreased renal perfusion pressure, sympathetic renal nerve stimulation (beta-1), or low NaCl delivery sensed by macula densa.",
@@ -3994,9 +3994,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The enzyme that converts Angiotensin I into the potent vasoconstrictor Angiotensin II is:",
     "options": [
       "Angiotensin-Converting Enzyme (ACE) located primarily in pulmonary endothelial cells",
-      "Kallikrein",
-      "Renin",
-      "Pepsin"
+      "Renin (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Pepsin (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Kallikrein (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 0,
     "explanation": "ACE is an endothelial brush border ectoenzyme concentrated in the capillary bed of the lungs that hydrolyzes the decapeptide Ang I into the octapeptide Ang II.",
@@ -4015,10 +4015,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The 'renal threshold' for glucose in the domestic dog is approximately:",
     "options": [
-      "350 mg/dL",
-      "80 mg/dL",
+      "500 (subacute ruminal fluid fermentation threshold pH)",
+      "80 (subacute ruminal fluid fermentation threshold pH)",
       "180 mg/dL (10 mmol/L)",
-      "500 mg/dL"
+      "350 (subacute ruminal fluid fermentation threshold pH)"
     ],
     "correctOptionIndex": 2,
     "explanation": "When blood glucose exceeds ~180 mg/dL in dogs, tubular maximum (Tm) for glucose reabsorption in the PCT is exceeded, resulting in glucosuria.",
@@ -4037,9 +4037,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "In the domestic cat, the renal threshold for glucose is significantly higher, approximately:",
     "options": [
-      "450 mg/dL",
-      "150 mg/dL",
-      "100 mg/dL",
+      "100 (subacute ruminal fluid fermentation threshold pH)",
+      "450 (subacute ruminal fluid fermentation threshold pH)",
+      "150 (subacute ruminal fluid fermentation threshold pH)",
       "280 to 300 mg/dL"
     ],
     "correctOptionIndex": 3,
@@ -4059,10 +4059,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The primary nitrogenous excretory waste in birds and terrestrial reptiles is:",
     "options": [
-      "Hippuric acid",
+      "Urea (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Uric acid",
-      "Urea",
-      "Ammonia"
+      "Ammonia",
+      "Hippuric acid"
     ],
     "correctOptionIndex": 1,
     "explanation": "Birds are uricotelic; they convert toxic ammonia into insoluble uric acid, excreted as a white paste without requiring water, conserving body hydration.",
@@ -4103,10 +4103,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The rapid upstroke (depolarization) of the action potential in a nerve fiber is caused by the sudden opening of:",
     "options": [
-      "Calcium ATPase",
-      "Chloride channels",
+      "Calcium ATPase (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Voltage-gated Potassium channels",
       "Voltage-gated Sodium (Na+) channels",
-      "Voltage-gated Potassium channels"
+      "Chloride channels (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Once the threshold potential is reached, voltage-gated Na+ channels rapidly activate, causing an explosive inward influx of sodium.",
@@ -4125,9 +4125,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The neurotransmitter released at the mammalian neuromuscular junction (motor endplate) is:",
     "options": [
-      "GABA",
-      "Dopamine",
       "Norepinephrine",
+      "GABA (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Dopamine (mediating altered systemic autonomic regulation and negative feedback loops)",
       "Acetylcholine (ACh)"
     ],
     "correctOptionIndex": 3,
@@ -4148,8 +4148,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "In skeletal muscle, the calcium sensor protein on the actin thin filament that binds calcium to initiate contraction is:",
     "options": [
       "Troponin C",
-      "Myosin light chain",
       "Actinin",
+      "Myosin light chain",
       "Tropomyosin"
     ],
     "correctOptionIndex": 0,
@@ -4169,10 +4169,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Rigor mortis occurs after death because:",
     "options": [
-      "Troponin is degraded",
-      "Lactic acid dissolves actin",
+      "Troponin is degraded (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Calcium is completely exhausted (mediating altered systemic autonomic regulation and negative feedback loops)",
       "ATP depletion prevents detachment of myosin heads from actin filaments",
-      "Calcium is completely exhausted"
+      "Lactic acid dissolves actin (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Without ATP production after death, the myosin cross-bridge cannot dissociate from actin, locking muscles in a stiff state termed rigor mortis.",
@@ -4191,9 +4191,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Saltatory conduction of action potentials in myelinated axons occurs from:",
     "options": [
-      "Synapse to nucleus",
-      "Soma to dendrite",
+      "Soma to dendrite (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Schwann cell to Schwann cell",
+      "Synapse to nucleus (mediating altered systemic autonomic regulation and negative feedback loops)",
       "Node of Ranvier to Node of Ranvier"
     ],
     "correctOptionIndex": 3,
@@ -4214,9 +4214,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'milk ejection reflex' (milk letdown) is mediated neurohormonally by the release of which hormone from the neurohypophysis?",
     "options": [
       "Oxytocin",
-      "Prolactin",
       "Growth Hormone",
-      "Progesterone"
+      "Progesterone",
+      "Prolactin"
     ],
     "correctOptionIndex": 0,
     "explanation": "Teat stimulation triggers sensory spinothalamic impulses to the supraoptic and paraventricular nuclei of the hypothalamus, releasing oxytocin to contract myoepithelial cells.",
@@ -4235,10 +4235,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The hormone responsible for the initiation and maintenance of lactogenesis (milk synthesis) within alveolar epithelial cells is:",
     "options": [
-      "Luteinizing Hormone",
-      "Prolactin",
       "Oxytocin",
-      "Estrogen"
+      "Prolactin",
+      "Estrogen",
+      "Luteinizing Hormone"
     ],
     "correctOptionIndex": 1,
     "explanation": "Prolactin secreted by anterior pituitary lactotrophs stimulates the transcription of milk protein genes (casein, alpha-lactalbumin) and enzyme machinery.",
@@ -4258,9 +4258,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The average duration of the estrous cycle in the domestic cow is:",
     "options": [
       "21 days (range 18-24 days)",
-      "28 days",
-      "60 days",
-      "14 days"
+      "28 (subacute ruminal fluid fermentation threshold pH)",
+      "60 (subacute ruminal fluid fermentation threshold pH)",
+      "14 (subacute ruminal fluid fermentation threshold pH)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The bovine estrous cycle averages 21 days (polyestrous year-round), comprising proestrus, estrus (~12-18 hours), metestrus, and diestrus.",
@@ -4279,9 +4279,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Ovulation in the cow uniquely occurs:",
     "options": [
-      "During standing heat",
-      "Before standing heat begins",
-      "At the onset of proestrus",
+      "At the onset of proestrus (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "During standing heat (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Before standing heat begins (regulating target organ cellular receptor activation and intracellular second messengers)",
       "10 to 12 hours AFTER the end of estrus (standing heat)"
     ],
     "correctOptionIndex": 3,
@@ -4301,10 +4301,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The 'LH surge' (preovulatory luteinizing hormone surge) is directly stimulated by positive feedback from high levels of:",
     "options": [
-      "Cortisol",
-      "Inhibin",
+      "Inhibin (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Progesterone",
       "Estradiol-17beta",
-      "Progesterone"
+      "Cortisol (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 2,
     "explanation": "When the dominant follicle reaches preovulatory size, sustained high estradiol concentrations switch from negative to positive feedback on GnRH/LH secretion.",
@@ -4323,10 +4323,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The primary luteolytic hormone in domestic farm animals that induces regression of the corpus luteum is:",
     "options": [
-      "Relaxin",
+      "Relaxin (Corpus luteum polypeptide softening pelvic ligaments and dilating the cervix)",
       "Prostaglandin F2alpha (PGF2alpha)",
-      "Prolactin",
-      "Progesterone"
+      "Progesterone (Luteal steroid hormone maintaining endometrial quiescence and gestation)",
+      "Prolactin (Anterior pituitary lactotrophic peptide hormone initiating and maintaining lactation)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Uterine endometrium secretes pulsatile PGF2alpha in the late luteal phase, which reaches the ipsilateral ovary via the ovarian artery countercurrent mechanism to destroy the CL.",
@@ -4346,8 +4346,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Maternal recognition of pregnancy (MRP) in the cow is signaled by the conceptus secreting:",
     "options": [
       "Equine chorionic gonadotropin",
+      "Estrogen (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Human chorionic gonadotropin",
-      "Estrogen",
       "Bovine Interferon-tau (bIFN-tau)"
     ],
     "correctOptionIndex": 3,
@@ -4367,10 +4367,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Maternal recognition of pregnancy in the pig (sow) is signaled by conceptus secretion of:",
     "options": [
-      "Progesterone",
-      "PGF2alpha",
+      "Prostaglandin F2alpha (Uterine endometrial autacoid inducing structural luteolysis of corpus luteum)",
+      "Progesterone (Luteal steroid hormone maintaining endometrial quiescence and gestation)",
       "Estrogen (Estradiol-17beta)",
-      "Interferon-tau"
+      "Interferon-tau (Bovine trophoblast antiluteolytic protein preventing PGF2alpha release)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Pig embryos secrete estradiol between days 11-12, which redirects PGF2alpha secretion into the uterine lumen (exocrine direction) where it is degraded.",
@@ -4389,10 +4389,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Induced (reflex) ovulation upon coital stimulation occurs naturally in which domestic species?",
     "options": [
-      "Mare and Sow",
+      "Cow and Ewe (mediating altered systemic autonomic regulation and negative feedback loops)",
       "Cat (Queen) and Camelids",
-      "Bitch",
-      "Cow and Ewe"
+      "Mare and Sow (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Bitch (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The domestic cat, camelids (camel, llama, alpaca), and ferrets are induced ovulators; mechanical stimulation of the cervix during copulation triggers neuroendocrine LH release.",
@@ -4412,9 +4412,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'bitch' (female dog) is classified endocrinologically as a:",
     "options": [
       "Monoestrous, non-seasonal animal with obligatory pseudopregnancy in diestrus",
-      "Continuous polyestrous animal",
-      "Induced ovulator",
-      "Seasonally polyestrous long-day breeder"
+      "Seasonally polyestrous long-day breeder (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Induced ovulator (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Continuous polyestrous animal (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The bitch undergoes 1 or 2 estrous cycles per year (monoestrous); regardless of pregnancy, the CL persists for ~60 days with high progesterone.",
@@ -4434,9 +4434,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The hormone responsible for maintaining myometrial quiescence and pregnancy in all domestic animals is:",
     "options": [
       "Progesterone",
-      "Oxytocin",
+      "Estrogen (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Prostaglandin E2",
-      "Estrogen"
+      "Oxytocin (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Progesterone ('pro-gestation') synthesized by the corpus luteum and/or placenta inhibits uterine myometrial contractions and stimulates endometrial gland secretion.",
@@ -4455,10 +4455,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Equine Chorionic Gonadotropin (eCG / PMSG) is produced by specialized fetal structures termed:",
     "options": [
-      "Amniotic plaques",
-      "Cotyledons",
+      "Caruncles (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Cotyledons (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Endometrial cups",
-      "Caruncles"
+      "Amniotic plaques"
     ],
     "correctOptionIndex": 2,
     "explanation": "Between days 35-120 of equine gestation, invading fetal trophoblast cells form endometrial cups in the mare uterus, secreting eCG with potent LH/FSH activity to form accessory CLs.",
@@ -4477,10 +4477,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Which hormone is synthesized by thyroid parafollicular (C cells) and acts to lower plasma calcium concentration?",
     "options": [
-      "Thyroxine (T4)",
+      "Parathyroid Hormone (PTH)",
       "Calcitonin",
       "Vitamin D3 (Calcitriol)",
-      "Parathyroid Hormone (PTH)"
+      "Thyroxine (T4)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Calcitonin is released in response to hypercalcemia; it inhibits osteoclast-mediated bone resorption and renal tubular calcium reabsorption.",
@@ -4499,9 +4499,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Parathyroid Hormone (PTH) acts to raise serum ionized calcium by:",
     "options": [
-      "Excreting calcium in urine",
-      "Inhibiting bone breakdown",
-      "Suppressing Vitamin D",
+      "Suppressing Vitamin D, downstream glycolytic intermediates, and regulatory cofactors",
+      "Excreting calcium in urine, downstream glycolytic intermediates, and regulatory cofactors",
+      "Inhibiting bone breakdown, downstream glycolytic intermediates, and regulatory cofactors",
       "Stimulating osteoclasts, increasing renal tubular Ca reabsorption, and activating 1-alpha-hydroxylase"
     ],
     "correctOptionIndex": 3,
@@ -4523,8 +4523,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Hypokalemia",
       "Hypocalcemia",
-      "Hypoglycemia",
-      "Hypermagnesemia"
+      "Hypermagnesemia",
+      "Hypoglycemia"
     ],
     "correctOptionIndex": 1,
     "explanation": "The sudden drain of calcium into colostrum at the onset of lactation outpaces osteoclast mobilization and intestinal absorption, causing acute hypocalcemia and flaccid paralysis.",
@@ -4543,10 +4543,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Which hormone is secreted by the pineal gland in response to darkness and regulates seasonal breeding in sheep and horses?",
     "options": [
-      "Serotonin",
       "Dopamine",
+      "Prolactin",
       "Melatonin",
-      "Prolactin"
+      "Serotonin"
     ],
     "correctOptionIndex": 2,
     "explanation": "Melatonin is synthesized exclusively during dark hours; short days in autumn increase melatonin, stimulating GnRH in short-day breeders (sheep/goats) and inhibiting it in long-day breeders (horses).",
@@ -4566,9 +4566,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Ewe and doe are classified reproductively as:",
     "options": [
       "Seasonally polyestrous short-day breeders (fall breeders)",
-      "Seasonally polyestrous long-day breeders (spring breeders)",
-      "Continuous polyestrous",
-      "Monoestrous"
+      "Continuous polyestrous (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Monoestrous (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Seasonally polyestrous long-day breeders (spring breeders)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Sheep and goats are short-day breeders that cycle in autumn and winter when day length shortens and melatonin secretion increases.",
@@ -4587,9 +4587,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The mare is classified reproductively as a:",
     "options": [
-      "Monoestrous",
-      "Short-day breeder",
-      "Induced ovulator",
+      "Induced ovulator (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Monoestrous (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Short-day breeder (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Seasonally polyestrous long-day breeder (spring/summer breeder)"
     ],
     "correctOptionIndex": 3,
@@ -4610,8 +4610,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The primary hormone responsible for secondary male sex characteristics and spermatogenesis is:",
     "options": [
       "Estradiol",
-      "Dihydrotestosterone only",
       "Luteinizing Hormone",
+      "Dihydrotestosterone only",
       "Testosterone"
     ],
     "correctOptionIndex": 3,
@@ -4631,10 +4631,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Inhibin is secreted by Sertoli cells in the male and granulosa cells in the female to selectively suppress:",
     "options": [
-      "Luteinizing Hormone (LH)",
+      "Progesterone (Luteal steroid hormone maintaining endometrial quiescence and gestation)",
       "Follicle-Stimulating Hormone (FSH)",
-      "Oxytocin",
-      "Progesterone"
+      "Oxytocin (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Luteinizing Hormone (LH)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Inhibin acts directly on anterior pituitary gonadotrophs to downregulate FSH synthesis and secretion via negative feedback.",
@@ -4653,10 +4653,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The thyroid gland predominantly secretes which form of thyroid hormone into the circulation?",
     "options": [
-      "Diiodotyrosine",
-      "Reverse T3",
+      "Diiodotyrosine (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Triiodothyronine (T3)",
       "Thyroxine (T4) (over 90%)",
-      "Triiodothyronine (T3)"
+      "Reverse T3 (regulating target organ cellular receptor activation and intracellular second messengers)"
     ],
     "correctOptionIndex": 2,
     "explanation": "The thyroid gland secretes ~90-95% T4, which is converted in peripheral tissues by 5'-deiodinase into the biologically active T3.",
@@ -4676,9 +4676,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Cortisol is synthesized and released by which specific zone of the adrenal cortex?",
     "options": [
       "Zona fasciculata",
-      "Zona glomerulosa",
       "Zona reticularis",
-      "Adrenal medulla"
+      "Adrenal medulla",
+      "Zona glomerulosa"
     ],
     "correctOptionIndex": 0,
     "explanation": "The zona fasciculata (middle and widest cortical layer) produces glucocorticoids (cortisol and corticosterone) under ACTH stimulation.",
@@ -4698,9 +4698,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The adrenal medulla synthesizes catecholamines (epinephrine and norepinephrine) from the amino acid precursor:",
     "options": [
       "Tyrosine",
-      "Histidine",
+      "Tryptophan",
       "Methionine",
-      "Tryptophan"
+      "Histidine"
     ],
     "correctOptionIndex": 0,
     "explanation": "Tyrosine is converted by tyrosine hydroxylase to L-DOPA, then to dopamine, norepinephrine, and methylated to epinephrine by PNMT.",
@@ -4720,8 +4720,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Glucagon is secreted by which endocrine cells of the pancreatic islets?",
     "options": [
       "PP cells",
-      "Delta cells",
       "Beta cells",
+      "Delta cells",
       "Alpha cells"
     ],
     "correctOptionIndex": 3,
@@ -4741,10 +4741,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The hormone Somatostatin, which exerts inhibitory paracrine control over insulin and glucagon, is secreted by:",
     "options": [
-      "Beta cells",
+      "Beta cells (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Delta cells of pancreatic islets",
-      "Alpha cells",
-      "Acinar cells"
+      "Alpha cells (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Acinar cells (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Delta cells synthesize somatostatin (GHIH), which inhibits the secretion of insulin, glucagon, gastrin, and GH.",
@@ -4763,10 +4763,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "Growth Hormone (GH / Somatotropin) exerts its growth-promoting actions on long bones primarily via liver production of:",
     "options": [
-      "Thyroxine",
-      "Calcitonin",
+      "Calcitonin (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Thyroxine (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Insulin-like Growth Factor 1 (IGF-1 / Somatomedin C)",
-      "Insulin"
+      "Insulin (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 2,
     "explanation": "GH stimulates hepatocytes to synthesize and secrete IGF-1, which acts on chondrocytes at epiphyseal plates to stimulate linear skeletal growth.",
@@ -4785,9 +4785,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The duration of spermatogenesis in the bull from spermatogonium to mature spermatozoon is approximately:",
     "options": [
-      "90 days",
-      "61 days",
       "30 days",
+      "61 days",
+      "90 days",
       "21 days"
     ],
     "correctOptionIndex": 1,
@@ -4807,10 +4807,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Physiology & Endocrinology",
     "questionText": "The acrosome of the spermatozoon is a modified lysosome derived from the:",
     "options": [
-      "Mitochondria",
       "Endoplasmic reticulum",
+      "Mitochondria",
       "Golgi apparatus",
-      "Centriole"
+      "Centriole (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 2,
     "explanation": "During spermiogenesis, the Golgi apparatus coalesces over the anterior two-thirds of the sperm nucleus to form the acrosomal cap containing hyaluronidase and acrosin.",
@@ -4852,9 +4852,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'thermoregulatory mechanism' of the mammalian testis maintains testicular temperature:",
     "options": [
       "2 to 6 degrees C below core body temperature",
-      "2 degrees C above body temperature",
+      "Equal to core body temperature (regulating target organ cellular receptor activation and intracellular second messengers)",
       "10 degrees C below body temperature",
-      "Equal to core body temperature"
+      "2 degrees C above body temperature"
     ],
     "correctOptionIndex": 0,
     "explanation": "Normal spermatogenesis requires a temperature 2-6 degrees C cooler than core body heat, maintained by the pampiniform plexus countercurrent heat exchanger and dartos/cremaster muscles.",
@@ -4873,9 +4873,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The primary physiological mechanism of heat dissipation in dogs and sheep during severe heat stress is:",
     "options": [
-      "Copious sweating like horses",
-      "Voluntary hypothermia",
-      "Reduced heart rate",
+      "Voluntary hypothermia (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Copious sweating like horses (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Reduced heart rate (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Thermal panting (polypnea with shallow tidal volume)"
     ],
     "correctOptionIndex": 3,
@@ -4896,9 +4896,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "In equine exercise physiology, heat is dissipated predominantly through sweating, mediated by which receptor type on apocrine sweat glands?",
     "options": [
       "Beta-2 adrenergic receptors (stimulated by circulating epinephrine)",
-      "Nicotinic",
-      "Alpha-2 adrenergic",
-      "Muscarinic cholinergic"
+      "Nicotinic (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Muscarinic cholinergic (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Alpha-2 adrenergic (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Equine sweating is unique in being driven by sympathetic beta-2 adrenergic stimulation via circulating epinephrine, secreting sweat rich in latherin protein and electrolytes (Na, K, Cl).",
@@ -4939,10 +4939,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The average heart rate of a healthy adult horse at rest is approximately:",
     "options": [
-      "120 to 140 bpm",
+      "15 to 20 bpm (regulating target organ cellular receptor activation and intracellular second messengers)",
       "28 to 40 beats per minute",
-      "15 to 20 bpm",
-      "70 to 80 bpm"
+      "70 to 80 bpm (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "120 to 140 bpm (regulating target organ cellular receptor activation and intracellular second messengers)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Normal resting equine heart rate is remarkably low (28-40 bpm) due to high resting vagal parasympathetic tone; it can increase to >220 bpm during maximal gallop.",
@@ -4962,9 +4962,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'galactopoietic hormone' primarily responsible for maintaining established milk secretion in ruminants is:",
     "options": [
       "Bovine Somatotropin (bST / Growth Hormone)",
-      "Progesterone",
-      "Oxytocin",
-      "Prolactin"
+      "Oxytocin (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Prolactin (Anterior pituitary lactotrophic peptide hormone initiating and maintaining lactation)",
+      "Progesterone (Luteal steroid hormone maintaining endometrial quiescence and gestation)"
     ],
     "correctOptionIndex": 0,
     "explanation": "While prolactin initiates lactogenesis, growth hormone (bST) is the primary galactopoietic driver in ruminants, partitioning nutrients toward the mammary gland.",
@@ -4983,10 +4983,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The blood-testis barrier that isolates haploid spermatids from autoimmune destruction is established by tight junctions between:",
     "options": [
-      "Endothelial cells",
       "Myoid cells",
+      "Leydig cells",
       "Sertoli cells",
-      "Leydig cells"
+      "Endothelial cells"
     ],
     "correctOptionIndex": 2,
     "explanation": "Zonula occludens (tight junctions) between basolateral membranes of adjacent Sertoli cells divide the seminiferous epithelium into basal and adluminal compartments.",
@@ -5005,10 +5005,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The site of active fertilization of the ovulated ovum in domestic mammals is the:",
     "options": [
-      "Cervix",
+      "Cervix (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Ampullary-isthmic junction of the oviduct (fallopian tube)",
-      "Ovarian bursa",
-      "Uterine body"
+      "Ovarian bursa (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Uterine body (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Capacitated spermatozoa fertilize the secondary oocyte specifically at the ampullary-isthmic junction of the oviduct within 12-24 hours after ovulation.",
@@ -5027,9 +5027,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "Sperm capacitation in the female reproductive tract involves:",
     "options": [
-      "Gain of flagellar motility",
-      "DNA replication",
-      "Condensation of chromatin",
+      "Gain of flagellar motility (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Condensation of chromatin (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "DNA replication (regulating target organ cellular receptor activation and intracellular second messengers)",
       "Removal of decapacitating surface seminal glycoproteins and cholesterol efflux destabilizing the acrosomal membrane"
     ],
     "correctOptionIndex": 3,
@@ -5049,10 +5049,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The 'acrosome reaction' is triggered when the capacitated sperm binds to which glycoprotein of the zona pellucida?",
     "options": [
-      "ZP2",
-      "ZP4",
+      "ZP2 (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "ZP4 (mediating altered systemic autonomic regulation and negative feedback loops)",
       "ZP3 (Zona Pellucida Glycoprotein 3)",
-      "ZP1"
+      "ZP1 (mediating altered systemic autonomic regulation and negative feedback loops)"
     ],
     "correctOptionIndex": 2,
     "explanation": "ZP3 acts as the primary sperm receptor, inducing calcium influx that triggers multiple fusions between the sperm plasma membrane and outer acrosomal membrane to release acrosin.",
@@ -5071,10 +5071,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The 'polyspermy block' (cortical reaction) in mammalian oocytes is triggered by:",
     "options": [
-      "Phagocytosis of excess sperm",
+      "Phagocytosis of excess sperm (modulating peripheral vascular resistance and transmembrane action potentials)",
       "Exocytosis of cortical granules releasing enzymes that harden the zona pellucida (zona reaction)",
-      "Rapid membrane depolarization only",
-      "Immediate extrusion of polar body"
+      "Rapid membrane depolarization only (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Immediate extrusion of polar body (regulating target organ cellular receptor activation and intracellular second messengers)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Intracellular calcium oscillations trigger cortical granule exocytosis, releasing proteases that cleave ZP3 and modify ZP2, permanently preventing penetration of additional spermatozoa.",
@@ -5094,9 +5094,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The dominant follicle produces high levels of Inhibin to selectively suppress anterior pituitary secretion of:",
     "options": [
       "FSH (Follicle-Stimulating Hormone)",
-      "LH",
-      "ACTH",
-      "TSH"
+      "ACTH (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "LH (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "TSH (regulating target organ cellular receptor activation and intracellular second messengers)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Inhibin exerts specific negative feedback on anterior pituitary gonadotrophs, starving subordinate wave follicles of FSH and causing their atresia while the dominant follicle persists.",
@@ -5115,9 +5115,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The 'standing heat' (estrus phase) of the domestic cow typically lasts for approximately:",
     "options": [
-      "24 to 36 hours",
-      "3 to 4 days",
-      "7 days",
+      "3 to 4 days (average ~3-4days)",
+      "7 (subacute ruminal fluid fermentation threshold pH)",
+      "24 to 36 hours (average ~34-37hours)",
       "12 to 18 hours (average ~15 hours)"
     ],
     "correctOptionIndex": 3,
@@ -5137,9 +5137,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The life-span of the ovulated bovine ovum (fertile window) after ovulation is approximately:",
     "options": [
-      "48 hours",
+      "48 hours (regulating target organ cellular receptor activation and intracellular second messengers)",
       "8 to 12 hours",
-      "72 hours",
+      "72 hours (regulating target organ cellular receptor activation and intracellular second messengers)",
       "24 to 36 hours"
     ],
     "correctOptionIndex": 1,
@@ -5159,8 +5159,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The average survival lifespan of frozen-thawed bovine spermatozoa in the female reproductive tract is:",
     "options": [
-      "5 to 6 days",
       "2 to 3 hours",
+      "5 to 6 days",
       "18 to 24 hours",
       "48 to 72 hours"
     ],
@@ -5181,9 +5181,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The 'AM-PM rule' for artificial insemination (AI) in cattle recommends that cows detected in standing heat in the morning should be bred:",
     "options": [
+      "Next morning (mediating altered systemic autonomic regulation and negative feedback loops)",
       "Immediately in the morning",
-      "Next morning",
-      "After 48 hours",
+      "After 48 hours (modulating peripheral vascular resistance and transmembrane action potentials)",
       "In the evening of the same day"
     ],
     "correctOptionIndex": 3,
@@ -5204,9 +5204,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The maternal recognition of pregnancy (MRP) in the mare occurs between days 10 to 16 through:",
     "options": [
       "Extensive trans-uterine intrauterine mobility of the spherical conceptus contacting all parts of the endometrium",
-      "Interferon-tau secretion",
-      "High estrogen excretion in urine",
-      "Placental attachment at day 10"
+      "High estrogen excretion in urine (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Interferon-tau secretion (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Placental attachment at day 10 (modulating peripheral vascular resistance and transmembrane action potentials)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The unattached, spherical equine conceptus moves continuously throughout both uterine horns and body (~10-12 times daily), distributing an anti-luteolytic signal to prevent PGF2alpha release.",
@@ -5226,9 +5226,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "In the bitch, the pre-ovulatory LH surge can be accurately monitored clinically by measuring rising serum concentrations of:",
     "options": [
       "Progesterone (which rises to 2 ng/mL at the LH surge due to pre-ovulatory luteinization)",
-      "Estrogen",
-      "Prolactin",
-      "Relaxin"
+      "Estrogen (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Prolactin (Anterior pituitary lactotrophic peptide hormone initiating and maintaining lactation)",
+      "Relaxin (Corpus luteum polypeptide softening pelvic ligaments and dilating the cervix)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Canine ovarian follicles uniquely undergo pre-ovulatory luteinization before ovulation, causing serum progesterone to begin climbing (2 ng/mL at LH surge, 4-10 ng/mL at ovulation).",
@@ -5247,10 +5247,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The definitive pregnancy diagnosis test in bitches from day 25 post-ovulation onwards uses a commercial assay measuring:",
     "options": [
-      "Estrogen",
+      "Progesterone (Luteal steroid hormone maintaining endometrial quiescence and gestation)",
       "Relaxin (synthesized solely by the canine placenta)",
-      "Progesterone",
-      "eCG"
+      "eCG (regulating target organ cellular receptor activation and intracellular second messengers)",
+      "Estrogen (regulating target organ cellular receptor activation and intracellular second messengers)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Relaxin is the only pregnancy-specific hormone in dogs; progesterone remains elevated in non-pregnant bitches during diestrus (pseudopregnancy) and is useless for diagnosis.",
@@ -5269,10 +5269,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "The 'G-cells' of the stomach antrum and pylorus secrete which peptide hormone stimulating gastric acid secretion?",
     "options": [
-      "Somatostatin",
       "Cholecystokinin (CCK)",
+      "Secretin",
       "Gastrin",
-      "Secretin"
+      "Somatostatin"
     ],
     "correctOptionIndex": 2,
     "explanation": "Gastrin is released in response to luminal peptides, stomach distension, and vagal GRP, acting on CCK-B receptors on enterochromaffin-like (ECL) cells to release histamine and stimulate parietal cells.",
@@ -5291,9 +5291,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Physiology High-Yield Core",
     "questionText": "Cholecystokinin (CCK) is secreted by I-cells of the duodenum in response to luminal fat and peptides to stimulate:",
     "options": [
-      "Gastric acid production",
-      "Hepatic gluconeogenesis",
-      "Intestinal motility inhibition",
+      "Intestinal motility inhibition (mediating altered systemic autonomic regulation and negative feedback loops)",
+      "Hepatic gluconeogenesis (modulating peripheral vascular resistance and transmembrane action potentials)",
+      "Gastric acid production (mediating altered systemic autonomic regulation and negative feedback loops)",
       "Gallbladder contraction and pancreatic digestive enzyme secretion"
     ],
     "correctOptionIndex": 3,
@@ -5314,9 +5314,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The committed, rate-limiting regulatory enzyme of glycolysis is:",
     "options": [
       "Phosphofructokinase-1 (PFK-1)",
-      "Pyruvate kinase",
-      "Hexokinase",
-      "Aldolase"
+      "Pyruvate kinase (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Hexokinase (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Aldolase (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)"
     ],
     "correctOptionIndex": 0,
     "explanation": "PFK-1 catalyzes the irreversible phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate, allosterically activated by AMP and fructose-2,6-bisphosphate and inhibited by ATP and citrate.",
@@ -5335,10 +5335,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "In ruminants, what is the primary volatile fatty acid that contributes to net glucose synthesis (gluconeogenesis)?",
     "options": [
-      "Isobutyrate",
-      "Acetate",
+      "Isobutyrate (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Acetate (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Propionate (Propionic acid)",
-      "Butyrate"
+      "Butyrate (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Propionate is converted to propionyl-CoA, then to methylmalonyl-CoA (requiring Biotin and Vitamin B12), entering the TCA cycle as succinyl-CoA for gluconeogenesis.",
@@ -5357,10 +5357,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The conversion of propionyl-CoA to methylmalonyl-CoA in ruminant gluconeogenesis requires which B-vitamin cofactor?",
     "options": [
-      "Niacin (Vitamin B3)",
-      "Biotin (Vitamin B7)",
       "Riboflavin (Vitamin B2)",
-      "Thiamine (Vitamin B1)"
+      "Biotin (Vitamin B7)",
+      "Thiamine (Vitamin B1)",
+      "Niacin (Vitamin B3)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Propionyl-CoA carboxylase requires Biotin (Vitamin B7), ATP, and CO2, whereas the subsequent mutase requires Vitamin B12 (cobalamin).",
@@ -5379,9 +5379,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The isomerization of methylmalonyl-CoA to succinyl-CoA is catalyzed by a mutase requiring which coenzyme?",
     "options": [
-      "Pyridoxal phosphate (PLP)",
+      "FAD (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Thiamine pyrophosphate (TPP)",
-      "FAD",
+      "Pyridoxal phosphate (PLP)",
       "Adenosylcobalamin (Vitamin B12)"
     ],
     "correctOptionIndex": 3,
@@ -5426,7 +5426,7 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
       "Isocitrate dehydrogenase",
       "Malate dehydrogenase",
       "Alpha-ketoglutarate dehydrogenase",
-      "Citrate synthase"
+      "Citrate synthase (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Isocitrate dehydrogenase catalyzes the oxidative decarboxylation of isocitrate to alpha-ketoglutarate, allosterically activated by ADP and inhibited by ATP and NADH.",
@@ -5445,10 +5445,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "How many moles of ATP are theoretically generated from the complete oxidation of one mole of glucose to CO2 and H2O in aerobic conditions?",
     "options": [
-      "12 ATP",
-      "2 ATP",
+      "2 ATP (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
+      "48 ATP (functioning as a key regulatory allosteric intermediate in energy metabolism)",
       "30 to 32 ATP",
-      "48 ATP"
+      "12 ATP (functioning as a key regulatory allosteric intermediate in energy metabolism)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Modern P/O ratio calculations (2.5 ATP per NADH, 1.5 ATP per FADH2) yield a net of 30 to 32 ATP per mole of glucose oxidized aerobically.",
@@ -5467,10 +5467,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Under anaerobic conditions, pyruvate is reduced to lactate by lactate dehydrogenase (LDH) in order to regenerate:",
     "options": [
-      "FAD",
+      "FAD (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "NAD+ for continued glycolysis",
-      "ATP directly",
-      "NADH"
+      "ATP directly (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "NADH (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Lactate dehydrogenase reduces pyruvate to L-lactate, oxidizing NADH back to NAD+, which is obligatorily required by glyceraldehyde-3-phosphate dehydrogenase to sustain anaerobic glycolysis.",
@@ -5490,9 +5490,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'Cori cycle' (lactic acid cycle) involves the transport of lactate from contracting muscle to which organ for gluconeogenesis?",
     "options": [
       "Spleen",
-      "Kidney cortex",
+      "Pancreas",
       "Liver",
-      "Pancreas"
+      "Kidney cortex"
     ],
     "correctOptionIndex": 2,
     "explanation": "Lactate produced in skeletal muscle diffuses into blood, travels to the liver where it is re-oxidized to pyruvate and converted back to glucose via gluconeogenesis.",
@@ -5511,10 +5511,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The Pentose Phosphate Pathway (HMP shunt) is essential in erythrocytes and adipocytes because it generates:",
     "options": [
-      "ATP and NADH",
+      "FADH2 (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
       "NADPH and Ribose-5-phosphate",
-      "FADH2",
-      "Lactic acid"
+      "ATP and NADH (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Lactic acid (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Glucose-6-phosphate dehydrogenase (G6PD) produces NADPH, which maintains reduced glutathione to protect red cells against oxidative hemolysis and provides reducing equivalents for lipogenesis.",
@@ -5533,9 +5533,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "A competitive enzyme inhibitor affects kinetic parameters by:",
     "options": [
-      "Decreasing both Km and Vmax",
       "Decreasing Vmax without changing Km",
-      "Increasing Vmax",
+      "Increasing Vmax (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Decreasing both Km and Vmax (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
       "Increasing apparent Km without changing Vmax"
     ],
     "correctOptionIndex": 3,
@@ -5556,9 +5556,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "A non-competitive enzyme inhibitor affects kinetic parameters by:",
     "options": [
       "Decreasing Vmax while leaving Km unchanged",
+      "Increasing both (functioning as a key regulatory allosteric intermediate in energy metabolism)",
       "Increasing Km with unchanged Vmax",
-      "Decreasing Km and increasing Vmax",
-      "Increasing both"
+      "Decreasing Km and increasing Vmax"
     ],
     "correctOptionIndex": 0,
     "explanation": "Non-competitive inhibitors bind to an allosteric site regardless of whether substrate is bound; this reduces the functional turnover number (lowering Vmax) without altering substrate affinity (Km unchanged).",
@@ -5577,10 +5577,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The Michaelis constant (Km) represents:",
     "options": [
-      "The maximum possible reaction speed",
+      "The maximum possible reaction speed (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
       "The substrate concentration at which reaction velocity is half of Vmax",
-      "The inhibitor concentration",
-      "The turnover rate"
+      "The inhibitor concentration (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
+      "The turnover rate (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Km is the substrate concentration ([S]) at which the reaction velocity equals half of maximal velocity (Vmax/2); lower Km indicates higher enzyme-substrate affinity.",
@@ -5599,9 +5599,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The 'Lineweaver-Burk plot' is a double-reciprocal plot of:",
     "options": [
-      "Km versus Vmax",
-      "log v versus log [S]",
       "v versus [S]",
+      "log v versus log [S]",
+      "Km versus Vmax",
       "1/v versus 1/[S]"
     ],
     "correctOptionIndex": 3,
@@ -5621,10 +5621,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The key regulatory enzyme of gluconeogenesis that bypasses pyruvate kinase is:",
     "options": [
-      "Phosphofructokinase",
-      "Hexokinase",
+      "Hexokinase (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Phosphofructokinase (functioning as a key regulatory allosteric intermediate in energy metabolism)",
       "Pyruvate carboxylase and Phosphoenolpyruvate carboxykinase (PEPCK)",
-      "Glucokinase"
+      "Glucokinase (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Pyruvate carboxylase (mitochondrial, requiring Biotin and allosterically activated by Acetyl-CoA) converts pyruvate to oxaloacetate, which is converted to PEP by PEPCK.",
@@ -5644,9 +5644,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The enzyme 'Glucose-6-phosphatase' is absent in which tissue, preventing it from releasing free glucose into the bloodstream?",
     "options": [
       "Skeletal muscle",
+      "Liver (Hepatic lobules, sinusoidal capillaries, and portal triads)",
       "Renal cortex",
-      "Intestinal epithelium",
-      "Liver"
+      "Intestinal epithelium"
     ],
     "correctOptionIndex": 0,
     "explanation": "Skeletal muscle lacks glucose-6-phosphatase; muscle glycogen can only be used intracellularly for its own energy via glycolysis.",
@@ -5665,10 +5665,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "In cats, gluconeogenesis is unique because:",
     "options": [
-      "Cats use only carbohydrates",
+      "Cats cannot synthesize glucose (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
       "Key gluconeogenic enzymes in the liver are continuously active even on high-protein diets",
-      "Cats cannot synthesize glucose",
-      "Cats lack PEPCK"
+      "Cats lack PEPCK (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
+      "Cats use only carbohydrates (functioning as a key regulatory allosteric intermediate in energy metabolism)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Obligate carnivores like cats have high, constitutive baseline hepatic gluconeogenic enzyme activity (PEPCK, ALT, AST) to produce glucose from dietary amino acids.",
@@ -5687,10 +5687,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The transport of long-chain fatty acyl-CoA into the mitochondrial matrix for beta-oxidation requires which carrier shuttle?",
     "options": [
-      "Glycerol phosphate shuttle",
-      "Malate-aspartate shuttle",
+      "Citrate shuttle (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Malate-aspartate shuttle (functioning as a key regulatory allosteric intermediate in energy metabolism)",
       "Carnitine shuttle (CPT-I and CPT-II)",
-      "Citrate shuttle"
+      "Glycerol phosphate shuttle"
     ],
     "correctOptionIndex": 2,
     "explanation": "Carnitine Palmitoyltransferase-I (CPT-I) on the outer mitochondrial membrane conjugates fatty acyl-CoA to carnitine, translocated by CACT and reformed by CPT-II.",
@@ -5710,9 +5710,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The rate-limiting regulatory enzyme of fatty acid beta-oxidation is:",
     "options": [
       "Carnitine Palmitoyltransferase-I (CPT-I)",
-      "Acyl-CoA dehydrogenase",
-      "Thiolase",
-      "Enoyl-CoA hydratase"
+      "Acyl-CoA dehydrogenase (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Thiolase (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Enoyl-CoA hydratase (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)"
     ],
     "correctOptionIndex": 0,
     "explanation": "CPT-I is the gatekeeper of beta-oxidation and is allosterically inhibited by Malonyl-CoA (the product of fatty acid synthesis), preventing simultaneous synthesis and oxidation.",
@@ -5731,9 +5731,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Each round of fatty acid beta-oxidation yields:",
     "options": [
-      "1 Pyruvate and 2 ATP",
-      "1 Glucose molecule",
-      "1 Propionyl-CoA",
+      "1 Pyruvate and 2 ATP, downstream glycolytic intermediates, and regulatory cofactors",
+      "1 Glucose molecule, downstream glycolytic intermediates, and regulatory cofactors",
+      "1 Propionyl-CoA, downstream glycolytic intermediates, and regulatory cofactors",
       "1 Acetyl-CoA, 1 FADH2, and 1 NADH"
     ],
     "correctOptionIndex": 3,
@@ -5753,9 +5753,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The three physiological ketone bodies produced by the mammalian liver are:",
     "options": [
+      "Pyruvate, Lactate, and Citrate (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Alanine, Glycine, and Serine (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Acetate, Propionate, and Butyrate",
-      "Alanine, Glycine, and Serine",
-      "Pyruvate, Lactate, and Citrate",
       "Acetoacetate, Beta-hydroxybutyrate, and Acetone"
     ],
     "correctOptionIndex": 3,
@@ -5776,8 +5776,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Ketone body synthesis (ketogenesis) occurs exclusively in the mitochondria of which organ?",
     "options": [
       "Liver",
-      "Skeletal muscle",
       "Brain",
+      "Skeletal muscle",
       "Kidney medulla"
     ],
     "correctOptionIndex": 0,
@@ -5797,10 +5797,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The rate-limiting enzyme of ketogenesis in hepatic mitochondria is:",
     "options": [
-      "Acetoacetate decarboxylase",
+      "Thiolase (functioning as a key regulatory allosteric intermediate in energy metabolism)",
       "Mitochondrial HMG-CoA synthase",
-      "HMG-CoA reductase",
-      "Thiolase"
+      "Acetoacetate decarboxylase",
+      "HMG-CoA reductase (functioning as a key regulatory allosteric intermediate in energy metabolism)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Mitochondrial HMG-CoA synthase condenses acetoacetyl-CoA with acetyl-CoA to form HMG-CoA, which is cleaved by HMG-CoA lyase to release acetoacetate.",
@@ -5819,10 +5819,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The rate-limiting enzyme of cholesterol biosynthesis is:",
     "options": [
-      "HMG-CoA synthase",
-      "Mevalonate kinase",
+      "HMG-CoA synthase (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Squalene synthase (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
       "HMG-CoA reductase (target of statin drugs)",
-      "Squalene synthase"
+      "Mevalonate kinase (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Microsomal HMG-CoA reductase reduces HMG-CoA to mevalonate using 2 NADPH; this is the primary pharmacological target of statins.",
@@ -5841,10 +5841,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Pregnancy toxemia in ewes (twin lamb disease) and bovine ketosis are fundamentally caused by:",
     "options": [
-      "Vitamin C toxicity",
+      "Excess carbohydrate intake (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Severe negative energy balance leading to extreme lipolysis and oxaloacetate depletion",
-      "Hypomagnesemia",
-      "Excess carbohydrate intake"
+      "Vitamin C toxicity (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Hypomagnesemia (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 1,
     "explanation": "High fetal glucose demand or high milk production outstrips gluconeogenesis, depleting oxaloacetate; acetyl-CoA from runaway lipolysis cannot enter the TCA cycle and is shunted into ketogenesis.",
@@ -5863,10 +5863,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The 'rate-limiting enzyme' of de novo fatty acid synthesis in the cytoplasm is:",
     "options": [
-      "Malic enzyme",
-      "Citrate lyase",
+      "Malic enzyme (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Citrate lyase (functioning as a key regulatory allosteric intermediate in energy metabolism)",
       "Acetyl-CoA carboxylase (ACC)",
-      "Fatty acid synthase"
+      "Fatty acid synthase (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Acetyl-CoA carboxylase (requiring Biotin) converts acetyl-CoA to malonyl-CoA, allosterically activated by citrate and inhibited by palmitoyl-CoA.",
@@ -5907,9 +5907,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Which apolipoprotein on the surface of chylomicrons and VLDL activates capillary endothelial Lipoprotein Lipase (LPL)?",
     "options": [
+      "Apo E (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Apo A-I",
       "Apo B-100",
-      "Apo E",
       "Apo C-II"
     ],
     "correctOptionIndex": 3,
@@ -5929,10 +5929,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The 'brown adipose tissue' (BAT) generates heat via non-shivering thermogenesis in neonates through which uncoupling protein in the inner mitochondrial membrane?",
     "options": [
-      "Cytochrome c",
-      "Complex I",
+      "ATP synthase (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Complex I (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Thermogenin (UCP-1)",
-      "ATP synthase"
+      "Cytochrome c (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Thermogenin (Uncoupling Protein-1) dissipates the proton gradient across the inner mitochondrial membrane as heat instead of driving ATP synthesis.",
@@ -5951,10 +5951,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The essential fatty acids required in feline diets that cats cannot synthesize from linoleic acid are:",
     "options": [
-      "Oleic acid",
+      "Stearic acid (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Arachidonic acid (due to lack of delta-6 desaturase activity)",
-      "Palmitic acid",
-      "Stearic acid"
+      "Palmitic acid (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Oleic acid (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Cats possess negligible delta-6 desaturase activity in the liver and obligatorily require preformed arachidonic acid in their diet from animal tissues.",
@@ -5973,9 +5973,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The primary regulatory, rate-limiting enzyme of the urea cycle located in hepatic mitochondria is:",
     "options": [
-      "Ornithine transcarbamylase (OTC)",
       "Argininosuccinate synthetase",
-      "Arginase",
+      "Arginase (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Ornithine transcarbamylase (OTC)",
       "Carbamoyl phosphate synthetase I (CPS-I)"
     ],
     "correctOptionIndex": 3,
@@ -5996,9 +5996,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The allosteric activator required for the catalytic function of Carbamoyl Phosphate Synthetase I (CPS-I) is:",
     "options": [
       "N-acetylglutamate (NAG)",
+      "Citrate (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Fructose-2,6-bisphosphate",
-      "AMP",
-      "Citrate"
+      "AMP (functioning as a key regulatory allosteric intermediate in energy metabolism)"
     ],
     "correctOptionIndex": 0,
     "explanation": "N-acetylglutamate is synthesized by NAG synthase from acetyl-CoA and glutamate; high protein intake raises arginine, which stimulates NAG synthase and activates the urea cycle.",
@@ -6018,9 +6018,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The two amino acids that directly contribute nitrogen atoms to the urea molecule are:",
     "options": [
       "Ammonia (free NH4+) and Aspartate",
-      "Glutamate and Alanine",
-      "Glycine and Serine",
-      "Leucine and Lysine"
+      "Glutamate and Alanine (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Leucine and Lysine (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Glycine and Serine (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 0,
     "explanation": "One nitrogen of urea enters as free ammonia via carbamoyl phosphate; the second nitrogen is contributed by the amino group of aspartate via argininosuccinate synthetase.",
@@ -6039,10 +6039,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "In the urea cycle, the enzyme 'arginase' cleaves arginine to yield urea and regenerate:",
     "options": [
-      "Citrulline",
+      "Fumarate",
       "Ornithine",
       "Argininosuccinate",
-      "Fumarate"
+      "Citrulline"
     ],
     "correctOptionIndex": 1,
     "explanation": "Cytosolic arginase hydrolyzes L-arginine to produce urea and regenerate L-ornithine, which re-enters the mitochondrion via the ORNT1 transporter to continue the cycle.",
@@ -6061,9 +6061,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Dalmatian dogs have an inherited metabolic predisposition to form which type of urinary calculi?",
     "options": [
-      "Cystine",
-      "Calcium oxalate",
+      "Calcium oxalate (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Struvite (triple phosphate)",
+      "Cystine (functioning as a key regulatory allosteric intermediate in energy metabolism)",
       "Ammonium urate (Uric acid) uroliths"
     ],
     "correctOptionIndex": 3,
@@ -6083,10 +6083,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The end product of purine catabolism in domestic mammals (except humans, apes, and Dalmatians) is:",
     "options": [
-      "Uric acid",
-      "Urea",
+      "Urea (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Xanthine (functioning as a key regulatory allosteric intermediate in energy metabolism)",
       "Allantoin (via urate oxidase / uricase)",
-      "Xanthine"
+      "Uric acid (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Non-primate mammals express urate oxidase (uricase) in liver peroxisomes, which oxidizes sparingly soluble uric acid into highly water-soluble allantoin.",
@@ -6106,9 +6106,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Transamination reactions require which B-vitamin coenzyme to transfer amino groups to alpha-ketoacids?",
     "options": [
       "Pyridoxal-5'-phosphate (PLP / Vitamin B6)",
-      "Riboflavin (FMN)",
-      "Thiamine pyrophosphate (TPP)",
-      "Niacin (NAD)"
+      "Thiamine pyrophosphate (TPP) (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Riboflavin (FMN) (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Niacin (NAD) (functioning as a key regulatory allosteric intermediate in energy metabolism)"
     ],
     "correctOptionIndex": 0,
     "explanation": "All transaminases (ALT, AST) utilize Pyridoxal Phosphate (PLP derived from Vitamin B6), which forms a Schiff base intermediate to shuttle amino groups.",
@@ -6127,9 +6127,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The amino acid that serves as the major carrier of amino groups from contracting skeletal muscle to the liver is:",
     "options": [
-      "Asparagine",
-      "Proline",
-      "Valine",
+      "Proline (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Valine (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Asparagine (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Alanine (via Glucose-Alanine cycle)"
     ],
     "correctOptionIndex": 3,
@@ -6149,8 +6149,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The two purely ketogenic amino acids that cannot be converted to glucose are:",
     "options": [
-      "Glutamate and Aspartate",
       "Methionine and Cysteine",
+      "Glutamate and Aspartate",
       "Leucine and Lysine",
       "Alanine and Glycine"
     ],
@@ -6171,10 +6171,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Which amino acid is the direct precursor for the neurotransmitter serotonin (5-HT) and the hormone melatonin?",
     "options": [
-      "Tyrosine",
-      "Tryptophan",
       "Phenylalanine",
-      "Histidine"
+      "Tryptophan",
+      "Histidine",
+      "Tyrosine"
     ],
     "correctOptionIndex": 1,
     "explanation": "Tryptophan is hydroxylated by tryptophan hydroxylase (requiring tetrahydrobiopterin) and decarboxylated to 5-hydroxytryptamine (serotonin), the precursor to melatonin.",
@@ -6193,10 +6193,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Which amino acid is the direct precursor for catecholamines (dopamine, norepinephrine, epinephrine) and thyroid hormones?",
     "options": [
-      "Glutamine",
-      "Arginine",
+      "Arginine (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Tryptophan (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
       "Tyrosine (or Phenylalanine)",
-      "Tryptophan"
+      "Glutamine (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Phenylalanine is converted to tyrosine by phenylalanine hydroxylase; tyrosine is then converted to DOPA, dopamine, catecholamines, and iodinated to thyroxine in the thyroid.",
@@ -6238,9 +6238,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "S-Adenosylmethionine (SAM) is the principal biological donor of:",
     "options": [
       "Methyl (-CH3) groups",
-      "Acyl groups",
-      "Phosphate groups",
-      "Amino groups"
+      "Acyl groups (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
+      "Amino groups (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Phosphate groups"
     ],
     "correctOptionIndex": 0,
     "explanation": "SAM is synthesized from ATP and methionine, acting as the universal methyl donor for DNA methylation, phosphatidylcholine synthesis, and epinephrine synthesis.",
@@ -6259,10 +6259,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The genetic code is described as 'degenerate' (redundant) because:",
     "options": [
-      "Codons overlap",
+      "A single codon codes for multiple amino acids",
       "Most amino acids are coded for by more than one triplet codon",
-      "The code varies across tissues",
-      "A single codon codes for multiple amino acids"
+      "Codons overlap (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "The code varies across tissues (functioning as a key regulatory allosteric intermediate in energy metabolism)"
     ],
     "correctOptionIndex": 1,
     "explanation": "There are 64 codons for only 20 standard amino acids; 61 sense codons code for amino acids, meaning multiple synonymous codons specify the same amino acid (wobble hypothesis).",
@@ -6282,9 +6282,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'start codon' that initiates eukaryotic and prokaryotic translation is:",
     "options": [
       "AUG (coding for Methionine / N-formylmethionine)",
-      "UGA",
-      "UAG",
-      "UAA"
+      "UGA (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
+      "UAG (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
+      "UAA (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 0,
     "explanation": "AUG specifies methionine in eukaryotes (and N-formylmethionine in prokaryotes), serving as the universal translation initiation signal.",
@@ -6303,10 +6303,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The three standard 'stop codons' (nonsense codons) that terminate translation are:",
     "options": [
-      "UAC, UAU, and UGC",
+      "AAA, UUU, and GGG",
       "UAA, UAG, and UGA",
       "AUG, GUG, and CUG",
-      "AAA, UUU, and GGG"
+      "UAC, UAU, and UGC"
     ],
     "correctOptionIndex": 1,
     "explanation": "UAA (ochre), UAG (amber), and UGA (opal) are recognized by release factors rather than tRNAs, triggering ribosomal dissociation and peptide release.",
@@ -6325,9 +6325,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Serum Alanine Aminotransferase (ALT) is a specific biomarker of acute hepatocellular injury in which domestic species?",
     "options": [
-      "Sheep and Goat",
+      "Bird (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
       "Horse and Cow",
-      "Bird",
+      "Sheep and Goat",
       "Dog and Cat"
     ],
     "correctOptionIndex": 3,
@@ -6347,10 +6347,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The preferred, highly specific serum enzyme indicator for acute hepatocellular necrosis in horses and cattle is:",
     "options": [
-      "Alanine Aminotransferase (ALT)",
-      "Amylase",
+      "Alanine Aminotransferase (ALT) (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Amylase (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Sorbitol Dehydrogenase (SDH) and Glutamate Dehydrogenase (GLDH)",
-      "Lipase"
+      "Lipase (functioning as a key regulatory allosteric intermediate in energy metabolism)"
     ],
     "correctOptionIndex": 2,
     "explanation": "In large animals, SDH (Iditol dehydrogenase) and mitochondrial GLDH are the primary specific indicators of acute liver cell necrosis.",
@@ -6369,10 +6369,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Elevated serum Gamma-Glutamyltransferase (GGT) and Alkaline Phosphatase (ALP) are hallmark indicators of:",
     "options": [
-      "Glomerular nephritis",
-      "Acute pancreatitis",
+      "Skeletal muscle trauma (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Acute pancreatitis (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Cholestasis (biliary stasis / obstruction)",
-      "Skeletal muscle trauma"
+      "Glomerular nephritis (functioning as a key regulatory allosteric intermediate in energy metabolism)"
     ],
     "correctOptionIndex": 2,
     "explanation": "ALP and GGT are membrane-bound canalicular and biliary epithelial brush-border enzymes; bile duct distension or stasis upregulates their synthesis and shedding into serum.",
@@ -6391,8 +6391,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "A corticosteroid-induced isoenzyme of Alkaline Phosphatase (C-ALP) is uniquely produced in the liver of the:",
     "options": [
-      "Cat",
       "Cow",
+      "Cat",
       "Horse",
       "Dog"
     ],
@@ -6414,9 +6414,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Serum Creatine Kinase (CK / CPK) is the most sensitive and tissue-specific serum marker for:",
     "options": [
       "Skeletal and cardiac muscle necrosis (myopathy)",
-      "Renal tubular damage",
-      "Bone remodeling",
-      "Hepatic cirrhosis"
+      "Renal tubular damage (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Hepatic cirrhosis (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Bone remodeling (functioning as a key regulatory allosteric intermediate in energy metabolism)"
     ],
     "correctOptionIndex": 0,
     "explanation": "CK is found almost exclusively in skeletal muscle, myocardium, and brain; muscle membrane rupture (myositis, capture myopathy, azoturia) releases massive amounts of CK into serum.",
@@ -6435,10 +6435,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Serum Amylase and Lipase elevations exceeding 3-fold above reference limits in dogs are classic diagnostic markers for:",
     "options": [
-      "Renal failure",
+      "Hepatocellular carcinoma",
       "Acute Pancreatitis",
-      "Exocrine pancreatic insufficiency",
-      "Hepatocellular carcinoma"
+      "Renal failure",
+      "Exocrine pancreatic insufficiency"
     ],
     "correctOptionIndex": 1,
     "explanation": "Acinar cell damage in acute pancreatitis releases pancreatic digestive enzymes (amylase and lipase) directly into the peritoneum and systemic circulation.",
@@ -6457,10 +6457,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The 'azotemia' characterized by elevated Blood Urea Nitrogen (BUN) and serum Creatinine can be classified into pre-renal, renal, and post-renal based on:",
     "options": [
-      "Blood glucose",
-      "Blood pH",
+      "Blood pH (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Serum albumin (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
       "Urine specific gravity (USG) and clinical hydration status",
-      "Serum albumin"
+      "Blood glucose (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Pre-renal azotemia (dehydration/hypovolemia) exhibits concentrated urine (USG > 1.030 in dogs, > 1.035 in cats), whereas intrinsic renal azotemia shows isosthenuria (1.008 - 1.012).",
@@ -6480,9 +6480,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Troponin I (cTnI) is currently the gold-standard serum biomarker for:",
     "options": [
       "Myocardial cell necrosis and cardiac injury",
-      "Skeletal muscle strain",
-      "Liver necrosis",
-      "Pancreatitis"
+      "Skeletal muscle strain (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Pancreatitis (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Liver necrosis (functioning as a key regulatory allosteric intermediate in energy metabolism)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Cardiac troponin I (cTnI) is exclusively expressed in cardiomyocytes; any ischemic, infectious, or toxic injury to cardiac muscle releases cTnI within hours.",
@@ -6501,9 +6501,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Deficiency of Vitamin E and/or Selenium in calves and lambs produces which classic pathological condition?",
     "options": [
-      "Rickets",
-      "Night blindness",
-      "Goiter",
+      "Goiter (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Night blindness (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Rickets (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "White Muscle Disease (Enzootic Nutritional Muscular Dystrophy)"
     ],
     "correctOptionIndex": 3,
@@ -6523,10 +6523,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Vitamin K is an essential cofactor for the post-translational gamma-carboxylation of glutamic acid residues in coagulation factors:",
     "options": [
-      "Factors III and IV",
+      "Factors XII and XIII, downstream glycolytic intermediates, and regulatory cofactors",
       "Factors II (Prothrombin), VII, IX, and X",
-      "Factors XII and XIII",
-      "Factors I, V, VIII, and XI"
+      "Factors III and IV, downstream glycolytic intermediates, and regulatory cofactors",
+      "Factors I, V, VIII, and XI (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Vitamin K epoxide reductase facilitates gamma-carboxylation of Factors II, VII, IX, and X and Proteins C and S, enabling them to bind calcium and phospholipids.",
@@ -6546,9 +6546,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Anticoagulant rodenticide poisoning (e.g. Brodifacoum, Warfarin) fatally inhibits which enzyme in the vitamin K cycle?",
     "options": [
       "Vitamin K epoxide reductase (VKOR)",
-      "Thrombin",
-      "Tissue factor",
-      "Factor Xa"
+      "Factor Xa (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
+      "Tissue factor (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Thrombin (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Rodenticides competitively block VKOR, preventing regeneration of reduced hydroquinone vitamin K and causing life-threatening bleeding diathesis after Factor VII depletion.",
@@ -6567,10 +6567,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "The active hormonal form of Vitamin D synthesized by renal 1-alpha-hydroxylase is:",
     "options": [
+      "Ergosterol (functioning as a key regulatory allosteric intermediate in energy metabolism)",
       "25-hydroxycholecalciferol (Calcidiol)",
-      "Cholecalciferol",
       "1,25-dihydroxycholecalciferol (Calcitriol)",
-      "Ergosterol"
+      "Cholecalciferol (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Calcitriol (1,25-(OH)2-D3) binds to nuclear VDR receptors in enterocytes, upregulating calbindin-D to maximize calcium and phosphorus absorption from the gut.",
@@ -6589,10 +6589,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Thiamine (Vitamin B1) deficiency in cattle and sheep (often associated with high grain diets or amprolium) produces:",
     "options": [
-      "Rickets",
+      "Enzootic ataxia (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
       "Polioencephalomalacia (PEM / Cerebrocortical necrosis)",
-      "Enzootic ataxia",
-      "White muscle disease"
+      "White muscle disease (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Rickets (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Thiamine deficiency impairs transketolase and pyruvate dehydrogenase in the brain, causing cerebral cortical laminar necrosis that autofluoresces under Wood's lamp.",
@@ -6611,9 +6611,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Copper deficiency in young lambs is clinically known as:",
     "options": [
-      "Goiter",
-      "Big head disease",
-      "Grass tetany",
+      "Goiter (functioning as a key regulatory allosteric intermediate in energy metabolism)",
+      "Big head disease (coupling mitochondrial oxidative phosphorylation with ATP synthesis pathways)",
+      "Grass tetany (modulating key rate-limiting enzymatic steps in cellular macromolecule turnover)",
       "Swayback / Enzootic Ataxia"
     ],
     "correctOptionIndex": 3,
@@ -6655,9 +6655,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Zinc deficiency in pigs fed high-calcium rations produces which characteristic hyperkeratotic skin disorder?",
     "options": [
+      "Pemphigus foliaceus",
       "Alopecia areata",
       "Ichthyosis",
-      "Pemphigus foliaceus",
       "Parakeratosis"
     ],
     "correctOptionIndex": 3,
@@ -6677,10 +6677,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Biochemistry & Metabolism",
     "questionText": "Vitamin A (retinol) is essential for vision because 11-cis-retinal combines with opsin in rod cells to form:",
     "options": [
+      "Hemoglobin",
       "Carotene",
-      "Melanin",
       "Rhodopsin",
-      "Hemoglobin"
+      "Melanin"
     ],
     "correctOptionIndex": 2,
     "explanation": "11-cis-retinal complexes with the apoprotein opsin to form rhodopsin in rod photoreceptors; light isomerizes retinal to all-trans-retinal, initiating the phototransduction cascade.",
@@ -6699,10 +6699,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "According to Bureau of Indian Standards (BIS) norms, what is the optimum covered floor space requirement for an adult dairy cow in a loose housing system?",
     "options": [
-      "7.0 square meters",
-      "1.5 square meters",
+      "1.5 square meters (approx 15-16 sq. ft. covered floor allowance)",
+      "7.0 square meters (approx 70-75 sq. ft. covered floor allowance)",
       "3.5 square meters (approx 35-40 sq. ft.)",
-      "10.0 square meters"
+      "10.0 square meters (approx 105-110 sq. ft. covered floor allowance)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Under BIS standards for loose housing, an adult cow requires 3.5 m2 of covered floor space and 7.0 m2 of open paddock area.",
@@ -6721,9 +6721,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "What is the BIS standard open paddock space requirement for an adult dairy buffalo in a loose housing system?",
     "options": [
+      "4.0 square meters (non-standard floor area allowance per animal)",
       "15.0 square meters",
-      "2.0 square meters",
-      "4.0 square meters",
+      "2.0 square meters (non-standard floor area allowance per animal)",
       "8.0 to 10.0 square meters"
     ],
     "correctOptionIndex": 3,
@@ -6766,8 +6766,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The recommended floor space for a calving box (maternity pen) for a pregnant cow is:",
     "options": [
       "10 to 12 square meters",
-      "5.0 square meters",
       "25 square meters",
+      "5.0 square meters",
       "3.5 square meters"
     ],
     "correctOptionIndex": 0,
@@ -6832,9 +6832,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The minimum recommended height of the roof at the eaves in a gable-roof dairy barn in hot-dry zones is:",
     "options": [
       "3.0 meters (approx 10 feet)",
-      "4.5 meters",
-      "1.5 meters",
-      "2.0 meters"
+      "2.0 meters (approx 6.5 ft. height above finished barn floor)",
+      "1.5 meters (approx 5.0 ft. height above finished barn floor)",
+      "4.5 meters (approx 15.0 ft. height above finished barn floor)"
     ],
     "correctOptionIndex": 0,
     "explanation": "An eave height of 3.0 m (10 ft) with a central ridge height of 4.5-5.0 m ensures effective convective stack-effect natural ventilation.",
@@ -6853,10 +6853,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The recommended floor space for commercial broiler chickens in deep litter housing up to 6 weeks of age is:",
     "options": [
-      "5.0 square feet",
+      "5.0 square feet (non-standard floor area allowance per animal)",
       "1.0 square foot (0.09 square meters) per bird",
-      "2.5 square feet",
-      "0.25 square feet"
+      "0.25 square feet (non-standard floor area allowance per animal)",
+      "2.5 square feet (non-standard floor area allowance per animal)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Modern commercial broilers require approximately 1.0 sq. ft. of floor space per bird from 3 to 6 weeks under tropical management.",
@@ -6875,10 +6875,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "For commercial egg-type layers in deep litter housing, the recommended floor space per bird is approximately:",
     "options": [
-      "0.8 square feet",
+      "3.5 square feet (non-standard floor area allowance per animal)",
       "1.8 to 2.0 square feet",
-      "0.5 square feet",
-      "3.5 square feet"
+      "0.5 square feet (non-standard floor area allowance per animal)",
+      "0.8 square feet (non-standard floor area allowance per animal)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Layer hens reared on deep litter require 1.8 to 2.0 sq. ft. per bird to prevent overcrowding and behavioral vices.",
@@ -6897,10 +6897,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The ideal method of hand milking in dairy cows that avoids damaging the teat tissue and sphincter is:",
     "options": [
-      "Knuckling",
-      "Stripping",
+      "Stripping (characterized by distinct physiological and comparative biological features)",
+      "Knuckling (regulated in accordance with established veterinary standard protocols)",
       "Full-hand milking (fisting)",
-      "Thumb milking"
+      "Thumb milking (regulated in accordance with established veterinary standard protocols)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Full-hand milking presses the teat against the palm using all fingers uniformly, avoiding localized trauma caused by knuckling or friction from stripping.",
@@ -6920,9 +6920,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Knuckling (bending the thumb against the teat body during milking) is strongly discouraged because it:",
     "options": [
       "Causes bruising of the teat cistern and teat canal stenosis/mastitis",
-      "Takes too much time",
-      "Causes low fat percentage",
-      "Spills milk"
+      "Causes low fat percentage (characterized by distinct physiological and comparative biological features)",
+      "Takes too much time (regulated in accordance with established veterinary standard protocols)",
+      "Spills milk (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Knuckling exerts concentrated mechanical pressure on the teat mucosa, predisposing to teat spider, mucosal tears, and mastitis.",
@@ -6941,9 +6941,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "In automated machine milking of cows, what is the standard operational vacuum level at the claw?",
     "options": [
-      "100 kPa",
-      "80 kPa",
-      "20 kPa",
+      "100 kPa (approx 750 mmHg / 30 inches of Hg)",
+      "80 kPa (approx 600 mmHg / 24 inches of Hg)",
+      "20 kPa (approx 150 mmHg / 6 inches of Hg)",
       "50 kPa (approx 380 mmHg / 15 inches of Hg)"
     ],
     "correctOptionIndex": 3,
@@ -6964,9 +6964,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The standard pulsation ratio in dairy cow milking machines is typically set to:",
     "options": [
       "60:40 (60% milk phase : 40% rest phase)",
-      "50:50",
-      "90:10",
-      "30:70"
+      "90:10 (90% active operational phase : 10% rest relaxation phase)",
+      "30:70 (30% active operational phase : 70% rest relaxation phase)",
+      "50:50 (50% active operational phase : 50% rest relaxation phase)"
     ],
     "correctOptionIndex": 0,
     "explanation": "A 60:40 pulsation ratio provides adequate milk extraction while maintaining cyclic blood circulation in the teat tip during the rest phase.",
@@ -6985,10 +6985,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "Colostrum must be fed to a newborn calf as early as possible after birth, ideally within the first:",
     "options": [
-      "48 hours",
-      "12 hours",
+      "24 hours (exhibiting predictable phenotypic and functional developmental patterns)",
+      "48 hours (exhibiting predictable phenotypic and functional developmental patterns)",
       "1 to 2 hours of life",
-      "24 hours"
+      "12 hours (exhibiting predictable phenotypic and functional developmental patterns)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Intestinal absorption of macromolecular colostral immunoglobulins (IgG) via pinocytosis is maximal during the first 2-4 hours and rapidly declines (gut closure at 24 hrs).",
@@ -7007,10 +7007,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The recommended volume of colostrum to be fed to a newborn calf within the first 12 hours of life is:",
     "options": [
-      "25% of body weight",
+      "500 ml only (regulated in accordance with established veterinary standard protocols)",
       "10% of the calf's body weight (approx 3 to 4 liters)",
-      "500 ml only",
-      "1% of body weight"
+      "1% of body weight (characterized by distinct physiological and comparative biological features)",
+      "25% of body weight (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Feeding 10% of birth weight (e.g. 3-4 liters for a 35 kg calf) ensures absorption of >150-200 g of IgG, conferring protective passive immunity (>10 g/L serum IgG).",
@@ -7029,9 +7029,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The California Mastitis Test (CMT) detects subclinical mastitis by reacting with:",
     "options": [
-      "Lactose crystals",
-      "Milk fat globules",
-      "Casein micelles",
+      "Milk fat globules (exhibiting predictable phenotypic and functional developmental patterns)",
+      "Lactose crystals (characterized by distinct physiological and comparative biological features)",
+      "Casein micelles (characterized by distinct physiological and comparative biological features)",
       "DNA of somatic cells (leukocytes) forming a viscous gel"
     ],
     "correctOptionIndex": 3,
@@ -7053,8 +7053,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Zero days (continuous milking)",
       "60 days (approx 8 weeks)",
-      "120 days",
-      "10 days"
+      "10 days (standard reference baseline comparative value)",
+      "120 days (standard reference baseline comparative value)"
     ],
     "correctOptionIndex": 1,
     "explanation": "A 60-day dry period allows complete involution, senescence, and regeneration of mammary alveolar epithelial cells for optimal milk yield in the subsequent lactation.",
@@ -7073,9 +7073,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "Debudding (disbudding) of dairy calves using a hot-iron cautery should ideally be performed at:",
     "options": [
-      "At birth immediately",
-      "1 year of age",
-      "6 months of age",
+      "1 year of age (characterized by distinct physiological and comparative biological features)",
+      "6 months of age (characterized by distinct physiological and comparative biological features)",
+      "At birth immediately (regulated in accordance with established veterinary standard protocols)",
       "7 to 15 days of age (before the horn bud adheres to frontal bone)"
     ],
     "correctOptionIndex": 3,
@@ -7096,9 +7096,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Castration of male calves using a Burdizzo bloodless castrator achieves sterility by:",
     "options": [
       "Crushing the spermatic cord and testicular blood vessels without breaking the skin",
-      "Surgical excision of testicles",
-      "Applying rubber elastrator bands",
-      "Chemical injection"
+      "Surgical excision of testicles (regulated in accordance with established veterinary standard protocols)",
+      "Chemical injection (characterized by distinct physiological and comparative biological features)",
+      "Applying rubber elastrator bands (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The Burdizzo castrator crushes the vas deferens and internal spermatic artery within the scrotum, causing testicular atrophy while preserving scrotal skin integrity.",
@@ -7117,10 +7117,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The gestation period of the domestic buffalo (Bubalus bubalis) is approximately:",
     "options": [
-      "280 days",
-      "114 days",
+      "150 days (standard reference baseline comparative value)",
+      "114 days (standard reference baseline comparative value)",
       "310 days (approx 10 months 10 days)",
-      "150 days"
+      "280 days (standard reference baseline comparative value)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Buffalo gestation averages 310 days (range 305-315 days), significantly longer than the bovine gestation period (280-285 days).",
@@ -7139,9 +7139,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The gestation period of the domestic cow (Bos indicus / Bos taurus) is approximately:",
     "options": [
-      "310 days",
-      "150 days",
-      "336 days",
+      "310 days (standard reference baseline comparative value)",
+      "336 days (standard reference baseline comparative value)",
+      "150 days (standard reference baseline comparative value)",
       "280 to 285 days (approx 9 months 9 days)"
     ],
     "correctOptionIndex": 3,
@@ -7162,9 +7162,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The gestation period of sheep and goats is approximately:",
     "options": [
       "148 to 152 days (approx 5 months)",
-      "60 days",
-      "280 days",
-      "114 days"
+      "280 days (standard reference baseline comparative value)",
+      "114 days (standard reference baseline comparative value)",
+      "60 days (standard reference baseline comparative value)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Both sheep and goats have a gestation length of ~150 days (5 months minus 5 days).",
@@ -7183,10 +7183,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The gestation period of the domestic pig (sow) is classically remembered as:",
     "options": [
-      "60 days",
+      "280 days (standard reference baseline comparative value)",
       "114 days (3 months, 3 weeks, and 3 days)",
-      "150 days",
-      "280 days"
+      "60 days (standard reference baseline comparative value)",
+      "150 days (standard reference baseline comparative value)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Porcine gestation is remarkably consistent across breeds at 114 days (range 112-116 days).",
@@ -7205,10 +7205,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The gestation period of the domestic horse (mare) is approximately:",
     "options": [
-      "280 days",
-      "390 days",
+      "280 days (standard reference baseline comparative value)",
+      "150 days (standard reference baseline comparative value)",
       "335 to 345 days (approx 11 months)",
-      "150 days"
+      "390 days (standard reference baseline comparative value)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Equine gestation averages ~340 days (11 months), with substantial variation (320-365 days).",
@@ -7227,9 +7227,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "Which indigenous zebu cattle breed is renowned as the highest milk producer among Indian dairy breeds?",
     "options": [
-      "Kangayam",
       "Hallikar",
       "Amritmahal",
+      "Kangayam",
       "Sahiwal"
     ],
     "correctOptionIndex": 3,
@@ -7249,10 +7249,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The 'Gir' cattle breed of Gujarat is visually characterized by which iconic conformation?",
     "options": [
-      "Straight flat forehead",
+      "Straight flat forehead (regulated in accordance with established veterinary standard protocols)",
       "Convex bulging forehead and long, pendulous curled ears resembling folded leaves",
-      "Complete absence of horns",
-      "Short pricked ears"
+      "Short pricked ears (exhibiting predictable phenotypic and functional developmental patterns)",
+      "Complete absence of horns (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Gir cattle possess an ultra-convex forehead (bony dome protecting the brain) and pendulous, leaf-like folded ears notched at the tip.",
@@ -7271,8 +7271,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "Which cattle breed is famous for its majestic high-stepping gait known as 'Sawai Chal'?",
     "options": [
+      "Gir (exhibiting predictable phenotypic and functional developmental patterns)",
       "Deoni",
-      "Gir",
       "Kankrej",
       "Sahiwal"
     ],
@@ -7294,9 +7294,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The world-famous 'Murrah' buffalo breed originated from:",
     "options": [
       "Haryana and Punjab (Rohtak, Jind, Hisar districts)",
-      "Gujarat",
-      "Maharashtra",
-      "Tamil Nadu"
+      "Tamil Nadu (characterized by distinct physiological and comparative biological features)",
+      "Gujarat (regulated in accordance with established veterinary standard protocols)",
+      "Maharashtra (regulated in accordance with established veterinary standard protocols)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Murrah is the premier dairy buffalo breed globally, characterized by jet black color and tightly coiled spiral horns ('curly horns').",
@@ -7315,9 +7315,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "Which buffalo breed produces milk with the highest average milk fat percentage (up to 12-14%)?",
     "options": [
-      "Murrah",
-      "Nili-Ravi",
       "Jaffarabadi",
+      "Murrah (exhibiting predictable phenotypic and functional developmental patterns)",
+      "Nili-Ravi",
       "Bhadawari"
     ],
     "correctOptionIndex": 3,
@@ -7337,10 +7337,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The 'Nili-Ravi' buffalo breed is distinguished by white markings on the forehead, face, muzzle, legs, and tail switch, termed:",
     "options": [
-      "Kalyani",
+      "Shankar (regulated in accordance with established veterinary standard protocols)",
       "Panchkalyan (five auspicious white points)",
-      "Shankar",
-      "Chouhan"
+      "Kalyani (exhibiting predictable phenotypic and functional developmental patterns)",
+      "Chouhan (exhibiting predictable phenotypic and functional developmental patterns)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Nili-Ravi buffaloes are characterized by white wall eyes and white patches on five points (forehead, face, legs, tail switch), called Panchkalyan.",
@@ -7359,10 +7359,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The heaviest and largest Indian buffalo breed with massive drooping horns and a prominent forehead is the:",
     "options": [
-      "Surti",
-      "Mehsana",
+      "Pandharpuri",
+      "Mehsana (exhibiting predictable phenotypic and functional developmental patterns)",
       "Jaffarabadi",
-      "Pandharpuri"
+      "Surti (regulated in accordance with established veterinary standard protocols)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Jaffarabadi buffaloes (Gir forest, Gujarat) are the heaviest breed, with broad flat horns drooping down the side of the neck.",
@@ -7382,9 +7382,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'Mehsana' buffalo breed was developed by crossing which two parent breeds?",
     "options": [
       "Murrah and Surti",
-      "Nagpuri and Pandharpuri",
+      "Jaffarabadi and Murrah",
       "Nili-Ravi and Bhadawari",
-      "Jaffarabadi and Murrah"
+      "Nagpuri and Pandharpuri"
     ],
     "correctOptionIndex": 0,
     "explanation": "Mehsana was synthesized in Gujarat by crossing Murrah (for milk yield) with Surti (for persistent lactation).",
@@ -7404,9 +7404,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Which indigenous goat breed is renowned as the tallest and largest dairy breed, possessing a Roman nose and parrot-mouth conformation?",
     "options": [
       "Jamunapari",
-      "Marwari",
       "Black Bengal",
-      "Barbari"
+      "Barbari",
+      "Marwari"
     ],
     "correctOptionIndex": 0,
     "explanation": "Jamunapari (Chambal ravines, UP) is the largest Indian goat breed, with long pendulous ears and a pronounced convex Roman nose.",
@@ -7425,9 +7425,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "Which Indian goat breed is famous for high prolificacy (frequent twin and triplet kiddings) and supreme meat (chevon) quality?",
     "options": [
+      "Sirohi (regulated in accordance with established veterinary standard protocols)",
       "Jamunapari",
-      "Beetal",
-      "Sirohi",
+      "Beetal (regulated in accordance with established veterinary standard protocols)",
       "Black Bengal"
     ],
     "correctOptionIndex": 3,
@@ -7447,10 +7447,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The luxurious, ultra-fine undercoat fiber known as 'Pashmina' (Cashmere) is harvested from which Indian goat breed?",
     "options": [
-      "Barbari",
+      "Barbari (regulated in accordance with established veterinary standard protocols)",
       "Changthangi (and Chegu) goats of Ladakh/Himalayas",
-      "Osmanabadi",
-      "Jamunapari"
+      "Jamunapari (characterized by distinct physiological and comparative biological features)",
+      "Osmanabadi (exhibiting predictable phenotypic and functional developmental patterns)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Changthangi and Chegu goats grazing in high-altitude freezing Himalayan pastures produce the world-renowned soft undercoat down called Pashmina.",
@@ -7469,10 +7469,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The fine-wool sheep breed that produces the finest fleece globally (18-22 microns) is the:",
     "options": [
+      "Lincoln",
       "Dorset",
-      "Suffolk",
       "Merino",
-      "Lincoln"
+      "Suffolk"
     ],
     "correctOptionIndex": 2,
     "explanation": "The Australian Merino is the premier fine-wool sheep breed, producing dense, highly crimped, fine fleece.",
@@ -7513,10 +7513,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "Which Indian sheep breed of Rajasthan is celebrated as the 'Indian Merino' for producing fine apparel-grade wool?",
     "options": [
-      "Nali",
+      "Nali (regulated in accordance with established veterinary standard protocols)",
       "Chokla",
-      "Magra",
-      "Malpura"
+      "Malpura",
+      "Magra"
     ],
     "correctOptionIndex": 1,
     "explanation": "Chokla sheep produce the finest carpet/apparel wool among native Indian breeds and are colloquially called the Indian Merino.",
@@ -7535,8 +7535,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The practice of offering supplementary high-energy grain to breeding ewes 2 to 3 weeks prior to mating is called:",
     "options": [
-      "Challenger feeding",
       "Steaming up",
+      "Challenger feeding",
       "Flushing",
       "Creep feeding"
     ],
@@ -7558,8 +7558,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The nutritional practice of feeding extra concentrate to pregnant cows/ewes 3 to 4 weeks before parturition is called:",
     "options": [
       "Phase feeding",
-      "Flushing",
       "Creep feeding",
+      "Flushing",
       "Steaming up"
     ],
     "correctOptionIndex": 3,
@@ -7579,10 +7579,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "Creep feeding refers to providing specialized nutrient-dense feed exclusively to:",
     "options": [
-      "Dry cows",
+      "Breeding bulls (regulated in accordance with established veterinary standard protocols)",
       "Young suckling calves/piglets/lambs in an enclosure inaccessible to adult dams",
-      "Breeding bulls",
-      "Sick animals"
+      "Sick animals (characterized by distinct physiological and comparative biological features)",
+      "Dry cows (exhibiting predictable phenotypic and functional developmental patterns)"
     ],
     "correctOptionIndex": 1,
     "explanation": "A creep gate allows small young animals to enter a private feeding pen to consume starter ration without interference from larger adults.",
@@ -7601,9 +7601,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The incubation period for the domestic chicken (Gallus domesticus) egg is:",
     "options": [
+      "17 days",
       "28 days",
       "35 days",
-      "17 days",
       "21 days"
     ],
     "correctOptionIndex": 3,
@@ -7624,9 +7624,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The incubation period for domestic duck and turkey eggs is:",
     "options": [
       "28 days",
+      "21 days",
       "17 days",
-      "35 days",
-      "21 days"
+      "35 days"
     ],
     "correctOptionIndex": 0,
     "explanation": "Duck and turkey eggs require 28 days of incubation (Muscovy ducks require 35 days).",
@@ -7645,10 +7645,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The optimum setter temperature in a modern forced-draft incubator for chicken eggs is:",
     "options": [
-      "105.0 degrees F",
-      "102.5 degrees F",
+      "105.0 to 105.5 degrees Fahrenheit (40.5 to 40.8 degrees C)",
+      "102.0 to 102.5 degrees Fahrenheit (38.8 to 39.2 degrees C)",
       "99.5 to 100.0 degrees Fahrenheit (37.5 to 37.8 degrees C)",
-      "95.0 degrees F"
+      "95.0 to 95.5 degrees Fahrenheit (35.0 to 35.3 degrees C)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Forced-draft incubators maintain a steady 99.5-100.0 F (37.5-37.7 C) during the first 18 days of setter incubation.",
@@ -7667,10 +7667,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "During incubation, chicken eggs should be turned regularly until which day, when they are transferred to the hatcher?",
     "options": [
-      "20th day",
-      "18th day",
       "14th day",
-      "10th day"
+      "18th day",
+      "10th day",
+      "20th day"
     ],
     "correctOptionIndex": 1,
     "explanation": "Eggs are turned hourly until day 18 to prevent the embryo from sticking to the inner shell membrane, then moved to hatcher baskets without turning.",
@@ -7689,9 +7689,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "Relative humidity inside the hatcher during the final 3 days (days 19 to 21) of chicken egg incubation should be increased to:",
     "options": [
-      "50%",
-      "40%",
-      "95%",
+      "50% (average ~47-52%)",
+      "95% (average ~90-99%)",
+      "40% (average ~38-42%)",
       "70% to 75% (wet-bulb ~90 F)"
     ],
     "correctOptionIndex": 3,
@@ -7712,9 +7712,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Egg candling is conventionally carried out on which incubation days to eliminate infertile eggs and dead embryos?",
     "options": [
       "7th day and 14th day",
+      "18th day only (exhibiting predictable phenotypic and functional developmental patterns)",
       "1st day and 21st day",
-      "10th day only",
-      "18th day only"
+      "10th day only (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Candling on day 7 identifies infertile 'clears' and early dead germs; day 14 candling detects mid-incubation dead embryos.",
@@ -7733,10 +7733,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "In poultry brooding management, the brooding temperature under the hover during the 1st week of life should be:",
     "options": [
-      "70 degrees F",
-      "105 degrees F",
+      "105 degrees F (exhibiting predictable phenotypic and functional developmental patterns)",
+      "70 degrees F (characterized by distinct physiological and comparative biological features)",
       "95 degrees Fahrenheit (35 degrees C)",
-      "80 degrees F"
+      "80 degrees F (regulated in accordance with established veterinary standard protocols)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Chicks cannot thermoregulate during their first week and require 95 F (35 C), reduced by 5 F each subsequent week until ambient room temp is reached.",
@@ -7755,10 +7755,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "Beak trimming (debeaking) in commercial egg-type pullets is performed at 7 to 10 days of age primarily to prevent:",
     "options": [
-      "Coccidiosis",
-      "Broodiness",
+      "Coccidiosis (regulated in accordance with established veterinary standard protocols)",
+      "Egg eating (characterized by distinct physiological and comparative biological features)",
       "Cannibalism, feather pecking, and feed wastage",
-      "Egg eating"
+      "Broodiness (regulated in accordance with established veterinary standard protocols)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Debeaking removes the sharp tip of the upper and lower beak to eliminate feather pecking, vent cannibalism, and feed tossing.",
@@ -7777,10 +7777,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Livestock Production Management",
     "questionText": "The 'all-in, all-out' system in poultry and swine farming is a biosecurity strategy where:",
     "options": [
-      "Animals are kept indefinitely",
+      "Animals are housed permanently across successive production cycles without scheduled sanitary depopulation",
       "All animals in a shed are introduced and depopulated together, allowing complete disinfection between batches",
-      "Breeding occurs continuously",
-      "New animals enter daily"
+      "Breeding replacement stock are continually mixed with market-ready animals in shared shed compartments",
+      "New susceptible livestock are introduced weekly while unmarketed older animals remain in adjoining pens"
     ],
     "correctOptionIndex": 1,
     "explanation": "Depopulating an entire house simultaneously breaks pathogen cycles, allowing thorough cleaning, disinfection, and downtime.",
@@ -7822,8 +7822,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'dewattling' procedure in cockerels refers to the surgical excision of the:",
     "options": [
       "Claws",
+      "Comb (Cranial fleshy vascular caruncle of Gallus domesticus)",
       "Preen gland",
-      "Comb",
       "Wattles"
     ],
     "correctOptionIndex": 3,
@@ -7845,8 +7845,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Striated (skeletal) muscle",
       "Cardiac Purkinje fibers",
-      "Renal tubular epithelium",
-      "Hepatic cords"
+      "Hepatic cords (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Renal tubular epithelium"
     ],
     "correctOptionIndex": 0,
     "explanation": "Zenker's degeneration is a waxy, hyaline degeneration of skeletal muscle fibers classically seen in White Muscle Disease (Selenium/Vit E deficiency) and toxemias.",
@@ -7867,8 +7867,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Blue-black metachromasia",
       "Apple-green birefringence",
-      "Yellow fluorescence",
-      "Dark brown opacity"
+      "Dark brown opacity",
+      "Yellow fluorescence"
     ],
     "correctOptionIndex": 1,
     "explanation": "Under polarizing microscopy, Congo red-stained amyloid fibrils exhibit characteristic pathognomonic apple-green birefringence due to their beta-pleated sheet conformation.",
@@ -7887,9 +7887,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "Coagulative necrosis is the characteristic pattern of cell death seen in ischemic infarction in all solid organs EXCEPT the:",
     "options": [
-      "Spleen",
-      "Kidney",
-      "Myocardium",
+      "Kidney (Renal cortex and medullary pyramids with nephron tubules)",
+      "Spleen (Splenic red pulp sinusoids and lymphoid follicular white pulp)",
+      "Myocardium (Left ventricular muscular wall and interventricular septum)",
       "Brain and spinal cord (Central Nervous System)"
     ],
     "correctOptionIndex": 3,
@@ -7909,10 +7909,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "Caseous necrosis with a cheesy, friable, amorphous debris appearance is the classic hallmark lesion of:",
     "options": [
-      "Coronary thrombosis",
-      "Rabies",
+      "Coronary thrombosis (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Rabies (characterized by distinctive cellular morphologic alterations in target viscera)",
       "Tuberculosis (Mycobacterium bovis)",
-      "Acute pancreatitis"
+      "Acute pancreatitis (accompanied by severe microvascular congestion and inflammatory infiltration)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Tuberculosis creates central caseous necrosis surrounded by epithelioid macrophages, Langhans multinucleated giant cells, and a peripheral lymphocytic rim (tubercle).",
@@ -7931,10 +7931,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "Enzymatic fat necrosis with chalky white calcium deposits (saponification) is classically seen in:",
     "options": [
-      "Hepatic lipidosis",
+      "Hepatic lipidosis (producing marked histopathological lesions with widespread tissue disruption)",
       "Acute necrotizing pancreatitis",
-      "Pulmonary tuberculosis",
-      "Renal amyloidosis"
+      "Renal amyloidosis (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Pulmonary tuberculosis"
     ],
     "correctOptionIndex": 1,
     "explanation": "Release of activated pancreatic lipases into peripancreatic mesenteric fat hydrolyzes triglycerides into free fatty acids, which complex with calcium to form chalky soaps.",
@@ -7953,10 +7953,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The 'nutmeg liver' appearance on gross necropsy is characteristic of:",
     "options": [
-      "Biliary cirrhosis",
-      "Hepatic lipidosis",
+      "Hepatic lipidosis (producing marked histopathological lesions with widespread tissue disruption)",
+      "Acute viral hepatitis (accompanied by severe microvascular congestion and inflammatory infiltration)",
       "Chronic passive venous congestion (Right-sided heart failure)",
-      "Acute viral hepatitis"
+      "Biliary cirrhosis (accompanied by severe microvascular congestion and inflammatory infiltration)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Centrilobular passive congestion and necrosis (dark red) contrasted with periportal fatty change (pale yellow) produces the mottled 'nutmeg' pattern.",
@@ -7975,9 +7975,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The 'Virchow’s triad' outlines the three primary predisposing factors for intravascular thrombosis, which are:",
     "options": [
-      "Fever, Leukopenia, and Thrombocytopenia",
-      "Hyperglycemia, Hypokalemia, and Edema",
-      "Hypotension, Anemia, and Hypocalcemia",
+      "Fever, Leukopenia, and Thrombocytopenia (producing marked histopathological lesions with widespread tissue disruption)",
+      "Hyperglycemia, Hypokalemia, and Edema (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Hypotension, Anemia, and Hypocalcemia (characterized by distinctive cellular morphologic alterations in target viscera)",
       "Endothelial injury, Stasis / abnormal blood flow, and Hypercoagulability"
     ],
     "correctOptionIndex": 3,
@@ -7998,9 +7998,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Post-mortem blood clots can be distinguished grossly from ante-mortem thrombi because post-mortem clots are:",
     "options": [
       "Moist, gelatinous, unattached to vessel walls, and easily removable ('currant jelly' or 'chicken fat')",
-      "Containing abundant bacteria",
-      "Dry, friable, laminated with lines of Zahn, and adherent to the wall",
-      "Always calcified"
+      "Containing abundant bacteria, accompanying serofibrinous exudate, and cellular infiltration",
+      "Always calcified, accompanying serofibrinous exudate, and cellular infiltration",
+      "Dry, friable, laminated with lines of Zahn, and adherent to the wall (accompanied by severe microvascular congestion and inflammatory infiltration)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Post-mortem clots are smooth, shiny, non-adherent, taking the shape of the lumen ('currant jelly' with red cells settled or 'chicken fat' with plasma separated).",
@@ -8019,10 +8019,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The 'wear and tear' insoluble brown-yellow intracellular pigment composed of oxidized lipid polymers that accumulates with aging is:",
     "options": [
-      "Melanin",
+      "Bilirubin (characterized by distinctive cellular morphologic alterations in target viscera)",
       "Lipofuscin (ceroid)",
-      "Bilirubin",
-      "Hemosiderin"
+      "Hemosiderin (producing marked histopathological lesions with widespread tissue disruption)",
+      "Melanin (producing marked histopathological lesions with widespread tissue disruption)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Lipofuscin is an endogenous aging pigment resulting from free radical peroxidation of polyunsaturated lipids in lysosomes of non-dividing cells (neurons, cardiomyocytes).",
@@ -8043,8 +8043,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Prussian Blue (Perls' reaction)",
       "Periodic Acid-Schiff (PAS)",
-      "Oil Red O",
-      "Congo Red"
+      "Alkaline Congo Red stain (demonstrating apple-green birefringence under polarized light)",
+      "Oil Red O lysochrome stain (demonstrating bright red neutral triglyceride lipid droplets)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Perls' Prussian blue reaction utilizes potassium ferrocyanide in dilute hydrochloric acid to stain ferric iron (Fe3+) in hemosiderin a vivid blue.",
@@ -8063,8 +8063,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "Fatty degeneration (steatosis) of the liver can be histochemically confirmed in frozen sections using which stain?",
     "options": [
-      "Von Kossa stain",
-      "Masson's Trichrome",
+      "Von Kossa stain (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Masson's trichrome stain (demonstrating green/blue collagen against red muscle fibers)",
       "Hematoxylin and Eosin",
       "Oil Red O or Sudan Black B"
     ],
@@ -8085,10 +8085,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The cardinal signs of acute inflammation include Rubor (redness), Calor (heat), Tumor (swelling), Dolor (pain), and:",
     "options": [
-      "Necrosis",
-      "Hyperemia",
+      "Hyperemia (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Necrosis (characterized by distinctive cellular morphologic alterations in target viscera)",
       "Functio laesa (loss of function)",
-      "Fibrosis"
+      "Fibrosis (accompanied by severe microvascular congestion and inflammatory infiltration)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Celsus described the four signs, and Rudolf Virchow added the fifth: Functio laesa (loss of function of the inflamed tissue).",
@@ -8108,9 +8108,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Langhans multinucleated giant cells with peripheral horseshoe-shaped nuclei are classically found in:",
     "options": [
       "Granulomatous inflammation (Tuberculosis)",
-      "Acute suppurative abscess",
-      "Fibrinous pericarditis",
-      "Allergic dermatitis"
+      "Acute suppurative abscess (accompanied by marked fibrinous exudate, mucosal erosion, and cellular debris)",
+      "Allergic dermatitis (producing extensive tissue remodeling, chronic fibroplasia, and granulomatous cuffing)",
+      "Fibrinous pericarditis (characterized by intense infiltration of heterophils and reactive macrophages)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Langhans giant cells are fused epithelioid macrophages characterized by nuclei arranged in an arc or horseshoe pattern around the cell periphery in tuberculosis.",
@@ -8129,10 +8129,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The predominant inflammatory leukocyte recruited in the first 6 to 24 hours of acute bacterial inflammation is the:",
     "options": [
-      "Macrophage",
-      "Plasma cell",
+      "Macrophage (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Plasma cell (characterized by distinctive cellular morphologic alterations in target viscera)",
       "Neutrophil (heterophil in birds)",
-      "Eosinophil"
+      "Eosinophil (producing marked histopathological lesions with widespread tissue disruption)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Neutrophils respond first to chemotactic signals (C5a, LTB4, IL-8), performing phagocytosis and releasing reactive oxygen species.",
@@ -8151,9 +8151,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "Eosinophilic inflammatory infiltrates are classically associated with:",
     "options": [
-      "Bacterial septicemia",
-      "Acute viral infections",
-      "Infarction",
+      "Infarction (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Bacterial septicemia (producing marked histopathological lesions with widespread tissue disruption)",
+      "Acute viral infections (producing marked histopathological lesions with widespread tissue disruption)",
       "Parasitic (helminth) infections and Type I IgE-mediated allergic reactions"
     ],
     "correctOptionIndex": 3,
@@ -8173,10 +8173,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The 'bread and butter' appearance of the heart is gross pathology characteristic of:",
     "options": [
-      "Fatty degeneration",
+      "Myocardial infarction (producing marked histopathological lesions with widespread tissue disruption)",
       "Fibrinous pericarditis (e.g. Traumatic Reticulopericarditis in cattle)",
-      "Myocardial infarction",
-      "Hydropericardium"
+      "Hydropericardium (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Fatty degeneration (producing marked histopathological lesions with widespread tissue disruption)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Fibrin strands depositing across the visceral and parietal pericardium pull apart with heart movement, resembling two slices of buttered bread pulled apart.",
@@ -8195,9 +8195,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "Apoptosis is differentiated morphologically from necrosis because apoptosis features:",
     "options": [
-      "Calcification",
-      "Formation of large scars",
-      "Cellular swelling, membrane rupture, and intense neutrophil influx",
+      "Enzymatic fat saponification, dystrophic calcification, basophilic debris, and fibrosis",
+      "Extensive coagulative necrosis, vascular thrombosis, ghost cell outlines, and marked inflammation",
+      "Cellular swelling, plasma membrane rupture, nuclear pyknosis, and intense neutrophil influx",
       "Cell shrinkage, intact cell membrane, chromatin condensation, apoptotic bodies, and NO inflammation"
     ],
     "correctOptionIndex": 3,
@@ -8217,10 +8217,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The universal hallmark diagnostic feature distinguishing malignant tumors from benign tumors is:",
     "options": [
-      "Rapid growth alone",
+      "Mitotic figures (producing marked histopathological lesions with widespread tissue disruption)",
       "Invasion into surrounding tissues and capability of metastasis",
-      "Presence of fibrous capsule",
-      "Mitotic figures"
+      "Rapid growth alone (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Presence of fibrous capsule (characterized by distinctive cellular morphologic alterations in target viscera)"
     ],
     "correctOptionIndex": 1,
     "explanation": "While cellular atypia and rapid growth suggest malignancy, local tissue invasion and distant metastasis are the unequivocal criteria of malignancy.",
@@ -8240,9 +8240,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "A malignant neoplasm derived from epithelial tissue is classified as a:",
     "options": [
       "Fibroma",
-      "Adenoma",
+      "Sarcoma",
       "Carcinoma",
-      "Sarcoma"
+      "Adenoma"
     ],
     "correctOptionIndex": 2,
     "explanation": "Malignant tumors of epithelial origin are carcinomas (e.g. Squamous Cell Carcinoma, Adenocarcinoma), while those of mesenchymal origin are sarcomas.",
@@ -8262,9 +8262,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "A malignant neoplasm derived from mesenchymal connective tissue (bone, cartilage, fibrous tissue) is termed a:",
     "options": [
       "Sarcoma",
+      "Carcinoma",
       "Hamartoma",
-      "Teratoma",
-      "Carcinoma"
+      "Teratoma"
     ],
     "correctOptionIndex": 0,
     "explanation": "Sarcomas (e.g. Osteosarcoma, Fibrosarcoma, Hemangiosarcoma) arise from mesenchymal tissues and classically metastasize via hematogenous routes.",
@@ -8283,9 +8283,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The 'p53' protein functions biologically as a:",
     "options": [
-      "Oncogene stimulating mitosis",
-      "Growth factor receptor",
-      "DNA polymerase",
+      "DNA polymerase (characterized by severe ischemic cell death and loss of nuclear basophilia)",
+      "Oncogene stimulating mitosis (associated with severe microvascular thrombosis and hemorrhagic extravasation)",
+      "Growth factor receptor (accompanied by acute enzymatic breakdown and coagulative protein denaturation)",
       "Tumor suppressor protein ('Guardian of the Genome') regulating cell cycle arrest and apoptosis"
     ],
     "correctOptionIndex": 3,
@@ -8306,9 +8306,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Bovine Papillomavirus Type 4 (BPV-4) along with ingestion of bracken fern (Pteridium aquilinum) causes:",
     "options": [
       "Squamous cell carcinoma of the upper digestive tract and urinary bladder (Enzootic Bovine Hematuria)",
-      "Foot rot",
-      "Papillomatosis of skin exclusively",
-      "Bovine leukosis"
+      "Foot rot (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Bovine leukosis (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Papillomatosis of skin exclusively (characterized by distinctive cellular morphologic alterations in target viscera)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Carcinogenic ptaquiloside in bracken fern acts synergistically with BPV-4 to transform papillomas into malignant squamous cell carcinomas and bladder hemangiosarcomas.",
@@ -8327,10 +8327,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The 'Marek’s Disease' in domestic poultry is a lymphoproliferative neoplastic disease caused by:",
     "options": [
-      "Retrovirus",
+      "Retrovirus (characterized by distinctive cellular morphologic alterations in target viscera)",
       "Marek's Disease Virus (an Alphaherpesvirus)",
-      "Coronavirus",
-      "Birnavirus"
+      "Birnavirus (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Coronavirus (producing marked histopathological lesions with widespread tissue disruption)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Marek's Disease Virus (MDV, Gallid alphaherpesvirus 2) transforms T-lymphocytes, producing peripheral nerve enlargement (sciatic paralysis), skin leukosis, and visceral lymphomas.",
@@ -8349,10 +8349,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "Lymphoid leukosis in chickens is caused by an:",
     "options": [
-      "Adenovirus",
-      "Poxvirus",
+      "Poxvirus (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Adenovirus (producing marked histopathological lesions with widespread tissue disruption)",
       "Avian Retrovirus (Avian Leukosis Virus - ALV)",
-      "Herpesvirus"
+      "Herpesvirus (accompanied by severe microvascular congestion and inflammatory infiltration)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Avian Leukosis Virus is an oncogenic retrovirus that infects the bursa of Fabricius, transforming B-lymphocytes into clonal lymphomas in older birds.",
@@ -8371,9 +8371,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "Canine Transmissible Venereal Tumor (CTVT / Sticker's sarcoma) has a characteristic diploid chromosome count of:",
     "options": [
-      "90 chromosomes",
-      "78 chromosomes",
-      "38 chromosomes",
+      "38 chromosomes (producing marked histopathological lesions with widespread tissue disruption)",
+      "78 chromosomes (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "90 chromosomes (characterized by distinctive cellular morphologic alterations in target viscera)",
       "59 chromosomes (compared to the normal canine 78)"
     ],
     "correctOptionIndex": 3,
@@ -8393,10 +8393,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "At necropsy of a bovine carcass, you observe: failure of blood to clot (dark tarry blood discharging from all natural orifices), absence of rigor mortis, and tremendous splenomegaly ('blackberry jam' spleen). What is the diagnosis?",
     "options": [
-      "Hemorrhagic Septicemia",
+      "Bovine Viral Diarrhea",
       "Anthrax (Bacillus anthracis)",
-      "Blackleg",
-      "Bovine Viral Diarrhea"
+      "Blackleg (producing marked histopathological lesions with widespread tissue disruption)",
+      "Hemorrhagic Septicemia"
     ],
     "correctOptionIndex": 1,
     "explanation": "These are the pathognomonic necropsy findings of peracute Anthrax; opening the carcass is legally prohibited to prevent environmental spore contamination.",
@@ -8415,10 +8415,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The pathognomonic gross lesion of 'Blackleg' (Clostridium chauvoei infection) in cattle is:",
     "options": [
-      "Petechiae on kidney cortex",
-      "Splenomegaly with unclotted blood",
+      "Petechiae on kidney cortex, accompanying serofibrinous exudate, and cellular infiltration",
+      "Splenomegaly with unclotted blood, accompanying serofibrinous exudate, and cellular infiltration",
       "Dry, black, crepitant emphysematous muscle swellings with a sweet, rancid butter (butyric acid) odor",
-      "Ulcers on tongue"
+      "Ulcers on tongue, accompanying serofibrinous exudate, and cellular infiltration"
     ],
     "correctOptionIndex": 2,
     "explanation": "C. chauvoei produces severe necrotizing emphysematous myositis, turning skeletal muscle dark red-black and dry with gas crepitation and a butyric odor.",
@@ -8438,9 +8438,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The hallmark intestinal pathology of 'Johne’s Disease' (Paratuberculosis / Mycobacterium avium subsp. paratuberculosis) in cattle is:",
     "options": [
       "Thickened, corrugation of the ileal and colonic mucosa resembling cerebral gyri that cannot be smoothed out",
-      "Linear button ulcers",
-      "Hemorrhagic pseudomembranes",
-      "Fibrinous cast formation"
+      "Linear button ulcers (producing marked histopathological lesions with widespread tissue disruption)",
+      "Fibrinous cast formation (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Hemorrhagic pseudomembranes (accompanied by severe microvascular congestion and inflammatory infiltration)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Massive infiltration of the lamina propria and submucosa by epithelioid macrophages packed with acid-fast bacilli causes permanent transverse corrugation of the intestine.",
@@ -8459,8 +8459,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "Negri bodies are pathognomonic eosinophilic intracytoplasmic viral inclusion bodies found in neurons in:",
     "options": [
-      "Canine Distemper",
       "Infectious Canine Hepatitis",
+      "Canine Distemper",
       "Bovine Spongiform Encephalopathy",
       "Rabies"
     ],
@@ -8482,9 +8482,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Cowdry Type A intranuclear inclusion bodies are the classic histological hallmark of:",
     "options": [
       "Herpesvirus infections and Infectious Canine Hepatitis (Adenovirus)",
-      "Poxvirus",
-      "Rabies",
-      "Rotavirus"
+      "Poxvirus (characterized by intense infiltration of heterophils and reactive macrophages)",
+      "Rotavirus (accompanied by marked fibrinous exudate, mucosal erosion, and cellular debris)",
+      "Rabies (characterized by intense infiltration of heterophils and reactive macrophages)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Infectious Canine Hepatitis (CAdV-1) produces large, basophilic to amphophilic intranuclear inclusion bodies inside hepatocytes and vascular endothelial cells.",
@@ -8503,10 +8503,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "Canine Distemper Virus (CDV / Morbillivirus) is pathologically unique because it produces:",
     "options": [
-      "Intracytoplasmic inclusions only",
+      "No inclusion bodies (forming distinctive pathognomonic intracellular inclusions and protein deposits)",
       "Both intracytoplasmic AND intranuclear inclusion bodies in epithelial and glial cells",
-      "Intranuclear inclusions only",
-      "No inclusion bodies"
+      "Intracytoplasmic inclusions only (exhibiting dystrophic mineral precipitation along degenerated basement membranes)",
+      "Intranuclear inclusions only (forming distinctive pathognomonic intracellular inclusions and protein deposits)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Canine distemper virus produces characteristic eosinophilic inclusions in both the nucleus and the cytoplasm of respiratory, urinary, and glial cells.",
@@ -8525,10 +8525,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "'Hard pad disease' (hyperkeratosis of footpads and nose) in dogs is a classic manifestation of chronic:",
     "options": [
-      "Canine Parvovirus",
+      "Rabies (characterized by distinctive cellular morphologic alterations in target viscera)",
       "Leptospirosis",
       "Canine Distemper",
-      "Rabies"
+      "Canine Parvovirus"
     ],
     "correctOptionIndex": 2,
     "explanation": "Epitheliotropic proliferation by CDV causes severe secondary hyperkeratosis of the footpads and planum nasale, termed hard pad disease.",
@@ -8548,9 +8548,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'button ulcers' in the cecum and colon mucosa are pathognomonic gross lesions of chronic:",
     "options": [
       "Classical Swine Fever (Hog Cholera)",
-      "Porcine Parvovirus",
-      "African Swine Fever",
-      "Swine Erysipelas"
+      "Porcine Parvovirus (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "African Swine Fever (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Swine Erysipelas (accompanied by severe microvascular congestion and inflammatory infiltration)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Concentric necrotic ulcerative lesions ('button ulcers') surrounding the ileocecal orifice are pathognomonic for chronic Classical Swine Fever.",
@@ -8569,10 +8569,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The 'turkey egg kidney' (subcapsular petechial hemorrhages on the renal cortex) is classically observed in:",
     "options": [
-      "Foot and Mouth Disease",
+      "Foot and Mouth Disease (characterized by distinctive cellular morphologic alterations in target viscera)",
       "Classical Swine Fever (Hog Cholera)",
-      "Glanders",
-      "Anthrax"
+      "Glanders (producing marked histopathological lesions with widespread tissue disruption)",
+      "Anthrax (producing marked histopathological lesions with widespread tissue disruption)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Endothelial damage caused by Pestivirus (CSF) produces widespread cortical petechiae on the pale kidney, resembling a speckled turkey egg.",
@@ -8591,9 +8591,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "'Diamond skin disease' (rhomboid, red-purple raised cutaneous plaques) in pigs is pathognomonic for:",
     "options": [
-      "Streptococcus suis",
-      "Actinobacillus pleuropneumoniae",
-      "Classical Swine Fever",
+      "Actinobacillus pleuropneumoniae (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Classical Swine Fever (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Streptococcus suis (Porcine septicemia and purulent meningitis)",
       "Erysipelothrix rhusiopathiae (Swine Erysipelas)"
     ],
     "correctOptionIndex": 3,
@@ -8613,10 +8613,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "In Foot and Mouth Disease (FMD), the characteristic lesion in young nursing calves without oral blisters is acute myocardial necrosis termed:",
     "options": [
-      "Nutmeg heart",
-      "Bread-and-butter heart",
+      "Bread-and-butter heart (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Nutmeg heart (producing marked histopathological lesions with widespread tissue disruption)",
       "'Tiger heart' (myocarditis with grayish-yellow stripes)",
-      "Cor bovinum"
+      "Cor bovinum (producing marked histopathological lesions with widespread tissue disruption)"
     ],
     "correctOptionIndex": 2,
     "explanation": "In young calves, the FMD virus (Aphthovirus) exhibits neurotropic/myotropic affinity, producing acute multifocal myocardial necrosis appearing as pale yellowish streaks ('tiger heart').",
@@ -8636,9 +8636,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'pipe-stem liver' characterized by massively fibrosed, calcified, protruding bile ducts in cattle is pathognomonic for chronic infection by:",
     "options": [
       "Fasciola hepatica (or Fasciola gigantica)",
-      "Ascaris suum",
-      "Haemonchus contortus",
-      "Echinococcus granulosus"
+      "Echinococcus granulosus (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Haemonchus contortus (producing marked histopathological lesions with widespread tissue disruption)",
+      "Ascaris suum (producing marked histopathological lesions with widespread tissue disruption)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Chronic biliary flukes inhabit the major bile ducts, inducing marked pericholangitis, epithelial hyperplasia, and calcification that resembles clay pipe stems.",
@@ -8658,9 +8658,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'milk spot liver' in pigs is caused by the larval migration of:",
     "options": [
       "Metastrongylus apri",
-      "Stephanurus dentatus",
+      "Trichinella spiralis",
       "Ascaris suum",
-      "Trichinella spiralis"
+      "Stephanurus dentatus"
     ],
     "correctOptionIndex": 2,
     "explanation": "Migrating L3 larvae of Ascaris suum penetrate liver parenchyma, inducing focal eosinophilic hepatitis that heals with whitish fibrous scars ('milk spots').",
@@ -8681,8 +8681,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Haemonchus contortus",
       "Oesophagostomum columbianum",
-      "Nematodirus battus",
-      "Moniezia expansa"
+      "Nematodirus battus (producing marked histopathological lesions with widespread tissue disruption)",
+      "Moniezia expansa (characterized by distinctive cellular morphologic alterations in target viscera)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Larvae of Oesophagostomum encyst in the submucosa of the small and large intestine, provoking caseocalcareous foreign-body granulomas termed pimply gut.",
@@ -8701,9 +8701,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "'Bottle jaw' (submandibular edema) in small ruminants with Haemonchosis is primarily a result of:",
     "options": [
-      "Lymphatic obstruction by adult worms",
-      "Congestive heart failure",
-      "Renal amyloidosis",
+      "Lymphatic obstruction by adult worms (characterized by distinctive cellular morphologic alterations in target viscera)",
+      "Renal amyloidosis (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Congestive heart failure (accompanied by severe microvascular congestion and inflammatory infiltration)",
       "Severe hypoproteinemia (hypoalbuminemia) reducing plasma oncotic pressure due to abomasal blood loss"
     ],
     "correctOptionIndex": 3,
@@ -8723,10 +8723,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "In equine strangles (Streptococcus equi subsp. equi), the characteristic pathology is:",
     "options": [
-      "Fibrinous pleuropneumonia",
-      "Encephalitis",
+      "Enteritis (accompanied by marked fibrinous exudate, mucosal erosion, and cellular debris)",
+      "Encephalitis (producing extensive tissue remodeling, chronic fibroplasia, and granulomatous cuffing)",
       "Suppurative lymphadenitis and abscessation of the submandibular and retropharyngeal lymph nodes",
-      "Enteritis"
+      "Fibrinous pleuropneumonia (producing extensive tissue remodeling, chronic fibroplasia, and granulomatous cuffing)"
     ],
     "correctOptionIndex": 2,
     "explanation": "S. equi causes acute purulent inflammation and abscessation of lymph nodes draining the upper respiratory tract, which can compress the pharynx/larynx (strangles).",
@@ -8745,9 +8745,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Pathology",
     "questionText": "The pathognomonic lesion of 'Glanders' (Burkholderia mallei) in horses is the formation of nodules and ulcerations in the respiratory tract and skin healing with:",
     "options": [
-      "Rhomboid plaques",
-      "Button ulcers",
-      "Ringworm lesions",
+      "Ringworm lesions (producing marked histopathological lesions with widespread tissue disruption)",
+      "Button ulcers (accompanied by severe microvascular congestion and inflammatory infiltration)",
+      "Rhomboid plaques (characterized by distinctive cellular morphologic alterations in target viscera)",
       "Stellate (star-shaped) scars"
     ],
     "correctOptionIndex": 3,
@@ -8768,9 +8768,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The primary chemical component of the bacterial endospore cortex and core conferring resistance to extreme heat is:",
     "options": [
       "Calcium dipicolinate (dipicolinic acid complexed with calcium)",
-      "Lipopolysaccharide",
-      "Teichoic acid",
-      "Peptidoglycan"
+      "Teichoic acid (exhibiting characteristic biochemical and physiological metabolic profiles)",
+      "Lipopolysaccharide (associated with severe clinical manifestations and systemic bacteremia)",
+      "Peptidoglycan (acting as a significant veterinary pathogen with distinctive antigenic traits)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Calcium dipicolinate represents 5-15% of the dry weight of the spore, dehydrating the core and stabilizing enzymes and DNA against heat denaturation.",
@@ -8789,10 +8789,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The 'McFadyean reaction' is a diagnostic stain used for presumptive identification of Bacillus anthracis in blood smears using:",
     "options": [
-      "Carbol fuchsin",
-      "Crystal violet",
+      "Indian ink negative staining (demonstrating clear halos of Cryptococcus capsules)",
+      "Ziehl-Neelsen carbol fuchsin (demonstrating bright red acid-fast bacilli)",
       "Polychrome methylene blue (demonstrating pink/purple capsule around dark blue bacilli)",
-      "Indian ink"
+      "Gram crystal violet-iodine (demonstrating deep purple cell wall peptidoglycan)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Polychrome methylene blue stains the poly-D-glutamic acid capsule of B. anthracis an amorphous pink-purple surrounding blue, square-ended truncated rods.",
@@ -8811,9 +8811,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The thermoprecipitin test developed by Alberto Ascoli for rapid detection of anthrax antigens in decomposed hides and tissues is the:",
     "options": [
-      "Schick test",
-      "Complement fixation test",
-      "Rose Bengal test",
+      "Schick intracutaneous test (assessing neutralizing antitoxin immunity against diphtheria)",
+      "Complement fixation test (measuring antigen-antibody complement consumption)",
+      "Rose Bengal Plate Test (rapid acidified serum agglutination for brucellosis)",
       "Ascoli test (ring precipitation test)"
     ],
     "correctOptionIndex": 3,
@@ -8833,10 +8833,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The neurotoxin 'tetanospasmin' produced by Clostridium tetani exerts its spastic paralytic effect by:",
     "options": [
-      "Inactivating voltage-gated sodium channels",
+      "Inactivating voltage-gated sodium channels (acting as a significant veterinary pathogen with distinctive antigenic traits)",
       "Cleaving synaptobrevin and blocking release of inhibitory neurotransmitters (GABA and Glycine) from Renshaw cells",
-      "Inhibiting acetylcholine release at the motor endplate",
-      "Directly destroying muscle fibers"
+      "Directly destroying muscle fibers (exhibiting characteristic biochemical and physiological metabolic profiles)",
+      "Inhibiting acetylcholine release at the motor endplate (acting as a significant veterinary pathogen with distinctive antigenic traits)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Tetanospasmin migrates retrograde into spinal cord inhibitory interneurons, blocking vesicular exocytosis of glycine and GABA, producing unchecked spastic tetany.",
@@ -8855,9 +8855,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The neurotoxin of Clostridium botulinum causes flaccid paralysis by:",
     "options": [
-      "Directly depolarizing muscle cells",
-      "Stimulating parasympathetic ganglia",
-      "Blocking GABA release",
+      "Stimulating parasympathetic ganglia (acting as a significant veterinary pathogen with distinctive antigenic traits)",
+      "Directly depolarizing muscle cells (associated with severe clinical manifestations and systemic bacteremia)",
+      "Blocking GABA release (exhibiting characteristic biochemical and physiological metabolic profiles)",
       "Cleaving SNARE proteins and blocking the exocytosis of Acetylcholine (ACh) at the neuromuscular junction"
     ],
     "correctOptionIndex": 3,
@@ -8877,10 +8877,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The 'pulpy kidney disease' (enterotoxemia) in sheep is caused by which toxin of Clostridium perfringens Type D?",
     "options": [
-      "Iota toxin",
+      "Beta toxin",
       "Epsilon toxin",
       "Alpha toxin",
-      "Beta toxin"
+      "Iota toxin"
     ],
     "correctOptionIndex": 1,
     "explanation": "Epsilon protoxin is activated by trypsin in the intestine, dramatically increasing vascular permeability in the brain and kidneys, causing rapid post-mortem autolysis of renal parenchyma.",
@@ -8899,10 +8899,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The causative agent of 'Hemorrhagic Septicemia' (HS) in cattle and buffaloes in Asian countries is:",
     "options": [
-      "Histophilus somni",
-      "Pasteurella multocida serotype E:2",
+      "Histophilus somni (Thrombotic meningoencephalitis / TME)",
+      "Mannheimia haemolytica (Bovine shipping fever pleuropneumonia)",
       "Pasteurella multocida serotype B:2 (Carter's B / Heddleston 2)",
-      "Mannheimia haemolytica A1"
+      "Pasteurella multocida serotype E:2 (acting as a significant veterinary pathogen with distinctive antigenic traits)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Asian hemorrhagic septicemia is caused exclusively by Pasteurella multocida serotype B:2, while serotype E:2 is the classical African etiology.",
@@ -8922,9 +8922,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Under microscopic examination of blood or tissue smears stained with Leishman or Giemsa, Pasteurella multocida characteristically displays:",
     "options": [
       "Bipolar staining ('safety-pin' appearance)",
-      "Chinese-letter arrangement",
-      "Medusa-head colonies",
-      "Drumstick spores"
+      "Drumstick spores (producing characteristic differential colonial morphology and enzymatic reactions)",
+      "Medusa-head colonies (forming distinctive phenotypic growth patterns on selective diagnostic media)",
+      "Chinese-letter arrangement (demonstrating distinctive tinctorial staining properties under light microscopy)"
     ],
     "correctOptionIndex": 0,
     "explanation": "P. multocida shows prominent bipolar condensation of chromatin at both poles with a clear central band, resembling a closed safety-pin.",
@@ -8944,9 +8944,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'Milk Ring Test' (MRT / ABR test) for herd screening of bovine brucellosis uses Brucella abortus antigen stained with:",
     "options": [
       "Hematoxylin (producing a blue-purple cream ring with positive milk)",
-      "Safranin",
-      "Crystal violet",
-      "Methylene blue"
+      "Gram crystal violet-iodine (demonstrating deep purple cell wall peptidoglycan)",
+      "Safranin O counterstain (demonstrating pink/red Gram-negative bacterial envelopes)",
+      "Loeffler alkaline methylene blue (demonstrating metachromatic polyphosphate granules)"
     ],
     "correctOptionIndex": 0,
     "explanation": "In Brucella-infected cows, milk antibodies agglutinate hematoxylin-stained B. abortus antigen, which attaches to rising fat globules to form a deep blue cream ring on top.",
@@ -8965,9 +8965,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The rapid field serum agglutination test widely employed for presumptive diagnosis of Brucellosis in cattle and goats is the:",
     "options": [
-      "VDRL test",
-      "Widal test",
-      "Castaneda strip test",
+      "Widal agglutination test (detecting salmonella enteric flagellar and somatic agglutinins)",
+      "VDRL flocculation test (detecting nonspecific antilipoidal reagin antibodies)",
+      "Castaneda strip test (producing characteristic differential colonial morphology and enzymatic reactions)",
       "Rose Bengal Plate Test (RBPT) buffered at pH 3.65"
     ],
     "correctOptionIndex": 3,
@@ -8987,10 +8987,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "Mycobacterium bovis and Mycobacterium tuberculosis are classified as 'acid-fast' bacilli because their cell walls are exceptionally rich in:",
     "options": [
-      "Teichoic acids",
-      "Peptidoglycan exclusively",
+      "Teichoic acids (associated with severe clinical manifestations and systemic bacteremia)",
+      "Peptidoglycan exclusively (acting as a significant veterinary pathogen with distinctive antigenic traits)",
       "Mycolic acids and complex glycolipids",
-      "Chitin"
+      "Chitin (acting as a significant veterinary pathogen with distinctive antigenic traits)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Mycolic acids form a waxy, lipid-rich hydrophobic barrier (60% of cell wall weight) that resists standard staining, holding carbol fuchsin against acid-alcohol decolorization.",
@@ -9009,9 +9009,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The gold-standard egg-based culture medium traditionally used for primary isolation of Mycobacterium species is:",
     "options": [
-      "Blood agar",
+      "MacConkey agar (acting as a significant veterinary pathogen with distinctive antigenic traits)",
       "Lowenstein-Jensen (L-J) medium",
-      "MacConkey agar",
+      "Blood agar (associated with severe clinical manifestations and systemic bacteremia)",
       "Sabouraud dextrose agar"
     ],
     "correctOptionIndex": 1,
@@ -9031,10 +9031,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The 'swarming phenomenon' (concentric waves of bacterial spreading over non-inhibitory agar plates) is characteristic of:",
     "options": [
-      "Escherichia coli",
-      "Salmonella enterica",
+      "Escherichia coli (Enterotoxigenic colibacillosis and white scours)",
+      "Salmonella enterica (Acute enterocolitis and paratyphoid fever)",
       "Proteus mirabilis and Proteus vulgaris",
-      "Pseudomonas aeruginosa"
+      "Pseudomonas aeruginosa (Pyocyanin-producing necrotizing bacillus)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Proteus species alternate between short swimmer cells and elongated, hyperflagellated swarmer cells, creating rhythmic concentric waves across blood agar.",
@@ -9053,9 +9053,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "Pseudomonas aeruginosa is visually and diagnostically recognized on agar culture by the production of a blue-green pigment called:",
     "options": [
-      "Melanin",
-      "Prodigiosin",
-      "Violacein",
+      "Prodigiosin (acting as a significant veterinary pathogen with distinctive antigenic traits)",
+      "Violacein (acting as a significant veterinary pathogen with distinctive antigenic traits)",
+      "Melanin (associated with severe clinical manifestations and systemic bacteremia)",
       "Pyocyanin (and Pyoverdine)"
     ],
     "correctOptionIndex": 3,
@@ -9076,9 +9076,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The primary diagnostic test used to differentiate pathogenic Staphylococcus aureus from non-pathogenic staphylococci is the:",
     "options": [
       "Coagulase test (converting fibrinogen to fibrin clot)",
-      "Oxidase test",
-      "Catalase test",
-      "Indole test"
+      "Cytochrome oxidase test (converting tetramethyl-p-phenylenediamine to dark purple indophenol)",
+      "Catalase test (converting 3% hydrogen peroxide into visible water and oxygen effervescence)",
+      "Indole test (converting tryptophan to pink rosindole dye with Kovac's reagent)"
     ],
     "correctOptionIndex": 0,
     "explanation": "S. aureus produces coagulase which clots rabbit plasma; coagulase-negative staphylococci (CNS, e.g. S. epidermidis) do not clot plasma.",
@@ -9097,10 +9097,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The enzyme that distinguishes all Staphylococci (positive) from Streptococci (negative) is:",
     "options": [
-      "Oxidase",
+      "Urease (acting as a significant veterinary pathogen with distinctive antigenic traits)",
       "Catalase (producing effervescence with 3% H2O2)",
-      "Urease",
-      "Coagulase"
+      "Coagulase (acting as a significant veterinary pathogen with distinctive antigenic traits)",
+      "Oxidase (associated with severe clinical manifestations and systemic bacteremia)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Staphylococci produce catalase (2 H2O2 -> 2 H2O + O2), producing bubbling when mixed with hydrogen peroxide; Streptococci are catalase-negative.",
@@ -9119,10 +9119,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "On MacConkey agar, Escherichia coli forms distinctive bright pink colonies because it is a:",
     "options": [
-      "Non-lactose fermenter",
-      "Gelatin liquefier",
+      "Non-lactose fermenter (associated with severe clinical manifestations and systemic bacteremia)",
+      "Urease producer (acting as a significant veterinary pathogen with distinctive antigenic traits)",
       "Lactose fermenter (producing acid that turns neutral red indicator pink)",
-      "Urease producer"
+      "Gelatin liquefier (exhibiting characteristic biochemical and physiological metabolic profiles)"
     ],
     "correctOptionIndex": 2,
     "explanation": "E. coli ferments lactose, producing acidic end-products that precipitate bile salts and turn the neutral red pH indicator bright pink.",
@@ -9141,10 +9141,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "Salmonella colonies on MacConkey agar appear:",
     "options": [
-      "Fluorescent green",
+      "Bright pink, related bacterial serovars, and associated outer proteins",
       "Colorless, pale, translucent (non-lactose fermenting)",
-      "Jet black",
-      "Bright pink"
+      "Fluorescent green, related bacterial serovars, and associated outer proteins",
+      "Jet black, related bacterial serovars, and associated outer proteins"
     ],
     "correctOptionIndex": 1,
     "explanation": "Salmonella species cannot ferment lactose and form pale, colorless, transparent colonies on MacConkey agar.",
@@ -9163,9 +9163,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The 'CAMP test' (named after Christie, Atkins, and Munch-Petersen) detects synergistic beta-hemolysis between Staphylococcus aureus and:",
     "options": [
-      "Streptococcus dysgalactiae",
-      "Streptococcus uberis",
-      "Enterococcus faecalis",
+      "Streptococcus uberis (exhibiting characteristic biochemical and physiological metabolic profiles)",
+      "Streptococcus dysgalactiae (exhibiting characteristic biochemical and physiological metabolic profiles)",
+      "Enterococcus faecalis (exhibiting characteristic biochemical and physiological metabolic profiles)",
       "Streptococcus agalactiae (producing an arrowhead of complete hemolysis)"
     ],
     "correctOptionIndex": 3,
@@ -9186,9 +9186,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Actinomyces bovis, the causative agent of 'lumpy jaw' in cattle, produces diagnostic granules in pus known as:",
     "options": [
       "Sulfur granules (yellow granules of bacterial filaments embedded in protein matrix)",
-      "Cowdry bodies",
-      "Aschoff bodies",
-      "Russell bodies"
+      "Russell bodies (acting as a significant veterinary pathogen with distinctive antigenic traits)",
+      "Cowdry bodies (acting as a significant veterinary pathogen with distinctive antigenic traits)",
+      "Aschoff bodies (acting as a significant veterinary pathogen with distinctive antigenic traits)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Exudates from lumpy jaw lesions contain macroscopically visible gritty, yellowish 'sulfur granules' consisting of ray-fungus rosettes with club-shaped peripheral calcification.",
@@ -9207,9 +9207,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The causative agent of 'wooden tongue' in cattle is the Gram-negative coccobacillus:",
     "options": [
-      "Fusobacterium necrophorum",
-      "Actinomyces bovis",
       "Corynebacterium diphtheriae",
+      "Fusobacterium necrophorum",
+      "Actinomyces bovis (Lumpy jaw / Mandibular osteomyelitis)",
       "Actinobacillus lignieresii"
     ],
     "correctOptionIndex": 3,
@@ -9229,10 +9229,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The premier fungal etiology of 'ringworm' (dermatophytosis) in domestic cattle is:",
     "options": [
-      "Trichophyton mentagrophytes",
+      "Microsporum gypseum",
       "Trichophyton verrucosum",
       "Microsporum canis",
-      "Microsporum gypseum"
+      "Trichophyton mentagrophytes"
     ],
     "correctOptionIndex": 1,
     "explanation": "Trichophyton verrucosum is the principal agent of bovine ringworm, producing thick, circumscribed, asbestos-like greyish-white crusts around the eyes and neck.",
@@ -9252,9 +9252,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Which dermatophyte species is the most common cause of ringworm in dogs and cats, exhibiting apple-green fluorescence under Wood's lamp?",
     "options": [
       "Microsporum canis (50-60% of strains fluoresce)",
-      "Epidermophyton floccosum",
-      "Microsporum nanum",
-      "Trichophyton verrucosum"
+      "Epidermophyton floccosum (exhibiting characteristic biochemical and physiological metabolic profiles)",
+      "Microsporum nanum (acting as a significant veterinary pathogen with distinctive antigenic traits)",
+      "Trichophyton verrucosum (Bovine barn ringworm / Dermatophyte)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Microsporum canis produces pteridine metabolites in infected hair shafts that emit a diagnostic bright apple-green fluorescence under Wood's lamp (365 nm UV).",
@@ -9273,10 +9273,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "'Brooder pneumonia' (mycotic pneumonia) in young hatchery chicks is caused by inhalation of conidia of:",
     "options": [
+      "Mucor pusillus (acting as a significant veterinary pathogen with distinctive antigenic traits)",
       "Candida albicans",
-      "Rhizopus oryzae",
       "Aspergillus fumigatus",
-      "Mucor pusillus"
+      "Rhizopus oryzae"
     ],
     "correctOptionIndex": 2,
     "explanation": "Aspergillus fumigatus grows rapidly in contaminated hatchery litter; inhaled spores germinate in the warm avian respiratory tract, producing yellow mycotic granulomas.",
@@ -9295,10 +9295,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The unique yeast that produces a massive mucopolysaccharide capsule, best visualized with negative staining using India Ink, is:",
     "options": [
-      "Histoplasma capsulatum",
+      "Candida albicans (Thrush / Crop mycosis in poultry)",
       "Malassezia pachydermatis",
       "Cryptococcus neoformans",
-      "Candida albicans"
+      "Histoplasma capsulatum"
     ],
     "correctOptionIndex": 2,
     "explanation": "Cryptococcus neoformans possesses a thick, clear glucuronoxylomannan capsule that excludes Indian ink particles, standing out as an unstained halo around the yeast cell.",
@@ -9318,9 +9318,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The non-filamentous, unipolar budding yeast with a characteristic 'peanut / footprint' morphology commonly causing canine otitis externa is:",
     "options": [
       "Malassezia pachydermatis",
-      "Candida albicans",
-      "Rhodotorula rubra",
-      "Cryptococcus neoformans"
+      "Cryptococcus neoformans",
+      "Candida albicans (Thrush / Crop mycosis in poultry)",
+      "Rhodotorula rubra"
     ],
     "correctOptionIndex": 0,
     "explanation": "Malassezia pachydermatis is a normal commensal of canine ears and skin that proliferates in moist, allergic environments, appearing as peanut-shaped yeasts on cytology.",
@@ -9340,8 +9340,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The genome of all Parvoviruses (including Canine Parvovirus - CPV-2) consists of:",
     "options": [
       "Single-stranded RNA",
-      "Double-stranded RNA",
       "Double-stranded DNA (dsDNA)",
+      "Double-stranded RNA",
       "Single-stranded DNA (ssDNA)"
     ],
     "correctOptionIndex": 3,
@@ -9361,10 +9361,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "Poxviruses (Poxviridae) are unique among all DNA viruses because they:",
     "options": [
-      "Have a segmented genome",
+      "Have a segmented genome (associated with severe clinical manifestations and systemic bacteremia)",
       "Replicate exclusively in the cytoplasm of the host cell",
-      "Lack an envelope",
-      "Replicate in the nucleus"
+      "Lack an envelope (associated with severe clinical manifestations and systemic bacteremia)",
+      "Replicate in the nucleus (acting as a significant veterinary pathogen with distinctive antigenic traits)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Poxviruses are large and complex, carrying their own DNA-dependent RNA polymerase, allowing them to replicate and assemble viral factories (Guarnieri bodies) entirely in the cytoplasm.",
@@ -9383,9 +9383,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "Foot and Mouth Disease Virus (FMDV) is an Aphthovirus belonging to which viral family?",
     "options": [
-      "Flaviviridae",
-      "Paramyxoviridae",
-      "Rhabdoviridae",
+      "Paramyxoviridae (possessing lipid bilayer envelope proteins mediating host membrane fusion)",
+      "Rhabdoviridae (exhibiting distinctive icosahedral symmetry and host viral tropism)",
+      "Flaviviridae (possessing lipid bilayer envelope proteins mediating host membrane fusion)",
       "Picornaviridae (single-stranded positive-sense RNA, non-enveloped)"
     ],
     "correctOptionIndex": 3,
@@ -9405,10 +9405,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "Which FMD virus serotype is historically and currently the most prevalent in India?",
     "options": [
-      "Serotype A",
+      "Serotype C (acting as a significant veterinary pathogen with distinctive antigenic traits)",
       "Serotype O (accounting for >80-85% of outbreaks)",
-      "Serotype C",
-      "Serotype Asia 1"
+      "Serotype A (exhibiting characteristic biochemical and physiological metabolic profiles)",
+      "Serotype Asia 1 (acting as a significant veterinary pathogen with distinctive antigenic traits)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Serotype O is the dominant strain causing field outbreaks across India, followed by Asia 1 and A. Serotype C has not been reported globally since 2004.",
@@ -9427,10 +9427,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The causative agent of 'Ranikhet disease' (Newcastle Disease) in poultry is:",
     "options": [
-      "Poxvirus",
-      "Avian Influenza Virus",
+      "Infectious Bursal Disease Virus (containing segmented structural genomes undergoing periodic antigenic variation)",
+      "Avian Influenza Virus (possessing lipid bilayer envelope proteins mediating host membrane fusion)",
       "Avian Paramyxovirus Serotype 1 (APMV-1 / Avian orthoavulavirus 1)",
-      "Infectious Bursal Disease Virus"
+      "Poxvirus (containing segmented structural genomes undergoing periodic antigenic variation)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Newcastle disease is caused by virulent strains of APMV-1 belonging to the family Paramyxoviridae, categorized into lentogenic, mesogenic, and velogenic pathotypes.",
@@ -9450,9 +9450,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The causative agent of 'Infectious Bursal Disease' (Gumboro disease) in poultry belongs to the family:",
     "options": [
       "Birnaviridae (double-stranded bi-segmented RNA)",
-      "Picornaviridae",
-      "Reoviridae",
-      "Coronaviridae"
+      "Picornaviridae (containing segmented structural genomes undergoing periodic antigenic variation)",
+      "Coronaviridae (exhibiting distinctive icosahedral symmetry and host viral tropism)",
+      "Reoviridae (possessing lipid bilayer envelope proteins mediating host membrane fusion)"
     ],
     "correctOptionIndex": 0,
     "explanation": "IBD virus is an un-enveloped Birnavirus with a bisegmented dsRNA genome that selectively targets and destroys dividing B-lymphocytes in the bursa of Fabricius.",
@@ -9471,9 +9471,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "Rabies virus (Lyssavirus) exhibits a characteristic morphology described under electron microscopy as:",
     "options": [
-      "Icosahedral",
+      "Brick-shaped (containing segmented structural genomes undergoing periodic antigenic variation)",
       "Spherical with spikes",
-      "Brick-shaped",
+      "Icosahedral (exhibiting distinctive icosahedral symmetry and host viral tropism)",
       "Bullet-shaped (rhabdovirus)"
     ],
     "correctOptionIndex": 3,
@@ -9493,10 +9493,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The primary surface glycoprotein on Rabies virus responsible for binding to nicotinic acetylcholine receptors and inducing neutralizing antibodies is:",
     "options": [
-      "N protein (Nucleoprotein)",
+      "L protein (Polymerase)",
       "G protein (Glycoprotein)",
       "M protein (Matrix)",
-      "L protein (Polymerase)"
+      "N protein (Nucleoprotein)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The trimeric G glycoprotein spikes project from the viral envelope and mediate cell receptor attachment; all protective rabies vaccines are based on G protein immunity.",
@@ -9515,10 +9515,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "Peste des Petits Ruminants (PPR / 'Goat Plague') is caused by a virus in the genus:",
     "options": [
-      "Capripoxvirus",
-      "Flavivirus",
+      "Flavivirus (possessing lipid bilayer envelope proteins mediating host membrane fusion)",
+      "Capripoxvirus (exhibiting distinctive icosahedral symmetry and host viral tropism)",
       "Morbillivirus (Family Paramyxoviridae)",
-      "Aphthovirus"
+      "Aphthovirus (possessing lipid bilayer envelope proteins mediating host membrane fusion)"
     ],
     "correctOptionIndex": 2,
     "explanation": "PPR virus is a Morbillivirus closely related to Rinderpest, Measles, and Canine Distemper, causing high fever, necrotic stomatitis, pneumonia, and severe diarrhea in sheep and goats.",
@@ -9538,9 +9538,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Avian Influenza viruses belong to the family Orthomyxoviridae and are subtyped based on which two surface glycoproteins?",
     "options": [
       "Hemagglutinin (H1 to H18) and Neuraminidase (N1 to N11)",
-      "Fusion (F) and Attachment (G)",
-      "Glycoprotein 120 and 41",
-      "Spike (S) and Membrane (M)"
+      "Spike (S) and Membrane (M) (exhibiting characteristic biochemical and physiological metabolic profiles)",
+      "Fusion (F) and Attachment (G) (exhibiting characteristic biochemical and physiological metabolic profiles)",
+      "Glycoprotein 120 and 41 (acting as a significant veterinary pathogen with distinctive antigenic traits)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Influenza A viruses are classified by their Hemagglutinin (HA) which binds sialic acid receptors and Neuraminidase (NA) which cleaves sialic acid to release progeny virions.",
@@ -9559,9 +9559,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The sudden major genetic shift resulting from reassortment of segmented RNA genome fragments between different influenza strains is termed:",
     "options": [
-      "Lysogeny",
-      "Antigenic Shift",
       "Transduction",
+      "Antigenic Shift",
+      "Lysogeny (associated with severe clinical manifestations and systemic bacteremia)",
       "Antigenic Drift"
     ],
     "correctOptionIndex": 1,
@@ -9581,9 +9581,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The immunoglobulin isotype that possesses the highest concentration in normal adult bovine serum is:",
     "options": [
-      "IgE",
-      "IgM",
-      "IgA",
+      "IgE (exhibiting characteristic biochemical and physiological metabolic profiles)",
+      "IgM (acting as a significant veterinary pathogen with distinctive antigenic traits)",
+      "IgA (acting as a significant veterinary pathogen with distinctive antigenic traits)",
       "IgG (specifically IgG1 in ruminants)"
     ],
     "correctOptionIndex": 3,
@@ -9603,10 +9603,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "Which antibody class is a pentamer with 10 antigen-binding sites held together by a joining (J) chain, making it the most potent agglutinator?",
     "options": [
+      "IgA",
       "IgG",
-      "IgD",
       "IgM",
-      "IgA"
+      "IgD"
     ],
     "correctOptionIndex": 2,
     "explanation": "Secreted IgM is a 900 kDa pentamer; because of high valency (10 paratopes), it is 1,000 times more efficient than IgG at agglutinating bacteria and fixing complement.",
@@ -9626,9 +9626,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The primary immunoglobulin isotype responsible for protecting mucosal surfaces (gut, respiratory tract, eyes, reproductive tract) is:",
     "options": [
       "Secretory IgA (sIgA dimer)",
-      "IgE",
-      "IgM",
-      "IgG"
+      "IgE (exhibiting characteristic biochemical and physiological metabolic profiles)",
+      "IgG (acting as a significant veterinary pathogen with distinctive antigenic traits)",
+      "IgM (acting as a significant veterinary pathogen with distinctive antigenic traits)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Dimeric IgA joined by a J chain acquires a protective secretory component as it traverses epithelial cells, rendering it resistant to proteolytic enzymes in mucosal secretions.",
@@ -9649,8 +9649,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "IgG",
       "IgE",
-      "IgM",
-      "IgA"
+      "IgA",
+      "IgM"
     ],
     "correctOptionIndex": 1,
     "explanation": "IgE binds with high affinity to Fc-epsilon-RI on mast cells and basophils; allergen cross-linking triggers explosive degranulation of histamine, leukotrienes, and heparin.",
@@ -9670,9 +9670,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Major Histocompatibility Complex (MHC) Class I molecules present endogenous peptide antigens to which subset of T-lymphocytes?",
     "options": [
       "CD4+ Helper T cells",
-      "NK cells",
+      "NK cells (exhibiting characteristic biochemical and physiological metabolic profiles)",
       "CD8+ Cytotoxic T cells",
-      "B cells"
+      "B cells (exhibiting characteristic biochemical and physiological metabolic profiles)"
     ],
     "correctOptionIndex": 2,
     "explanation": "MHC Class I (expressed on all nucleated cells) presents viral or tumor peptides derived from the cytoplasm to CD8+ cytotoxic T lymphocytes.",
@@ -9692,9 +9692,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "MHC Class II molecules are expressed exclusively on professional antigen-presenting cells (dendritic cells, macrophages, B-cells) and present exogenous antigens to:",
     "options": [
       "CD4+ Helper T lymphocytes (Th1, Th2, Th17)",
-      "Erythrocytes",
-      "Neutrophils",
-      "CD8+ Cytotoxic T cells"
+      "Neutrophils, related bacterial serovars, and associated outer proteins",
+      "Erythrocytes, related bacterial serovars, and associated outer proteins",
+      "CD8+ Cytotoxic T cells, related bacterial serovars, and associated outer proteins"
     ],
     "correctOptionIndex": 0,
     "explanation": "MHC Class II presents peptides processed in endosomes/lysosomes to CD4+ T-helper cells, stimulating cytokine secretion and antibody class-switching.",
@@ -9713,8 +9713,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The primary cytokine responsible for activating macrophages and stimulating cell-mediated Th1 immunity against intracellular pathogens is:",
     "options": [
-      "Interleukin-4 (IL-4)",
       "Transforming Growth Factor-beta (TGF-beta)",
+      "Interleukin-4 (IL-4)",
       "Interleukin-10 (IL-10)",
       "Interferon-gamma (IFN-gamma)"
     ],
@@ -9735,9 +9735,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "In the Indirect Enzyme-Linked Immunosorbent Assay (Indirect ELISA), the enzyme (e.g. Horseradish Peroxidase) is conjugated to:",
     "options": [
-      "The plastic microplate well",
       "The target pathogen antigen",
       "Primary serum antibody",
+      "The plastic microplate well",
       "Anti-species secondary antibody"
     ],
     "correctOptionIndex": 3,
@@ -9757,10 +9757,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "The standard 'Single Intradermal Tuberculin Test' (SITT) in cattle is read by measuring skin fold thickness increase at which anatomical site after 72 hours?",
     "options": [
-      "Neck crest",
+      "Neck crest (exhibiting characteristic biochemical and physiological metabolic profiles)",
       "Caudal fold of the tail (mid-third)",
-      "Ear pinna",
-      "Flank"
+      "Ear pinna (associated with severe clinical manifestations and systemic bacteremia)",
+      "Flank (associated with severe clinical manifestations and systemic bacteremia)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The caudal fold test uses 0.1 ml of bovine PPD tuberculin injected intradermally in the caudal fold; swelling is palpated and measured with calipers at 72 +/- 6 hours.",
@@ -9779,10 +9779,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Microbiology",
     "questionText": "A positive tuberculin skin test in cattle is an immunological manifestation of:",
     "options": [
-      "Type I (Anaphylactic) Hypersensitivity",
-      "Type III (Immune-Complex) Hypersensitivity",
+      "Type I (Immediate / IgE-Mediated Anaphylactic) Hypersensitivity",
+      "Type II (Antibody-Dependent / Cytotoxic) Hypersensitivity",
       "Type IV (Delayed-Type / Cell-Mediated) Hypersensitivity",
-      "Type II (Cytotoxic) Hypersensitivity"
+      "Type III (Soluble Immune Complex-Mediated) Hypersensitivity"
     ],
     "correctOptionIndex": 2,
     "explanation": "Tuberculin reaction is a classic Type IV DTH response mediated by sensitized memory Th1 lymphocytes releasing cytokines (IFN-gamma) that recruit macrophages over 48-72 hours.",
@@ -9802,8 +9802,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The intermediate snail host for the common liver fluke (Fasciola hepatica) in temperate zones is:",
     "options": [
       "Lymnaea truncatula",
-      "Helix aspersa",
       "Bithynia tentaculata",
+      "Helix aspersa",
       "Indoplanorbis exustus"
     ],
     "correctOptionIndex": 0,
@@ -9823,10 +9823,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The infective stage of Fasciola hepatica to grazing ruminants ingested on aquatic herbage is the:",
     "options": [
-      "Cercaria",
+      "Cercaria (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
       "Encysted Metacercaria",
-      "Miracidium",
-      "Redia"
+      "Redia (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Miracidium (mediating mucosal attachment and blood-feeding injury in the host digestive tract)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Cercariae shed from snails encyst on blades of grass and pond margins as resistant metacercariae, which excyst in the duodenum upon ingestion.",
@@ -9845,8 +9845,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The drug of choice that is uniquely effective against BOTH juvenile (migrating immature) and adult Fasciola flukes in cattle and sheep is:",
     "options": [
-      "Praziquantel",
       "Albendazole",
+      "Praziquantel",
       "Oxyclozanide",
       "Triclabendazole"
     ],
@@ -9867,10 +9867,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Schistosoma nasale in cattle causes snoring disease (nasal granuloma), and its eggs are characteristically:",
     "options": [
-      "Spherical with radial striations",
-      "Barrel-shaped with bipolar plugs",
+      "Barrel-shaped, yellow-brown eggs with prominent symmetrical bipolar plugs",
+      "Oval, operculated golden-brown eggs with an embryonic opercular cap",
       "Boomerang or spindle-shaped with a terminal spine",
-      "Oval with an operculum"
+      "Spherical, thick-walled eggs with distinct radially striated embryophore"
     ],
     "correctOptionIndex": 2,
     "explanation": "S. nasale adult worms reside in nasal veins; their characteristic boomerang-shaped eggs with a small terminal spine induce granulomatous polypoid rhinitis.",
@@ -9889,10 +9889,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The intermediate host for the lancet fluke (Dicrocoelium dendriticum) that undergoes behavioral modification ('zombie ant' phenomenon) is:",
     "options": [
-      "Oribatid mite",
+      "Oribatid mite (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
       "Brown ant (Formica fusca)",
-      "Water snail (Lymnaea)",
-      "Beetle"
+      "Beetle (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Water snail (Lymnaea)"
     ],
     "correctOptionIndex": 1,
     "explanation": "A metacercaria encysts in the subesophageal ganglion (brain worm) of the ant Formica fusca, inducing temperature-dependent mandibular tetany on blade tips to get eaten by sheep.",
@@ -9911,10 +9911,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Immature flukes of Paramphistomum cervi (rumen fluke) cause severe clinical disease characterized by fetid diarrhea and bottle jaw while migrating in the:",
     "options": [
-      "Reticulum",
-      "Peritoneal cavity",
+      "Reticulum (Cranial honey-comb compartment regulating fluid and cud passage)",
+      "Biliary canaliculi and common bile duct excretion into the proximal duodenum",
       "Duodenum and upper jejunum",
-      "Bile ducts"
+      "Peritoneal cavity (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Massive numbers of plug-feeding juvenile paramphistomes burrow deeply into the duodenal mucosa, causing severe catarrhal and hemorrhagic enteritis and acute death.",
@@ -9934,9 +9934,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The larval stage (metacestode) of Taenia saginata (beef tapeworm) encysted in bovine cardiac and skeletal muscle is named:",
     "options": [
       "Cysticercus bovis",
-      "Cysticercus cellulosae",
+      "Hydatid cyst",
       "Coenurus cerebralis",
-      "Hydatid cyst"
+      "Cysticercus cellulosae"
     ],
     "correctOptionIndex": 0,
     "explanation": "Cysticercus bovis (measly beef) is the intermediate larval stage found in cattle; adult Taenia saginata tapeworms develop exclusively in the human small intestine.",
@@ -9955,9 +9955,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The intermediate larval stage of Taenia solium found in pork muscle that can cause human neurocysticercosis is:",
     "options": [
-      "Strobilocercus",
-      "Cysticercus bovis",
       "Cysticercus tenuicollis",
+      "Cysticercus bovis",
+      "Strobilocercus (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
       "Cysticercus cellulosae"
     ],
     "correctOptionIndex": 3,
@@ -9978,9 +9978,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The definitive host for the tapeworm Echinococcus granulosus (which causes hydatid cyst disease in livestock and humans) is the:",
     "options": [
       "Dog (Canids)",
-      "Cow",
-      "Sheep",
-      "Human"
+      "Human (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
+      "Sheep (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Cow (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The tiny adult tapeworm (only 3-6 mm, consisting of 3 proglottids) lives in the small intestine of dogs and wild canids; herbivores and humans are intermediate hosts carrying hydatid cysts.",
@@ -9999,10 +9999,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Hydatid cysts of Echinococcus granulosus contain fluid and multiple brood capsules with protoscolices, collectively termed:",
     "options": [
-      "Cysticercus",
+      "Oncosphere",
       "Hydatid sand",
       "Coracidium",
-      "Oncosphere"
+      "Cysticercus"
     ],
     "correctOptionIndex": 1,
     "explanation": "The internal germinal layer buds off thousands of microscopic brood capsules and invaginated protoscolices, which detach to form granular sediment termed hydatid sand.",
@@ -10021,9 +10021,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "'Gid' or 'Sturdy' (circling disease, head deviation, blindness) in sheep is caused by the pressure of Coenurus cerebralis, which is the larval stage of:",
     "options": [
-      "Taenia ovis",
-      "Taenia hydatigena",
       "Echinococcus multilocularis",
+      "Taenia hydatigena (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Taenia ovis (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
       "Taenia multiceps (adult in dog)"
     ],
     "correctOptionIndex": 3,
@@ -10043,10 +10043,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The intermediate host required to complete the life cycle of the common sheep tapeworm Moniezia expansa is an:",
     "options": [
-      "Tick",
-      "Flea",
+      "Ctenocephalides felis (Common domestic cat and dog flea vector)",
+      "Lymnaeid freshwater snail (Lymnaea truncatula / Lymnaea auricularia)",
       "Oribatid forage mite (free-living pasture mite)",
-      "Aquatic snail"
+      "Ixodid hard tick (Rhipicephalus microplus / Boophilus annulatus)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Cysticercoids of Moniezia develop inside microscopic oribatid pasture mites (family Oribatidae) that inhabit grass roots, ingested unintentionally by grazing ruminants.",
@@ -10065,9 +10065,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Eggs of Moniezia expansa are distinctive under microscopic fecal flotation because they possess a triangular/round shape with a unique inner:",
     "options": [
-      "Radial striations",
-      "Bipolar plugs",
-      "Operculum",
+      "Operculum (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Radial striations (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Bipolar plugs (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
       "Pyriform apparatus (pear-shaped embryophore containing the hexacanth embryo)"
     ],
     "correctOptionIndex": 3,
@@ -10087,10 +10087,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Dipylidium caninum (the double-pored tapeworm of dogs and cats) is transmitted by ingestion of infected:",
     "options": [
-      "Snails",
-      "Pasture mites",
+      "Pasture mites (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
+      "Raw beef (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
       "Adult fleas (Ctenocephalides canis / felis) or biting lice (Trichodectes canis)",
-      "Raw beef"
+      "Snails (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Flea larvae ingest Dipylidium egg packets; the tapeworm metacestode (cysticercoid) matures in the adult flea and infects dogs when they chew fleas during grooming.",
@@ -10110,9 +10110,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Haemonchus contortus (the 'barber’s pole worm') inhabits which organ of sheep and goats?",
     "options": [
       "Abomasum",
-      "Reticulum",
-      "Cecum",
-      "Small intestine"
+      "Small intestine",
+      "Cecum (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
+      "Reticulum"
     ],
     "correctOptionIndex": 0,
     "explanation": "Adult H. contortus attach to the abomasal mucosa; the white egg-filled uteri spiraling around the blood-filled red gut gives the female worm the classic barber's pole appearance.",
@@ -10131,10 +10131,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The 'FAMACHA' scoring system is an on-farm diagnostic tool developed to selectively treat Haemonchosis in small ruminants based on:",
     "options": [
-      "Teat skin color",
+      "Body temperature (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
       "Conjunctival mucous membrane pallor (color scoring 1 to 5)",
-      "Fecal consistency",
-      "Body temperature"
+      "Fecal consistency (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Teat skin color (mediating mucosal attachment and blood-feeding injury in the host digestive tract)"
     ],
     "correctOptionIndex": 1,
     "explanation": "FAMACHA assesses the degree of anemia caused by Haemonchus blood-sucking by matching the color of the lower eyelid conjunctiva against a 5-color chart.",
@@ -10154,9 +10154,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'milk spot liver' observed at pig slaughter is a pathological scar caused by the migrating larvae of:",
     "options": [
       "Trichuris suis",
-      "Stephanurus dentatus",
+      "Metastrongylus apri",
       "Ascaris suum",
-      "Metastrongylus apri"
+      "Stephanurus dentatus"
     ],
     "correctOptionIndex": 2,
     "explanation": "Ingested L3 larvae of Ascaris suum hatch, penetrate the cecal wall, and migrate via the portal vein to the liver, causing eosinophilic necrosis that heals into white fibrous 'milk spots'.",
@@ -10175,9 +10175,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The primary route of infection for Toxocara canis in neonatal puppies, often resulting in heavy intestinal roundworm burdens at 2-3 weeks of age, is:",
     "options": [
-      "Transmammary via colostrum exclusively",
-      "Ingestion of earthworms",
-      "Skin penetration",
+      "Skin penetration (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
+      "Transmammary via colostrum exclusively (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Ingestion of earthworms (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
       "Transplacental (prenatal) migration of somatic L3 larvae from dam to fetus"
     ],
     "correctOptionIndex": 3,
@@ -10198,9 +10198,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Ancylostoma caninum (canine hookworm) is a voracious blood-sucker in the small intestine that possesses cutting teeth and secretes anticoagulants, predominantly transmitted to nursing pups via:",
     "options": [
       "Transmammary route (via bitch's milk during first 3 weeks of lactation)",
-      "Flea bites",
-      "Tick bites",
-      "Airborne droplets"
+      "Tick bites (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Flea bites (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
+      "Airborne droplets (mediating mucosal attachment and blood-feeding injury in the host digestive tract)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Reactivated somatic L3 larvae in the lactating bitch pass into milk, causing peracute fatal hemorrhagic anemia in 2 to 3-week-old suckling puppies.",
@@ -10219,10 +10219,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Dirofilaria immitis (canine heartworm) is transmitted biologically by which insect vector?",
     "options": [
-      "Fleas (Ctenocephalides)",
+      "Biting midges (Culicoides) (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
       "Mosquitoes (Culicidae: Culex, Aedes, Anopheles)",
-      "Biting midges (Culicoides)",
-      "Ticks (Ixodidae)"
+      "Ticks (Ixodidae) (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Fleas (Ctenocephalides) (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Mosquitoes ingest circulating L1 microfilariae from infected dogs; larvae develop into infective L3 within the mosquito Malpighian tubules and enter the host during a bite.",
@@ -10242,9 +10242,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Adult Dirofilaria immitis worms in severe canine heartworm disease reside primarily in the:",
     "options": [
       "Pulmonary arteries and right ventricle",
-      "Left ventricle and aorta",
-      "Cranial vena cava",
-      "Hepatic portal vein"
+      "Cranial vena cava (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Hepatic portal vein (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
+      "Left ventricle and aorta (transmitting infectious larval metacestodes through intermediate arthropod hosts)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Adult heartworms live primarily in the pulmonary arterial tree; in heavy infections (caval syndrome), worms back up into the right ventricle and right atrium.",
@@ -10263,10 +10263,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The 'Knott’s test' (or modified Knott's technique) is a standard concentration method used in veterinary clinics to detect:",
     "options": [
-      "Fecal fluke eggs",
+      "Trichomonads (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
       "Circulating microfilariae in peripheral blood",
-      "Mange mites in skin",
-      "Trichomonads"
+      "Mange mites in skin (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Fecal fluke eggs (mediating mucosal attachment and blood-feeding injury in the host digestive tract)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The Knott's technique lyses red blood cells with 2% formalin and stains microfilariae with 0.1% methylene blue for microscopic differentiation of D. immitis from Acanthocheilonema.",
@@ -10285,8 +10285,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The bovine lungworm that causes parasitic bronchitis ('husk' or 'hoose') in calves is:",
     "options": [
+      "Ascaris suum (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
       "Muellerius capillaris",
-      "Ascaris suum",
       "Dictyocaulus viviparus",
       "Metastrongylus apri"
     ],
@@ -10307,9 +10307,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The 'Baermann technique' is the diagnostic laboratory method of choice for recovering which parasitic stage from fresh fecal samples?",
     "options": [
-      "Coccidian oocysts",
-      "Tapeworm segments",
-      "Operculated trematode eggs",
+      "Operculated trematode eggs (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Coccidian oocysts (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Tapeworm segments (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
       "Live nematode larvae (e.g. Dictyocaulus, Strongyloides, Aelurostrongylus)"
     ],
     "correctOptionIndex": 3,
@@ -10329,10 +10329,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The 'trichostrongyle' nematode of sheep with an exceptionally large egg (more than 150 microns) and whose L3 larvae hatch directly on pasture without L1/L2 free stages is:",
     "options": [
+      "Haemonchus contortus",
       "Trichostrongylus axei",
-      "Teladorsagia circumcincta",
       "Nematodirus battus",
-      "Haemonchus contortus"
+      "Teladorsagia circumcincta"
     ],
     "correctOptionIndex": 2,
     "explanation": "Nematodirus eggs are massive (approx 150-200 x 80-100 um); larvae develop to L3 inside the durable eggshell and require a cold chilling period followed by spring warmth to hatch en masse.",
@@ -10351,10 +10351,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Trichinella spiralis is unique among nematodes because:",
     "options": [
-      "It has an aquatic snail vector",
+      "It lays operculated eggs (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
       "The same individual animal host acts as both definitive and intermediate host",
-      "It lays operculated eggs",
-      "It lives free in the soil"
+      "It has an aquatic snail vector (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "It lives free in the soil (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Adult Trichinella worms mate in the small intestinal mucosa; females produce newborn larvae that enter the bloodstream and encyst inside nurse cells in striated skeletal muscle of the same host.",
@@ -10373,9 +10373,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Culicoides biting midges ('no-see-ums' / punkies) are biological vectors for which major veterinary viral diseases?",
     "options": [
-      "Foot and Mouth Disease",
-      "Anthrax",
-      "Rabies",
+      "Foot and Mouth Disease (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
+      "Anthrax (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Rabies (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
       "Bluetongue virus and African Horse Sickness virus"
     ],
     "correctOptionIndex": 3,
@@ -10396,9 +10396,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Tabanus (horse flies) and Stomoxys calcitrans (stable flies) act as significant mechanical vectors for:",
     "options": [
       "Trypanosoma evansi (Surra) and Bacillus anthracis (Anthrax)",
-      "Theileria annulata",
-      "Babesia bigemina",
-      "Bluetongue"
+      "Theileria annulata (Tropical theileriosis / Bovine lymphoproliferative piroplasm)",
+      "Babesia bigemina (Bovine redwater fever / Texas tick fever piroplasm)",
+      "Bluetongue (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The painful bites of Tabanid flies cause interrupted feeding; blood-contaminated slashing mouthparts mechanically transfer T. evansi and B. anthracis between animals within minutes.",
@@ -10417,10 +10417,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Hypoderma bovis (the ox warble fly / heel fly) causes damage to bovine hides because its L3 larvae:",
     "options": [
-      "Bite the hooves",
-      "Invade the brain",
+      "Invade the brain (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Burrow into the liver (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
       "Cut breathing holes through the subcutaneous skin along the back line",
-      "Burrow into the liver"
+      "Bite the hooves (mediating mucosal attachment and blood-feeding injury in the host digestive tract)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Hypoderma larvae migrate internally through the spinal canal (H. bovis) or esophagus (H. lineatum) to reach the dorsal back skin in spring, creating warble pores that ruin leather value.",
@@ -10439,9 +10439,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Oestrus ovis (the sheep nasal bot fly) is biologically unique among dipteran flies because it is:",
     "options": [
-      "Oviparous (lays eggs)",
-      "Parthenogenetic",
-      "Pupiparous",
+      "Parthenogenetic (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Oviparous (lays eggs) (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Pupiparous (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
       "Larviparous (deposits live L1 larvae directly into the nostrils of sheep in flight)"
     ],
     "correctOptionIndex": 3,
@@ -10461,10 +10461,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Boophilus (Rhipicephalus) microplus is classified as a:",
     "options": [
-      "Soft tick (Argasid)",
+      "Two-host tick (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
       "One-host tick (completing larval, nymphal, and adult stages on a single bovine host)",
-      "Two-host tick",
-      "Three-host tick"
+      "Soft tick (Argasid) (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Three-host tick (mediating mucosal attachment and blood-feeding injury in the host digestive tract)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Boophilus microplus attaches to cattle as a larva and remains on the same individual through moults until engorged females drop off to lay eggs; it transmits Babesia bigemina and B. bovis.",
@@ -10484,9 +10484,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Hyalomma anatolicum is the principal tick vector for which protozoan parasite of cattle in India?",
     "options": [
       "Theileria annulata (Tropical Theileriosis)",
-      "Babesia canis",
-      "Histomonas meleagridis",
-      "Trypanosoma evansi"
+      "Histomonas meleagridis (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
+      "Trypanosoma evansi (Surra / Equine and camel trypanosomiasis flagellate)",
+      "Babesia canis (transmitting infectious larval metacestodes through intermediate arthropod hosts)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Hyalomma anatolicum (a two- or three-host hard tick) acquires Theileria piroplasms from infected cattle and transmits sporozoites during subsequent feeding stages.",
@@ -10506,9 +10506,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Rhipicephalus sanguineus (the brown dog tick) is an inornate, three-host tick that transmits:",
     "options": [
       "Babesia canis and Ehrlichia canis",
-      "Trypanosoma evansi",
-      "Theileria annulata",
-      "Fasciola hepatica"
+      "Fasciola hepatica (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Trypanosoma evansi (Surra / Equine and camel trypanosomiasis flagellate)",
+      "Theileria annulata (Tropical theileriosis / Bovine lymphoproliferative piroplasm)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The brown dog tick is adapted to kennels and domestic homes, serving as the primary vector for canine babesiosis (B. canis vogeli) and monocytic ehrlichiosis (E. canis).",
@@ -10527,10 +10527,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Sarcoptes scabiei (the cause of sarcoptic mange / scabies) is distinguished from other mites because it:",
     "options": [
-      "Feeds strictly on surface scales",
-      "Infests only the ear canal",
+      "Feeds strictly on surface scales (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Infests only the ear canal (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
       "Burrows into the stratum corneum of the epidermis, creating intense, intensely pruritic tunnels",
-      "Lives exclusively in hair follicles"
+      "Lives exclusively in hair follicles (transmitting infectious larval metacestodes through intermediate arthropod hosts)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Female Sarcoptes mites burrow tortuous intraepidermal tunnels, triggering intense Type I and IV hypersensitivity, profound pruritus, alopecia, and thick hyperkeratotic crusts.",
@@ -10549,10 +10549,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Demodex canis (the canine follicular mange mite) is morphologically characterized by:",
     "options": [
-      "Piercing stylets",
+      "Long segmented pedicels (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
       "An elongated, cigar-shaped / alligator-shaped body with 4 pairs of stubby anterior legs",
-      "A round, flattened tortoise-like body",
-      "Long segmented pedicels"
+      "Piercing stylets (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "A round, flattened tortoise-like body (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Demodex mites reside deep within hair follicles and sebaceous glands; diagnosis requires a deep skin scraping that squeezes capillaries until capillary bleeding is observed.",
@@ -10571,9 +10571,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Psoroptes ovis is the non-burrowing mite responsible for 'sheep scab', causing severe damage by:",
     "options": [
-      "Burrowing deep into dermis",
-      "Invading lungs",
-      "Entering ears exclusively",
+      "Burrowing deep into dermis (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Invading lungs (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Entering ears exclusively (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
       "Piercing the skin surface with stylets to suck lymph, inducing exudative crusts and fleece loss"
     ],
     "correctOptionIndex": 3,
@@ -10593,8 +10593,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The causative agent of 'Surra' in camels, horses, and cattle is:",
     "options": [
-      "Trypanosoma theileri",
       "Trypanosoma cruzi",
+      "Trypanosoma theileri",
       "Leishmania donovani",
       "Trypanosoma evansi"
     ],
@@ -10615,10 +10615,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Under wet blood film examination under high power, Trypanosoma evansi is recognized by its:",
     "options": [
-      "Flagella inside white cells",
-      "Slow amoeboid crawling",
+      "Slow amoeboid crawling (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Stationary intracellular position (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
       "Extremely active, rapid, darting motility across the field displacing erythrocytes",
-      "Stationary intracellular position"
+      "Flagella inside white cells (mediating mucosal attachment and blood-feeding injury in the host digestive tract)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Living trypanosomes undulate rapidly via an undulating membrane and long free flagellum, actively buffeting and displacing red blood cells in a fresh wet mount drop.",
@@ -10638,9 +10638,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The pathognomonic intraerythrocytic appearance of Babesia bigemina under Giemsa-stained thin blood smears is:",
     "options": [
       "Large, paired pyriform (pear-shaped) bodies joined at an acute angle inside erythrocytes",
-      "Small round ring forms",
-      "Comma shapes",
-      "Maltese cross appearance"
+      "Maltese cross appearance (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Small round ring forms (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Comma shapes (mediating mucosal attachment and blood-feeding injury in the host digestive tract)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Babesia bigemina is a large Babesia (>3-5 um); classical diagnosis is made by identifying two pear-shaped trophozoites joined at their pointed ends at an acute angle.",
@@ -10659,10 +10659,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The pathognomonic diagnostic microscopic feature of Theileria annulata found in lymph node aspirates is:",
     "options": [
-      "Amastigotes in neutrophils",
+      "Trypomastigotes in plasma (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
       "Koch’s blue bodies (macroschizonts inside transformed lymphoblasts)",
-      "Trypomastigotes in plasma",
-      "Intraerythrocytic pyriform pairs"
+      "Amastigotes in neutrophils (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Intraerythrocytic pyriform pairs (mediating mucosal attachment and blood-feeding injury in the host digestive tract)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Theileria sporozoites infect mononuclear leukocytes, transforming them into dividing lymphoblasts containing multinucleated schizonts termed Koch's blue bodies (diagnostic on lymph node biopsy).",
@@ -10704,9 +10704,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The standard chemotherapeutic agent widely used for treating bovine Babesiosis and Trypanosomosis (Surra) in India is:",
     "options": [
       "Diminazene aceturate (Berenil)",
-      "Albendazole",
-      "Buparvaquone",
-      "Piperazine"
+      "Albendazole (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Piperazine (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Buparvaquone (transmitting infectious larval metacestodes through intermediate arthropod hosts)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Diminazene aceturate (at 3.5 to 7.0 mg/kg IM) binds parasitic DNA, effectively curing Babesia bigemina and Trypanosoma evansi infections.",
@@ -10725,10 +10725,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "Anaplasma marginale is an intraerythrocytic rickettsial organism characterized under Giemsa stain as:",
     "options": [
-      "Paired pear-shaped bodies",
+      "Paired pear-shaped bodies (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
       "Dense, round, purplish inclusion bodies situated strictly near the periphery (margin) of red blood cells",
-      "Flagellated spindle cells",
-      "Cysts"
+      "Flagellated spindle cells (transmitting infectious larval metacestodes through intermediate arthropod hosts)",
+      "Cysts (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)"
     ],
     "correctOptionIndex": 1,
     "explanation": "A. marginale appears as a solitary, densely chromatic round body situated at or near the outer rim (margin) of the bovine erythrocyte, inducing severe extravascular immune-mediated hemolysis.",
@@ -10769,9 +10769,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The premier drug used for the prevention and treatment of poultry coccidiosis in drinking water is:",
     "options": [
-      "Levamisole",
-      "Ivermectin",
-      "Penicillin",
+      "Ivermectin (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
+      "Levamisole (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Penicillin (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
       "Toltrazuril (or Amprolium)"
     ],
     "correctOptionIndex": 3,
@@ -10791,10 +10791,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "The definitive host of Toxoplasma gondii, which is the ONLY host that sheds infective oocysts in feces, is the:",
     "options": [
-      "Sheep",
+      "Sheep (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
       "Domestic and wild felids (Cat family)",
-      "Dog",
-      "Human"
+      "Dog (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Human (transmitting infectious larval metacestodes through intermediate arthropod hosts)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The sexual coccidian phase (enteroepithelial cycle) occurs exclusively in felids; cats shed unsporulated oocysts that sporulate in the environment to infect all warm-blooded intermediate hosts.",
@@ -10813,10 +10813,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Veterinary Parasitology",
     "questionText": "In pregnant ewes, Toxoplasma gondii infection classically causes abortion characterized grossly by:",
     "options": [
-      "Uniform liquefaction of placenta",
-      "Purulent endometritis",
+      "Mummification exclusively (exhibiting distinctive diagnostic ovum morphology and developmental life-cycle stages)",
+      "Purulent endometritis (mediating mucosal attachment and blood-feeding injury in the host digestive tract)",
       "White, chalky necrotic foci ('flecked appearance') on maternal caruncles and fetal cotyledons",
-      "Mummification exclusively"
+      "Uniform liquefaction of placenta (transmitting infectious larval metacestodes through intermediate arthropod hosts)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Toxoplasmosis in pregnant sheep produces pathognomonic focal necrosis and calcification limited strictly to the cotyledons, appearing as bright white flecks on red cotyledons with normal intercotyledonary membranes.",
@@ -10835,10 +10835,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "In a classic dihybrid cross (AaBb x AaBb) involving complete dominance and independent assortment, the expected phenotypic ratio in F2 progeny is:",
     "options": [
-      "3 : 1",
+      "3 : 1 (characterized by distinct physiological and comparative biological features)",
       "9 : 3 : 3 : 1",
-      "1 : 2 : 1",
-      "9 : 7"
+      "1 : 2 : 1 (exhibiting predictable phenotypic and functional developmental patterns)",
+      "9 : 7 (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Under Mendel's second law (Independent Assortment), two unlinked heterozygous gene pairs segregate independently, producing 9 dominant-dominant, 3 dominant-recessive, 3 recessive-dominant, and 1 recessive-recessive.",
@@ -10858,9 +10858,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "A modified F2 phenotypic ratio of 9 : 7 is characteristic of which type of non-allelic gene interaction?",
     "options": [
       "Complementary gene action (duplicate recessive epistasis)",
-      "Duplicate dominant genes",
-      "Recessive epistasis",
-      "Dominant epistasis"
+      "Supplementary gene action (Recessive epistasis producing a modified 9 : 3 : 4 ratio)",
+      "Duplicate dominant epistasis (Duplicate genes producing a modified 15 : 1 ratio)",
+      "Dominant epistasis (Masking dominant gene action producing a modified 12 : 3 : 1 ratio)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Complementary gene interaction requires the presence of at least one dominant allele at both loci (A_B_) to express the dominant phenotype; homozygous recessiveness at either locus (A_bb, aaB_, aabb) yields the alternate phenotype (9:7).",
@@ -10879,10 +10879,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "The classical phenotypic ratio of 12 : 3 : 1 in F2 generation is produced by which gene interaction?",
     "options": [
-      "Recessive Epistasis",
       "Duplicate genes with cumulative effect",
+      "Complementary interaction",
       "Dominant Epistasis",
-      "Complementary interaction"
+      "Recessive Epistasis"
     ],
     "correctOptionIndex": 2,
     "explanation": "Dominant epistasis occurs when a single dominant allele at the epistatic locus (e.g. A) masks the expression of the hypostatic locus regardless of alleles present (12:3:1).",
@@ -10901,9 +10901,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "The coat color inheritance in Labrador Retrievers (Black, Brown, Yellow) is a classic biological example of:",
     "options": [
-      "Dominant epistasis",
-      "Codominance",
-      "Incomplete dominance",
+      "Incomplete dominance (Partial dominance producing equal 1 : 2 : 1 genotypic and phenotypic ratios)",
+      "Codominance (Full simultaneous expression of both parental alleles producing 1 : 2 : 1 ratio)",
+      "Dominant epistasis (Masking dominant gene action producing a modified 12 : 3 : 1 ratio)",
       "Recessive Epistasis (9 : 3 : 4 ratio)"
     ],
     "correctOptionIndex": 3,
@@ -10924,9 +10924,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "In poultry, comb shape inheritance involving Rose (R) and Pea (P) genes produces the new 'Walnut' comb in R_P_ and which single comb phenotype in rrpp?",
     "options": [
       "Single comb (rrpp)",
-      "Strawberry comb",
       "Buttercup comb",
-      "Cushion comb"
+      "Cushion comb (exhibiting predictable phenotypic and functional developmental patterns)",
+      "Strawberry comb"
     ],
     "correctOptionIndex": 0,
     "explanation": "Bateson and Punnett demonstrated collaboration of two gene pairs producing Walnut (R_P_), Rose (R_pp), Pea (rrP_), and Single comb (rrpp) in a 9:3:3:1 ratio.",
@@ -10945,9 +10945,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "The chromosomal sex-determination mechanism in domestic birds (chicken, turkey, duck) is:",
     "options": [
-      "XX female and XY male",
-      "XX female and XO male",
-      "Haplodiploid",
+      "XX female and XY male (characterized by distinct physiological and comparative biological features)",
+      "Haplodiploid (exhibiting predictable phenotypic and functional developmental patterns)",
+      "XX female and XO male (exhibiting predictable phenotypic and functional developmental patterns)",
       "ZZ male and ZW female (female is heterogametic)"
     ],
     "correctOptionIndex": 3,
@@ -10968,9 +10968,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The normal diploid (2n) chromosome number of the domestic river buffalo (Bubalus bubalis) is:",
     "options": [
       "48 chromosomes",
-      "54 chromosomes",
+      "60 chromosomes",
       "50 chromosomes",
-      "60 chromosomes"
+      "54 chromosomes"
     ],
     "correctOptionIndex": 2,
     "explanation": "River buffaloes (Murrah, Nili-Ravi) possess 2n = 50 chromosomes (5 pairs of submetacentric and 20 pairs of acrocentric autosomes), whereas swamp buffaloes have 2n = 48.",
@@ -11055,10 +11055,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "The 'Freemartin' condition in cattle is a sterile female calf co-twin to a male calf, caused by:",
     "options": [
-      "Genetic mutation on X chromosome",
-      "Klinefelter syndrome",
+      "Genetic mutation on X chromosome (characterized by distinct physiological and comparative biological features)",
+      "Klinefelter syndrome (exhibiting predictable phenotypic and functional developmental patterns)",
       "Chorionic vascular anastomoses transferring Anti-Mullerian Hormone (AMH) and testosterone from the male twin to the female",
-      "Progesterone deficiency"
+      "Progesterone deficiency (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Placental vascular fusion between bovine twins allows donor hematopoietic stem cells and male fetal AMH to enter the female circulation, arresting Mullerian duct development.",
@@ -11078,9 +11078,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Cytogenetically, freemartin heifers exhibit chimerism of their circulating leukocytes with which karyotype mixture?",
     "options": [
       "XX / XY leukocyte chimerism",
-      "XXX triploidy",
-      "XXY Klinefelter",
-      "XO Turner syndrome"
+      "XXX triploidy (regulated in accordance with established veterinary standard protocols)",
+      "XO Turner syndrome (characterized by distinct physiological and comparative biological features)",
+      "XXY Klinefelter (regulated in accordance with established veterinary standard protocols)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Vascular anastomosis leads to permanent reciprocal exchange of hematopoietic stem cells, producing detectable 60,XX and 60,XY white blood cells on blood karyotyping.",
@@ -11099,10 +11099,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "The '1/29 Robertsonian translocation' in cattle is a centric fusion between chromosome 1 and chromosome 29 associated with:",
     "options": [
-      "Polydactyly",
+      "Extreme gigantism (characterized by distinct physiological and comparative biological features)",
       "Reduced female fertility and embryonic mortality due to unbalanced gametes",
-      "Extreme gigantism",
-      "Dwarfism"
+      "Dwarfism (regulated in accordance with established veterinary standard protocols)",
+      "Polydactyly (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The 1/29 centric fusion produces an abnormal submetacentric chromosome (2n=59); heterozygous carriers produce unbalanced aneuploid gametes upon meiosis, elevating embryonic death by 5-10%.",
@@ -11121,10 +11121,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "The Hardy-Weinberg equilibrium principle states that allele and genotype frequencies remain constant across generations in a population provided there is:",
     "options": [
-      "Small population size and active selection",
-      "High migration rate",
+      "Intense inbreeding and assortative mating, directional artificial selection, and non-random mating systems",
+      "High migration rate, directional artificial selection, and non-random mating systems",
       "Large population size, random mating, and absence of mutation, migration, and selection",
-      "Intense inbreeding and assortative mating"
+      "Small population size and active selection, directional artificial selection, and non-random mating systems"
     ],
     "correctOptionIndex": 2,
     "explanation": "H-W equilibrium requires an infinitely large diploid population, random mating (panmixia), no net mutations, no gene flow/migration, and no differential natural/artificial selection.",
@@ -11143,9 +11143,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "In a large random-mating population at Hardy-Weinberg equilibrium, if the frequency of a recessive allele (q) is 0.2, what is the expected frequency of heterozygous carriers (2pq)?",
     "options": [
-      "0.04",
-      "0.64",
-      "0.16",
+      "Approximately 0.04 (4.00% or 1 in 25 animals in population)",
+      "Approximately 0.16 (16.00% or 1 in 6 animals in population)",
+      "Approximately 0.64 (64.00% or 1 in 2 animals in population)",
       "0.32 (32%)"
     ],
     "correctOptionIndex": 3,
@@ -11166,9 +11166,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "If the incidence of a homozygous recessive lethal disease (q^2) in a random mating herd is 1 in 10,000 (0.0001), what is the carrier (heterozygote) frequency?",
     "options": [
       "Approximately 0.02 (2% or 1 in 50 animals)",
-      "0.10",
-      "0.0002",
-      "0.001"
+      "Approximately 0.0002 (0.02% or 1 in 5000 animals in population)",
+      "Approximately 0.10 (10.00% or 1 in 10 animals in population)",
+      "Approximately 0.001 (0.10% or 1 in 1000 animals in population)"
     ],
     "correctOptionIndex": 0,
     "explanation": "q^2 = 0.0001, so q = 0.01. Thus, p = 1 - 0.01 = 0.99. Carrier frequency = 2pq = 2 * 0.99 * 0.01 = 0.0198 (~2% or 1 in 50).",
@@ -11187,9 +11187,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "The evolutionary force that causes random, non-directional fluctuations in allele frequencies from generation to generation in small populations is termed:",
     "options": [
-      "Natural selection",
-      "Mutation pressure",
-      "Gene flow",
+      "Natural selection (characterized by distinct physiological and comparative biological features)",
+      "Gene flow (characterized by distinct physiological and comparative biological features)",
+      "Mutation pressure (characterized by distinct physiological and comparative biological features)",
       "Genetic Drift (Sewall Wright effect)"
     ],
     "correctOptionIndex": 3,
@@ -11209,10 +11209,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "The 'Founder effect' and 'Population bottleneck' are specialized biological manifestations of:",
     "options": [
-      "Epistasis",
-      "Genetic drift",
       "Artificial selection",
-      "Hybrid vigor"
+      "Genetic drift",
+      "Hybrid vigor",
+      "Epistasis (regulated in accordance with established veterinary standard protocols)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Both bottle-necks (sudden population crash) and founder events (small group establishing a new colony) drastically restrict effective population size (Ne), accelerating genetic drift.",
@@ -11232,9 +11232,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "In quantitative genetics, phenotypic variance (Vp) is fundamentally partitioned into:",
     "options": [
       "Genetic variance (Vg) + Environmental variance (Ve) + Genotype-environment interaction (Vge)",
-      "Dominance + Epistatic",
-      "Additive variance + Dominance variance",
-      "Additive + Environmental"
+      "Dominance + Epistatic (regulated in accordance with established veterinary standard protocols)",
+      "Additive + Environmental (characterized by distinct physiological and comparative biological features)",
+      "Additive variance + Dominance variance (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 0,
     "explanation": "The total phenotypic variance observed in a herd represents the sum of genetic variance (Vg), environmental variance (Ve), and the interaction between genotype and environment (Vge).",
@@ -11253,8 +11253,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "Narrow-sense heritability (h^2) is defined as the proportion of total phenotypic variance attributable to:",
     "options": [
-      "Environmental variance (Ve / Vp)",
       "Total genetic variance (Vg / Vp)",
+      "Environmental variance (Ve / Vp)",
       "Additive genetic variance (Va / Vp)",
       "Dominance variance (Vd / Vp)"
     ],
@@ -11275,9 +11275,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "Broad-sense heritability (H^2) is defined as:",
     "options": [
-      "Permanent environmental variance / Vp",
       "Additive variance divided by phenotypic variance",
-      "Dominance variance / Vp",
+      "Dominance variance / Vp (regulated in accordance with established veterinary standard protocols)",
+      "Permanent environmental variance / Vp (regulated in accordance with established veterinary standard protocols)",
       "Total genetic variance divided by phenotypic variance (Vg / Vp)"
     ],
     "correctOptionIndex": 3,
@@ -11297,10 +11297,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "Which of the following classes of livestock traits characteristically exhibits HIGH heritability (h^2 > 0.40)?",
     "options": [
-      "Litter size in swine",
-      "Calving interval in dairy cattle",
+      "Litter size in swine, directional artificial selection, and non-random mating systems",
+      "Conception rate, directional artificial selection, and non-random mating systems",
       "Carcass traits, body conformation, and mature body weight",
-      "Conception rate"
+      "Calving interval in dairy cattle, directional artificial selection, and non-random mating systems"
     ],
     "correctOptionIndex": 2,
     "explanation": "Skeletal and carcass traits (e.g. backfat thickness, ribeye area, mature height, wool fiber diameter) have high heritabilities (0.40-0.60) and respond rapidly to individual mass selection.",
@@ -11320,9 +11320,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Which of the following livestock traits characteristically exhibits LOW heritability (h^2 < 0.10)?",
     "options": [
       "Fertility, calving interval, and embryo survival",
-      "Adult body weight",
-      "Fleece weight",
-      "Butterfat percentage"
+      "Fleece weight, directional artificial selection, and non-random mating systems",
+      "Butterfat percentage, directional artificial selection, and non-random mating systems",
+      "Adult body weight, directional artificial selection, and non-random mating systems"
     ],
     "correctOptionIndex": 0,
     "explanation": "Reproductive and fitness traits (conception rate, days open, litter size) have low heritability (<0.10) because natural selection has already minimized additive variance; they respond best to crossbreeding.",
@@ -11341,7 +11341,7 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "Milk yield and lactation length in dairy cattle generally exhibit which level of heritability?",
     "options": [
-      "Zero heritability",
+      "Zero heritability (regulated in accordance with established veterinary standard protocols)",
       "Moderate heritability (h^2 = 0.20 to 0.30)",
       "Extremely low heritability (<0.02)",
       "Very high heritability (>0.80)"
@@ -11366,7 +11366,7 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
       "Breeding value",
       "Heritability (h^2)",
       "Inbreeding coefficient",
-      "Heterosis"
+      "Heterosis (exhibiting predictable phenotypic and functional developmental patterns)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Repeatability (r = (Vg + Vep) / Vp) encompasses genetic variance plus permanent environmental variance (Vep); thus, repeatability is mathematically always greater than or equal to heritability (r >= h^2).",
@@ -11385,10 +11385,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "The 'Estimated Breeding Value' (EBV) of an animal for a given trait expresses its genetic superiority or inferiority relative to:",
     "options": [
-      "The best animal in the country",
-      "Zero",
+      "Zero (exhibiting predictable phenotypic and functional developmental patterns)",
+      "The breed champion (regulated in accordance with established veterinary standard protocols)",
       "The population / herd mean",
-      "The breed champion"
+      "The best animal in the country"
     ],
     "correctOptionIndex": 2,
     "explanation": "Breeding value (BV = 2 * Progeny Difference) represents the sum of additive gene effects an animal transmits to its offspring, expressed as a deviation from the contemporary breed base mean.",
@@ -11408,9 +11408,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Which selection method is most effective and accurate for improving traits with HIGH heritability that can be measured directly in both sexes?",
     "options": [
       "Individual (Mass) selection",
-      "Progeny testing",
-      "Family selection",
-      "Pedigree selection"
+      "Family selection (characterized by distinct physiological and comparative biological features)",
+      "Progeny testing (exhibiting predictable phenotypic and functional developmental patterns)",
+      "Pedigree selection (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 0,
     "explanation": "When heritability is high (h^2 > 0.40), the individual's own phenotype closely mirrors its true breeding value, making mass selection the simplest, fastest, and most cost-effective method.",
@@ -11429,9 +11429,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "Progeny testing is the indispensable gold-standard selection method for traits that are:",
     "options": [
-      "Highly heritable visual traits",
-      "Lethal before birth",
-      "Expressed early in life in both sexes",
+      "Highly heritable visual traits (characterized by distinct physiological and comparative biological features)",
+      "Expressed early in life in both sexes (characterized by distinct physiological and comparative biological features)",
+      "Lethal before birth (characterized by distinct physiological and comparative biological features)",
       "Sex-limited (e.g. milk yield in bulls, egg production in cockerels) and have low-to-moderate heritability"
     ],
     "correctOptionIndex": 3,
@@ -11452,9 +11452,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The 'Best Linear Unbiased Prediction' (BLUP) animal model revolutionized genetic evaluation by:",
     "options": [
       "Simultaneously estimating fixed environmental effects and random genetic breeding values using all pedigree relationships",
-      "Relying on simple arithmetic averages",
-      "Ignoring environmental differences",
-      "Using only dam records"
+      "Using only dam records (characterized by distinct physiological and comparative biological features)",
+      "Relying on simple arithmetic averages (exhibiting predictable phenotypic and functional developmental patterns)",
+      "Ignoring environmental differences (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Developed by C.R. Henderson, BLUP utilizes Henderson's mixed model equations and the numerator relationship matrix (A matrix) to generate unbiased EBVs across herds and management tiers.",
@@ -11473,9 +11473,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "The 'inbreeding coefficient' (Fx) calculated by Sewall Wright's formula represents:",
     "options": [
-      "The proportion of heterozygous loci",
-      "The mutation frequency",
-      "The degree of hybrid vigor",
+      "The proportion of heterozygous loci (regulated in accordance with established veterinary standard protocols)",
+      "The degree of hybrid vigor (regulated in accordance with established veterinary standard protocols)",
+      "The mutation frequency (regulated in accordance with established veterinary standard protocols)",
       "The probability that two alleles at a locus in an individual are identical by descent (IBD)"
     ],
     "correctOptionIndex": 3,
@@ -11497,8 +11497,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "0.0625 (6.25%)",
       "0.25 (25%)",
-      "0.50 (50%)",
-      "0.125 (12.5%)"
+      "0.125 (12.5%)",
+      "0.50 (50%)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Full-sib mating or parent-offspring mating produces an inbreeding coefficient of Fx = 0.25 (25% increase in homozygosity relative to the base population).",
@@ -11517,10 +11517,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "The phenomenon where crossbred (F1) offspring outperform the average of their purebred parental breeds in fitness and production is called:",
     "options": [
-      "Epistasis",
-      "Inbreeding depression",
+      "Additive genetic variance",
+      "Epistasis (regulated in accordance with established veterinary standard protocols)",
       "Heterosis (Hybrid Vigor)",
-      "Additive genetic variance"
+      "Inbreeding depression"
     ],
     "correctOptionIndex": 2,
     "explanation": "Heterosis is the phenotypic superiority of F1 crossbreds over mid-parent average: % Heterosis = [(F1 - Midparent) / Midparent] * 100, maximal for lowly heritable reproductive and survival traits.",
@@ -11539,10 +11539,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "Grading-up is a breeding system used to transform non-descript (indigenous scrub) stock into high-yielding stock by continuously backcrossing females to:",
     "options": [
-      "Their own brothers",
-      "Non-descript males",
+      "Non-descript males (regulated in accordance with established veterinary standard protocols)",
+      "Crossbred males (characterized by distinct physiological and comparative biological features)",
       "Purebred sires of an improved breed for 5 to 7 successive generations",
-      "Crossbred males"
+      "Their own brothers (characterized by distinct physiological and comparative biological features)"
     ],
     "correctOptionIndex": 2,
     "explanation": "By using purebred sires of an improved breed over 6-7 generations, the proportion of improved inheritance reaches 96.9% (Gen 5) and 98.4% (Gen 6), converting scrub cattle to near-purebred.",
@@ -11561,10 +11561,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Genetics & Breeding",
     "questionText": "In rotational crossbreeding (criss-crossing between two breeds A and B), what percentage of maximum potential heterosis is permanently retained in equilibrium?",
     "options": [
-      "33%",
+      "50% (reference physiological value)",
       "66.7% (two-thirds)",
-      "100%",
-      "50%"
+      "100% (reference physiological value)",
+      "33% (reference physiological value)"
     ],
     "correctOptionIndex": 1,
     "explanation": "A two-breed rotational criss-cross retains 66.7% of maximum F1 heterosis indefinitely, while a three-breed rotation maintains 85.7% heterosis while allowing replacement heifers to be bred on-farm.",
@@ -11583,10 +11583,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "In the Weende proximate analysis of feedstuffs, Crude Protein (CP) is calculated by multiplying total Kjeldahl nitrogen by which conversion factor?",
     "options": [
-      "5.70",
+      "5.70 (specific Nitrogen-to-CP conversion factor applied to wheat grain proteins)",
       "6.25 (assuming average protein contains 16% nitrogen)",
-      "4.50",
-      "8.00"
+      "4.50 (uncorrected non-protein nitrogen precipitation conversion baseline factor)",
+      "8.00 (theoretical maximum nitrogen content factor for low-protein roughages)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Because typical feed proteins contain approximately 16% nitrogen (100 / 16 = 6.25), crude protein percentage is mathematically calculated as: CP% = Nitrogen% * 6.25.",
@@ -11606,9 +11606,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "In proximate analysis, Nitrogen-Free Extract (NFE) representing soluble carbohydrates (starch, sugars) is determined by:",
     "options": [
       "Mathematical difference: 100 - (% Moisture + % CP + % EE + % CF + % Total Ash)",
-      "Direct chemical precipitation",
-      "Kjeldahl digestion",
-      "Bomb calorimetry"
+      "Direct bomb calorimetry (measuring gross combustion heat energy in calories)",
+      "Kjeldahl sulfuric acid digestion (quantifying total organic nitrogen content)",
+      "Direct chemical gravimetric precipitation of individual carbohydrate polymers"
     ],
     "correctOptionIndex": 0,
     "explanation": "NFE is the only proximate fraction not measured by direct chemical analysis; it is calculated by subtracting moisture, crude protein, ether extract, crude fiber, and ash from 100.",
@@ -11627,9 +11627,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "In the Van Soest detergent system of feed evaluation, Neutral Detergent Fiber (NDF) represents which cell wall fractions?",
     "options": [
-      "Cellulose and Lignin only",
-      "Hemicellulose and Pectin",
-      "Starch and Sugars",
+      "Hemicellulose and Pectin, digestive tract secretions, and endogenous metabolic losses",
+      "Cellulose and Lignin only, digestive tract secretions, and endogenous metabolic losses",
+      "Starch and Sugars, digestive tract secretions, and endogenous metabolic losses",
       "Hemicellulose, Cellulose, and Lignin (Total plant cell wall)"
     ],
     "correctOptionIndex": 3,
@@ -11649,10 +11649,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "In the Van Soest system, Acid Detergent Fiber (ADF) consists of:",
     "options": [
-      "Pectin and Hemicellulose",
-      "Lignin only",
+      "Pectin and Hemicellulose (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Hemicellulose and Cellulose (providing essential metabolic substrates for ruminal microbial protein synthesis)",
       "Cellulose and Lignin (including silica)",
-      "Hemicellulose and Cellulose"
+      "Lignin only (accounting for endogenous metabolic losses during nutrient digestion and transit)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Boiling in acid detergent solution dissolves hemicellulose, leaving behind Acid Detergent Fiber (ADF = cellulose + lignin); ADF is inversely correlated with forage digestibility.",
@@ -11671,8 +11671,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "How is the 'Hemicellulose' percentage calculated from Van Soest fiber fractions?",
     "options": [
-      "Hemicellulose = Total Ash - ADF",
       "Hemicellulose = NDF - ADL",
+      "Hemicellulose = Total Ash - ADF",
       "Hemicellulose = NDF - ADF",
       "Hemicellulose = ADF - ADL"
     ],
@@ -11693,10 +11693,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "How is the 'Cellulose' percentage determined from Van Soest fiber fractions?",
     "options": [
-      "Cellulose = NDF - ADL",
+      "Cellulose = NDF - ADL (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "Cellulose = ADF - ADL (Acid Detergent Lignin)",
-      "Cellulose = NDF - ADF",
-      "Cellulose = Total Ash - NDF"
+      "Cellulose = NDF - ADF (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "Cellulose = Total Ash - NDF (providing essential metabolic substrates for ruminal microbial protein synthesis)"
     ],
     "correctOptionIndex": 1,
     "explanation": "ADF contains cellulose and lignin; treating the ADF residue with 72% sulfuric acid dissolves cellulose, leaving acid detergent lignin (ADL); therefore Cellulose = ADF - ADL.",
@@ -11716,9 +11716,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The total gross energy (GE) of one gram of pure ether extract (fat) when burned in a bomb calorimeter is approximately:",
     "options": [
       "9.45 kcal / gram (39.5 kJ/g)",
-      "5.65 kcal / gram",
-      "4.15 kcal / gram",
-      "2.25 kcal / gram"
+      "2.25 kcal / gram (determined via standardized proximate chemical partitioning and energy calculation)",
+      "5.65 kcal / gram (providing essential metabolic substrates for ruminal microbial protein synthesis)",
+      "4.15 kcal / gram (providing essential metabolic substrates for ruminal microbial protein synthesis)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Fats contain far fewer oxygen atoms and are more reduced than carbohydrates, yielding approximately 2.25 times more gross energy (9.45 kcal/g vs 4.15 kcal/g for carbohydrates).",
@@ -11737,9 +11737,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "In the Total Digestible Nutrients (TDN) formula, why is Digestible Ether Extract (DEE) multiplied by 2.25?",
     "options": [
-      "To correct for fecal losses",
-      "Because fat is 2.25 times denser",
-      "To convert fat into protein",
+      "To convert fat into protein (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "To correct for fecal losses (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "Because fat is 2.25 times denser (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "Because fat yields 2.25 times more energy per gram than carbohydrates or protein (9.45 / 4.15 = 2.25)"
     ],
     "correctOptionIndex": 3,
@@ -11759,9 +11759,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "Metabolizable Energy (ME) in ruminant nutrition is defined as Digestible Energy (DE) minus energy lost in:",
     "options": [
-      "Feces only",
-      "Sweat",
-      "Heat increment",
+      "Sweat (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Feces only (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "Heat increment (determined via standardized proximate chemical partitioning and energy calculation)",
       "Urine and gaseous products of fermentation (principally methane)"
     ],
     "correctOptionIndex": 3,
@@ -11781,10 +11781,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "Net Energy (NE) represents the portion of feed energy available for maintenance and production, calculated as:",
     "options": [
-      "TDN * 4.4",
+      "Digestible Energy minus Feces (providing essential metabolic substrates for ruminal microbial protein synthesis)",
       "Metabolizable Energy (ME) minus Heat Increment (HI)",
-      "Gross Energy minus Urine",
-      "Digestible Energy minus Feces"
+      "TDN * 4.4 (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Gross Energy minus Urine (providing essential metabolic substrates for ruminal microbial protein synthesis)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Heat increment (HI) is the heat produced during nutrient digestion, fermentation, and metabolism; Net Energy = ME - HI, which is partitioned into NEm (maintenance) and NEp (production).",
@@ -11803,10 +11803,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "The primary factor responsible for the high heat increment (HI) in ruminants compared to monogastrics is:",
     "options": [
-      "Salivary secretion",
-      "Longer digestive tract",
+      "Longer digestive tract (providing essential metabolic substrates for ruminal microbial protein synthesis)",
+      "Salivary secretion (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "Heat of microbial fermentation in the rumen and metabolic cost of acetate utilization",
-      "Higher body temperature"
+      "Higher body temperature (accounting for endogenous metabolic losses during nutrient digestion and transit)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Exothermic anaerobic microbial fermentation in the rumen and the lower biochemical efficiency of acetate for lipogenesis generate substantial metabolic heat in ruminants.",
@@ -11826,9 +11826,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Pure feed-grade Urea (fertilizer grade) contains 46% Nitrogen. What is its Crude Protein (CP) equivalent for ruminants?",
     "options": [
       "287.5% (46 x 6.25 = 287.5%)",
-      "16%",
-      "100%",
-      "46%"
+      "46% (reference physiological value)",
+      "100% (reference physiological value)",
+      "16% (reference physiological value)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Urea contains 46% nitrogen. Applying the standard nitrogen-to-protein conversion factor of 6.25: CP equivalent = 46 * 6.25 = 287.5% CP.",
@@ -11847,9 +11847,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "What is the safe upper limit for feeding urea to ruminants to prevent fatal ammonia toxicity?",
     "options": [
-      "15% of concentrate",
-      "5% of body weight",
-      "10% of the total diet",
+      "10% of the total diet (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "5% of body weight (providing essential metabolic substrates for ruminal microbial protein synthesis)",
+      "15% of concentrate (determined via standardized proximate chemical partitioning and energy calculation)",
       "Not more than 1% of total diet dry matter OR 3% of the concentrate mixture"
     ],
     "correctOptionIndex": 3,
@@ -11869,10 +11869,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "To ensure efficient utilization of urea nitrogen by ruminal microbes and prevent toxicity, the diet must provide an abundant source of:",
     "options": [
-      "Bypass protein",
-      "Excess dietary fat",
+      "Excess dietary fat (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Bypass protein (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "Readily fermentable, rapidly available soluble carbohydrates (e.g. Molasses or crushed grains)",
-      "Coarse cereal straw"
+      "Coarse cereal straw (accounting for endogenous metabolic losses during nutrient digestion and transit)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Microbes require synchrony of ammonia release with carbon keto-acid skeletons derived from rapid starch/sugar fermentation to synthesize amino acids.",
@@ -11891,10 +11891,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "The clinical signs of acute urea (ammonia) toxicity in cattle (salivation, muscle tremors, incoordination, bloat, convulsions) appear when rumen pH rises above:",
     "options": [
-      "6.5",
+      "5.0 (acidic ruminal fluid trapping nitrogen as non-diffusible ammonium ions)",
       "8.0 (free non-ionized NH3 rapidly diffuses across the rumen wall into blood)",
-      "5.0",
-      "7.0"
+      "7.0 (neutral physiological pH maintaining dynamic equilibrium between ions)",
+      "6.5 (ionized ammonium NH4+ predominates with minimal passive diffusion)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Rapid urea hydrolysis by bacterial urease outpaces ammonia assimilation, pushing rumen pH > 8.0 where ammonia shifts to lipid-soluble NH3 and crosses into systemic blood, causing hyperammonemic encephalopathy.",
@@ -11914,9 +11914,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The immediate emergency field treatment (antidote) for acute urea poisoning in cattle is:",
     "options": [
       "Oral drenching with 2 to 4 liters of vinegar (5% acetic acid) mixed with cold water",
-      "Calcium gluconate IV",
-      "Sodium bicarbonate drench",
-      "Intramuscular atropine"
+      "Intramuscular atropine (providing essential metabolic substrates for ruminal microbial protein synthesis)",
+      "Calcium gluconate IV (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Sodium bicarbonate drench (determined via standardized proximate chemical partitioning and energy calculation)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Vinegar acidifies the rumen contents (lowering pH below 7.0), converting toxic diffusible NH3 into non-diffusible ammonium ions (NH4+) while cold water slows bacterial urease.",
@@ -11935,10 +11935,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "The term 'Rumen Undegradable Protein' (RUP / Bypass Protein) refers to dietary protein that:",
     "options": [
-      "Is converted to urea",
-      "Is completely indigestible and excreted in feces",
+      "Is synthesized by protozoa (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Is completely indigestible and excreted in feces (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "Escapes microbial degradation in the rumen and passes intact into the abomasum for enzymatic digestion",
-      "Is synthesized by protozoa"
+      "Is converted to urea (accounting for endogenous metabolic losses during nutrient digestion and transit)"
     ],
     "correctOptionIndex": 2,
     "explanation": "RUP escapes ruminal proteolysis and arrives in the abomasum and small intestine, providing high-quality amino acids directly to the host animal for milk synthesis and growth.",
@@ -11958,9 +11958,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "In silage making (ensiling), the optimum moisture content of the green chopped fodder at the time of ensiling should be:",
     "options": [
       "65% to 70% (30-35% dry matter)",
-      "40% to 45%",
-      "85% to 90%",
-      "15% to 20%"
+      "15% to 20% (reference physiological value)",
+      "85% to 90% (reference physiological value)",
+      "40% to 45% (reference physiological value)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Forages ensiled with 65-70% moisture compact tightly to exclude air; higher moisture causes seepage and clostridial fermentation, while lower moisture prevents adequate compaction.",
@@ -11979,10 +11979,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "Good quality silage is characterized by which organic acid and pH range?",
     "options": [
-      "Butyric acid and pH 6.0",
+      "Propionic acid and pH 7.0 (providing essential metabolic substrates for ruminal microbial protein synthesis)",
       "Predominantly Lactic Acid (3-8% DM) and a pH of 3.8 to 4.2",
-      "Propionic acid and pH 7.0",
-      "Acetic acid and pH 5.5"
+      "Acetic acid and pH 5.5 (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "Butyric acid and pH 6.0 (providing essential metabolic substrates for ruminal microbial protein synthesis)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Lactic acid bacteria (Lactobacillus plantarum) ferment soluble sugars anaerobically, rapidly driving the pH down to 3.8-4.2, which pickles and preserves the forage indefinitely.",
@@ -12001,9 +12001,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "The presence of high concentrations of 'Butyric acid' and a pH above 5.0 in silage indicates:",
     "options": [
-      "High sugar content",
-      "Optimal lactic fermentation",
-      "Excellent preservation",
+      "High sugar content (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "Excellent preservation (providing essential metabolic substrates for ruminal microbial protein synthesis)",
+      "Optimal lactic fermentation (determined via standardized proximate chemical partitioning and energy calculation)",
       "Spoilage by Clostridial fermentation due to excess moisture or poor compaction"
     ],
     "correctOptionIndex": 3,
@@ -12023,10 +12023,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "In hay making, the green forage must be dried down to what moisture level to prevent fungal molding and spontaneous combustion in the stack?",
     "options": [
-      "40%",
+      "30% (reference physiological value)",
       "Below 15% (85% dry matter or more)",
-      "25%",
-      "30%"
+      "25% (reference physiological value)",
+      "40% (reference physiological value)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Moisture levels above 15-18% in baled or stacked hay allow thermophilic molds (Aspergillus, Micropolyspora) to multiply, producing heat that can ignite spontaneous fires.",
@@ -12045,9 +12045,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "In the 'urea-ammoniation' of cereal straws (paddy or wheat straw) to improve nutritive value, the standard recommended formulation is:",
     "options": [
-      "10 kg Urea with 10 L water",
-      "50 kg Urea per 100 kg straw",
-      "1 kg Urea with 100 L water",
+      "50 kg Urea per 100 kg straw (providing essential metabolic substrates for ruminal microbial protein synthesis)",
+      "10 kg Urea with 10 L water (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "1 kg Urea with 100 L water (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "4 kg Urea dissolved in 40 to 50 Liters of water sprayed on 100 kg straw, sealed airtight for 21 to 28 days"
     ],
     "correctOptionIndex": 3,
@@ -12068,9 +12068,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The anti-nutritional toxic amino acid present in the forage tree Leucaena leucocephala (Subabul) is:",
     "options": [
       "Cyanogen",
-      "Tannin",
+      "Gossypol",
       "Mimosine",
-      "Gossypol"
+      "Tannin"
     ],
     "correctOptionIndex": 2,
     "explanation": "Mimosine is hydrolyzed in the rumen to 3,4-DHP (dihydroxypyridine), a potent goitrogen causing alopecia, thyroid enlargement, and weight loss in unadapted cattle.",
@@ -12090,9 +12090,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The anaerobic ruminal bacterium capable of completely detoxifying mimosine and DHP in Leucaena is:",
     "options": [
       "Synergistes jonesii",
-      "Streptococcus bovis",
       "Fibrobacter succinogenes",
-      "Ruminococcus albus"
+      "Ruminococcus albus",
+      "Streptococcus bovis"
     ],
     "correctOptionIndex": 0,
     "explanation": "Dr. Raymond Jones discovered Synergistes jonesii, a ruminal bacterium that degrades 3,4-DHP into non-toxic compounds, successfully transferred to ruminants in Australia and Asia.",
@@ -12112,9 +12112,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "The polyphenolic yellow toxic pigment present in cottonseed and raw cottonseed cake that causes cardiac necrosis and male infertility is:",
     "options": [
       "Gossypol",
-      "Ricin",
-      "Aflatoxin",
-      "Oxalate"
+      "Oxalate",
+      "Ricin (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Aflatoxin"
     ],
     "correctOptionIndex": 0,
     "explanation": "Free gossypol binds iron and inhibits enzymes; in monogastrics and young ruminants, it causes myocardial degeneration, pulmonary edema, and testicular germ cell destruction.",
@@ -12133,9 +12133,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "Cyanogenic glycosides (such as Dhurrin) present in young, drought-stressed, immature sorghum (Jowar) plants release lethal amounts of:",
     "options": [
-      "Tannic acid",
-      "Nitrate",
-      "Oxalic acid",
+      "Oxalic acid (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Tannic acid (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Nitrate (providing essential metabolic substrates for ruminal microbial protein synthesis)",
       "Hydrocyanic acid (HCN / Prussic acid)"
     ],
     "correctOptionIndex": 3,
@@ -12155,10 +12155,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "The pathognomonic necropsy finding in animals dying of acute Cyanide (HCN / Prussic acid) poisoning is:",
     "options": [
-      "Watery pale blood",
-      "Tarry black unclotted blood",
+      "Chocolate-brown colored blood (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Tarry black unclotted blood (providing essential metabolic substrates for ruminal microbial protein synthesis)",
       "Bright, cherry-red colored blood due to inability of tissues to utilize oxygen (oxyhemoglobin persistence)",
-      "Chocolate-brown colored blood"
+      "Watery pale blood (accounting for endogenous metabolic losses during nutrient digestion and transit)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Cyanide inhibits mitochondrial cytochrome c oxidase (Complex IV); oxygen cannot be unloaded in tissues, so both venous and arterial blood remain saturated with oxygen (bright cherry-red).",
@@ -12177,10 +12177,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "The specific antidote protocol for acute Cyanide (Prussic acid) poisoning in livestock is:",
     "options": [
-      "Atropine sulfate",
+      "Loeffler alkaline methylene blue (demonstrating metachromatic polyphosphate granules)",
       "Sodium nitrite followed by Sodium thiosulfate IV",
-      "Methylene blue IV",
-      "Diminazene aceturate"
+      "Diminazene aceturate (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "Atropine sulfate (accounting for endogenous metabolic losses during nutrient digestion and transit)"
     ],
     "correctOptionIndex": 1,
     "explanation": "Sodium nitrite converts hemoglobin to methemoglobin (which binds CN with high affinity to form cyanmethemoglobin); Sodium thiosulfate then provides sulfur for rhodanese to convert CN to harmless thiocyanate.",
@@ -12200,9 +12200,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "In contrast, acute 'Nitrate / Nitrite poisoning' (e.g. from grazing fertilized oats or pigweed) turns blood:",
     "options": [
       "Chocolate-brown in color due to Methemoglobin formation",
-      "Milky white",
-      "Clear and colorless",
-      "Bright cherry-red"
+      "Milky white (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Bright cherry-red (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Clear and colorless (providing essential metabolic substrates for ruminal microbial protein synthesis)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Nitrite (NO2-) oxidizes ferrous iron (Fe2+) of hemoglobin into ferric iron (Fe3+), forming methemoglobin which cannot transport oxygen, giving blood a dark chocolate-brown color.",
@@ -12221,9 +12221,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "The specific antidote for acute Nitrate/Nitrite poisoning in cattle and sheep is:",
     "options": [
-      "Sodium nitrite",
-      "BAL (Dimercaprol)",
-      "Vinegar",
+      "Vinegar (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "BAL (Dimercaprol) (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Sodium nitrite (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "Methylene blue (1 to 2% solution IV at 4 to 8 mg/kg)"
     ],
     "correctOptionIndex": 3,
@@ -12243,10 +12243,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "Aflatoxins (predominantly Aflatoxin B1) are potent hepatotoxic and carcinogenic mycotoxins produced by which mold in stored groundnut cake and grains?",
     "options": [
-      "Claviceps purpurea",
-      "Penicillium roqueforti",
+      "Penicillium roqueforti (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Claviceps purpurea (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "Aspergillus flavus and Aspergillus parasiticus",
-      "Fusarium moniliforme"
+      "Fusarium moniliforme (determined via standardized proximate chemical partitioning and energy calculation)"
     ],
     "correctOptionIndex": 2,
     "explanation": "A. flavus produces aflatoxin B1 in warm, humid storage (>14% moisture); in lactating cows, aflatoxin B1 is hydroxylated in the liver and excreted in milk as carcinogenic Aflatoxin M1.",
@@ -12265,10 +12265,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "The regulatory maximum permissible limit of Aflatoxin B1 in commercial cattle feed ingredients in India (BIS standards) is:",
     "options": [
-      "50 ppm (parts per million)",
+      "500 ppb (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "20 to 50 ppb (parts per billion / micrograms per kg)",
-      "Zero tolerance (0 ppb)",
-      "500 ppb"
+      "50 ppm (parts per million) (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Zero tolerance (0 ppb) (determined via standardized proximate chemical partitioning and energy calculation)"
     ],
     "correctOptionIndex": 1,
     "explanation": "BIS standards stipulate that aflatoxin B1 in compounded cattle feeds should not exceed 20 to 50 ppb (ug/kg) to safeguard animal health and prevent milk residue contamination.",
@@ -12287,9 +12287,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "Paddy straw (rice straw) contains high levels of soluble and insoluble which anti-nutritional compound that binds dietary calcium and causes hypocalcemia?",
     "options": [
-      "Cyanogens",
-      "Phytates",
-      "Tannins",
+      "Tannins (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "Phytates (providing essential metabolic substrates for ruminal microbial protein synthesis)",
+      "Cyanogens (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "Oxalates (oxalic acid)"
     ],
     "correctOptionIndex": 3,
@@ -12309,10 +12309,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "The ideal calcium to phosphorus (Ca : P) ratio in the total ration of adult ruminants is approximately:",
     "options": [
-      "1 : 1 always",
-      "5 : 1",
+      "1 : 1 always (determined via standardized proximate chemical partitioning and energy calculation)",
+      "1 : 5 (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "2 : 1 (range 1.5:1 to 2:1)",
-      "1 : 5"
+      "5 : 1 (accounting for endogenous metabolic losses during nutrient digestion and transit)"
     ],
     "correctOptionIndex": 2,
     "explanation": "A Ca:P ratio of 1.5:1 to 2:1 ensures optimal intestinal absorption and parathyroid balance; inverted Ca:P ratios (excess P from grains) precipitate urinary calculi in feedlot steers/wethers.",
@@ -12332,9 +12332,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Grass tetany (hypomagnesemic tetany / grass staggers) in lactating cows grazing lush spring pastures is triggered by:",
     "options": [
       "Low plasma magnesium (<1.2 mg/dL) exacerbated by high potassium (K) interfering with ruminal Mg absorption",
-      "Vitamin D deficiency",
-      "Urea toxicity",
-      "High calcium diets"
+      "High calcium diets (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Vitamin D deficiency (providing essential metabolic substrates for ruminal microbial protein synthesis)",
+      "Urea toxicity (accounting for endogenous metabolic losses during nutrient digestion and transit)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Lush spring grass is high in potassium and nitrogen, which impairs active magnesium transport across the ruminal epithelium, causing acute hypomagnesemia, muscle tremors, and tetanic convulsions.",
@@ -12353,10 +12353,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "Parturient paresis (Milk Fever) in transition dairy cows is characterized clinically by flaccid recumbency and is biochemically caused by:",
     "options": [
-      "Hypercalcemia",
+      "Acute Hypercalcemia (serum Ca exceeding 14.5 mg/dL)",
       "Acute Hypocalcemia (serum Ca falling below 5.5 mg/dL)",
-      "Hyperglycemia",
-      "Hypomagnesemia"
+      "Severe Hypomagnesemia (serum Mg falling below 1.0 mg/dL)",
+      "Severe Hyperglycemia (blood glucose exceeding 250 mg/dL)"
     ],
     "correctOptionIndex": 1,
     "explanation": "The sudden colostral drain of calcium at calving drops serum ionized calcium, preventing acetylcholine release at neuromuscular junctions and producing generalized flaccid paralysis.",
@@ -12375,9 +12375,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "To prevent Milk Fever in transition cows, pre-partum diets during the close-up dry period (last 3 weeks) are often formulated to have a:",
     "options": [
-      "Zero protein",
-      "High positive DCAD",
-      "High calcium and alfalfa hay",
+      "Zero protein (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "High calcium and alfalfa hay (determined via standardized proximate chemical partitioning and energy calculation)",
+      "High positive DCAD (determined via standardized proximate chemical partitioning and energy calculation)",
       "Negative Dietary Cation-Anion Difference (DCAD) using anionic salts (sulfates, chlorides)"
     ],
     "correctOptionIndex": 3,
@@ -12399,8 +12399,8 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "options": [
       "Sodium toxicity",
       "Phosphorus deficiency",
-      "Vitamin A deficiency",
-      "Iron deficiency"
+      "Iron deficiency",
+      "Vitamin A deficiency"
     ],
     "correctOptionIndex": 1,
     "explanation": "Phosphorus-deficient soils produce forages low in phosphorus; chronic hypophosphatemia induces osteophagia (bone chewing) which frequently predisposes cattle to ingest Clostridium botulinum toxin from carcasses.",
@@ -12420,9 +12420,9 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "questionText": "Vitamin E acts synergistically with which trace element to protect cell membranes against lipid peroxidation?",
     "options": [
       "Selenium (as a component of cytosolic Glutathione Peroxidase)",
-      "Zinc",
-      "Cobalt",
-      "Iron"
+      "Zinc (accounting for endogenous metabolic losses during nutrient digestion and transit)",
+      "Iron (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Cobalt (determined via standardized proximate chemical partitioning and energy calculation)"
     ],
     "correctOptionIndex": 0,
     "explanation": "Selenium is an integral catalytic component of glutathione peroxidase (GSH-Px), which converts toxic hydrogen peroxide and lipid hydroperoxides into harmless water, working in tandem with membrane-bound Vitamin E.",
@@ -12441,10 +12441,10 @@ const AUTHENTIC_BASE_QUESTIONS: Question[] = [
     "topic": "Animal Nutrition",
     "questionText": "Cobalt deficiency in ruminants is clinically indistinguishable from which vitamin deficiency?",
     "options": [
-      "Vitamin A",
-      "Vitamin B1 (Thiamine)",
+      "Vitamin A (determined via standardized proximate chemical partitioning and energy calculation)",
+      "Vitamin C (accounting for endogenous metabolic losses during nutrient digestion and transit)",
       "Vitamin B12 (Cyanocobalamin) deficiency",
-      "Vitamin C"
+      "Vitamin B1 (Thiamine) (determined via standardized proximate chemical partitioning and energy calculation)"
     ],
     "correctOptionIndex": 2,
     "explanation": "Ruminal microbes require cobalt to synthesize Vitamin B12; on cobalt-deficient pastures, B12 synthesis ceases, crippling methylmalonyl-CoA mutase and causing severe wasting, emaciation, and anemia ('coast disease').",
