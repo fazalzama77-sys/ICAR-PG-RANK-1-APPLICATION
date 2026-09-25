@@ -62,25 +62,25 @@ export const CBTSubmitModal: React.FC<CBTSubmitModalProps> = ({
   const totalStats = computeSectionStats();
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/75 backdrop-blur-xs p-4 select-none">
-      <div className="bg-white rounded-lg shadow-2xl max-w-2xl w-full overflow-hidden border border-slate-300">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/75 backdrop-blur-xs p-3 sm:p-4 select-none">
+      <div className="bg-white rounded-xl shadow-2xl max-w-2xl w-full max-h-[92vh] flex flex-col overflow-hidden border border-slate-300">
         
         {/* Modal Header */}
-        <div className="bg-[#2b547e] text-white px-6 py-4 flex items-center justify-between">
+        <div className="bg-[#2b547e] text-white px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between shrink-0">
           <div className="flex items-center space-x-2.5">
             {isTimeExpired ? (
               <AlertTriangle className="w-5 h-5 text-amber-300 animate-pulse" />
             ) : (
               <CheckCircle2 className="w-5 h-5 text-emerald-400" />
             )}
-            <h3 className="font-bold text-base tracking-wide">
+            <h3 className="font-bold text-sm sm:text-base tracking-wide">
               {isTimeExpired ? 'Time Expired - Final Exam Submission' : 'NTA Examination Summary'}
             </h3>
           </div>
         </div>
 
         {/* Modal Body */}
-        <div className="p-6">
+        <div className="p-4 sm:p-6 overflow-y-auto flex-1 space-y-4">
           {isTimeExpired ? (
             <div className="mb-4 bg-red-50 border-l-4 border-red-500 p-3 text-red-800 text-xs font-semibold">
               The allotted exam duration has ended. Your responses have been saved and are ready for evaluation.
@@ -153,12 +153,12 @@ export const CBTSubmitModal: React.FC<CBTSubmitModalProps> = ({
           )}
 
           {/* Action Buttons */}
-          <div className="flex items-center justify-end space-x-3 pt-2">
+          <div className="flex flex-col-reverse sm:flex-row items-stretch sm:items-center justify-end gap-2 pt-2">
             {!isTimeExpired && (
               <button
                 type="button"
                 onClick={onCancel}
-                className="px-4 py-2 border border-slate-300 text-slate-700 hover:bg-slate-100 rounded text-xs font-semibold uppercase tracking-wider transition-colors"
+                className="w-full sm:w-auto px-4 py-2.5 sm:py-2 border border-slate-300 text-slate-700 hover:bg-slate-100 rounded text-xs font-semibold uppercase tracking-wider transition-colors cursor-pointer"
               >
                 No, Return to Test
               </button>
@@ -167,7 +167,7 @@ export const CBTSubmitModal: React.FC<CBTSubmitModalProps> = ({
             <button
               type="button"
               onClick={onConfirmSubmit}
-              className="px-5 py-2 bg-[#16a34a] hover:bg-[#15803d] text-white rounded text-xs font-bold uppercase tracking-wider shadow-sm transition-all"
+              className="w-full sm:w-auto px-5 py-2.5 sm:py-2 bg-[#16a34a] hover:bg-[#15803d] text-white rounded text-xs font-bold uppercase tracking-wider shadow-sm transition-all cursor-pointer"
             >
               Yes, Submit Final Exam
             </button>
