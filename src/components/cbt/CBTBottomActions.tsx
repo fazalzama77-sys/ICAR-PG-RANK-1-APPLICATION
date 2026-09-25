@@ -27,7 +27,7 @@ export const CBTBottomActions: React.FC<CBTBottomActionsProps> = ({
   onOpenPalette
 }) => {
   return (
-    <div className="bg-[#f8fafc] border-t border-slate-300 p-2 sm:p-3 sm:px-6 select-none shadow-xs pb-[max(0.6rem,env(safe-area-inset-bottom,0px))]">
+    <div className="bg-[#f8fafc] border-t border-slate-300 p-2 sm:p-3 sm:px-6 select-none shadow-xs pb-safe">
       {/* Mobile Layout (< lg) */}
       <div className="flex flex-col gap-2 lg:hidden">
         {/* Row 1: Secondary NTA Exam Actions */}

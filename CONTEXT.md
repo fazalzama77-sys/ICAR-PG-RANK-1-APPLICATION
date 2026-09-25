@@ -194,6 +194,21 @@ Replicates the NTA examination screen:
 - **Tablet/Medium Viewports (768px–1279px)**: Compact single-line labels (`Dashboard`, `Drill`, `Revision`, `CBT Mock`, `Q-Bank`, `Analytics`) preventing vertical clipping.
 - **Mobile Viewports (<768px)**: Fixed bottom navigation bar with thumb-accessible icons, safe-area padding, and touch-optimized buttons.
 
+### 6.5 Mobile UI, Notch & Punch-Hole Display Architecture
+- **Viewport Configuration**: Configured with `viewport-fit=cover` and disabled double-tap zoom delay (`width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover`).
+- **Top Safe-Area Clearance (`pt-safe`)**: Guaranteed minimum `2.25rem` (36px) clearance or `env(safe-area-inset-top)` on mobile, preventing notification panels, status bars, and front camera punch-holes from occluding headers.
+- **Bottom Gesture Bar Clearance (`pb-safe`)**: Guaranteed minimum `1.25rem` (20px) clearance or `env(safe-area-inset-bottom)` on mobile to protect action buttons from phone navigation bars and home indicator pills.
+- **CBT Exam Mobile Slide-Over Palette**:
+  - Replaces the 288px in-flow bottom palette with a slide-over off-canvas drawer on screens `< lg`.
+  - Question viewport expands to 100% available screen height, guaranteeing question statements and all four choices remain legible without horizontal or vertical clipping.
+  - Quick-access `Palette (Q/Total)` button in header and bottom bar opens the 120-question grid. Selecting any question jumps immediately to it and automatically dismisses the drawer.
+- **Instant Rapid Drill Mobile Ergonomics**:
+  - Sticky bottom action bar (`sticky bottom-0`) ensures `Submit Answer` and `Next Question` remain permanently visible and thumb-accessible without requiring page scrolling.
+  - Option tap targets are calibrated to `min-h-[50px]` with touch-manipulation optimizations.
+- **2-Tier Mobile CBT Action Bar**:
+  - Tier 1 (Compact Tools): `Save & Mark` | `Mark & Next` | `Clear`
+  - Tier 2 (Primary Navigation): `Previous` | `✓ Save & Next` (Large primary thumb target) | `Next` | `Palette Grid`
+
 ---
 
 ## 7. How to Run the Platform
