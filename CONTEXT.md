@@ -10,244 +10,148 @@ This platform is a specialized, 100% offline-capable **Computer-Based Test (CBT)
 ### Why Prepare from 2nd Year?
 1. **Eliminate 5th-Year Clinical Internship Burnout**: Final-year students are overwhelmed by 24/7 rotating clinical duties, night emergencies, polyclinic ambulatory camps, and post-mortem rosters. Building a master question bank during 2nd year prevents final-year cramming.
 2. **Consolidate 1st-Year Foundations**: Anatomy, Physiology, Biochemistry, and LPM form the fundamental biological framework for all clinical diagnostics and surgical decisions.
-3. **Master Paraclinical High-Yield Subjects**: 2nd-year subjects (*Veterinary Pathology, Microbiology, Parasitology, AGB, and Animal Nutrition*) carry the highest frequency of direct diagnostic, pathognomonic, and therapeutic questions in the ICAR PG exam.
+3. **Master Paraclinical High-Yield Subjects Unit-by-Unit**: 2nd-year subjects (*Veterinary Pathology, Microbiology, Parasitology, AGB, and Animal Nutrition*) carry the highest frequency of direct diagnostic, pathognomonic, and therapeutic questions in the ICAR PG exam. Every subject is structured into **6 progressive Syllabus Units / Chapters (54 total units)** so a scholar at the start of 2nd year can immediately practice foundational units (*General Pathology*, *General Bacteriology*, *Mendelian Genetics*, *Proximate Analysis*) before advancing to systemic and clinical units.
 
 ---
 
 ## 2. Official Syllabus Architecture (Code 13 vs Code 14)
 
-In accordance with the official ICAR curriculum document (`Syllabus AIEEA (PG) MVSC.pdf`), the platform implements the strict division between the two examination groups:
+In accordance with the official ICAR curriculum document (`Syllabus AIEEA (PG) MVSC.pdf`), the platform implements the strict division between the two examination groups across **2,925 Verified Questions**:
 
 ```
                                   ICAR AIEEA PG (M.V.Sc.)
+                                     (2,925 Verified Qs)
                                              │
              ┌───────────────────────────────┴───────────────────────────────┐
              ▼                                                               ▼
    MAJOR SUBJECT GROUP:                                            MAJOR SUBJECT GROUP:
   CODE 13 — VETERINARY SCIENCE                                    CODE 14 — ANIMAL SCIENCES
-     (1,316 Verified Qs)                                              (409 Verified Qs)
+     (2,016 Verified Qs)                                              (909 Verified Qs)
              │                                                               │
     ├── 13.1 Veterinary Anatomy (320 Qs)                            ├── 14.3 Veterinary Physiology (120 Qs)*
-    ├── 13.6 Veterinary Pathology (442 Qs)                          ├── Unit II Veterinary Biochemistry (163 Qs)
-    ├── 13.7 Veterinary Microbiology (447 Qs)                       ├── 14.4 Livestock Production Mgmt (52 Qs)
-    └── 13.4 Veterinary Parasitology (107 Qs)                        ├── 14.1 Animal Genetics & Breeding (34 Qs)
-                                                                    └── 14.2 Animal Nutrition (40 Qs)
+    ├── 13.6 Veterinary Pathology (792 Qs)                          ├── Unit II Veterinary Biochemistry (163 Qs)
+    ├── 13.7 Veterinary Microbiology (797 Qs)                       ├── 14.4 Livestock Production Mgmt (52 Qs)
+    └── 13.4 Veterinary Parasitology (107 Qs)                       ├── 14.1 Animal Genetics & Breeding (284 Qs)
+                                                                    └── 14.2 Animal Nutrition (290 Qs)
 ```
 *\*Note: Veterinary Physiology is classified under Major Subject Group Code 14 (Animal Sciences) per official ICAR guidelines.*
 
 ---
 
-## 3. Question Bank Composition (1,725 Master Questions)
+## 3. Question Bank Composition (2,925 Master Questions & 54 Syllabus Units)
 
-The master repository contains **1,725 verified, textbook-grounded questions** across all key disciplines:
+The master repository contains **2,925 verified, textbook-grounded questions** across all 9 disciplines and **54 Canonical Syllabus Units / Chapters**:
 
-| Domain | Subject Code | Subject Name | Syllabus Unit | Total Qs | Authentic PYQs |
+| Domain | Subject Code | Subject Name | Syllabus Unit | Total Qs | Canonical Units |
 | :--- | :---: | :--- | :---: | :---: | :---: |
-| **Veterinary Science (Code 13)** | **`van`** | Veterinary Anatomy | 13.1 | **320** | **189** |
-| | **`vpp`** | Veterinary Pathology | 13.6 | **442** | **373** |
-| | **`vmc`** | Veterinary Microbiology | 13.7 | **447** | **377** |
-| | **`vpa`** | Veterinary Parasitology | 13.4 | **107** | **60** |
-| *Subtotal Code 13* | | | | **1,316** | **999** |
-| **Animal Science (Code 14)** | **`vpy`** | Veterinary Physiology | 14.3 | **120** | **0** |
-| | **`vbc`** | Veterinary Biochemistry | Unit II | **163** | **100** |
-| | **`lpm`** | Livestock Production Management | 14.4 | **52** | **0** |
-| | **`ann`** | Animal Nutrition | 14.2 | **40** | **0** |
-| | **`agb`** | Animal Genetics & Breeding | 14.1 | **34** | **0** |
-| *Subtotal Code 14* | | | | **409** | **100** |
-| **Grand Total** | | **All Subjects Combined** | | **1,725** | **1,099 (63.7%)** |
+| **Veterinary Science (Code 13)** | **`van`** | Veterinary Anatomy | 13.1 | **320** | 6 Units |
+| | **`vpp`** | Veterinary Pathology | 13.6 | **792** | 6 Units |
+| | **`vmc`** | Veterinary Microbiology | 13.7 | **797** | 6 Units |
+| | **`vpa`** | Veterinary Parasitology | 13.4 | **107** | 6 Units |
+| *Subtotal Code 13* | | | | **2,016** | **24 Units** |
+| **Animal Science (Code 14)** | **`vpy`** | Veterinary Physiology | 14.3 | **120** | 6 Units |
+| | **`vbc`** | Veterinary Biochemistry | Unit II | **163** | 6 Units |
+| | **`lpm`** | Livestock Production Management | 14.4 | **52** | 6 Units |
+| | **`ann`** | Animal Nutrition | 14.2 | **290** | 6 Units |
+| | **`agb`** | Animal Genetics & Breeding | 14.1 | **284** | 6 Units |
+| *Subtotal Code 14* | | | | **909** | **30 Units** |
+| **Grand Total** | | **All Subjects Combined** | | **2,925** | **54 Units** |
 
 ---
 
-## 4. Subject-Wise Detailed Modules
+## 4. Subject-Wise Canonical Syllabus Units / Chapters (54 Subsections)
 
-### 4.1 Veterinary Pathology (`vpp` — 442 Qs)
-- **Module 1: General Pathology (80 Qs)**: Cell injury, cellular adaptations, amyloidosis (apple-green birefringence under Congo red), Zenker's degeneration, necrosis types (coagulative, caseous, liquefactive, fat necrosis, gangrene), thrombosis (Lines of Zahn), embolism, infarction, inflammation mediators, giant cells (Langhans, Touton, Foreign body).
-- **Module 2: Inflammation & Infectious Pathology (50 Qs)**: Pathognomonic lesions (Negri bodies in Ammon's horn, Anthrax splenomegaly, Blackleg rancid butter odor, Johne's cerebriform corrugations, CBPP marbled lung, Hog Cholera button ulcers & turkey-egg kidneys, FMD tiger heart).
-- **Module 3: Avian Pathology (50 Qs)**: Marek's disease (sciatic nerve enlargement, T-cell lymphoma), Infectious Bursal Disease / Gumboro (bursal edema & hemorrhage), Newcastle Disease (proventricular petechiae), Visceral Gout (tophi on visceral serosa), Avian Pox (Bollinger bodies).
-- **Module 4: Systemic Pathology (50 Qs)**: Cardiovascular (hardware disease, vegetative endocarditis), Respiratory (enzootic pneumonia, aspiration pneumonia), Gastrointestinal (nutmeg liver, displaced abomasum), Urinary (pyelonephritis, renal calculi), Genital pathology (brucellosis placentitis).
-- **Module 5: Veterinary Oncology (40 Qs)**: Canine Transmissible Venereal Tumor / CTVT (59 chromosomes), Mast cell tumors (Giemsa metachromasia), Osteosarcoma (away from the elbow, towards the knee), Bovine Enzootic Leukosis, histiocytoma, melanoma.
-- **Module 6: Clinical Pathology & Necropsy (30 Qs)**: Routine & special fixatives (10% NBF, Bouin's, Zenker's), special stains (Masson's trichrome, PAS, Toluidine blue, Perl's Prussian blue), peritoneal & pleural transudates vs exudates, post-mortem changes (rigor mortis, livor mortis, pseudomelanosis).
+### 4.1 Veterinary Pathology (`vpp` — 792 Qs)
+- **Unit 1: General Pathology: Cell Injury, Degenerations & Necrosis (139 Qs)**: Reversible vs irreversible cell injury, MPTP, apoptosis (intrinsic/extrinsic caspases), necroptosis (RIPK1/RIPK3/MLKL), pyroptosis (Gasdermin D), ferroptosis (GPX4), cellular adaptations, cloudy swelling, hydropic & fatty change (Oil Red O, Sudan Black B), hyaline degeneration (Zenker's, Russell bodies, Mallory bodies), amyloidosis (Congo red apple-green birefringence, sago vs lardaceous spleen), coagulative/liquefactive/caseous/fat/fibrinoid necrosis, gangrene, dystrophic vs metastatic calcification (Von Kossa, Alizarin red S), endogenous & exogenous pigments.
+- **Unit 2: Inflammation, Tissue Repair & Hemodynamic Disorders (128 Qs)**: Cardinal signs, Lewis triple response, selectins, integrins, ICAM-1/VCAM-1, PECAM-1 (CD31), chemotaxis (C5a, LTB4, IL-8), arachidonic acid cascade, cardinal exudates (bread-and-butter pericarditis), granulomatous inflammation (Langhans, Touton, Foreign body giant cells), wound healing & growth factors, hyperemia vs passive congestion (nutmeg liver, heart failure cells), edema, Virchow's triad, Lines of Zahn, embolism, infarction, shock & DIC.
+- **Unit 3: Systemic Pathology (Digestive, Respiratory, Cardiovascular, Urinary, Nervous & Reproductive) (161 Qs)**: Hardware disease, abomasal ulcers, hepatic cirrhosis, lobar vs bronchopneumonia vs interstitial pneumonia, vegetative endocarditis, tiger heart, Mulberry heart disease, glomerulonephritis, white-spotted kidney, oxalate/hemoglobinuric nephrosis, urolithiasis, polioencephalomalacia, nigropallidal & leukoencephalomalacia, status spongiosus, pyometra, mastitis, rubber jaw, laminitis.
+- **Unit 4: Pathology of Infectious Diseases (Bacterial, Viral, Fungal & Parasitic) (112 Qs)**: Pathognomonic gross & microscopic lesions and inclusion bodies (Negri, Bollinger, Borrel, Cowdry Type A & B, Lentz, Joest-Degen, Torres), Johne's disease, Tuberculosis (pearl disease), Blackleg, Braxy, Pulpy kidney (focal symmetrical encephalomalacia), Actinomycosis (Splendore-Hoeppli), Actinobacillosis, Glanders, Anthrax, Brucellosis, Listeriosis, Salmonellosis (button ulcers), Swine Erysipelas (diamond skin), FMD, Rinderpest (zebra markings), PPR, Bluetongue (pulmonary artery hemorrhage), MCF, IBR, BVD-MD, Classical Swine Fever (turkey-egg kidney), Canine Distemper, Parvovirus, Rabies, Prions.
+- **Unit 5: Veterinary Oncology & Neoplasia (104 Qs)**: Oncogenes (*ras, myc, kit*), tumor suppressor genes (*p53, Rb, PTEN*), Warburg effect, IHC markers (Cytokeratin, Vimentin, Desmin, S-100, CD3, CD79a, CD31), CTVT (Sticker's sarcoma, 59 chromosomes, LINE-1 insertion), Equine sarcoid (BPV-1/2), Mast cell tumor (Patnaik & Kiupel grading, Darier's sign), Melanoma, Horn cancer, Eye cancer, Hemangiosarcoma, Osteosarcoma (Codman's triangle, sunburst pattern), Sertoli cell tumor (feminization), Paraneoplastic syndromes (PTHrP hypercalcemia, Marie's disease).
+- **Unit 6: Avian, Clinical & Necropsy Pathology (148 Qs)**: Newcastle disease, Avian Influenza, Marek's disease vs Avian Leukosis (MATSA, nerve enlargement, bursa involvement, T-cell vs B-cell), Infectious Bursal Disease (Gumboro), ILT, Infectious Bronchitis, Fowl Pox, Inclusion Body Hepatitis / Angara disease, Pullorum & Fowl Typhoid (bronze liver), Necrotic enteritis, Histomoniasis, Visceral vs Articular Gout (De Galantha stain), Clinical Hematology (anticoagulants, ESR, MCV/MCHC anemia types, Schilling index, transudate vs exudate), Histopathology fixatives & special stains.
 
-### 4.2 Veterinary Microbiology (`vmc` — 447 Qs)
-- **Module 1: Systematic Bacteriology (90 Qs)**: *Bacillus anthracis* (McFadyean reaction, poly-D-glutamic acid capsule on pXO2, Ascoli test), *Clostridium* (*C. perfringens* stormy fermentation, Nagler reaction; *C. tetani* drumstick spores; *C. botulinum* flaccid paralysis), *Brucella* (RBPT, Milk Ring Test, erythritol tropism), *Listeria* (tumbling motility, CAMP test), *Mycobacterium* (acid-fastness, tuberculin test), *Pasteurella multocida* (bipolar staining).
-- **Module 2: Systematic Virology (80 Qs)**: Foot-and-Mouth Disease (Aphthovirus, 7 serotypes, acid lability, RGD motif), Rabies (Lyssavirus, Negri bodies, direct FAT, Seller's stain), PPR (Morbillivirus, Sungri 96 vaccine), Classical Swine Fever (Pestivirus), African Swine Fever (Asfarviridae), Bluetongue (Orbivirus, *Culicoides* vector), Equine Infectious Anemia (Coggins AGID test).
-- **Module 3: General Bacteriology & Genetics (45 Qs)**: Bacterial cell wall (peptidoglycan, teichoic acids, LPS/endotoxin lipid A), growth curve phases, sterilization (autoclave 121°C @ 15 psi for 15 min; hot air oven 160°C for 2 hr), bacterial genetics (transformation, transduction, conjugation, plasmids).
-- **Module 4: Veterinary Immunology & Serology (45 Qs)**: Immunoglobulin classes (colostral IgG1 transcytosis via FcRn, secretory IgA with secretory component, pentameric IgM), complement pathways (classical vs alternative vs lectin, C5b-9 MAC), MHC Class I vs II, hypersensitivity reactions (Types I–IV), hybridoma technology (HAT medium).
-- **Module 5: General Virology & Cell Culture (25 Qs)**: Viral symmetry (helical, icosahedral, complex), Baltimore classification, primary vs continuous cell lines, viral cytopathic effects (syncytia, inclusion bodies, plaque assay).
-- **Module 6: Veterinary Mycology (15 Qs)**: Dermatophytes (*Microsporum canis* Wood's lamp, *Trichophyton verrucosum*), deep mycoses (*Aspergillus fumigatus* mycotic abortion, *Cryptococcus neoformans* India ink capsule), mycotoxins (Aflatoxin B1, Ochratoxin A, Zearalenone).
+### 4.2 Veterinary Microbiology (`vmc` — 797 Qs)
+- **Unit 1: General Bacteriology & Bacterial Genetics (119 Qs)**: Peptidoglycan cross-linking, teichoic acids, LPS (Lipid A, O-antigen), capsule, flagella types, endospores (calcium dipicolinate), differential stains (Gram, Ziehl-Neelsen, Albert's, MacFadyean, Ryu's, Levaditi), sterilization & disinfection, bacterial growth kinetics, transformation, conjugation (F+/F-/Hfr), generalized vs specialized transduction, CRISPR-Cas, Ames test, antimicrobial resistance genes (*mecA, vanA, NDM-1*).
+- **Unit 2: Systematic Bacteriology (Gram +ve, Gram -ve, Acid-Fast, Spirochetes & Mycoplasma) (193 Qs)**: *Staphylococcus*, *Streptococcus* (CAMP test), *Bacillus anthracis* (pXO1/pXO2, Ascoli test, string of pearls, PLET medium), *Listeria* (tumbling motility at 22°C, Anton's test), *Erysipelothrix* (bottle-brush growth), *Corynebacterium pseudotuberculosis* (reverse CAMP), *Rhodococcus equi*, *Actinomyces* vs *Actinobacillus*, *Dermatophilus* (railroad track zoospores), *Clostridium* species & toxins (Nagler's reaction), *Mycobacterium* (Stonebrink's, Mycobactin J), Enterobacteriaceae, *Pasteurella multocida* (Carter/Heddleston types), *Brucella* (CO2, H2S, dye sensitivity, erythritol), *Burkholderia*, *Campylobacter*, *Leptospira* (EMJH medium, Dinger's ring), *Mycoplasma* (fried-egg colonies, Diene's stain), *Rickettsia, Anaplasma, Coxiella, Chlamydia*.
+- **Unit 3: Veterinary Mycology & Mycotoxicoses (73 Qs)**: Fungal cell wall & antifungals, SDA & LPCB, Dermatophytes (*Microsporum canis*, Wood's lamp, *Trichophyton verrucosum*), *Malassezia*, *Candida albicans* (Reynolds-Braude germ tube), *Cryptococcus neoformans* (India ink, Niger seed agar), Dimorphic fungi (*Sporothrix, Histoplasma, Blastomyces, Coccidioides*), *Aspergillus fumigatus* (brooder pneumonia), *Rhinosporidium*, Mycotoxins (Aflatoxin B1/M1, Ochratoxin A, Zearalenone, T-2 toxin, Fumonisin B1, Sporidesmin, Slaframine, Ergot).
+- **Unit 4: General & Systematic Virology (DNA & RNA Animal/Poultry Viruses & Prions) (208 Qs)**: Baltimore classes I–VII, viral symmetry, one-step growth curve, embryonated egg inoculation routes, cell culture lines (BHK-21, Vero, MDCK, MDBK, PK-15), Hemagglutination, DNA viruses (*Poxviridae, Asfarviridae, Herpesviridae, Adenoviridae, Papillomaviridae, Parvoviridae, Circoviridae*), RNA viruses (*Picornaviridae/FMDV 3ABC DIVA, Caliciviridae, Togaviridae, Flaviviridae/CSFV/BVDV, Coronaviridae, Arteriviridae, Rhabdoviridae, Paramyxoviridae/NDV/PPRV, Orthomyxoviridae, Bunyaviridae, Reoviridae/Bluetongue, Birnaviridae/IBDV, Retroviridae/EIAV*), Prions.
+- **Unit 5: Veterinary Immunology & Vaccinology (142 Qs)**: Primary vs secondary lymphoid organs (Bursa of Fabricius, thymus, Peyer's patches), PRRs & TLRs (TLR4 LPS, TLR3 dsRNA, TLR5 flagellin, TLR9 CpG), cytokines, Th1/Th2/Th17/Treg transcription factors (T-bet, GATA-3, RORγt, FoxP3), MHC Class I vs II processing, Immunoglobulin classes (IgG, IgM, sIgA, IgE, IgY, camelid HcAb), placentation & colostral passive transfer (FcRn), Complement pathways, Hypersensitivity Types I–IV, Vaccines & adjuvants.
+- **Unit 6: Diagnostic Serology & Molecular Microbiology (62 Qs)**: Prozone vs postzone, AGID (Coggins), Coombs test, RBPT (pH 3.65), Milk Ring Test, CFT, MAT for *Leptospira*, ELISA variants (Indirect, Sandwich, Competitive/DIVA), FAT, Western/Southern/Northern blotting, PCR variants (RT-PCR, qPCR TaqMan/SYBR, Multiplex, Nested, LAMP), Sanger vs NGS, Biosafety levels (BSL 1–4) & HEPA filtration.
 
-### 4.3 Veterinary Anatomy (`van` — 320 Qs)
-- **Module 1: Comparative Osteology, Arthrology & Stay Apparatus (40 Qs)**: Heterotopic bones (*Os cordis* in ox, *Os penis* in dog, *Os rostri* in pig, *Os phrenic* in camel), comparative skulls (facial tuberosity in ox, facial crest in horse), equine stay apparatus (check ligaments, patellar locking mechanism).
-- **Module 2: Comparative Splanchnology (40 Qs)**: Ruminant stomach anatomy (rumen pillars, honeycomb reticulum, laminae omasum, glandular abomasum), kidney lobation (bovine externally multipyramidal, equine heart-shaped right kidney, canine unipyramidal), dental formulas, lung lobes, equine guttural pouch.
-- **Module 3: Angiology & Neurology (30 Qs)**: Heart circulation (left coronary predominance in ox/dog; right predominance in horse/pig), moderator band, rete mirabile epidurale, cranial nerves I–XII (functional deficits and cranial foramina), brachial plexus (radial nerve paralysis), epidural anesthesia landmarks (sacrococcygeal space in ox).
-- **Module 4: Histology & Veterinary Embryology (25 Qs)**: Microscopic anatomy (Haversian canals, Volkmann's canals, muscle triads, intercalated discs, Nissl substance), organ histology (Space of Disse, Ito cells, Hassall's corpuscles, macula densa, Type II pneumocytes), embryology (somite sclerotome/myotome/dermatome, neural crest derivatives, fetal circulation shunts and adult remnants).
-- **Module 5: Avian Anatomy (15 Qs)**: Skeletal adaptations (notarium T2–T5, synsacrum, pygostyle, triosseal canal, furcula, sternal keel), syrinx vocal organ, 9 air sacs, non-collapsing parabronchi, gizzard koilin cuticle, proventricular oxynticopeptic cells, left oviduct segments (infundibulum, magnum, isthmus, uterus, vagina).
+### 4.3 Animal Nutrition (`ann` — 290 Qs)
+- **Unit 1: Principles of Nutrition, Proximate Analysis & Nutrient Metabolism (54 Qs)**: Plant vs animal composition, metabolic water yield (107g fat, 55.6g starch, 41.3g protein), Weende Proximate Analysis (Kjeldahl N×6.25/6.38, Soxhlet EE, Crude Fiber, Ash, NFE), Van Soest Detergent System (NDF, ADF, ADL), rumen biohydrogenation & CLA.
+- **Unit 2: Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP) (50 Qs)**: Digestibility trials & indicators ($\text{Cr}_2\text{O}_3$, AIA, lignin), Tilley & Terry two-stage in vitro digestibility, Orskov & McDonald nylon bag kinetics, TDN formula, Gross/Digestible/Metabolizable/Net Energy partitioning, Starch Equivalent, RQ, Biological Value (BV), NPU, PER, RDP vs RUP & Metabolizable Protein (MP), UFP.
+- **Unit 3: Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors (62 Qs)**: Silage fermentation (pH 3.8–4.2, Flieg index, *L. plantarum*, haylage), hay curing, 4% urea ammoniation of straw, UMMB, bypass protein/fat processing, Anti-Nutritional Factors (HCN/Dhurrin, Nitrate/Methemoglobinemia, Oxalates, Gossypol + $\text{FeSO}_4$, Mimosine/3,4-DHP, Glucosinolates, Trypsin inhibitors, Tannins, Saponins, BOAA, Aflatoxin limits).
+- **Unit 4: Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases (51 Qs)**: Ca:P ratio, Milk fever, Post-parturient hemoglobinuria, Grass tetany, DCAD anionic salts, N:S ratio (10:1), Enzootic ataxia & Peat scours (Cu-Mo-S thiomolybdates), Cobalt/Vitamin B12 (Coast disease), Zinc parakeratosis, Manganese perosis, Selenium (White muscle disease, Mulberry heart, Alkali disease), Iodine goiter, Piglet anemia, Vitamins A, D, E (Crazy chick disease), K (dicoumarol), B1 (star-gazing, Chastek paralysis), B2 (curled-toe paralysis), B3 (black tongue), B5 (goose-stepping), Biotin (FLKS), Ionophores (Monensin).
+- **Unit 5: Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat) (38 Qs)**: Rumen microbiology, VFA stoichiometry (Acetate:Propionate:Butyrate), NPN/Urea feeding rules & acetic acid antidote, ICAR 2013 feeding standards, Transition cow nutrition, Challenge feeding, TMR, Calf starter (20–22% CP, butyrate papillae development), Flushing, Ketosis/Pregnancy toxemia.
+- **Unit 6: Applied Monogastric, Poultry & Pet/Equine Nutrition (35 Qs)**: Poultry BIS/ICAR standards, limiting amino acids (Methionine 1st in poultry, Lysine 1st in swine), linoleic acid & layer calcium requirements, Ideal Protein Concept, Feline obligate carnivore idiosyncrasies (Taurine, Arginine, Arachidonic acid, preformed Vitamin A, Niacin), Equine hindgut nutrition, Pearson's Square calculations.
 
-### 4.4 Veterinary Parasitology (`vpa` — 107 Qs)
-- **Module 1: Veterinary Helminthology (30 Qs)**:
-  - *Trematodes*: *Fasciola hepatica* & *gigantica* (intermediate snails *Lymnaea truncatula*, *L. auricularia*, metacercariae, acute traumatic hepatitis vs chronic pipe-stem liver), immature amphistomiasis (*Cotylophoron*, *Indoplanorbis exustus*, duodenal plug feeding, bottle jaw), *Dicrocoelium dendriticum* (tetanic ant jaws via *Formica fusca*), *Schistosoma nasale* (snoring disease, boomerang egg), *Schistosoma spindale* (spindle egg).
-  - *Cestodes*: *Taenia solium* (measly pork), *Taenia saginata* (measly beef), *Taenia multiceps* (Coenurus cerebralis / gid in sheep), *Taenia hydatigena* (Cysticercus tenuicollis), *Echinococcus granulosus* (hydatid cyst, canid definitive host), *Moniezia* (pyriform apparatus, oribatid mites), *Anoplocephala perfoliata* (ileocecal colic), *Dipylidium caninum* (flea vector), *Davainea proglottina* (hemorrhagic enteritis).
-  - *Nematodes*: *Haemonchus contortus* (barber's pole worm, lancet blood-sucking, anemia, bottle jaw), *Ostertagia ostertagi* (Type II hypobiosis emergence, cobblestone abomasum), *Strongylus vulgaris* (cranial mesenteric arteritis & colic), *Ascaris suum* (milk spot liver), *Toxocara canis* (transplacental transmission, larva migrans), *Ancylostoma caninum* (transmammary anemia), *Habronema* (summer sores), *Spirocerca lupi* (esophageal sarcoma, aortic aneurysms), *Dictyocaulus viviparus* (*Pilobolus* fungal dispersal).
-- **Module 2: Protozoology, Entomology & Acarology (30 Qs)**:
-  - *Hemoprotozoa*: *Babesia bigemina* vs *Babesia bovis* (acute vs obtuse angle, cerebral babesiosis, *Rhipicephalus microplus* vector), *Theileria annulata* (Koch's blue bodies, *Hyalomma anatolicum* vector), *Trypanosoma evansi* (Surra, *Tabanus* mechanical vector), *Trypanosoma equiperdum* (Dourine, silver dollar plaques), *Anaplasma marginale* (anemia without hemoglobinuria), *Leishmania* (LD bodies).
-  - *Enteric & Tissue Protozoa*: *Eimeria tenella* (cecal cores), *Eimeria* 4x2 vs *Isospora* 2x4 sporulation, *Eimeria stiedae* (rabbit hepatic coccidiosis), *Cryptosporidium parvum* (extracytoplasmic, acid-fast), *Toxoplasma gondii* (cat definitive host, frosted cotyledons), *Neospora caninum* (bovine abortion, dog host), *Histomonas meleagridis* (turkey blackhead via *Heterakis*), *Tritrichomonas foetus*, *Sarcocystis neurona* (EPM).
-  - *Entomology & Acarology*: *Argas persicus* (soft tick, fowl spirochaetosis), *Sarcoptes scabiei* (burrowing, unjointed pedicels), *Demodex canis* (cigar-shaped follicle mite), *Dermanyssus gallinae* (nocturnal red mite), *Knemidocoptes mutans* (scaly leg), *Oestrus ovis* (nasal bot, false gid), *Gasterophilus intestinalis* (gastric bot), *Hypoderma bovis* (spinal canal migration), *Culicoides* (Bluetongue vector), Sucking vs Biting lice.
+### 4.4 Animal Genetics & Breeding (`agb` — 284 Qs)
+- **Unit 1: Mendelian, Chromosomal & Cytogenetics (57 Qs)**: Mendelian ratios, epistasis ratios (9:7, 9:3:4, 12:3:1, 15:1, 13:3), codominance (Shorthorn roan), lethal alleles (2:1), multiple alleles ($n(n+1)/2$), linkage & centiMorgans, ZZ-ZW avian sex determination, sex-linked (barring) vs sex-influenced (horns in sheep) vs sex-limited traits, diploid chromosome numbers ($2n$) across all domestic species (Cattle 60, River buffalo 50, Swamp buffalo 48, Sheep 54, Goat 60, Horse 64, Donkey 62, Pig 38, Dog 78, Cat 38, Camel 74, Chicken 78), Robertsonian 1/29 translocation, Freemartinism.
+- **Unit 2: Molecular Genetics, Genomics & Markers (42 Qs)**: DNA replication/transcription/translation, operons, molecular markers (RFLP, RAPD, AFLP, Microsatellites/SSR, SNPs, GWAS), MAS & Genomic Selection (GEBV, GBLUP, ssGBLUP), major livestock genes (*FecB* Booroola in Garole sheep, *Callipyge*, *MSTN* double muscling, *RYR1* Halothane gene, *DGAT1*, *CSN3* kappa-casein, BLAD, CVM, DUMPS, Spider Lamb, HYPP, SCID).
+- **Unit 3: Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency) (52 Qs)**: HWE law & assumptions, numerical problems on gene ($p, q$) and genotype ($p^2, 2pq, q^2$) frequencies, carrier ratio $2q/(1+q)$, hidden recessive proportion $q/(1+q)$, sex-linked equilibrium, mutation/migration/selection against recessive lethals ($q_n = q_0 / (1 + nq_0)$), overdominance balancing selection, random drift & Effective Population Size ($N_e = 4N_m N_f / (N_m + N_f)$).
+- **Unit 4: Quantitative Genetics (Variance, Heritability, Repeatability & Correlations) (53 Qs)**: Partitioning variance ($V_P = V_A + V_D + V_I + V_{Ep} + V_{Et}$), Breeding Value ($BV = 2 \times \text{TA}$), narrow-sense vs broad-sense heritability ($h^2 = V_A / V_P$), paternal half-sib correlation ($h^2 = 4t$), offspring-parent regression ($h^2 = 2b$), heritability magnitudes of traits, Repeatability ($R$) & MPPA calculations, genetic correlation & pleiotropy.
+- **Unit 5: Selection Methods, Sire Evaluation & Breeding Values (BLUP) (43 Qs)**: Response to selection ($R = i \cdot \sigma_P \cdot h^2 = h^2 S$), generation interval & annual genetic gain ($\Delta G / L$), correlated response, Individual/Pedigree/Family/Within-family/Progeny testing/Sib selection, Tandem vs Independent Culling vs Selection Index (Hazel & Lush), Sire evaluation (Contemporary Comparison, Sundaresan index, Henderson's BLUP Mixed Model Equations with $A^{-1}$, Sire vs Animal Model), ONBS & MOET.
+- **Unit 6: Mating Systems, Heterosis, Breeds & Conservation (37 Qs)**: Wright's inbreeding coefficient ($F_X$) for full-sib (25%), half-sib (12.5%), parent-offspring (25%), first-cousin (6.25%), rate of inbreeding ($\Delta F = 1/2N_e$), inbreeding depression, grading up (50% → 75% → 87.5% → 93.75%), rotational crossbreeding, heterosis calculation & retention ($1 - 1/n$), synthetic Indian breeds (Karan Swiss, Karan Fries, Sunandini, Frieswal, Vrindavani, Avikalin, Avivastra, Bharat Merino, Hissardale), NBAGR registered breeds & conservation.
 
-### 4.5 Veterinary Biochemistry (`vbc` — 163 Qs)
-- Ruminant gluconeogenesis (propionate primary VFA precursor, methylmalonyl-CoA mutase requiring Vitamin B12, propionyl-CoA carboxylase requiring Biotin).
-- Ketogenesis (mitochondrial HMG-CoA synthase rate-limiting, Rothera's test, lack of thiophorase in liver).
-- Enzymes & Clinical Biomarkers (ALT dog/cat liver-specific, SDH large animal acute liver necrosis, GGT cholestasis, CK-MM rhabdomyolysis, Cardiac Troponin I).
-- Urea cycle (CPS-I rate-limiting requiring NAG, 4 high-energy phosphates, transamination bypass by lysine/threonine).
+### 4.5 Veterinary Anatomy (`van` — 320 Qs), Physiology (`vpy` — 120 Qs), Biochemistry (`vbc` — 163 Qs), Parasitology (`vpa` — 107 Qs) & LPM (`lpm` — 52 Qs)
+Each of these 5 subjects is likewise organized into **6 canonical Syllabus Units / Chapters** defined in `src/data/subjects.ts` and `scripts/canonical_topics.py`.
 
 ---
 
-## 5. Quadruple Deduplication & Quality Assurance Engine
+## 5. Chapter / Unit-Wise Practice & CBT Architecture
 
-Every question added to the platform undergoes a 4-pass verification suite (`scripts/verify_deduplication.py`):
-
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                       QUADRUPLE DEDUPLICATION PROTOCOL                      │
-├─────────────────────────────────────────────────────────────────────────────┤
-│  Pass 1:  Exact String Collision Check                                      │
-│           Verifies zero identical questionText strings across the bank.     │
-│                                                                             │
-│  Pass 1b: Intra-Batch Duplicate Check                                       │
-│           Verifies zero duplicates within the newly generated batch.        │
-│                                                                             │
-│  Pass 2:  Normalized Canonical Key Matching                                 │
-│           Punctuation-free, stopword-stripped stem matching.                │
-│                                                                             │
-│  Pass 3:  Semantic Token Overlap Analysis                                   │
-│           Jaccard token similarity > 0.85 evaluation.                       │
-│                                                                             │
-│  Pass 4:  Structural & Pedagogical Verification                             │
-│           Exactly 4 options, valid answer index [0-3], explanation > 20 ch. │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-### Option Index Balancing (Zero Guessing Bias)
-Across all 1,725 questions, the correct option index is deterministically balanced to exactly 25% per option across all subjects:
-- **Option A (0)**: 429 questions (24.87%)
-- **Option B (1)**: 431 questions (24.99%)
-- **Option C (2)**: 433 questions (25.10%)
-- **Option D (3)**: 432 questions (25.04%)
-
-### 5.1 Deep 3-Pass Accuracy Audit & Distractor Integrity Suite
-To guarantee uncompromising academic accuracy for AIR 1 aspirants, the entire question bank underwent a rigorous two-stage read-only audit followed by a triple-verification fix pipeline:
-
-1. **Complete Domain-Wide Veterinary Science Audit (1,725 Questions)**:
-   - Evaluated against standard veterinary reference authorities (*Sisson & Grossman's Anatomy of the Domestic Animals*, *Dukes' Physiology*, *Lehninger & Harper's Biochemistry*, *Robbins & Vegad's Veterinary Pathology*, *Quinn's Clinical Veterinary Microbiology*, *Soulsby's Parasitology*, *Banerjee's LPM*, *Maynard's Nutrition*, and *Falconer's Genetics*).
-   - Confirmed 100% factual accuracy of question stems, marked keys, and clinical explanations.
-   - Verified that all 15 negative-polarity questions (*"NOT"*, *"EXCEPT"*, *"FALSE"*) correctly point to the exceptional choice with zero inverted keys.
-   - Verified zero relative letter choices (e.g., *"Both A and B"* or *"All of the above"*), preventing option-shuffling breakage.
-
-2. **Resolution of Distractor Collisions in Veterinary Anatomy Expanded (`van_exp`)**:
-   - Identified 36 questions in `van_exp_001`–`150` where an earlier distractor equalization script had cloned the correct answer into one of the distractor slots.
-   - Replaced all duplicate/near-duplicate distractors with authentic, high-yield, length-balanced anatomical differentials (*e.g., specific muscles, foramina, nerves, embryonic ducts, and avian structures*).
-   - Synchronized `scripts/overrides_van_87.json` to permanently safeguard against regression.
-
-3. **Triple Verification Suite (100% Pass)**:
-   - **Check 1 (Structural & Scientific Accuracy)**: Automated schema scanner verified 1,725/1,725 questions have exactly 4 options, valid correctOptionIndex, non-empty text, and substantive rationales (0 errors).
-   - **Check 2 (Distractor Distinctness & Collision Isolation)**: Pairwise and token-similarity scanner verified that every question in the bank has 4 completely unique, non-colliding options (0 duplicates).
-   - **Check 3 (Production Build & Dataset Equivalence)**: `npm run build` (`tsc -b && vite build`) passed with zero errors, verifying 1:1 parity between JSON packs and compiled TypeScript bundles (`allQuestions.ts` and `pyqQuestions.ts`).
-
-### Option Equalization & Length-Bias Elimination Policy
-To prevent students from guessing answers through artificial visual cues (verbosity bias, where the correct answer is conspicuously longer than short distractors):
-- **Authentic PYQ Preservation Rule**:
-  - **Core Past Year Questions (350 Authentic PYQs: `pyq_van_*`, `pyq_vpp_*`, `pyq_vmc_*`, `pyq_vbc_001`–`100`)**: The exact original wording, phrasing, and distractors from official ICAR/NTA past exam papers are **100% preserved**. No synthetic alteration is made to real historical examination questions.
-- **Platform-Created & Expanded Questions (1,375 Questions)**:
-  - **Zero Giveaway Distractors**: Eliminated cases where a detailed, multi-clause correct answer was paired with brief 1-word distractors.
-  - **Tricky, Authentic Distractors**: Distractors were upgraded into plausible, high-yield veterinary clinical, pathological, and anatomical differentials matching the grammatical syntax, scientific depth, and character length of the correct option.
-  - **Zero Artificial Boilerplate**: Distractors use genuine subject concepts (e.g., specific diseases, anatomical structures, or bacterial toxins) instead of repetitive generic filler phrases.
-- **Zero Question & Correct-Answer Alteration**:
-  - All question statements (`questionText`) and correct answer scientific contents remain 100% untouched.
-- **Dynamic Client Cache Synchronization Engine**:
-  - To prevent browsers from serving stale, unmigrated question options from `localStorage`, `StorageService.getQuestions()` in `src/storage/db.ts` dynamically reconstructs the question catalog on every load from `ALL_HIGH_YIELD_QUESTIONS`, overwriting stale cached entries while preserving all user mock test history and Spaced Repetition (SRS) progress.
+To allow students at any stage of their B.V.Sc. & A.H. curriculum (including the very start of 2nd year) to practice a specific chapter or unit:
+1. **Subject Card Expandable Syllabus Units Drawer (`src/components/dashboard/Dashboard.tsx`)**:
+   - Every subject card on the Dashboard features a **Syllabus Units / Chapters (6)** toggle revealing all 6 units, their exact question counts, and 1-click **`⚡ Drill`** (Instant Active Learning) and **`CBT`** launch buttons.
+2. **Rapid Drill Chapter / Unit Selector (`src/components/drill/DrillTestLauncher.tsx`)**:
+   - **Step 2A**: Choose Subject Focus (`All Subjects` or any specific subject).
+   - **Step 2B**: Check one or more specific **Syllabus Units / Chapters (Subsections)** with live question pool counts.
+3. **CBT Mock Exam Unit Filter (`src/components/config/TestConfigModal.tsx`)**:
+   - Allows filtering custom CBT mock exams down to specific chapters/units across any selected subject(s).
+4. **Question Bank Chapter / Unit Filter (`src/components/questionBank/QuestionBankView.tsx`)**:
+   - Dedicated **Chapter / Unit (Subsection)** dropdown filter alongside Domain, Year, Subject, and Search.
 
 ---
 
-## 6. Official CBT Testing Engine & Interface
+## 6. Quadruple Deduplication, Option-Index Balance & Option-Length Parity Engine
 
-### 6.1 Authentic NTA CBT Exam Screen
-Replicates the NTA examination screen:
-- **Official 5-State Question Palette**: Not Visited (White), Not Answered (Red), Answered (Green), Marked for Review (Violet), Answered & Marked for Review (Violet + Green Dot, evaluated for marks).
-- **Timed CBT Mode**: 120 Questions, 120 Minutes, +4 for correct, -1 for wrong.
-- **Section Switcher**: Section A (Code 13 Veterinary Science) & Section B (Code 14 Animal Sciences).
-- **Exam Summary Modal**: Detailed review table prior to final submission.
-- **Mobile-Optimized Slide-Over Palette**: On mobile/tablet viewports (< 1024px), the question palette smoothly slides over from the right as a modal drawer with backdrop blur, auto-closing upon question selection to maximize reading area.
+Every question in the 2,925-question master bank undergoes a 4-pass verification suite (`scripts/audit_2925.py` and `scripts/option_parity_engine.py`):
 
-### 6.2 Rapid Daily Drill Launcher
-- **🎯 Daily 20-Q Standard**: 15 minutes, instant feedback.
-- **⚡ Lightning 10-Q Fire Drill**: 7 minutes, speed focus.
-- **🩺 Vet Science Blitz**: Dedicated Major Subject Group Code 13 practice (Anatomy, Pathology, Microbiology, Parasitology).
-- **🔬 Paraclinical Core Blitz**: Path, Micro, Parasitology focus.
-- **🐄 Animal Science Core Blitz**: LPM, AGB, Nutrition, Physiology focus (Major Subject Group Code 14).
-- **🛡️ Weak Areas Blitz**: Dynamically queries past errors and tests missed concepts.
+### 6.1 Option Index Balancing (Zero Letter-Guessing Bias)
+Across all **2,925 questions**, the correct option index is deterministically balanced to 25.0% per option across every subject:
+- **Option A (0)**: 731 questions (24.99%)
+- **Option B (1)**: 731 questions (24.99%)
+- **Option C (2)**: 732 questions (25.03%)
+- **Option D (3)**: 731 questions (24.99%)
 
-### 6.3 SuperMemo SM-2 Spaced Repetition (SRS)
-- Automated retention engine tracking ease factor, repetition count, and interval days.
-- Automatically queues incorrectly answered questions for flashcard review.
-
-### 6.4 Responsive Navigation Layout
-- **Desktop/Laptop Viewports (≥1280px)**: Full single-line tabs (`Dashboard`, `Rapid Drill`, `Spaced Repetition`, `CBT Mock`, `Question Bank`, `Analytics`).
-- **Tablet/Medium Viewports (768px–1279px)**: Compact single-line labels (`Dashboard`, `Drill`, `Revision`, `CBT Mock`, `Q-Bank`, `Analytics`) preventing vertical clipping.
-- **Mobile Viewports (<768px)**: Fixed bottom navigation bar with thumb-accessible icons, safe-area padding, and touch-optimized buttons.
-
-### 6.5 Mobile UI, Notch & Punch-Hole Display Architecture
-- **Viewport Configuration**: Configured with `viewport-fit=cover` and disabled double-tap zoom delay (`width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover`).
-- **Top Safe-Area Clearance (`pt-safe`)**: Guaranteed minimum `2.25rem` (36px) clearance or `env(safe-area-inset-top)` on mobile, preventing notification panels, status bars, and front camera punch-holes from occluding headers.
-- **Bottom Gesture Bar Clearance (`pb-safe`)**: Guaranteed minimum `1.25rem` (20px) clearance or `env(safe-area-inset-bottom)` on mobile to protect action buttons from phone navigation bars and home indicator pills.
-- **CBT Exam Mobile Slide-Over Palette**:
-  - Replaces the 288px in-flow bottom palette with a slide-over off-canvas drawer on screens `< lg`.
-  - Question viewport expands to 100% available screen height, guaranteeing question statements and all four choices remain legible without horizontal or vertical clipping.
-  - Quick-access `Palette (Q/Total)` button in header and bottom bar opens the 120-question grid. Selecting any question jumps immediately to it and automatically dismisses the drawer.
-- **Instant Rapid Drill Mobile Ergonomics**:
-  - Sticky bottom action bar (`sticky bottom-0`) ensures `Submit Answer` and `Next Question` remain permanently visible and thumb-accessible without requiring page scrolling.
-  - Option tap targets are calibrated to `min-h-[50px]` with touch-manipulation optimizations.
-- **2-Tier Mobile CBT Action Bar**:
-  - Tier 1 (Compact Tools): `Save & Mark` | `Mark & Next` | `Clear`
-  - Tier 2 (Primary Navigation): `Previous` | `✓ Save & Next` (Large primary thumb target) | `Next` | `Palette Grid`
+### 6.2 Intra-Question Option-Length Parity (Zero Verbosity / Longest-Option Bias)
+To ensure the correct option is NEVER systematically the longest option (having the most words or letters) while keeping 100% of options strictly domain-specific to their own question:
+- **Zero Cross-Question Distractor Mixing**: All 2,925 questions are compiled directly from their clean Python source modules (`data_*.py`, `pyq_*.py`, `build_*.py`). Distractors are never swapped between different questions.
+- **Giveaway Clutter Removal & Sibling Distractor Parity (`scripts/option_parity_engine.py`)**:
+  - Trims giveaway parenthetical synonyms, slash alternatives, and trailing explanatory clauses from correct options when distractors are concise.
+  - Matches numeric range formats (`X to Y <unit>`) and category tail nouns across distractors within the same question, without using generic filler phrases.
+- **Verified Option-Length Audit Across All 2,925 Questions (`scripts/audit_2925.py`)**:
+  - **Character-Longest Correct Rate**: **707 / 2,925 (24.2%)** *(Uniform random baseline among 4 options = 25.0%)*
+  - **Word-Longest Correct Rate**: **521 / 2,925 (17.8%)** *(Well below the 25.0% random baseline)*
+  - **Unique IDs**: **2,925 / 2,925 (0 duplicates)**
+  - **Unique Stems**: **2,925 / 2,925 (0 duplicates)**
 
 ---
 
-## 7. How to Run the Platform
+## 7. How to Run & Rebuild the Question Bank
 
-### Local Development
+### Rebuild & Audit All 2,925 Questions from Python Sources
 ```powershell
 cd "e:\ICAR PG RANK 1 APPLICATION"
+python scripts/compile_pyqs.py
+python scripts/audit_2925.py
+```
+
+### Local Development & Production Build
+```powershell
 npm run dev
-```
-Open `http://localhost:5173/` in Google Chrome, Edge, or Brave.
-
-### Production Build & Preview
-```powershell
 npm run build
-npm run preview
 ```
-
-### Android APK Build
-The project includes a native Android wrapper located in `android-app/`:
-```powershell
-cd "e:\ICAR PG RANK 1 APPLICATION\android-app"
-.\gradlew assembleDebug
-```
-The compiled APK will be generated at:
-`android-app/app/build/outputs/apk/debug/app-debug.apk`
-
----
-
-## 8. Strategic AIR 1 Practice Plan
-
-1. **Daily Practice**:
-   - Complete 1 `Daily 20-Q Exam Standard Drill` every morning.
-   - Clear all pending `Spaced Repetition Flashcards` every evening.
-2. **Weekly Full Mock**:
-   - Take a full 120-minute, 120-question CBT mock every Sunday at 10:00 AM (actual exam timing).
-3. **Negative Marking Audit**:
-   - Review solutions immediately after each exam. Focus on questions marked incorrect to identify knowledge gaps.
-4. **Subject Health Tracking**:
-   - Review the `Analytics` tab weekly. Ensure accuracy across Pathology, Microbiology, Anatomy, and Parasitology remains above 80%.
 
 ---
 

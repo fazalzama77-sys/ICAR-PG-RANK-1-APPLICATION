@@ -33,7 +33,7 @@ export const TopNav: React.FC<TopNavProps> = ({
     {
       id: 'dashboard' as NavigationTab,
       label: 'Dashboard',
-      shortLabel: 'Dashboard',
+      shortLabel: 'Home',
       icon: Layers,
       color: 'emerald'
     },
@@ -48,7 +48,7 @@ export const TopNav: React.FC<TopNavProps> = ({
     {
       id: 'spaced_repetition' as NavigationTab,
       label: 'Spaced Repetition',
-      shortLabel: 'Revision',
+      shortLabel: 'Recall',
       icon: Brain,
       iconClass: 'text-indigo-600',
       badge: srsDueCount > 0 ? srsDueCount : undefined,
@@ -71,7 +71,7 @@ export const TopNav: React.FC<TopNavProps> = ({
     {
       id: 'analytics' as NavigationTab,
       label: 'Analytics',
-      shortLabel: 'Analytics',
+      shortLabel: 'Stats',
       icon: BarChart3,
       color: 'emerald'
     }
@@ -80,9 +80,9 @@ export const TopNav: React.FC<TopNavProps> = ({
   return (
     <>
       <PwaStatusBanner />
-      <header className="bg-white border-b border-slate-200 sticky top-0 z-40 shadow-xs pt-safe">
+      <header className="bg-white/95 backdrop-blur-md border-b border-slate-200/90 sticky top-0 z-40 shadow-2xs pt-safe transition-all">
         <div className="w-full max-w-[1580px] mx-auto px-3 sm:px-4 lg:px-6">
-          <div className="flex items-center justify-between h-16 gap-2">
+          <div className="flex items-center justify-between h-14 sm:h-16 gap-2">
             
             {/* Branding (Fixed height, perfectly centered, never clipped) */}
             <div 
@@ -90,12 +90,12 @@ export const TopNav: React.FC<TopNavProps> = ({
               onClick={() => setActiveTab('dashboard')}
               title="Return to Dashboard"
             >
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-700 flex items-center justify-center text-white shadow-xs shrink-0 group-hover:scale-105 transition-transform">
+              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-700 flex items-center justify-center text-white shadow-xs shrink-0 group-hover:scale-105 group-active:scale-95 transition-transform duration-200">
                 <Award className="w-5 h-5" />
               </div>
               <div className="flex flex-col justify-center min-w-0">
                 <div className="flex items-center space-x-1.5">
-                  <span className="font-extrabold text-slate-900 tracking-tight text-base sm:text-lg leading-none whitespace-nowrap">
+                  <span className="font-extrabold text-slate-900 tracking-tight text-sm sm:text-lg leading-none whitespace-nowrap">
                     ICAR AIEEA PG
                   </span>
                   <span className="bg-amber-100 text-amber-900 text-[10px] font-bold px-1.5 py-0.5 rounded-full border border-amber-300 shadow-2xs whitespace-nowrap leading-none">
@@ -103,34 +103,34 @@ export const TopNav: React.FC<TopNavProps> = ({
                   </span>
                 </div>
                 <p className="text-[11px] text-slate-500 font-medium whitespace-nowrap leading-none mt-1 truncate hidden md:block">
-                  B.V.Sc. &amp; A.H. CBT Prep Portal
+                  B.V.Sc. &amp; A.H. CBT Prep Portal &bull; 1,925 MCQs
                 </p>
               </div>
             </div>
 
             {/* Desktop / Tablet Navigation Tabs */}
-            <nav className="hidden md:flex items-center space-x-1 lg:space-x-1.5 shrink-0">
+            <nav className="hidden md:flex items-center space-x-1 lg:space-x-1.5 shrink-0 bg-slate-100/80 p-1 rounded-xl border border-slate-200/70">
               {navItems.map((item) => {
                 const Icon = item.icon;
                 const isActive = activeTab === item.id;
-                let activeClasses = 'bg-emerald-50 text-emerald-800 font-bold border border-emerald-200/80 shadow-2xs';
+                let activeClasses = 'bg-white text-emerald-800 font-bold border border-emerald-200/90 shadow-xs scale-[1.01]';
                 if (item.color === 'amber') {
-                  activeClasses = 'bg-amber-50 text-amber-900 font-bold border border-amber-200/80 shadow-2xs';
+                  activeClasses = 'bg-white text-amber-900 font-bold border border-amber-200/90 shadow-xs scale-[1.01]';
                 } else if (item.color === 'indigo') {
-                  activeClasses = 'bg-indigo-50 text-indigo-900 font-bold border border-indigo-200/80 shadow-2xs';
+                  activeClasses = 'bg-white text-indigo-900 font-bold border border-indigo-200/90 shadow-xs scale-[1.01]';
                 }
 
                 return (
                   <button
                     key={item.id}
                     onClick={() => setActiveTab(item.id)}
-                    className={`flex items-center space-x-1.5 px-2.5 xl:px-3 py-1.5 rounded-lg text-xs xl:text-sm font-semibold transition-all whitespace-nowrap shrink-0 cursor-pointer ${
+                    className={`flex items-center space-x-1.5 px-2.5 xl:px-3.5 py-1.5 rounded-lg text-xs xl:text-sm font-semibold transition-all duration-200 whitespace-nowrap shrink-0 cursor-pointer active:scale-95 ${
                       isActive
                         ? activeClasses
-                        : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
+                        : 'text-slate-600 hover:text-slate-900 hover:bg-white/60 border border-transparent'
                     }`}
                   >
-                    <Icon className={`w-4 h-4 shrink-0 ${item.iconClass || ''}`} />
+                    <Icon className={`w-4 h-4 shrink-0 transition-transform duration-200 ${isActive ? 'scale-110' : ''} ${item.iconClass || ''}`} />
                     <span className="hidden xl:inline">{item.label}</span>
                     <span className="xl:hidden">{item.shortLabel}</span>
                     {item.badge !== undefined && (
@@ -149,7 +149,7 @@ export const TopNav: React.FC<TopNavProps> = ({
               {canInstall && (
                 <button
                   onClick={installPwa}
-                  className="hidden 2xl:flex items-center space-x-1.5 px-2.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold shadow-xs transition-colors shrink-0 whitespace-nowrap cursor-pointer"
+                  className="hidden 2xl:flex items-center space-x-1.5 px-2.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold shadow-xs transition-all active:scale-95 shrink-0 whitespace-nowrap cursor-pointer"
                   title="Install ICAR AIEEA PG CBT App for offline desktop/tablet use"
                 >
                   <Download className="w-3.5 h-3.5" />
@@ -164,7 +164,7 @@ export const TopNav: React.FC<TopNavProps> = ({
                     ? 'bg-emerald-50 text-emerald-700 border-emerald-200'
                     : 'bg-amber-50 text-amber-800 border-amber-300'
                 }`}
-                title={isOnline ? 'All 1,665 mock questions work 100% offline' : 'Working 100% offline'}
+                title={isOnline ? 'All 1,925 mock questions work 100% offline' : 'Working 100% offline'}
               >
                 {isOnline ? (
                   <>
@@ -182,7 +182,7 @@ export const TopNav: React.FC<TopNavProps> = ({
               {/* Dedicated Settings & Storage Action Button */}
               <button
                 onClick={() => onOpenSettings('cache')}
-                className="flex items-center space-x-1 px-2 py-1.5 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 hover:text-slate-900 transition-colors text-xs font-semibold shrink-0 cursor-pointer whitespace-nowrap"
+                className="flex items-center space-x-1 px-2 py-1.5 rounded-lg border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 hover:text-slate-900 transition-all active:scale-95 text-xs font-semibold shrink-0 cursor-pointer whitespace-nowrap"
                 title="Reset Cache Memory, Reset Data & Storage Settings"
               >
                 <Settings className="w-3.5 h-3.5 text-slate-500" />
@@ -192,7 +192,7 @@ export const TopNav: React.FC<TopNavProps> = ({
               {/* User Candidate Info Pill */}
               <button
                 onClick={() => onOpenSettings('profile')}
-                className="flex items-center space-x-2 text-left pl-1.5 pr-2.5 py-1 rounded-full border border-slate-200 bg-slate-50 hover:bg-slate-100 transition-colors text-xs shrink-0 cursor-pointer"
+                className="flex items-center space-x-2 text-left pl-1.5 pr-2.5 py-1 rounded-full border border-slate-200 bg-slate-50 hover:bg-slate-100 transition-all active:scale-95 text-xs shrink-0 cursor-pointer"
                 title="Click to edit Candidate Profile & View App Settings"
               >
                 <div className="w-7 h-7 rounded-full bg-emerald-700 text-white flex items-center justify-center font-bold text-xs shrink-0 shadow-2xs">
@@ -213,27 +213,40 @@ export const TopNav: React.FC<TopNavProps> = ({
         </div>
       </header>
 
-      {/* Mobile / Tablet Bottom Navigation Bar */}
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white border-t border-slate-200 shadow-lg px-2 pt-1.5 pb-safe flex items-center justify-around">
+      {/* Mobile Glassmorphic Bottom Navigation Bar */}
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/92 backdrop-blur-xl border-t border-slate-200/80 shadow-[0_-8px_24px_rgba(15,23,42,0.08)] px-1.5 pt-1 pb-safe flex items-center justify-around">
         {navItems.map((item) => {
           const Icon = item.icon;
           const isActive = activeTab === item.id;
+          let activeBg = 'bg-emerald-50/90 text-emerald-800';
+          let indicatorColor = 'bg-emerald-600';
+          if (item.color === 'amber') {
+            activeBg = 'bg-amber-50/90 text-amber-900';
+            indicatorColor = 'bg-amber-500';
+          } else if (item.color === 'indigo') {
+            activeBg = 'bg-indigo-50/90 text-indigo-900';
+            indicatorColor = 'bg-indigo-600';
+          }
+
           return (
             <button
               key={item.id}
               onClick={() => setActiveTab(item.id)}
-              className={`flex flex-col items-center justify-center py-1 px-1.5 rounded-lg transition-colors relative min-w-[48px] ${
+              className={`flex flex-col items-center justify-center py-1.5 px-2 rounded-xl transition-all duration-200 relative min-w-[52px] touch-manipulation active:scale-92 ${
                 isActive
-                  ? 'text-emerald-700 font-bold'
-                  : 'text-slate-500 hover:text-slate-900'
+                  ? `${activeBg} font-extrabold`
+                  : 'text-slate-500 hover:text-slate-900 font-medium'
               }`}
             >
-              <Icon className={`w-5 h-5 ${item.iconClass || ''}`} />
+              {isActive && (
+                <span className={`absolute -top-1 w-5 h-1 rounded-full ${indicatorColor} transition-all duration-200`} />
+              )}
+              <Icon className={`w-5 h-5 transition-transform duration-200 ${isActive ? 'scale-110 -translate-y-0.5' : ''} ${item.iconClass || ''}`} />
               <span className="text-[10px] mt-0.5 tracking-tight leading-none truncate max-w-[58px]">
                 {item.shortLabel}
               </span>
               {item.badge !== undefined && (
-                <span className="absolute top-0 right-1 bg-amber-400 text-slate-950 text-[9px] font-black px-1 rounded-full leading-none">
+                <span className="absolute top-0.5 right-1 bg-amber-400 text-slate-950 text-[9px] font-black px-1.5 py-0.2 rounded-full leading-tight shadow-2xs">
                   {item.badge}
                 </span>
               )}

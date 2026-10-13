@@ -141,7 +141,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
 
   // Handle Granular: Restore Question Bank
   const handleRestoreQuestionBank = () => {
-    if (window.confirm('Restore Question Bank to the official 1,380 verified questions?')) {
+    if (window.confirm('Restore Question Bank to the official 1,925 verified questions?')) {
       const res = CacheService.restoreDefaultQuestionBank();
       onDataReset();
       loadSummary();

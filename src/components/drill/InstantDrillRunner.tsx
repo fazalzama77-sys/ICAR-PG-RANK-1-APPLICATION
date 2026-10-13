@@ -334,11 +334,13 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
         <div className="bg-white border border-slate-200 rounded-2xl shadow-sm flex flex-col flex-1 overflow-hidden">
           
           {/* Progress bar */}
-          <div className="bg-slate-100 h-1.5 w-full shrink-0">
+          <div className="bg-slate-100 h-2 w-full shrink-0 overflow-hidden">
             <div 
-              className="bg-amber-500 h-1.5 transition-all duration-300"
+              className="bg-gradient-to-r from-amber-500 to-emerald-500 h-2 transition-all duration-300 relative overflow-hidden"
               style={{ width: `${((currentIndex + 1) / questions.length) * 100}%` }}
-            />
+            >
+              <div className="absolute inset-0 shimmer-bar" />
+            </div>
           </div>
 
           {/* Question Header */}
@@ -358,16 +360,16 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
             </div>
 
             <div className="flex items-center space-x-2 sm:space-x-3 text-xs font-semibold shrink-0">
-              <span className="text-emerald-700 font-bold">✓ {correctCount}</span>
-              <span className="text-red-600 font-bold">✗ {incorrectCount}</span>
+              <span className="text-emerald-700 font-bold bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full">✓ {correctCount}</span>
+              <span className="text-red-600 font-bold bg-red-50 border border-red-200 px-2 py-0.5 rounded-full">✗ {incorrectCount}</span>
               <span className="font-mono text-slate-400 text-[11px] sm:text-xs">
                 {currentIndex + 1}/{questions.length}
               </span>
             </div>
           </div>
 
-          {/* Question Content (Scrollable) */}
-          <div className="p-4 sm:p-7 space-y-4 sm:space-y-6 flex-1 overflow-y-auto">
+          {/* Question Content (Scrollable + Animated per question) */}
+          <div key={currentQ.id} className="p-4 sm:p-7 space-y-4 sm:space-y-6 flex-1 overflow-y-auto animate-fade-in-up">
             <h3 className="text-sm sm:text-lg font-bold text-slate-900 leading-relaxed select-text">
               {currentQ.questionText}
             </h3>
@@ -382,14 +384,14 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
 
                 if (isAnswerSubmitted) {
                   if (isCorrect) {
-                    style = 'border-emerald-500 bg-emerald-50 text-emerald-900 font-bold ring-2 ring-emerald-500';
+                    style = 'border-emerald-500 bg-emerald-50 text-emerald-900 font-bold ring-2 ring-emerald-500 shadow-xs';
                   } else if (isSelected) {
                     style = 'border-red-500 bg-red-50 text-red-900 font-medium line-through';
                   } else {
                     style = 'border-slate-200 opacity-50 text-slate-400 bg-slate-50';
                   }
                 } else if (isSelected) {
-                  style = 'border-amber-500 bg-amber-50 text-amber-950 font-semibold ring-2 ring-amber-500';
+                  style = 'border-amber-500 bg-amber-50 text-amber-950 font-semibold ring-2 ring-amber-500 shadow-xs';
                 }
 
                 return (
@@ -398,7 +400,7 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
                     onClick={() => {
                       if (!isAnswerSubmitted) setSelectedOption(idx);
                     }}
-                    className={`p-3 sm:p-4 rounded-xl border text-xs sm:text-sm flex items-center justify-between cursor-pointer transition-all min-h-[50px] touch-manipulation select-none active:scale-[0.99] ${style}`}
+                    className={`option-card-interactive p-3.5 sm:p-4 rounded-xl border text-xs sm:text-sm flex items-center justify-between cursor-pointer min-h-[52px] select-none ${style}`}
                   >
                     <div className="flex items-center space-x-3 flex-1 min-w-0 pr-2">
                       <span className="w-6 h-6 sm:w-7 sm:h-7 rounded-full border border-current flex items-center justify-center font-bold text-xs shrink-0">
@@ -408,10 +410,10 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
                     </div>
 
                     {isAnswerSubmitted && isCorrect && (
-                      <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 ml-1" />
+                      <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0 ml-1 animate-scale-in" />
                     )}
                     {isAnswerSubmitted && isSelected && !isCorrect && (
-                      <XCircle className="w-5 h-5 text-red-500 shrink-0 ml-1" />
+                      <XCircle className="w-5 h-5 text-red-500 shrink-0 ml-1 animate-scale-in" />
                     )}
                   </div>
                 );
@@ -420,7 +422,7 @@ export const InstantDrillRunner: React.FC<InstantDrillRunnerProps> = ({
 
             {/* Instant Feedback Explanation Card */}
             {isAnswerSubmitted && (
-              <div className={`p-3.5 sm:p-5 rounded-xl border animate-in fade-in duration-200 space-y-2 ${
+              <div className={`p-3.5 sm:p-5 rounded-xl border animate-scale-in space-y-2 ${
                 selectedOption === currentQ.correctOptionIndex
                   ? 'bg-emerald-50 border-emerald-200 text-emerald-900'
                   : 'bg-red-50 border-red-200 text-red-950'

@@ -56,11 +56,21 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const [subjectFilter, setSubjectFilter] = useState<'all' | '1st_year' | '2nd_year' | 'veterinary_science' | 'animal_science'>('all');
   const [expandedSubjects, setExpandedSubjects] = useState<Record<string, boolean>>({
     vpp: true,
-    vmc: true
+    vmc: true,
+    agb: true,
+    ann: true
   });
 
   const toggleExpandSubject = (subjectId: string) => {
     setExpandedSubjects(prev => ({ ...prev, [subjectId]: !prev[subjectId] }));
+  };
+
+  const toggleAllSubjects = (expand: boolean) => {
+    const next: Record<string, boolean> = {};
+    SUBJECT_LIST.forEach(s => {
+      next[s.id] = expand;
+    });
+    setExpandedSubjects(next);
   };
 
   // Daily Progress & Streak
@@ -126,26 +136,29 @@ export const Dashboard: React.FC<DashboardProps> = ({
   const dailyPercentage = Math.min(100, Math.round((dailyProgress.questionsSolvedToday / dailyProgress.dailyTarget) * 100));
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <div className="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 py-5 sm:py-8 space-y-6 sm:space-y-8 pb-24 md:pb-10">
       
       {/* 1. AIR 1 Mission Command Hero */}
-      <div className="bg-gradient-to-r from-[#172e48] via-[#1f3f60] to-[#28537d] rounded-2xl p-6 sm:p-8 text-white shadow-md relative overflow-hidden">
-        <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
+      <div className="animate-fade-in-up bg-gradient-to-br from-[#142840] via-[#1f3f60] to-[#24537a] rounded-2xl p-5 sm:p-8 text-white shadow-lg border border-white/10 relative overflow-hidden">
+        <div className="absolute -top-24 -right-24 w-64 h-64 rounded-full bg-emerald-400/10 blur-3xl pointer-events-none" />
+        <div className="absolute -bottom-24 -left-24 w-64 h-64 rounded-full bg-amber-400/10 blur-3xl pointer-events-none" />
+
+        <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-5 sm:gap-6">
           <div className="space-y-3 max-w-2xl">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="bg-amber-400 text-slate-900 font-extrabold text-[11px] px-2.5 py-0.5 rounded-full uppercase tracking-wider">
+              <span className="bg-amber-400 text-slate-950 font-black text-[10px] sm:text-[11px] px-2.5 py-0.5 rounded-full uppercase tracking-wider shadow-2xs">
                 Mission AIR 1
               </span>
-              <span className="text-xs text-slate-200 font-medium">
+              <span className="text-[11px] sm:text-xs text-slate-200 font-medium">
                 ICAR AIEEA PG (M.V.Sc.) Strategic Blueprint
               </span>
-              <span className="bg-emerald-500/30 text-emerald-200 border border-emerald-400/40 text-[11px] font-bold px-2 py-0.5 rounded-full flex items-center space-x-1">
-                <Flame className="w-3 h-3 text-amber-400 fill-amber-400" />
+              <span className="bg-emerald-500/25 text-emerald-200 border border-emerald-400/40 text-[10px] sm:text-[11px] font-bold px-2.5 py-0.5 rounded-full flex items-center space-x-1">
+                <Flame className="w-3 h-3 text-amber-400 fill-amber-400 animate-pulse" />
                 <span>{dailyProgress.streakDays} Days Streak</span>
               </span>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl font-black tracking-tight leading-tight">
+            <h1 className="text-xl sm:text-3xl font-black tracking-tight leading-tight">
               Welcome, {userProfile.name}
             </h1>
 
@@ -154,69 +167,71 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </p>
 
             {/* Daily Target Progress Bar */}
-            <div className="bg-white/10 rounded-xl p-3 max-w-lg border border-white/15 space-y-1.5">
+            <div className="bg-white/10 backdrop-blur-xs rounded-xl p-3 max-w-lg border border-white/15 space-y-1.5">
               <div className="flex items-center justify-between text-xs">
-                <span className="font-bold text-amber-200 flex items-center space-x-1">
-                  <Target className="w-3.5 h-3.5" />
+                <span className="font-bold text-amber-200 flex items-center space-x-1.5">
+                  <Target className="w-3.5 h-3.5 shrink-0" />
                   <span>Daily Study Target: {dailyProgress.questionsSolvedToday} / {dailyProgress.dailyTarget} MCQs</span>
                 </span>
                 <span className="font-mono text-white font-bold">{dailyPercentage}%</span>
               </div>
-              <div className="bg-white/20 h-2 rounded-full overflow-hidden">
+              <div className="bg-white/20 h-2.5 rounded-full overflow-hidden">
                 <div 
-                  className="bg-amber-400 h-2 rounded-full transition-all duration-500"
-                  style={{ width: `${dailyPercentage}%` }}
-                />
+                  className="bg-gradient-to-r from-amber-400 to-emerald-400 h-2.5 rounded-full transition-all duration-700 relative overflow-hidden"
+                  style={{ width: `${Math.max(4, dailyPercentage)}%` }}
+                >
+                  <div className="absolute inset-0 shimmer-bar" />
+                </div>
               </div>
             </div>
 
-            {/* Core Action CTAs */}
-            <div className="flex flex-wrap items-center gap-3 pt-2">
+            {/* Core Action CTAs (Mobile/Tablet thumb-ergonomic grid) */}
+            <div className="grid grid-cols-1 sm:flex sm:flex-wrap items-center gap-2.5 sm:gap-3 pt-1.5">
               <button
                 onClick={onOpenDrillLauncher}
-                className="bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs sm:text-sm px-5 py-2.5 rounded-lg shadow-md flex items-center space-x-2 transition-transform transform active:scale-98 cursor-pointer"
+                className="bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-xs sm:text-sm px-5 py-3 sm:py-2.5 rounded-xl shadow-md flex items-center justify-center space-x-2 transition-all active:scale-97 cursor-pointer touch-manipulation"
               >
-                <Zap className="w-4 h-4 fill-current" />
+                <Zap className="w-4 h-4 fill-current shrink-0" />
                 <span>Rapid Daily Drill</span>
               </button>
 
               <button
                 onClick={onOpenSpacedRepetition}
-                className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow-md flex items-center space-x-2 transition-transform transform active:scale-98 cursor-pointer"
+                className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold text-xs sm:text-sm px-4 py-3 sm:py-2.5 rounded-xl shadow-md flex items-center justify-center space-x-2 transition-all active:scale-97 cursor-pointer touch-manipulation"
               >
-                <Brain className="w-4 h-4" />
+                <Brain className="w-4 h-4 shrink-0" />
                 <span>Spaced Repetition ({srsMetrics.dueToday} Due)</span>
               </button>
 
               <button
                 onClick={onLaunchCBT}
-                className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs sm:text-sm px-4 py-2.5 rounded-lg shadow-md flex items-center space-x-2 transition-transform transform active:scale-98 cursor-pointer"
+                className="bg-emerald-500 hover:bg-emerald-600 text-white font-bold text-xs sm:text-sm px-4 py-3 sm:py-2.5 rounded-xl shadow-md flex items-center justify-center space-x-2 transition-all active:scale-97 cursor-pointer touch-manipulation"
               >
-                <Play className="w-4 h-4 fill-current" />
+                <Play className="w-4 h-4 fill-current shrink-0" />
                 <span>Full CBT Mock Exam</span>
               </button>
             </div>
           </div>
 
-          {/* Quick Metrics Badge */}
-          <div className="bg-white/10 backdrop-blur-xs p-5 rounded-xl border border-white/15 shrink-0 flex flex-col space-y-3 text-center min-w-[220px]">
-            <div>
-              <p className="text-[10px] text-amber-200 uppercase font-bold tracking-wider">Candidate Roll No.</p>
-              <p className="text-xs font-mono font-bold text-white">{userProfile.rollNumber}</p>
+          {/* Quick Metrics Badge (Horizontal strip on mobile/tablet, vertical card on desktop) */}
+          <div className="bg-white/10 backdrop-blur-md p-4 sm:p-5 rounded-xl border border-white/15 shrink-0 grid grid-cols-3 lg:flex lg:flex-col gap-3 lg:space-y-3 text-center lg:min-w-[220px]">
+            <div className="flex flex-col justify-center">
+              <p className="text-[10px] text-amber-200 uppercase font-bold tracking-wider">Roll No.</p>
+              <p className="text-[11px] sm:text-xs font-mono font-bold text-white truncate">{userProfile.rollNumber}</p>
             </div>
-            <div className="border-t border-white/10 pt-2">
-              <p className="text-[10px] text-amber-200 uppercase font-bold tracking-wider">Preparedness Index</p>
-              <p className="text-2xl font-black text-amber-300">
-                {totalTests > 0 ? `${avgAccuracy}%` : 'Ready to Start'}
+            <div className="border-l lg:border-l-0 lg:border-t border-white/15 pl-2 lg:pl-0 lg:pt-2 flex flex-col justify-center">
+              <p className="text-[10px] text-amber-200 uppercase font-bold tracking-wider">Preparedness</p>
+              <p className="text-base sm:text-2xl font-black text-amber-300 leading-tight">
+                {totalTests > 0 ? `${avgAccuracy}%` : 'Ready'}
               </p>
             </div>
-            <div className="border-t border-white/10 pt-2 flex justify-around text-xs">
+            <div className="border-l lg:border-l-0 lg:border-t border-white/15 pl-2 lg:pl-0 lg:pt-2 flex items-center justify-around text-xs">
               <div>
-                <span className="text-slate-300 block text-[10px]">CBTs Taken</span>
+                <span className="text-slate-300 block text-[10px]">CBTs</span>
                 <span className="font-bold text-white font-mono">{totalTests}</span>
               </div>
-              <div className="border-l border-white/10 pl-3">
-                <span className="text-slate-300 block text-[10px]">Top Score</span>
+              <div className="border-l border-white/10 pl-2 sm:pl-3">
+                <span className="text-slate-300 block text-[10px]">Best</span>
                 <span className="font-bold text-white font-mono">{highestScore}</span>
               </div>
             </div>
@@ -225,10 +240,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
       </div>
 
       {/* 2. Top-Level Strategic Cards: Spaced Repetition Due & Rapid Drill Presets */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-6 animate-fade-in-up delay-75">
         
         {/* Spaced Repetition Due Deck Card */}
-        <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-2xs flex flex-col justify-between space-y-4">
+        <div className="card-interactive bg-white rounded-2xl border border-slate-200/90 p-5 shadow-xs flex flex-col justify-between space-y-4">
           <div>
             <div className="flex items-center justify-between">
               <div className="flex items-center space-x-2">
@@ -467,11 +482,11 @@ export const Dashboard: React.FC<DashboardProps> = ({
       </div>
 
       {/* 4. Syllabus & Subject Precision Tracker */}
-      <div className="space-y-4">
-        <div className="flex flex-wrap items-center justify-between gap-3">
+      <div className="space-y-4 animate-fade-in-up delay-150">
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
           <div>
-            <h3 className="text-lg font-extrabold text-slate-900 tracking-tight flex items-center space-x-2">
-              <Layers className="w-5 h-5 text-emerald-600" />
+            <h3 className="text-base sm:text-lg font-extrabold text-slate-900 tracking-tight flex items-center space-x-2">
+              <Layers className="w-5 h-5 text-emerald-600 shrink-0" />
               <span>Syllabus &amp; Subject Precision Tracker</span>
             </h3>
             <p className="text-xs text-slate-500">
@@ -479,47 +494,57 @@ export const Dashboard: React.FC<DashboardProps> = ({
             </p>
           </div>
 
-          {/* Filter Chips */}
-          <div className="flex flex-wrap gap-1.5 text-xs">
+          {/* Filter Chips (Horizontal touch scroll on mobile, wrapped on tablet/desktop) */}
+          <div className="flex items-center gap-1.5 text-xs overflow-x-auto no-scrollbar pb-1 sm:pb-0 flex-nowrap sm:flex-wrap">
             <button
               onClick={() => setSubjectFilter('all')}
-              className={`px-3 py-1 rounded-lg font-semibold transition-colors ${
-                subjectFilter === 'all' ? 'bg-slate-900 text-white' : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
+              className={`px-3 py-1.5 rounded-lg font-semibold transition-all whitespace-nowrap shrink-0 cursor-pointer active:scale-95 ${
+                subjectFilter === 'all' ? 'bg-slate-900 text-white shadow-2xs' : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
               }`}
             >
-              All (9)
+              All ({SUBJECT_LIST.length})
             </button>
             <button
               onClick={() => setSubjectFilter('1st_year')}
-              className={`px-3 py-1 rounded-lg font-semibold transition-colors ${
-                subjectFilter === '1st_year' ? 'bg-indigo-600 text-white' : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
+              className={`px-3 py-1.5 rounded-lg font-semibold transition-all whitespace-nowrap shrink-0 cursor-pointer active:scale-95 ${
+                subjectFilter === '1st_year' ? 'bg-indigo-600 text-white shadow-2xs' : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
               }`}
             >
               1st Year (4)
             </button>
             <button
               onClick={() => setSubjectFilter('2nd_year')}
-              className={`px-3 py-1 rounded-lg font-semibold transition-colors ${
-                subjectFilter === '2nd_year' ? 'bg-purple-600 text-white' : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
+              className={`px-3 py-1.5 rounded-lg font-semibold transition-all whitespace-nowrap shrink-0 cursor-pointer active:scale-95 ${
+                subjectFilter === '2nd_year' ? 'bg-purple-600 text-white shadow-2xs' : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
               }`}
             >
               2nd Year (5)
             </button>
             <button
               onClick={() => setSubjectFilter('veterinary_science')}
-              className={`px-3 py-1 rounded-lg font-semibold transition-colors ${
-                subjectFilter === 'veterinary_science' ? 'bg-blue-600 text-white' : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
+              className={`px-3 py-1.5 rounded-lg font-semibold transition-all whitespace-nowrap shrink-0 cursor-pointer active:scale-95 ${
+                subjectFilter === 'veterinary_science' ? 'bg-blue-600 text-white shadow-2xs' : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
               }`}
             >
               Vet Science
             </button>
             <button
               onClick={() => setSubjectFilter('animal_science')}
-              className={`px-3 py-1 rounded-lg font-semibold transition-colors ${
-                subjectFilter === 'animal_science' ? 'bg-teal-600 text-white' : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
+              className={`px-3 py-1.5 rounded-lg font-semibold transition-all whitespace-nowrap shrink-0 cursor-pointer active:scale-95 ${
+                subjectFilter === 'animal_science' ? 'bg-teal-600 text-white shadow-2xs' : 'bg-white border border-slate-200 text-slate-600 hover:bg-slate-50'
               }`}
             >
               Animal Science
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                const anyCollapsed = displayedSubjects.some(s => !expandedSubjects[s.id]);
+                toggleAllSubjects(anyCollapsed);
+              }}
+              className="px-2.5 py-1.5 rounded-lg font-semibold bg-emerald-50 border border-emerald-200 text-emerald-800 hover:bg-emerald-100 transition-all whitespace-nowrap shrink-0 cursor-pointer active:scale-95"
+            >
+              {displayedSubjects.some(s => !expandedSubjects[s.id]) ? 'Expand Units' : 'Collapse Units'}
             </button>
           </div>
         </div>
@@ -536,7 +561,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
             return (
               <div
                 key={sub.id}
-                className="bg-white rounded-xl border border-slate-200 hover:border-slate-300 p-4 shadow-2xs flex flex-col justify-between space-y-3 transition-all"
+                className="card-interactive bg-white rounded-2xl border border-slate-200/90 hover:border-slate-300 p-4 shadow-xs flex flex-col justify-between space-y-3"
               >
                 <div>
                   <div className="flex items-start justify-between gap-2">
@@ -581,27 +606,27 @@ export const Dashboard: React.FC<DashboardProps> = ({
                     <button
                       type="button"
                       onClick={() => toggleExpandSubject(sub.id)}
-                      className="w-full flex items-center justify-between px-2.5 py-1.5 rounded-lg bg-slate-50 hover:bg-slate-100 border border-slate-200/80 text-[11px] font-bold text-slate-700 transition-colors cursor-pointer"
+                      className="w-full flex items-center justify-between px-3 py-2 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200/80 text-[11px] font-bold text-slate-700 transition-all active:scale-[0.99] cursor-pointer touch-manipulation"
                     >
                       <span className="flex items-center space-x-1.5">
                         <Layers className="w-3.5 h-3.5 text-emerald-600" />
                         <span>Syllabus Units / Chapters ({sub.topics.length})</span>
                       </span>
                       {isExpanded ? (
-                        <ChevronUp className="w-3.5 h-3.5 text-slate-500" />
+                        <ChevronUp className="w-3.5 h-3.5 text-slate-500 transition-transform" />
                       ) : (
-                        <ChevronDown className="w-3.5 h-3.5 text-slate-500" />
+                        <ChevronDown className="w-3.5 h-3.5 text-slate-500 transition-transform" />
                       )}
                     </button>
 
                     {isExpanded && (
-                      <div className="mt-2 space-y-1.5 max-h-72 overflow-y-auto pr-0.5">
+                      <div className="mt-2 space-y-1.5 max-h-72 overflow-y-auto pr-0.5 animate-scale-in">
                         {sub.topics.map((unitName, uIdx) => {
                           const unitQuestions = subQuestions.filter(q => q.topic === unitName);
                           return (
                             <div
                               key={unitName}
-                              className="p-2 rounded-lg bg-slate-50/90 border border-slate-200/80 hover:border-emerald-300 transition-all flex items-center justify-between gap-2"
+                              className="p-2.5 rounded-xl bg-slate-50/90 border border-slate-200/80 hover:border-emerald-300 transition-all flex items-center justify-between gap-2"
                             >
                               <div className="min-w-0 flex-1">
                                 <div className="flex items-center space-x-1.5">
@@ -622,7 +647,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                                   <button
                                     type="button"
                                     onClick={() => onLaunchTopicDrill(sub.id, unitName, 'instant')}
-                                    className="px-2 py-1 rounded bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-[10px] flex items-center space-x-0.5 shadow-2xs cursor-pointer"
+                                    className="px-2.5 py-1.5 rounded-lg bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-[10px] flex items-center space-x-0.5 shadow-2xs transition-transform active:scale-95 cursor-pointer touch-manipulation"
                                     title={`Instant Active Recall Drill on ${unitName}`}
                                   >
                                     <Zap className="w-2.5 h-2.5 fill-current" />
@@ -631,7 +656,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                                   <button
                                     type="button"
                                     onClick={() => onLaunchTopicDrill(sub.id, unitName, 'cbt')}
-                                    className="px-2 py-1 rounded bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-[10px] shadow-2xs cursor-pointer"
+                                    className="px-2.5 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-[10px] shadow-2xs transition-transform active:scale-95 cursor-pointer touch-manipulation"
                                     title={`Take CBT Test on ${unitName}`}
                                   >
                                     CBT

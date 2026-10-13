@@ -91,7 +91,7 @@ export const CBTQuestionArea: React.FC<CBTQuestionAreaProps> = ({
       </div>
 
       {/* Main Question Scrollable Body */}
-      <div className="flex-1 p-3.5 sm:p-7 overflow-y-auto space-y-4 sm:space-y-6">
+      <div key={question.id} className="flex-1 p-3.5 sm:p-7 overflow-y-auto space-y-4 sm:space-y-6 animate-fade-in-up">
         {/* Question Statement */}
         <div className={`text-slate-900 leading-relaxed font-normal whitespace-pre-wrap select-text ${getFontSizeClass()}`}>
           {question.questionText}
@@ -112,9 +112,9 @@ export const CBTQuestionArea: React.FC<CBTQuestionAreaProps> = ({
                 <div
                   key={idx}
                   onClick={() => onSelectOption(idx)}
-                  className={`flex items-start p-3 sm:p-3.5 rounded border transition-all cursor-pointer select-none min-h-[48px] touch-manipulation active:scale-[0.99] ${
+                  className={`option-card-interactive flex items-start p-3 sm:p-3.5 rounded-lg border cursor-pointer select-none min-h-[50px] ${
                     isSelected
-                      ? 'bg-blue-50/80 border-blue-600 ring-1 ring-blue-500 shadow-2xs'
+                      ? 'bg-blue-50/90 border-blue-600 ring-1 ring-blue-500 shadow-xs'
                       : 'bg-slate-50/60 border-slate-300 hover:bg-slate-100 hover:border-slate-400'
                   }`}
                 >
@@ -128,7 +128,7 @@ export const CBTQuestionArea: React.FC<CBTQuestionAreaProps> = ({
                     />
                   </div>
                   <div className="flex-1 flex items-start">
-                    <span className={`inline-block font-bold mr-2.5 text-xs px-2 py-0.5 rounded ${
+                    <span className={`inline-block font-bold mr-2.5 text-xs px-2 py-0.5 rounded transition-colors ${
                       isSelected ? 'bg-blue-600 text-white' : 'bg-slate-200 text-slate-700'
                     }`}>
                       {optionLabel}
