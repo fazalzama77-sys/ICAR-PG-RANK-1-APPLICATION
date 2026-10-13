@@ -12,10 +12,10 @@ export const SUBJECT_LIST: Subject[] = [
     topics: [
       'Osteology & Arthrology',
       'Myology & Angiology',
-      'Neurology & Splanchnology',
-      'Systemic & General Histology',
-      'General & Applied Embryology',
-      'Avian Anatomy'
+      'Neurology & Special Senses',
+      'Digestive, Respiratory & Urogenital Splanchnology',
+      'General & Systemic Histology',
+      'General & Applied Embryology & Avian Anatomy'
     ]
   },
 
@@ -28,12 +28,12 @@ export const SUBJECT_LIST: Subject[] = [
     year: '1st_year',
     description: 'Cellular biophysics, blood, cardiovascular, respiratory, renal, digestive, endocrine and reproductive physiology. (ICAR Code 14.3)',
     topics: [
-      'Hematology & Cardiovascular System',
-      'Respiration & Environmental Physiology',
-      'Digestive Physiology (Ruminant & Non-ruminant)',
-      'Excretion & Body Fluids',
-      'Endocrine & Neurophysiology',
-      'Reproductive & Lactation Physiology'
+      'Blood, Hematology & Body Fluids',
+      'Cardiovascular & Respiratory Physiology',
+      'Digestive & Ruminant Physiology',
+      'Renal & Environmental Physiology',
+      'Neurophysiology, Muscle & Sense Organs',
+      'Endocrinology, Reproduction & Lactation Physiology'
     ]
   },
   {
@@ -44,12 +44,12 @@ export const SUBJECT_LIST: Subject[] = [
     year: '1st_year',
     description: 'Biomolecules, enzymology, bioenergetics, nutrient metabolism, molecular biology, and clinical diagnostic biochemistry. (ICAR Code 14 Unit II)',
     topics: [
-      'Biomolecules & Enzymes',
-      'Intermediary Metabolism (Carbs, Lipids, Proteins)',
-      'Bioenergetics & Biological Oxidation',
-      'Molecular Biology (Replication, Transcription, Translation)',
-      'Clinical Biochemistry & Diagnostic Enzymology',
-      'Mineral, Vitamin & Hormone Chemistry'
+      'Biomolecules: Carbohydrates, Lipids & Proteins',
+      'Enzymology, Coenzymes & Bioenergetics',
+      'Intermediary Metabolism (Carbs, Lipid, Amino Acid)',
+      'Molecular Biology & Acid-Base / Electrolyte Balance',
+      'Clinical & Diagnostic Biochemistry (Liver/Kidney Function)',
+      'Biochemistry of Hormones, Vitamins & Minerals'
     ]
   },
   {
@@ -60,12 +60,12 @@ export const SUBJECT_LIST: Subject[] = [
     year: '1st_year',
     description: 'Principles of livestock management, shelter design, behavior, and production systems of ruminants, equines, swine and poultry.',
     topics: [
-      'General Livestock Management & Housing',
-      'Dairy Cattle & Buffalo Management',
-      'Sheep & Goat Management',
+      'General Livestock Management, Housing & Behavior',
+      'Dairy Cattle & Buffalo Production Management',
+      'Sheep & Goat Production Management',
       'Swine, Equine & Camel Management',
-      'Broiler & Layer Poultry Production',
-      'Hatchery Operations & Biosecurity'
+      'Poultry Production, Broiler & Layer Management',
+      'Hatchery Management, Biosecurity & Animal Welfare'
     ]
   },
 
@@ -76,14 +76,14 @@ export const SUBJECT_LIST: Subject[] = [
     code: 'VPP',
     domain: 'veterinary_science',
     year: '2nd_year',
-    description: 'General pathology, systemic pathology, infectious disease pathology, oncology, necropsy and clinical pathology.',
+    description: 'General pathology, systemic pathology, infectious disease pathology, oncology, avian, necropsy and clinical pathology.',
     topics: [
-      'General Pathology (Degenerations, Necrosis, Inflammation)',
-      'Hemodynamic Disorders & Shock',
-      'Systemic Pathology (Respiratory, Digestive, Urogenital, CNS)',
-      'Pathology of Infectious Diseases (Bacterial, Viral, Fungal)',
+      'General Pathology: Cell Injury, Degenerations & Necrosis',
+      'Inflammation, Tissue Repair & Hemodynamic Disorders',
+      'Systemic Pathology (Digestive, Respiratory, Cardiovascular, Urinary, Nervous & Reproductive)',
+      'Pathology of Infectious Diseases (Bacterial, Viral, Fungal & Parasitic)',
       'Veterinary Oncology & Neoplasia',
-      'Necropsy Procedures & Clinical Pathology'
+      'Avian, Clinical & Necropsy Pathology'
     ]
   },
   {
@@ -95,11 +95,11 @@ export const SUBJECT_LIST: Subject[] = [
     description: 'General and systematic bacteriology, veterinary mycology, veterinary virology, immunology and serology.',
     topics: [
       'General Bacteriology & Bacterial Genetics',
-      'Systematic Bacteriology (Gram +ve & Gram -ve Pathogens)',
-      'Veterinary Mycology (Dermatophytes, Systemic Mycoses)',
-      'General & Systematic Virology (DNA & RNA Animal Viruses)',
-      'Immunology (Innate & Adaptive, Hypersensitivity, Vaccines)',
-      'Diagnostic Serology & Molecular Diagnostics'
+      'Systematic Bacteriology (Gram +ve, Gram -ve, Acid-Fast, Spirochetes & Mycoplasma)',
+      'Veterinary Mycology & Mycotoxicoses',
+      'General & Systematic Virology (DNA & RNA Animal/Poultry Viruses & Prions)',
+      'Veterinary Immunology & Vaccinology',
+      'Diagnostic Serology & Molecular Microbiology'
     ]
   },
   {
@@ -110,12 +110,12 @@ export const SUBJECT_LIST: Subject[] = [
     year: '2nd_year',
     description: 'Veterinary helminthology, veterinary entomology & acarology, and veterinary protozoology.',
     topics: [
-      'Helminthology: Trematodes (Flukes)',
-      'Helminthology: Cestodes (Tapeworms)',
-      'Helminthology: Nematodes (Roundworms)',
-      'Veterinary Entomology (Diptera, Lice, Fleas)',
-      'Veterinary Acarology (Ticks & Mites)',
-      'Veterinary Protozoology (Trypanosoma, Babesia, Theileria, Coccidia)'
+      'General Parasitology & Helminthology: Trematodes (Flukes)',
+      'Helminthology: Cestodes (Tapeworms & Metacestodes)',
+      'Helminthology: Nematodes (Gastrointestinal, Bursate & Filarial)',
+      'Veterinary Entomology (Flies, Myiasis, Lice & Fleas)',
+      'Veterinary Acarology (Hard/Soft Ticks & Mange Mites)',
+      'Veterinary Protozoology (Hemoprotozoa, Coccidia & Flagellates)'
     ]
   },
 
@@ -128,12 +128,12 @@ export const SUBJECT_LIST: Subject[] = [
     year: '2nd_year',
     description: 'Principles of genetics, population & quantitative genetics, molecular genetics and livestock breeding strategies.',
     topics: [
-      'Principles of Genetics & Cytogenetics',
-      'Population Genetics (Hardy-Weinberg equilibrium, Gene Frequency)',
-      'Quantitative Genetics (Heritability, Repeatability, Correlations)',
-      'Selection Methods & Breeding Values (BLUP, Selection Index)',
-      'Breeding Systems (Inbreeding, Outbreeding, Crossbreeding)',
-      'Conservation of Indigenous Animal Genetic Resources'
+      'Mendelian, Chromosomal & Cytogenetics',
+      'Molecular Genetics, Genomics & Markers',
+      'Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)',
+      'Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)',
+      'Selection Methods, Sire Evaluation & Breeding Values (BLUP)',
+      'Mating Systems, Heterosis, Breeds & Conservation'
     ]
   },
   {
@@ -144,12 +144,12 @@ export const SUBJECT_LIST: Subject[] = [
     year: '2nd_year',
     description: 'Principles of animal nutrition, nutrient digestion & metabolism, feed processing, applied ruminant and monogastric feeding.',
     topics: [
-      'Principles of Animal Nutrition & Nutrient Metabolism',
-      'Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE)',
-      'Feedstuffs, Forage Conservation (Silage/Hay) & Anti-Nutrients',
-      'Applied Ruminant Nutrition (Dairy, Beef, Small Ruminants)',
-      'Applied Monogastric Nutrition (Swine & Poultry)',
-      'Feed Additives, Minerals, Vitamins & Metabolic Disorders'
+      'Principles of Nutrition, Proximate Analysis & Nutrient Metabolism',
+      'Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)',
+      'Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors',
+      'Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases',
+      'Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat)',
+      'Applied Monogastric, Poultry & Pet/Equine Nutrition'
     ]
   },
 

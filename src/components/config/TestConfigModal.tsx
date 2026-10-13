@@ -38,6 +38,7 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
   const [selectedSubjectIds, setSelectedSubjectIds] = useState<string[]>(
     SUBJECT_LIST.filter(s => s.year === '1st_year' || s.year === '2nd_year').map(s => s.id)
   );
+  const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
 
   const [positiveMarks, setPositiveMarks] = useState<number>(4);
   const [negativeMarks, setNegativeMarks] = useState<number>(1);
@@ -70,9 +71,21 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
     if (selectedSubjectIds.includes(subjectId)) {
       if (selectedSubjectIds.length > 1) {
         setSelectedSubjectIds(selectedSubjectIds.filter(id => id !== subjectId));
+        const sub = SUBJECT_LIST.find(s => s.id === subjectId);
+        if (sub) {
+          setSelectedTopics(prev => prev.filter(t => !sub.topics.includes(t)));
+        }
       }
     } else {
       setSelectedSubjectIds([...selectedSubjectIds, subjectId]);
+    }
+  };
+
+  const toggleTopic = (topic: string) => {
+    if (selectedTopics.includes(topic)) {
+      setSelectedTopics(selectedTopics.filter(t => t !== topic));
+    } else {
+      setSelectedTopics([...selectedTopics, topic]);
     }
   };
 
@@ -81,6 +94,7 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
       s => selectedDomains.includes(s.domain) && selectedYears.includes(s.year)
     ).map(s => s.id);
     setSelectedSubjectIds(relevant);
+    setSelectedTopics([]);
   };
 
   // Available matching questions
@@ -91,13 +105,14 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
           const matchesDomain = selectedDomains.includes(q.domain);
           const matchesYear = selectedYears.includes(q.year);
           const matchesSubject = selectedSubjectIds.includes(q.subjectId);
-          return matchesDomain && matchesYear && matchesSubject;
+          const matchesTopic = selectedTopics.length === 0 || (q.topic && selectedTopics.includes(q.topic));
+          return matchesDomain && matchesYear && matchesSubject && matchesTopic;
         })
   );
 
   const handleLaunch = () => {
     if (availablePool.length === 0) {
-      alert('No questions in your Question Bank match your selected criteria. Please add questions first or select different subjects.');
+      alert('No questions in your Question Bank match your selected criteria. Please add questions first or select different subjects/units.');
       return;
     }
 
@@ -121,12 +136,15 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
         ? 'ICAR AIEEA PG (M.V.Sc.) Full CBT Mock Exam' 
         : mode === 'pyq_special'
         ? 'ICAR AIEEA PG - 300 PYQ Booster (Pathology, Microbiology, Biochemistry)'
+        : selectedTopics.length === 1
+        ? `CBT Unit Test: ${selectedTopics[0]}`
         : (title.trim() || 'ICAR PG Practice Drill'),
       totalQuestions: testQuestions.length,
       durationMinutes: isUntimed ? 0 : (mode === 'full_mock' ? 120 : mode === 'pyq_special' ? 100 : durationMinutes),
       selectedDomains: mode === 'pyq_special' ? ['veterinary_science'] : selectedDomains,
       selectedYears: mode === 'pyq_special' ? ['2nd_year'] : selectedYears,
       selectedSubjectIds: mode === 'pyq_special' ? ['vpp', 'vmc', 'vbc'] : selectedSubjectIds,
+      selectedTopics: selectedTopics.length > 0 ? selectedTopics : undefined,
       positiveMarks,
       negativeMarks,
       shuffleQuestions
@@ -553,6 +571,89 @@ export const TestConfigModal: React.FC<TestConfigModalProps> = ({
                 );
               })}
             </div>
+          </div>
+        </div>
+
+        {/* Chapter / Syllabus Unit Filter (Subsections) */}
+        <div className="pt-4 border-t border-slate-200 space-y-3">
+          <div className="flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <h5 className="font-extrabold text-xs sm:text-sm text-slate-900">
+                📚 Filter by Specific Syllabus Units / Chapters (Subsections)
+              </h5>
+              <p className="text-xs text-slate-500">
+                {selectedTopics.length === 0
+                  ? 'All units of selected subjects are included. Check specific chapters below to attempt a chapter-specific CBT test (e.g., General Pathology or Systematic Pathology only).'
+                  : `Currently filtering to ${selectedTopics.length} selected syllabus unit(s)/chapter(s).`}
+              </p>
+            </div>
+            {selectedTopics.length > 0 && (
+              <button
+                type="button"
+                onClick={() => setSelectedTopics([])}
+                className="text-xs font-bold text-amber-700 hover:text-amber-900 underline cursor-pointer"
+              >
+                Reset Unit Filter (Include All Chapters)
+              </button>
+            )}
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-h-96 overflow-y-auto pr-1">
+            {SUBJECT_LIST.filter(s => selectedSubjectIds.includes(s.id)).map(sub => (
+              <div key={sub.id} className="bg-slate-50/80 rounded-xl border border-slate-200 p-3 space-y-2">
+                <div className="flex items-center justify-between border-b border-slate-200/80 pb-1.5">
+                  <span className="font-extrabold text-xs text-slate-900">
+                    {sub.name} ({sub.code})
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setMode('custom_practice');
+                      setSelectedSubjectIds([sub.id]);
+                      setSelectedTopics([]);
+                    }}
+                    className="text-[10px] font-bold text-emerald-700 hover:underline cursor-pointer"
+                  >
+                    Only {sub.code}
+                  </button>
+                </div>
+                <div className="space-y-1.5">
+                  {sub.topics.map((unitName, idx) => {
+                    const isChecked = selectedTopics.includes(unitName);
+                    const uCount = questions.filter(q => q.subjectId === sub.id && q.topic === unitName).length;
+                    return (
+                      <label
+                        key={unitName}
+                        className={`flex items-start justify-between gap-1.5 p-1.5 rounded-lg border text-[11px] cursor-pointer transition-colors ${
+                          isChecked
+                            ? 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold'
+                            : 'bg-white border-slate-200/80 text-slate-700 hover:bg-slate-100/70'
+                        }`}
+                      >
+                        <div className="flex items-start space-x-1.5">
+                          <input
+                            type="checkbox"
+                            checked={isChecked}
+                            onChange={() => {
+                              setMode('custom_practice');
+                              toggleTopic(unitName);
+                            }}
+                            className="mt-0.5 rounded text-emerald-600 focus:ring-emerald-500"
+                          />
+                          <span className="leading-snug">
+                            <span className="text-[10px] font-extrabold text-emerald-700 mr-1">U{idx + 1}:</span>
+                            {unitName}
+                          </span>
+                        </div>
+                        <span className="text-[10px] font-mono font-bold text-slate-500 shrink-0">
+                          {uCount}
+                        </span>
+                      </label>
+                    );
+                  })}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

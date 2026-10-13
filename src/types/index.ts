@@ -18,6 +18,7 @@ export interface Question {
   year: AcademicYear;
   subjectId: string;
   topic?: string;
+  subTopic?: string;
   questionText: string;
   options: [string, string, string, string]; // [A, B, C, D]
   correctOptionIndex: number; // 0, 1, 2, 3
@@ -51,6 +52,7 @@ export interface TestConfig {
   selectedDomains: Domain[];
   selectedYears: AcademicYear[];
   selectedSubjectIds: string[];
+  selectedTopics?: string[];
   positiveMarks: number; // default +4
   negativeMarks: number; // default -1
   shuffleQuestions: boolean;
@@ -151,6 +153,7 @@ export interface DrillConfig {
   durationMinutes: number;
   feedbackMode: DrillFeedbackMode;
   selectedSubjectIds?: string[];
+  selectedTopics?: string[];
 }
 
 // Daily Goal & Streak Tracking

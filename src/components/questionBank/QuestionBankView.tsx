@@ -20,6 +20,7 @@ export const QuestionBankView: React.FC<QuestionBankViewProps> = ({
   const [selectedDomain, setSelectedDomain] = useState<string>('all');
   const [selectedYear, setSelectedYear] = useState<string>('all');
   const [selectedSubject, setSelectedSubject] = useState<string>('all');
+  const [selectedTopic, setSelectedTopic] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [pyqOnly, setPyqOnly] = useState<boolean>(false);
 
@@ -34,12 +35,18 @@ export const QuestionBankView: React.FC<QuestionBankViewProps> = ({
     setExpandedQuestionIds(prev => ({ ...prev, [id]: !prev[id] }));
   };
 
+  // Available topics based on selectedSubject
+  const availableTopics = selectedSubject !== 'all'
+    ? (SUBJECT_LIST.find(s => s.id === selectedSubject)?.topics || [])
+    : Array.from(new Set(SUBJECT_LIST.flatMap(s => s.topics)));
+
   // Filter questions
   const filteredQuestions = questions.filter(q => {
     if (pyqOnly && !(q.tags?.includes('ICAR PG PYQ') || q.id.startsWith('pyq_'))) return false;
     if (selectedDomain !== 'all' && q.domain !== selectedDomain) return false;
     if (selectedYear !== 'all' && q.year !== selectedYear) return false;
     if (selectedSubject !== 'all' && q.subjectId !== selectedSubject) return false;
+    if (selectedTopic !== 'all' && q.topic !== selectedTopic) return false;
     if (searchQuery.trim()) {
       const qText = q.questionText.toLowerCase();
       const topicText = (q.topic || '').toLowerCase();
@@ -168,7 +175,7 @@ export const QuestionBankView: React.FC<QuestionBankViewProps> = ({
 
       {/* Filter and Search Bar */}
       <div className="bg-white border border-slate-200 rounded-xl p-4 shadow-xs space-y-3">
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
           {/* Domain Filter */}
           <div>
             <label className="block text-[11px] font-bold uppercase text-slate-500 mb-1">Domain</label>
@@ -203,13 +210,33 @@ export const QuestionBankView: React.FC<QuestionBankViewProps> = ({
             <label className="block text-[11px] font-bold uppercase text-slate-500 mb-1">Subject</label>
             <select
               value={selectedSubject}
-              onChange={e => setSelectedSubject(e.target.value)}
+              onChange={e => {
+                setSelectedSubject(e.target.value);
+                setSelectedTopic('all');
+              }}
               className="w-full text-xs bg-slate-50 border border-slate-300 rounded px-2.5 py-1.5 focus:ring-2 focus:ring-emerald-500 focus:outline-hidden"
             >
               <option value="all">All Subjects</option>
               {SUBJECT_LIST.map(s => (
                 <option key={s.id} value={s.id}>
                   {s.code} - {s.name}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          {/* Chapter / Unit (Subsection) Filter */}
+          <div>
+            <label className="block text-[11px] font-bold uppercase text-emerald-700 mb-1">Chapter / Unit (Subsection)</label>
+            <select
+              value={selectedTopic}
+              onChange={e => setSelectedTopic(e.target.value)}
+              className="w-full text-xs bg-emerald-50/50 border border-emerald-300 rounded px-2.5 py-1.5 font-semibold text-slate-800 focus:ring-2 focus:ring-emerald-500 focus:outline-hidden"
+            >
+              <option value="all">All Chapters / Units ({availableTopics.length})</option>
+              {availableTopics.map((t, i) => (
+                <option key={t} value={t}>
+                  {selectedSubject !== 'all' ? `Unit ${i + 1}: ${t}` : t}
                 </option>
               ))}
             </select>

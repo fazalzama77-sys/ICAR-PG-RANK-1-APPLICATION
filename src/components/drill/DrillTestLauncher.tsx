@@ -33,9 +33,8 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
   // Custom drill settings
   const [customCount, setCustomCount] = useState(20);
   const [customDuration, setCustomDuration] = useState(15);
-  const [selectedSubjectIds, setSelectedSubjectIds] = useState<string[]>(
-    SUBJECT_LIST.map(s => s.id)
-  );
+  const [selectedSubjectIds, setSelectedSubjectIds] = useState<string[]>(['vpp']);
+  const [selectedTopics, setSelectedTopics] = useState<string[]>([]);
 
   const testResults = StorageService.getTestResults();
   const srsRecords = StorageService.getSRSRecords();
@@ -58,10 +57,29 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
   const toggleSubject = (id: string) => {
     if (selectedSubjectIds.includes(id)) {
       if (selectedSubjectIds.length > 1) {
-        setSelectedSubjectIds(selectedSubjectIds.filter(s => s !== id));
+        const nextSubjects = selectedSubjectIds.filter(s => s !== id);
+        setSelectedSubjectIds(nextSubjects);
+        const removedSub = SUBJECT_LIST.find(s => s.id === id);
+        if (removedSub) {
+          setSelectedTopics(prev => prev.filter(t => !removedSub.topics.includes(t)));
+        }
       }
     } else {
       setSelectedSubjectIds([...selectedSubjectIds, id]);
+    }
+  };
+
+  const selectSingleSubjectForUnits = (id: string) => {
+    setSelectedPreset('custom');
+    setSelectedSubjectIds([id]);
+    setSelectedTopics([]);
+  };
+
+  const toggleTopic = (topic: string) => {
+    if (selectedTopics.includes(topic)) {
+      setSelectedTopics(selectedTopics.filter(t => t !== topic));
+    } else {
+      setSelectedTopics([...selectedTopics, topic]);
     }
   };
 
@@ -119,15 +137,28 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
         pool = questions.filter(q => q.domain === 'animal_science' || ['lpm', 'agb', 'ann'].includes(q.subjectId));
         break;
       case 'custom':
-        title = '⚙️ Custom Rapid Drill';
         qCount = customCount;
         duration = customDuration;
-        pool = questions.filter(q => selectedSubjectIds.includes(q.subjectId));
+        pool = questions.filter(q => {
+          if (!selectedSubjectIds.includes(q.subjectId)) return false;
+          if (selectedTopics.length > 0 && (!q.topic || !selectedTopics.includes(q.topic))) return false;
+          return true;
+        });
+        if (selectedTopics.length === 1) {
+          title = `📚 Unit Drill: ${selectedTopics[0]}`;
+        } else if (selectedTopics.length > 1) {
+          title = `📚 Custom Multi-Unit Drill (${selectedTopics.length} Units)`;
+        } else if (selectedSubjectIds.length === 1) {
+          const sObj = SUBJECT_LIST.find(s => s.id === selectedSubjectIds[0]);
+          title = `⚙️ ${sObj ? sObj.name : 'Subject'} Rapid Drill`;
+        } else {
+          title = '⚙️ Custom Rapid Drill';
+        }
         break;
     }
 
     if (pool.length === 0) {
-      alert('No questions in your bank match this drill selection. Please select different subjects or add questions.');
+      alert('No questions in your bank match this drill selection. Please select different subjects/units or add questions.');
       return;
     }
 
@@ -142,7 +173,8 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
         totalQuestions: selectedQuestions.length,
         durationMinutes: duration,
         feedbackMode: 'instant',
-        selectedSubjectIds
+        selectedSubjectIds,
+        selectedTopics: selectedTopics.length > 0 ? selectedTopics : undefined
       };
       onLaunchInstantDrill(drillConfig, selectedQuestions);
     } else {
@@ -155,6 +187,7 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
         selectedDomains: ['veterinary_science', 'animal_science'],
         selectedYears: ['1st_year', '2nd_year'],
         selectedSubjectIds,
+        selectedTopics: selectedTopics.length > 0 ? selectedTopics : undefined,
         positiveMarks: 4,
         negativeMarks: 1,
         shuffleQuestions: true
@@ -392,32 +425,32 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
             </p>
           </div>
 
-          {/* Preset 7: Custom Drill */}
+          {/* Preset 7: Chapter / Unit & Custom Drill */}
           <div
             onClick={() => setSelectedPreset('custom')}
-            className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${
+            className={`p-4 rounded-xl border-2 cursor-pointer transition-all sm:col-span-2 lg:col-span-3 ${
               selectedPreset === 'custom'
                 ? 'border-emerald-600 bg-emerald-50/60 shadow-xs ring-1 ring-emerald-500'
                 : 'border-slate-200 hover:border-slate-300 bg-white'
             }`}
           >
-            <div className="flex items-center justify-between mb-2">
-              <span className="bg-slate-700 text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">
-                Customized
+            <div className="flex items-center justify-between mb-1.5">
+              <span className="bg-emerald-700 text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">
+                Chapter / Unit-Wise &amp; Custom
               </span>
-              <Sliders className="w-4 h-4 text-slate-500" />
+              <Sliders className="w-4 h-4 text-emerald-700" />
             </div>
-            <h4 className="font-bold text-slate-900 text-sm">⚙️ Custom Drill Settings</h4>
-            <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              Configure your own question count, duration, and subject filters.
+            <h4 className="font-bold text-slate-900 text-sm">📚 Chapter / Unit-Wise &amp; Custom Subject Drill</h4>
+            <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+              Target a specific chapter or syllabus unit (e.g., <em>General Pathology</em>, <em>Systemic Pathology</em>, <em>General Bacteriology</em>, <em>Mendelian Genetics</em>, or <em>Proximate Analysis</em>) — ideal when starting 2nd year!
             </p>
           </div>
 
         </div>
 
-        {/* Custom Settings Panel */}
+        {/* Custom & Chapter-Wise Settings Panel */}
         {selectedPreset === 'custom' && (
-          <div className="pt-4 border-t border-slate-200 space-y-4">
+          <div className="pt-4 border-t border-slate-200 space-y-5">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
                 <label className="block text-xs font-bold text-slate-700 mb-1">
@@ -426,7 +459,7 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
                 <input
                   type="range"
                   min="5"
-                  max="50"
+                  max="60"
                   step="5"
                   value={customCount}
                   onChange={e => setCustomCount(parseInt(e.target.value))}
@@ -441,7 +474,7 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
                 <input
                   type="range"
                   min="5"
-                  max="45"
+                  max="60"
                   step="5"
                   value={customDuration}
                   onChange={e => setCustomDuration(parseInt(e.target.value))}
@@ -451,27 +484,129 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
             </div>
 
             <div>
-              <label className="block text-xs font-bold text-slate-700 mb-2">
-                Included Subjects:
-              </label>
+              <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
+                <label className="block text-xs font-bold text-slate-700">
+                  Step 2A: Choose Subject(s) (Click a subject to focus on its Chapters/Units):
+                </label>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedSubjectIds(SUBJECT_LIST.map(s => s.id));
+                    setSelectedTopics([]);
+                  }}
+                  className="text-[11px] font-bold text-emerald-700 hover:underline"
+                >
+                  Select All Subjects
+                </button>
+              </div>
               <div className="flex flex-wrap gap-2">
                 {SUBJECT_LIST.map(sub => {
                   const isSelected = selectedSubjectIds.includes(sub.id);
+                  const count = questions.filter(q => q.subjectId === sub.id).length;
                   return (
-                    <button
-                      key={sub.id}
-                      type="button"
-                      onClick={() => toggleSubject(sub.id)}
-                      className={`px-2.5 py-1 rounded text-xs font-bold border transition-colors ${
-                        isSelected
-                          ? 'bg-emerald-600 text-white border-emerald-600'
-                          : 'bg-slate-50 text-slate-600 border-slate-200 hover:bg-slate-100'
-                      }`}
-                    >
-                      {sub.code} - {sub.name}
-                    </button>
+                    <div key={sub.id} className="inline-flex items-center rounded-lg border overflow-hidden shadow-2xs">
+                      <button
+                        type="button"
+                        onClick={() => selectSingleSubjectForUnits(sub.id)}
+                        className={`px-2.5 py-1.5 text-xs font-bold transition-colors cursor-pointer ${
+                          isSelected
+                            ? 'bg-emerald-600 text-white'
+                            : 'bg-slate-50 text-slate-700 hover:bg-slate-100'
+                        }`}
+                        title="Focus exclusively on this subject and its chapters"
+                      >
+                        {sub.code} - {sub.name} ({count})
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => toggleSubject(sub.id)}
+                        className={`px-2 py-1.5 text-[10px] font-extrabold border-l transition-colors cursor-pointer ${
+                          isSelected
+                            ? 'bg-emerald-700 text-emerald-100 border-emerald-500'
+                            : 'bg-white text-slate-400 border-slate-200 hover:text-slate-700'
+                        }`}
+                        title="Toggle subject in multi-subject selection"
+                      >
+                        {isSelected ? '✓' : '+'}
+                      </button>
+                    </div>
                   );
                 })}
+              </div>
+            </div>
+
+            {/* Step 2B: Syllabus Units / Chapters (Subsections) */}
+            <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 space-y-3">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div>
+                  <h5 className="text-xs font-extrabold uppercase tracking-wider text-slate-800 flex items-center space-x-1.5">
+                    <Layers className="w-3.5 h-3.5 text-emerald-600" />
+                    <span>Step 2B: Select Specific Chapters / Syllabus Units (Optional)</span>
+                  </h5>
+                  <p className="text-[11px] text-slate-500 mt-0.5">
+                    {selectedTopics.length === 0
+                      ? 'All chapters of the selected subject(s) are currently included. Check specific units below to practice only those chapters!'
+                      : `Filtering strictly to ${selectedTopics.length} selected chapter(s)/unit(s).`}
+                  </p>
+                </div>
+                {selectedTopics.length > 0 && (
+                  <button
+                    type="button"
+                    onClick={() => setSelectedTopics([])}
+                    className="text-xs font-bold text-amber-700 hover:text-amber-900 underline cursor-pointer"
+                  >
+                    Clear Unit Filter (Include All Chapters)
+                  </button>
+                )}
+              </div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-h-96 overflow-y-auto pr-1">
+                {SUBJECT_LIST.filter(s => selectedSubjectIds.includes(s.id)).map(sub => (
+                  <div key={sub.id} className="bg-white rounded-lg border border-slate-200 p-3 space-y-2">
+                    <div className="flex items-center justify-between border-b border-slate-100 pb-1.5">
+                      <span className="font-extrabold text-xs text-slate-900">
+                        {sub.name} ({sub.code})
+                      </span>
+                      <span className="text-[10px] font-semibold text-slate-400">
+                        {sub.topics.length} Units
+                      </span>
+                    </div>
+                    <div className="space-y-1.5">
+                      {sub.topics.map((unitName, idx) => {
+                        const isChecked = selectedTopics.includes(unitName);
+                        const uCount = questions.filter(q => q.subjectId === sub.id && q.topic === unitName).length;
+                        return (
+                          <label
+                            key={unitName}
+                            className={`flex items-start justify-between gap-2 p-2 rounded-lg border text-xs cursor-pointer transition-colors ${
+                              isChecked
+                                ? 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold'
+                                : 'bg-slate-50/60 border-slate-200 text-slate-700 hover:bg-slate-100/70'
+                            }`}
+                          >
+                            <div className="flex items-start space-x-2">
+                              <input
+                                type="checkbox"
+                                checked={isChecked}
+                                onChange={() => toggleTopic(unitName)}
+                                className="mt-0.5 rounded text-emerald-600 focus:ring-emerald-500"
+                              />
+                              <span className="leading-snug">
+                                <span className="text-[10px] font-extrabold uppercase text-emerald-700 mr-1">
+                                  Unit {idx + 1}:
+                                </span>
+                                {unitName}
+                              </span>
+                            </div>
+                            <span className="text-[10px] font-mono font-bold bg-white px-1.5 py-0.5 rounded border border-slate-200 shrink-0">
+                              {uCount} Qs
+                            </span>
+                          </label>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
               </div>
             </div>
           </div>

@@ -185,6 +185,32 @@ export function App() {
     setActiveTab('cbt_config');
   };
 
+  // Launch specific chapter/unit drill or CBT test from dashboard
+  const handleLaunchTopicDrill = (subjectId: string, topic: string, mode: 'instant' | 'cbt') => {
+    const topicQuestions = questions.filter(q => q.subjectId === subjectId && q.topic === topic);
+    if (topicQuestions.length === 0) {
+      alert('No questions found for this chapter/unit.');
+      return;
+    }
+
+    if (mode === 'instant') {
+      const shuffled = [...topicQuestions].sort(() => Math.random() - 0.5).slice(0, Math.min(20, topicQuestions.length));
+      const drillConfig: DrillConfig = {
+        preset: 'custom',
+        title: `📚 Unit Drill: ${topic}`,
+        totalQuestions: shuffled.length,
+        durationMinutes: Math.max(10, Math.round(shuffled.length * 0.8)),
+        feedbackMode: 'instant',
+        selectedSubjectIds: [subjectId],
+        selectedTopics: [topic]
+      };
+      handleStartInstantDrill(drillConfig, shuffled);
+    } else {
+      setPreSelectedQuestions(topicQuestions);
+      setActiveTab('cbt_config');
+    }
+  };
+
   // Launch Spaced Repetition for single subject
   const handleLaunchSubjectSRS = (subjectId: string) => {
     setSrsSubjectFilter(subjectId);
@@ -260,6 +286,7 @@ export function App() {
               setActiveTab('cbt_config');
             }}
             onLaunchSubjectPractice={handleLaunchSubjectPractice}
+            onLaunchTopicDrill={handleLaunchTopicDrill}
             onLaunchSubjectSRS={handleLaunchSubjectSRS}
             onLaunchPresetDrill={handleLaunchPresetDrill}
             onOpenSpacedRepetition={() => {

@@ -152,14 +152,14 @@ export const BulkImportExport: React.FC<BulkImportExportProps> = ({
               const res = StorageService.loadAllMasterQuestions();
               setFeedback({
                 type: 'success',
-                message: `Loaded all ${res.count} verified questions! (565 Base + 350 Core PYQs + 300 Pathology + 300 Microbiology + 150 Anatomy + 60 Parasitology) are now active in your Question Bank.`
+                message: `Loaded all ${res.count} verified questions across all 9 subjects and 54 syllabus chapters/units into your Question Bank!`
               });
               onQuestionsImported();
             }}
             className="flex items-center space-x-1.5 px-3.5 py-1.5 rounded-lg border border-amber-500 bg-amber-500 hover:bg-amber-600 text-slate-900 font-extrabold text-xs shadow-xs transition-colors cursor-pointer"
-            title="Populates the Question Bank with all 1,725 verified authentic questions across all subjects, expanded modules, and PYQ packs"
+            title="Populates the Question Bank with all 2,925 verified authentic questions across all 9 subjects, 54 syllabus subsections, and PYQ packs"
           >
-            <span>⚡ Load Master Bank (1,725 Verified Qs)</span>
+            <span>⚡ Load Master Bank (2,925 Verified Qs)</span>
           </button>
 
           {/* Download JSON Template */}

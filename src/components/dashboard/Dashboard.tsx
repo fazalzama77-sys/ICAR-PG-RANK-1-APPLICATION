@@ -3,6 +3,8 @@ import {
   Target, 
   BookOpen, 
   ChevronRight, 
+  ChevronDown,
+  ChevronUp,
   Play, 
   Layers, 
   ShieldCheck, 
@@ -26,6 +28,7 @@ interface DashboardProps {
   userProfile: UserProfile;
   onLaunchCBT: () => void;
   onLaunchSubjectPractice: (subjectId: string) => void;
+  onLaunchTopicDrill?: (subjectId: string, topic: string, mode: 'instant' | 'cbt') => void;
   onLaunchSubjectSRS?: (subjectId: string) => void;
   onLaunchPresetDrill: (preset: DrillPreset) => void;
   onOpenSpacedRepetition: () => void;
@@ -41,6 +44,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
   userProfile,
   onLaunchCBT,
   onLaunchSubjectPractice,
+  onLaunchTopicDrill,
   onLaunchSubjectSRS,
   onLaunchPresetDrill,
   onOpenSpacedRepetition,
@@ -50,6 +54,14 @@ export const Dashboard: React.FC<DashboardProps> = ({
   onOpenSettings
 }) => {
   const [subjectFilter, setSubjectFilter] = useState<'all' | '1st_year' | '2nd_year' | 'veterinary_science' | 'animal_science'>('all');
+  const [expandedSubjects, setExpandedSubjects] = useState<Record<string, boolean>>({
+    vpp: true,
+    vmc: true
+  });
+
+  const toggleExpandSubject = (subjectId: string) => {
+    setExpandedSubjects(prev => ({ ...prev, [subjectId]: !prev[subjectId] }));
+  };
 
   // Daily Progress & Streak
   const dailyProgress = StorageService.getDailyProgress();
@@ -513,12 +525,13 @@ export const Dashboard: React.FC<DashboardProps> = ({
         </div>
 
         {/* Subjects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-start">
           {displayedSubjects.map(sub => {
             const subQuestions = questions.filter(q => q.subjectId === sub.id);
             const stats = subjectStats[sub.id];
             const hasData = stats && stats.total > 0;
             const accuracy = hasData ? stats.accuracy : null;
+            const isExpanded = !!expandedSubjects[sub.id];
 
             return (
               <div
@@ -535,7 +548,7 @@ export const Dashboard: React.FC<DashboardProps> = ({
                         </span>
                       </div>
                       <span className="text-[10px] text-slate-400 capitalize block mt-0.5">
-                        {sub.year === '1st_year' ? '1st Professional Year' : '2nd Professional Year'} &bull; {sub.domain === 'veterinary_science' ? 'Vet Sci' : 'Animal Sci'}
+                        {sub.year === '1st_year' ? '1st Professional Year' : sub.year === '2nd_year' ? '2nd Professional Year' : '3rd Professional Year'} &bull; {sub.domain === 'veterinary_science' ? 'Vet Sci' : 'Animal Sci'}
                       </span>
                     </div>
 
@@ -562,16 +575,87 @@ export const Dashboard: React.FC<DashboardProps> = ({
                   </p>
                 </div>
 
+                {/* Chapter / Subsection Toggle Button */}
+                {sub.topics && sub.topics.length > 0 && (
+                  <div className="pt-1">
+                    <button
+                      type="button"
+                      onClick={() => toggleExpandSubject(sub.id)}
+                      className="w-full flex items-center justify-between px-2.5 py-1.5 rounded-lg bg-slate-50 hover:bg-slate-100 border border-slate-200/80 text-[11px] font-bold text-slate-700 transition-colors cursor-pointer"
+                    >
+                      <span className="flex items-center space-x-1.5">
+                        <Layers className="w-3.5 h-3.5 text-emerald-600" />
+                        <span>Syllabus Units / Chapters ({sub.topics.length})</span>
+                      </span>
+                      {isExpanded ? (
+                        <ChevronUp className="w-3.5 h-3.5 text-slate-500" />
+                      ) : (
+                        <ChevronDown className="w-3.5 h-3.5 text-slate-500" />
+                      )}
+                    </button>
+
+                    {isExpanded && (
+                      <div className="mt-2 space-y-1.5 max-h-72 overflow-y-auto pr-0.5">
+                        {sub.topics.map((unitName, uIdx) => {
+                          const unitQuestions = subQuestions.filter(q => q.topic === unitName);
+                          return (
+                            <div
+                              key={unitName}
+                              className="p-2 rounded-lg bg-slate-50/90 border border-slate-200/80 hover:border-emerald-300 transition-all flex items-center justify-between gap-2"
+                            >
+                              <div className="min-w-0 flex-1">
+                                <div className="flex items-center space-x-1.5">
+                                  <span className="text-[9px] font-extrabold uppercase px-1.5 py-0.2 rounded bg-emerald-100 text-emerald-800 shrink-0">
+                                    Unit {uIdx + 1}
+                                  </span>
+                                  <span className="text-[10px] font-mono font-bold text-slate-500 shrink-0">
+                                    {unitQuestions.length} Qs
+                                  </span>
+                                </div>
+                                <p className="text-[11px] font-semibold text-slate-800 leading-snug mt-0.5 break-words">
+                                  {unitName}
+                                </p>
+                              </div>
+
+                              {onLaunchTopicDrill && unitQuestions.length > 0 && (
+                                <div className="flex items-center space-x-1 shrink-0">
+                                  <button
+                                    type="button"
+                                    onClick={() => onLaunchTopicDrill(sub.id, unitName, 'instant')}
+                                    className="px-2 py-1 rounded bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-[10px] flex items-center space-x-0.5 shadow-2xs cursor-pointer"
+                                    title={`Instant Active Recall Drill on ${unitName}`}
+                                  >
+                                    <Zap className="w-2.5 h-2.5 fill-current" />
+                                    <span>Drill</span>
+                                  </button>
+                                  <button
+                                    type="button"
+                                    onClick={() => onLaunchTopicDrill(sub.id, unitName, 'cbt')}
+                                    className="px-2 py-1 rounded bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-[10px] shadow-2xs cursor-pointer"
+                                    title={`Take CBT Test on ${unitName}`}
+                                  >
+                                    CBT
+                                  </button>
+                                </div>
+                              )}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
+                )}
+
                 <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
                   <span className="font-mono font-semibold text-slate-500 text-[11px]">
-                    {subQuestions.length} MCQs in Bank
+                    {subQuestions.length} Total MCQs
                   </span>
 
                   <div className="flex items-center space-x-2">
                     {onLaunchSubjectSRS && (
                       <button
                         onClick={() => onLaunchSubjectSRS(sub.id)}
-                        className="p-1.5 bg-indigo-50 hover:bg-indigo-600 text-indigo-700 hover:text-white rounded-lg transition-colors"
+                        className="p-1.5 bg-indigo-50 hover:bg-indigo-600 text-indigo-700 hover:text-white rounded-lg transition-colors cursor-pointer"
                         title="Review Flashcards for this subject"
                       >
                         <Brain className="w-3.5 h-3.5" />
@@ -580,11 +664,11 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
                     <button
                       onClick={() => onLaunchSubjectPractice(sub.id)}
-                      className="px-2.5 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg transition-colors font-bold text-xs flex items-center space-x-1 shadow-2xs"
-                      title="Practice this subject"
+                      className="px-2.5 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg transition-colors font-bold text-xs flex items-center space-x-1 shadow-2xs cursor-pointer"
+                      title="Practice full subject"
                     >
                       <Play className="w-3 h-3 fill-current" />
-                      <span>Drill</span>
+                      <span>Full Subject</span>
                     </button>
                   </div>
                 </div>

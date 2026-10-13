@@ -1,0 +1,34 @@
+In a classic dihybrid cross (AaBb x AaBb) involving complete dominance and independent assortment, the expected phenotypic ratio in F2 progeny is:
+A modified F2 phenotypic ratio of 9 : 7 is characteristic of which type of non-allelic gene interaction?
+The classical phenotypic ratio of 12 : 3 : 1 in F2 generation is produced by which gene interaction?
+The coat color inheritance in Labrador Retrievers (Black, Brown, Yellow) is a classic biological example of:
+In poultry, comb shape inheritance involving Rose (R) and Pea (P) genes produces the new 'Walnut' comb in R_P_ and which single comb phenotype in rrpp?
+The chromosomal sex-determination mechanism in domestic birds (chicken, turkey, duck) is:
+The normal diploid (2n) chromosome number of the domestic river buffalo (Bubalus bubalis) is:
+The normal diploid (2n) chromosome number of domestic cattle (Bos indicus / Bos taurus) is:
+The normal diploid (2n) chromosome number of the domestic dog (Canis familiaris) is:
+The normal diploid (2n) chromosome number of the domestic horse (Equus caballus) is:
+The 'Freemartin' condition in cattle is a sterile female calf co-twin to a male calf, caused by:
+Cytogenetically, freemartin heifers exhibit chimerism of their circulating leukocytes with which karyotype mixture?
+The '1/29 Robertsonian translocation' in cattle is a centric fusion between chromosome 1 and chromosome 29 associated with:
+The Hardy-Weinberg equilibrium principle states that allele and genotype frequencies remain constant across generations in a population provided there is:
+In a large random-mating population at Hardy-Weinberg equilibrium, if the frequency of a recessive allele (q) is 0.2, what is the expected frequency of heterozygous carriers (2pq)?
+If the incidence of a homozygous recessive lethal disease (q^2) in a random mating herd is 1 in 10,000 (0.0001), what is the carrier (heterozygote) frequency?
+The evolutionary force that causes random, non-directional fluctuations in allele frequencies from generation to generation in small populations is termed:
+The 'Founder effect' and 'Population bottleneck' are specialized biological manifestations of:
+In quantitative genetics, phenotypic variance (Vp) is fundamentally partitioned into:
+Narrow-sense heritability (h^2) is defined as the proportion of total phenotypic variance attributable to:
+Broad-sense heritability (H^2) is defined as:
+Which of the following classes of livestock traits characteristically exhibits HIGH heritability (h^2 > 0.40)?
+Which of the following livestock traits characteristically exhibits LOW heritability (h^2 < 0.10)?
+Milk yield and lactation length in dairy cattle generally exhibit which level of heritability?
+Repeatability (r) measures the correlation between repeated records of the same trait on the same individual across time and sets an upper limit to:
+The 'Estimated Breeding Value' (EBV) of an animal for a given trait expresses its genetic superiority or inferiority relative to:
+Which selection method is most effective and accurate for improving traits with HIGH heritability that can be measured directly in both sexes?
+Progeny testing is the indispensable gold-standard selection method for traits that are:
+The 'Best Linear Unbiased Prediction' (BLUP) animal model revolutionized genetic evaluation by:
+The 'inbreeding coefficient' (Fx) calculated by Sewall Wright's formula represents:
+Mating of first-degree relatives (such as sire to daughter or full brother to full sister) yields an inbreeding coefficient of:
+The phenomenon where crossbred (F1) offspring outperform the average of their purebred parental breeds in fitness and production is called:
+Grading-up is a breeding system used to transform non-descript (indigenous scrub) stock into high-yielding stock by continuously backcrossing females to:
+In rotational crossbreeding (criss-crossing between two breeds A and B), what percentage of maximum potential heterosis is permanently retained in equilibrium?
