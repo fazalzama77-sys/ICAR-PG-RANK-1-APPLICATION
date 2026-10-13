@@ -96,7 +96,7 @@ def build_pure_base_565():
 
 def main():
     print("=========================================================================")
-    print("COMPILING MASTER 2,925 QUESTION BANK FROM CLEAN PYTHON SOURCE GENERATORS")
+    print("COMPILING MASTER 3,125 QUESTION BANK FROM CLEAN PYTHON SOURCE GENERATORS")
     print("=========================================================================")
 
     clean_base = build_pure_base_565()          # 565
@@ -113,8 +113,8 @@ def main():
 
     new_vpp_350_p2 = get_all_350_vpp_part2_questions()  # 350
     new_vmc_350_p2 = get_all_350_vmc_part2_questions()  # 350
-    new_ann_250 = get_all_250_ann_questions()           # 250
-    new_agb_250 = get_all_250_agb_questions()           # 250
+    new_ann_250 = get_all_250_ann_questions()           # 350
+    new_agb_250 = get_all_250_agb_questions()           # 350
 
     master_raw = (
         clean_base
@@ -130,7 +130,7 @@ def main():
     )
 
     print(f"Total Master Questions Assembled: {len(master_raw)}")
-    assert len(master_raw) == 2925, f"Expected 2,925 questions, got {len(master_raw)}"
+    assert len(master_raw) == 3125, f"Expected 3,125 questions, got {len(master_raw)}"
 
     # Map every question to its Canonical Syllabus Unit / Chapter (preserving subTopic)
     for q in master_raw:
@@ -145,7 +145,7 @@ def main():
         subj = q["subjectId"]
         assert q["topic"] in CANONICAL_UNITS[subj], f"Non-canonical topic {q['topic']} for {subj}"
 
-    # Apply Intra-Question Option-Length Parity Engine across all 2,925 questions
+    # Apply Intra-Question Option-Length Parity Engine across all 3,125 questions
     master_equalized = equalize_question_bank_options(master_raw)
     eq_by_id = {q["id"]: q for q in master_equalized}
 

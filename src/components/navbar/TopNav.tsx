@@ -103,7 +103,7 @@ export const TopNav: React.FC<TopNavProps> = ({
                   </span>
                 </div>
                 <p className="text-[11px] text-slate-500 font-medium whitespace-nowrap leading-none mt-1 truncate hidden md:block">
-                  B.V.Sc. &amp; A.H. CBT Prep Portal &bull; 1,925 MCQs
+                  B.V.Sc. &amp; A.H. CBT Prep Portal &bull; 3,125 MCQs
                 </p>
               </div>
             </div>

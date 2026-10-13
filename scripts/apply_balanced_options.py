@@ -25,8 +25,8 @@ def apply_balance():
     vpa_exp_json = load_pack("vpa_60_new.json")             # 60
     vpp_exp2_json = load_pack("vpp_350_part2.json")         # 350
     vmc_exp2_json = load_pack("vmc_350_part2.json")         # 350
-    ann_exp_json = load_pack("ann_250_new.json")            # 250
-    agb_exp_json = load_pack("agb_250_new.json")            # 250
+    ann_exp_json = load_pack("ann_250_new.json")            # 350
+    agb_exp_json = load_pack("agb_250_new.json")            # 350
 
     all_questions = (
         base_json
@@ -42,7 +42,7 @@ def apply_balance():
     )
 
     print(f"Loaded total {len(all_questions)} questions across 10 source packs.")
-    assert len(all_questions) == 2925, f"Expected 2,925 questions, got {len(all_questions)}"
+    assert len(all_questions) == 3125, f"Expected 3,125 questions, got {len(all_questions)}"
 
     # Check ID uniqueness
     ids = set()
@@ -51,7 +51,7 @@ def apply_balance():
             raise ValueError(f"Duplicate ID found: {q['id']}")
         ids.add(q["id"])
 
-    # Check Stem uniqueness across all 2,925 questions
+    # Check Stem uniqueness across all 3,125 questions
     stems = {}
     dup_stems = []
     for q in all_questions:
@@ -107,7 +107,7 @@ def apply_balance():
             shuffled_map[q["id"]] = q_updated
 
     total_counts = Counter(q["correctOptionIndex"] for q in shuffled_map.values())
-    print("Balanced A/B/C/D option distribution across all 2,925 questions:", dict(total_counts))
+    print("Balanced A/B/C/D option distribution across all 3,125 questions:", dict(total_counts))
 
     def map_list(q_list):
         return [shuffled_map[q["id"]] for q in q_list]
@@ -172,14 +172,14 @@ def apply_balance():
     assert len(updated_vmc_all_exp) == 650
     assert len(updated_van_exp) == 150
     assert len(updated_vpa_exp) == 60
-    assert len(updated_ann_exp) == 250
-    assert len(updated_agb_exp) == 250
+    assert len(updated_ann_exp) == 350
+    assert len(updated_agb_exp) == 350
 
     # Write src/data/questionPacks/pyqQuestions.ts
     pyq_ts_path = os.path.join(packs_dir, "pyqQuestions.ts")
     with open(pyq_ts_path, "w", encoding="utf-8") as f:
         f.write("// ICAR AIEEA PG (M.V.Sc.) Official-Pattern Question Modules\n")
-        f.write("// Core PYQs (350) + Expanded Pathology (650) + Expanded Microbiology (650) + Expanded Anatomy (150) + Expanded Parasitology (60) + Expanded Nutrition (250) + Expanded Genetics (250)\n")
+        f.write("// Core PYQs (350) + Expanded Pathology (650) + Expanded Microbiology (650) + Expanded Anatomy (150) + Expanded Parasitology (60) + Expanded Nutrition (350) + Expanded Genetics (350)\n")
         f.write("import { Question } from '../../types';\n\n")
         f.write("export const VAN_PYQ_QUESTIONS: Question[] = " + json.dumps(van_pyqs, indent=2, ensure_ascii=False) + ";\n\n")
         f.write("export const VPP_PYQ_QUESTIONS: Question[] = " + json.dumps(vpp_pyqs, indent=2, ensure_ascii=False) + ";\n\n")

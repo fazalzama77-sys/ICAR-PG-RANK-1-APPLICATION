@@ -508,11 +508,11 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                   </button>
                 </div>
 
-                {/* 3. Restore Default 2,925 Questions */}
+                {/* 3. Restore Default 3,125 Questions */}
                 <div className="flex items-center justify-between p-3 rounded-lg border border-slate-200 bg-white hover:bg-slate-50 transition-colors">
                   <div className="pr-3">
-                    <span className="font-bold text-xs text-slate-800 block">Restore Official Question Bank (2,925 MCQs)</span>
-                    <span className="text-[11px] text-slate-500">Restores all 2,925 verified base questions and ICAR PG PYQs to their textbook default.</span>
+                    <span className="font-bold text-xs text-slate-800 block">Restore Official Question Bank (3,125 MCQs)</span>
+                    <span className="text-[11px] text-slate-500">Restores all 3,125 verified base questions and ICAR PG PYQs to their textbook default.</span>
                   </div>
                   <button
                     type="button"
@@ -548,7 +548,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
                       Danger Zone: Factory Reset (Reset All Data)
                     </h4>
                     <p className="text-xs text-rose-800 mt-0.5 leading-relaxed">
-                      Permanently wipes all test history, scorecards, SRS flashcard progress, and custom questions, re-seeding the clean default 2,925 official questions and candidate profile.
+                      Permanently wipes all test history, scorecards, SRS flashcard progress, and custom questions, re-seeding the clean default 3,125 official questions and candidate profile.
                     </p>
                   </div>
                 </div>
@@ -597,7 +597,7 @@ export const SettingsModal: React.FC<SettingsModalProps> = ({
             </div>
 
             <p className="text-xs text-slate-600 leading-relaxed">
-              You are about to wipe all saved test scores, analysis history, SRS flashcards, and custom questions. The question bank will be restored to the 2,925 official questions.
+              You are about to wipe all saved test scores, analysis history, SRS flashcards, and custom questions. The question bank will be restored to the 3,125 official questions.
             </p>
 
             <div>

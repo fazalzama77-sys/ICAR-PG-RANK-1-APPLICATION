@@ -21,13 +21,13 @@ def main():
     print("=========================================================================")
     print(f"4-PASS AUDIT OF MASTER QUESTION BANK ({len(qs)} QUESTIONS)")
     print("=========================================================================")
-    assert len(qs) == 2925, f"Expected 2925, got {len(qs)}"
+    assert len(qs) == 3125, f"Expected 3125, got {len(qs)}"
 
     # Pass 1: Subject counts & Index distribution
     subj_counts = Counter(q["subjectId"] for q in qs)
     expected = {
         "van": 320, "vpy": 120, "vbc": 163, "lpm": 52,
-        "vpp": 792, "vmc": 797, "vpa": 107, "agb": 284, "ann": 290
+        "vpp": 792, "vmc": 797, "vpa": 107, "agb": 384, "ann": 390
     }
     print("\n--- PASS 1: SUBJECT TOTALS & A/B/C/D INDEX BALANCE ---")
     for s, exp_n in expected.items():
@@ -75,18 +75,18 @@ def main():
         if len(q["options"][q["correctOptionIndex"]].split()) == max(len(o.split()) for o in q["options"])
         and sum(1 for o in q["options"] if len(o.split()) == max(len(x.split()) for x in q["options"])) == 1
     )
-    print(f"\n  OVERALL MASTER BANK (2,925 Qs):")
-    print(f"    Char-longest correct: {tot_lc}/2925 ({tot_lc/2925*100:.1f}%) [Random baseline = 25.0%]")
-    print(f"    Word-longest correct: {tot_lw}/2925 ({tot_lw/2925*100:.1f}%) [Random baseline = 25.0%]")
+    print(f"\n  OVERALL MASTER BANK (3,125 Qs):")
+    print(f"    Char-longest correct: {tot_lc}/3125 ({tot_lc/3125*100:.1f}%) [Random baseline = 25.0%]")
+    print(f"    Word-longest correct: {tot_lw}/3125 ({tot_lw/3125*100:.1f}%) [Random baseline = 25.0%]")
 
     # Pass 4: Deduplication & Integrity
     ids = set(q["id"] for q in qs)
     stems = set(" ".join(q["questionText"].lower().split()) for q in qs)
     print("\n--- PASS 4: DEDUPLICATION & INTEGRITY ---")
-    print(f"  Unique IDs:   {len(ids)}/2925 (0 duplicates)")
-    print(f"  Unique Stems: {len(stems)}/2925 ({2925 - len(stems)} duplicates)")
-    assert len(ids) == 2925
-    assert len(stems) == 2925
+    print(f"  Unique IDs:   {len(ids)}/3125 (0 duplicates)")
+    print(f"  Unique Stems: {len(stems)}/3125 ({3125 - len(stems)} duplicates)")
+    assert len(ids) == 3125
+    assert len(stems) == 3125
     print("  ALL 4 AUDIT PASSES SUCCEEDED 100%!")
 
 

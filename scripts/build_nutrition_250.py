@@ -14,6 +14,9 @@ from ann_mod3 import get_module3_questions
 from ann_mod4 import get_module4_questions
 from ann_mod5 import get_module5_questions
 from ann_mod6 import get_module6_questions
+from ann_mod1_principles_ruminant import get_ann_module1_questions
+from ann_mod2_toxins_monogastric_clinical import get_ann_module2_questions
+from canonical_topics import map_question_to_canonical_unit
 
 CANONICAL_TOPICS = {
     "Principles of Nutrition, Proximate Analysis & Nutrient Metabolism",
@@ -31,6 +34,8 @@ def get_all_250_ann_questions():
     m4 = get_module4_questions()  # 45
     m5 = get_module5_questions()  # 35
     m6 = get_module6_questions()  # 35
+    m7 = get_ann_module1_questions()  # 50
+    m8 = get_ann_module2_questions()  # 50
 
     assert len(m1) == 45, f"Expected 45 in Mod 1, got {len(m1)}"
     assert len(m2) == 45, f"Expected 45 in Mod 2, got {len(m2)}"
@@ -38,14 +43,15 @@ def get_all_250_ann_questions():
     assert len(m4) == 45, f"Expected 45 in Mod 4, got {len(m4)}"
     assert len(m5) == 35, f"Expected 35 in Mod 5, got {len(m5)}"
     assert len(m6) == 35, f"Expected 35 in Mod 6, got {len(m6)}"
+    assert len(m7) == 50, f"Expected 50 in Mod 7, got {len(m7)}"
+    assert len(m8) == 50, f"Expected 50 in Mod 8, got {len(m8)}"
 
-    combined = m1 + m2 + m3 + m4 + m5 + m6
-    assert len(combined) == 250, f"Expected 250 ANN questions, got {len(combined)}"
+    combined = m1 + m2 + m3 + m4 + m5 + m6 + m7 + m8
+    assert len(combined) == 350, f"Expected 350 ANN questions, got {len(combined)}"
 
     formatted = []
     for idx, item in enumerate(combined):
         q_text, opts, correct_idx, expl, is_pyq, topic = item
-        assert topic in CANONICAL_TOPICS, f"Invalid topic at index {idx}: {topic}"
         assert len(opts) == 4, f"Expected 4 options at index {idx}, got {len(opts)}"
         assert 0 <= correct_idx < 4, f"Invalid correct_idx at index {idx}: {correct_idx}"
 
@@ -55,21 +61,25 @@ def get_all_250_ann_questions():
         else:
             tags.append("Core Concept")
 
-        formatted.append({
+        q_obj = {
             "id": f"ann_exp_{idx+1:03d}",
             "domain": "animal_science",
             "year": "2nd_year",
             "subjectId": "ann",
             "topic": topic,
             "questionText": q_text,
-            "options": opts,
+            "options": list(opts),
             "correctOptionIndex": correct_idx,
             "explanation": expl,
             "difficulty": "Hard" if is_pyq else "Medium",
             "tags": tags,
             "isPYQ": is_pyq,
             "createdAt": 1777000000000 + idx
-        })
+        }
+        if topic not in CANONICAL_TOPICS:
+            q_obj["topic"] = map_question_to_canonical_unit(q_obj)
+        assert q_obj["topic"] in CANONICAL_TOPICS, f"Invalid topic at index {idx}: {q_obj['topic']}"
+        formatted.append(q_obj)
     return formatted
 
 if __name__ == '__main__':
@@ -81,8 +91,8 @@ if __name__ == '__main__':
     # Verify intra-batch uniqueness
     texts = [q['questionText'].strip() for q in qs]
     unique_texts = set(texts)
-    assert len(unique_texts) == 250, f"Duplicate question text found: {len(unique_texts)} unique out of 250"
-    print("Intra-batch uniqueness verification: 100% passed (250 unique stems, 0 duplicates).")
+    assert len(unique_texts) == 350, f"Duplicate question text found: {len(unique_texts)} unique out of 350"
+    print("Intra-batch uniqueness verification: 100% passed (350 unique stems, 0 duplicates).")
 
     # Verify against existing_ann_stems.txt
     existing_path = os.path.join(scripts_dir, 'existing_ann_stems.txt')
@@ -107,5 +117,5 @@ if __name__ == '__main__':
             longest_correct_count += 1
         if c_len >= 1.8 * avg_other and (c_len - max_other) >= 20:
             severe_bias_count += 1
-    print(f"Correct option strictly longest: {longest_correct_count}/250 ({longest_correct_count/2.5:.1f}%)")
-    print(f"Severe length bias count: {severe_bias_count}/250")
+    print(f"Correct option strictly longest: {longest_correct_count}/350 ({longest_correct_count/3.5:.1f}%)")
+    print(f"Severe length bias count: {severe_bias_count}/350")
