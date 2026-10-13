@@ -9,6 +9,7 @@ from agb_mod1_genetics_molecular import get_agb_module1_questions
 from agb_mod2_quant_breeding import get_agb_module2_questions
 from ann_mod1_principles_ruminant import get_ann_module1_questions
 from ann_mod2_toxins_monogastric_clinical import get_ann_module2_questions
+from canonical_topics import map_question_to_canonical_unit
 
 
 def build_packs():
@@ -22,42 +23,44 @@ def build_packs():
     assert len(ann_tuples) == 100, f"Expected 100 ANN questions, got {len(ann_tuples)}"
 
     agb_json = []
-    for i, (q_text, opts, ans_idx, expl, is_pyq, topic) in enumerate(agb_tuples, start=1):
+    for i, (q_text, opts, ans_idx, expl, is_pyq, topic) in enumerate(agb_tuples, start=251):
         assert len(opts) == 4, f"AGB Q{i} does not have 4 options"
         assert len(set(opts)) == 4, f"AGB Q{i} has duplicate options: {opts}"
         assert 0 <= ans_idx < 4, f"AGB Q{i} invalid ans_idx: {ans_idx}"
-        agb_json.append({
+        q_obj = {
             "id": f"agb_exp_{i:03d}",
             "domain": "animal_science",
             "year": "2nd_year",
             "subjectId": "agb",
-            "topic": f"{topic} (ICAR PG PYQ)" if is_pyq else topic,
+            "topic": topic,
             "questionText": q_text,
             "options": list(opts),
             "correctOptionIndex": ans_idx,
             "explanation": expl,
             "difficulty": "Hard" if i % 2 == 1 else "Medium",
             "tags": [
-                "Animal Genetics & Breeding",
+                "Genetics & Breeding",
                 "AGB",
                 "High-Yield",
                 "ICAR PG PYQ" if is_pyq else "ICAR PG Pattern"
             ],
             "isPYQ": bool(is_pyq),
-            "createdAt": 1775000000000 + i * 1000
-        })
+            "createdAt": 1778100000000 + i * 1000
+        }
+        q_obj["topic"] = map_question_to_canonical_unit(q_obj)
+        agb_json.append(q_obj)
 
     ann_json = []
-    for i, (q_text, opts, ans_idx, expl, is_pyq, topic) in enumerate(ann_tuples, start=1):
+    for i, (q_text, opts, ans_idx, expl, is_pyq, topic) in enumerate(ann_tuples, start=251):
         assert len(opts) == 4, f"ANN Q{i} does not have 4 options"
         assert len(set(opts)) == 4, f"ANN Q{i} has duplicate options: {opts}"
         assert 0 <= ans_idx < 4, f"ANN Q{i} invalid ans_idx: {ans_idx}"
-        ann_json.append({
+        q_obj = {
             "id": f"ann_exp_{i:03d}",
             "domain": "animal_science",
             "year": "2nd_year",
             "subjectId": "ann",
-            "topic": f"{topic} (ICAR PG PYQ)" if is_pyq else topic,
+            "topic": topic,
             "questionText": q_text,
             "options": list(opts),
             "correctOptionIndex": ans_idx,
@@ -70,8 +73,10 @@ def build_packs():
                 "ICAR PG PYQ" if is_pyq else "ICAR PG Pattern"
             ],
             "isPYQ": bool(is_pyq),
-            "createdAt": 1775100000000 + i * 1000
-        })
+            "createdAt": 1778200000000 + i * 1000
+        }
+        q_obj["topic"] = map_question_to_canonical_unit(q_obj)
+        ann_json.append(q_obj)
 
     agb_out = os.path.join(packs_dir, "agb_100_new.json")
     ann_out = os.path.join(packs_dir, "ann_100_new.json")

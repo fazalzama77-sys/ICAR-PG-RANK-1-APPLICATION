@@ -138,7 +138,64 @@ To ensure the correct option is NEVER systematically the longest option (having 
 
 ---
 
-## 7. How to Run & Rebuild the Question Bank
+## 7. Core Engine Modules & Functional Capabilities
+
+### 7.1 Authentic NTA CBT Simulator (`src/components/cbt/`)
+1. **5-State Official NTA Question Palette (`QuestionPalette.tsx`)**:
+   - **State 0 (`not_visited`)**: Grey rectangular badge.
+   - **State 1 (`not_answered`)**: Red pentagon/tag badge.
+   - **State 2 (`answered`)**: Green badge.
+   - **State 3 (`marked_for_review`)**: Purple circle badge (unanswered).
+   - **State 4 (`answered_and_marked`)**: Purple circle with green check badge (**Evaluated for marks per official NTA rules**).
+2. **Real-Time Scoring Engine**:
+   - **Correct Answer**: $+4\text{ Marks}$
+   - **Incorrect Answer**: $-1\text{ Mark}$ (25% Negative Marking)
+   - **Unanswered / Marked Only**: $0\text{ Marks}$
+3. **Interactive CBT Controls**:
+   - `Save & Next`, `Clear Response`, `Mark for Review & Next`, `Save & Mark for Review`.
+   - Question Type Badges (`STATEMENT`, `ASSERTION-REASON`, `MATCH LIST I & II`, `CLINICAL CASE`, `NUMERICAL`).
+   - Built-in **Elimination Strikethrough Mode (`✂️ Eliminate`)** allowing candidates to cross out ruled-out distractors during exam simulation.
+   - **Auto-Pause & Resume**: Automatically pauses timer when switching tabs or minimizing the app; persists active session to `localStorage` (`icar_pg_active_cbt_session_v1`) to prevent progress loss on accidental refresh.
+
+### 7.2 Instant Active-Learning Rapid Drill (`src/components/drill/`)
+- **Preset & Custom Drills**: 10, 20, 30, 50, or 100 questions filtered by Subject, **Specific Syllabus Units / Chapters**, Question Format, or Smart Pool (`Weakest / Mistake Questions`, `Unseen Questions`, `PYQ Only`).
+- **Immediate Cognitive Feedback**: Instant $+4 / -1$ feedback, expandable textbook reference notes, and 1-click **Enroll in Spaced Repetition (SRS)** directly after answering each question.
+
+### 7.3 Spaced Repetition System (SM-2 Active Recall) (`src/components/srs/SRSReviewView.tsx`)
+- Automatic enrollment of wrong or guessed questions from CBT tests and Rapid Drills.
+- **4-Grade Recall Rating**: `Again (<1d)`, `Hard (2d)`, `Good (Interval × Ease)`, `Easy (Bonus Interval)`.
+
+### 7.4 Post-Exam Analytics & 4-Quadrant Time-vs-Accuracy Matrix (`src/components/analytics/`)
+- Subject-wise and Unit-wise accuracy breakdown, negative-mark bleed audit, and per-question time-spent classification (` Fast & Accurate`, `Slow & Accurate`, `Careless Rush Error`, `Conceptual Trap`).
+
+---
+
+## 8. Mobile UI Safe-Area, Punch-Hole & Ergonomic Viewport Architecture
+
+Engineered for distraction-free study on Android/iOS smartphones (`360px–430px` viewports) and native Capacitor WebViews:
+1. **Viewport Fit & Hardware Cutout Safe Areas (`index.html`, `src/index.css`)**:
+   - `viewport-fit=cover` with CSS utilities `.safe-top`, `.safe-bottom`, and `.safe-x` respecting `env(safe-area-inset-top)` and `env(safe-area-inset-bottom)` so notification bars, punch-hole camera cutouts, and gesture navigation bars never clip headers or action buttons.
+2. **Compact 2-Row Mobile Header (`src/components/layout/Header.tsx`)**:
+   - Row 1 houses Brand Identity, Candidate Roll Badge, Streak Pill, and Settings Gear.
+   - Row 2 provides a horizontally scrollable pill bar (`Dashboard`, `Rapid Drill`, `Full CBT`, `SRS`, `Q-Bank`, `Analytics`) with `no-scrollbar`.
+3. **Ergonomic Mobile CBT & Rapid Drill Viewports**:
+   - Slide-up **Bottom Sheet Question Palette Drawer** on mobile (`< 1024px`) replacing the desktop sidebar.
+   - **2×2 Thumb-Friendly Action Bar** pinned above the home-indicator safe area (`Save & Next`, `Clear`, `Review`, `Save & Review`).
+   - **Hardware Back-Button Guard (`popstate`)**: Pressing the phone's physical/gesture Back button during a live CBT or Drill closes open drawers first or prompts confirmation before exiting the test.
+
+---
+
+## 9. Offline PWA & Native Android APK Architecture
+
+- **100% Offline-First Storage (`src/storage/db.ts`, `src/services/CacheService.ts`)**:
+  - Automatic migration (`QUESTIONS_BALANCED_VERSION = 'icar_pg_questions_balanced_v4'`) seamlessly upgrades local storage to the **2,925-question bank** while preserving any custom user-added questions, test history, and SRS progress.
+- **Android APK Build (`android/`)**:
+  - Configured with `@capacitor/core` and `@capacitor/android` (`com.icarpgrank1.cbtprep`).
+  - System Bars configured via `MainActivity.java` so Android status bar and navigation bar never overlap WebView content.
+
+---
+
+## 10. How to Run, Rebuild & Audit
 
 ### Rebuild & Audit All 2,925 Questions from Python Sources
 ```powershell
@@ -147,10 +204,17 @@ python scripts/compile_pyqs.py
 python scripts/audit_2925.py
 ```
 
-### Local Development & Production Build
+### Local Development & Production Web Build
 ```powershell
 npm run dev
 npm run build
+```
+
+### Sync & Build Native Android APK
+```powershell
+npm run android:sync
+cd android
+.\gradlew assembleDebug
 ```
 
 ---
