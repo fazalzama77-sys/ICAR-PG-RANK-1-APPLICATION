@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "agb_exp_001",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "The swamp buffalo (Bubalus carabanensis, 2n = 48) differs cytogenetically from the river buffalo (Bubalus bubalis, 2n = 50) due to a tandem fusion between which river buffalo chromosomes?",
+    "options": [
+      "Chromosomes 1q and 29",
+      "Chromosomes 4p and 9",
+      "Chromosomes 5p and 14",
+      "Chromosomes 2q and 16"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Swamp buffaloes (2n = 48) evolved from river buffaloes (2n = 50) via a permanent telomere-centromere tandem fusion between the short arm of river buffalo chromosome 4 (4p) and chromosome 9, creating a large metacentric chromosome.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000001000
+  },
+  {
+    "id": "agb_exp_002",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "While both domestic sheep (Ovis aries, 2n = 54) and goats (Capra hircus, 2n = 60) share a Fundamental Number (NF) of 60 autosomal arms, how do their autosomal karyotypes differ?",
+    "options": [
+      "Sheep have 5 pairs of submetacentric and 21 pairs of telocentric autosomes",
+      "Goats have 3 pairs of metacentric and 26 pairs of acrocentric autosomes",
+      "Goats have 6 pairs of submetacentric and 23 pairs of acrocentric autosomes",
+      "Sheep have 3 pairs of metacentric and 23 pairs of acrocentric autosomes"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Goats retain the ancestral bovid karyotype of 2n = 60 (all 29 pairs of autosomes are acrocentric), whereas sheep have 2n = 54 because 6 pairs of ancestral acrocentrics underwent 3 Robertsonian centric fusions to form 3 pairs of large bi-armed metacentric autosomes plus 23 pairs of acrocentrics.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000002000
+  },
+  {
+    "id": "agb_exp_003",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "Which of the following pairs of domestic mammals possesses the exact same diploid chromosome number of 2n = 38?",
+    "options": [
+      "Domestic pig (Sus scrofa) and Domestic cat (Felis catus)",
+      "Domestic horse (Equus caballus) and Donkey (Equus asinus)",
+      "Dromedary camel (Camelus dromedarius) and Llama (Lama glama)",
+      "Domestic rabbit (Oryctolagus cuniculus) and Ferret (Mustela putorius)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Both the domestic pig (Sus scrofa, 2n = 38) and the domestic cat (Felis catus, 2n = 38) possess 38 diploid chromosomes, whereas rabbits have 2n = 44, donkeys 2n = 62, horses 2n = 64, and camels/llamas 2n = 74.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000003000
+  },
+  {
+    "id": "agb_exp_004",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "How is the Y chromosome of indigenous zebu cattle (Bos indicus) cytogenetically distinguished from the Y chromosome of European taurine cattle (Bos taurus)?",
+    "options": [
+      "Metacentric in Bos indicus and telocentric in Bos taurus",
+      "Isochromosome in Bos indicus and ring chromosome in Bos taurus",
+      "Acrocentric in Bos indicus and submetacentric in Bos taurus",
+      "Submetacentric in Bos indicus and acrocentric in Bos taurus"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "While both Bos indicus and Bos taurus have 2n = 60 (with 58 acrocentric autosomes and submetacentric X chromosomes), a pericentric inversion makes the Y chromosome acrocentric in Bos indicus and small submetacentric/metacentric in Bos taurus.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000004000
+  },
+  {
+    "id": "agb_exp_005",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "What is the normal diploid chromosome number (2n) of the Dromedary camel (Camelus dromedarius) and Bactrian camel (Camelus bactrianus)?",
+    "options": [
+      "2n = 74",
+      "2n = 64",
+      "2n = 78",
+      "2n = 62"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "All Old World camelids (Dromedary and Bactrian camels) as well as New World camelids (Llama, Alpaca, Guanaco, Vicuna) share a conserved diploid karyotype of 2n = 74 chromosomes, enabling fertile interspecific hybrids.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000005000
+  },
+  {
+    "id": "agb_exp_006",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "In differential chromosome staining, barium hydroxide denaturation followed by Giemsa staining (C-banding) selectively stains:",
+    "options": [
+      "Telomeric TTAGGG hexanucleotide repeats at chromosome ends",
+      "Active 18S and 28S rRNA cistrons on secondary constrictions",
+      "Intercalary euchromatic gene clusters along chromatid arms",
+      "Centromeric constitutive heterochromatin rich in satellite DNA"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "C-banding extracts non-centromeric DNA using alkali/acid treatment and specifically stains constitutive heterochromatin localized around centromeres and the distal Y chromosome.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000006000
+  },
+  {
+    "id": "agb_exp_007",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Which chromosome banding method employs Silver Nitrate (AgNO3) to selectively stain acidic non-histone proteins bound to transcriptionally active rRNA genes?",
+    "options": [
+      "G-banding (Trypsin-Giemsa dark AT-rich banding)",
+      "Q-banding (Quinacrine mustard fluorescence banding)",
+      "NOR-banding (Nucleolar Organizer Region staining)",
+      "R-banding (Reverse thermal GC-rich euchromatic banding)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Ag-NOR staining binds argyrophilic proteins (nucleolin, B23) at the secondary constrictions (Nucleolar Organizer Regions) of specific chromosomes that were transcriptionally active during the preceding interphase.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000007000
+  },
+  {
+    "id": "agb_exp_008",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "How many inactivated X-chromosome Barr bodies are observed in the somatic interphase nuclei of a bull diagnosed with bovine Klinefelter syndrome (61,XXY karyotype)?",
+    "options": [
+      "Two Barr bodies",
+      "One Barr body",
+      "Zero Barr bodies",
+      "Three Barr bodies"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Under Mary Lyon's dosage compensation rule, the number of Barr bodies equals the number of X chromosomes minus one (nX - 1). A 61,XXY bull possesses 2 X chromosomes, so 2 - 1 = 1 Barr body is condensed.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000008000
+  },
+  {
+    "id": "agb_exp_009",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "A heterozygous carrier bull of the '1/29 Robertsonian centric fusion translocation' (rob(1;29)) exhibits which somatic karyotype and reproductive profile?",
+    "options": [
+      "2n = 61 with complete azoospermia and bilateral testicular hypoplasia",
+      "2n = 58 with severe brachygnathia and congenital lethal hydrocephalus",
+      "2n = 59 with normal semen quality but elevated early embryonic mortality",
+      "2n = 60 with persistent Mullerian ducts and masculinized internal genitalia"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Centric fusion of acrocentric chromosomes 1 and 29 reduces the diploid number to 2n = 59 in heterozygotes (and 2n = 58 in homozygotes). Carrier bulls appear phenotypically normal with normal semen, but trivalent malsegregation during meiosis produces unbalanced monosomic/trisomic gametes that die as early embryos.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000009000
+  },
+  {
+    "id": "agb_exp_010",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "In domestic poultry (Gallus gallus, 2n = 78), the microchromosomes (chromosomes 9 to 39) differ molecularly from the macrochromosomes in having:",
+    "options": [
+      "Higher gene density, higher GC content, and higher recombination rates",
+      "Lower CpG island density and complete absence of meiotic chiasma formation",
+      "Circular mitochondrial-like DNA lacking canonical histone nucleosome cores",
+      "Non-coding repetitive heterochromatin with zero functional structural genes"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Avian microchromosomes account for only ~25% of total nuclear DNA mass but harbor ~50% of all chicken genes, exhibiting ultra-high gene density, rich GC/CpG island content, and high meiotic crossover rates.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG Pattern"
+    ],
+    "isPYQ": false,
+    "createdAt": 1775000010000
+  },
+  {
+    "id": "agb_exp_011",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "In pigs, 'Reciprocal Translocations' (such as rcp(13;17)) are the primary chromosomal abnormality screened in AI boars because heterozygous carrier boars exhibit:",
+    "options": [
+      "Spontaneous sex reversal of genetically XX embryos into sterile intersexes",
+      "Normal libido and semen quality but a 25% to 50% reduction in litter size",
+      "Complete absence of spermatogenesis and total inability to mount estrous sows",
+      "100% neonatal mortality of all piglets born due to acute hemolytic icterus"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Reciprocal translocations in boars do not impair spermatogenesis or semen motility, but adjacent-1 and adjacent-2 segregation of the quadrivalent during meiosis generates ~50% unbalanced gametes, causing early embryonic death and small litter sizes.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG Pattern"
+    ],
+    "isPYQ": false,
+    "createdAt": 1775000011000
+  },
+  {
+    "id": "agb_exp_012",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "During meiotic prophase I, a single crossover within the inversion loop of a 'paracentric inversion' heterozygote produces which abnormal chromatid products?",
+    "options": [
+      "Two monocentric recombinant duplication-deletion chromatids",
+      "Four balanced viable gametes with shifted centromeric indices",
+      "A Robertsonian metacentric chromosome lacking satellite NORs",
+      "One acentric fragment and one dicentric bridge chromatid"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "A paracentric inversion does not include the centromere; crossing over within its inversion loop yields one acentric fragment (lost in division) and one dicentric chromatid that forms an anaphase I bridge. Pericentric inversions include the centromere and yield monocentric duplication-deletion chromatids.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000012000
+  },
+  {
+    "id": "agb_exp_013",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Porcine Stress Syndrome (PSS) and Pale, Soft, Exudative (PSE) pork in Pietrain and Landrace swine result from an Arg615Cys point mutation (C1843T) in which gene?",
+    "options": [
+      "Rendement Napole (PRKAG3) AMP-activated kinase gene on chromosome 15",
+      "Ryanodine receptor 1 (RYR1) calcium release channel gene on chromosome 6",
+      "Halothane dehydrogenase (HALD) microsomal cytochrome gene on chromosome 4",
+      "Myosin heavy chain 2B (MYH4) glycolytic muscle fiber gene on chromosome 12"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "A substitution of cytosine by thymine at nucleotide 1843 (Arg615Cys) in the skeletal muscle sarcoplasmic reticulum calcium channel gene (RYR1) causes hypersensitive Ca2+ release, hypermetabolism, lactic acidosis, and PSE meat.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000013000
+  },
+  {
+    "id": "agb_exp_014",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "In Hampshire pigs, the dominant 'Acid Meat' or 'Rendement Napole' (RN-) phenotype—characterized by high muscle glycogen and low ultimate pH—is caused by an Arg200Gln mutation in:",
+    "options": [
+      "RYR1 gene encoding sarcoplasmic reticulum calcium release channel",
+      "IGF2 gene encoding paternally expressed insulin-like growth factor 2",
+      "MC4R gene encoding hypothalamic melanocortin-4 feed intake receptor",
+      "PRKAG3 gene encoding AMP-activated protein kinase gamma-3 subunit"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "The RN- allele in Hampshire pigs is a dominant mutation in PRKAG3 on SSC15 that increases skeletal muscle glycogen content by ~70%, leading to excessive post-mortem lactic acid accumulation, low ultimate pH (~5.3), and poor water-holding capacity during curing.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000014000
+  },
+  {
+    "id": "agb_exp_015",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Bovine Leukocyte Adhesion Deficiency (BLAD) in Holstein-Friesian calves is an autosomal recessive lethal disorder caused by an Asp128Gly missense mutation in which gene?",
+    "options": [
+      "ITGB2 gene on BTA1 encoding the CD18 beta-2 integrin leukocyte subunit",
+      "UMPS gene on BTA1 encoding uridine monophosphate synthase in liver",
+      "SLC35A3 gene on BTA3 encoding the Golgi UDP-N-acetylglucosamine carrier",
+      "APAF1 gene on BTA5 encoding apoptotic protease activating factor 1"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "BLAD results from an A-to-G point mutation at nucleotide 383 (D128G) of the ITGB2 (CD18) gene. Defective beta-2 integrins (LFA-1, Mac-1) prevent neutrophils from adhering to vascular ICAM-1 and transmigrating into sites of infection.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000015000
+  },
+  {
+    "id": "agb_exp_016",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Complex Vertebral Malformation (CVM) in Holstein cattle—characterized by fetal abortion, shortened cervical/thoracic spine, and arthrogryposis—is caused by a Val180Phe mutation in:",
+    "options": [
+      "FGFR3 gene encoding fibroblast growth factor receptor 3 in chondrocytes",
+      "FBN1 gene encoding extracellular microfibrillar fibrillin-1 glycoprotein",
+      "SLC35A3 gene encoding a Golgi UDP-N-acetylglucosamine transporter",
+      "ITGB2 gene encoding the CD18 leukocyte surface adhesion glycoprotein"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "CVM (traced to the bull Carlin-M Ivanhoe Bell) is caused by a G-to-T transversion (Val180Phe) in SLC35A3 on BTA3, impairing Notch signaling glycosylation during somite segmentation of the axial skeleton.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000016000
+  },
+  {
+    "id": "agb_exp_017",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Deficiency of Uridine Monophosphate Synthase (DUMPS) in Holstein cattle causes early embryonic mortality around day 40 of gestation due to a premature stop codon at:",
+    "options": [
+      "Codon 128 of the CD18 integrin gene on bovine chromosome 1 (BTA1)",
+      "Codon 405 of the UMPS gene on bovine chromosome 1 (BTA1)",
+      "Codon 615 of the RYR1 calcium channel gene on chromosome 18 (BTA18)",
+      "Codon 232 of the DGAT1 acyltransferase gene on chromosome 14 (BTA14)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "DUMPS is caused by a C-to-T nonsense mutation at codon 405 (Arg405Stop) of the UMPS gene on BTA1, blocking de novo synthesis of pyrimidine nucleotides required for rapid embryonic cell division.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000017000
+  },
+  {
+    "id": "agb_exp_018",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "The 'Double Muscling' (muscular hyperplasia) phenotype in Belgian Blue and Piedmontese cattle is caused by loss-of-function mutations in which gene?",
+    "options": [
+      "Thyroglobulin (TG) on bovine chromosome 14 (BTA14)",
+      "Callipyge (CLPG / DLK1) on bovine chromosome 21 (BTA21)",
+      "Myostatin (MSTN / GDF-8) on bovine chromosome 2 (BTA2)",
+      "Calpain-1 (CAPN1) on bovine chromosome 29 (BTA29)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Myostatin (Growth Differentiation Factor 8) is a TGF-beta superfamily member on BTA2 that negatively regulates myoblast proliferation. Its inactivation (an 11-bp deletion in Belgian Blue; a Cys313Tyr missense in Piedmontese) produces generalized skeletal muscle fiber hyperplasia.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000018000
+  },
+  {
+    "id": "agb_exp_019",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "The 'Booroola' high-fecundity mutation (FecB) in Garole and Merino sheep, which acts additively on ovulation rate, is a Q249R substitution in which receptor gene?",
+    "options": [
+      "BMPR-1B (ALK6) on ovine chromosome 6",
+      "BMP15 (FecX) on the ovine X chromosome",
+      "GDF9 (FecG) on ovine chromosome 5",
+      "B4GALNT2 (FecL) on ovine chromosome 11"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The FecB locus on ovine chromosome 6 (OAR6) carries an A746G (Gln249Arg) mutation in BMPR-1B (Bone Morphogenetic Protein Receptor Type 1B / ALK6). Each copy adds ~1.5 ovulations per estrus cycle.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000019000
+  },
+  {
+    "id": "agb_exp_020",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "Why do ewes heterozygous for the X-linked 'Inverdale' (FecXI) mutation show increased ovulation rate, whereas homozygous mutant ewes (FecXI/FecXI) are completely sterile?",
+    "options": [
+      "Homozygotes undergo sex reversal into phenotypic males via ectopic activation of SRY",
+      "Homozygotes overproduce Anti-Mullerian Hormone causing complete regression of the uterus",
+      "Homozygotes fail to secrete hypothalamic GnRH due to pituitary gonadotrope aplasia",
+      "Homozygotes lack BMP15 and arrest follicular development at the primary stage ('streak ovaries')"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "BMP15 (FecX) is an oocyte-secreted growth factor essential for granulosa cell proliferation. Haploinsufficiency in heterozygotes lowers the FSH threshold so multiple follicles ovulate, whereas total absence in homozygotes blocks follicular progression beyond the primary single-layer stage.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000020000
+  },
+  {
+    "id": "agb_exp_021",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "The 'Callipyge' (CLPG) muscular hypertrophy phenotype in sheep is expressed exclusively in heterozygous lambs that inherit the mutant allele from their sire and a normal allele from their dam (+Mat / CLPGPat). This inheritance pattern is termed:",
+    "options": [
+      "Maternal cytoplasmic inheritance via oocyte mitochondrial DNA",
+      "X-linked dominant inheritance with homozygous lethality in ram lambs",
+      "Polar overdominance with genomic imprinting on ovine chromosome 18",
+      "Complementary epistasis between two unlinked myofibrillar loci"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Callipyge on ovine chromosome 18 is the classic example of polar overdominance: only paternal heterozygotes (+Mat/CLPGPat) express hindquarter hypertrophy, whereas maternal heterozygotes (CLPGMat/+Pat) and homozygotes (CLPG/CLPG) are phenotypically normal.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000021000
+  },
+  {
+    "id": "agb_exp_022",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "Which of the following livestock traits is a classic example of 'Sex-Influenced Inheritance' (an autosomal locus where dominance is reversed between males and females)?",
+    "options": [
+      "Cryptorchidism in boars and scrotal circumference in yearling beef bulls",
+      "Horns in Dorset/Suffolk sheep and Mahogany-vs-Red coat in Ayrshire cattle",
+      "Milk yield in dairy cattle and annual egg production in White Leghorn hens",
+      "Barred plumage in Plymouth Rock chickens and tortoiseshell coat in cats"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Sex-influenced traits are governed by autosomal genes where the heterozygote (Hh or Mm) is dominant in males (horned ram; mahogany bull) due to androgen influence, but recessive in females (polled ewe; red cow). Milk yield and cryptorchidism are sex-limited.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000022000
+  },
+  {
+    "id": "agb_exp_023",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "In commercial poultry breeding, day-old chick 'autosexing' via criss-cross inheritance (where F1 males resemble the dam and F1 females resemble the sire) is achieved by crossing:",
+    "options": [
+      "Non-barred / Gold male (ZZ: bb or ss) x Barred / Silver female (ZW: B- or S-)",
+      "Barred / Silver male (ZZ: BB or SS) x Non-barred / Gold female (ZW: b- or s-)",
+      "Heterozygous Barred male (ZZ: Bb) x Hemizygous Barred female (ZW: B-)",
+      "Dominant White Leghorn male (ZZ: II) x Recessive White Rock female (ZW: ii)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In birds, the female is heterogametic (ZW) and transmits her Z-linked dominant allele (B for Barred or S for Silver) exclusively to her sons (ZZ), while the homozygous recessive sire (bb or ss) transmits the recessive allele to both sexes. Thus all sons are Barred/Silver and all daughters are Non-barred/Gold.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000023000
+  },
+  {
+    "id": "agb_exp_024",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "In feather-sexing of commercial day-old broiler chicks using the Z-linked rate-of-feathering locus (where slow feathering K is dominant over rapid feathering k+), which parental cross produces rapid-feathering females and slow-feathering males?",
+    "options": [
+      "Rapid-feathering sire (k+k+) mated to a Rapid-feathering dam (k+-)",
+      "Slow-feathering sire (KK) mated to a Rapid-feathering dam (k+-)",
+      "Slow-feathering sire (Kk+) mated to a Slow-feathering dam (K-)",
+      "Rapid-feathering sire (k+k+) mated to a Slow-feathering dam (K-)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Crossing a homozygous rapid-feathering male (k+k+) with a hemizygous slow-feathering female (K-) yields slow-feathering male chicks (Kk+, where primary wing covert feathers are equal to or longer than primary remiges) and rapid-feathering female chicks (k+-, where primaries are longer than coverts).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000024000
+  },
+  {
+    "id": "agb_exp_025",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "The major milk fat QTL gene DGAT1 on bovine chromosome 14 (BTA14) contains a non-conservative dinucleotide substitution (AA to GC) resulting in which amino acid polymorphism?",
+    "options": [
+      "Aspartate-to-Glycine substitution at codon 128 (D128G)",
+      "Histidine-to-Proline substitution at codon 67 (H67P)",
+      "Lysine-to-Alanine substitution at codon 232 (K232A)",
+      "Arginine-to-Cysteine substitution at codon 615 (R615C)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "DGAT1 (Diacylglycerol O-acyltransferase 1) features the K232A polymorphism: the ancestral Lysine (K) allele significantly increases milk fat percentage and saturated fat yield, whereas the Alanine (A) allele increases milk volume and protein yield.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000025000
+  },
+  {
+    "id": "agb_exp_026",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "In bovine beta-casein (CSN2), the A1 and A2 genetic variants differ at amino acid position 67 by which specific residue change that governs gastrointestinal release of Beta-casomorphin-7 (BCM-7)?",
+    "options": [
+      "A2 has Histidine at position 67, whereas A1 has Proline at position 67",
+      "A2 has Glutamine at position 67, whereas A1 has Arginine at position 67",
+      "A2 has Valine at position 67, whereas A1 has Glutamate at position 67",
+      "A2 has Proline at position 67, whereas A1 has Histidine at position 67"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Indian Bos indicus breeds are nearly fixed (98–100%) for the A2 allele containing Proline at position 67, which blocks enzymatic hydrolysis of the Ile66-Pro67 peptide bond. The A1 allele has Histidine at position 67, allowing digestive cleavage to release the bioactive heptapeptide BCM-7.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000026000
+  },
+  {
+    "id": "agb_exp_027",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "Which kappa-casein (CSN3) genotype in dairy cows is preferred by the cheese-making industry due to smaller casein micelle size, firmer curd tension, and 5–10% higher cheese yield?",
+    "options": [
+      "BB genotype (CSN3*B / CSN3*B)",
+      "AE genotype (CSN3*A / CSN3*E)",
+      "AA genotype (CSN3*A / CSN3*A)",
+      "EE genotype (CSN3*E / CSN3*E)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The B allele of kappa-casein (Ile136, Ala148) is associated with higher total kappa-casein concentration, smaller micelles, shorter rennet clotting time, and superior cheese yield compared to the A and E variants.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000027000
+  },
+  {
+    "id": "agb_exp_028",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "In horses, the 'Overo Lethal White Foal Syndrome' (OLWFS)—where homozygous foals are born all-white and die of intestinal aganglionosis (megacolon)—is caused by an Ile118Lys mutation in:",
+    "options": [
+      "Tyrosinase (TYR) albino locus gene on ECA7",
+      "Endothelin Receptor Type B (EDNRB) gene on ECA17",
+      "Syntaxin-17 (STX17) graying gene on ECA25",
+      "Melanocortin-1 Receptor (MC1R) extension gene on ECA3"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "EDNRB signaling is essential for the embryonic migration of neural crest cells that form both skin melanocytes and myenteric/submucosal intestinal ganglia. Homozygous mutant foals lack enteric neurons (equine Hirschsprung disease).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000028000
+  },
+  {
+    "id": "agb_exp_029",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "In a three-point test cross of linked genes A-B-C, the recombination frequency between A and B is 10% (0.10) and between B and C is 20% (0.20). If the Coefficient of Coincidence is 0.60, what is the observed percentage of double crossovers in the progeny?",
+    "options": [
+      "2.0% (0.020)",
+      "1.2% (0.012)",
+      "0.8% (0.008)",
+      "3.0% (0.030)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Expected double crossover frequency = RF(A-B) * RF(B-C) = 0.10 * 0.20 = 0.020 (2.0%). Since Coincidence (C) = Observed DCO / Expected DCO, Observed DCO = 0.60 * 0.020 = 0.012 (1.2%).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000029000
+  },
+  {
+    "id": "agb_exp_030",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "If 40% of the meiocytes (primary spermatocytes) in a testis undergo a single chiasma (crossover) between linked loci A and B during pachytene, what is the resulting recombination frequency (RF) in the gametes?",
+    "options": [
+      "10% (0.10 or 10 centiMorgans)",
+      "40% (0.40 or 40 centiMorgans)",
+      "20% (0.20 or 20 centiMorgans)",
+      "80% (0.80 or 80 centiMorgans)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "In any single meiosis with one chiasma, only 2 of the 4 chromatids in the bivalent participate in crossing over (producing 2 parental and 2 recombinant gametes = 50% recombinant). Therefore, RF = 0.5 * Chiasma Frequency = 0.5 * 40% = 20%.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000030000
+  },
+  {
+    "id": "agb_exp_031",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "If an autosomal blood group locus in cattle has 8 codominant alleles, how many total genotypes and how many heterozygous genotypes are possible in the population?",
+    "options": [
+      "36 total genotypes (8 homozygotes and 28 heterozygotes)",
+      "64 total genotypes (8 homozygotes and 56 heterozygotes)",
+      "28 total genotypes (8 homozygotes and 20 heterozygotes)",
+      "44 total genotypes (16 homozygotes and 28 heterozygotes)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "For n = 8 alleles: Total genotypes = n(n + 1)/2 = 8(9)/2 = 36. Homozygous genotypes = n = 8. Heterozygous genotypes = n(n - 1)/2 = 8(7)/2 = 28.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000031000
+  },
+  {
+    "id": "agb_exp_032",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "In a herd of 500 Shorthorn cattle (where coat color is codominant: RR = Red, Rr = Roan, rr = White), 180 are Red, 240 are Roan, and 80 are White. What is the frequency of the Red allele (p) and does the herd conform to Hardy-Weinberg equilibrium?",
+    "options": [
+      "p = 0.60, q = 0.40; No, the herd shows a significant deficiency of White homozygotes",
+      "p = 0.50, q = 0.50; Yes, the herd is in exact Hardy-Weinberg equilibrium",
+      "p = 0.36, q = 0.16; No, the herd shows a significant excess of Roan heterozygotes",
+      "p = 0.60, q = 0.40; Yes, the herd is in exact Hardy-Weinberg equilibrium"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Frequency of R (p) = D + 0.5H = (180/500) + 0.5(240/500) = 0.36 + 0.24 = 0.60; q = 0.40. Expected H-W counts: RR = 500(0.6^2) = 180; Rr = 500(2*0.6*0.4) = 240; rr = 500(0.4^2) = 80 (Chi-square = 0).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000032000
+  },
+  {
+    "id": "agb_exp_033",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "When testing whether an observed diallelic codominant genotype distribution (AA, Aa, aa) fits Hardy-Weinberg equilibrium using Pearson's Chi-square goodness-of-fit test, the number of degrees of freedom (df) is:",
+    "options": [
+      "1 degree of freedom (classes minus alleles: 3 - 2 = 1)",
+      "2 degrees of freedom (classes minus sample size: 3 - 1 = 2)",
+      "3 degrees of freedom (equal to the 3 genotypic classes)",
+      "4 degrees of freedom (2 alleles multiplied by 2 sexes)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In H-W goodness-of-fit tests, df = (Number of genotypic classes) - (Number of alleles) = 3 - 2 = 1, because both total sample size N and allele frequency p are estimated from the observed sample data.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000033000
+  },
+  {
+    "id": "agb_exp_034",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "If an X-linked recessive condition (such as canine hemophilia A) affects 1 in 20 males (q = 0.05) in a random-mating population, what is the expected proportion of affected females and carrier females?",
+    "options": [
+      "Affected females = 0.0500 (1 in 20); Carrier females = 0.100 (10.0%)",
+      "Affected females = 0.0250 (1 in 40); Carrier females = 0.050 (5.0%)",
+      "Affected females = 0.0025 (1 in 400); Carrier females = 0.095 (9.5%)",
+      "Affected females = 0.0005 (1 in 2000); Carrier females = 0.0475 (4.75%)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "In males (XY), incidence = q = 0.05, so p = 1 - 0.05 = 0.95. In females (XX), affected homozygotes (q^2) = (0.05)^2 = 0.0025 (1 in 400), and heterozygous carriers (2pq) = 2(0.95)(0.05) = 0.095 (9.5%).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000034000
+  },
+  {
+    "id": "agb_exp_035",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "In a closed nucleus sheep flock maintained with 20 breeding rams (Nm = 20) and 80 breeding ewes (Nf = 80), what are the Effective Population Size (Ne) and the expected rate of inbreeding per generation (Delta F)?",
+    "options": [
+      "Ne = 100 and Delta F = 0.0050 (0.50% per generation)",
+      "Ne = 64 and Delta F = 0.0078 (0.78% per generation)",
+      "Ne = 40 and Delta F = 0.0125 (1.25% per generation)",
+      "Ne = 80 and Delta F = 0.0063 (0.63% per generation)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Ne = (4 * Nm * Nf) / (Nm + Nf) = (4 * 20 * 80) / (20 + 80) = 6400 / 100 = 64. The rate of inbreeding per generation is Delta F = 1 / (2 * Ne) = 1 / 128 = 0.00781 (0.78%).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000035000
+  },
+  {
+    "id": "agb_exp_036",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "In population genetics, if an island herd with recessive allele frequency q_m = 0.10 receives 20% of its breeding replacements (m = 0.20) in a generation from a mainland population where q_0 = 0.50, what is the new allele frequency (q_1) in the island herd?",
+    "options": [
+      "q_1 = 0.30",
+      "q_1 = 0.12",
+      "q_1 = 0.42",
+      "q_1 = 0.18"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Under the migration (gene flow) model: q_1 = m(q_0) + (1 - m)q_m = q_m + m(q_0 - q_m) = 0.10 + 0.20(0.50 - 0.10) = 0.10 + 0.08 = 0.18.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000036000
+  },
+  {
+    "id": "agb_exp_037",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "For an overdominant locus where the heterozygote (Aa) has superior fitness compared to both homozygotes (fitnesses: AA = 1 - s1, Aa = 1, aa = 1 - s2), the stable equilibrium frequency of the 'a' allele (q_hat) under natural selection is:",
+    "options": [
+      "q_hat = s2 / (s1 + s2)",
+      "q_hat = sqrt(s1 / s2)",
+      "q_hat = s1 / (s1 + s2)",
+      "q_hat = (s1 * s2) / (s1 + s2)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "In balancing selection (heterozygote advantage / overdominance), Delta q = 0 when s1 * p = s2 * q, yielding the stable polymorphic equilibrium q_hat = s1 / (s1 + s2) and p_hat = s2 / (s1 + s2).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000037000
+  },
+  {
+    "id": "agb_exp_038",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "If forward mutation from A1 to A2 occurs at rate 'u' per generation and reverse mutation from A2 to A1 occurs at rate 'v' per generation (in the absence of selection), the equilibrium allele frequency of A2 (q_hat) is:",
+    "options": [
+      "q_hat = v / (u + v)",
+      "q_hat = u / v",
+      "q_hat = sqrt(u / v)",
+      "q_hat = u / (u + v)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "At mutational equilibrium, forward losses (u * p) equal reverse gains (v * q). Substituting p = 1 - q gives u(1 - q) = v*q, or q_hat = u / (u + v).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000038000
+  },
+  {
+    "id": "agb_exp_039",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "What is the 'Variance of Gene Frequency' (sigma^2_dq) after a single generation of random genetic drift in an idealized finite diploid population of size N?",
+    "options": [
+      "sigma^2_dq = (2 * p * q) / N",
+      "sigma^2_dq = (p * q) / (2N)",
+      "sigma^2_dq = (p^2 * q^2) / (4N)",
+      "sigma^2_dq = (p * q) / N^2"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Because each generation of N diploid individuals represents a binomial sample of 2N gametes drawn from the parental gene pool, the binomial sampling variance of allele frequency per generation is pq / (2N).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000039000
+  },
+  {
+    "id": "agb_exp_040",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mating Systems, Heterosis, Breeds & Conservation",
+    "questionText": "In Sewall Wright's F-statistics (FIS, FST, FIT) used to partition genetic diversity across subdivided livestock breeds, which mathematical identity connects the three parameters?",
+    "options": [
+      "(1 - FIT) = (1 - FIS) * (1 - FST)",
+      "(1 + FIT) = (1 + FIS) * (1 + FST)",
+      "FIT = (FIS * FST) / (FIS + FST)",
+      "(1 - FST) = (1 - FIT) * (1 - FIS)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Wright's hierarchical F-statistics satisfy (1 - FIT) = (1 - FIS)(1 - FST), where FIS measures inbreeding within subpopulations, FST measures genetic differentiation among subpopulations, and FIT measures total inbreeding relative to the whole species.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000040000
+  },
+  {
+    "id": "agb_exp_041",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "In Marker-Assisted Selection (MAS), Dekkers classified molecular markers into three categories. What defines a 'Direct Marker' compared to LD-markers and LE-markers?",
+    "options": [
+      "A marker that directly genotypes the functional causal mutation (QTN)",
+      "A mitochondrial D-loop haplotype tracing maternal geographic lineage",
+      "A neutral microsatellite situated in linkage equilibrium with a QTL",
+      "An anonymous RAPD band requiring phase estimation within each family"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Direct markers genotype the exact causative Quantitative Trait Nucleotide (QTN, such as DGAT1 K232A or RYR1 C1843T), providing 100% predictive accuracy across all families and breeds without recombination breakdown.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000041000
+  },
+  {
+    "id": "agb_exp_042",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "In QTL mapping for dairy cattle, Weller et al. (1990) introduced the 'Granddaughter Design' over the 'Daughter Design'. In a Granddaughter Design, which animals are genotyped and which provide phenotypes?",
+    "options": [
+      "Commercial granddaughters are genotyped for SNPs; the patriarch bull provides the single phenotype",
+      "Full-sib embryos are both genotyped and phenotyped prior to uterine transfer into recipient heifers",
+      "Inbred F1 dams are genotyped for microsatellites; backcross male calves provide carcass phenotypes",
+      "Grandsires and their progeny-tested sons are genotyped; granddaughters provide lactation phenotypes"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "In the Granddaughter Design, genotyping a few elite AI patriarch bulls and their 50–100 progeny-tested sons leverages the lactation records of thousands of granddaughters, requiring only ~1/4th the genotyping effort of a Daughter Design for equivalent statistical power.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000042000
+  },
+  {
+    "id": "agb_exp_043",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "How do Bayesian genomic prediction models ('BayesB') differ from 'GBLUP' in their prior statistical assumptions regarding SNP marker effects across the genome?",
+    "options": [
+      "GBLUP requires whole-genome sequencing of every cow; BayesB uses only pedigree parent averages without SNPs",
+      "GBLUP assumes 99% of SNPs have zero effect; BayesB assumes all 50,000 SNPs have identical constant effects",
+      "GBLUP assumes equal normal variance for all SNPs; BayesB assumes proportion pi of SNPs have zero effect",
+      "GBLUP estimates dominance and epistatic effects only; BayesB estimates fixed herd-year-season effects only"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "GBLUP (equivalent to Ridge Regression BLUP) assumes an infinitesimal model where every SNP explains an equal tiny fraction of genetic variance. BayesB assumes most SNPs (proportion pi) have zero effect while a small subset of SNPs linked to major QTLs follow a heavy-tailed t-distribution.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000043000
+  },
+  {
+    "id": "agb_exp_044",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "According to Daetwyler et al. (2008), the reliability (r^2) of Genomic Estimated Breeding Values (GEBVs) in terms of reference population size (Np), heritability (h^2), and number of independent chromosome segments (Me) is:",
+    "options": [
+      "r^2 = (Me * h^2) / (Np * h^2 + Me)",
+      "r^2 = (Np * h^2) / (Np * h^2 + Me)",
+      "r^2 = Np / (Np + ((4 - h^2) / h^2))",
+      "r^2 = (Np * Me) / (Np + Me * h^2)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Daetwyler's formula r^2 = (Np * h^2) / (Np * h^2 + Me) shows that genomic prediction reliability increases with a larger reference training population (Np) and higher heritability (h^2), and increases when effective population size Ne (and thus Me) is smaller.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000044000
+  },
+  {
+    "id": "agb_exp_045",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Why does the accuracy of a Pedigree Index (Parent Average) for an unphenotyped newborn calf never exceed r = √0.50 ≈ 0.707 (reliability r^2 = 0.50), even when both parents have 100% accurate EBVs?",
+    "options": [
+      "Parent Average cannot capture the random Mendelian sampling term (50% of V_A)",
+      "Maternal cytoplasmic mitochondria account for the remaining 50% of V_A",
+      "Inbreeding depression destroys 50% of the additive breeding value at meiosis",
+      "Dominance and epistatic deviations represent exactly 50% of narrow-sense h^2"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "True Breeding Value is TBV_i = 0.5(TBV_s + TBV_d) + MS_i, where the Mendelian sampling term MS_i has variance 0.5(1 - F_sd)V_A. Pedigree selection gives every full-sib the exact same estimate, missing the 50% within-family Mendelian sampling variance (which Genomic Selection captures!).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000045000
+  },
+  {
+    "id": "agb_exp_046",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "The Bovine Major Histocompatibility Complex (BoLA), whose Class II DRB3 polymorphisms govern resistance to mastitis and Bovine Leukemia Virus, is mapped to which chromosome?",
+    "options": [
+      "Bovine chromosome 1 (BTA1)",
+      "Bovine chromosome 14 (BTA14)",
+      "Bovine chromosome 6 (BTA6)",
+      "Bovine chromosome 23 (BTA23)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "The BoLA complex resides on BTA23 (band 23q21). Polymorphisms in exon 2 of the Class II BoLA-DRB3 gene profoundly influence immune responsiveness to BLV, clinical mastitis, and tick-borne diseases.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000046000
+  },
+  {
+    "id": "agb_exp_047",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "In tropical poultry breeding, the incomplete dominant 'Naked-neck' (Na) and 'Frizzle' (F) genes are introgressed into commercial layer and broiler stocks because they:",
+    "options": [
+      "Eliminate dietary methionine requirements by arresting keratin synthesis",
+      "Confer autosomal dominant cellular immunity against Newcastle disease virus",
+      "Reduce feather insulation by 20–40%, enhancing sensible heat loss at >32°C",
+      "Double eggshell thickness by upregulating uterine carbonic anhydrase activity"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "The autosomal incomplete dominant Naked-neck (Na, reducing feather mass by 20–40%) and Frizzle (F, curling feathers outward) genes alleviate tropical heat stress, improving growth rate, egg weight, and livability in hot climates.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000047000
+  },
+  {
+    "id": "agb_exp_048",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Which indigenous Indian microsheep breed native to the Sunderban region of West Bengal is world-renowned as the ancestral donor of the 'FecB' (Booroola) prolificacy gene?",
+    "options": [
+      "Nellore (Palla) sheep",
+      "Garole (Bengal) sheep",
+      "Marwari (Jodhpur) sheep",
+      "Coimbatore (Kurumbai) sheep"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Garole microsheep of the Sunderbans (West Bengal) carry the FecB (BMPR-1B) mutation with high twinning/triplet frequency and were exported to Australia in the 18th/19th century, later confirmed as the ancestral source of the Australian Booroola Merino gene.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000048000
+  },
+  {
+    "id": "agb_exp_049",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Where is the ICAR-National Bureau of Animal Genetic Resources (NBAGR)—the nodal agency for registration and Accession Numbering of indigenous Indian livestock breeds—located?",
+    "options": [
+      "Izatnagar, Bareilly, Uttar Pradesh",
+      "Avikanagar, Tonk, Rajasthan",
+      "Karnal, Haryana (established in 1984)",
+      "Makhdoom, Mathura, Uttar Pradesh"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "ICAR-NBAGR was established in 1984 (initially at Bangalore and shifted to Karnal, Haryana in 1985) as the national nodal institute for phenotypic/molecular characterization, registration, and conservation of India's farm animal genetic resources.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000049000
+  },
+  {
+    "id": "agb_exp_050",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "According to the FAO risk-status classification for domestic livestock breeds, a breed is categorized as 'Critical' if the total number of breeding females is:",
+    "options": [
+      "Less than or equal to 100 breeding females (or <= 5 breeding males)",
+      "Between 100 and 1,000 breeding females (or 6 to 20 breeding males)",
+      "Between 1,000 and 5,000 breeding females (or 21 to 35 breeding males)",
+      "Between 5,000 and 10,000 breeding females across multiple agro-zones"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Under FAO DAD-IS criteria, a breed is 'Critical' when breeding females are <= 100 or breeding males <= 5 (or overall population <= 120 and declining), and 'Endangered' when breeding females are between 100 and 1,000 (or males between 6 and 20).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000050000
+  },
+  {
+    "id": "agb_exp_051",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "In Falconer's biometric model for a diallelic locus (where homozygote A1A1 has genotypic value +a, homozygote A2A2 has -a, and heterozygote A1A2 has d), the 'Average Effect of Gene Substitution' (alpha) is given by:",
+    "options": [
+      "alpha = a + d(p - q)",
+      "alpha = a + d(q - p)",
+      "alpha = 2pq[a + d(q - p)]",
+      "alpha = a - 2pq(p - q)d"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "In Falconer's quantitative genetics model, the average effect of substituting allele A1 for A2 is alpha = a + d(q - p). When there is no dominance (d = 0) or when p = q = 0.5, alpha simply equals a.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000051000
+  },
+  {
+    "id": "agb_exp_052",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "Using Falconer's notation (where alpha = a + d(q - p) is the average effect of gene substitution), the 'Additive Genetic Variance' (V_A) and 'Dominance Variance' (V_D) at a single locus are:",
+    "options": [
+      "V_A = pq * (alpha)^2 and V_D = 4pq * d^2",
+      "V_A = (2pq * alpha)^2 and V_D = 2pq * d^2",
+      "V_A = 4p^2q^2 * a^2 and V_D = 2pq(a + d)^2",
+      "V_A = 2pq * (alpha)^2 and V_D = (2pqd)^2"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Additive genetic variance (variance of breeding values) is V_A = 2pq * alpha^2 = 2pq[a + d(q - p)]^2, whereas dominance variance (variance of dominance deviations) is V_D = (2pqd)^2 = 4p^2q^2d^2.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000052000
+  },
+  {
+    "id": "agb_exp_053",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "In paternal half-sib analysis (ANOVA method) used to estimate narrow-sense heritability (h^2) of milk yield across sire families, the between-sire variance component (sigma^2_s) estimates what fraction of Additive Genetic Variance (V_A)?",
+    "options": [
+      "Full Additive Genetic Variance (sigma^2_s = 1.00 V_A; h^2 = 1t)",
+      "One-eighth of Additive Genetic Variance plus 0.25 Dominance Variance",
+      "One-fourth of Additive Genetic Variance (sigma^2_s = 0.25 V_A; h^2 = 4t)",
+      "One-half of Additive Genetic Variance (sigma^2_s = 0.50 V_A; h^2 = 2t)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Paternal half-sibs share a common sire and have an additive genetic relationship of R = 0.25 with zero shared maternal environment or dominance covariance. Thus Cov(PHS) = sigma^2_s = 0.25 * V_A, and h^2 = 4 * sigma^2_s / sigma^2_p = 4 * t.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000053000
+  },
+  {
+    "id": "agb_exp_054",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Why is paternal half-sib correlation preferred over full-sib correlation for estimating narrow-sense heritability (h^2) in livestock?",
+    "options": [
+      "Paternal half-sib covariance captures 100% of epistatic and mitochondrial effects",
+      "Full-sib covariance is upward biased by 0.25 V_D and common maternal environment (V_Ec)",
+      "Full-sibs share zero additive genetic variance due to independent segregation",
+      "Full-sib analysis requires multiplying the intraclass correlation by 8 instead of 2"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Cov(Full-Sibs) = 0.50 V_A + 0.25 V_D + V_Ec, meaning multiplying full-sib correlation by 2 overestimates narrow-sense heritability by (0.50 V_D + 2 V_Ec)/V_P. Paternal half-sibs across herds avoid both V_D and maternal V_Ec.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000054000
+  },
+  {
+    "id": "agb_exp_055",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)",
+    "questionText": "If the linear regression coefficient of daughter performance on dam performance within sire (b_OD) is 0.14, what is the narrow-sense heritability (h^2) of the trait?",
+    "options": [
+      "0.28 (since h^2 = 2 * b_OD)",
+      "0.14 (since h^2 = 1 * b_OD)",
+      "0.56 (since h^2 = 4 * b_OD)",
+      "0.07 (since h^2 = 0.5 * b_OD)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The covariance between offspring and one parent is Cov(O,P) = 0.50 V_A, so b_OP = Cov(O,P) / V_P = 0.50 h^2. Therefore, h^2 = 2 * b_OP = 2 * 0.14 = 0.28. (For mid-parent regression, h^2 = b_OMP directly).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000055000
+  },
+  {
+    "id": "agb_exp_056",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "If the regression of offspring on mid-parent average (b_OMP) for 6-month body weight in sheep is 0.35, what is the narrow-sense heritability (h^2)?",
+    "options": [
+      "0.70 (since h^2 = 2 * b_OMP)",
+      "0.175 (since h^2 = 0.5 * b_OMP)",
+      "1.40 (since h^2 = 4 * b_OMP)",
+      "0.35 (since b_OMP = h^2 directly)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "When offspring are regressed on the average of both parents (mid-parent MP), Cov(O, MP) = 0.50 V_A and the variance of mid-parents (assuming random mating and equal variance in both sexes) is Var(MP) = 0.50 V_P. Thus b_OMP = (0.5 V_A)/(0.5 V_P) = V_A/V_P = h^2 = 0.35.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000056000
+  },
+  {
+    "id": "agb_exp_057",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "In a selection experiment for 6-week body weight in broiler chickens, the base flock mean is 1,500 g, the selected parents average 1,700 g, and their progeny average 1,580 g. What are the Selection Differential (S), Response to Selection (R), and Realized Heritability (h^2)?",
+    "options": [
+      "S = 200 g, R = 80 g, and Realized h^2 = 0.40",
+      "S = 80 g, R = 200 g, and Realized h^2 = 2.50",
+      "S = 120 g, R = 80 g, and Realized h^2 = 0.67",
+      "S = 200 g, R = 120 g, and Realized h^2 = 0.60"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Selection Differential S = Mean(Selected Parents) - Mean(Base Population) = 1700 - 1500 = 200 g. Response R = Mean(Progeny) - Mean(Base Population) = 1580 - 1500 = 80 g. From R = h^2 * S, Realized h^2 = R / S = 80 / 200 = 0.40.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000057000
+  },
+  {
+    "id": "agb_exp_058",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)",
+    "questionText": "In dairy cattle evaluation, how is 'Most Probable Producing Ability' (MPPA) calculated for a cow with 'n' lactation records averaging P_bar in a herd with mean H_bar and repeatability 'r'?",
+    "options": [
+      "MPPA = H_bar + [ (n * h^2) / (1 + (n - 1) * h^2) ] * (P_bar - H_bar)",
+      "MPPA = P_bar + [ (1 - r) / (1 + (n - 1) * r) ] * (H_bar - P_bar)",
+      "MPPA = H_bar + [ (n * r) / (1 + (n - 1) * r) ] * (P_bar - H_bar)",
+      "MPPA = H_bar + [ n / (n + ((4 - r) / r)) ] * (P_bar - H_bar)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Developed by Lush (1945), MPPA predicts a cow's real producing ability (genetic + permanent environment) by weighting her deviation from the herd mean (P_bar - H_bar) by the repeatability regression coefficient b = nr / [1 + (n - 1)r].",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000058000
+  },
+  {
+    "id": "agb_exp_059",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)",
+    "questionText": "A Sahiwal cow has completed 3 lactations (n = 3) with an average yield of 3,200 kg in a herd whose contemporary average is 2,500 kg. If the repeatability (r) of milk yield is 0.50, what is her Most Probable Producing Ability (MPPA)?",
+    "options": [
+      "2,675 kg",
+      "3,025 kg",
+      "2,850 kg",
+      "3,200 kg"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Weighting factor b = nr / [1 + (n - 1)r] = (3 * 0.50) / [1 + (2 * 0.50)] = 1.50 / 2.00 = 0.75. Therefore, MPPA = 2500 + 0.75 * (3200 - 2500) = 2500 + 0.75(700) = 2500 + 525 = 3,025 kg.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000059000
+  },
+  {
+    "id": "agb_exp_060",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "What is the primary biological cause of a permanent 'Genetic Correlation' (r_A) between two quantitative traits, as opposed to a transient genetic correlation?",
+    "options": [
+      "Linkage disequilibrium is permanent, whereas pleiotropy is transient",
+      "Temporary environmental covariance is permanent across generations",
+      "Assortative mating is permanent, whereas pleiotropy decays via meiosis",
+      "Pleiotropy is permanent, whereas linkage disequilibrium is transient"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Pleiotropy (where one locus influences two or more traits simultaneously) is the primary permanent genetic cause of genetic correlation, whereas linkage between separate QTLs is transient and broken down by meiotic crossing over.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000060000
+  },
+  {
+    "id": "agb_exp_061",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)",
+    "questionText": "In dairy cattle across the world, what is the direction and typical magnitude of the additive genetic correlation (r_A) between total 305-day milk yield (kg) and milk fat percentage (%)?",
+    "options": [
+      "Moderately negative genetic correlation (r_A = -0.30 to -0.50)",
+      "Strongly positive genetic correlation (r_A = +0.75 to +0.90)",
+      "Complete genetic independence with zero correlation (r_A = 0.00)",
+      "Perfectly positive unity genetic correlation (r_A = +1.00)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "While milk yield (kg) and total fat yield (kg) are positively correlated (+0.70), milk volume (kg) and milk fat concentration (%)—as well as protein (%)—exhibit a well-known negative genetic correlation (-0.30 to -0.50) due to dilution effects (e.g., DGAT1 alleles).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000061000
+  },
+  {
+    "id": "agb_exp_062",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)",
+    "questionText": "When direct selection is applied strictly to a primary trait X, the 'Correlated Response' in an unselected secondary trait Y (CR_Y) is mathematically expressed by Falconer's formula:",
+    "options": [
+      "CR_Y = i * h^2_X * h^2_Y * r_P * sigma_PX",
+      "CR_Y = (i * r_A) / (h_X * h_Y * sigma_PY)",
+      "CR_Y = S_X * r_P * (sigma_PX / sigma_PY)",
+      "CR_Y = i * h_X * h_Y * r_A * sigma_PY"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "The correlated response in trait Y when selecting on trait X is CR_Y = i * h_X * h_Y * r_A * sigma_PY (where i is selection intensity on X, h_X and h_Y are square roots of heritabilities, r_A is genetic correlation, and sigma_PY is phenotypic SD of Y).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000062000
+  },
+  {
+    "id": "agb_exp_063",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)",
+    "questionText": "Under what mathematical condition is 'Indirect Selection' on an indicator trait X MORE effective at improving a target trait Y than direct selection on Y itself (CR_Y / R_Y > 1)?",
+    "options": [
+      "Whenever phenotypic variance of X is smaller than environmental variance of Y",
+      "When (i_X * r_A * h_X) > (i_Y * h_Y), or |r_A * h_X| > h_Y at equal intensity",
+      "Only when genetic correlation r_A is zero and both heritabilities are equal",
+      "Whenever generation interval for X is three times longer than for trait Y"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "The relative efficiency of indirect selection on X versus direct selection on Y is CR_Y / R_Y = (i_X * r_A * h_X) / (i_Y * h_Y). When the indicator trait X has much higher heritability (h_X >> h_Y), can be measured in both sexes, or allows higher selection intensity (i_X), indirect selection outperforms direct selection.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000063000
+  },
+  {
+    "id": "agb_exp_064",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)",
+    "questionText": "When 'n' repeated records of a trait with repeatability 'r' are averaged for each animal, the heritability of the mean of 'n' records (h^2_n) compared to single-record heritability (h^2) is:",
+    "options": [
+      "h^2_n = h^2 / [1 + (n - 1) * r]",
+      "h^2_n = (n * h^2 * r) / (n - 1)",
+      "h^2_n = (n * h^2) / [1 + (n - 1) * r]",
+      "h^2_n = (n * r) / [1 + (n - 1) * h^2]"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Averaging n repeated records reduces temporary environmental variance to V_Et / n, shrinking total phenotypic variance of the mean to V_P[1 + (n-1)r]/n. Thus heritability of the mean of n records increases to h^2_n = (n * h^2) / [1 + (n - 1)r].",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000064000
+  },
+  {
+    "id": "agb_exp_065",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)",
+    "questionText": "How does intense long-term directional selection or inbreeding affect the narrow-sense heritability (h^2) of a quantitative trait within a closed population?",
+    "options": [
+      "Converts temporary environmental variance into additive variance V_A",
+      "Reduces h^2 as allele fixation and the Bulmer effect deplete V_A",
+      "Increases h^2 to 1.00 as homozygotes transmit alleles with certainty",
+      "Leaves h^2 unchanged because heritability is a fixed species constant"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Heritability is a property of a specific population at a specific time, not a constant. Both intense selection (Bulmer disequilibrium effect + allele fixation) and inbreeding reduce within-line additive genetic variance to V_A(t) = (1 - F)V_A0, lowering h^2.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000065000
+  },
+  {
+    "id": "agb_exp_066",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "In Rendel and Robertson's (1950) classic formulation of annual genetic progress in dairy cattle across the four pathways of gene transmission, what is the exact formula for rate of genetic gain per year (Delta G / year)?",
+    "options": [
+      "(Delta G_SS / L_SS) + (Delta G_SD / L_SD) + (Delta G_DS / L_DS) + (Delta G_DD / L_DD)",
+      "(Delta G_SS + Delta G_DD) / (L_SD + L_DS + L_SS + L_DD)",
+      "(Delta G_SS + Delta G_SD + Delta G_DS + Delta G_DD) / (L_SS + L_SD + L_DS + L_DD)",
+      "(Delta G_SS * Delta G_SD * Delta G_DS * Delta G_DD) / (L_SS * L_SD * L_DS * L_DD)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Rendel and Robertson (1950) proved that annual genetic gain equals the sum of genetic superiorities across the four selection pathways (Sire-to-Sire, Sire-to-Dam, Dam-to-Sire, Dam-to-Dam) divided by the sum of the four respective generation intervals.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000066000
+  },
+  {
+    "id": "agb_exp_067",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "In conventional dairy cattle progeny testing schemes, which two selection pathways contribute over 70% to 75% of the total genetic progress for milk yield?",
+    "options": [
+      "Sire-to-Sire (SS) and Dam-to-Sire (DS) pathways producing young AI bulls",
+      "Dam-to-Dam (DD) and Sire-to-Dam (SD) pathways producing commercial heifers",
+      "Dam-to-Dam (DD) pathway alone because only females express lactation",
+      "Sire-to-Dam (SD) pathway alone due to widespread frozen semen dissemination"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Because of extremely high selection intensity in choosing the top 1–2% of proven bulls (SS: ~40–45% of gain) and elite bull dams (DS: ~30% of gain) to produce the next generation of AI bulls, SS + DS account for >70% of total genetic progress, whereas DD contributes <5% due to low female reproductive rate.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000067000
+  },
+  {
+    "id": "agb_exp_068",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "In progeny testing of a dairy bull based on 'n' half-sib daughters in different herds, the accuracy of the bull's breeding value (r_TI) is given by √[n / (n + k)], where the constant 'k' equals:",
+    "options": [
+      "k = (1 - h^2) / h^2",
+      "k = (2 - h^2) / h^2",
+      "k = 4 / (1 + h^2)",
+      "k = (4 - h^2) / h^2"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "The reliability (r^2_TI) of a progeny test based on n paternal half-sib daughters is n / (n + k), where k = (1 - 0.25 h^2) / (0.25 h^2) = (4 - h^2) / h^2. For milk yield with h^2 = 0.25, k = 3.75 / 0.25 = 15.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000068000
+  },
+  {
+    "id": "agb_exp_069",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "Using the progeny test reliability formula r^2 = n / (n + k) where k = (4 - h^2) / h^2, if the heritability of milk yield is h^2 = 0.25 (so k = 15), how many daughters (n) are required to achieve a reliability (r^2) of 0.50?",
+    "options": [
+      "5 daughters (since n = 5 gives r^2 = 5 / 10 = 0.50)",
+      "60 daughters (since n = 4k = 60 gives r^2 = 60 / 120 = 0.50)",
+      "45 daughters (since n = 3k = 45 gives r^2 = 45 / 90 = 0.50)",
+      "15 daughters (since n = k = 15 gives r^2 = 15 / 30 = 0.50)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "When n = k = 15 daughters, reliability r^2 = 15 / (15 + 15) = 0.50 (which already equals the maximum possible reliability of a complete pedigree parent average!). With n = 45 daughters, reliability reaches 45/60 = 0.75 (accuracy 0.866).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000069000
+  },
+  {
+    "id": "agb_exp_070",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "In sire evaluation, if a bull's 'Predicted Transmitting Ability' (PTA / Predicted Difference) is +400 kg of milk above the breed base, what is the bull's 'Estimated Breeding Value' (EBV)?",
+    "options": [
+      "+200 kg (since EBV = 0.5 * PTA)",
+      "+800 kg (since EBV = 2 * PTA)",
+      "+400 kg (since EBV = 1.0 * PTA)",
+      "+1,600 kg (since EBV = 4 * PTA)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Because a sire transmits a random sample of half (50%) of his genes to his progeny, his Transmitting Ability (PTA or PD) equals 0.5 * EBV. Conversely, EBV = 2 * PTA = 2 * (+400 kg) = +800 kg.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000070000
+  },
+  {
+    "id": "agb_exp_071",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)",
+    "questionText": "Which classical Sire Index (Equi-Parent Index) assumes that daughters' average performance (D_bar) is halfway between the sire's merit (S) and the dams' average (M_bar), ignoring heritability and daughter count?",
+    "options": [
+      "Hansson-Yapp Simple Intermediate Index: S = 2(D_bar) - M_bar",
+      "Lush's Corrected Daughter-Dam Index incorporating h^2 and n",
+      "Robertson and Rendel's Contemporary Comparison weighted by W",
+      "Krishnan's Corrected Sire Index adjusting for intra-sire regression"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The Hansson-Yapp (Equi-Parent) Index assumes D_bar = 0.5(S + M_bar), yielding S = 2(D_bar) - M_bar = M_bar + 2(D_bar - M_bar). It ignores environmental differences between years and overestimates variance because it fails to regress for finite daughter numbers and h^2 < 1.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000071000
+  },
+  {
+    "id": "agb_exp_072",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "In Robertson and Rendel's 'Contemporary Comparison' (CC) method of sire evaluation, the 'Effective Number of Daughters' (weighting factor W) for a sire having n_1 daughters and n_2 contemporary herd-mates is calculated as:",
+    "options": [
+      "W = (n_1 + n_2) / (n_1 * n_2)",
+      "W = (4 * n_1 * n_2) / (n_1 + n_2)",
+      "W = (n_1 * n_2) / (n_1 + n_2)",
+      "W = (n_1 * n_2) / (n_1 - n_2)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "In the Contemporary Comparison (CC) method, each herd-year-season deviation (D_1 - C_2) is weighted by the effective number of daughters W = (n_1 * n_2) / (n_1 + n_2). If the number of contemporaries n_2 is very large relative to n_1, W approaches n_1.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000072000
+  },
+  {
+    "id": "agb_exp_073",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "Among the three classic methods of multi-trait selection evaluated by Hazel and Lush (1943)—Tandem Selection, Independent Culling Levels, and the Selection Index—how do they rank in genetic efficiency?",
+    "options": [
+      "Tandem Selection > Independent Culling Levels > Selection Index",
+      "Tandem Selection > Selection Index > Independent Culling Levels",
+      "Selection Index > Independent Culling Levels > Tandem Selection",
+      "Independent Culling Levels > Tandem Selection > Selection Index"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Hazel and Lush (1943) proved that the linear Selection Index (I = sum b_i X_i) is the most efficient method (for k independent equally heritable traits, Selection Index is sqrt(k) times as efficient as Tandem Selection), because excellence in one trait can compensate for mediocrity in another.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000073000
+  },
+  {
+    "id": "agb_exp_074",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "When selecting simultaneously for 'k' independent, equally important, and equally heritable traits using a Selection Index, the genetic progress achieved in any single trait compared to single-trait selection alone is:",
+    "options": [
+      "1 / √k of the single-trait selection response",
+      "Equal to the full single-trait selection response",
+      "1 / k of the single-trait selection response",
+      "1 / k^2 of the single-trait selection response"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "As the number of independent traits (k) included in a Selection Index increases, the selection pressure and genetic progress on each individual trait decreases by a factor of 1 / sqrt(k). For example, selecting for 4 traits simultaneously yields 1/sqrt(4) = 50% as much gain per trait as single-trait selection.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000074000
+  },
+  {
+    "id": "agb_exp_075",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "In Hazel's (1943) linear Selection Index theory, the vector of optimal index weights (b) that maximizes the correlation between the phenotypic index (I = b'X) and aggregate genotype (H = a'G) is solved by which matrix equation?",
+    "options": [
+      "b = (P * G)^(-1) * a",
+      "P * b = G * a  (therefore, b = P^(-1) * G * a)",
+      "G * b = P * a  (therefore, b = G^(-1) * P * a)",
+      "P * a = G * b  (therefore, b = G^(-1) * P * a)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "In Hazel's Selection Index normal equations, P * b = G * a, where P is the phenotypic variance-covariance matrix among measured traits, G is the additive genetic variance-covariance matrix, and a is the vector of relative net economic weights. Thus b = P^(-1) G a.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000075000
+  },
+  {
+    "id": "agb_exp_076",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "In C.R. Henderson's mixed linear model (y = X*beta + Z*u + e) for Best Linear Unbiased Prediction (BLUP), what does the property 'Unbiased' mathematically signify?",
+    "options": [
+      "All animals in the pedigree are assumed to have zero inbreeding (F = 0)",
+      "Every sire is required to have an equal number of progeny in every herd",
+      "Environmental error variance (sigma^2_e) is forced to zero across all herds",
+      "Expected value of predicted breeding value equals true value: E(u_hat) = E(u)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "In Henderson's BLUP: 'Best' means minimum prediction error variance Var(u_hat - u) (maximum correlation between true and predicted breeding value); 'Linear' means u_hat is a linear function of observations y; 'Unbiased' means E(u_hat) = E(u) and E(beta_hat) = beta.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000076000
+  },
+  {
+    "id": "agb_exp_077",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "In Henderson's Mixed Model Equations (MME) for the Animal Model, the random additive genetic block uses the inverse of the Numerator Relationship Matrix multiplied by a scalar (A^(-1) * lambda). How is lambda defined in terms of heritability (h^2)?",
+    "options": [
+      "lambda = sigma^2_a / sigma^2_p = h^2 / (1 - h^2)",
+      "lambda = (4 - h^2) / (1 + h^2)",
+      "lambda = sigma^2_p / sigma^2_e = 1 / (1 - h^2)",
+      "lambda = sigma^2_e / sigma^2_a = (1 - h^2) / h^2"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "In the Animal Model (where var(u) = A * sigma^2_a), the mixed model ratio added to the diagonal/off-diagonal block of random effects is lambda = sigma^2_e / sigma^2_a = (1 - h^2) / h^2. (In a Sire Model where var(s) = A * 0.25 sigma^2_a, lambda = (4 - h^2)/h^2).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000077000
+  },
+  {
+    "id": "agb_exp_078",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Under what condition is 'Family Selection' (selecting or culling entire full-sib or half-sib families based on family mean) superior to 'Individual (Mass) Selection'?",
+    "options": [
+      "When heritability (h^2) is very HIGH (>0.60) such as for mature skeletal height",
+      "When heritability (h^2) is very LOW and common family environment (c^2) is minimal",
+      "When common maternal environmental correlation among full-sibs (c^2) exceeds 0.50",
+      "When family size (n) equals 1 and the trait is measured directly before puberty"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Family selection averages out random individual environmental noise (V_Es), making it ideal for low-heritability traits (h^2 < 0.15) such as poultry livability or litter size, provided common family environment (c^2) does not confound the family mean.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000078000
+  },
+  {
+    "id": "agb_exp_079",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Conversely, when members of a full-sib family share a strong common maternal or pen environment (high c^2, such as pre-weaning weight in pig litters raised in the same farrowing crate), which selection method is most effective?",
+    "options": [
+      "Within-Family Selection (selecting best individuals as deviations from family mean)",
+      "Tandem Culling of entire farrowing barns based on crude unadjusted barn averages",
+      "Whole-Family Selection (selecting entire litters purely on unadjusted litter average)",
+      "Pedigree Selection (selecting piglets solely on their maternal grand-dam's weight)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "When common environmental correlation among littermates (c^2) is high and h^2 is low-to-moderate, Within-Family Selection completely eliminates the between-family common environmental noise (V_Ec) by selecting individuals that outperform their own littermates.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000079000
+  },
+  {
+    "id": "agb_exp_080",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "In Open Nucleus Breeding Systems (ONBS) combined with MOET—as proposed by Nicholas and Smith (1983)—what distinguishes an 'Open' nucleus from a 'Closed' nucleus?",
+    "options": [
+      "Only imported frozen embryos from foreign breeds are permitted to enter the nucleus herd",
+      "Replacements are produced exclusively by consecutive brother-sister full-sib matings",
+      "Top-performing females screened from base herds are periodically migrated UPWARD into the nucleus",
+      "Elite bulls from the nucleus are prohibited from breeding females in the base multiplier villages"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "In an Open Nucleus Breeding System (ONBS), the elite nucleus is open to upward gene flow: the top 5–10% of females identified in the base population are brought into the nucleus, increasing selection intensity by 10–15% and cutting the rate of inbreeding in half compared to a closed nucleus.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000080000
+  },
+  {
+    "id": "agb_exp_081",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Why do 'Juvenile MOET' schemes (where young bulls and heifers are selected at 12–15 months based on parent/sib averages prior to first lactation) accumulate inbreeding faster than conventional progeny testing?",
+    "options": [
+      "Superovulation hormone treatments (FSH/eCG) directly induce point mutations in oocytes",
+      "Embryo transfer surrogate recipients transmit their own nuclear DNA to blastocysts",
+      "Juvenile MOET lengthens the generation interval to 12 years per generation",
+      "Co-selection of full-sibs based on family averages shrinks Ne and shortens generation interval"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "In Juvenile MOET, animals are selected prior to lactation using pedigree and sib indexes, which places heavy weight on family averages—leading to co-selection of full-sibs from a few elite families, shrinking Ne and accelerating Delta F per year.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000081000
+  },
+  {
+    "id": "agb_exp_082",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "In selection theory, the 'Standardized Selection Differential' or 'Selection Intensity' (i) for a normally distributed trait under truncation selection is defined as:",
+    "options": [
+      "i = S / sigma_P = z / p",
+      "i = S * sigma_P = p / z",
+      "i = R / S = V_A / V_P",
+      "i = (S * h^2) / sigma_A"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Selection intensity (i = S / sigma_P) expresses the selection differential in phenotypic standard deviation units. For a normally distributed trait under truncation selection of the top proportion p, i = z / p, where z is the height of the standard normal curve at the truncation threshold.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000082000
+  },
+  {
+    "id": "agb_exp_083",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)",
+    "questionText": "Using Sewall Wright's Path Coefficient formula, what is the inbreeding coefficient (F_X) of the offspring produced by a 'Half-Brother x Half-Sister' mating when their shared common parent (A) is non-inbred (F_A = 0)?",
+    "options": [
+      "0.250 (25.0% or 1/4)",
+      "0.125 (12.5% or 1/8)",
+      "0.0625 (6.25% or 1/16)",
+      "0.500 (50.0% or 1/2)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "For half-sib mating (Sire <-- Common Ancestor A --> Dam), the path from Sire through A to Dam contains n = 3 individuals (Sire - A - Dam), or n_1 = 1, n_2 = 1. Thus F_X = (1/2)^3 * (1 + 0) = 1/8 = 0.125 (12.5%).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000083000
+  },
+  {
+    "id": "agb_exp_084",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mating Systems, Heterosis, Breeds & Conservation",
+    "questionText": "If a half-brother and half-sister are mated, and their single common ancestor (the shared parent A) is HIMSELF inbred with an inbreeding coefficient of F_A = 0.20, what is the inbreeding coefficient (F_X) of their offspring?",
+    "options": [
+      "0.125 (12.5%)",
+      "0.325 (32.5%)",
+      "0.150 (15.0%)",
+      "0.250 (25.0%)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Using Wright's formula: F_X = (1/2)^3 * (1 + F_A) = 0.125 * (1 + 0.20) = 0.125 * 1.20 = 0.150 (15.0%).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000084000
+  },
+  {
+    "id": "agb_exp_085",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)",
+    "questionText": "What is the additive genetic 'Coefficient of Relationship' (R_XY) between full-sibs and between half-sibs in a non-inbred random-mating population?",
+    "options": [
+      "Full-sibs: R_XY = 0.25 (25%); Half-sibs: R_XY = 0.125 (12.5%)",
+      "Full-sibs: R_XY = 1.00 (100%); Half-sibs: R_XY = 0.50 (50%)",
+      "Full-sibs: R_XY = 0.50 (50%); Half-sibs: R_XY = 0.25 (25%)",
+      "Full-sibs: R_XY = 0.25 (25%); Half-sibs: R_XY = 0.0625 (6.25%)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Notice the vital distinction between Relationship (R_XY) and Inbreeding of their progeny (F_offspring = 0.5 * R_XY): Non-inbred full-sibs share 50% of their genes (R_XY = 0.50, while their offspring has F = 0.25); half-sibs share 25% of their genes (R_XY = 0.25, while their offspring has F = 0.125).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000085000
+  },
+  {
+    "id": "agb_exp_086",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mating Systems, Heterosis, Breeds & Conservation",
+    "questionText": "How is Malecot's 'Coefficient of Coancestry' (Kinship, f_SD) between a Sire (S) and a Dam (D) related to the Inbreeding Coefficient (F_X) of their offspring (X)?",
+    "options": [
+      "Inbreeding of the offspring is twice parental coancestry: F_X = 2 * f_SD",
+      "Inbreeding of the offspring is half parental coancestry: F_X = 0.5 * f_SD",
+      "Inbreeding of the offspring is the square of coancestry: F_X = (f_SD)^2",
+      "Inbreeding of the offspring equals coancestry of its parents: F_X = f_SD"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Coancestry (f_SD) is defined as the probability that a random allele drawn from S and a random allele drawn from D are identical by descent (IBD). Since those two alleles unite to form the zygote X, F_X = f_SD = 0.5 * Cov_A(S,D).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000086000
+  },
+  {
+    "id": "agb_exp_087",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Population Genetics (Hardy-Weinberg Equilibrium & Gene Frequency)",
+    "questionText": "In quantitative genetics, why does 'Inbreeding Depression' reduce the population mean by -2Fpqd, and why is there zero inbreeding depression when dominance deviation d = 0?",
+    "options": [
+      "Inbreeding reduces heterozygotes (2pq, value +d) by 2Fpq without altering p or q",
+      "Inbreeding increases spontaneous recessive mutation rates by 50% per generation",
+      "Inbreeding deletes dominant alleles from the gametic pool during first meiosis",
+      "Inbreeding doubles environmental variance while keeping heterozygosity constant"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Under inbreeding without selection, genotype frequencies become: A1A1 = p^2 + Fpq, A1A2 = 2pq(1 - F), and A2A2 = q^2 + Fpq. The population mean is M_F = M_0 - 2Fpqd. Thus, inbreeding depression requires directional dominance (d > 0) and is proportional to F and 2pq.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000087000
+  },
+  {
+    "id": "agb_exp_088",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Selection Methods, Sire Evaluation & Breeding Values (BLUP)",
+    "questionText": "What is the primary breeding objective of 'Linebreeding' in purebred livestock populations?",
+    "options": [
+      "Maximize the inbreeding coefficient (F -> 1.0) rapidly via brother-sister matings",
+      "Maintain high relationship (R_XY) to an elite proven ancestor while keeping inbreeding (F) low",
+      "Cross two distinct species (Bos taurus x Bubalus bubalis) to generate F1 heterosis",
+      "Mate the lowest-performing males and females to purge dominant alleles from the herd"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Linebreeding is a milder, directed form of inbreeding that concentrates the genes of an exceptional ancestor (whose merit has been proven by progeny test) while avoiding ancillary inbreeding to mediocre relatives.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000088000
+  },
+  {
+    "id": "agb_exp_089",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mating Systems, Heterosis, Breeds & Conservation",
+    "questionText": "In a 'Three-Breed Rotational Crossbreeding' system (Sire breeds A -> B -> C -> A rotated sequentially on crossbred female replacements), what percentage of maximum F1 heterosis is permanently retained at equilibrium?",
+    "options": [
+      "85.7% (6/7 of maximum F1 heterosis: (2^3 - 2) / (2^3 - 1))",
+      "66.7% (2/3 of maximum F1 heterosis: (2^2 - 2) / (2^2 - 1))",
+      "50.0% (1/2 of maximum F1 heterosis in two-breed F2 inter-se)",
+      "93.3% (14/15 of maximum F1 heterosis: (2^4 - 2) / (2^4 - 1))"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "For an n-breed rotational crossbreeding system at equilibrium, the proportion of maximum F1 heterosis retained is (2^n - 2) / (2^n - 1). For n = 2 (criss-cross), (4 - 2)/(4 - 1) = 2/3 = 66.7%; for n = 3 (3-breed rotation), (8 - 2)/(8 - 1) = 6/7 = 85.7%.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000089000
+  },
+  {
+    "id": "agb_exp_090",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mating Systems, Heterosis, Breeds & Conservation",
+    "questionText": "When a 'Synthetic / Composite Breed' is formed by inter-se mating of crossbreds derived equally from 'n' parental breeds, what fraction of maximum initial F1 heterosis is retained in F2 and subsequent generations?",
+    "options": [
+      "(2^n - 2) / (2^n - 1)  (e.g., 66.7% for 2 breeds and 85.7% for 3 breeds)",
+      "1 / 2^n  (decaying by 50% in every successive inter-se generation)",
+      "(n - 1) / n  (e.g., 50% for 2 breeds, 66.7% for 3 breeds, 75% for 4 breeds)",
+      "100%  (full F1 heterosis is permanently fixed without any heterozygosity loss)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "According to Sewall Wright (1922) and Dickerson (1969), inter-se mating of an n-breed synthetic (with equal fraction 1/n from each breed) retains heterozygosity and heterosis equal to 1 - sum(p_i^2) = 1 - n(1/n)^2 = (n - 1)/n. Thus a 2-breed F2 retains 1/2 (50%) of F1 heterosis.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000090000
+  },
+  {
+    "id": "agb_exp_091",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "In poultry and swine breeding, 'Reciprocal Recurrent Selection' (RRS), devised by Comstock et al. (1949), is specifically designed to:",
+    "options": [
+      "Eliminate all heterozygosity via 20 generations of full-sib mating before testing crosses",
+      "Improve both General (GCA) and Specific Combining Ability (SCA) without prior inbreeding",
+      "Evaluate strictly maternal cytoplasmic inheritance by backcrossing F1 dams to grandsires",
+      "Improve only high-heritability skeletal traits via mass selection within a single closed line"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "In RRS, purebred males and females of Line A are mated to Line B (and vice versa), and the highest-performing crossbred progeny identify which purebred parents in Line A and Line B are selected to propagate the pure lines—capturing both additive (GCA) and non-additive (SCA) genetic variance.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000091000
+  },
+  {
+    "id": "agb_exp_092",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "In diallel crossing experiments, 'General Combining Ability' (GCA) and 'Specific Combining Ability' (SCA) reflect which underlying genetic variance components?",
+    "options": [
+      "GCA reflects Dominance Variance (V_D); SCA reflects Additive Genetic Variance (V_A)",
+      "Both GCA and SCA reflect solely temporary environmental herd-year variance (V_E)",
+      "GCA reflects maternal mitochondrial DNA; SCA reflects Y-chromosome holoandric genes",
+      "GCA reflects Additive Variance (V_A); SCA reflects Non-Additive Variance (V_D and V_I)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Sprague and Tatum (1942) defined GCA as the average performance of a line in hybrid combinations (governed by additive gene effects, V_A) and SCA as the deviation of a specific cross from the sum of parental GCAs (governed by dominance V_D and epistasis V_I).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000092000
+  },
+  {
+    "id": "agb_exp_093",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Which synthetic dairy cattle strains were developed at ICAR-National Dairy Research Institute (NDRI), Karnal, and what are their exact exotic and indigenous parental breeds?",
+    "options": [
+      "Karan Swiss (Red Dane x Rathi/Deoni) and Karan Fries (Jersey x Kankrej/Ongole)",
+      "Karan Swiss (Jersey x Tharparkar/Hariana) and Karan Fries (Brown Swiss x Gir/Kankrej)",
+      "Karan Swiss (Brown Swiss x Sahiwal/Red Sindhi) and Karan Fries (Holstein Friesian x Tharparkar)",
+      "Karan Swiss (Holstein Friesian x Hariana) and Karan Fries (Ayrshire x Sahiwal/Rathi)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Developed at ICAR-NDRI Karnal: 'Karan Swiss' was evolved by crossing American Brown Swiss bulls with Sahiwal and Red Sindhi cows (50% exotic inheritance), while 'Karan Fries' was evolved by crossing Holstein Friesian bulls with Tharparkar cows (50–62.5% exotic inheritance).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000093000
+  },
+  {
+    "id": "agb_exp_094",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mating Systems, Heterosis, Breeds & Conservation",
+    "questionText": "The national synthetic dairy cattle strain 'Frieswal'—developed jointly by ICAR-CIRC, Meerut and Military Dairy Farms—was stabilized with what exotic-to-indigenous breed composition?",
+    "options": [
+      "50.0% (1/2) Brown Swiss and 50.0% (1/2) Tharparkar",
+      "62.5% (5/8) Holstein Friesian and 37.5% (3/8) Sahiwal",
+      "75.0% (3/4) Jersey and 25.0% (1/4) Red Sindhi",
+      "87.5% (7/8) Holstein Friesian and 12.5% (1/8) Hariana"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "The Frieswal project (CIRC Meerut + Military Dairy Farms) stabilized crossbred cattle at 5/8 (62.5%) Holstein Friesian and 3/8 (37.5%) Sahiwal inheritance, targeting >4,000 kg milk in 300 days with 4% butterfat.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000094000
+  },
+  {
+    "id": "agb_exp_095",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mendelian, Chromosomal & Cytogenetics",
+    "questionText": "The synthetic triple-cross dairy cattle strain 'Phule Triveni' developed at Mahatma Phule Krishi Vidyapeeth (MPKV), Rahuri (Maharashtra) combines which three breeds and in what blood proportions?",
+    "options": [
+      "50% Holstein Friesian + 25% Jersey + 25% Gir",
+      "50% Gir + 25% Tharparkar + 25% Red Sindhi",
+      "50% Jersey + 25% Ayrshire + 25% Deoni",
+      "50% Brown Swiss + 25% Holstein Friesian + 25% Sahiwal"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Phule Triveni (MPKV Rahuri) is a three-breed synthetic dairy strain stabilized at 50% Holstein Friesian (for high milk volume), 25% Jersey (for high butterfat %), and 25% indigenous Gir (for heat tolerance and tick resistance).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000095000
+  },
+  {
+    "id": "agb_exp_096",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mating Systems, Heterosis, Breeds & Conservation",
+    "questionText": "The composite dairy cattle breed 'Sunandini' of Kerala—developed under the Indo-Swiss Project and KLDB—was evolved from local non-descript cattle crossed with which exotic breeds?",
+    "options": [
+      "Purebred Murrah buffalo and Mithun bulls backcrossed to indigenous Vechur cows",
+      "Charolais and Limousin beef breeds crossed with Kangayam and Hallikar draft cows",
+      "Exclusively Red Dane and Guernsey bulls without any Brown Swiss or Jersey blood",
+      "Brown Swiss, Jersey, and Holstein Friesian (stabilized at ~50% exotic inheritance)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Sunandini began under the Indo-Swiss Project in Mattupatti (Kerala, 1963) using Brown Swiss semen on local non-descript cows, and later incorporated Jersey and Holstein Friesian genetics under the Kerala Livestock Development Board (KLDB).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000096000
+  },
+  {
+    "id": "agb_exp_097",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Mating Systems, Heterosis, Breeds & Conservation",
+    "questionText": "Match the synthetic Indian sheep breeds developed at ICAR-CSWRI (Avikanagar) and Hisar with their correct parental crosses:",
+    "options": [
+      "Avikalin = Merino x Nellore; Avivastra = Dorset x Mandya; Hissardale = Corriedale x Marwari",
+      "Avikalin = Suffolk x Sonadi; Avivastra = Southdown x Gaddi; Hissardale = Karakul x Patanwadi",
+      "Avikalin = Chokla x Marwari; Avivastra = Malpura x Jaisalmeri; Hissardale = Deccani x Bellary",
+      "Avikalin = Rambouillet x Malpura; Avivastra = Rambouillet x Chokla; Hissardale = Merino x Bikaneri"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "At ICAR-CSWRI Avikanagar: 'Avikalin' (50% Rambouillet x 50% Malpura) was developed for superior carpet wool; 'Avivastra' (Rambouillet x Chokla) and 'Bharat Merino' (75% Rambouillet/Merino x 25% Chokla/Nali/Malpura/Jaisalmeri) were developed for fine apparel wool. 'Hissardale' was developed at Hisar from 7/8 Australian Merino x 1/8 Bikaneri.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000097000
+  },
+  {
+    "id": "agb_exp_098",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Which indigenous cattle breed of Kerala is recognized by Guinness World Records as the 'Smallest Cattle Breed in the World' (average height ~87 cm, weight ~130 kg)?",
+    "options": [
+      "Punganur cattle (native to Chittoor district of Andhra Pradesh)",
+      "Malnad Gidda cattle (native to Western Ghats of Karnataka)",
+      "Vechur cattle (native to Kottayam district of Kerala)",
+      "Bargur cattle (native to Erode hills of Tamil Nadu)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Vechur cattle (named after Vechoor village in Kottayam, Kerala) is the smallest registered cattle breed in the world (Accession No. INDIA_CATTLE_0900_VECHUR_03026), conserved through the pioneering efforts of Dr. Sosamma Iype and KAU.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000098000
+  },
+  {
+    "id": "agb_exp_099",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "In ex-situ cryopreservation of Animal Genetic Resources (AnGR), why is cryopreserving 'Oocytes / Embryos / Somatic Cells' necessary alongside frozen semen straws?",
+    "options": [
+      "Semen straws lose 100% of their autosomal chromosomes after 6 months at -196°C",
+      "Semen preserves only nuclear DNA and loses maternal mitochondrial DNA (mtDNA)",
+      "Bull spermatozoa contain only Y chromosomes and cannot produce female calves",
+      "Reconstituting a breed with semen takes 1 generation versus 10 with embryos"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Reconstituting an extinct breed using only frozen semen requires 5–7 generations of grading-up on females of another breed, and the resulting animals will forever carry the recipient breed's maternal mitochondrial DNA (mtDNA). Cryopreserved embryos or somatic cells (for SCNT cloning) restore 100% nuclear and mitochondrial genome in a single generation.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000099000
+  },
+  {
+    "id": "agb_exp_100",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "agb",
+    "topic": "Molecular Genetics, Genomics & Markers",
+    "questionText": "Which indigenous Indian buffalo breed native to the Kutch region of Gujarat is famous for nocturnal grazing in saline grasslands, extreme heat/cold resilience, and tightly coiled horns?",
+    "options": [
+      "Banni buffalo (registered as 11th buffalo breed of India)",
+      "Toda buffalo (semi-wild breed of the Nilgiri hills, Tamil Nadu)",
+      "Chilika buffalo (brackish water lagoon breed of coastal Odisha)",
+      "Bhadawari buffalo (copper-colored breed with up to 13% milk fat)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Banni buffalo (registered as the 11th buffalo breed of India by NBAGR) is bred by the Maldhari pastoralists in the Banni grasslands of Kutch, Gujarat, renowned for nocturnal grazing habits, drought/salinity resilience, and high milk yield.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Genetics & Breeding",
+      "AGB",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775000100000
+  }
+]

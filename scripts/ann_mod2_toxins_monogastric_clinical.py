@@ -175,7 +175,7 @@ def get_ann_module2_questions():
          True, "Forage Conservation, Grassland Management & Feed Processing"),
 
         ("What is 'Densified Complete Feed Block' (DCFB) technology developed in India for drought feeding and crop-residue utilization?",
-         ["Hydraulic compression of roughage (50–60%), concentrate, molasses, and minerals into blocks",
+         ["Hydraulic compression of roughage, concentrate, molasses, and minerals into blocks",
           "Pouring liquid urea-molasses-mineral mixture into open troughs without fibrous roughage",
           "Hydroponic sprouting of barley grains in climate-controlled trays for 7 days without soil",
           "Ensiling chopped green maize with 5% poultry litter in underground unlined earthen pits"],
@@ -208,7 +208,7 @@ def get_ann_module2_questions():
          True, "Monogastric (Swine & Poultry) & Companion Animal Nutrition"),
 
         ("Why is 'Apparent Metabolizable Energy corrected to Zero Nitrogen Retention' (AMEn) the universal energy standard for poultry feeds rather than Digestible Energy (DE)?",
-         ["Birds void feces and urine together via the cloaca; corrected by 8.22 kcal/g N retained",
+         ["Birds void feces and urine together via cloaca; corrected by 8.22 kcal/g N",
           "Chickens ferment 90% of dietary cellulose in the crop, losing 40% of energy as methane",
           "Avian gizzard grinding generates mechanical heat exceeding fecal energy by three-fold",
           "Poultry absorb intact triglycerides directly into the portal vein without chylomicrons"],
@@ -233,9 +233,9 @@ def get_ann_module2_questions():
 
         ("Which essential fatty acid is specifically required at a minimum of 1.0–1.25% in commercial Layer diets to optimize egg size/weight and sustain maximum egg production?",
          ["Linoleic acid (C18:2 ω-6)",
-          "Erucic acid (C22:1 ω-9)",
-          "Arachidic acid (C20:0)",
-          "Stearic acid (C18:0)"],
+          "α-Linolenic acid (C18:3 ω-3)",
+          "Arachidonic acid (C20:4 ω-6)",
+          "Docosahexaenoic acid (C22:6)"],
          0, "Linoleic acid (18:2 n-6, abundant in maize, sunflower, and soybean oil) is strictly required at ≥1.0% in layer rations because it is essential for hepatic synthesis of vitellogenin and very-low-density lipoproteins (VLDLy) that are transported to the ovary to govern egg yolk weight and total egg size.",
          True, "Monogastric (Swine & Poultry) & Companion Animal Nutrition"),
 
@@ -289,7 +289,7 @@ def get_ann_module2_questions():
          True, "Minerals, Vitamins & Metabolic Deficiency Disorders"),
 
         ("Chronic vs Subacute Selenium (Se) toxicity in livestock grazing seleniferous plants (e.g., Astragalus, Stanleya) in areas like Hoshiarpur/Nawanshahr (Punjab) manifests as which two classical syndromes?",
-         ["Chronic 'Alkali Disease' (alopecia, sloughed hooves) and Subacute 'Blind Staggers'",
+         ["Chronic 'Alkali Disease' (hoof/hair loss) and Subacute 'Blind Staggers'",
           "Chronic 'Falling Disease' (sudden myocardial fibrosis) and Subacute 'Peat Scours'",
           "Chronic 'Coast Disease' (progressive emaciation) and Subacute 'Grass Staggers'",
           "Chronic 'Brisket Disease' (pulmonary hypertension) and Subacute 'Milk Trembles'"],
@@ -305,7 +305,7 @@ def get_ann_module2_questions():
          True, "Minerals, Vitamins & Metabolic Deficiency Disorders"),
 
         ("In calves and lambs reared on high-concentrate, low-roughage rations (or grazing bracken fern), ruminal proliferation of Bacillus thiaminolyticus or Clostridium sporogenes produces 'Thiaminase I', causing which neurological disorder?",
-         ["Polioencephalomalacia (Cerebrocortical Necrosis) with UV cortical autofluorescence",
+         ["Polioencephalomalacia (CCN) with laminar UV cortical autofluorescence",
           "Nigropallidal Encephalomalacia caused by chronic ingestion of yellow star thistle",
           "Leukoencephalomalacia ('Moldy Corn Poisoning') caused by Fusarium Fumonisin B1",
           "Hepatic Encephalopathy caused by pyrrolizidine alkaloids in Senecio jacobaea"],
@@ -313,7 +313,7 @@ def get_ann_module2_questions():
          True, "Minerals, Vitamins & Metabolic Deficiency Disorders"),
 
         ("Match the classic avian/swine vitamin deficiency with its pathognomonic neurological lesion: 'Curled-Toe Paralysis' in chicks vs 'Polyneuritis (Star-Gazing)' in chicks vs 'Goose-Stepping' gait in swine:",
-         ["Curled-toe: Riboflavin (B2); Polyneuritis: Thiamine (B1); Goose-stepping: Pantothenic acid (B5)",
+         ["Curled-toe: Riboflavin (B2); Polyneuritis: Thiamine (B1); Goose-stepping: B5",
           "Curled-toe: Thiamine (B1); Polyneuritis: Pyridoxine (B6); Goose-stepping: Nicotinic acid (B3)",
           "Curled-toe: Biotin (B7); Polyneuritis: Riboflavin (B2); Goose-stepping: Cyanocobalamin (B12)",
           "Curled-toe: Folic acid (B9); Polyneuritis: Pantothenic acid (B5); Goose-stepping: Choline"],
@@ -321,7 +321,7 @@ def get_ann_module2_questions():
          True, "Minerals, Vitamins & Metabolic Deficiency Disorders"),
 
         ("In growing broiler chicks and poults, 'Perosis' (Chondrodystrophy or 'Slipped Tendon', where the gastrocnemius tendon slips off the lateral condyle of the tibiotarsal-tarsometatarsal hock joint) is caused by a deficiency of:",
-         ["Manganese (Mn) and/or Choline (along with Biotin, Niacin, or Folic acid)",
+         ["Manganese (Mn) and/or Choline (plus Biotin, Niacin, or Folic acid)",
           "Calcium (Ca) and/or Cholecalciferol (Vitamin D3) in the finisher ration",
           "Copper (Cu) and/or Ascorbic acid (Vitamin C) in the pre-starter mash",
           "Iodine (I) and/or Retinol (Vitamin A) during the brooding phase"],
@@ -337,7 +337,7 @@ def get_ann_module2_questions():
          True, "Minerals, Vitamins & Metabolic Deficiency Disorders"),
 
         ("In poultry, chronic Vitamin A deficiency causes squamous metaplasia and hyperkeratinization of the mucous glands of the pharynx and esophagus, producing white pustular nodules clinically termed:",
-         ["'Nutritional Roup' (accompanied by xerophthalmia and visceral urate deposits)",
+         ["'Nutritional Roup' (with xerophthalmia and visceral urate deposits)",
           "'Crazy Chick Disease' (accompanied by cerebellar hemorrhage and torticollis)",
           "'Black Tongue Syndrome' (accompanied by necrotic diphtheritic ileitis)",
           "'Cage Layer Fatigue' (accompanied by spontaneous medullary bone fractures)"],
@@ -345,7 +345,7 @@ def get_ann_module2_questions():
          True, "Minerals, Vitamins & Metabolic Deficiency Disorders"),
 
         ("Horses fed diets high in wheat bran and cereal grains without roughage or limestone supplementation ('Millers' Disease' / 'Bran Disease') develop facial bone swelling ('Bighead') and shifting lameness due to:",
-         ["Nutritional Secondary Hyperparathyroidism from an inverted Ca:P ratio and phytate",
+         ["Nutritional Secondary Hyperparathyroidism from an inverted Ca:P ratio",
           "Primary Hypervitaminosis D caused by calcinogenic glycosides in wheat pericarp",
           "Equine Motor Neuron Disease caused by chronic alpha-tocopherol and Se deficiency",
           "Hypertrophic Osteopathy secondary to fungal mycotoxins in stored wheat offals"],
@@ -353,7 +353,7 @@ def get_ann_module2_questions():
          True, "Minerals, Vitamins & Metabolic Deficiency Disorders"),
 
         ("What is the earliest biochemical/physiological indicator of Vitamin A deficiency in growing calves before overt clinical signs (night blindness/nyctalopia, xerophthalmia, or blindness) become apparent?",
-         ["Elevated Cerebrospinal Fluid (CSF) pressure (>200 mm saline) from reduced absorption",
+         ["Elevated Cerebrospinal Fluid (CSF) pressure (>200 mm saline)",
           "Profound hypocalcemia (<5.0 mg/dL) with hyperphosphatemia from parathyroid atrophy",
           "Increased erythrocyte hemolysis in peroxide due to glutathione peroxidase depletion",
           "Massive urinary excretion of methylmalonic acid and formiminoglutamic acid (FIGLU)"],
@@ -377,7 +377,7 @@ def get_ann_module2_questions():
          True, "Minerals, Vitamins & Metabolic Deficiency Disorders"),
 
         ("Which clinical disorder occurs in high-yielding dairy cows grazing lush, heavily potassium- and nitrogen-fertilized early spring pastures containing <0.2% DM Magnesium, and why can it strike within 24–48 hours?",
-         ["Grass Tetany; cows lack labile bone Mg stores and high K⁺ blocks ruminal Mg²⁺ uptake",
+         ["Grass Tetany; cows lack labile bone Mg and high K⁺ blocks ruminal Mg²⁺ uptake",
           "Post-parturient Hemoglobinuria; lush spring pasture lacks Pi and lyses erythrocytes",
           "Atypical Interstitial Pneumonia; low Mg converts propionate into 3-methylindole",
           "Enzootic Hematuria; high potassium induces acute bladder hemorrhage within 48 hours"],
@@ -393,7 +393,7 @@ def get_ann_module2_questions():
          True, "Minerals, Vitamins & Metabolic Deficiency Disorders"),
 
         ("What causes 'Post-Parturient Hemoglobinuria' (Redwater of nutritional origin) in high-yielding dairy cows and buffaloes during weeks 2–4 of lactation, especially when fed cruciferous plants or sugar beet by-products?",
-         ["Severe Hypophosphatemia (<1.5 mg/dL Pi) depleting RBC ATP and causing hemolysis",
+         ["Severe Hypophosphatemia (<1.5 mg/dL Pi) depleting RBC ATP, causing hemolysis",
           "Severe Hypercalcemia (>14 mg/dL Ca) calcifying and rupturing renal glomeruli",
           "Acute Vitamin K deficiency caused by ruminal washout of Bacteroides species",
           "Excess dietary Cobalt stimulating polycythemia vera and splenic sequestration"],

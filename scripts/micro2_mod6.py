@@ -518,11 +518,90 @@ def get_module6_questions():
                 "Deoxyribonuclease I (DNase I)",
                 "Ribonuclease A (RNase A)",
                 "Proteinase K",
-                "Uracil-DNA Glycosylase (UDG / UNG, which cleaves uracil-containing carryover amplicons from previous PCR runs while sparing native thymine-containing sample genomic DNA)"
+                "Uracil-DNA Glycosylase (UDG / UNG, which cleaves uracil-containing carryover amplicons)"
             ],
             3,
-            "In the dUTP/UDG carryover prevention system: all PCR reactions are run with dUTP instead of dTTP, so every PCR amplicon ever produced in the laboratory contains Uracil (U). When setting up a new PCR run, the master mix is incubated at 37–50°C with heat-labile Uracil-DNA Glycosylase (UDG/UNG), which excises uracil bases and degrades any contaminating carryover amplicons from past runs (while leaving natural T-containing patient DNA untouched), and UDG is then inactivated during the initial 95°C hot-start step.",
+            "In the dUTP/UDG carryover prevention system: all PCR reactions are run with dUTP instead of dTTP, so every PCR amplicon ever produced in the laboratory contains Uracil (U). When setting up a new PCR run, the master mix is incubated at 37–50°C with heat-labile Uracil-DNA Glycosylase (UDG/UNG), which excises uracil bases and degrades any contaminating carryover amplicons from past runs.",
+            True,
+            TOPIC
+        ),
+        (
+            "In Laurell's 'Rocket Immunoelectrophoresis' (electroimmunodiffusion), how is the unknown concentration of a negatively charged protein antigen quantitatively determined?",
+            [
+                "By measuring the height (from well center to rocket tip) of the conical precipitin peak formed as antigen is electrophoresed into an antibody-containing agarose gel",
+                "By measuring the time required for the agar gel to liquefy at 56°C",
+                "By counting the number of concentric Liesegang rings formed around a circular well",
+                "By measuring the optical density of the supernatant at 260 nm after centrifugation"
+            ],
+            0,
+            "Rocket immunoelectrophoresis (Laurell technique) combines electrophoresis with radial immunodiffusion: antigen is electrophoresed in one direction into an agarose gel containing a uniform concentration of monospecific antibody (at pH 8.6 where antibody remains stationary). Conical 'rocket-shaped' precipitin peaks form, whose height is directly proportional to antigen concentration.",
+            False,
+            TOPIC
+        ),
+        (
+            "Why does the standard direct Complement Fixation Test (using guinea pig complement) fail to detect antibodies in avian (chicken, duck, turkey) sera and certain equine IgG(T) sera, and how is the CFT modified to test these species?",
+            [
+                "Avian and equine sera contain high levels of lysozyme that dissolve sheep red blood cells",
+                "Avian IgY (lacking a mammalian hinge/CH2 C1q site) and equine IgG(T) bind antigen but CANNOT fix heterologous guinea pig C1q; therefore, an 'Indirect (Inhibition) CFT' is performed by adding a standard mammalian (rabbit/bovine) complement-fixing antiserum to detect whether the avian/equine serum blocked the antigen",
+                "Avian sera solidify into a gel when heated to 56°C for complement inactivation",
+                "Guinea pig complement is neutralized by avian nucleated erythrocytes"
+            ],
+            1,
+            "Chicken/duck IgY and equine IgG(T) (as well as bovine IgG2 and porcine IgG in some systems) do not activate guinea pig classical complement C1q. To test avian sera (e.g., for Chlamydia psittaci or Avian Influenza), an Indirect (Complement Fixation Inhibition) test is used: avian serum is incubated with antigen first, followed by a known mammalian (e.g., rabbit or pigeon/guinea pig) complement-fixing indicator antibody; if avian antibodies bound the antigen, they block the mammalian antibody from fixing complement, resulting in hemolysis!",
+            True,
+            TOPIC
+        ),
+        (
+            "What is the standard WOAH-recommended antigen-detection immunoassay used by reference laboratories to rapidly determine the specific Serotype (O, A, C, Asia-1, SAT 1, SAT 2, or SAT 3) of Foot and Mouth Disease Virus directly from vesicular epithelium suspensions?",
+            [
+                "Rose Bengal Plate Agglutination Test",
+                "Single Radial Hemolysis in Gel Test",
+                "Indirect Double-Antibody Sandwich ELISA (Antigen-Capture ELISA using serotype-specific rabbit capture antisera and guinea pig detector antisera)",
+                "Coggins Agar Gel Immunodiffusion Test"
+            ],
+            2,
+            "For rapid FMDV antigen detection and serotyping (distinguishing the 7 FMDV serotypes and differentiating FMDV from Swine Vesicular Disease or Vesicular Stomatitis), the Indirect Sandwich ELISA (Antigen-Capture ELISA)—where rows of microplate wells are coated with rabbit antisera specific for each of the 7 serotypes, incubated with the ground epithelial suspension, and probed with serotype-specific guinea pig antisera—has replaced the classical CFT.",
+            True,
+            TOPIC
+        ),
+        (
+            "Using the classical 'Wallace Rule' for estimating the Melting Temperature (Tm) of a short oligonucleotide PCR primer (18–22 bases), what is the approximate Tm of the 20-mer primer 5'-GCTAGCTAGCTAGCTAGCTA-3' (containing 10 G/C bases and 10 A/T bases), and where should the PCR Annealing Temperature (Ta) be set?",
+            [
+                "Tm = 40°C; Annealing Temperature (Ta) = 45°C",
+                "Tm = 80°C; Annealing Temperature (Ta) = 85°C",
+                "Tm = 20°C; Annealing Temperature (Ta) = 25°C",
+                "Tm = 60°C (calculated as 4 x [G+C] + 2 x [A+T] = 4[10] + 2[10] = 60°C); Annealing Temperature (Ta) is set 3°C–5°C below Tm (at 55°C–57°C)"
+            ],
+            3,
+            "According to the Wallace Rule for oligonucleotides of 14–20 nucleotides: each G or C base pair (3 hydrogen bonds) contributes 4°C, and each A or T base pair (2 hydrogen bonds) contributes 2°C: Tm = 4(G + C) + 2(A + T). For 10 G/C and 10 A/T bases, Tm = 40 + 20 = 60°C, and the optimal PCR annealing temperature (Ta) is set 3–5°C below the lower primer Tm (55–57°C).",
+            True,
+            TOPIC
+        ),
+        (
+            "In 'Hot-Start PCR', how is non-specific primer extension and primer-dimer formation prevented while reaction tubes are being assembled on the laboratory bench prior to starting the thermal cycler?",
+            [
+                "Taq DNA polymerase is complexed with a heat-labile neutralizing monoclonal antibody, aptamer, or covalent chemical modifier that keeps the enzyme completely inactive at room temperature until the initial 95°C denaturation step releases the active polymerase",
+                "The PCR tubes are frozen in liquid nitrogen at -196°C during pipetting",
+                "Primers are synthesized out of RNA and converted to DNA only above 90°C",
+                "Ethidium bromide is added to intercalate template DNA below 72°C"
+            ],
+            0,
+            "Even at room temperature (20–25°C), unmodified Taq DNA polymerase retains residual catalytic activity and can extend transiently misprimed oligonucleotides or 3'-complementary primer pairs into 'primer-dimers'. Hot-Start Taq polymerases are reversibly inactivated by a blocking monoclonal antibody or chemical dicarboxylic acid anhydride modification that is destroyed only when heated to 94–95°C during initial denaturation.",
+            True,
+            TOPIC
+        ),
+        (
+            "When establishing the optimal optical-density cut-off value for a new quantitative diagnostic ELISA using a 'Receiver Operating Characteristic' (ROC) curve, what two parameters are plotted on the Y-axis and X-axis, and what does an Area Under the Curve (AUC) of 1.0 versus 0.5 signify?",
+            [
+                "Y-axis: Specificity; X-axis: Prevalence; AUC 1.0 = worthless test",
+                "Y-axis: Sensitivity (True Positive Rate); X-axis: 1 - Specificity (False Positive Rate); AUC = 1.0 signifies a perfect diagnostic test (100% Se and 100% Sp), whereas AUC = 0.5 (the diagonal line) signifies a worthless test no better than flipping a coin",
+                "Y-axis: Positive Predictive Value; X-axis: Cycle Threshold (Ct); AUC 0.5 = perfect test",
+                "Y-axis: Absorbance at 450 nm; X-axis: Serum dilution factor; AUC 1.0 = prozone effect"
+            ],
+            1,
+            "A Receiver Operating Characteristic (ROC) curve evaluates a diagnostic test across all possible cut-off thresholds by plotting Sensitivity (True Positive Rate) on the vertical Y-axis against (1 - Specificity) (False Positive Rate) on the horizontal X-axis. The Area Under the ROC Curve (AUC) measures overall diagnostic accuracy: AUC = 1.0 is a perfect test, AUC > 0.90 is highly accurate, and AUC = 0.50 (the 45° diagonal line of identity) means zero discriminatory power.",
             True,
             TOPIC
         )
     ]
+

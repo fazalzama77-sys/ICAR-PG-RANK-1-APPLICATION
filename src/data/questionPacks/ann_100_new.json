@@ -1,0 +1,2502 @@
+[
+  {
+    "id": "ann_exp_001",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Principles of Nutrition, Proximate Analysis & Nutrient Metabolism",
+    "questionText": "While the standard Kjeldahl nitrogen-to-crude-protein conversion factor for mixed livestock feeds is 6.25 (16% N), what is the specific conversion factor used for Milk Protein (casein/whey) and Wheat Flour protein, respectively?",
+    "options": [
+      "6.50 for milk protein and 5.46 for wheat flour protein",
+      "6.38 for milk protein and 5.70 for wheat flour protein",
+      "6.00 for milk protein and 6.85 for wheat flour protein",
+      "5.70 for milk protein and 6.38 for wheat flour protein"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Milk proteins contain ~15.67% nitrogen (100 / 15.67 = 6.38), whereas wheat endospermic proteins (gliadin/glutenin) are rich in nitrogen (~17.5% N, 100 / 17.5 = 5.70), and oilseeds/almonds use 5.18–5.46.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100001000
+  },
+  {
+    "id": "ann_exp_002",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Principles of Nutrition, Proximate Analysis & Nutrient Metabolism",
+    "questionText": "In Henneberg and Stohmann's Weende proximate analysis, how is the 'Crude Fiber' (CF) fraction chemically isolated from the fat-free dry matter residue?",
+    "options": [
+      "Refluxing with neutral sodium lauryl sulfate and EDTA buffer for 60 min",
+      "Digestion with cetyl trimethyl ammonium bromide in 1N H2SO4 for 60 min",
+      "Hydrolysis with 72% concentrated sulfuric acid at 20°C for 3 hours",
+      "Boiling with 1.25% H2SO4 for 30 min followed by 1.25% NaOH for 30 min"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "In the Weende system (1860), fat-free feed is boiled sequentially in dilute acid (1.25% H2SO4 for 30 min) and dilute alkali (1.25% NaOH for 30 min); the organic loss on ignition of the dried insoluble residue represents Crude Fiber.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100002000
+  },
+  {
+    "id": "ann_exp_003",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Principles of Nutrition, Proximate Analysis & Nutrient Metabolism",
+    "questionText": "What is the fundamental nutritional flaw of the Weende 'Crude Fiber' and 'Nitrogen-Free Extract' (NFE) partitioning in fibrous ruminant forages?",
+    "options": [
+      "Alkali boiling dissolves 50–80% of lignin and hemicellulose into NFE",
+      "Acid boiling precipitates all soluble starch into the Crude Fiber residue",
+      "Petroleum ether extraction dissolves crystalline cellulose into Ether Extract",
+      "Muffle furnace ignition at 600°C volatilizes calcium and underestimates NFE"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In the Weende method, 1.25% NaOH solubilizes up to 80% of hemicellulose and 50–90% of indigestible phenolic lignin, shifting them mathematically into NFE. Consequently, in cereal straws, Crude Fiber (mostly pure cellulose) often shows a higher apparent digestibility coefficient than NFE!",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100003000
+  },
+  {
+    "id": "ann_exp_004",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Principles of Nutrition, Proximate Analysis & Nutrient Metabolism",
+    "questionText": "In P.J. Van Soest's detergent fiber system, which reagent extracts 'Acid Detergent Fiber' (ADF), and what treatment is subsequently applied to the ADF residue to isolate 'Acid Detergent Lignin' (ADL)?",
+    "options": [
+      "Alkaline cupric sulfate (Stutzer's reagent); followed by diethyl ether",
+      "Neutral buffered heat-stable alpha-amylase; followed by 4N HCl reflux",
+      "Cetyl trimethyl ammonium bromide in 1N H2SO4; followed by 72% H2SO4",
+      "Sodium lauryl sulfate in pH 7.0 EDTA buffer; followed by 1.25% NaOH"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Acid Detergent Solution consists of 2% CTAB (cetyl trimethyl ammonium bromide) in 1N H2SO4, which dissolves cell contents and hemicellulose, leaving ADF (cellulose + lignin + silica). Treating ADF with 72% H2SO4 dissolves cellulose, leaving ADL (lignin + acid-insoluble ash).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100004000
+  },
+  {
+    "id": "ann_exp_005",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "In feed analysis, which classical chemical reagent is used to precipitate and separate 'True Protein' from 'Non-Protein Nitrogen' (amides, free amino acids, nitrates, urea)?",
+    "options": [
+      "Karl Fischer reagent (iodine, sulfur dioxide, and pyridine in methanol)",
+      "Fehling's solution (alkaline potassium sodium tartrate with cupric sulfate)",
+      "Stutzer's reagent (alkaline cupric hydroxide) or Trichloroacetic acid (TCA)",
+      "Nessler's reagent (alkaline potassium tetraiodomercurate in sodium hydroxide)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "True protein is precipitated from aqueous feed extracts using Stutzer's reagent (cupric hydroxide) or 10% Trichloroacetic acid (TCA) / tungstic acid, while NPN compounds remain in the soluble filtrate.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100005000
+  },
+  {
+    "id": "ann_exp_006",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "Why is 'Toluene Distillation (Dean and Stark method)' or 'Karl Fischer Titration' required instead of standard hot-air oven drying (105°C) when determining moisture in fermented Silage?",
+    "options": [
+      "Water molecules bound to lactic acid cannot evaporate below 550°C in an oven",
+      "Oven drying volatilizes VFAs, lactic acid, and ammonia along with water",
+      "Silage undergoes spontaneous combustion in an oven whenever heated above 65°C",
+      "Oven drying polymerizes soluble sugars into acid-insoluble silica complexes"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "In fermented silages, up to 8–12% of the dry matter consists of volatile fatty acids, lactic acid, alcohols, and ammonia that evaporate during oven drying at 100°C. Toluene distillation collects only the aqueous phase, accurately measuring true water content.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100006000
+  },
+  {
+    "id": "ann_exp_007",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "In grazing digestibility studies where total fecal collection is impractical, which of the following correctly pairs an 'Internal (Natural) Marker' with an 'External Marker'?",
+    "options": [
+      "Internal: Acid Insoluble Ash (AIA) or Lignin; External: Chromic oxide (Cr2O3)",
+      "Internal: Chromic oxide (Cr2O3) or Ytterbium; External: Acid Detergent Lignin",
+      "Internal: Polyethylene glycol (PEG) or Cr-EDTA; External: Cuticular n-alkanes",
+      "Internal: Titanium dioxide (TiO2) or Cobalt-EDTA; External: Acid Insoluble Ash"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Internal markers occur naturally in the plant feed (Acid Insoluble Ash, Lignin, Chromogens, odd-chain cuticular n-alkanes C29/C31/C33), whereas external markers are inert compounds dosed in known quantities (Cr2O3, TiO2, rare-earth elements Yb/La).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100007000
+  },
+  {
+    "id": "ann_exp_008",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "Using the indicator method, if a forage diet contains 1.0% Acid Insoluble Ash (AIA in feed = 1.0% DM) and the Voided Feces contain 2.5% Acid Insoluble Ash (AIA in feces = 2.5% DM), what is the apparent Dry Matter Digestibility (DMD %)?",
+    "options": [
+      "40.0%",
+      "75.0%",
+      "25.0%",
+      "60.0%"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Using the indicator digestibility formula: DMD (%) = 100 - [100 * (% Indicator in Feed / % Indicator in Feces)] = 100 - [100 * (1.0 / 2.5)] = 100 - 40 = 60.0%.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100008000
+  },
+  {
+    "id": "ann_exp_009",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "What are the two sequential 48-hour stages of the 'Tilley and Terry (1963)' two-stage in-vitro forage digestibility technique?",
+    "options": [
+      "48 h boiling in neutral detergent solution, followed by 48 h boiling in acid detergent",
+      "48 h anaerobic rumen liquor + buffer incubation, followed by 48 h acid-pepsin digestion",
+      "48 h incubation with pancreatic alpha-amylase, followed by 48 h cecal microbial fermentation",
+      "48 h nylon Dacron bag suspension in the rumen, followed by 48 h muffle furnace ignition"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Tilley and Terry (1963) simulated the ruminant digestive tract in vitro: Stage 1 mimics ruminal microbial fermentation (48 h in buffered rumen fluid at 39°C under CO2), and Stage 2 mimics abomasal proteolysis (48 h with acid-pepsin at pH 2.0 to dissolve microbial and undegraded dietary protein).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100009000
+  },
+  {
+    "id": "ann_exp_010",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "In the 'In-Sacco (Nylon Bag)' rumen degradability model p = a + b(1 - e^(-ct)) developed by Orskov and McDonald (1979), what do the parameters a, b, and c represent?",
+    "options": [
+      "a = rapidly soluble fraction; b = insoluble potentially degradable fraction; c = degradation rate of b (/h)",
+      "a = indigestible lignin fraction; b = bypass protein escaping the abomasum; c = rumen outflow passage rate (/h)",
+      "a = microbial crude protein yield; b = endogenous urinary nitrogen loss; c = metabolic fecal nitrogen coefficient",
+      "a = total tract apparent digestibility; b = enteric methane energy loss; c = heat increment of fermentation"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In Orskov and McDonald's model p = a + b(1 - e^-ct), 'a' is the immediately soluble fraction washed out at time 0, 'b' is the insoluble but fermentable fraction, 'c' is the degradation rate (/h) of fraction 'b', and Effective Degradability (ED) at outflow rate 'k' is ED = a + (b * c)/(c + k).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100010000
+  },
+  {
+    "id": "ann_exp_011",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "Using Orskov and McDonald's Effective Degradability formula ED = a + (b * c) / (c + k), if a groundnut cake sample has a = 20%, b = 70%, degradation rate c = 0.08 /h, and rumen outflow rate k = 0.04 /h, what are the Effective Rumen Degradability (RDP %) and RUP %?",
+    "options": [
+      "ED (RDP) = 90.0% and RUP = 10.0%",
+      "ED (RDP) = 55.0% and RUP = 45.0%",
+      "ED (RDP) = 66.7% and RUP = 33.3%",
+      "ED (RDP) = 43.3% and RUP = 56.7%"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "ED = a + (b * c) / (c + k) = 20 + (70 * 0.08) / (0.08 + 0.04) = 20 + (5.6 / 0.12) = 20 + 46.67 = 66.67% Rumen Degradable Protein (RDP). Therefore, Rumen Undegradable Protein (RUP) = 100 - 66.7 = 33.3%.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100011000
+  },
+  {
+    "id": "ann_exp_012",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "How do ruminants compare quantitatively to non-ruminant monogastrics in 'Metabolic Fecal Nitrogen' (MFN) excretion per kg of Dry Matter Intake (DMI)?",
+    "options": [
+      "Ruminants excrete zero MFN because all sloughed enterocytes are fermented in the colon",
+      "Ruminants excrete ~1 g MFN/kg DMI versus ~8 to 10 g MFN/kg DMI in monogastrics",
+      "Both ruminants and monogastrics excrete exactly 0.146 g MFN/kg DMI regardless of fiber",
+      "Ruminants excrete ~5 g MFN/kg DMI versus ~1 to 2 g MFN/kg DMI in monogastrics"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "True Digestibility corrects for Metabolic Fecal Nitrogen (MFN): TD = [N_intake - (Fecal_N - MFN)] / N_intake. In ruminants, indigestible microbial cell walls from ruminal fermentation elevate MFN to ~5 g N/kg DMI (~31 g CP/kg DMI), compared to only 1–2 g N/kg DMI in pigs/rats.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100012000
+  },
+  {
+    "id": "ann_exp_013",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Principles of Nutrition, Proximate Analysis & Nutrient Metabolism",
+    "questionText": "According to Kleiber's Law (1932), 'Metabolic Body Size' across adult homeothermic mammals scales to body weight (W in kg) raised to which exponent, and what is the interspecies mean Fasting Heat Production?",
+    "options": [
+      "W^0.50; approximately 350 kcal Net Energy per kg W^0.50 per day (1465 kJ/kg W^0.50)",
+      "W^0.67; approximately 140 kcal Net Energy per kg W^0.67 per day (586 kJ/kg W^0.67)",
+      "W^0.75; approximately 70 kcal Net Energy per kg W^0.75 per day (293 kJ/kg W^0.75)",
+      "W^1.00; approximately 25 kcal Net Energy per kg W^1.00 per day (105 kJ/kg W^1.00)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Max Kleiber demonstrated that basal metabolic rate across mammals from mice to elephants scales linearly with W^0.75 (metabolic body weight), averaging 70 * W^0.75 kcal/day (293 kJ/kg W^0.75/day). Endogenous Urinary Nitrogen (EUN) similarly scales as 0.146 * W^0.75 g N/day.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100013000
+  },
+  {
+    "id": "ann_exp_014",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "In indirect calorimetry, what are the standard 'Respiratory Quotients' (RQ = CO2 produced / O2 consumed) for the complete oxidation of pure carbohydrate, mixed protein, and pure fat (tripalmitin)?",
+    "options": [
+      "Carbohydrate = 1.00; Protein = 0.80; Fat = 0.707",
+      "Carbohydrate = 0.707; Protein = 0.80; Fat = 1.00",
+      "Carbohydrate = 1.00; Protein = 1.25; Fat = 0.85",
+      "Carbohydrate = 0.85; Protein = 1.00; Fat = 0.50"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Carbohydrates (Cn(H2O)n) already contain hydrogen and oxygen in a 2:1 ratio, so O2 is consumed strictly to oxidize carbon (RQ = 6 CO2 / 6 O2 = 1.00). Fats are highly reduced hydrocarbons requiring extra O2 to oxidize hydrogen to H2O (RQ = 0.707), and protein averages 0.801.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100014000
+  },
+  {
+    "id": "ann_exp_015",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "What does a non-protein Respiratory Quotient (RQ) greater than 1.00 (e.g., RQ = 1.15–1.30 in a fattening pig fed a high-starch diet) physiologically indicate?",
+    "options": [
+      "Severe starvation ketosis with incomplete beta-oxidation of adipose tissue triglycerides",
+      "Active de novo lipogenesis converting oxygen-rich carbohydrate into oxygen-poor body fat",
+      "Exclusive oxidation of dietary long-chain polyunsaturated fatty acids in skeletal muscle",
+      "Acute metabolic acidosis with hyperventilation secondary to chronic uremic renal failure"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Converting oxygen-rich glucose (C6H12O6) into oxygen-poor palmitic/stearic fatty acids releases internal oxygen atoms that oxidize carbon to CO2 without requiring external atmospheric O2 uptake, driving the whole-body RQ above 1.00 (up to 1.33).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100015000
+  },
+  {
+    "id": "ann_exp_016",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "In indirect open-circuit calorimetry for ruminants, Brouwer's (1965) classic equation calculates total Heat Production (HP, in kcal) from respiratory gas exchange and urinary nitrogen (N, in g) as:",
+    "options": [
+      "HP = 1.200(O2 L) - 3.866(CO2 L) + 2.250(CH4 L) - 0.146(Fecal N g)",
+      "HP = 4.150(O2 L) + 9.450(CO2 L) - 5.650(CH4 L) + 4.409(TDN kg)",
+      "HP = 5.047(O2 L) + 4.000(CO2 L) + 9.450(CH4 L) + 6.250(Urinary N g)",
+      "HP = 3.866(O2 L) + 1.200(CO2 L) - 0.518(CH4 L) - 1.431(Urinary N g)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Brouwer's (1965) internationally adopted equation computes heat production (kcal) from liters of O2 consumed, liters of CO2 produced, liters of enteric CH4 eructated, and grams of urinary nitrogen excreted.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100016000
+  },
+  {
+    "id": "ann_exp_017",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "According to standard NRC / ICAR nutrient energetics conversions for ruminants, 1.0 kg of Total Digestible Nutrients (TDN) is equivalent to how many Megacalories (Mcal) of Digestible Energy (DE) and Metabolizable Energy (ME)?",
+    "options": [
+      "1 kg TDN = 9.450 Mcal DE = 7.750 Mcal ME (since ME = 0.82 * DE)",
+      "1 kg TDN = 4.409 Mcal DE = 3.615 Mcal ME (since ME = 0.82 * DE)",
+      "1 kg TDN = 2.250 Mcal DE = 1.845 Mcal ME (since ME = 0.50 * DE)",
+      "1 kg TDN = 3.615 Mcal DE = 4.409 Mcal ME (since ME = 1.22 * DE)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Crampton, Swift, and NRC established that 1 kg of TDN provides ~4.409 Mcal (4,400 kcal) of Digestible Energy (DE). Because urinary + methane losses in ruminants average ~18% of DE (ME = 0.82 * DE), 1 kg TDN equals 4.409 * 0.82 ≈ 3.615 Mcal (3.6 Mcal) of Metabolizable Energy.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100017000
+  },
+  {
+    "id": "ann_exp_018",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "In Oskar Kellner's (1905) 'Starch Equivalent' (SE) net energy system, how much body fat does 1.0 kg of pure digestible starch deposit when fed above maintenance to an adult fattening steer?",
+    "options": [
+      "1,000 g of body fat (storing 9,450 kcal of Gross Energy in adipose)",
+      "444 g of body fat (equivalent to 4,150 kcal of starch Gross Energy)",
+      "248 g of body fat (approx. 250 g, storing 2,356 kcal of Net Energy)",
+      "112 g of body fat (storing 1,000 kcal equivalent to one Armsby Therm)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Kellner (using carbon-nitrogen balance in respiration chambers at Mockern) found that 1 kg of digestible starch fed above maintenance synthesizes 248 g of body fat (storing 248 * 9.5 = 2,356 kcal of Net Energy for fattening, NEf).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100018000
+  },
+  {
+    "id": "ann_exp_019",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "In the Net Energy System for ruminants (Lofgreen & Garrett; NRC), how do the partial efficiencies of utilization of Metabolizable Energy for Maintenance (k_m), Lactation (k_l), and Fattening (k_f) compare?",
+    "options": [
+      "k_m (~0.68) and k_l (~0.62) are high and similar, whereas k_f (~0.32–0.55) is lowest",
+      "k_f (~0.90) is highest, whereas k_m (~0.40) and k_l (~0.30) are significantly lower",
+      "k_l (~0.25) is lowest due to lactose synthesis, whereas k_f (~0.75) is highest",
+      "k_m, k_l, and k_f are mathematically identical (0.82) across all roughage diets"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In ruminants, ME is used with high partial efficiency for maintenance (k_m ~ 0.68–0.72) and milk synthesis (k_l ~ 0.60–0.64, which explains why NRC expresses dairy requirements in unified NEL units!), whereas lipogenesis/fattening (k_f ~ 0.32–0.55) has a much lower efficiency.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100019000
+  },
+  {
+    "id": "ann_exp_020",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat)",
+    "questionText": "To standardize milk yield across breeds with varying butterfat percentages to an isocaloric 750 kcal/kg basis, Gaines (1928) introduced the '4% Fat-Corrected Milk' (4% FCM) formula:",
+    "options": [
+      "4% FCM (kg) = (0.15 * Milk Yield in kg) + (0.4 * Fat Yield in kg)",
+      "4% FCM (kg) = (0.6 * Milk Yield in kg) + (10 * Fat Yield in kg)",
+      "4% FCM (kg) = (0.25 * Milk Yield in kg) + (20 * Fat Yield in kg)",
+      "4% FCM (kg) = (0.4 * Milk Yield in kg) + (15 * Fat Yield in kg)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Gaines' formula equates milk to a standard energy content of 750 kcal/kg (4% fat): 4% FCM = 0.4M + 15F = M * [0.4 + 0.15(Fat %)].",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100020000
+  },
+  {
+    "id": "ann_exp_021",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat)",
+    "questionText": "A Murrah buffalo yields 10 kg of milk per day containing 7.0% butterfat. Expressed in terms of Gaines' '4% Fat-Corrected Milk' (4% FCM), what is her daily FCM yield?",
+    "options": [
+      "10.5 kg of 4% FCM",
+      "14.5 kg of 4% FCM",
+      "17.5 kg of 4% FCM",
+      "11.5 kg of 4% FCM"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Using Gaines' formula: 4% FCM = 0.4 * Milk (kg) + 15 * Fat (kg). Here Milk = 10 kg and Fat = 10 * 0.07 = 0.70 kg. Thus 4% FCM = 0.4(10) + 15(0.70) = 4.0 + 10.5 = 14.5 kg.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100021000
+  },
+  {
+    "id": "ann_exp_022",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "In the evaluation of protein quality for monogastric animals, the 'Thomas-Mitchell Formula' defines 'Biological Value' (BV) as:",
+    "options": [
+      "BV = [N_intake - Fecal N - Urinary N] / [N_intake - Urinary N] * 100",
+      "BV = [Body weight gain in grams] / [Total Crude Protein intake in grams] * 100",
+      "BV = [Essential amino acids in test protein] / [Essential amino acids in egg albumin] * 100",
+      "BV = [N_intake - (Fecal N - MFN) - (Urinary N - EUN)] / [N_intake - (Fecal N - MFN)] * 100"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Biological Value (BV) measures the percentage of truly absorbed nitrogen that is retained in the body for maintenance and growth. The numerator is True N Retained (correcting both fecal N for MFN and urinary N for EUN), and the denominator is Truly Absorbed N (N_intake - (Fecal N - MFN)).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100022000
+  },
+  {
+    "id": "ann_exp_023",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "How does 'Net Protein Utilization' (NPU, Miller and Bender) relate mathematically to 'Biological Value' (BV) and 'True Digestibility' (TD)?",
+    "options": [
+      "NPU = (Biological Value * True Digestibility) / 100",
+      "NPU = (Biological Value / True Digestibility) * 100",
+      "NPU = Biological Value + Apparent Digestibility",
+      "NPU = True Digestibility - Biological Value"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "While BV expresses retained nitrogen as a percentage of absorbed nitrogen, NPU expresses retained nitrogen as a percentage of total dietary nitrogen intake: NPU = (BV * TD) / 100.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100023000
+  },
+  {
+    "id": "ann_exp_024",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "Why is 'Protein Efficiency Ratio' (PER = Weight gain in g / Protein intake in g) unsuitable for evaluating protein quality in adult non-pregnant animals at maintenance, unlike Biological Value (BV)?",
+    "options": [
+      "Adult animals cannot digest true proteins and rely exclusively on urea",
+      "BV can only be measured in laying hens, whereas PER applies to cattle",
+      "PER requires positive live-weight gain and equals zero at maintenance",
+      "PER requires slaughtering the entire herd for whole-body ash analysis"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Osborne, Mendel, and Ferry (1919) defined PER in growing rats/chicks as grams of weight gain per gram of protein consumed. An adult animal at maintenance has zero weight gain (PER = 0), whereas Thomas-Mitchell BV includes endogenous maintenance N replacements (MFN + EUN).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100024000
+  },
+  {
+    "id": "ann_exp_025",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Monogastric, Poultry & Pet/Equine Nutrition",
+    "questionText": "How does Block and Mitchell's 'Chemical Score' differ from Oser's (1951) 'Essential Amino Acid Index' (EAAI) when evaluating a feed protein against whole egg protein?",
+    "options": [
+      "Chemical Score uses the single most limiting amino acid; EAAI uses the geometric mean of all 10 essential amino acids",
+      "Chemical Score uses milk casein as reference standard; EAAI uses maize zein as the 100% reference standard",
+      "Chemical Score requires a 28-day chick growth assay; EAAI requires bomb calorimetry of urinary nitrogen",
+      "Chemical Score sums all non-essential amino acids; EAAI measures only the tryptophan-to-leucine ratio"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Chemical Score evaluates protein quality by the single first-limiting amino acid (e.g., Lysine in cereals), whereas Oser's EAAI takes the geometric mean (nth root of the product) of the ratios of all 10 essential amino acids in the test protein relative to whole egg protein.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100025000
+  },
+  {
+    "id": "ann_exp_026",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "In modern ruminant protein systems (ARC/NRC 'Metabolizable Protein' MP and INRA 'PDI'), total Metabolizable Protein absorbed from the small intestine is the sum of:",
+    "options": [
+      "Ruminal Ammonia Nitrogen (NH3-N) + Endogenous Urinary Creatinine Nitrogen (EUN)",
+      "Total Dietary Crude Protein (N * 6.25) + Acid Detergent Insoluble Nitrogen (ADIN)",
+      "Digestible Microbial True Protein (from RDP) + Digestible Undegraded Dietary Protein (DUP / RUP)",
+      "Recycled Salivary Urea Nitrogen + Metabolic Fecal Nitrogen (MFN) excreted in colon"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "In the MP / PDI system, amino acids reaching and absorbed from the duodenum derive from two sources: (1) Microbial Crude Protein (MCP, which is ~75–80% true protein with ~85% intestinal digestibility, yielding ~64% net absorbable amino acids) and (2) Digestible Undegraded Protein (DUP/RUP).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100026000
+  },
+  {
+    "id": "ann_exp_027",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Principles of Nutrition, Proximate Analysis & Nutrient Metabolism",
+    "questionText": "In the Metabolizable Protein (MP) system, approximately how many grams of Microbial Crude Protein (MCP) are synthesized in the rumen per kilogram of Total Digestible Nutrients (TDN) or Fermentable Organic Matter?",
+    "options": [
+      "350 g MCP per kg TDN in dry cows and 800 g MCP per kg TDN in calves",
+      "625 g MCP per kg TDN (converting 100% of carbohydrate into bacterial protein)",
+      "15 g MCP per kg TDN regardless of available Rumen Degradable Protein",
+      "130 g MCP per kg TDN (or ~150 g MCP/kg Fermentable OM; 9–11 g MCP/MJ FME)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Ruminal microbial protein synthesis is strictly energy-limited, averaging ~130 g of Microbial Crude Protein per kg of TDN (or ~150–160 g MCP per kg of Rumen Fermentable Organic Matter, RFOM; 9–11 g MCP/MJ FME) when Rumen Degradable Protein (RDP) is adequate.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100027000
+  },
+  {
+    "id": "ann_exp_028",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "Which two essential amino acids are consistently the 1st and 2nd co-limiting amino acids in 'Microbial Crude Protein' flowing to the duodenum for milk protein synthesis in high-yielding dairy cows?",
+    "options": [
+      "Glycine and Alanine",
+      "Methionine and Lysine",
+      "Glutamate and Aspartate",
+      "Proline and Serine"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Although rumen microbial protein has a high biological value (~80%) closely resembling milk protein, Methionine and Lysine are consistently the 1st and 2nd co-limiting amino acids for milk protein synthesis in high-yielding dairy cows (hence rumen-protected Met and Lys supplementation).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100028000
+  },
+  {
+    "id": "ann_exp_029",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "When chemically treating oilseed cakes with Formaldehyde (HCHO) to produce 'Bypass Protein' (RUP) without causing irreversible over-protection in the abomasum, what is the optimal application dose?",
+    "options": [
+      "10.0 to 15.0 g Formaldehyde per 100 g Crude Protein (10% formalin)",
+      "25.0 to 30.0 g Formaldehyde per 100 g Crude Protein with NaOH",
+      "0.8 to 1.2 g Formaldehyde per 100 g Crude Protein (0.3–0.5% of cake)",
+      "0.01 to 0.05 g Formaldehyde per 100 kg of total ration dry matter"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Formaldehyde forms reversible methylene cross-links with epsilon-amino groups of lysine at neutral rumen pH (6.5–7.0), which cleave under acidic abomasal conditions (pH 2.0–3.0). The optimal dose is 0.8–1.2 g HCHO per 100 g CP; higher doses irreversibly cross-link protein, ruining intestinal digestibility.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100029000
+  },
+  {
+    "id": "ann_exp_030",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Principles of Nutrition, Proximate Analysis & Nutrient Metabolism",
+    "questionText": "In heat-damaged forages (overheated 'brown hay', caramelised silage, or over-toasted oilseed meals), non-enzymatic 'Maillard Browning' is analytically quantified by measuring:",
+    "options": [
+      "Neutral Detergent Soluble Carbohydrates (NDSC — sugars and pectins)",
+      "Total Volatile Basic Nitrogen (TVBN — ammonia and trimethylamine)",
+      "Urease Activity Index (UAI — pH rise in buffered urea solution)",
+      "Acid Detergent Insoluble Nitrogen (ADIN — nitrogen bound to ADF)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "The Maillard reaction condenses carbonyl groups of sugars with free epsilon-amino groups (especially Lysine) into indigestible dark melanoidin polymers that recover in the Acid Detergent Fiber residue as Acid Detergent Insoluble Nitrogen (ADIN or ADF-CP).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100030000
+  },
+  {
+    "id": "ann_exp_031",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "In Burroughs' (1975) Metabolizable Protein system, what does a POSITIVE 'Urea Fermentation Potential' (UFP) of a feedstuff (such as maize grain or molasses) signify?",
+    "options": [
+      "The feed contains high levels of active urease enzyme that hydrolyzes urea before ingestion",
+      "The feed has excess fermentable energy relative to RDP and can utilize added urea for microbial protein synthesis",
+      "The feed blocks salivary urea recycling across the ruminal stratified squamous epithelium",
+      "The feed has excess degradable protein relative to energy and will cause acute ammonia toxicity if urea is added"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "UFP = (0.1044 * TDN% - Degradable CP%) / 2.8. Feeds high in fermentable energy and low in degradable protein (like maize grain or molasses) have a POSITIVE UFP (grams of urea per kg DM that can be converted into microbial protein), whereas oilcakes/legumes have a NEGATIVE UFP.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100031000
+  },
+  {
+    "id": "ann_exp_032",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "What is the physiological mechanism of the 'Ruminant Nitrogen Recycling / Urea-Saliva Cycle' (Houpt / McDonald cycle) that enables camels, sheep, and cattle to survive on low-protein roughages?",
+    "options": [
+      "Hepatic urea is conserved by the kidneys and returned to the rumen via saliva and rumen-wall UT-B transporters",
+      "Atmospheric N2 gas is directly fixed into ammonium ions by symbiotic Rhizobium bacteria on omasal laminae",
+      "Fecal metabolic nitrogen is re-ingested via obligatory cecotrophy of soft night pellets in adult cattle",
+      "Skeletal muscle myosin is secreted intact into the abomasum and reabsorbed via neonatal pinocytosis"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "On low-protein diets, ruminants drastically reduce renal fractional urea clearance and recycle 40–80% of hepatic blood urea nitrogen (BUN) back into the rumen via parotid saliva and urea-transporter-B (UT-B) channels in the ruminal epithelium.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100032000
+  },
+  {
+    "id": "ann_exp_033",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat)",
+    "questionText": "In a healthy ruminant fed an all-forage (high roughage) diet versus a high-concentrate (high grain) diet, what are the typical molar proportions of Acetate : Propionate : Butyrate?",
+    "options": [
+      "High Roughage = 20:65:15; High Concentrate = 70:15:15",
+      "High Roughage = 15:15:70; High Concentrate = 75:15:10",
+      "High Roughage = 65:20:15; High Concentrate = 45:40:15",
+      "High Roughage = 50:10:40; High Concentrate = 20:20:60"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Cellulolytic bacteria (Fibrobacter succinogenes, Ruminococcus albus/flavefaciens) ferment structural fiber predominantly to Acetate (65–70%), driving milk fat synthesis. Amylolytic bacteria (Selenomonas ruminantium, Megasphaera elsdenii, Prevotella) ferment starch to Propionate (35–40%), driving gluconeogenesis.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100033000
+  },
+  {
+    "id": "ann_exp_034",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat)",
+    "questionText": "Which of the three major ruminal Volatile Fatty Acids (VFAs) is extensively metabolized (80–90%) by the ruminal stratified squamous epithelium into the ketone body Beta-hydroxybutyrate (BHBA) during absorption?",
+    "options": [
+      "Butyrate (butyric acid)",
+      "Acetate (acetic acid)",
+      "Valerate (valeric acid)",
+      "Propionate (propionic acid)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "During absorption across the ruminal papillae, 80–90% of butyrate is converted via mitochondrial HMG-CoA pathways in the ruminal epithelium into beta-hydroxybutyrate (BHBA), which serves as both the primary fuel for rumen papillae growth and a precursor for mammary milk fat.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100034000
+  },
+  {
+    "id": "ann_exp_035",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "In pre-ruminant calves transitioning to solid feed, which factor is the primary chemical stimulus driving the anatomical growth and mitotic elongation of 'Rumen Papillae'?",
+    "options": [
+      "Whole milk lactose shunted via the reticular groove reflex",
+      "Butyrate and Propionate from calf starter grain fermentation",
+      "Salivary sodium bicarbonate and mucin secreted during cud chewing",
+      "Mechanical scratch factor from coarse cereal straw and hay"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Classic experiments by Sander et al. and Warner demonstrated that chemical VFAs—specifically Butyrate and Propionate produced by fermenting concentrate calf starter—stimulate epithelial mitosis and rumen papillae growth, whereas fibrous hay stimulates rumen muscularis and volume.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100035000
+  },
+  {
+    "id": "ann_exp_036",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "In young calves versus lambs/kids, which specific chemical salts trigger vago-vagal closure of the 'Esophageal / Reticular Groove' (Sulcus reticuli) to shunt oral liquids directly into the abomasum?",
+    "options": [
+      "Magnesium sulfate (Epsom salt) in calves; Zinc oxide in lambs and kids",
+      "Acetic acid (vinegar) in calves; Calcium borogluconate in lambs and kids",
+      "Copper salts (CuSO4) in calves; Sodium salts (NaHCO3 / NaCl) in lambs and kids",
+      "Sodium salts (NaHCO3 / NaCl) in calves; Copper salts (1–2% CuSO4) in lambs and kids"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "The reticular groove reflex is a vago-vagal reflex triggered by pharyngeal chemoreceptors: in calves, sodium salts (10% NaHCO3 or NaCl) close the groove, whereas in lambs and kids, copper salts (1–2% CuSO4 solution) are the specific chemical stimulant.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100036000
+  },
+  {
+    "id": "ann_exp_037",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "Ruminal methanogenic Archaea (Methanobrevibacter ruminantium) reduce CO2 with 4 H2 to form Methane (CH4). What percentage of total dietary Gross Energy (GE) intake is typically lost as eructated methane in cattle?",
+    "options": [
+      "6% to 12% of Gross Energy intake",
+      "25% to 35% of Gross Energy intake",
+      "45% to 55% of Gross Energy intake",
+      "1% to 2% of Gross Energy intake"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Ruminal methanogenic Archaea maintain low partial pressure of H2 by reducing CO2 with H2 to form methane (CH4), representing a loss of 6–12% of dietary Gross Energy (higher on high-roughage diets, lower on high-grain/ionophore diets).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100037000
+  },
+  {
+    "id": "ann_exp_038",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "Carboxylic polyether ionophore feed additives (such as Monensin and Lasalocid) improve feed efficiency and reduce bloat/ketosis in cattle by selectively inhibiting Gram-positive bacteria and shifting rumen fermentation toward:",
+    "options": [
+      "Higher Acetate and Methane with complete inhibition of Propionate synthesis",
+      "Higher Lactic acid and Butyrate via stimulation of Streptococcus bovis",
+      "Higher Propionate and lower Acetate, Butyrate, Methane, and Lactic acid",
+      "Complete elimination of Gram-negative bacteria and proliferation of protozoa"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Ionophores (Monensin, Lasalocid, Salinomycin) disrupt ion gradients across Gram-positive bacterial membranes (which lack an outer LPS membrane), sparing Gram-negative propionate producers—decreasing the acetate:propionate ratio, cutting methane by ~25%, and suppressing lactate-producing Streptococcus bovis.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100038000
+  },
+  {
+    "id": "ann_exp_039",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Principles of Nutrition, Proximate Analysis & Nutrient Metabolism",
+    "questionText": "According to Bauman and Griinari's 'Biohydrogenation Theory', diet-induced 'Milk Fat Depression' (MFD) in dairy cows fed low-roughage / high-oil diets is directly caused by which specific rumen biohydrogenation intermediate?",
+    "options": [
+      "Vaccenic acid (trans-11 C18:1) upregulating delta-9 stearoyl-CoA desaturase in the udder",
+      "Stearic acid (C18:0) competitively blocking glucose uptake by mammary GLUT1 transporters",
+      "cis-9, trans-11 Conjugated Linoleic Acid (rumenic acid) stimulating mammary lipoprotein lipase",
+      "trans-10, cis-12 Conjugated Linoleic Acid (t10,c12-CLA) inhibiting mammary de novo lipogenesis"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Under low rumen pH + polyunsaturated fatty acids, bacterial biohydrogenation shifts from the normal trans-11 pathway to the altered trans-10 pathway, producing trans-10, cis-12 CLA—which potently downregulates SREBP-1c, acetyl-CoA carboxylase (ACC), and fatty acid synthase (FAS) in mammary epithelial cells.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100039000
+  },
+  {
+    "id": "ann_exp_040",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Principles of Nutrition, Proximate Analysis & Nutrient Metabolism",
+    "questionText": "Why must unprotected dietary fat (Ether Extract) in a conventional ruminant ration NOT exceed 5% to 6% of total Dry Matter?",
+    "options": [
+      "Dietary fat above 5% DM chelates serum potassium and triggers acute hypokalemic myopathy",
+      "Free unsaturated fatty acids coat fiber and are toxic to cellulolytic bacteria and protozoa",
+      "Ruminants lack pancreatic lipase and bile salts to emulsify triglycerides in the duodenum",
+      "Dietary triglycerides are fermented by Streptococcus bovis into D-lactic acid in 30 minutes"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Unprotected fats above 5–6% of ration DM inhibit ruminal fiber digestion because free unsaturated fatty acids exert surfactant toxicity on cellulolytic bacteria/methanogens and form hydrophobic films on forage particles.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100040000
+  },
+  {
+    "id": "ann_exp_041",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "What is the chemical mechanism of commercial 'Bypass Fat' (Calcium Soaps of Long-Chain Fatty Acids, Ca-LCFA) supplemented at 100–200 g/day to high-yielding dairy cattle?",
+    "options": [
+      "Soluble in alkaline parotid saliva (pH 8.2), but precipitates into insoluble stones in the acidic duodenum",
+      "Fermented completely in the rumen into propionic acid without entering the omasum or abomasum",
+      "Insoluble at neutral rumen pH (6.0–7.0), but dissociates into free fatty acids and Ca2+ at acidic abomasal pH (2.0–2.5)",
+      "Absorbed intact across the stratified squamous rumen epithelium directly into the thoracic lymph duct"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Calcium soaps of palm fatty acids (pKa ~ 4.5–5.0) remain insoluble and inert at normal rumen pH (>6.0), sparing fiber digestion, and then protonate and dissociate in the acidic abomasum (pH 2.0–2.5) for normal bile/lipase micellar absorption in the small intestine.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100041000
+  },
+  {
+    "id": "ann_exp_042",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat)",
+    "questionText": "Which three 'Branched-Chain Volatile Fatty Acids' (Iso-acids)—derived from Valine, Leucine, and Isoleucine degradation—are essential growth factors required by ruminal cellulolytic bacteria (Ruminococcus and Fibrobacter)?",
+    "options": [
+      "Caproic acid, Caprylic acid, and Capric acid",
+      "Isobutyric acid, Isovaleric acid, and 2-Methylbutyric acid",
+      "Formic acid, Acetic acid, and Propionic acid",
+      "Lactic acid, Succinic acid, and Oxaloacetic acid"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Cellulolytic bacteria lack amino acid transport carriers for branched-chain amino acids and strictly require Isobutyrate (from Valine), Isovalerate (from Leucine), and 2-Methylbutyrate (from Isoleucine) to resynthesize branched-chain amino acids and membrane aldehydes.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100042000
+  },
+  {
+    "id": "ann_exp_043",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat)",
+    "questionText": "In dairy cattle feeding, what is 'Challenge Feeding' (also called 'Lead Feeding' or 'Steaming Up') practiced during the transition period?",
+    "options": [
+      "Withholding all concentrate for the first 45 days of lactation to force adipose tissue mobilization",
+      "Feeding 100% ad-libitum cereal straw during late gestation to expand physical rumen volume",
+      "Alternating 24 hours of high-protein cake with 24 hours of fasting to stimulate growth hormone",
+      "Starting concentrate 2–3 weeks pre-partum and stepping up grain post-calving until peak milk yield is reached"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Challenge/Lead feeding begins 2–3 weeks before calving (steaming up at 0.5–1.0% BW) to adapt ruminal papillae and microbes to starch, and continues post-partum by increasing concentrate until milk yield ceases to respond.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100043000
+  },
+  {
+    "id": "ann_exp_044",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat)",
+    "questionText": "In sheep and goat husbandry, what is 'Flushing' and what is its physiological reproductive effect?",
+    "options": [
+      "Feeding extra energy/protein concentrate 2–3 weeks before mating to boost ovulation rate and twinning",
+      "Drenching ewes with hypertonic saline 24 hours before lambing to accelerate placental expulsion",
+      "Withholding feed and water for 48 hours at weaning to terminate lactation and prevent mastitis",
+      "Supplementing ammonium chloride to breeding rams to dissolve struvite uroliths in the urethra"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Flushing elevates blood glucose, insulin, and IGF-1 in ewes 2–3 weeks prior to breeding, suppressing late-stage follicular atresia and increasing ovulation rate and lambing percentage by 15–20%.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100044000
+  },
+  {
+    "id": "ann_exp_045",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat)",
+    "questionText": "Why do high-yielding dairy cows inevitably enter 'Negative Energy Balance' (NEB) during the first 6 to 8 weeks postpartum?",
+    "options": [
+      "Peak Dry Matter Intake occurs at week 1 postpartum, whereas peak milk yield occurs at week 24",
+      "Peak milk yield occurs at 4–8 weeks postpartum, whereas peak Dry Matter Intake lags until 10–14 weeks",
+      "Ruminal volatile fatty acid absorption is physiologically blocked by prolactin for 60 days after calving",
+      "Intestinal pancreatic amylase and lipase secretion ceases completely during early lactation"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "After calving, mammary nutrient drain escalates rapidly to peak lactation at weeks 4–8, while physical rumen capacity and appetite lag behind, reaching peak DMI only at weeks 10–14. To bridge this energy deficit, the cow mobilizes body fat (NEFA).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100045000
+  },
+  {
+    "id": "ann_exp_046",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Why must a newborn calf receive colostrum (at 8–10% of birth weight) within the first 2 to 6 hours of life, before 'Gut Closure' at 24 hours?",
+    "options": [
+      "Intact maternal IgG1 macromolecules can only cross neonatal enterocytes via pinocytosis during the first 24 hours",
+      "Mammary alveolar cells reabsorb all colostral IgG1 back into maternal blood by 8 hours post-calving",
+      "The neonatal rumen begins fermenting colostral immunoglobulins into volatile fatty acids after 6 hours",
+      "Colostrum is required solely to supply ferric iron because bovine placenta transfers 100% of maternal IgG"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Bovine syndesmochorial/epitheliochorial placentation blocks transplacental IgG transfer, so calves are born agammaglobulinemic. Neonatal enterocytes absorb intact IgG1 via pinocytosis and FcRn receptors only during the first 12–24 hours prior to gut closure.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100046000
+  },
+  {
+    "id": "ann_exp_047",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "What is the recommended 'Nitrogen : Sulfur (N : S) Ratio' in ruminant diets supplemented with Non-Protein Nitrogen (Urea) to support microbial synthesis of Methionine and Cystine?",
+    "options": [
+      "50 : 1 to 60 : 1 (approx. 0.02% dietary Sulfur)",
+      "1 : 1 to 2 : 1 (equal parts Nitrogen and Sulfur)",
+      "10 : 1 to 12 : 1 (approx. 0.18–0.20% dietary Sulfur)",
+      "100 : 1 (Sulfur is not utilized by rumen bacteria)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Microbial protein contains nitrogen and sulfur in a constant ratio of ~10:1 to 12:1. Without adequate sulfur (supplied via ammonium sulfate or sodium sulfate), rumen microbes cannot synthesize Methionine, Cystine, Thiamine, and Biotin from urea ammonia.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100047000
+  },
+  {
+    "id": "ann_exp_048",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat)",
+    "questionText": "In cattle suffering from 'Acute Ruminal Lactic Acidosis' (Grain Engorgement, rumen pH < 5.0), which bacterial succession drives the rapid drop in ruminal pH?",
+    "options": [
+      "Overgrowth of Fibrobacter succinogenes followed by Methanobrevibacter ruminantium producing excess acetate",
+      "Proliferation of Megasphaera elsdenii and Selenomonas ruminantium converting propionate into bicarbonate",
+      "Overgrowth of Clostridium perfringens and Fusobacterium necrophorum raising rumen pH above 8.5",
+      "Rapid proliferation of Streptococcus bovis (pH 6.0 -> 5.0) followed by aciduric Lactobacillus species (pH < 4.5)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "When starch engorges the rumen, amylolytic Streptococcus bovis multiplies explosively, shifting to homofermentative lactate production. As pH drops below 5.5, S. bovis is superseded by acid-tolerant Lactobacilli, accumulating D- and L-lactic acid.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100048000
+  },
+  {
+    "id": "ann_exp_049",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Which ruminal lactate-utilizing bacterium ferments 60% to 80% of ruminal lactic acid into propionic acid (via the acrylate pathway) and is administered as a probiotic to prevent lactic acidosis?",
+    "options": [
+      "Streptococcus bovis (along with Lactobacillus acidophilus)",
+      "Ruminococcus albus (along with Butyrivibrio fibrisolvens)",
+      "Megasphaera elsdenii (along with Selenomonas ruminantium subsp. lactilytica)",
+      "Synergistes jonesii (along with Prevotella ruminicola)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Megasphaera elsdenii and Selenomonas ruminantium are the primary lactate-utilizing bacteria in the rumen, fermenting lactic acid into propionate, acetate, and butyrate and buffering against grain acidosis.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100049000
+  },
+  {
+    "id": "ann_exp_050",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "In high-producing dairy cows, supplementing 'Dietary Buffers' (such as 0.75–1.0% Sodium Bicarbonate + 0.3–0.4% Magnesium Oxide) in high-concentrate rations primarily acts to:",
+    "options": [
+      "Saponify dietary polyunsaturated oils into insoluble magnesium soaps in the saliva",
+      "Acidify the rumen below pH 5.0 to inhibit urease and prevent acute ammonia toxicity",
+      "Induce mild systemic metabolic acidosis to stimulate parathyroid hormone before calving",
+      "Stabilize rumen pH above 6.2, preserve cellulolytic activity, and prevent milk fat depression"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Sodium bicarbonate (NaHCO3, a true buffer with pKa ~ 6.1) and Magnesium oxide (MgO, an alkalinizing agent that also promotes mammary uptake of acetate/triglycerides) prevent ruminal pH drops on high-grain diets, maintaining acetate:propionate ratio and milk fat percentage.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100050000
+  },
+  {
+    "id": "ann_exp_051",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "Raw soybean contains the Kunitz and Bowman-Birk protease inhibitors. Which routine laboratory quality control index is used in feed mills to verify whether soybean meal has been adequately toasted without overheating?",
+    "options": [
+      "Thiobarbituric Acid (TBA) number and Peroxide Value of extracted lipid",
+      "Urease Activity Index (ΔpH 0.05–0.20) and KOH Protein Solubility",
+      "Free Fatty Acid (FFA) titration and Saponification Value in alcoholic KOH",
+      "Kreis phloroglucinol rancidity test and Iodine Absorption Number (Wijs method)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Raw soybeans contain heat-labile urease alongside trypsin inhibitors. Proper moist heat toasting reduces Urease Activity Index to a ΔpH of 0.05–0.20 (or 0.02–0.30 pH rise) and KOH Protein Solubility to 78–85% (PDI 15–30%); values near zero indicate over-toasting and lysine destruction.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100051000
+  },
+  {
+    "id": "ann_exp_052",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Mustard and rapeseed meal (Brassica spp.) contain 'Glucosinolates', which are hydrolyzed by the endogenous plant enzyme myrosinase into goitrogenic isothiocyanates and oxazolidinethione (goitrin). How does goitrin induce hypothyroidism?",
+    "options": [
+      "Inhibits thyroid peroxidase-mediated iodination of tyrosine and T4 coupling",
+      "Stimulates hepatic glucuronidation and biliary clearance of circulating T3 and T4",
+      "Destroys hypothalamic TRH-secreting parvocellular neurons in the median eminence",
+      "Competitively blocks the thyroid sodium-iodide symporter like thiocyanate ions"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Unlike thiocyanate ions (from cyanogenic glycosides) which competitively inhibit iodide uptake at the thyroid sodium-iodide symporter (correctable by extra dietary iodine), 5-vinyl-oxazolidine-2-thione (goitrin) inhibits organic iodination of mono-/di-iodotyrosine and coupling into T3/T4 (not reversible by iodine alone).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100052000
+  },
+  {
+    "id": "ann_exp_053",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "What are the specific internationally mandated quality thresholds that define 'Canola' (Double-Zero / '00' rapeseed) cultivars compared to traditional high-glucosinolate rapeseed?",
+    "options": [
+      "<5% erucic acid in extracted oil and <100 µmol glucosinolates/g whole seed",
+      "<0.5% linolenic acid in oil and <15 mg condensed tannins/g defatted meal",
+      "<2% erucic acid in oil and <30 µmol glucosinolates/g oil-free meal",
+      "<1% free gossypol in extracted oil and <50 ppm sinapine in air-dried meal"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Canola ('Canadian oil, low acid' or '00' rapeseed) is genetically selected to contain less than 2% erucic acid (C22:1, which causes myocardial lipidosis) in its oil fraction and less than 30 micromoles of aliphatic glucosinolates per gram of oil-free dry meal.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100053000
+  },
+  {
+    "id": "ann_exp_054",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Feeding Canola or Rapeseed meal to brown-egg laying hens having a genetic mutation in the FMO3 (flavin-containing monooxygenase 3) gene causes 'fishy-taint' in egg yolks due to the accumulation of which compound?",
+    "options": [
+      "Skatole and indole formed by hindgut bacterial deamination of L-tryptophan",
+      "Allyl isothiocyanate volatilized directly from unhydrolyzed progoitrin",
+      "Dimethyl sulfide released from degradation of S-methylcysteine sulfoxide",
+      "Trimethylamine (TMA) formed from cecal fermentation of sinapine"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Rapeseed meal is rich in sinapine (the choline ester of sinapic acid). Intestinal microbes convert sinapine to choline and then Trimethylamine (TMA); hens carrying a recessive mutation in hepatic FMO3 cannot oxidize odorous TMA into odorless TMA-N-oxide, depositing TMA into the egg yolk.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100054000
+  },
+  {
+    "id": "ann_exp_055",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "Castor bean cake (Ricinus communis) is severely toxic to livestock unless detoxified by autoclaving because it contains 'Ricin', a potent phytotoxin that acts biochemically by:",
+    "options": [
+      "Uncoupling oxidative phosphorylation by collapsing inner mitochondrial proton gradients",
+      "Catalytically depurinating 28S rRNA of the 60S eukaryotic ribosomal subunit",
+      "Cleaving SNARE synaptic vesicle proteins to block motor acetylcholine exocytosis",
+      "Irreversibly inhibiting mitochondrial cytochrome c oxidase (Complex IV) in liver"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Ricin is a Type II ribosome-inactivating protein (RIP lectin) composed of an A-chain (N-glycosidase that removes a specific adenine from the sarcin-ricin loop of 28S rRNA, halting protein synthesis) linked via a disulfide bond to a galactose-binding B-chain.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100055000
+  },
+  {
+    "id": "ann_exp_056",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Principles of Nutrition, Proximate Analysis & Nutrient Metabolism",
+    "questionText": "In non-ruminant cereal-oilseed diets, 'Phytic acid' (myo-inositol 1,2,3,4,5,6-hexakisphosphate) binds approximately 60–80% of plant phosphorus and chelates divalent cations. Which trace mineral deficiency is most classically precipitated by high dietary phytate plus excess calcium in growing pigs?",
+    "options": [
+      "Zinc deficiency causing epidermal hyperkeratinization (Swine Parakeratosis)",
+      "Copper deficiency causing defective lysyl oxidase cross-linking and aortic rupture",
+      "Manganese deficiency causing chondrodystrophy and slipped gastrocnemius tendon",
+      "Selenium deficiency causing acute hemorrhagic myocardial necrosis (Mulberry heart)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Phytic acid forms an insoluble, non-absorbable Calcium-Zinc-Phytate complex in the alkaline small intestine of swine when dietary calcium exceeds 1.0%, precipitating severe secondary Zinc deficiency (Parakeratosis).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100056000
+  },
+  {
+    "id": "ann_exp_057",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "Supplementation of microbial 'Phytase' (typically 500–1000 FTU/kg feed) in broiler and swine diets releases phytate-bound phosphorus. How is one standard Phytase Activity Unit (1 FTU) defined?",
+    "options": [
+      "Enzyme liberating 1 µmol inorganic orthophosphate/min from sodium phytate at pH 5.5 and 37°C",
+      "Enzyme increasing apparent ileal phosphorus digestibility by 10% in a corn-soybean basal diet",
+      "Enzyme releasing 1 mmol of free myo-inositol per minute from calcium phytate at pH 2.5 and 40°C",
+      "Enzyme hydrolyzing 1 mg of total phytic acid per hour in buffered duodenal digesta at pH 7.4"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "By international ISO/AOAC definition, 1 FTU (or FYT) is the amount of phytase enzyme that liberates 1 micromole of inorganic orthophosphate per minute from 0.0051 mol/L sodium phytate at pH 5.5 and 37°C.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100057000
+  },
+  {
+    "id": "ann_exp_058",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "Lush leguminous pastures like Lucerne (Medicago sativa) and White Clover (Trifolium repens) induce frothy bloat in cattle due to soluble cytoplasmic leaf proteins (18S Fraction-1 RuBisCO) and 'Saponins'. Which non-ionic surfactant is administered orally to prevent and treat leguminous frothy bloat?",
+    "options": [
+      "Sodium bicarbonate (1.5% of DMI) combined with magnesium oxide buffer",
+      "Dioctyl sodium sulfosuccinate (DSS) at high purgative doses in warm water",
+      "Poloxalene (100–200 mg/kg BW) or polymerized methyl silicone",
+      "Copper sulfate (2% aqueous solution) to stimulate reticular groove closure"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Poloxalene (a polyoxypropylene-polyoxyethylene block copolymer non-ionic surfactant) lowers the surface tension of the stable proteinaceous-saponin foam bubbles in the dorsal rumen, coalescing small gas bubbles so they can be eructated.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100058000
+  },
+  {
+    "id": "ann_exp_059",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "What is the critical nutritional distinction between high levels of 'Hydrolyzable Tannins' (in oak leaves, Terminalia) and moderate levels of 'Condensed Tannins / Proanthocyanidins' (2–4% DM in Lotus corniculatus) in ruminants?",
+    "options": [
+      "Condensed tannins chelate molybdenum to prevent teart; hydrolyzable tannins form vitamin B12",
+      "Hydrolyzable tannins yield hepatonephrotoxic pyrogallol; condensed tannins increase RUP",
+      "Condensed tannins are rapidly hydrolyzed into gallic acid; hydrolyzable tannins remain inert",
+      "Hydrolyzable tannins selectively kill methanogens without toxicity; condensed tannins cause edema"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Hydrolyzable tannins (gallotannins/ellagitannins) are degraded by ruminal microbes into gallic acid and pyrogallol, causing hemorrhagic gastroenteritis and renal tubular necrosis (oak poisoning). Moderate Condensed Tannins (2–4% DM) reversibly bind plant protein at ruminal pH (5.5–7.0) to prevent bloat and release it in the acidic abomasum (pH 2.5) as bypass protein (RUP).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100059000
+  },
+  {
+    "id": "ann_exp_060",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "Prolonged consumption of Khesari dal (Lathyrus sativus) causes 'Neurolathyrism' (spastic paraplegia in humans and equine laryngeal hemiplegia / roaring in horses). What is the specific neurotoxic amino acid responsible?",
+    "options": [
+      "3-Hydroxy-4(1H)-pyridone (3,4-DHP) derived from mimosine",
+      "S-methylcysteine sulfoxide (SMCO) converted to dimethyl disulfide",
+      "Indospicine (an L-arginine analog present in Indigofera linnaei)",
+      "β-N-oxalyl-L-α,β-diaminopropionic acid (β-ODAP / BOAA)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Lathyrus sativus seeds contain β-ODAP (also called BOAA, β-N-oxalyl-amino-L-alanine), which acts as a potent structural analog of glutamate at AMPA receptors, inducing excitotoxic degeneration of upper motor neurons and equine recurrent laryngeal neuropathy.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100060000
+  },
+  {
+    "id": "ann_exp_061",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Ruminant Nutrition (Dairy Cattle, Buffalo, Sheep & Goat)",
+    "questionText": "Grazing on Brassica forages (kale, rape, turnips, cabbage) in excess causes 'Kale Anemia' (hemolytic anemia with Heinz-Ehrlich bodies in erythrocytes) in cattle and sheep due to which sulfur-containing amino acid derivative?",
+    "options": [
+      "Hypoglycin A, a cyclopropyl amino acid inhibiting acyl-CoA dehydrogenase",
+      "Allyl isothiocyanate, cleaved from sinigrin by plant myrosinase enzyme",
+      "S-Methylcysteine sulfoxide (SMCO), fermented to dimethyl disulfide",
+      "L-Canavanine, an arginine antimetabolite present in jack bean seeds"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Brassica crops accumulate S-methylcysteine sulfoxide (SMCO); ruminal bacteria metabolize SMCO into dimethyl disulfide, a strong oxidant that depletes erythrocyte reduced glutathione (GSH), precipitating hemoglobin into Heinz bodies and causing acute intravascular hemolysis.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100061000
+  },
+  {
+    "id": "ann_exp_062",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "Feeding moldy sweet clover hay (Melilotus alba / Melilotus officinalis) spoiled by Aspergillus or Penicillium species causes fatal hemorrhagic disease in cattle because microbial fermentation converts harmless plant coumarin into:",
+    "options": [
+      "Ergovaline, stimulating alpha-adrenergic vasoconstriction in peripheral arterioles",
+      "Dicoumarol (bishydroxycoumarin), inhibiting Vitamin K epoxide reductase",
+      "Aflatoxin M1, intercalating into hepatocyte nuclear DNA and halting transcription",
+      "Ochratoxin A, competitively inhibiting phenylalanyl-tRNA synthetase in kidney tubules"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Fungal spoilage of sweet clover dimerizes coumarin into Dicoumarol (3,3'-methylenebis(4-hydroxycoumarin)), which blocks hepatic Vitamin K epoxide reductase (VKORC1) and prevents γ-carboxylation of clotting factors II, VII, IX, and X; treated with parenteral Vitamin K1 (phylloquinone).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100062000
+  },
+  {
+    "id": "ann_exp_063",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Monogastric, Poultry & Pet/Equine Nutrition",
+    "questionText": "Which Fusarium mycotoxin is a non-steroidal estrogenic resorcylic acid lactone that binds to cytosolic estrogen receptors and causes vulvovaginitis, nymphomania, pseudopregnancy, and rectal/vaginal prolapse predominantly in prepubertal gilts?",
+    "options": [
+      "Zearalenone (F-2 toxin) produced by Fusarium graminearum",
+      "Fumonisin B1 produced by Fusarium verticillioides on damaged maize kernels",
+      "Deoxynivalenol (Vomitoxin / DON) belonging to the Type B trichothecene group",
+      "T-2 toxin belonging to the Type A trichothecene group causing oral necrosis"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Zearalenone (F-2 toxin) and its potent metabolite α-zearalenol mimic 17β-estradiol at estrogen receptors. Swine (especially prepubertal gilts) are the most sensitive species, developing hyperestrogenism (edematous vulva, mammary enlargement, anestrus, and vaginal/rectal prolapse).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100063000
+  },
+  {
+    "id": "ann_exp_064",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Consumption of raw egg white causes 'Egg-White Injury' (exfoliative dermatitis, alopecia, and perosis) because the glycoprotein 'Avidin' tightly binds which water-soluble vitamin?",
+    "options": [
+      "Thiamine (Vitamin B1), contrasted with Thiaminase found in raw carp viscera",
+      "Cobalamin (Vitamin B12), via competitive inhibition of gastric Intrinsic Factor",
+      "Pyridoxine (Vitamin B6), contrasted with Linatine found in raw linseed meal",
+      "Biotin (Vitamin B7 / Vitamin H), forming an unabsorbable complex"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Avidin in raw albumen binds four molecules of Biotin (Vitamin B7) with an extraordinarily low dissociation constant (Kd ≈ 10⁻¹⁵ M), rendering it unabsorbable. (Note: Linatine in linseed meal is a Vitamin B6 antagonist, and raw fish/bracken fern contain Thiaminase against B1).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100064000
+  },
+  {
+    "id": "ann_exp_065",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "In the laboratory evaluation of silage fermentation quality, what parameters are used to compute the 'Flieg Index' (Flieg Point Score), and what Ammoniacal-N (% of Total N) threshold defines 'Very Good' silage?",
+    "options": [
+      "Ratio of Neutral Detergent Fiber to Acid Detergent Lignin; NH3-N < 25% of Total N",
+      "Relative proportions of Lactic, Acetic, and Butyric acids; NH3-N < 8–10% of Total N",
+      "Total soluble sugars minus ethanol concentration; NH3-N between 18% and 30% of Total N",
+      "Crude protein recovery after hot-air drying at 105°C; NH3-N > 20% of Total Nitrogen"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "The Flieg Index (0 to 100 scale; >80 = Very Good) evaluates silage based on the molar/weight percentages of Lactic acid (high score), Acetic acid (intermediate), and Butyric acid (heavily penalized; 0% in ideal silage). Additionally, well-preserved silage has Ammonia-N < 8–10% of Total Nitrogen.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100065000
+  },
+  {
+    "id": "ann_exp_066",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "While homofermentative silage inoculants (e.g., Lactobacillus plantarum) rapidly lower pH during ensiling, why is the obligate heterofermentative bacterium 'Lactobacillus buchneri' specifically added to corn and sorghum silages?",
+    "options": [
+      "Converts lactic acid to acetic acid and 1,2-propanediol to improve aerobic stability",
+      "Produces fibrolytic lignin-peroxidase enzymes that cleave ferulic acid ester cross-links",
+      "Synthesizes high levels of propionic and butyric acid during day 1 to kill Listeria",
+      "Fixes atmospheric nitrogen in the anaerobic silo to double the crude protein of maize"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Homofermentative silages rich in pure lactic acid often heat up and spoil rapidly when exposed to air at feed-out because lactate-assimilating yeasts proliferate. Lactobacillus buchneri anaerobically converts moderate amounts of lactic acid into acetic acid and propylene glycol (1,2-propanediol), which strongly inhibit yeasts and molds upon aerobic exposure.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100066000
+  },
+  {
+    "id": "ann_exp_067",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "Which dense, drought-tolerant fodder crops are universally termed 'Silo Crops' (ideal for ensiling without additives) vs 'Non-Silo Crops' (requiring wilting or molasses addition due to high buffering capacity and low soluble carbohydrates)?",
+    "options": [
+      "Berseem, Lucerne, and Cowpea are ideal silo crops; Maize and Bajra are non-silo crops",
+      "Paddy straw and Wheat bhusa are ideal silo crops; Hybrid Napier is a non-silo crop",
+      "Subabul and Gliricidia tree leaves are ideal silo crops; Jowar is a non-silo crop",
+      "Maize, Sorghum, and Oats are silo crops; Berseem and Lucerne are non-silo crops"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Gramineous cereal fodders harvested at the milk-to-dough stage (Maize, Sorghum/Jowar, Bajra, Oats) have high water-soluble carbohydrates (WSC) and low buffering capacity, making ideal silage. Legumes (Berseem, Lucerne) have high protein, high calcium/organic acid buffering capacity, and low WSC, requiring wilting to 35–40% DM or 3–4% molasses addition.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100067000
+  },
+  {
+    "id": "ann_exp_068",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "What defines 'Haylage' (Low-Moisture Silage) in terms of dry matter (DM) percentage, and how is it preserved when stored in oxygen-limiting tower silos or plastic-wrapped round bales?",
+    "options": [
+      "85–90% Dry Matter (10–15% moisture); preserved solely by open solar desiccation",
+      "25–30% Dry Matter (70–75% moisture); preserved by adding 2% commercial sulfuric acid",
+      "45–55% Dry Matter; preserved by anaerobic oxygen exclusion and mild fermentation",
+      "15–20% Dry Matter (80–85% moisture); preserved by high-pressure steam ammoniation"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Haylage is forage wilted to 45–55% Dry Matter (45–55% moisture)—intermediate between silage (30–35% DM) and hay (85–88% DM)—stored under strict anaerobic conditions (Harvestore silos or stretch-film wrapped bales) where restricted lactic fermentation and oxygen exclusion prevent spoilage.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100068000
+  },
+  {
+    "id": "ann_exp_069",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "During hay making, why is 'Crushing / Conditioning' of thick-stemmed legumes (like Lucerne) with mechanical rollers performed immediately at mowing?",
+    "options": [
+      "Squeezes out 90% of intracellular soluble protein to yield low-protein roughage",
+      "Inactivates plant lipoxygenase and polyphenol oxidase to bleach all beta-carotene",
+      "Cracks fibrous stems so stem drying matches leaf drying, minimizing leaf shattering",
+      "Inoculates vascular bundles with thermophilic actinomycetes for spontaneous heating"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "In legume hay making, thin leaves dry much faster than thick stems; if left unconditioned, leaves become brittle and shatter onto the field before stems reach <15% moisture (causing massive loss of CP and carotene). Mechanical crimping/conditioning cracks stems so leaves and stems dry uniformly.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100069000
+  },
+  {
+    "id": "ann_exp_070",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "If damp hay is baled or stacked at >25–30% moisture, microbial respiration followed by exothermic chemical oxidation raises stack temperature above 55–70°C, producing 'Brown Hay'. What is the primary nutritional damage in Brown Hay?",
+    "options": [
+      "Complete conversion of crystalline cellulose into soluble glucose, causing acidosis",
+      "Maillard reaction between lysine and reducing sugars, elevating indigestible ADIN",
+      "Enzymatic synthesis of cyanogenic glycosides by thermophilic Bacillus species",
+      "Quantitative saponification of plant sterols into calcitriol, inducing calcinosis"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Spontaneous heating in wet hay (>50°C) drives the non-enzymatic Maillard (browning) reaction between free ε-amino groups of lysine and aldehyde groups of reducing sugars, forming indigestible Acid Detergent Insoluble Nitrogen (ADIN), destroying carotene, and risking spontaneous combustion above 75°C.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100070000
+  },
+  {
+    "id": "ann_exp_071",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "In steam pelleting of compound poultry and cattle feeds, what is the standard conditioning temperature and duration that gelatinizes starch, destroys Salmonella, and improves pellet durability index (PDI)?",
+    "options": [
+      "Conditioning with live steam at 75–85°C for 15–30 seconds before die extrusion",
+      "Dry roasting in a muffle furnace at 220°C for 45 minutes prior to hammer milling",
+      "Autoclaving under 15 psi pressure at 121°C for 60 minutes with 1.25% NaOH solution",
+      "Cryogenic freezing at -40°C followed by cold hydraulic pressing without moisture"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In commercial steam pelleting, mash feed is conditioned with live steam to ~16–17% moisture and 75–85°C for 15–30 seconds before being forced through the pellet die, which partially gelatinizes starch (acting as a natural binder), pasteurizes Salmonella, and prevents selective feeding.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100071000
+  },
+  {
+    "id": "ann_exp_072",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "What is 'Densified Complete Feed Block' (DCFB) technology developed in India for drought feeding and crop-residue utilization?",
+    "options": [
+      "Ensiling chopped green maize with 5% poultry litter in underground unlined earthen pits",
+      "Pouring liquid urea-molasses-mineral mixture into open troughs without fibrous roughage",
+      "Hydroponic sprouting of barley grains in climate-controlled trays for 7 days without soil",
+      "Hydraulic compression of roughage, concentrate, molasses, and minerals into blocks"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "DCFB (Complete Feed Block) technology compacts chopped crop residues/straws (50–60%), concentrate mixture (30–40%), molasses binder (8–10%), minerals, and vitamins under high hydraulic pressure into dense blocks (bulk density ~400–450 kg/m³), reducing transport volume by 3-fold and preventing selective feeding.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100072000
+  },
+  {
+    "id": "ann_exp_073",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Monogastric, Poultry & Pet/Equine Nutrition",
+    "questionText": "In a conventional maize–soybean meal (Corn-SBM) diet, what are the First, Second, and Third limiting amino acids for Growing Swine vs Broiler Chickens, respectively?",
+    "options": [
+      "Swine: 1st Met, 2nd Arg, 3rd Gly; Poultry: 1st Lys, 2nd Trp, 3rd Leu",
+      "Swine: 1st Trp, 2nd Val, 3rd His; Poultry: 1st Thr, 2nd Ile, 3rd Phe",
+      "Swine: 1st Lys, 2nd Thr, 3rd Trp; Poultry: 1st Met, 2nd Lys, 3rd Thr",
+      "Swine: 1st Leu, 2nd Lys, 3rd Met; Poultry: 1st Gly, 2nd Pro, 3rd Arg"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "In corn-soybean meal diets, Swine require high muscle lysine and mucin threonine, making Lysine 1st limiting, Threonine 2nd, and Tryptophan/Methionine 3rd. Poultry have high feather keratin requirements (rich in sulfur amino acids), making Methionine (+ Cystine) 1st limiting, Lysine 2nd, and Threonine 3rd.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100073000
+  },
+  {
+    "id": "ann_exp_074",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Monogastric, Poultry & Pet/Equine Nutrition",
+    "questionText": "Why are 'Glycine + Serine' and 'Proline' classified as dietary essential (or conditionally indispensable) amino acids specifically for fast-growing chicks fed purified diets, unlike in mammals?",
+    "options": [
+      "Chickens excrete all nitrogen as trimethylamine oxide, consuming 4 moles of proline/g",
+      "Birds lack the genetic code for hepatic transaminases and any non-essential AA synthesis",
+      "Glycine is the sole precursor for avian feather melanin and cannot be absorbed intact",
+      "Avian uricotelism requires 1 mole of glycine per mole of uric acid synthesized"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Birds are uricotelic (lacking mitochondrial carbamoyl phosphate synthetase-I of the urea cycle) and excrete nitrogen as Uric Acid; ring synthesis of every molecule of uric acid directly incorporates a whole Glycine molecule (C-4, C-5, and N-7), creating a massive metabolic demand for Glycine + Serine in chicks.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100074000
+  },
+  {
+    "id": "ann_exp_075",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Monogastric, Poultry & Pet/Equine Nutrition",
+    "questionText": "In the 'Ideal Protein Concept' (originally developed by ARC and Baker at Illinois for swine and poultry), all essential amino acid requirements are expressed as an exact percentage ratio relative to which reference amino acid (set at 100%)?",
+    "options": [
+      "Apparent Fecal Digestible (AFD) Methionine + Cystine (set at 100%)",
+      "Standardized Ileal Digestible (SID) Lysine (set at 100%)",
+      "Total Crude Tryptophan determined by alkaline hydrolysis (set at 100%)",
+      "Rumen Undegradable Leucine escaping microbial deamination (set at 100%)"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "In the Ideal Protein system, Lysine is chosen as the reference amino acid (100%) because it is dedicated almost exclusively to body protein accretion (with minimal maintenance/feather turnover pathways), and changes in dietary energy, sex, or genotype alter absolute requirements without changing the optimal AA:Lysine ratios.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100075000
+  },
+  {
+    "id": "ann_exp_076",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "Why is 'Apparent Metabolizable Energy corrected to Zero Nitrogen Retention' (AMEn) the universal energy standard for poultry feeds rather than Digestible Energy (DE)?",
+    "options": [
+      "Birds void feces and urine together via cloaca; corrected by 8.22 kcal/g N",
+      "Chickens ferment 90% of dietary cellulose in the crop, losing 40% of energy as methane",
+      "Avian gizzard grinding generates mechanical heat exceeding fecal energy by three-fold",
+      "Poultry absorb intact triglycerides directly into the portal vein without chylomicrons"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Because birds excrete feces and renal urine together through the cloaca, separating fecal energy from urinary energy requires surgical colostomy. Therefore, Metabolizable Energy (ME) is measured directly, and corrected to zero nitrogen balance (AMEn) by subtracting 8.22 kcal per gram of nitrogen retained (the GE of uric acid per g N).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100076000
+  },
+  {
+    "id": "ann_exp_077",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "According to BIS (IS 1374) and ICAR feeding standards for commercial Broiler Chickens, what is the standard progression of Crude Protein (%) and Metabolizable Energy (kcal/kg) across Pre-Starter, Starter, and Finisher diets?",
+    "options": [
+      "CP decreases (23% → 22% → 20%) while ME increases (3000 → 3100 → 3200 kcal/kg)",
+      "CP increases (18% → 21% → 24%) while ME decreases (3200 → 3000 → 2800 kcal/kg)",
+      "Both CP and ME remain strictly constant at 16% CP and 2600 kcal/kg until slaughter",
+      "CP decreases (16% → 14% → 12%) while ME remains fixed at 2500 kcal/kg with 8% Ca"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "As broilers mature from Pre-Starter (0–1 wk) to Starter (1–3 wk) to Finisher (3–6 wk), muscle protein fractional synthesis rate declines while fat deposition and maintenance energy needs rise; thus dietary CP decreases (23% → 22% → 19.5–20%) and ME increases (3000 → 3100 → 3200 kcal/kg), widening the Calorie:Protein ratio.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100077000
+  },
+  {
+    "id": "ann_exp_078",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "What is the specific dietary Calcium (%) requirement of a commercial White Leghorn laying hen in Phase-I peak egg production (18–45 weeks) compared to a growing pullet or broiler?",
+    "options": [
+      "0.8 to 1.0% Calcium (with ~0.80–0.90% Non-Phytate Available Phosphorus)",
+      "1.2 to 1.5% Calcium (with ~1.20–1.50% Total Phytate-Bound Phosphorus)",
+      "3.5 to 4.0% Calcium (with ~0.40–0.45% Non-Phytate Available Phosphorus)",
+      "6.5 to 8.0% Calcium (with ~0.10–0.15% Non-Phytate Available Phosphorus)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "A laying hen deposits ~2.0–2.2 g of pure Calcium (as ~5.5 g CaCO3) into every eggshell within 18–20 hours. Therefore, Phase-I layer mash requires 3.5–4.0% Calcium (rising to 4.2% in Phase-II older hens) and 0.40–0.45% available phosphorus (a Ca:AvP ratio of ~8:1 to 9:1, vs 2:1 in broilers).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100078000
+  },
+  {
+    "id": "ann_exp_079",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Monogastric, Poultry & Pet/Equine Nutrition",
+    "questionText": "Which essential fatty acid is specifically required at a minimum of 1.0–1.25% in commercial Layer diets to optimize egg size/weight and sustain maximum egg production?",
+    "options": [
+      "Docosahexaenoic acid (C22:6)",
+      "α-Linolenic acid (C18:3 ω-3)",
+      "Arachidonic acid (C20:4 ω-6)",
+      "Linoleic acid (C18:2 ω-6)"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Linoleic acid (18:2 n-6, abundant in maize, sunflower, and soybean oil) is strictly required at ≥1.0% in layer rations because it is essential for hepatic synthesis of vitellogenin and very-low-density lipoproteins (VLDLy) that are transported to the ovary to govern egg yolk weight and total egg size.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100079000
+  },
+  {
+    "id": "ann_exp_080",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Applied Monogastric, Poultry & Pet/Equine Nutrition",
+    "questionText": "Feeding barley, oats, rye, or wheat in high proportions to broilers without exogenous NSP-degrading enzymes causes 'Sticky Droppings' and poor growth due to which soluble Non-Starch Polysaccharides (NSPs)?",
+    "options": [
+      "Crystalline α-(1→4)-Amylose in maize and Pectic galacturonans in soy hulls",
+      "β-(1→3),(1→4)-Glucans in barley/oats and Arabinoxylans in wheat/rye",
+      "Acid Detergent Lignin in rice polish and Chitin polymers in shrimp meal",
+      "Inulin fructans in sorghum grain and Raffinose oligosaccharides in rice"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Barley and oats contain high levels of soluble mixed-linked β-(1→3),(1→4)-glucans, while wheat, rye, and triticale contain soluble arabinoxylans (pentosans). These NSPs sharply increase digesta viscosity in the avian small intestine, impairing micelle diffusion and stimulating Clostridium perfringens proliferation; corrected by adding β-glucanase and xylanase.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100080000
+  },
+  {
+    "id": "ann_exp_081",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "Why do newborn piglets raised on concrete floors uniquely develop severe microcytic hypochromic anemia ('Piglet Anemia' / 'Thumps') within 7–14 days unless given parenteral Iron Dextran (100–200 mg Fe IM at day 3)?",
+    "options": [
+      "Porcine hemoglobin requires 8 atoms of ferric iron per heme ring instead of 1 ferrous ion",
+      "Sow colostrum contains high levels of lactoferrin antibodies that hemolyze neonatal RBCs",
+      "Piglets lack duodenal ferroportin and divalent metal transporter-1 until 8 weeks of age",
+      "Low birth hepatic Fe stores, sow milk has only ~1 mg Fe/L, and 4x weight gain in 3 weeks"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Newborn piglets are born with tiny hepatic iron stores (~40–50 mg), grow extremely fast (quadrupling birth weight by 21 days, needing ~7 mg Fe/day), have zero access to soil iron on concrete floors, and receive sow's milk which is inherently iron-deficient (~1 mg Fe/L).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100081000
+  },
+  {
+    "id": "ann_exp_082",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Why are Domestic Cats (Felis catus) metabolic obligate carnivores that develop blindness (central retinal degeneration), dilated cardiomyopathy, and hyperammonemic encephalopathy if fed a dog or vegetarian diet?",
+    "options": [
+      "Need preformed Taurine, Vitamin A, Arachidonic acid, and high dietary Arginine",
+      "Obligate requirement for dietary Trimethylamine oxide and D-lactic acid for GFR",
+      "Complete absence of pancreatic amylase and intestinal maltase for starch digestion",
+      "Inability to synthesize ascorbic acid due to lack of hepatic L-gulonolactone oxidase"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Cats have four classic metabolic idiosyncrasies: (1) minimal synthesis of Taurine + obligate bile acid conjugation with taurine (deficiency causes feline central retinal degeneration and DCM), (2) extreme sensitivity to a single Arginine-free meal (hyperammonemia), (3) lack of intestinal β-carotene 15,15'-dioxygenase (need preformed Vitamin A), and (4) very low Δ6-desaturase activity (need preformed Arachidonic acid).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100082000
+  },
+  {
+    "id": "ann_exp_083",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "How do high dietary Molybdenum (Mo) and Sulfur (S) interact in the rumen to induce secondary Copper (Cu) deficiency ('Teart' / 'Peat Scours' in cattle and 'Enzootic Ataxia / Swayback' in lambs)?",
+    "options": [
+      "Molybdenum activates ruminal phytase to precipitate copper as copper-inositol phosphate",
+      "Ruminal sulfide reacts with molybdate to form Thiomolybdates (MoS4²⁻) that chelate Cu",
+      "Sulfur oxidizes cuprous ions into volatile cupric hydride gas lost during eructation",
+      "Molybdate competitively inhibits cobalt incorporation into Vitamin B12 by methanogens"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "In the reducing environment of the rumen, microbes reduce dietary sulfate/sulfur to sulfide (S²⁻), which reacts sequentially with molybdate (MoO4²⁻) to form mono-, di-, tri-, and tetrathiomolybdates (MoS4²⁻). Thiomolybdates form insoluble, non-absorbable complexes with Copper in the gut and also strip Cu from systemic metalloenzymes (ceruloplasmin, cytochrome oxidase, lysyl oxidase, tyrosinase).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100083000
+  },
+  {
+    "id": "ann_exp_084",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Forage Conservation (Silage, Hay), Feed Processing & Anti-Nutritional Factors",
+    "questionText": "In Merino and fine-wool sheep, Copper deficiency impairs the oxidation of sulfhydryl (-SH) groups to disulfide (-S-S-) cross-links in pre-keratin, resulting in which pathognomonic wool defect?",
+    "options": [
+      "Spontaneous shedding of the entire fleece within 24 hours (Mimosine alopecia)",
+      "Greenish-blue discoloration of the fleece caused by Pseudomonas (Fleece rot)",
+      "'Steely' or 'Stringy' wool lacking crimp, with depigmentation of black wool",
+      "Hyperkeratotic sebaceous crusts matting the wool tips into horns (Lumpy wool)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Copper is an essential cofactor for sulfhydryl oxidase (which forms disulfide -S-S- bridges giving wool its characteristic crimp/elasticity) and tyrosinase (melanin synthesis). Cu deficiency produces straight, lustrous, crimp-less 'steely wool' and depigmented bands in black-wooled sheep.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100084000
+  },
+  {
+    "id": "ann_exp_085",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Which breeds of sheep are extraordinarily susceptible to chronic Copper Toxicity (accumulating hepatic Cu until a stress event triggers an acute hemolytic crisis with methemoglobinemia and 'gunmetal-colored' kidneys)?",
+    "options": [
+      "Deccani, Mandya, and Nellore sheep native to the semi-arid Deccan plateau of India",
+      "Bedouin, Awassi, and Karakul fat-tailed sheep adapted to high-salinity desert browse",
+      "North Ronaldsay, Texel, and Suffolk sheep (intolerant of >15–20 ppm dietary Cu)",
+      "Booroola Merino, Garole, and Kendrapada sheep carrying the FecB fecundity mutation"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Sheep have inefficient biliary copper excretion and cannot tolerate cattle mineral mixtures (>15–20 ppm Cu is toxic to sheep). North Ronaldsay, Texel, and Suffolk breeds are exceptionally prone to hepatic copper storage and sudden hemolytic crisis ('yellows' / gunmetal kidney), treated with Ammonium Tetrathiomolybdate and D-penicillamine.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100085000
+  },
+  {
+    "id": "ann_exp_086",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Chronic vs Subacute Selenium (Se) toxicity in livestock grazing seleniferous plants (e.g., Astragalus, Stanleya) in areas like Hoshiarpur/Nawanshahr (Punjab) manifests as which two classical syndromes?",
+    "options": [
+      "Chronic 'Coast Disease' (progressive emaciation) and Subacute 'Grass Staggers'",
+      "Chronic 'Brisket Disease' (pulmonary hypertension) and Subacute 'Milk Trembles'",
+      "Chronic 'Falling Disease' (sudden myocardial fibrosis) and Subacute 'Peat Scours'",
+      "Chronic 'Alkali Disease' (hoof/hair loss) and Subacute 'Blind Staggers'"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Chronic Se toxicity (5–40 ppm Se in feed, where seleno-amino acids replace sulfur in methionine/cystine of keratin) causes 'Alkali Disease' (Deg Nala-like hoof sloughing, lameness, loss of long hair from mane and tail switch). High intake of water-soluble selenium accumulator plants (Astragalus) causes subacute neurological 'Blind Staggers'.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100086000
+  },
+  {
+    "id": "ann_exp_087",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "In Poultry, Vitamin E and Selenium deficiency produces three distinct clinical syndromes. Which syndrome specifically results from Se/Vit E deficiency causing capillary endothelial damage and greenish-blue subcutaneous edema over the breast and abdomen?",
+    "options": [
+      "Exudative Diathesis (prevented by either Vitamin E or Selenium)",
+      "Nutritional Encephalomalacia / 'Crazy Chick Disease' (needs Vitamin E, not Se)",
+      "Nutritional Muscular Dystrophy (needs Vitamin E plus Cystine/Methionine)",
+      "Chondrodystrophy / 'Slipped Tendon' (caused by Manganese and Choline deficiency)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In chicks: (1) Exudative Diathesis (severe subcutaneous vascular permeability and greenish hemoglobin-stained edema on the ventrum) responds to either Se or Vit E; (2) Encephalomalacia ('Crazy Chick Disease'—cerebellar hemorrhage/ischemia, torticollis) responds to Vit E or synthetic antioxidants like ethoxyquin, NOT Se; (3) White Muscle/Muscular Dystrophy responds to Vit E + Cystine.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100087000
+  },
+  {
+    "id": "ann_exp_088",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "In calves and lambs reared on high-concentrate, low-roughage rations (or grazing bracken fern), ruminal proliferation of Bacillus thiaminolyticus or Clostridium sporogenes produces 'Thiaminase I', causing which neurological disorder?",
+    "options": [
+      "Nigropallidal Encephalomalacia caused by chronic ingestion of yellow star thistle",
+      "Polioencephalomalacia (CCN) with laminar UV cortical autofluorescence",
+      "Leukoencephalomalacia ('Moldy Corn Poisoning') caused by Fusarium Fumonisin B1",
+      "Hepatic Encephalopathy caused by pyrrolizidine alkaloids in Senecio jacobaea"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Ruminal thiaminase destroys Vitamin B1 (Thiamine), impairing erythrocyte transketolase and cerebral pyruvate/α-ketoglutarate dehydrogenase (ATP depletion in astrocytes), resulting in Polioencephalomalacia (CCN): opisthotonus ('star-gazing'), cortical blindness, and UV autofluorescence (365 nm) of necrotic cerebral grey matter; rapidly reversed by IV Thiamine HCl.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100088000
+  },
+  {
+    "id": "ann_exp_089",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Match the classic avian/swine vitamin deficiency with its pathognomonic neurological lesion: 'Curled-Toe Paralysis' in chicks vs 'Polyneuritis (Star-Gazing)' in chicks vs 'Goose-Stepping' gait in swine:",
+    "options": [
+      "Curled-toe: Thiamine (B1); Polyneuritis: Pyridoxine (B6); Goose-stepping: Nicotinic acid (B3)",
+      "Curled-toe: Riboflavin (B2); Polyneuritis: Thiamine (B1); Goose-stepping: B5",
+      "Curled-toe: Biotin (B7); Polyneuritis: Riboflavin (B2); Goose-stepping: Cyanocobalamin (B12)",
+      "Curled-toe: Folic acid (B9); Polyneuritis: Pantothenic acid (B5); Goose-stepping: Choline"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Riboflavin (Vitamin B2) deficiency in chicks causes Schwann cell myelin degeneration of the sciatic and brachial nerves, making chicks walk on their hocks with toes curled inward ('Curled-Toe Paralysis'). Thiamine (B1) deficiency causes avian 'Polyneuritis / Star-gazing' opisthotonus. Pantothenic acid (B5) deficiency in swine causes dorsal root ganglion degeneration and a high-stepping 'Goose-stepping' hindlimb gait.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100089000
+  },
+  {
+    "id": "ann_exp_090",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "In growing broiler chicks and poults, 'Perosis' (Chondrodystrophy or 'Slipped Tendon', where the gastrocnemius tendon slips off the lateral condyle of the tibiotarsal-tarsometatarsal hock joint) is caused by a deficiency of:",
+    "options": [
+      "Calcium (Ca) and/or Cholecalciferol (Vitamin D3) in the finisher ration",
+      "Copper (Cu) and/or Ascorbic acid (Vitamin C) in the pre-starter mash",
+      "Manganese (Mn) and/or Choline (plus Biotin, Niacin, or Folic acid)",
+      "Iodine (I) and/or Retinol (Vitamin A) during the brooding phase"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Perosis (slipped gastrocnemius tendon) results from impaired epiphyseal growth plate glycosaminoglycan (chondroitin sulfate) synthesis due to Manganese deficiency (cofactor for glycosyltransferases) or methyl-donor / phospholipid deficiency from Choline (or Biotin/Niacin/Folic acid).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100090000
+  },
+  {
+    "id": "ann_exp_091",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Why does Vitamin D2 (Ergocalciferol, from irradiated plant ergosterol) have less than 10% of the biological antirachitic potency of Vitamin D3 (Cholecalciferol) in Poultry, unlike in ruminants and swine?",
+    "options": [
+      "Chickens lack renal 1α-hydroxylase in proximal tubules and cannot hydroxylate calciferols",
+      "The acidic avian proventriculus quantitatively isomerizes Vitamin D2 into tachysterol",
+      "Avian intestinal calbindin-D28k only binds calciferol chelated to phytate phosphorus",
+      "Avian plasma Vitamin D-binding protein binds D2 poorly, causing rapid biliary clearance"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "In birds, plasma Vitamin D-binding protein and the intestinal mucosal receptor have a much lower affinity for Vitamin D2 metabolites than Vitamin D3, leading to rapid hepatic conjugation and biliary excretion of D2; thus poultry diets must be supplemented exclusively with Vitamin D3 (Cholecalciferol, 1 IU = 0.025 µg D3).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100091000
+  },
+  {
+    "id": "ann_exp_092",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "In poultry, chronic Vitamin A deficiency causes squamous metaplasia and hyperkeratinization of the mucous glands of the pharynx and esophagus, producing white pustular nodules clinically termed:",
+    "options": [
+      "'Nutritional Roup' (with xerophthalmia and visceral urate deposits)",
+      "'Cage Layer Fatigue' (accompanied by spontaneous medullary bone fractures)",
+      "'Crazy Chick Disease' (accompanied by cerebellar hemorrhage and torticollis)",
+      "'Black Tongue Syndrome' (accompanied by necrotic diphtheritic ileitis)"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Vitamin A (Retinol) maintains mucin-secreting columnar epithelia. In poultry, Vitamin A deficiency causes squamous metaplasia of the nasal passages, conjunctiva, and esophageal glands (blocking ductules to form white caseous pustules called 'Nutritional Roup'), plus ureteral metaplasia leading to visceral gout/urate nephrosis.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100092000
+  },
+  {
+    "id": "ann_exp_093",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Horses fed diets high in wheat bran and cereal grains without roughage or limestone supplementation ('Millers' Disease' / 'Bran Disease') develop facial bone swelling ('Bighead') and shifting lameness due to:",
+    "options": [
+      "Primary Hypervitaminosis D caused by calcinogenic glycosides in wheat pericarp",
+      "Nutritional Secondary Hyperparathyroidism from an inverted Ca:P ratio",
+      "Equine Motor Neuron Disease caused by chronic alpha-tocopherol and Se deficiency",
+      "Hypertrophic Osteopathy secondary to fungal mycotoxins in stored wheat offals"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Wheat bran is extremely rich in Phosphorus (~1.2% P) and extremely low in Calcium (~0.12% Ca, Ca:P ratio ~1:10). Feeding high-bran diets decreases ionized plasma Ca, triggering chronic parathyroid hormone (PTH) hypersecretion, osteoclastic resorption of cancellous facial/mandibular bones, and fibrous replacement (Osteodystrophia fibrosa / 'Bighead').",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100093000
+  },
+  {
+    "id": "ann_exp_094",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "What is the earliest biochemical/physiological indicator of Vitamin A deficiency in growing calves before overt clinical signs (night blindness/nyctalopia, xerophthalmia, or blindness) become apparent?",
+    "options": [
+      "Elevated Cerebrospinal Fluid (CSF) pressure (>200 mm saline)",
+      "Increased erythrocyte hemolysis in peroxide due to glutathione peroxidase depletion",
+      "Massive urinary excretion of methylmalonic acid and formiminoglutamic acid (FIGLU)",
+      "Profound hypocalcemia (<5.0 mg/dL) with hyperphosphatemia from parathyroid atrophy"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "In growing calves, Vitamin A deficiency thickens the dura mater and impairs cerebrospinal fluid (CSF) drainage across the arachnoid villi and dural venous sinuses, causing an immediate rise in CSF pressure (normal <100 mm saline; deficient >200 mm saline) and optic disc papilledema before nyctalopia or corneal ulceration is noticed.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100094000
+  },
+  {
+    "id": "ann_exp_095",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "Why do cattle grazing pastures or drinking deep-borewell water containing >30–50 ppm Fluoride develop 'Chronic Fluorosis' characterized by chalky, mottled, pitted, and unevenly worn incisor teeth?",
+    "options": [
+      "Fluoride dissolves mature erupted dental enamel on contact via salivary HF acid",
+      "Fluoride chelates salivary calcium and prevents ruminal synthesis of Vitamin K2",
+      "Fluoride selectively destroys odontoblasts in aged cows while sparing young calves",
+      "Fluoride replaces hydroxyl ions in enamel ameloblasts ONLY prior to tooth eruption"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Dental fluorosis (mottled, chalky, brown-stained enamel with rapid attrition) occurs ONLY when excess fluoride is ingested during the developmental period of amelogenesis prior to permanent tooth eruption; once a tooth has erupted, its enamel cannot develop fluorotic mottling (though periosteal exostoses on metatarsal/mandibular bones can occur at any age).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100095000
+  },
+  {
+    "id": "ann_exp_096",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "What is the specific biochemical role of Cobalt (Co) in ruminant nutrition, and which two urinary biomarkers are elevated in ovine Cobalt (Vitamin B12) deficiency ('Pine' / 'Enzootic Marasmus' / 'Wasting Disease')?",
+    "options": [
+      "Carbonic anhydrase & Alkaline phosphatase cofactor; urinary Hydroxyproline rises",
+      "Superoxide dismutase & Ceruloplasmin cofactor; urinary Homovanillic acid rises",
+      "Methylmalonyl-CoA mutase & Methionine synthase cofactor; urinary MMA & FIGLU rise",
+      "Xanthine oxidase & Sulfite oxidase cofactor; urinary Uric acid & Sulfocysteine rise"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Ruminal microbes use Cobalt to synthesize Vitamin B12 (Cobalamin), the essential coenzyme for (1) Adenosylcobalamin-dependent Methylmalonyl-CoA mutase (converting propionate → succinyl-CoA; deficiency causes Methylmalonic acidemia/aciduria and hepatic ovine White Liver Disease) and (2) Methylcobalamin-dependent Methionine synthase (deficiency traps folate and causes urinary excretion of Formiminoglutamic acid, FIGLU).",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100096000
+  },
+  {
+    "id": "ann_exp_097",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "Which clinical disorder occurs in high-yielding dairy cows grazing lush, heavily potassium- and nitrogen-fertilized early spring pastures containing <0.2% DM Magnesium, and why can it strike within 24–48 hours?",
+    "options": [
+      "Enzootic Hematuria; high potassium induces acute bladder hemorrhage within 48 hours",
+      "Grass Tetany; cows lack labile bone Mg and high K⁺ blocks ruminal Mg²⁺ uptake",
+      "Post-parturient Hemoglobinuria; lush spring pasture lacks Pi and lyses erythrocytes",
+      "Atypical Interstitial Pneumonia; low Mg converts propionate into 3-methylindole"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Unlike Calcium, adult cattle cannot rapidly mobilize skeletal Magnesium when intake drops, relying on daily active ruminal absorption. Lush spring grass is low in Mg and Na, and high in Potassium (K⁺) and degradable N (NH4⁺); high ruminal K⁺ depolarizes the apical membrane potential of ruminal epithelium, blocking active transcellular Mg²⁺ transport and dropping CSF Mg (<1.0 mg/dL), triggering hyperexcitability and fatal convulsions.",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100097000
+  },
+  {
+    "id": "ann_exp_098",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "In feeding standards and ration formulation, what is 'Dietary Cation-Anion Difference' (DCAD, in mEq/kg DM), and why are anionic salts (NH4Cl, CaCl2, MgSO4) fed during the pre-partum close-up period (-21 days to calving) to yield a negative DCAD (-50 to -150 mEq/kg)?",
+    "options": [
+      "DCAD = (Na⁺ + K⁺) - (Cl⁻ + S²⁻); mild acidosis restores tissue PTH responsiveness",
+      "DCAD = (Ca²⁺ + Mg²⁺) - (PO4³⁻ + HCO3⁻); alkalosis locks calcium inside cortical bone",
+      "DCAD = (Fe²⁺ + Cu²⁺) - (MoO4²⁻ + SO4²⁻); acidifying rumen stops thiomolybdate formation",
+      "DCAD = (NH4⁺ + K⁺) - (NO3⁻ + Cl⁻); negative DCAD suppresses parathyroid hormone release"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "High-potassium/sodium forages create a high positive DCAD (+250 mEq/kg) and mild metabolic alkalosis, which alters the conformation of the Parathyroid Hormone (PTH) receptor in bone and kidney (pseudohypoparathyroidism). Feeding anionic salts lowers DCAD to -50 to -150 mEq/kg DM, inducing mild metabolic acidosis (urine pH 6.0–6.5) that activates osteoclastic Ca mobilization and renal 1,25-(OH)2D3 synthesis at calving.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100098000
+  },
+  {
+    "id": "ann_exp_099",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Feed Evaluation & Energy/Protein Partitioning (TDN, ME, NE, RUP/RDP)",
+    "questionText": "What causes 'Post-Parturient Hemoglobinuria' (Redwater of nutritional origin) in high-yielding dairy cows and buffaloes during weeks 2–4 of lactation, especially when fed cruciferous plants or sugar beet by-products?",
+    "options": [
+      "Severe Hypercalcemia (>14 mg/dL Ca) calcifying and rupturing renal glomeruli",
+      "Acute Vitamin K deficiency caused by ruminal washout of Bacteroides species",
+      "Excess dietary Cobalt stimulating polycythemia vera and splenic sequestration",
+      "Severe Hypophosphatemia (<1.5 mg/dL Pi) depleting RBC ATP, causing hemolysis"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "Severe dietary Phosphorus deficiency (often aggravated by brassicas/crucifers containing SMCO or saponins) depletes inorganic phosphate needed for erythrocyte glycolysis and ATP synthesis. Without ATP, red blood cells lose membrane deformability, become spherocytic/rigid, and undergo acute intravascular hemolysis (coffee-colored/port-wine hemoglobinuria, icterus, and pale mucous membranes); treated with IV Sodium Acid Phosphate (NaH2PO4).",
+    "difficulty": "Hard",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100099000
+  },
+  {
+    "id": "ann_exp_100",
+    "domain": "animal_science",
+    "year": "2nd_year",
+    "subjectId": "ann",
+    "topic": "Minerals, Vitamins, Feed Additives & Metabolic Deficiency Diseases",
+    "questionText": "In modern Precision Ruminant Nutrition, what is the specific rationale for feeding 'Rumen-Protected Choline' (RPC) and 'Rumen-Protected Methionine' to transition dairy cows (-3 weeks to +3 weeks around calving)?",
+    "options": [
+      "Stimulate abomasal hydrochloric acid secretion to prevent left displaced abomasum",
+      "Inhibit mammary acetyl-CoA carboxylase to suppress milk fat synthesis after calving",
+      "Supply methyl donors and phosphatidylcholine for hepatic VLDL triglyceride export",
+      "Chelate free ruminal ammonia to permit urea feeding at 5% of total dry matter intake"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "During periparturient Negative Energy Balance, massive NEFA mobilization floods the liver. Ruminants have an inherently low rate of hepatic Very-Low-Density Lipoprotein (VLDL) secretion; Rumen-Protected Choline (precursor of phosphatidylcholine) and Methionine (S-adenosylmethionine methyl donor + apolipoprotein B100 synthesis) accelerate hepatic triglyceride export as VLDL, preventing Fatty Liver Syndrome and Type-II Ketosis.",
+    "difficulty": "Medium",
+    "tags": [
+      "Animal Nutrition",
+      "ANN",
+      "High-Yield",
+      "ICAR PG PYQ"
+    ],
+    "isPYQ": true,
+    "createdAt": 1775100100000
+  }
+]
