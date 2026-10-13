@@ -562,6 +562,15 @@ def get_module3_questions():
           "Adenomyosis"],
          3, "Adenomyosis is the benign presence of islands of endometrial glands and stroma deep within the myometrium due to downward hyperplastic growth; true endometriosis (ectopic endometrium on peritoneal surfaces) occurs only in menstruating primates.",
          True, TOPIC),
+
+        ("In sheep and goats, 'Muellerius capillaris' (the nodular lungworm acquired by ingesting infected land snails or slugs) produces pathognomonic subpleural pulmonary nodules located predominantly in the:",
+         ["Dorsocaudal (diaphragmatic) lung lobes, appearing as 2 to 5 mm greenish-grey calcified 'lead-shot' nodules",
+          "Cranioventral (apical and cardiac) lung lobes, appearing as diffuse dark-red consolidated hepatization",
+          "Mainstem tracheal bifurcation, appearing as large pedunculated blood-filled polyps",
+          "Visceral pericardium and mediastinal lymph nodes, appearing as caseous onion-ring abscesses"],
+         0, "Unlike Dictyocaulus filaria (which inhabits the lumen of bronchi), Muellerius capillaris adults live inside the alveolar parenchyma and subpleural tissue of the dorsocaudal lung lobes in sheep and goats, inducing firm, gritty, greenish-grey subpleural granulomas ('lead-shot nodules').",
+         True, TOPIC),
     ]
     return qs
+
 

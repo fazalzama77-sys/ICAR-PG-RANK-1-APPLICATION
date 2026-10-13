@@ -86,18 +86,18 @@ def get_module4_questions():
          True, "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)"),
 
         ("Why does Narrow-Sense Heritability (h^2 = VA / VP) rather than Broad-Sense Heritability (H^2 = VG / VP) determine the permanent genetic response to mass selection in random-mating livestock populations?",
-         ["Because parents transmit individual haploid alleles (additive effects) rather than intact diploid genotypes or epistatic combinations",
-          "Because dominance variance (VD) and epistatic variance (VI) are completely absent in all domestic farm mammal species",
-          "Because environmental variance (VE) cancels out dominance deviations during embryogenesis in utero",
-          "Because broad-sense heritability only measures mitochondrial DNA inheritance transmitted through the dam"],
+         ["Parents transmit individual haploid alleles rather than intact diploid genotypes",
+          "Dominance variance and epistatic variance are absent in domestic farm mammals",
+          "Environmental variance cancels out dominance deviations during embryogenesis",
+          "Broad-sense heritability only measures maternal mitochondrial DNA inheritance"],
          0, "Dominance (VD) arises from intra-locus pairing of two alleles, and epistasis (VI) from non-allelic combinations; both are broken apart by meiotic segregation and recombination during gametogenesis. Only the average effects of alleles (VA) are reliably passed from parent to offspring.",
          True, "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)"),
 
         ("Traits such as twinning in cattle, clinical mastitis resistance, dystocia score, and fleece rot—which are inherited polygenically on an underlying continuous 'liability' scale but expressed phenotypically in discrete all-or-none categories—are known as:",
          ["Threshold (quasi-continuous) traits",
-          "Codominant Mendelian traits",
-          "Overdominant qualitative traits",
-          "Cytoplasmic maternal traits"],
+          "Codominant Mendelian single-locus traits",
+          "Overdominant qualitative discrete traits",
+          "Cytoplasmic maternal extra-nuclear traits"],
          0, "First analyzed via probit transformation by Sewall Wright and Falconer, threshold traits have an underlying continuous normal distribution of polygenic + environmental 'liability', with abrupt physiological thresholds separating discrete phenotypic classes (e.g., affected vs healthy, single vs twin).",
          True, "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)"),
 
@@ -119,10 +119,10 @@ def get_module4_questions():
          True, "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)"),
 
         ("Why is the Paternal Half-Sib (Sire component) intraclass correlation method (h^2 = 4t) generally considered the most reliable collateral-relative design for estimating narrow-sense heritability in farm animals?",
-         ["Because paternal half-sib covariance equals (1/4)VA and is free from dominance variance (VD) and maternal environmental covariance (VEc)",
-          "Because paternal half-sibs share 100% of their mitochondrial DNA and 50% of their dominance deviations",
-          "Because the multiplier 4 reduces the standard error of the heritability estimate by a factor of four",
-          "Because paternal half-sibs always share a common uterine and lactational nursing environment"],
+         ["Paternal half-sib covariance equals (1/4)VA without dominance or maternal environmental bias",
+          "Paternal half-sibs share 100% of mitochondrial DNA and 50% of autosomal dominance deviations",
+          "The multiplier 4 reduces the standard error of the heritability estimate by a factor of four",
+          "Paternal half-sibs always share an identical common uterine and lactational nursing environment"],
          0, "Progeny of the same sire mated to different dams (paternal half-sibs) have an additive genetic covariance of (1/4)VA, zero dominance covariance (0 * VD), and do not share a common dam/litter environment (0 * VEc), providing an unbiased estimate of VA when multiplied by 4.",
          True, "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)"),
 
@@ -151,10 +151,10 @@ def get_module4_questions():
          True, "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)"),
 
         ("In commercial layer and broiler poultry, how do the narrow-sense heritabilities of Egg Weight and 6-Week Body Weight compare to those of Hen-Housed Egg Production Number and Fertility/Hatchability?",
-         ["Egg Weight & Body Weight are HIGH (0.45-0.55); Egg Number is LOW-MODERATE (0.15-0.25); Hatchability is LOW (<0.10)",
-          "Hatchability is HIGH (0.55); Egg Number is HIGH (0.50); Egg Weight & Body Weight are LOW (<0.10)",
-          "All four poultry traits exhibit uniformly HIGH narrow-sense heritability (>0.60)",
-          "Egg Number is HIGH (0.60); Egg Weight is LOW (0.05); Hatchability is MODERATE (0.35)"],
+         ["Egg & Body Weight: HIGH (0.50); Egg Number: LOW-MOD (0.20); Hatchability: LOW (<0.10)",
+          "Hatchability: HIGH (0.55); Egg Number: HIGH (0.50); Egg & Body Weight: LOW (<0.10)",
+          "All four poultry traits exhibit uniformly HIGH narrow-sense heritability (>0.60 in flocks)",
+          "Egg Number: HIGH (0.60); Egg Weight: LOW (0.05); Hatchability: MODERATE (0.35 in flocks)"],
          0, "In poultry, structural and weight traits (body weight at market age, mature weight, egg weight, shell thickness) are highly heritable (0.45–0.55), egg production count is low-to-moderately heritable (0.15–0.25), and reproductive fitness traits (fertility, hatchability, livability) are lowly heritable (<0.10).",
          True, "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)"),
 
@@ -169,9 +169,9 @@ def get_module4_questions():
         # 21-35: Repeatability (R), MPPA calculations, and Repeated Records
         ("In quantitative genetics, the Repeatability (R) of a longitudinally repeated trait (such as lactation milk yield, litter size, or annual fleece weight) is defined in terms of variance components as:",
          ["R = (VG + VEp) / VP = (VA + VD + VI + VEp) / VP",
-          "R = (VA + VEt) / VP = (VG - VEp) / VP",
-          "R = (VD + VI + VEt) / VP",
-          "R = VA / (VA + VD + VEp)"],
+          "R = (VA + VEt) / VP = (VA + VD - VEp + VEt) / VP",
+          "R = (VD + VI + VEt) / (VA + VD + VI + VEp + VEt)",
+          "R = (VA + VEp) / (VA + VD + VI + VEp + 2 * VEt)"],
          0, "Repeatability measures the intraclass correlation between repeated measurements on the same individual, partitioning environmental variance into Permanent Environmental variance (VEp, common to all records of an animal) and Temporary Environmental variance (VEt, unique to each record). Thus R = (VG + VEp) / VP.",
          True, "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)"),
 
@@ -184,10 +184,10 @@ def get_module4_questions():
          True, "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)"),
 
         ("Which of the following is a classic biological example of a Permanent Environmental (Ep) effect rather than a Temporary Environmental (Et) effect on a dairy cow's lactation milk yield?",
-         ["Irreversible fibrosis and loss of one udder quarter following severe mastitis in the first lactation",
-          "A two-week summer heat-wave during the third month of the second lactation only",
-          "A temporary shortage of green fodder during a 10-day monsoon flood in one season",
-          "Variation in the length of the preceding dry period between the 2nd and 3rd calvings"],
+         ["Irreversible fibrosis and loss of one udder quarter after mastitis in the first lactation",
+          "A two-week summer heat-wave occurring during the third month of the second lactation only",
+          "A temporary shortage of green fodder during a 10-day monsoon flood in one rainy season",
+          "Variation in the length of the preceding dry period between the second and third calvings"],
          0, "A permanent environmental effect (Ep) is a non-genetic factor that permanently alters an individual's performance across all subsequent records throughout its lifetime (such as permanent loss of a teat/quarter or stunted calfhood nutrition), whereas seasonal weather or feed fluctuations are temporary (Et).",
          True, "Quantitative Genetics (Variance, Heritability, Repeatability & Correlations)"),
 
