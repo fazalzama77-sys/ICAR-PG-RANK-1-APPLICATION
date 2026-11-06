@@ -2,17 +2,21 @@ import React, { useState } from 'react';
 import { 
   Zap, 
   Clock, 
-  Sliders, 
   CheckCircle2, 
   Play, 
   ArrowLeft,
-  AlertTriangle,
   Sparkles,
-  Layers
+  Layers,
+  Flame,
+  ShieldAlert,
+  Brain,
+  Sliders,
+  Award
 } from 'lucide-react';
 import { Question, DrillConfig, DrillPreset, DrillFeedbackMode, TestConfig } from '../../types';
 import { SUBJECT_LIST } from '../../data/subjects';
 import { StorageService } from '../../storage/db';
+import { soundFx } from '../../utils/soundEffects';
 
 interface DrillTestLauncherProps {
   questions: Question[];
@@ -55,6 +59,7 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
   });
 
   const toggleSubject = (id: string) => {
+    soundFx.playPop();
     if (selectedSubjectIds.includes(id)) {
       if (selectedSubjectIds.length > 1) {
         const nextSubjects = selectedSubjectIds.filter(s => s !== id);
@@ -69,13 +74,8 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
     }
   };
 
-  const selectSingleSubjectForUnits = (id: string) => {
-    setSelectedPreset('custom');
-    setSelectedSubjectIds([id]);
-    setSelectedTopics([]);
-  };
-
   const toggleTopic = (topic: string) => {
+    soundFx.playPop();
     if (selectedTopics.includes(topic)) {
       setSelectedTopics(selectedTopics.filter(t => t !== topic));
     } else {
@@ -84,6 +84,7 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
   };
 
   const handleStartDrill = () => {
+    soundFx.playCorrect();
     let pool: Question[] = [];
     let title = 'ICAR PG Rapid Drill';
     let qCount = 20;
@@ -97,41 +98,41 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
         pool = [...questions];
         break;
       case 'standard_20':
-        title = '🎯 Daily 20-Q Exam Standard Drill';
+        title = '🎯 Daily 20-Q Champion Drill';
         qCount = 20;
         duration = 15;
         pool = [...questions];
         break;
       case 'deep_30':
-        title = '🔥 Deep Focus 30-Q Drill';
+        title = '🔥 Deep Focus 30-Q Marathon';
         qCount = 30;
         duration = 25;
         pool = [...questions];
         break;
       case 'weak_blitz':
-        title = '🛡️ Weak Areas Blitz Drill';
+        title = '🛡️ Mistake Buster Drill';
         qCount = 20;
         duration = 15;
         pool = questions.filter(q => missedQIds.has(q.id));
         if (pool.length < 5) {
-          // If not enough missed questions, pull from 2nd year paraclinical core
+          // If not enough missed questions, pull from paraclinical core
           pool = questions.filter(q => ['vpp', 'vmc', 'vpa'].includes(q.subjectId));
         }
         break;
       case 'vet_science_blitz':
-        title = '🩺 Veterinary Science Core Blitz (VAN, VPP, VMC, VPA)';
+        title = '🩺 Veterinary Science Core Blitz';
         qCount = 20;
         duration = 15;
         pool = questions.filter(q => q.domain === 'veterinary_science' || ['van', 'vpp', 'vmc', 'vpa'].includes(q.subjectId));
         break;
       case 'clinical_blitz':
-        title = '🔬 Paraclinical & Diagnostic Blitz (VPP, VMC, VPA)';
+        title = '🔬 Paraclinical Core Blitz';
         qCount = 20;
         duration = 15;
         pool = questions.filter(q => ['vpp', 'vmc', 'vpa'].includes(q.subjectId));
         break;
       case 'animal_blitz':
-        title = '🐄 Animal Science & Production Blitz (LPM, AGB, ANN)';
+        title = '🐄 Animal Science Core Blitz';
         qCount = 20;
         duration = 15;
         pool = questions.filter(q => q.domain === 'animal_science' || ['lpm', 'agb', 'ann'].includes(q.subjectId));
@@ -145,20 +146,20 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
           return true;
         });
         if (selectedTopics.length === 1) {
-          title = `📚 Unit Drill: ${selectedTopics[0]}`;
+          title = `📚 Chapter Quiz: ${selectedTopics[0]}`;
         } else if (selectedTopics.length > 1) {
-          title = `📚 Custom Multi-Unit Drill (${selectedTopics.length} Units)`;
+          title = `📚 Custom Quiz (${selectedTopics.length} Chapters)`;
         } else if (selectedSubjectIds.length === 1) {
           const sObj = SUBJECT_LIST.find(s => s.id === selectedSubjectIds[0]);
-          title = `⚙️ ${sObj ? sObj.name : 'Subject'} Rapid Drill`;
+          title = `⚙️ ${sObj ? sObj.name : 'Subject'} Quiz`;
         } else {
-          title = '⚙️ Custom Rapid Drill';
+          title = '⚙️ Custom Rapid Quiz';
         }
         break;
     }
 
     if (pool.length === 0) {
-      alert('No questions in your bank match this drill selection. Please select different subjects/units or add questions.');
+      alert('No questions in your bank match this selection. Please pick different subjects or chapters.');
       return;
     }
 
@@ -196,443 +197,403 @@ export const DrillTestLauncher: React.FC<DrillTestLauncherProps> = ({
     }
   };
 
+  // Preset Card definition
+  const presetCards = [
+    {
+      id: 'standard_20' as DrillPreset,
+      title: 'Daily Champion Drill',
+      count: '20 Questions',
+      time: '15 Mins',
+      desc: 'The official ICAR PG daily standard. Tests all subjects with high-yield questions.',
+      icon: '🎯',
+      gradient: 'from-emerald-500 to-teal-600',
+      badge: 'RECOMMENDED',
+      bgLight: 'bg-emerald-50/70 border-emerald-300'
+    },
+    {
+      id: 'lightning_10' as DrillPreset,
+      title: 'Lightning Fire Drill',
+      count: '10 Questions',
+      time: '7 Mins',
+      desc: 'Quick rapid-fire test! Perfect for a fast 5-minute break or before bed.',
+      icon: '⚡',
+      gradient: 'from-amber-500 to-orange-600',
+      badge: 'SPEED BOOST',
+      bgLight: 'bg-amber-50/70 border-amber-300'
+    },
+    {
+      id: 'deep_30' as DrillPreset,
+      title: 'Deep Focus Marathon',
+      count: '30 Questions',
+      time: '25 Mins',
+      desc: 'High-intensity session testing clinical diagnostic acumen and numericals.',
+      icon: '🔥',
+      gradient: 'from-indigo-500 to-purple-600',
+      badge: 'MASTERY',
+      bgLight: 'bg-indigo-50/70 border-indigo-300'
+    },
+    {
+      id: 'weak_blitz' as DrillPreset,
+      title: 'Mistake Buster Drill',
+      count: '20 Questions',
+      time: '15 Mins',
+      desc: 'Targeted drill pulling exclusively from questions you answered incorrectly.',
+      icon: '🛡️',
+      gradient: 'from-rose-500 to-pink-600',
+      badge: 'FIX MISTAKES',
+      bgLight: 'bg-rose-50/70 border-rose-300'
+    },
+    {
+      id: 'vet_science_blitz' as DrillPreset,
+      title: 'Veterinary Science Core',
+      count: '20 Questions',
+      time: '15 Mins',
+      desc: 'Focus exclusively on Anatomy, Pathology, Microbiology, and Parasitology (Code 13).',
+      icon: '🩺',
+      gradient: 'from-blue-500 to-cyan-600',
+      badge: 'CODE 13',
+      bgLight: 'bg-blue-50/70 border-blue-300'
+    },
+    {
+      id: 'animal_blitz' as DrillPreset,
+      title: 'Animal Sciences Core',
+      count: '20 Questions',
+      time: '15 Mins',
+      desc: 'Focus on Genetics, Animal Nutrition, Physiology, Biochemistry, and LPM (Code 14).',
+      icon: '🐄',
+      gradient: 'from-teal-500 to-emerald-600',
+      badge: 'CODE 14',
+      bgLight: 'bg-teal-50/70 border-teal-300'
+    },
+    {
+      id: 'custom' as DrillPreset,
+      title: 'Custom Adventure',
+      count: 'Custom Qs',
+      time: 'Custom Time',
+      desc: 'Choose your own subjects, specific syllabus chapters, time limits, and question count.',
+      icon: '🎨',
+      gradient: 'from-violet-500 to-fuchsia-600',
+      badge: 'CUSTOM',
+      bgLight: 'bg-violet-50/70 border-violet-300'
+    }
+  ];
+
   return (
-    <div className="max-w-5xl mx-auto px-4 sm:px-6 py-8 space-y-8">
+    <div className="max-w-5xl mx-auto px-3.5 sm:px-6 py-6 sm:py-8 space-y-6 sm:space-y-8 pb-24 md:pb-12">
       
-      {/* Top Header */}
+      {/* Top Header Navigation */}
       <div className="flex items-center justify-between">
         <button
           onClick={onBackToDashboard}
-          className="flex items-center space-x-1.5 text-xs font-semibold text-slate-600 hover:text-slate-900 transition-colors"
+          className="flex items-center space-x-2 text-xs sm:text-sm font-bold text-slate-600 hover:text-slate-900 bg-white border border-slate-200 px-3.5 py-1.5 rounded-xl shadow-2xs transition-transform active:scale-95 cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4" />
-          <span>Back to Dashboard</span>
+          <span>Dashboard</span>
         </button>
 
-        <span className="text-xs bg-amber-100 text-amber-900 font-bold px-2.5 py-0.5 rounded-full border border-amber-300">
-          Daily Rapid Testing Habit
+        <span className="text-xs bg-amber-100 text-amber-900 font-black px-3 py-1 rounded-full border border-amber-300 shadow-2xs">
+          3,125 MCQs Bank Ready ⚡
         </span>
       </div>
 
-      {/* Hero */}
-      <div className="bg-gradient-to-r from-[#172e48] via-[#1f3f60] to-[#28537d] rounded-2xl p-6 sm:p-8 text-white shadow-md">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div className="space-y-2">
-            <div className="flex items-center space-x-2">
-              <span className="bg-amber-400 text-slate-950 font-black text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider">
-                AIR 1 Daily Discipline
-              </span>
-              <span className="text-xs text-slate-300">Context: Section 7 Practice Recommendations</span>
-            </div>
-            <h1 className="text-2xl sm:text-3xl font-black tracking-tight">
-              Rapid Drill Test Engine
+      {/* Hero Banner */}
+      <div className="bg-gradient-to-br from-[#122840] via-[#1c3d5f] to-[#25527a] rounded-3xl p-6 sm:p-8 text-white shadow-xl border border-white/10 relative overflow-hidden">
+        <div className="absolute -top-20 -right-20 w-60 h-60 rounded-full bg-amber-400/15 blur-3xl pointer-events-none" />
+        <div className="absolute -bottom-20 -left-20 w-60 h-60 rounded-full bg-emerald-400/15 blur-3xl pointer-events-none" />
+
+        <div className="relative z-10 flex flex-col md:flex-row md:items-center justify-between gap-5">
+          <div className="space-y-2 max-w-xl">
+            <span className="bg-amber-400 text-slate-950 font-black text-[10px] sm:text-[11px] px-2.5 py-0.5 rounded-full uppercase tracking-wider shadow-2xs">
+              AIR 1 Rapid Quiz Arcade
+            </span>
+            <h1 className="text-2xl sm:text-4xl font-black tracking-tight leading-tight">
+              Pick Your Quiz &amp; Play! 🚀
             </h1>
-            <p className="text-xs sm:text-sm text-slate-200 max-w-xl leading-relaxed">
-              Build speed, negative marking discipline, and instantaneous recall with 10 to 30 question high-intensity practice drills.
+            <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">
+              Fast, playful, interactive testing with instantaneous feedback, sound chimes, and streak rewards. Choose a quick preset below or build a custom chapter adventure!
             </p>
           </div>
 
-          <div className="bg-white/10 backdrop-blur-xs p-4 rounded-xl border border-white/15 text-center min-w-[160px]">
-            <span className="text-[10px] text-amber-200 uppercase font-bold block">Available Bank</span>
-            <span className="text-2xl font-black text-white">{questions.length} MCQs</span>
-            <span className="text-[11px] text-slate-300 block mt-1">9 Core Subjects</span>
+          <div className="bg-white/10 backdrop-blur-md p-4 rounded-2xl border border-white/15 text-center min-w-[170px] shrink-0">
+            <span className="text-[10px] text-amber-200 uppercase font-black block">Questions Bank</span>
+            <span className="text-3xl font-black text-white">{questions.length}</span>
+            <span className="text-[11px] text-emerald-300 font-bold block mt-0.5">54 Syllabus Chapters</span>
           </div>
         </div>
       </div>
 
-      {/* 1. Mode Selector: Instant Feedback vs Timed Exam */}
-      <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-xs space-y-3">
-        <h3 className="font-extrabold text-slate-900 text-sm sm:text-base flex items-center space-x-2">
-          <span>Step 1: Choose Feedback Mode</span>
+      {/* 1. Mode Selector: Interactive Quiz vs Timed Mock */}
+      <div className="bg-white border-2 border-slate-200/90 rounded-3xl p-5 shadow-sm space-y-3">
+        <h3 className="font-black text-slate-900 text-sm sm:text-base flex items-center space-x-2">
+          <span>1. How Do You Want to Play?</span>
         </h3>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {/* Instant Feedback Mode */}
-          <div
-            onClick={() => setFeedbackMode('instant')}
-            className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${
-              feedbackMode === 'instant'
-                ? 'border-amber-500 bg-amber-50/50 shadow-xs'
-                : 'border-slate-200 hover:border-slate-300 bg-white'
-            }`}
-          >
-            <div className="flex items-center justify-between mb-1.5">
-              <div className="flex items-center space-x-2">
-                <span className="w-2.5 h-2.5 rounded-full bg-amber-500" />
-                <h4 className="font-black text-slate-900 text-sm">Interactive Active Learning</h4>
-              </div>
-              {feedbackMode === 'instant' && <CheckCircle2 className="w-4 h-4 text-amber-600" />}
-            </div>
-            <p className="text-xs text-slate-600 leading-relaxed">
-              See the correct answer, negative mark calculation, and textbook explanation <strong>immediately</strong> after answering each question. Best for active learning and revision.
-            </p>
-          </div>
-
-          {/* Timed CBT Mode */}
-          <div
-            onClick={() => setFeedbackMode('exam')}
-            className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${
-              feedbackMode === 'exam'
-                ? 'border-emerald-600 bg-emerald-50/50 shadow-xs'
-                : 'border-slate-200 hover:border-slate-300 bg-white'
-            }`}
-          >
-            <div className="flex items-center justify-between mb-1.5">
-              <div className="flex items-center space-x-2">
-                <span className="w-2.5 h-2.5 rounded-full bg-emerald-600" />
-                <h4 className="font-black text-slate-900 text-sm">Authentic Speed Test (CBT)</h4>
-              </div>
-              {feedbackMode === 'exam' && <CheckCircle2 className="w-4 h-4 text-emerald-600" />}
-            </div>
-            <p className="text-xs text-slate-600 leading-relaxed">
-              Continuous countdown clock with the official NTA 5-state palette. Scorecard and comprehensive explanations are generated <strong>at the end</strong>.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      {/* 2. Drill Preset Selection */}
-      <div className="bg-white border border-slate-200 rounded-xl p-5 shadow-xs space-y-4">
-        <h3 className="font-extrabold text-slate-900 text-sm sm:text-base">
-          Step 2: Select Drill Preset
-        </h3>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
           
-          {/* Preset 1: Standard 20-Q */}
+          {/* Interactive Quiz Mode */}
           <div
-            onClick={() => setSelectedPreset('standard_20')}
-            className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${
-              selectedPreset === 'standard_20'
-                ? 'border-emerald-600 bg-emerald-50/60 shadow-xs ring-1 ring-emerald-500'
-                : 'border-slate-200 hover:border-slate-300 bg-white'
-            }`}
-          >
-            <div className="flex items-center justify-between mb-2">
-              <span className="bg-emerald-600 text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">
-                Recommended Daily
-              </span>
-              <Clock className="w-4 h-4 text-slate-400" />
-            </div>
-            <h4 className="font-bold text-slate-900 text-sm">🎯 Daily 20-Q Standard</h4>
-            <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              20 Questions across all 1st & 2nd year subjects. 15 Minutes timer.
-            </p>
-          </div>
-
-          {/* Preset 2: Lightning 10-Q */}
-          <div
-            onClick={() => setSelectedPreset('lightning_10')}
-            className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${
-              selectedPreset === 'lightning_10'
-                ? 'border-emerald-600 bg-emerald-50/60 shadow-xs ring-1 ring-emerald-500'
-                : 'border-slate-200 hover:border-slate-300 bg-white'
-            }`}
-          >
-            <div className="flex items-center justify-between mb-2">
-              <span className="bg-amber-500 text-slate-950 text-[10px] font-black px-2 py-0.5 rounded uppercase">
-                Speed Fire
-              </span>
-              <Zap className="w-4 h-4 text-amber-500" />
-            </div>
-            <h4 className="font-bold text-slate-900 text-sm">⚡ Lightning 10-Q Drill</h4>
-            <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              10 Questions in 7 Minutes. Perfect for rapid warm-ups and commute practice.
-            </p>
-          </div>
-
-          {/* Preset 3: Weak Areas Blitz */}
-          <div
-            onClick={() => setSelectedPreset('weak_blitz')}
-            className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${
-              selectedPreset === 'weak_blitz'
-                ? 'border-emerald-600 bg-emerald-50/60 shadow-xs ring-1 ring-emerald-500'
-                : 'border-slate-200 hover:border-slate-300 bg-white'
-            }`}
-          >
-            <div className="flex items-center justify-between mb-2">
-              <span className="bg-red-500 text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">
-                Targeted Weakness
-              </span>
-              <AlertTriangle className="w-4 h-4 text-red-500" />
-            </div>
-            <h4 className="font-bold text-slate-900 text-sm">🛡️ Weak Areas Blitz</h4>
-            <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              Pulls questions you previously got wrong or subjects with lowest accuracy.
-            </p>
-          </div>
-
-          {/* Preset 4: Veterinary Science Blitz */}
-          <div
-            onClick={() => setSelectedPreset('vet_science_blitz')}
-            className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${
-              selectedPreset === 'vet_science_blitz'
-                ? 'border-emerald-600 bg-emerald-50/60 shadow-xs ring-1 ring-emerald-500'
-                : 'border-slate-200 hover:border-slate-300 bg-white'
-            }`}
-          >
-            <div className="flex items-center justify-between mb-2">
-              <span className="bg-blue-600 text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">
-                Veterinary Science
-              </span>
-              <Sparkles className="w-4 h-4 text-blue-500" />
-            </div>
-            <h4 className="font-bold text-slate-900 text-sm">🩺 Vet Science Core</h4>
-            <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              Comprehensive Anatomy, Pathology, Microbiology & Parasitology (Code 13).
-            </p>
-          </div>
-
-          {/* Preset 5: Animal Science Blitz */}
-          <div
-            onClick={() => setSelectedPreset('animal_blitz')}
-            className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${
-              selectedPreset === 'animal_blitz'
-                ? 'border-emerald-600 bg-emerald-50/60 shadow-xs ring-1 ring-emerald-500'
-                : 'border-slate-200 hover:border-slate-300 bg-white'
-            }`}
-          >
-            <div className="flex items-center justify-between mb-2">
-              <span className="bg-teal-600 text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">
-                Animal Science
-              </span>
-              <Layers className="w-4 h-4 text-teal-500" />
-            </div>
-            <h4 className="font-bold text-slate-900 text-sm">🐄 Animal Science Core</h4>
-            <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              LPM housing norms, Genetics & Breeding calculations, and Animal Nutrition.
-            </p>
-          </div>
-
-          {/* Preset 6: Paraclinical Blitz */}
-          <div
-            onClick={() => setSelectedPreset('clinical_blitz')}
-            className={`p-4 rounded-xl border-2 cursor-pointer transition-all ${
-              selectedPreset === 'clinical_blitz'
-                ? 'border-emerald-600 bg-emerald-50/60 shadow-xs ring-1 ring-emerald-500'
-                : 'border-slate-200 hover:border-slate-300 bg-white'
-            }`}
-          >
-            <div className="flex items-center justify-between mb-2">
-              <span className="bg-purple-600 text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">
-                2nd Year Core
-              </span>
-              <Sparkles className="w-4 h-4 text-purple-500" />
-            </div>
-            <h4 className="font-bold text-slate-900 text-sm">🔬 Paraclinical Trio</h4>
-            <p className="text-xs text-slate-500 mt-1 leading-relaxed">
-              High-weightage Pathology, Microbiology & Parasitology questions.
-            </p>
-          </div>
-
-          {/* Preset 7: Chapter / Unit & Custom Drill */}
-          <div
-            onClick={() => setSelectedPreset('custom')}
-            className={`p-4 rounded-xl border-2 cursor-pointer transition-all sm:col-span-2 lg:col-span-3 ${
-              selectedPreset === 'custom'
-                ? 'border-emerald-600 bg-emerald-50/60 shadow-xs ring-1 ring-emerald-500'
+            onClick={() => {
+              soundFx.playPop();
+              setFeedbackMode('instant');
+            }}
+            className={`p-4.5 rounded-2xl border-2 cursor-pointer transition-all active:scale-[0.99] ${
+              feedbackMode === 'instant'
+                ? 'border-amber-500 bg-amber-50/70 shadow-sm ring-4 ring-amber-500/10'
                 : 'border-slate-200 hover:border-slate-300 bg-white'
             }`}
           >
             <div className="flex items-center justify-between mb-1.5">
-              <span className="bg-emerald-700 text-white text-[10px] font-black px-2 py-0.5 rounded uppercase">
-                Chapter / Unit-Wise &amp; Custom
-              </span>
-              <Sliders className="w-4 h-4 text-emerald-700" />
+              <div className="flex items-center space-x-2">
+                <span className="text-xl">🎮</span>
+                <h4 className="font-black text-slate-900 text-sm sm:text-base">
+                  Interactive Quiz Mode
+                </h4>
+              </div>
+              {feedbackMode === 'instant' && <CheckCircle2 className="w-5 h-5 text-amber-600" />}
             </div>
-            <h4 className="font-bold text-slate-900 text-sm">📚 Chapter / Unit-Wise &amp; Custom Subject Drill</h4>
-            <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-              Target a specific chapter or syllabus unit (e.g., <em>General Pathology</em>, <em>Systemic Pathology</em>, <em>General Bacteriology</em>, <em>Mendelian Genetics</em>, or <em>Proximate Analysis</em>) — ideal when starting 2nd year!
+            <p className="text-xs text-slate-600 leading-relaxed font-medium">
+              Instant answers, cheerful audio chimes, 50:50 lifelines, and streak bonuses after every question!
+            </p>
+          </div>
+
+          {/* Timed Mock Drill Mode */}
+          <div
+            onClick={() => {
+              soundFx.playPop();
+              setFeedbackMode('exam');
+            }}
+            className={`p-4.5 rounded-2xl border-2 cursor-pointer transition-all active:scale-[0.99] ${
+              feedbackMode === 'exam'
+                ? 'border-emerald-600 bg-emerald-50/70 shadow-sm ring-4 ring-emerald-500/10'
+                : 'border-slate-200 hover:border-slate-300 bg-white'
+            }`}
+          >
+            <div className="flex items-center justify-between mb-1.5">
+              <div className="flex items-center space-x-2">
+                <span className="text-xl">⏱️</span>
+                <h4 className="font-black text-slate-900 text-sm sm:text-base">
+                  Timed Exam Mode
+                </h4>
+              </div>
+              {feedbackMode === 'exam' && <CheckCircle2 className="w-5 h-5 text-emerald-600" />}
+            </div>
+            <p className="text-xs text-slate-600 leading-relaxed font-medium">
+              Continuous countdown clock with the official NTA palette. Scorecard generated at the end.
             </p>
           </div>
 
         </div>
+      </div>
 
-        {/* Custom & Chapter-Wise Settings Panel */}
-        {selectedPreset === 'custom' && (
-          <div className="pt-4 border-t border-slate-200 space-y-5">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
-                  Question Count ({customCount} Qs)
-                </label>
-                <input
-                  type="range"
-                  min="5"
-                  max="60"
-                  step="5"
-                  value={customCount}
-                  onChange={e => setCustomCount(parseInt(e.target.value))}
-                  className="w-full accent-emerald-600 cursor-pointer"
-                />
+      {/* 2. Choose Game Mode Presets */}
+      <div className="space-y-3">
+        <h3 className="font-black text-slate-900 text-sm sm:text-base">
+          2. Choose Your Drill Mode
+        </h3>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5">
+          {presetCards.map(preset => {
+            const isSelected = selectedPreset === preset.id;
+            return (
+              <div
+                key={preset.id}
+                onClick={() => {
+                  soundFx.playPop();
+                  setSelectedPreset(preset.id);
+                }}
+                className={`p-4 rounded-2xl border-2 cursor-pointer transition-all flex flex-col justify-between space-y-3 active:scale-[0.98] ${
+                  isSelected 
+                    ? `border-indigo-600 bg-indigo-50/70 shadow-md ring-4 ring-indigo-500/15`
+                    : 'border-slate-200/90 hover:border-slate-300 bg-white shadow-2xs'
+                }`}
+              >
+                <div>
+                  <div className="flex items-start justify-between gap-2">
+                    <span className="text-2xl p-2 rounded-xl bg-slate-100 shadow-2xs">
+                      {preset.icon}
+                    </span>
+                    <span className={`text-[10px] font-black px-2 py-0.5 rounded-full uppercase border ${
+                      isSelected ? 'bg-indigo-600 text-white border-indigo-600' : 'bg-slate-100 text-slate-700 border-slate-200'
+                    }`}>
+                      {preset.badge}
+                    </span>
+                  </div>
+
+                  <h4 className="font-black text-slate-900 text-base mt-2">
+                    {preset.title}
+                  </h4>
+
+                  <p className="text-xs text-slate-500 font-medium mt-1 leading-relaxed">
+                    {preset.desc}
+                  </p>
+                </div>
+
+                <div className="pt-2 border-t border-slate-100 flex items-center justify-between text-xs font-bold">
+                  <span className="text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded-md">
+                    {preset.count}
+                  </span>
+                  <span className="text-slate-500">
+                    {preset.time}
+                  </span>
+                </div>
               </div>
+            );
+          })}
+        </div>
+      </div>
 
-              <div>
-                <label className="block text-xs font-bold text-slate-700 mb-1">
-                  Time Limit ({customDuration} Mins)
-                </label>
-                <input
-                  type="range"
-                  min="5"
-                  max="60"
-                  step="5"
-                  value={customDuration}
-                  onChange={e => setCustomDuration(parseInt(e.target.value))}
-                  className="w-full accent-emerald-600 cursor-pointer"
-                />
+      {/* 3. Custom Adventure Configuration (When Custom is selected) */}
+      {selectedPreset === 'custom' && (
+        <div className="bg-white border-2 border-violet-300 rounded-3xl p-5 sm:p-6 shadow-sm space-y-5 animate-scale-in">
+          
+          <div className="flex items-center space-x-2 text-violet-900">
+            <Sliders className="w-5 h-5 text-violet-600" />
+            <h3 className="font-black text-base">Customize Your Adventure</h3>
+          </div>
+
+          {/* Quick Count & Time Chips */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            
+            {/* Question Count */}
+            <div className="space-y-2">
+              <label className="text-xs font-black text-slate-700 uppercase tracking-wide">
+                How Many Questions?
+              </label>
+              <div className="flex flex-wrap gap-2">
+                {[10, 20, 30, 50].map(cnt => (
+                  <button
+                    key={cnt}
+                    type="button"
+                    onClick={() => {
+                      soundFx.playPop();
+                      setCustomCount(cnt);
+                    }}
+                    className={`px-4 py-2 rounded-xl font-black text-xs transition-all active:scale-95 cursor-pointer ${
+                      customCount === cnt 
+                        ? 'bg-violet-600 text-white shadow-xs' 
+                        : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                    }`}
+                  >
+                    {cnt} Qs
+                  </button>
+                ))}
               </div>
             </div>
 
-            <div>
-              <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <label className="block text-xs font-bold text-slate-700">
-                  Step 2A: Choose Subject(s) (Click a subject to focus on its Chapters/Units):
-                </label>
-                <button
-                  type="button"
-                  onClick={() => {
-                    setSelectedSubjectIds(SUBJECT_LIST.map(s => s.id));
-                    setSelectedTopics([]);
-                  }}
-                  className="text-[11px] font-bold text-emerald-700 hover:underline"
-                >
-                  Select All Subjects
-                </button>
-              </div>
+            {/* Duration */}
+            <div className="space-y-2">
+              <label className="text-xs font-black text-slate-700 uppercase tracking-wide">
+                Time Limit (Minutes)
+              </label>
               <div className="flex flex-wrap gap-2">
-                {SUBJECT_LIST.map(sub => {
-                  const isSelected = selectedSubjectIds.includes(sub.id);
-                  const count = questions.filter(q => q.subjectId === sub.id).length;
+                {[5, 10, 15, 25, 0].map(dur => (
+                  <button
+                    key={dur}
+                    type="button"
+                    onClick={() => {
+                      soundFx.playPop();
+                      setCustomDuration(dur);
+                    }}
+                    className={`px-4 py-2 rounded-xl font-black text-xs transition-all active:scale-95 cursor-pointer ${
+                      customDuration === dur 
+                        ? 'bg-violet-600 text-white shadow-xs' 
+                        : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                    }`}
+                  >
+                    {dur === 0 ? 'Untimed ♾️' : `${dur} Mins`}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+          </div>
+
+          {/* Subject Pills */}
+          <div className="space-y-2">
+            <label className="text-xs font-black text-slate-700 uppercase tracking-wide">
+              Select Subjects to Include ({selectedSubjectIds.length} Selected)
+            </label>
+            
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+              {SUBJECT_LIST.map(sub => {
+                const isSelected = selectedSubjectIds.includes(sub.id);
+                const subQCount = questions.filter(q => q.subjectId === sub.id).length;
+                return (
+                  <div
+                    key={sub.id}
+                    onClick={() => toggleSubject(sub.id)}
+                    className={`p-2.5 rounded-xl border-2 text-xs font-bold flex items-center justify-between cursor-pointer transition-all ${
+                      isSelected 
+                        ? 'border-violet-600 bg-violet-50 text-violet-950 shadow-2xs' 
+                        : 'border-slate-200 text-slate-600 hover:bg-slate-50'
+                    }`}
+                  >
+                    <span className="truncate pr-1">{sub.name}</span>
+                    <span className="text-[10px] font-mono font-bold bg-white/80 px-1.5 py-0.5 rounded border border-current shrink-0">
+                      {subQCount}
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Chapter / Subsection Pills */}
+          {selectedSubjectIds.length === 1 && (
+            <div className="space-y-2 pt-2 border-t border-slate-100">
+              <label className="text-xs font-black text-slate-700 uppercase tracking-wide">
+                Filter Specific Chapters / Units ({selectedTopics.length === 0 ? 'All Chapters' : `${selectedTopics.length} Chapters Selected`})
+              </label>
+              
+              <div className="flex flex-wrap gap-1.5">
+                {SUBJECT_LIST.find(s => s.id === selectedSubjectIds[0])?.topics.map(topicName => {
+                  const isSelected = selectedTopics.includes(topicName);
+                  const topicCount = questions.filter(q => q.subjectId === selectedSubjectIds[0] && q.topic === topicName).length;
                   return (
-                    <div key={sub.id} className="inline-flex items-center rounded-lg border overflow-hidden shadow-2xs">
-                      <button
-                        type="button"
-                        onClick={() => selectSingleSubjectForUnits(sub.id)}
-                        className={`px-2.5 py-1.5 text-xs font-bold transition-colors cursor-pointer ${
-                          isSelected
-                            ? 'bg-emerald-600 text-white'
-                            : 'bg-slate-50 text-slate-700 hover:bg-slate-100'
-                        }`}
-                        title="Focus exclusively on this subject and its chapters"
-                      >
-                        {sub.code} - {sub.name} ({count})
-                      </button>
-                      <button
-                        type="button"
-                        onClick={() => toggleSubject(sub.id)}
-                        className={`px-2 py-1.5 text-[10px] font-extrabold border-l transition-colors cursor-pointer ${
-                          isSelected
-                            ? 'bg-emerald-700 text-emerald-100 border-emerald-500'
-                            : 'bg-white text-slate-400 border-slate-200 hover:text-slate-700'
-                        }`}
-                        title="Toggle subject in multi-subject selection"
-                      >
-                        {isSelected ? '✓' : '+'}
-                      </button>
-                    </div>
+                    <button
+                      key={topicName}
+                      type="button"
+                      onClick={() => toggleTopic(topicName)}
+                      className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all flex items-center space-x-1.5 cursor-pointer active:scale-95 ${
+                        isSelected 
+                          ? 'bg-emerald-600 text-white shadow-2xs' 
+                          : 'bg-slate-100 text-slate-700 hover:bg-slate-200'
+                      }`}
+                    >
+                      <span>{topicName}</span>
+                      <span className="text-[10px] font-mono opacity-80">({topicCount})</span>
+                    </button>
                   );
                 })}
               </div>
             </div>
+          )}
 
-            {/* Step 2B: Syllabus Units / Chapters (Subsections) */}
-            <div className="bg-slate-50 rounded-xl p-4 border border-slate-200 space-y-3">
-              <div className="flex flex-wrap items-center justify-between gap-2">
-                <div>
-                  <h5 className="text-xs font-extrabold uppercase tracking-wider text-slate-800 flex items-center space-x-1.5">
-                    <Layers className="w-3.5 h-3.5 text-emerald-600" />
-                    <span>Step 2B: Select Specific Chapters / Syllabus Units (Optional)</span>
-                  </h5>
-                  <p className="text-[11px] text-slate-500 mt-0.5">
-                    {selectedTopics.length === 0
-                      ? 'All chapters of the selected subject(s) are currently included. Check specific units below to practice only those chapters!'
-                      : `Filtering strictly to ${selectedTopics.length} selected chapter(s)/unit(s).`}
-                  </p>
-                </div>
-                {selectedTopics.length > 0 && (
-                  <button
-                    type="button"
-                    onClick={() => setSelectedTopics([])}
-                    className="text-xs font-bold text-amber-700 hover:text-amber-900 underline cursor-pointer"
-                  >
-                    Clear Unit Filter (Include All Chapters)
-                  </button>
-                )}
-              </div>
+        </div>
+      )}
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 max-h-96 overflow-y-auto pr-1">
-                {SUBJECT_LIST.filter(s => selectedSubjectIds.includes(s.id)).map(sub => (
-                  <div key={sub.id} className="bg-white rounded-lg border border-slate-200 p-3 space-y-2">
-                    <div className="flex items-center justify-between border-b border-slate-100 pb-1.5">
-                      <span className="font-extrabold text-xs text-slate-900">
-                        {sub.name} ({sub.code})
-                      </span>
-                      <span className="text-[10px] font-semibold text-slate-400">
-                        {sub.topics.length} Units
-                      </span>
-                    </div>
-                    <div className="space-y-1.5">
-                      {sub.topics.map((unitName, idx) => {
-                        const isChecked = selectedTopics.includes(unitName);
-                        const uCount = questions.filter(q => q.subjectId === sub.id && q.topic === unitName).length;
-                        return (
-                          <label
-                            key={unitName}
-                            className={`flex items-start justify-between gap-2 p-2 rounded-lg border text-xs cursor-pointer transition-colors ${
-                              isChecked
-                                ? 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold'
-                                : 'bg-slate-50/60 border-slate-200 text-slate-700 hover:bg-slate-100/70'
-                            }`}
-                          >
-                            <div className="flex items-start space-x-2">
-                              <input
-                                type="checkbox"
-                                checked={isChecked}
-                                onChange={() => toggleTopic(unitName)}
-                                className="mt-0.5 rounded text-emerald-600 focus:ring-emerald-500"
-                              />
-                              <span className="leading-snug">
-                                <span className="text-[10px] font-extrabold uppercase text-emerald-700 mr-1">
-                                  Unit {idx + 1}:
-                                </span>
-                                {unitName}
-                              </span>
-                            </div>
-                            <span className="text-[10px] font-mono font-bold bg-white px-1.5 py-0.5 rounded border border-slate-200 shrink-0">
-                              {uCount} Qs
-                            </span>
-                          </label>
-                        );
-                      })}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+      {/* 4. Giant Vibrant Launch Bar */}
+      <div className="sticky bottom-4 z-40 bg-white/95 backdrop-blur-md border-2 border-slate-200 p-4 rounded-3xl shadow-xl flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div className="flex items-center space-x-3">
+          <div className="w-10 h-10 rounded-2xl bg-amber-400 text-slate-950 flex items-center justify-center font-black shadow-xs shrink-0">
+            <Zap className="w-5 h-5 fill-current" />
           </div>
-        )}
-      </div>
-
-      {/* Launch CTA */}
-      <div className="bg-gradient-to-r from-[#1f3f60] to-[#2b547e] rounded-xl p-6 text-white shadow-md flex flex-wrap items-center justify-between gap-4">
-        <div>
-          <span className="text-amber-300 font-extrabold text-xs uppercase tracking-wider block">
-            Ready to Drill
-          </span>
-          <h3 className="font-extrabold text-lg text-white">
-            {feedbackMode === 'instant' ? 'Interactive Active Learning Drill' : 'Authentic Timed CBT Drill'}
-          </h3>
-          <p className="text-xs text-slate-200 mt-0.5">
-            Evaluate negative marking control and retain concepts effortlessly.
-          </p>
+          <div>
+            <span className="text-xs font-extrabold text-slate-900 block">
+              Ready to Launch! 🎯
+            </span>
+            <span className="text-[11px] text-slate-500 font-medium">
+              Mode: {feedbackMode === 'instant' ? 'Interactive Quiz' : 'Timed Mock Exam'}
+            </span>
+          </div>
         </div>
 
         <button
           onClick={handleStartDrill}
-          className="px-6 py-3 bg-amber-400 hover:bg-amber-500 text-slate-950 font-black text-sm sm:text-base rounded-xl shadow-lg flex items-center space-x-2 transition-transform transform active:scale-98 cursor-pointer"
+          className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-amber-400 via-orange-400 to-amber-500 hover:from-amber-500 hover:to-orange-500 text-slate-950 font-black text-sm sm:text-base rounded-2xl shadow-lg transition-transform active:scale-95 cursor-pointer touch-manipulation flex items-center justify-center space-x-2"
         >
-          <Play className="w-5 h-5 fill-current" />
-          <span>Start Drill Test Now</span>
+          <span>Launch Quiz Now</span>
+          <Play className="w-4 h-4 fill-current" />
         </button>
       </div>
 

@@ -157,9 +157,30 @@ To ensure the correct option is NEVER systematically the longest option (having 
    - Built-in **Elimination Strikethrough Mode (`✂️ Eliminate`)** allowing candidates to cross out ruled-out distractors during exam simulation.
    - **Auto-Pause & Resume**: Automatically pauses timer when switching tabs or minimizing the app; persists active session to `localStorage` (`icar_pg_active_cbt_session_v1`) to prevent progress loss on accidental refresh.
 
-### 7.2 Instant Active-Learning Rapid Drill (`src/components/drill/`)
-- **Preset & Custom Drills**: 10, 20, 30, 50, or 100 questions filtered by Subject, **Specific Syllabus Units / Chapters**, Question Format, or Smart Pool (`Weakest / Mistake Questions`, `Unseen Questions`, `PYQ Only`).
-- **Immediate Cognitive Feedback**: Instant $+4 / -1$ feedback, expandable textbook reference notes, and 1-click **Enroll in Spaced Repetition (SRS)** directly after answering each question.
+### 7.2 Interactive Gamified Quiz Arcade (`src/components/drill/`)
+- **Vibrant Game Mode Presets (`DrillTestLauncher.tsx`)**:
+  - ⚡ **Lightning 10-Q Fire Drill** (7 Mins • 10 Qs): High-speed rapid test.
+  - 🎯 **Daily 20-Q Champion Drill** (15 Mins • 20 Qs): Official ICAR PG daily standard.
+  - 🔥 **Deep Focus 30-Q Marathon** (25 Mins • 30 Qs): High-yield case & numerical mastery.
+  - 🛡️ **Mistake Buster Drill** (20 Qs): Targeted practice pulling from previous wrong answers.
+  - 🎨 **Custom Chapter Adventure**: Pick specific subjects and 1-click filter by 54 syllabus chapters.
+- **Interactive Quiz Engine & Lifelines (`InstantDrillRunner.tsx`)**:
+  - **Zero-Dependency Web Audio API Synthesizer (`src/utils/soundEffects.ts`)**: Pleasant ascending triads for correct answers, gentle constructive tones for mistakes, sparkling streak chimes, whooshes, and victory fanfares (with full 1-tap sound mute toggle).
+  - **50:50 Lifeline**: Interactive lifeline that eliminates 2 wrong answers per drill with sound effect.
+  - **Live Score Ticker & Floating Marks**: Dynamic score counter with floating animated `+4` / `-1` badges.
+  - **Streak Multipliers & Flame Meter**: Animated flame tracker celebrating 3+ streaks (`Streak x3!`, `On Fire! 🔥`).
+  - **Tactile Color-Coded Options (A: Blue, B: Violet, C: Amber, D: Emerald)**: Tactile bouncy press, vibrant emerald celebrate state, and clear correct-answer highlighting upon mistake.
+  - **1-Click Flashcard Bookmark**: Star button on every question instantly queues it into Spaced Repetition.
+  - **Victory Ceremony**: Confetti shower, Rank achievement badges (AIR 1 level), and 4 colorful stat bubbles.
+
+### 7.3 Ultra-Simple, Intuitive & Colorful Dashboard (`src/components/dashboard/Dashboard.tsx`)
+- **"Today's Quest" Hero Banner**: Welcoming, human-friendly greeting with daily target progress bar (`12 / 20 Solved - 60%`), streak counter, and prominent 1-click `⚡ Start Daily 20-Q Quiz` CTA.
+- **3 Large, Crystal-Clear Stat Bubbles**:
+  - 🟢 **Your Accuracy**: Plain-English score (e.g. `84% - 8 out of 10 answers correct!`)
+  - 🔵 **Question Bank Conquered**: `180 / 3,125 MCQs` with progress meter.
+  - 🟣 **Memory Flashcards**: `14 Due` with 1-click "Review Now ➔" button.
+- **Quick-Play Arcade Tiles**: 4 inviting, colorful cards for 5-min Lightning Quiz, Daily Champion, Mistake Buster, and Full CBT Mock.
+- **Subject Mastery Explorer (Foldable & Clean)**: 9 color-coded cards for all subjects (Pathology: Crimson, Microbiology: Emerald, Anatomy: Indigo, Nutrition: Warm Orange, Genetics: Cyan, Physiology: Sky Blue, Biochemistry: Violet, Parasitology: Amber, LPM: Lime). Chapters neatly collapsed by default to prevent visual clutter, expanding on demand with 1-tap chapter play buttons.
 
 ### 7.3 Spaced Repetition System (SM-2 Active Recall) (`src/components/spacedRepetition/SpacedRepetitionView.tsx`)
 - Automatic enrollment of wrong or guessed questions from CBT tests and Rapid Drills.
